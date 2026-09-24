@@ -32,7 +32,7 @@ The public list preserves the four original category blocks: Manual WEB QA Engin
 
 1. Create or update `SPEC.md` with the recall-oriented semantic gate, including the six evidence gates and the `PASS`/`PARTIAL`/`REJECT` state machine.
 2. Before changing the accepted set, extract every unique vacancy URL from all README.md commits in GitHub history and semantically re-audit the full set; historical rows must not disappear silently during filter or source changes.
-3. Run parallel workers for Berlin, Leipzig, Dresden and Germany-wide Remote scopes. Workers submit `PASS` candidates and all recall-oriented `PARTIAL` candidates; they must not reject solely because a secondary gate is unresolved or portal formatting is unusual.
+3. Launch exactly one dedicated **Source Scout subagent at the start of every complete search cycle**. It searches beyond the fixed source list for new ATS platforms, regional and niche boards, employer career sites and other independent sources; verifies live direct vacancy evidence; updates the persistent `/opt/data/qa-vacancy-project/source_registry.json`; and writes a per-cycle scout report. Every newly confirmed source must be queried in the same cycle. Scout failure or an unqueried confirmed addition invalidates the cycle.
 4. Parse and validate the complete announcement semantically, then independently verify every candidate. Analyze all location/work-mode blocks: if Berlin, Leipzig or Dresden appears anywhere in a multi-location offer, canonicalize `Location` to one matching target city and keep the vacancy in its role category.
 5. Compare exact URLs and semantic vacancy identities with the accumulated known-URL database. Re-fetch every old URL before removal; portal URLs may have expired or retargeted to another vacancy, so a URL alone is never proof of continuing availability.
 6. Deduplicate by exact URL and semantic vacancy identity, preserving all alternate source URLs in `url_index`; never merge distinct employers or distinct requisitions merely because titles match.
@@ -45,12 +45,12 @@ Before replacing the canonical master, save the previous published file as:
 
 `/opt/data/qa-vacancy-project/qa_vacancies_master_YYYY-MM-DD.md`
 
-Never overwrite an existing dated archive. Keep an accumulated known-URL database. A search cycle is complete only after every active source and every scope (Berlin, Leipzig, Dresden, Gamedev, Other QA Roles, and Germany-wide Remote) has been queried and every returned candidate has been semantically checked and deduplicated. If a complete cycle finds at least one new unique eligible vacancy, immediately start another full cycle. Stop only after one complete cycle finds zero new unique eligible vacancies and no carried-forward PARTIAL/UNCLEAR record remains unresolved. A partial cycle, skipped/blocked source, empty worker output, or timeout does not satisfy the stop condition. Every cycle uses the same acceptance gate.
+Never overwrite an existing dated archive. Keep an accumulated known-URL database and the persistent Source Registry. A search cycle is complete only after exactly one Source Scout has run, every newly confirmed source has been queried, every active registered source and every scope (Berlin, Leipzig, Dresden, Gamedev, Other QA Roles, and Germany-wide Remote) has been searched, and every returned candidate has been semantically checked and deduplicated. If a complete cycle finds at least one new unique eligible vacancy or a newly confirmed useful source, immediately start another full cycle with a new Source Scout. Stop only after one complete cycle finds zero new unique eligible vacancies, adds no new source, and leaves no carried-forward PARTIAL/UNCLEAR unresolved. Scout failure, a skipped/blocked source, an unqueried confirmed source, empty worker output, or timeout invalidates the cycle. Every cycle uses the same acceptance gate.
 
 ## Search and verification requirements
 
 - Search queries and vacancy extraction should use German terms such as `Softwaretester`, `QA Engineer`, `Test Engineer`, `Qualitätssicherung`, `Spiele-Tester`, `Manuelle Tests`, `Test Automation` and `Game QA`.
-- Use multiple working sources: LinkedIn Jobs, Arbeitsagentur, StepStone, XING, hitmarker and direct company ATS pages.
+- The listed sources are an active registry baseline, **not a closed allowlist**. Exactly one Source Scout searches for new sources at the start of every complete cycle and updates `/opt/data/qa-vacancy-project/source_registry.json` with verified additions, duplicates, access methods and retirement history.
 - Try at least two access methods for blocked sources.
 - For every URL use `curl -L` or browser/web extraction and record the verification method. Expand dynamic sections and analyze the complete announcement semantically; do not infer validity from one compact location field.
 - Verify the posting date from JSON-LD or visible source text.
@@ -80,6 +80,7 @@ Never overwrite an existing dated archive. Keep an accumulated known-URL databas
 ## Verification checklist
 
 - [ ] SPEC contains the recall-oriented semantic gate and the PASS/PARTIAL/REJECT state machine.
+- [ ] Exactly one Source Scout ran at the start of every complete cycle, updated the persistent source registry, and every newly confirmed source was queried in that same cycle.
 - [ ] All worker scopes completed; workers submitted both PASS and recall-oriented PARTIAL candidates.
 - [ ] Every unique URL from GitHub README history was included in the historical re-audit before the accepted set was changed.
 - [ ] Every candidate was evaluated from the complete announcement, including all location/work-mode blocks.
@@ -98,5 +99,5 @@ Never overwrite an existing dated archive. Keep an accumulated known-URL databas
 - [ ] Previous master is archived before replacement.
 - [ ] Final master, result.md and GitHub README have identical row sets and are synchronized.
 - [ ] Every search cycle covered all active sources and all Berlin, Leipzig, Dresden, Gamedev, Other QA Roles, and Germany-wide Remote scopes.
-- [ ] A cycle that found any new unique eligible vacancy triggered another full cycle.
-- [ ] Stop occurred only after one complete cycle found zero new unique eligible vacancies and no carried-forward PARTIAL/UNCLEAR record remained unresolved.
+- [ ] A cycle that found any new unique eligible vacancy or new useful source triggered another full cycle with a new Source Scout.
+- [ ] Stop occurred only after one complete cycle found zero new unique eligible vacancies, added zero new sources, and left no carried-forward PARTIAL/UNCLEAR unresolved.
