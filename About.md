@@ -24,27 +24,7 @@ A vacancy is included only if all conditions are met:
 
 ## Output format
 
-The public list preserves the four original category blocks:
-
-1. Manual WEB QA Engineer
-2. Software Test Engineer
-3. Gamedev QA Engineer
-4. Other QA Roles
-
-Each category contains only fully verified `PASS` rows and uses exactly seven columns:
-
-| ID | Position | Company | Location | Posted | Work mode | URL index |
-|---|---|---|---|---|---|---:|
-
-- `ID` is a stable semantic vacancy ID (`QADE-...`) for accepted rows; it is not a row number.
-- `Position` is a clickable Markdown link to the direct vacancy card.
-- `URL index` lists the canonical historical audit URL indices belonging to the same semantic vacancy, for traceability.
-- No separate `Link` column is used.
-- `Work mode` is one of `Remote`, `Onsite` or `Hybrid`.
-- Hybrid is allowed only in Berlin, Leipzig and Dresden.
-- Rows are sorted by posting date descending, newest first; ID is a deterministic tie-breaker.
-- `PARTIAL` records are rendered in a separate block below the four category blocks. They are explicitly marked `PARTIAL-###`, are not counted as accepted vacancies, and do not receive a final `QADE-...` semantic ID until all mandatory gates pass.
-- All accepted rows require row-level provenance covering role, date, location, work mode, German legal entity and verification method.
+The public list preserves the four original category blocks: Manual WEB QA Engineer, Software Test Engineer, Gamedev QA Engineer, and Other QA Roles. Every exact target-city vacancy is placed in its matching category even when another gate is unresolved; unresolved work mode is rendered as `Unknown`, and the `PARTIAL-###` marker is retained. The separate `Partially verified — not counted` block contains only unresolved records outside Berlin, Leipzig, and Dresden. Each category contains accepted PASS rows and target-city PARTIAL rows. The final `Work mode` vocabulary is `Remote`, `Onsite`, `Hybrid`, or `Unknown`; `Unknown` is allowed only for exact target-city locations. PARTIAL records remain on the mandatory next-run review list and do not receive a final `QADE-...` semantic ID until all mandatory gates pass. All accepted rows require row-level provenance covering role, date, location, work mode, German legal entity and verification method.
 
 ## Daily pipeline
 
