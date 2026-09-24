@@ -45,7 +45,7 @@ Before replacing the canonical master, save the previous published file as:
 
 `/opt/data/qa-vacancy-project/qa_vacancies_master_YYYY-MM-DD.md`
 
-Never overwrite an existing dated archive. Keep an accumulated known-URL database and continue full passes until two consecutive complete passes find zero new unique accepted vacancies. Each pass must use the same acceptance gate.
+Never overwrite an existing dated archive. Keep an accumulated known-URL database. A search cycle is complete only after every active source and every scope (Berlin, Leipzig, Dresden, Gamedev, Other QA Roles, and Germany-wide Remote) has been queried and every returned candidate has been semantically checked and deduplicated. If a complete cycle finds at least one new unique eligible vacancy, immediately start another full cycle. Stop only after one complete cycle finds zero new unique eligible vacancies and no carried-forward PARTIAL/UNCLEAR record remains unresolved. A partial cycle, skipped/blocked source, empty worker output, or timeout does not satisfy the stop condition. Every cycle uses the same acceptance gate.
 
 ## Search and verification requirements
 
@@ -97,4 +97,6 @@ Never overwrite an existing dated archive. Keep an accumulated known-URL databas
 - [ ] Every carried-forward PARTIAL was rechecked and carry-forward/promoted/retained/rejected counts were reported.
 - [ ] Previous master is archived before replacement.
 - [ ] Final master, result.md and GitHub README have identical row sets and are synchronized.
-- [ ] Search continues until two consecutive complete passes produce zero new unique vacancies.
+- [ ] Every search cycle covered all active sources and all Berlin, Leipzig, Dresden, Gamedev, Other QA Roles, and Germany-wide Remote scopes.
+- [ ] A cycle that found any new unique eligible vacancy triggered another full cycle.
+- [ ] Stop occurred only after one complete cycle found zero new unique eligible vacancies and no carried-forward PARTIAL/UNCLEAR record remained unresolved.
