@@ -24,16 +24,18 @@ A vacancy is included only if all conditions are met:
 
 ## Output format
 
-The master table has exactly six columns:
+The master table has exactly seven columns:
 
-| # | Position | Company | Location | Posted | Work mode |
-|---:|---|---|---|---|---|
+| ID | Position | Company | Location | Posted | Work mode | URL index |
+|---|---|---|---|---|---|---:|
 
+- `ID` is a stable semantic vacancy ID (`QADE-...`), generated from the normalized employer entity and vacancy identity; it is not a row number.
 - `Position` is a clickable Markdown link to the direct vacancy card.
+- `URL index` lists the canonical historical audit URL indices belonging to the same semantic vacancy, for traceability.
 - No separate `Link` column is used.
 - `Work mode` is one of `Remote`, `Onsite` or `Hybrid`.
 - Hybrid is allowed only in Berlin, Leipzig and Dresden.
-- Rows inside every category are sorted by posting date descending, newest first.
+- Rows are sorted by posting date descending, newest first; ID is a deterministic tie-breaker.
 - All accepted rows require row-level provenance covering role, date, location, work mode, German legal entity and verification method.
 
 ## Daily pipeline
@@ -87,7 +89,7 @@ Never overwrite an existing dated archive. Keep an accumulated known-URL databas
 - [ ] SPEC exists and contains the exact acceptance gate.
 - [ ] All five worker scopes completed.
 - [ ] Every accepted row has a clickable direct URL.
-- [ ] Every row has six columns.
+- [ ] Every row has seven columns (`ID`, `Position`, `Company`, `Location`, `Posted`, `Work mode`, `URL index`).
 - [ ] `Hybrid` appears only in Berlin, Leipzig or Dresden.
 - [ ] `Onsite` appears only in Berlin, Leipzig or Dresden.
 - [ ] Remote rows have explicit Germany-wide eligibility.
