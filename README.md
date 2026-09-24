@@ -1,14 +1,14 @@
 # QA Engineer Vacancies in Germany — 2026-09-24
 
-**Vacancies listed: 36** (18 PASS · 18 PARTIAL)
-**Canonical historical URLs audited: 107**
-**Audit result:** 36 listed vacancies · 0 out-of-scope PARTIAL awaiting review
+**Vacancies listed: 43** (21 PASS · 22 PARTIAL)
+**Canonical historical URLs audited: 108**
+**Audit result:** 43 listed vacancies · 0 out-of-scope PARTIAL awaiting review
 
-Target-city and confirmed Germany-wide Remote vacancies remain in their matching category blocks; unresolved records retain `PARTIAL-###` review markers. For multi-location vacancies, `Location` is canonicalized to one matching target city after semantic analysis of the complete announcement. Validation is recall-oriented: nonstandard formatting or a compressed location field is not a rejection reason.
+Target-city and confirmed Germany-wide Remote vacancies remain in their matching category blocks; unresolved records retain `PARTIAL-###` review markers. For multi-location vacancies, `Location` is canonicalized to one matching target city after semantic analysis of the complete announcement. Validation is recall-oriented: nonstandard formatting or a compressed location field is not a rejection reason. The current list was rebuilt after re-auditing all 108 unique URLs found in GitHub history, preventing valid vacancies from being lost during filter changes.
 
 ---
 
-## 1. Manual WEB QA Engineer (9)
+## 1. Manual WEB QA Engineer (10)
 
 | ID | Position | Company | Location | Posted | Work mode | URL index |
 |---|---|---|---|---|---|---:|
@@ -21,7 +21,8 @@ Target-city and confirmed Germany-wide Remote vacancies remain in their matching
 | PARTIAL-029 | [(Senior) QA Engineer (x/f/m)](https://de.linkedin.com/jobs/view/senior-qa-engineer-x-f-m-at-dkb-code-factory-gmbh-4463017763) | DKB Code Factory GmbH | Berlin | 2026-09-10 | Unknown | 29 |
 | QADE-5BF428246CBE | [Senior QA Engineer (w/m/d) mit Fokus auf Mobile Testing](https://de.linkedin.com/jobs/view/senior-qa-engineer-w-m-d-mit-fokus-auf-mobile-testing-at-zasta-4458636126) | Zasta GmbH | Berlin | 2026-09-09 | Hybrid | 28 |
 | QADE-923B5186DD91 | [Softwaretester (m/w/d)](https://www.arbeitsagentur.de/jobsuche/jobdetail/13644-309295-S) | Robotron Datenbank-Software GmbH | Dresden | 2026-09-03 | Hybrid | 73 |
-## 2. Software Test Engineer (19)
+| PARTIAL-107 | [Freelance QA Tester / Software-Tester (m/w/d)](https://www.xing.com/jobs/leipzig-freelance-qa-tester-software-tester-157958385) | SEDIWORK | Leipzig | 2026-09-18 | Remote | 107 |
+## 2. Software Test Engineer (25)
 
 | ID | Position | Company | Location | Posted | Work mode | URL index |
 |---|---|---|---|---|---|---:|
@@ -44,6 +45,12 @@ Target-city and confirmed Germany-wide Remote vacancies remain in their matching
 | PARTIAL-051 | [Softwaretester (m/w/d)](https://de.linkedin.com/jobs/view/softwaretester-m-w-d-at-deltra-business-software-gmbh-co-kg-4467085202) | deltra Business Software GmbH & Co. KG | Germany (Remote) | Unknown | Remote | 51 |
 | PARTIAL-006 | [Groupware Test Engineer (m/m/d)](https://de.linkedin.com/jobs/view/groupware-test-engineer-m-w-d-at-bwi-gmbh-4467098925) | BWI GmbH | Leipzig | 2026-09-17 (1 week ago; range 2026-09-17..2026-09-24) | Unknown | 6 |
 | PARTIAL-061 | [Werkstudent (m/w/d) – Softwarequalitätssicherung & Testautomatisierung](https://de.linkedin.com/jobs/view/werkstudent-m-w-d-%E2%80%93-softwarequalit%C3%A4tssicherung-amp-testautomatisierung-at-swiss-life-lebensversicherung-se-4464381712) | Swiss Life Lebensversicherung SE | Leipzig | 2026-09-07 | Unknown | 61 |
+| QADE-03E142DB40F0 | [Test Automation Engineer (m/w/d)](https://www.stepstone.de/stellenangebote--Test-Automation-Engineer-m-w-d-Berlin-Bremen-Dortmund-Dresden-Duesseldorf-Erlangen-Frankfurt-Hamburg-Hannover-Koeln-Muenchen-Materna-Information-Communications-SE--14342627-inline.html) | Materna Information & Communications SE | Berlin | 2026-09-03 | Hybrid | 102 |
+| QADE-C1105197931A | [Test Automation Engineer (m/w/d)](https://www.stepstone.de/stellenangebote--Test-Automation-Engineer-m-w-d-Dresden-Essen-secunet-Security-Networks-AG--14337141-inline.html) | secunet Security Networks AG | Dresden | 2026-09-03 | Hybrid | 103 |
+| QADE-FB39219FE69A | [Test-Entwickler (m/w/d) Satellitenkommunikation](https://www.stepstone.de/stellenangebote--Test-Entwickler-m-w-d-Satellitenkommunikation-Dresden-NEOSAT-GmbH--13888678-inline.html) | NEOSAT GmbH | Dresden | 2026-09-10 | Hybrid | 104 |
+| PARTIAL-078 | [QA Automation Engineer (m/w/d) Remote](https://www.efficon.eu/karriere/it/qa-automation-engineer-m-w-d-remote) | EffiCon GmbH & Co. KG | Dresden | Unknown | Remote | 78 |
+| PARTIAL-036 | [Software Engineer in Test (Berlin)](https://de.linkedin.com/jobs/view/software-engineer-in-test-berlin-at-cresta-4343158227) | Cresta | Berlin | Unknown | Unknown | 36 |
+| PARTIAL-101 | [Test Automation Engineer (all genders)](https://www.stepstone.de/stellenangebote--Test-Automation-Engineer-all-genders-Berlin-Braunschweig-Chemnitz-Frankfurt-am-Main-Goerlitz-Hamburg-Hannover-Ismaning-bei-Muenchen-msg-systems-ag--13789925-inline.html) | msg systems ag | Berlin | Unknown | Unknown | 101 |
 ## 3. Gamedev QA Engineer (2)
 
 | ID | Position | Company | Location | Posted | Work mode | URL index |
@@ -57,7 +64,7 @@ Target-city and confirmed Germany-wide Remote vacancies remain in their matching
 | PARTIAL-024 | [Senior IT-Consultant Testmanagement (all genders)](https://de.linkedin.com/jobs/view/senior-it-consultant-testmanagement-all-genders-at-adesso-se-3733042109) | adesso SE | Leipzig | 2026-09-19 | Unknown | 24 |
 | QADE-E26385BE27F0 | [Senior QA Manager - Fully Remote](https://de.linkedin.com/jobs/view/senior-qa-manager-fully-remote-at-softgames-4467095149) | SOFTGAMES | Germany | 2026-09-17 | Remote | 30 |
 | QADE-E1480498DF7C | [Testmanager / IT-Consultant Testmanagement (m/w/d)](https://www.stepstone.de/stellenangebote--Testmanager-IT-Consultant-Testmanagement-m-w-d-Berlin-Dresden-Duesseldorf-Frankfurt-Hamburg-Karlsruhe-Kassel-Koeln-Mannheim-Muenchen-PTA-GmbH--14496961-inline.html) | PTA GmbH | Berlin | 2026-09-17 | Hybrid | 105 |
-| PARTIAL-070 | [Engineer TEST Development](https://www.arbeitsagentur.de/jobsuche/jobdetail/11956-3046511788127201-S) | GlobalFoundries Management Services GmbH & Co. KG | Dresden | 2026-09-17 | Unknown | 70 |
+| PARTIAL-070 | [Engineer TEST Development](https://www.empfehlungsbund.de/job/304651) | GlobalFoundries Management Services GmbH & Co. KG | Dresden | 2026-09-17 | Unknown | 70 |
 | PARTIAL-080 | [SDV Architekt Test & vECU (Cloud, KI, QS-Strategie)](https://www.linkedin.com/jobs/view/4402988237) | MHP – A Porsche Company | Dresden | 2026-09-12 | Unknown | 80 |
 | QADE-769EF4FD7445 | [QA-Engineer (w/m/d)](https://de.linkedin.com/jobs/view/qa-engineer-w-m-d-at-supplyon-4462956289) | SupplyOn GmbH | Dresden | 2026-09-10 | Hybrid | 12, 86 |
 ## Verification
