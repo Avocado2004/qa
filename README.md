@@ -1,155 +1,55 @@
 # QA Engineer Vacancies in Germany — 2026-09-24
 
-**Total unique vacancies: 105** (Manual: 52 | Software Test: 32 | Gamedev: 2 | Other: 19)
+**Total unique vacancies: 19** (Manual: 14 | Software Test: 2 | Gamedev: 0 | Other: 3)
 
-Sources: LinkedIn, Arbeitsagentur, StepStone, XING, Hitmarker | Date filter: ≤30 days | Location: Leipzig/Berlin/Dresden or remote DE
+Sources: LinkedIn, Arbeitsagentur, StepStone, XING, Hitmarker, Remotive, Remotery | Date filter: ≤30 days | Location: Berlin/Leipzig/Dresden Onsite or Hybrid, or Germany-wide Remote
 
 ---
 
-
-## 1. Manual WEB QA Engineer (52)
-
-| # | Position | Company | Location | Posted | Work mode |
-|---:|---|---|---|---|---|
-| 1 | [Softwaretester Qualitätssicherung (m/w/d)](https://de.linkedin.com/jobs/view/softwaretester-qualitaetssicherung-soloplan-4468447344) | Soloplan GmbH | Kempten, Bavaria, Germany | 2026-09-23 | Onsite |
-| 2 | [Engineer (m/w/d) Software Quality Assurance](https://de.linkedin.com/jobs/view/engineer-m-w-d-software-quality-assurance-at-diehl-aviation-4469424453) | Diehl Aviation | Dresden | 2026-09-23 | Hybrid |
-| 3 | [Senior Quality Assurance Engineer](https://de.linkedin.com/jobs/view/senior-quality-assurance-engineer-at-trading-212-4468924202) | Trading 212 | Berlin | 2026-09-22 | Onsite |
-| 4 | [Quality Assurance Engineer](https://de.linkedin.com/jobs/view/quality-assurance-engineer-quantum-machines-4468447338) | Quantum Machines | Stuttgart, Baden-Württemberg, Germany | 2 days ago | Onsite |
-| 5 | [Softwaretester Online Spiele (m/w/d)](https://de.linkedin.com/jobs/view/softwaretester-online-spiele-m-w-d-at-cipsoft-gmbh-4412002519) | CipSoft GmbH | Regensburg, DE | 2026-09-20 | Onsite |
-| 6 | [Software Tester (m/w/d) – Cloud & Applications](https://de.linkedin.com/jobs/view/software-tester-m-w-d-cloud-applications-soa-experts-4467863652) | SOA Experts GmbH | Lübeck, Schleswig-Holstein, Germany | 4 days ago | Onsite |
-| 7 | [Quality Assurance Engineer](https://de.linkedin.com/jobs/view/quality-assurance-engineer-at-quantum-machines-4468447338) | Quantum Machines | Stuttgart | 2026-09-20 | Onsite |
-| 8 | [QA Engineer/Softwaretester Automotive-Software (m/w/d)](https://de.linkedin.com/jobs/view/qa-engineer-softwaretester-automotive-software-bwsolution-4468447343) | BWSolution GmbH | Hamburg, Hamburg, Germany | 4 days ago | Onsite |
-| 9 | [(Junior) QA Engineer/Software-Tester (m/w/d)](https://de.linkedin.com/jobs/view/junior-qa-engineer-software-tester-m-w-d-%E2%80%93-produktqualit%C3%A4t-testautomatisierung-at-check24-4433870576) | CHECK24 | Dortmund | 2026-09-20 | Onsite |
-| 10 | [QA Engineer/Softwaretester Automotive-Software (m/w/d)](https://de.linkedin.com/jobs/view/qa-engineer-softwaretester-automotive-software-m-w-d-at-bwsolution-gmbh-4466690243) | BWSolution GmbH | Hamburg | 5 days ago | Hybrid |
-| 11 | [Softwaretester (m/w/d) – Healthcare SaaS](https://de.linkedin.com/jobs/view/softwaretester-m-w-d-healthcare-saas-deutsches-medizinrechenzentrum-4466469998) | Deutsches Medizinrechenzentrum GmbH | Düsseldorf, NRW, Germany | 6 days ago | Onsite |
-| 12 | [Software Tester / QA Engineer (all genders)](https://de.linkedin.com/jobs/view/software-tester-qa-engineer-all-genders-at-gk-software-4449455160) | GK Software | Schöneck, Saxony | 6 days ago | Remote |
-| 13 | [Software Tester (m/w/d) – Cloud & Applications](https://de.linkedin.com/jobs/view/software-tester-m-w-d-%E2%80%93-cloud-applications-at-soa-experts-gmbh-4467863652) | SOA Experts GmbH | Lübeck / bundesweit Remote | 2026-09-18 | Remote |
-| 14 | [Senior QA Engineer (w/m/d) mit Fokus auf Mobile Testing](https://de.linkedin.com/jobs/view/senior-qa-engineer-w-m-d-mit-fokus-auf-mobile-testing-at-instaffo-4459837477) | Instaffo | Berlin | 2026-09-18 | Onsite |
-| 15 | [Quality Engineer (m/w/d) – Softwaretest](https://de.linkedin.com/jobs/view/quality-engineer-m-w-d-%E2%80%93-softwaretest-automatisierung-at-medatixx-4466913115) | medatixx | Eltville | 2026-09-18 | Onsite |
-| 16 | [QA Internship (m/f/d)](https://de.linkedin.com/jobs/view/qa-internship-m-f-d-at-envision-entertainment-gmbh-4466676868) | Envision Entertainment | Ingelheim, DE | 2026-09-18 | Onsite |
-| 17 | [Freelance QA Tester / Software-Tester (m/w/d)](https://www.xing.com/jobs/leipzig-freelance-qa-tester-software-tester-157958385) | SEDIWORK | Leipzig | ~18.09.2026 | Remote |
-| 18 | [Softwaretester (m/w/d)](https://de.linkedin.com/jobs/view/softwaretester-m-w-d-at-ferchau-4467085202) | FERCHAU | Kassel, Hesse, Germany | 1 week ago | Onsite |
-| 19 | [Software Tester (all genders)](https://de.linkedin.com/jobs/view/software-tester-all-genders-at-expleo-group-4457339334) | Expleo Group | Frankfurt am Main, Hesse | 1 week ago | Hybrid |
-| 20 | [Softwaretester (m/w/d) – Healthcare SaaS](https://de.linkedin.com/jobs/view/softwaretester-m-w-d-%E2%80%93-healthcare-saas-at-deutsches-medizinrechenzentrum-gmbh-4466469998) | Deutsches Medizinrechenzentrum GmbH | Düsseldorf | 2026-09-16 | Onsite |
-| 21 | [Softwaretester (m/w/d)](https://de.linkedin.com/jobs/view/softwaretester-m-w-d-at-deltra-business-software-gmbh-co-kg-4467085202) | deltra Business Software GmbH & Co. KG | Deutschland (remote-friendly) | 2026-09-14 | Remote |
-| 22 | [Senior QA Manager – Fully Remote](https://de.linkedin.com/jobs/view/senior-qa-manager-fully-remote-at-softgames-4467095149) | SOFTGAMES | Germany (remote) | ~2026-09-14 | Remote |
-| 23 | [Quality Assurance Specialist (m/f/d)](https://de.linkedin.com/jobs/view/quality-assurance-specialist-m-f-d-at-teleclinic-4447191277) | TeleClinic | Munich (hybrid/remote-DE) | 2026-09-13 | Remote |
-| 24 | [Senior QA/QC Engineer – Electrical (m/f/d)](https://www.linkedin.com/jobs/view/4456269253) | Exyte Germany GmbH | Dresden | 2026-09-12 | Onsite |
-| 25 | [Softwaretester (m/w/d)](https://www.arbeitsagentur.de/jobsuche/jobdetail/20808-2736381788991201-S) | Robotron Datenbank-Software GmbH | Dresden | 2026-09-10 | Onsite |
-| 26 | [QA Engineer (Mid Level)](https://de.linkedin.com/jobs/view/qa-engineer-mid-level-at-talon-one-4465625914) | Talon.One | Berlin | 2026-09-10 | Onsite |
-| 27 | [(Senior) QA Engineer](https://de.linkedin.com/jobs/view/quality-assurance-engineer-m-w-d-at-nexburg-4463475021) | Nexburg GmbH | Aachen | 2026-09-10 | Onsite |
-| 28 | [Software QA Engineer (m/w/d)](https://de.linkedin.com/jobs/view/software-qa-engineer-m-w-d-at-instaffo-4465078731) | Instaffo GmbH | Germany (remote) | 2026-09-09 | Remote |
-| 29 | [Senior QA Engineer (w/m/d) mit Fokus auf Mobile Testing](https://de.linkedin.com/jobs/view/senior-qa-engineer-w-m-d-mit-fokus-auf-mobile-testing-at-zasta-4458636126) | Zasta | Berlin | 2026-09-09 | Onsite |
-| 30 | [(Senior) QA Engineer (x/f/m)](https://de.linkedin.com/jobs/view/senior-qa-engineer-x-f-m-at-dkb-code-factory-gmbh-4463017763) | DKB Code Factory GmbH | Berlin (remote option) | 2026-09-09 | Remote |
-| 31 | [Software QA Engineer / Testautomation (mwd)](https://de.linkedin.com/jobs/view/software-qa-engineer-testautomation-selenium-katalon-web-software-inhouse-mwd-at-vesterling-ag-4437756410) | Vesterling AG | Munich | 2026-09-08 | Onsite |
-| 32 | [QA-Manager(in) (m/w/d)](https://de.linkedin.com/jobs/view/qa-manager-in-m-w-d-at-gamexcite-gmbh-4464628434) | gameXcite GmbH | Hamburg, DE | 2026-09-08 | Onsite |
-| 33 | [QA-Engineer (w/m/d)](https://www.linkedin.com/jobs/view/4462956289) | SupplyOn | Dresden | 2026-09-07 | Onsite |
-| 34 | [QA-Engineer (w/m/d)](https://de.linkedin.com/jobs/view/qa-engineer-w-m-d-at-supplyon-4462956289) | SupplyOn | Dresden | 2026-09-07 | Onsite |
-| 35 | [ERP Quality Assurance Engineer (f/m/d)](https://de.linkedin.com/jobs/view/erp-quality-assurance-engineer-f-m-d-at-mytheresa-4464363181) | Mytheresa | Munich | 2026-09-07 | Onsite |
-| 36 | [Softwaretester (m/w/d) 100 % Remote](https://de.linkedin.com/jobs/view/softwaretester-m-w-d-100-%25-remote-im-consulting-umfeld-at-eightbit-experts-gmbh-4463646937) | eightbit experts GmbH | bundesweit, 100 % Remote | 2026-09-04 | Remote |
-| 37 | [Senior QA Engineer - Remote](https://de.linkedin.com/jobs/view/senior-qa-engineer-remote-at-kake-4461168232) | Kake | Berlin | 2026-09-04 | Remote |
-| 38 | [Engineer (m/w/d) Software Quality Assurance](https://www.arbeitsagentur.de/jobsuche/jobdetail/10001-1003658566-S) | Diehl Aviation | Dresden | 2026-09-04 | Onsite |
-| 39 | [Softwaretester (m/w/d)](https://www.arbeitsagentur.de/jobsuche/jobdetail/13644-309295-S) | Robotron Datenbank-Software GmbH | Dresden | 2026-09-03 | Onsite |
-| 40 | [Senior Technical QA Tester (f/m/d)](https://de.linkedin.com/jobs/view/senior-technical-qa-tester-f-m-d-at-kolibri-games-4460476943) | Kolibri Games | Berlin, DE | 2026-09-03 (LinkedIn) | Onsite |
-| 41 | [Engineer (m/w/d) Software Quality Assurance](https://de.linkedin.com/jobs/view/engineer-m-w-d-software-quality-assurance-at-diehl-aviation-4457769285) | Diehl Aviation | Dresden, Saxony, Germany | 3 weeks ago | Onsite |
-| 42 | [Quality Engineer – Outgoing Quality Assurance (OQA) (m/f/d)](https://www.arbeitsagentur.de/jobsuche/jobdetail/12288-4928648696-S) | European Semiconductor Mfg. Company (ESMC) | Dresden | 2026-09-02 | Onsite |
-| 43 | [Quality Assurance Engineer (m/w/d)](https://www.arbeitsagentur.de/jobsuche/jobdetail/13552-ZEOSLFX6R0Z9I2JL-S) | N.O.C Engineering GmbH | Dresden | 2026-08-28 | Hybrid |
-| 44 | [Technical Embedded QA Specialist I](https://hitmarker.net/jobs/cloud-imperium-games-technical-embedded-qa-specialist-i-4621360) | Cloud Imperium Games | Frankfurt, DE | 2026-08-27 (25d) | Onsite |
-| 45 | [Engineer (m/w/d) Software Quality Assurance](https://www.linkedin.com/jobs/view/4457769285) | Diehl Aviation | Dresden | 2026-08-27 | Onsite |
-| 46 | [Senior QA Engineer (m/w/d)](https://www.stepstone.de/stellenangebote--Senior-QA-Engineer-m-w-d-Luebbecke-adp-MERKUR-GmbH--14466609-inline.html) | adp MERKUR GmbH | Lübecke | aktiv ≤30d | Onsite |
-| 47 | [Quality Assurance Engineer (m/w/d) E-Commerce](https://www.stepstone.de/stellenangebote--Quality-Assurance-Engineer-m-w-d-E-Commerce-Koeln-igus-SE-Co-KG--14501510-inline.html) | igus SE & Co. KG | Cologne | aktiv ≤30d | Onsite |
-| 48 | [QA Engineer (m/w/d)](https://www.stepstone.de/stellenangebote--QA-Engineer-m-w-d-Heilbronn-AZUR-SPACE-Solar-Power-GmbH--13809042-inline.html) | AZUR SPACE Solar Power GmbH | Heilbronn | aktiv ≤30d | Onsite |
-| 49 | [Junior Software Tester (m/w/x)](https://www.stepstone.de/stellenangebote--Junior-Software-Tester-m-w-x-Donauwoerth-SII-Technologies-GmbH--14505228-inline.html) | SII Technologies GmbH | Donauwörth | aktiv ≤30d | Onsite |
-| 50 | [QA Analyst](https://hitmarker.net/jobs/jam-city-qa-analyst-4587741) | Jam City | Berlin, DE (+9 locations) | 2026-08-24 (28d) | Onsite |
-| 51 | [Head of QA](https://hitmarker.net/jobs/twin-harbour-interactive-head-of-quality-assurance-qa-4651629) | Twin Harbour Interactive | Hamburg, DE | 2026-08-21/31 (31d, boundary) | Onsite |
-| 52 | [Head of QA (QA)](https://hitmarker.net/jobs/stillfront-group-head-of-quality-assurance-qa-4728845) | Stillfront Group | Hamburg, DE | 2026-08-21 (31d, boundary) | Onsite |
-
-
-
-
-## 2. Software Test Engineer (32)
+## 1. Manual WEB QA Engineer (14)
 
 | # | Position | Company | Location | Posted | Work mode |
 |---:|---|---|---|---|---|
-| 1 | [Test Engineer (m/w/d)](https://de.linkedin.com/jobs/view/test-engineer-m-w-d-at-mamgo-talente-%F0%9F%94%97-jobs-4471187905) | mamgo Talente | Berlin | 2026-09-24 | Onsite |
-| 2 | [Software Test Engineer (w/m/d)](https://de.linkedin.com/jobs/view/software-test-engineer-w-m-d-at-swk-ag-4468563689) | SWK AG | Krefeld, North Rhine-Westphalia | 1 day ago | Hybrid |
-| 3 | [Staff Engineer, Software Test](https://de.linkedin.com/jobs/view/staff-engineer-software-test-at-stryker-4469030140) | Stryker | Berlin | 2026-09-22 | Onsite |
-| 4 | [Team Lead Quality Assurance & Testautomatisierung (w/m/d)](https://apply.j-vers.com/v3/job/AAAAAAAAAAAAAAAAAAAAAGQD_o2s1lvo2LlgC4A_3AJgEbC8Xk-MnmnR4U4SkR0MJXX18NA92_dlH5GS5KKU5Ii64tU5k5YaF97R_AoIv3d3xjf1rRMfZFv7LTq89W4Q89XJrrQK38xqoUNU2bsza1IXFvQg1eKizeWv7_jt0OIhunJR2lEdgQWwdKdIal-PEZqiurmSlMfovkg4yatAnhI3UDZcADgI11bHIK6e64TRq4zAsWc8Z-TmEtmDQRNPAzG3e2VMMTULzd6AEkRvZALE0kkNfZOsk6rFuo6CoAxo4AAsAuhPE6BGa3NE4yveiRHcY2je2v7cM1p3WHVq1JTO4MyV-dgnfVucUbTnrman2_3tNrpduBe-xcD4g1aUHeln4L37MNP_EhmkrOtnCA==) | FIO Systems AG | Leipzig | 21.09.2026 (NEU) | Onsite |
-| 5 | [Senior IT-Consultant Software-Testautomatisierung (all genders)](https://de.linkedin.com/jobs/view/senior-it-consultant-software-testautomatisierung-all-genders-at-adesso-se-3925557524) | adesso SE | Dresden, Saxony, Germany | 4 days ago | Onsite |
-| 6 | [Senior IT-Consultant Software-Testautomatisierung (all genders)](https://de.linkedin.com/jobs/view/senior-it-consultant-software-testautomatisierung-all-genders-at-adesso-se-3733041547) | adesso SE | Leipzig | 20.09.2026 | Onsite |
-| 7 | [Quality Engineer – Testautomatisierung (all genders)](https://de.linkedin.com/jobs/view/quality-engineer-schwerpunkt-testautomatisierung-all-genders-at-starface-gmbh-4402883225) | STARFACE GmbH | Karlsruhe | 2026-09-20 | Onsite |
-| 8 | [System Validation & Test Automation Engineer (a)](https://www.stepstone.de/stellenangebote--System-Validation-Test-Automation-Engineer-a-Radeberg-bei-Dresden-Baumer-Optronic-GmbH--14460761-inline.html) | Baumer Optronic GmbH | Radeberg (bei Dresden) | 2026-09-18 | Onsite |
-| 9 | [Senior IT-Consultant Software-Testautomatisierung (all genders)](https://www.linkedin.com/jobs/view/3925557524) | adesso SE | Dresden | 2026-09-18 | Onsite |
-| 10 | [Test Automation Engineer – Cucumber](https://de.linkedin.com/jobs/view/test-automation-engineer-%E2%80%93-cucumber-at-jobgether-4467559268) | Jobgether (B2B marketplace, Berlin) | Germany | 2026-09-17 | Onsite |
-| 11 | [Software Engineer in Test (Berlin)](https://de.linkedin.com/jobs/view/software-engineer-in-test-berlin-at-cresta-4343158227) | Cresta | Berlin | 2026-09-17 | Onsite |
-| 12 | [Senior Test Engineer (m/w/d) Erprobung und Validierung](https://www.stepstone.de/stellenangebote--Senior-Test-Engineer-m-w-d-Erprobung-und-Validierung-Leipzig-Falk-Defence--14341604-inline.html) | Falk Defence | Leipzig | 17.09.2026 | Onsite |
-| 13 | [Testautomatisierer (m/w/d)](https://www.stepstone.de/stellenangebote--Testautomatisierer-m-w-d-bundesweit-Berlin-Frankfurt-Hamburg-Koeln-Leipzig-Muenchen-Sopra-Steria--13163223-inline.html) | Sopra Steria | Leipzig (+bundesweit) | 16.09.2026 | Remote |
-| 14 | [Software Tester / Testautomatisierer (m/w/d)](https://de.linkedin.com/jobs/view/software-tester-testautomatisierer-m-w-d-at-deloitte-4243056914) | Deloitte | Leipzig (+Frankfurt) | 15.09.2026 | Onsite |
-| 15 | [Senior Testingenieur Wafertest (w/m/div)](https://www.arbeitsagentur.de/jobsuche/jobdetail/15986-REF270793G-129145d-S) | Robert Bosch GmbH | Dresden | 2026-09-14 | Onsite |
-| 16 | [Groupware Test Engineer (m/w/d)](https://de.linkedin.com/jobs/view/groupware-test-engineer-m-w-d-at-bwi-gmbh-4467098925) | BWI GmbH | Leipzig | 14.09.2026 | Onsite |
-| 17 | [Senior Test Engineer (m/w/d)](https://de.linkedin.com/jobs/view/senior-test-engineer-m-w-d-at-bundesdruckerei-gruppe-4457332496) | Bundesdruckerei-Gruppe | Berlin | 2026-09-12 | Onsite |
-| 18 | [Software Test Engineer / QA Engineer (all gender) – Software Testing & Automation 999](https://de.linkedin.com/jobs/view/software-test-engineer-qa-engineer-all-gender-%E2%80%93-software-testing-automation-999-at-alten-4431592621) | ALTEN | Germany (location shown as Germany on card) | 2 weeks ago | Hybrid |
-| 19 | [Senior Test Engineer (m/f/d)](https://www.linkedin.com/jobs/view/4429550027) | Renesas Electronics | Dresden | 2026-09-10 | Onsite |
-| 20 | [Senior QA Engineer (m/w/d) – Integration & Test Automation](https://de.linkedin.com/jobs/view/senior-qa-engineer-m-w-d-%E2%80%93-integration-test-automation-at-peter-d%C3%B6hle-schiffahrts-kg-4419173368) | Peter Döhle Schiffahrts-KG | Hamburg | 2026-09-10 | Onsite |
-| 21 | [Senior Testingenieur:in – QA Engineer](https://de.linkedin.com/jobs/view/senior-testingenieur-in-%E2%80%93-testautomatisierung-qualit%C3%A4tssicherung-qa-engineer-at-instaffo-4422965646) | Instaffo GmbH | Berlin (remote/hybrid) | 2026-09-08 | Remote |
-| 22 | [Werkstudent Softwarequalitätssicherung & Testautomatisierung (m/w/d)](https://de.linkedin.com/jobs/view/werkstudent-m-w-d-%E2%80%93-softwarequalit%C3%A4tssicherung-amp-testautomatisierung-at-swiss-life-lebensversicherung-se-4464381712) | Swiss Life Lebensversicherung SE | Leipzig | 07.09.2026 | Onsite |
-| 23 | [Software Test Engineer (m/w/x) – Sichere Kommunikation](https://www.linkedin.com/jobs/view/4461840440) | K-tronik GmbH | Dresden | 2026-09-06 | Onsite |
-| 24 | [Test Automation Engineer (m/w/d)](https://de.linkedin.com/jobs/view/test-automation-engineer-m-w-d-at-medifox-dan-4463397741) | MEDIFOX DAN GmbH | Germany (remote) | 2026-09-04 | Remote |
-| 25 | [System Validation & Test Automation Engineer (a)](https://www.linkedin.com/jobs/view/4461353463) | Baumer Group | Radeberg | 2026-09-03 | Onsite |
-| 26 | [System Validation & Test Automation Engineer (a)](https://de.linkedin.com/jobs/view/system-validation-test-automation-engineer-a-at-baumer-optronic-4461353463) | Baumer Optronic GmbH | Radeberg, Saxony, Germany | 3 weeks ago | Onsite |
-| 27 | [Software Test Automation Engineer (m/w/d) - Berlin](https://de.linkedin.com/jobs/view/software-test-automation-engineer-m-w-d-berlin-at-nexus-ag-4462857910) | Nexus AG | Berlin | 2026-09-03 | Onsite |
-| 28 | [Test Automation Engineer (m/w/d)](https://www.stepstone.de/stellenangebote--Test-Automation-Engineer-m-w-d-Dresden-Essen-secunet-Security-Networks-AG--14337141-inline.html) | secunet Security Networks AG | Dresden | 2026-08-31 | Remote |
-| 29 | [Test Automation Engineer (m/w/d)](https://www.stepstone.de/stellenangebote--Test-Automation-Engineer-m-w-d-Berlin-Bremen-Dortmund-Dresden-Duesseldorf-Erlangen-Frankfurt-Hamburg-Hannover-Koeln-Muenchen-Materna-Information-Communications-SE--14342627-inline.html) | Materna Information & Communications SE | Dresden (u.a.) | 2026-08-31 | Remote |
-| 30 | [Test Automation Engineer (m/w/d) - GEOMAGIC](https://www.xing.com/jobs/leipzig-test-automation-engineer-geomagic-157527998) | GEOMAGIC | Leipzig | 29.08.2026 | Hybrid |
-| 31 | [Test Automation Engineer (all genders)](https://www.stepstone.de/stellenangebote--Test-Automation-Engineer-all-genders-Berlin-Braunschweig-Chemnitz-Frankfurt-am-Main-Goerlitz-Hamburg-Hannover-Ismaning-bei-Muenchen-msg-systems-ag--13789925-inline.html) | msg systems ag | Berlin/Frankfurt/Hamburg/… | aktiv ≤30d | Onsite |
-| 32 | [Software QA Test Engineer (m/w/d)](https://www.stepstone.de/stellenangebote--Software-QA-Test-Engineer-m-w-d-Stuttgart-Aveyara-Software-GmbH--13688522-inline.html) | Aveyara Software GmbH | Stuttgart | aktiv ≤30d | Onsite |
+| 1 | [Engineer (m/w/d) Software Quality Assurance](https://de.linkedin.com/jobs/view/engineer-m-w-d-software-quality-assurance-at-diehl-aviation-4469424453) | Diehl Aviation | Dresden | 2026-09-23 | Hybrid |
+| 2 | [Senior Quality Assurance Engineer](https://de.linkedin.com/jobs/view/senior-quality-assurance-engineer-at-trading-212-4468924202) | Trading 212 | Berlin | 2026-09-22 | Onsite |
+| 3 | [Software Tester (m/w/d) – Cloud & Applications](https://de.linkedin.com/jobs/view/software-tester-m-w-d-%E2%80%93-cloud-applications-at-soa-experts-gmbh-4467863652) | SOA Experts GmbH | Lübeck / bundesweit Remote | 2026-09-18 | Remote |
+| 4 | [Senior QA Engineer (w/m/d) mit Fokus auf Mobile Testing](https://de.linkedin.com/jobs/view/senior-qa-engineer-w-m-d-mit-fokus-auf-mobile-testing-at-instaffo-4459837477) | Instaffo | Berlin | 2026-09-18 | Onsite |
+| 5 | [Software Tester](https://remotive.com/remote/jobs/qa/software-tester-5925120) | BVU Beratergruppe Verkehr + Umwelt GmbH | Germany (Remote) | 2026-09-18 | Remote |
+| 6 | [Software Tester, QA Analyst – Smart Grid Platform](https://www.remotery.co/job/remote-software-tester-qa-analyst-smart-grid-platform-at-venios-gmbh-in-germany-full-time-7c36a7) | Venios GmbH | Germany (Remote) | 2026-09-15 | Remote |
+| 7 | [Senior QA Manager – Fully Remote](https://de.linkedin.com/jobs/view/senior-qa-manager-fully-remote-at-softgames-4467095149) | SOFTGAMES | Germany (remote) | ~2026-09-14 | Remote |
+| 8 | [Quality Assurance Specialist (m/f/d)](https://de.linkedin.com/jobs/view/quality-assurance-specialist-m-f-d-at-teleclinic-4447191277) | TeleClinic | Munich (hybrid/remote-DE) | 2026-09-13 | Remote |
+| 9 | [Softwaretester (m/w/d)](https://www.arbeitsagentur.de/jobsuche/jobdetail/20808-2736381788991201-S) | Robotron Datenbank-Software GmbH | Dresden | 2026-09-10 | Onsite |
+| 10 | [Engineer (m/w/d) Software Quality Assurance](https://www.arbeitsagentur.de/jobsuche/jobdetail/10001-1003658566-S) | Diehl Aviation | Dresden | 2026-09-04 | Onsite |
+| 11 | [Softwaretester (m/w/d)](https://www.arbeitsagentur.de/jobsuche/jobdetail/13644-309295-S) | Robotron Datenbank-Software GmbH | Dresden | 2026-09-03 | Onsite |
+| 12 | [Quality Engineer – Outgoing Quality Assurance (OQA) (m/f/d)](https://www.arbeitsagentur.de/jobsuche/jobdetail/12288-4928648696-S) | European Semiconductor Mfg. Company (ESMC) | Dresden | 2026-09-02 | Onsite |
+| 13 | [Quality Assurance Engineer (m/w/d)](https://www.arbeitsagentur.de/jobsuche/jobdetail/13552-ZEOSLFX6R0Z9I2JL-S) | N.O.C Engineering GmbH | Dresden | 2026-08-28 | Hybrid |
+| 14 | [QA Analyst](https://hitmarker.net/jobs/jam-city-qa-analyst-4587741) | Jam City | Berlin, DE (+9 locations) | 2026-08-24 (28d) | Onsite |
 
-
-
-
-## 3. Gamedev QA Engineer (2)
+## 2. Software Test Engineer (2)
 
 | # | Position | Company | Location | Posted | Work mode |
 |---:|---|---|---|---|---|
-| 1 | [QA Gametester (w/m/d)](https://de.linkedin.com/jobs/view/qa-gametester-w-m-d-at-thq-nordic-mobile-gmbh-4467317818) | THQ Nordic Mobile GmbH | Giebelstadt, DE | 2026-09-20 | Onsite |
-| 2 | [Game Localization Tester (m/f/d)](https://de.linkedin.com/jobs/view/game-localization-tester-m-f-d-at-lionbridge-games-4435685330) | Lionbridge Games | Berlin, DE | 2026-08-26 (26d) | Onsite |
+| 1 | [Senior IT-Consultant Software-Testautomatisierung (all genders)](https://de.linkedin.com/jobs/view/senior-it-consultant-software-testautomatisierung-all-genders-at-adesso-se-3925557524) | adesso SE | Dresden, Saxony, Germany | 4 days ago | Onsite |
+| 2 | [Senior Testingenieur Wafertest (w/m/div)](https://www.arbeitsagentur.de/jobsuche/jobdetail/15986-REF270793G-129145d-S) | Robert Bosch GmbH | Dresden | 2026-09-14 | Onsite |
 
-
-
-
-## 4. Other QA Roles (19)
+## 3. Gamedev QA Engineer (0)
 
 | # | Position | Company | Location | Posted | Work mode |
 |---:|---|---|---|---|---|
-| 1 | [Prüfingenieur Aktive Medizinprodukte (m/w/d)](https://de.linkedin.com/jobs/view/pr%C3%BCfingenieur-aktive-medizinprodukte-m-w-d-at-dekra-germany-4464628691) | DEKRA Germany | Dresden | 2026-09-24 | Hybrid |
-| 2 | [Software Quality Engineer (m/w/d)](https://www.stepstone.de/stellenangebote--Software-Quality-Engineer-m-w-d-Pulsnitz-secupay-AG--14411331-inline.html) | secupay AG | Pulsnitz (S8 ab Dresden) | 2026-09-19 | Hybrid |
-| 3 | [Senior IT-Consultant Testmanagement (all genders)](https://www.linkedin.com/jobs/view/3733041130) | adesso SE | Dresden | 2026-09-19 | Onsite |
-| 4 | [Software Engineer Test (m/w/d)](https://de.linkedin.com/jobs/view/software-engineer-test-m-w-d-at-atruvia-ag-4459875336) | Atruvia AG | Karlsruhe | 2026-09-18 | Onsite |
-| 5 | [Senior IT-Consultant Testmanagement (all genders)](https://de.linkedin.com/jobs/view/senior-it-consultant-testmanagement-all-genders-at-adesso-se-3733042109) | adesso SE | Leipzig | 18.09.2026 | Onsite |
-| 6 | [Software-Tester (w/m/d) – Schwerpunkt manuelle Tests](https://www.stepstone.de/stellenangebote--Software-Tester-w-m-d-Schwerpunkt-manuelle-Tests-Hamburg-seca-GmbH-Co-KG--14519955-inline.html) | seca GmbH & Co. KG | Hamburg / Home-Office | ~vor 1 Woche | Remote |
-| 7 | [GlobalFoundries: Engineer TEST Development](https://www.arbeitsagentur.de/jobsuche/jobdetail/11956-3046511788127201-S) | GlobalFoundries Management Services GmbH & Co. KG | Dresden | 2026-09-17 | Onsite |
-| 8 | [Testmanager / IT-Consultant Testmanagement (m/w/d)](https://www.stepstone.de/stellenangebote--Testmanager-IT-Consultant-Testmanagement-m-w-d-Berlin-Dresden-Duesseldorf-Frankfurt-Hamburg-Karlsruhe-Kassel-Koeln-Mannheim-Muenchen-PTA-GmbH--14496961-inline.html) | PTA GmbH | Dresden (u.a. 11 Städte) | 2026-09-14 | Remote |
-| 9 | [Test-Entwickler (m/w/d) Satellitenkommunikation](https://www.stepstone.de/stellenangebote--Test-Entwickler-m-w-d-Satellitenkommunikation-Dresden-NEOSAT-GmbH--13888678-inline.html) | NEOSAT GmbH | Dresden | 2026-09-14 | Onsite |
-| 10 | [Senior Test Development Engineer Wafertest Support (w/m/div)](https://www.arbeitsagentur.de/jobsuche/jobdetail/15986-REF283054X-f03c6a9-S) | Robert Bosch GmbH | Dresden | 2026-09-14 | Onsite |
-| 11 | [Senior Ingenieur Wafertest EWS Testchips (w/m/div)](https://www.arbeitsagentur.de/jobsuche/jobdetail/15986-REF294158A-ff4cb8c-S) | Robert Bosch GmbH | Dresden | 2026-09-14 | Onsite |
-| 12 | [Qualitätsingenieur KI-Fokus / Quality Engineer (AI-augmented) (m/w/d)](https://www.stepstone.de/stellenangebote--Qualitaetsingenieur-KI-Fokus-Quality-Engineer-AI-augmented-m-w-d-IT-Consulting-Berlin-Dresden-Duesseldorf-Frankfurt-Hamburg-Karlsruhe-Kassel-Koeln-Mannheim-Muenchen-PTA-GmbH--14178984-inline.html) | PTA GmbH | Dresden (u.a. 11 Städte) | 2026-09-14 | Remote |
-| 13 | [SDV Architekt Test & vECU (Cloud, KI, QS-Strategie)](https://www.linkedin.com/jobs/view/4402988237) | MHP – A Porsche Company | Dresden | 2026-09-12 | Onsite |
-| 14 | [Software Quality Engineer (m/w/d)](https://www.stepstone.de/stellenangebote--Software-Quality-Engineer-m-w-d-Hannover-WERTGARANTIE-Group--14000604-inline.html) | WERTGARANTIE Group | Hannover | vor 2 Wochen | Onsite |
-| 15 | [Senior Software Quality Engineer (all genders) - Vollzeit & Teilzeit](https://de.linkedin.com/jobs/view/senior-software-quality-engineer-expleo-group-4468447342) | Expleo Group | Görlitz, Saxony, Germany | 2 weeks ago | Onsite |
-| 16 | [Test-Automation Engineer (m/w/d)](https://www.arbeitsagentur.de/jobsuche/jobdetail/10001-1003303341-S) | zollsoft GmbH | Dresden (Hauptsitz Thüringen) | 2026-09-07 | Remote |
-| 17 | [Test Analyst (m/w/d)](https://www.arbeitsagentur.de/jobsuche/jobdetail/10001-1003303344-S) | zollsoft GmbH | Dresden (Hauptsitz Thüringen) | 2026-09-07 | Remote |
-| 18 | [Software Quality & Compliance Engineer (w/m/d)](https://de.linkedin.com/jobs/view/software-quality-compliance-engineer-w-m-d-at-endress%2Bhauser-group-4444954321) | Endress+Hauser Group | Leipzig | 2026-09-04 | Onsite |
-| 19 | [Software Quality Engineer (m/w/d)](https://www.stepstone.de/stellenangebote--Software-Quality-Engineer-m-w-d-Konstanz-Bedifol-GmbH--14438387-inline.html) | Bedifol GmbH | Konstanz | aktiv ≤30d | Onsite |
 
+## 4. Other QA Roles (3)
 
-
+| # | Position | Company | Location | Posted | Work mode |
+|---:|---|---|---|---|---|
+| 1 | [GlobalFoundries: Engineer TEST Development](https://www.arbeitsagentur.de/jobsuche/jobdetail/11956-3046511788127201-S) | GlobalFoundries Management Services GmbH & Co. KG | Dresden | 2026-09-17 | Onsite |
+| 2 | [Senior Test Development Engineer Wafertest Support (w/m/div)](https://www.arbeitsagentur.de/jobsuche/jobdetail/15986-REF283054X-f03c6a9-S) | Robert Bosch GmbH | Dresden | 2026-09-14 | Onsite |
+| 3 | [Senior Ingenieur Wafertest EWS Testchips (w/m/div)](https://www.arbeitsagentur.de/jobsuche/jobdetail/15986-REF294158A-ff4cb8c-S) | Robert Bosch GmbH | Dresden | 2026-09-14 | Onsite |
 
 ---
 
 ## Sources & Verification
-- Every data row has exactly 7 columns and a clickable vacancy title.
-- Company, location, posting date, and work mode were normalized to their matching semantic fields.
-- Direct URLs are unique; anti-bot links are retained where previously verified.
-- Model: stealth/space-bunny-alpha via OpenRouter.
-
-*Generated by Hermes Agent multi-worker pipeline*
+- Final rows: 17 verified legacy rows + 2 independently verified Pass 2 rows.
+- Hybrid is allowed only in Berlin, Leipzig and Dresden.
+- Germany-wide Remote requires explicit Germany/DE eligibility.
+- Unclear and rejected candidates are not published.
+- Previous 105-row list is archived as `qa_vacancies_master_2026-09-24.md`.
