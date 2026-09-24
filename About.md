@@ -19,7 +19,7 @@ A vacancy is included only if all conditions are met:
 - `Onsite` or `Hybrid` in any other city is rejected.
 - Hybrid is rejected outside Berlin, Leipzig and Dresden.
 - A generic `Germany` location without explicit remote eligibility is rejected.
-- Unclear or unverifiable work mode, location, date or employer is rejected.
+- Unclear mode in a confirmed target-city vacancy is retained as `Unknown`; a nonstandard format, compressed location field, or missing dedicated city field is not itself a rejection. Reject only when the complete announcement proves that no target city or Germany-wide remote option exists.
 - Vacancies are deduplicated by URL and by normalized `company + title`.
 
 ## Output format
@@ -49,10 +49,10 @@ Never overwrite an existing dated archive. Keep an accumulated known-URL databas
 - Search queries and vacancy extraction should use German terms such as `Softwaretester`, `QA Engineer`, `Test Engineer`, `Qualitätssicherung`, `Spiele-Tester`, `Manuelle Tests`, `Test Automation` and `Game QA`.
 - Use multiple working sources: LinkedIn Jobs, Arbeitsagentur, StepStone, XING, hitmarker and direct company ATS pages.
 - Try at least two access methods for blocked sources.
-- For every URL use `curl -L` or browser/web extraction and record the verification method.
+- For every URL use `curl -L` or browser/web extraction and record the verification method. Expand dynamic sections and analyze the complete announcement semantically; do not infer validity from one compact location field.
 - Verify the posting date from JSON-LD or visible source text.
 - Verify the German legal entity from Impressum/Handelsregister/legal page.
-- If evidence is ambiguous, reject the row instead of guessing.
+- If evidence is ambiguous, do not guess: retain a proven target-city/remote opportunity as `PARTIAL` with `Unknown` only for genuinely unresolved mode or identity, rather than rejecting it because the portal format is unusual.
 
 ## Sources
 
