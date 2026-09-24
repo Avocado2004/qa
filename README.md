@@ -68,7 +68,7 @@ Target-city and confirmed Germany-wide Remote vacancies remain in their matching
 | PARTIAL-080 | [SDV Architekt Test & vECU (Cloud, KI, QS-Strategie)](https://www.linkedin.com/jobs/view/4402988237) | MHP – A Porsche Company | Dresden | 2026-09-12 | Unknown | 80 |
 | QADE-769EF4FD7445 | [QA-Engineer (w/m/d)](https://de.linkedin.com/jobs/view/qa-engineer-w-m-d-at-supplyon-4462956289) | SupplyOn GmbH | Dresden | 2026-09-10 | Hybrid | 12, 86 |
 ## Verification
-- `PASS` rows have stable semantic IDs and are deduplicated by employer plus requisition/role identity. Confirmed Germany-wide Remote vacancies are included even when the portal normalizes the location to `Germany`.
+- `PASS` rows have stable semantic IDs and are deduplicated by semantic vacancy identity: legal employer plus requisition/role identity. Confirmed Germany-wide Remote vacancies are included even when the portal normalizes the location to `Germany`.
 - `PARTIAL` rows remain on the mandatory next-run review list and stay in their matching category when the full announcement proves a target-city option. Work mode may remain `Unknown`; this alone does not move a row to a separate rejection block.
 - `Onsite/Hybrid` accepted only in Berlin, Leipzig or Dresden; Remote requires explicit Germany-wide eligibility.
 - `ID` for accepted rows is the stable `QADE-...` semantic ID; `PARTIAL-###` is only an audit placeholder.

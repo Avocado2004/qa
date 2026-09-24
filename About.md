@@ -6,7 +6,9 @@ Maintain a daily-updated markdown list of unique, verified QA/test vacancies in 
 
 ## Acceptance criteria
 
-A vacancy is included only if all conditions are met:
+The pipeline first reads and semantically analyzes the complete announcement, because wording and formats differ across portals. Keyword, title, URL-slug, regex and compact-field matches may discover candidates but cannot independently accept or reject a vacancy.
+
+A vacancy is rendered publicly as `PASS` only if all required conditions are met. A vacancy with a proven QA/test role and a proven eligible location/work-mode option is retained as `PARTIAL` when a secondary evidence gate remains unresolved; formatting differences, compact location fields and unknown work mode are not rejection reasons.
 
 - Role is QA/test-related: Manual WEB QA, Software Test, Test Automation, Gamedev QA, Game QA, QA Localization or a semantically equivalent testing role.
 - The employer has a German legal entity, verified through Impressum, Handelsregister or an official company legal page.
@@ -20,7 +22,7 @@ A vacancy is included only if all conditions are met:
 - Hybrid is rejected outside Berlin, Leipzig and Dresden.
 - A generic `Germany` location without explicit remote eligibility is rejected.
 - Unclear mode in a confirmed target-city vacancy is retained as `Unknown`; a nonstandard format, compressed location field, or missing dedicated city field is not itself a rejection. Reject only when the complete announcement proves that no target city or Germany-wide remote option exists.
-- Vacancies are deduplicated by URL and by normalized `company + title`.
+- Vacancies are deduplicated first by exact URL and then by semantic vacancy identity: normalized German legal employer plus official requisition ID when available; otherwise normalized employer + role core + seniority + accepted eligibility scope. Different legal employers are never duplicates merely because titles match. Distinct requisitions at the same employer are not duplicates.
 
 ## Output format
 
@@ -28,13 +30,14 @@ The public list preserves the four original category blocks: Manual WEB QA Engin
 
 ## Daily pipeline
 
-1. Create or update `SPEC.md` with the hard acceptance gate.
-2. Run parallel workers for Berlin, Leipzig, Dresden and Germany-wide Remote scopes.
-3. Require workers to submit only accepted rows; rejected and near-miss candidates stay in rejected logs.
-4. Parse, validate, deduplicate and independently verify every candidate.
-5. Compare URLs with the accumulated known-URL database.
-6. Archive the previous published master before replacing it.
-7. Write the new master and `result.md`, then publish to GitHub.
+1. Create or update `SPEC.md` with the recall-oriented semantic gate, including the six evidence gates and the `PASS`/`PARTIAL`/`REJECT` state machine.
+2. Before changing the accepted set, extract every unique vacancy URL from all README.md commits in GitHub history and semantically re-audit the full set; historical rows must not disappear silently during filter or source changes.
+3. Run parallel workers for Berlin, Leipzig, Dresden and Germany-wide Remote scopes. Workers submit `PASS` candidates and all recall-oriented `PARTIAL` candidates; they must not reject solely because a secondary gate is unresolved or portal formatting is unusual.
+4. Parse and validate the complete announcement semantically, then independently verify every candidate. Analyze all location/work-mode blocks: if Berlin, Leipzig or Dresden appears anywhere in a multi-location offer, canonicalize `Location` to one matching target city and keep the vacancy in its role category.
+5. Compare exact URLs and semantic vacancy identities with the accumulated known-URL database. Re-fetch every old URL before removal; portal URLs may have expired or retargeted to another vacancy, so a URL alone is never proof of continuing availability.
+6. Deduplicate by exact URL and semantic vacancy identity, preserving all alternate source URLs in `url_index`; never merge distinct employers or distinct requisitions merely because titles match.
+7. Recheck every carried-forward `PARTIAL` record before searching for new candidates. Promote only when all required gates are affirmatively proven; otherwise retain it in the proper category when a target-city option is proven.
+8. Archive the previous published master before replacing it, run the final verifier, and write the new master, `result.md`, and GitHub `README.md` with identical row sets.
 
 ## Archive and repeat rule
 
@@ -52,7 +55,9 @@ Never overwrite an existing dated archive. Keep an accumulated known-URL databas
 - For every URL use `curl -L` or browser/web extraction and record the verification method. Expand dynamic sections and analyze the complete announcement semantically; do not infer validity from one compact location field.
 - Verify the posting date from JSON-LD or visible source text.
 - Verify the German legal entity from Impressum/Handelsregister/legal page.
-- If evidence is ambiguous, do not guess: retain a proven target-city/remote opportunity as `PARTIAL` with `Unknown` only for genuinely unresolved mode or identity, rather than rejecting it because the portal format is unusual.
+- If evidence is ambiguous, do not guess. The decision is recall-oriented: preserve a proven target-city or Germany-wide remote opportunity as `PARTIAL` when a secondary evidence gate is unresolved, instead of rejecting it because the portal format is unusual or a compact field omits information.
+- For multi-location postings, accept the opportunity when any applicable work-location block includes Berlin, Leipzig or Dresden. Canonicalize the public `Location` to one matching target city. A city merely described as “bei Dresden” is not Dresden and must not be treated as an exact target city.
+- Before rejecting an existing row because its portal returned 404/410, retargeted, or lost the original card, try at least two independent access methods and inspect the full current page. Reject only when the identity is proven lost or the current evidence affirmatively fails a gate. If identity cannot be established, retain the historical opportunity as `PARTIAL` with an audit note.
 
 ## Sources
 
@@ -68,23 +73,28 @@ Never overwrite an existing dated archive. Keep an accumulated known-URL databas
 ## Pipeline schedule and maintenance
 
 - Daily cron runs the full pipeline and stores a dated run log.
-- A run is complete only after the final master passes the location/work-mode gate, link checks, deduplication, date checks and table validation.
+- A run is complete only after the final master passes full-announcement semantic validation, exact-URL and semantic-identity deduplication, evidence-state checks, link identity checks and table validation. Regex, keyword, URL-slug and compact-field matches are discovery aids only; they cannot independently accept or reject a vacancy.
 - Published files must be synchronized between the project master, `result.md` and GitHub `README.md`.
 - Keep dated historical masters; do not delete them.
 
 ## Verification checklist
 
-- [ ] SPEC exists and contains the exact acceptance gate.
-- [ ] All five worker scopes completed.
+- [ ] SPEC contains the recall-oriented semantic gate and the PASS/PARTIAL/REJECT state machine.
+- [ ] All worker scopes completed; workers submitted both PASS and recall-oriented PARTIAL candidates.
+- [ ] Every unique URL from GitHub README history was included in the historical re-audit before the accepted set was changed.
+- [ ] Every candidate was evaluated from the complete announcement, including all location/work-mode blocks.
+- [ ] A multi-location vacancy with any exact Berlin, Leipzig, or Dresden option is in the matching category; “bei Dresden” was not normalized as Dresden.
 - [ ] Every accepted row has a clickable direct URL.
 - [ ] Every row has seven columns (`ID`, `Position`, `Company`, `Location`, `Posted`, `Work mode`, `URL index`).
 - [ ] `Hybrid` appears only in Berlin, Leipzig or Dresden.
 - [ ] `Onsite` appears only in Berlin, Leipzig or Dresden.
 - [ ] Remote rows have explicit Germany-wide eligibility.
-- [ ] All rows are posted within 30 days.
-- [ ] German legal entity is evidenced.
-- [ ] URLs and semantic duplicates are verified.
+- [ ] PASS rows meet all required gates; unresolved secondary evidence is represented as PARTIAL rather than silently rejected.
+- [ ] German legal entity is evidenced for PASS; missing legal-entity proof is recorded as the unresolved gate for PARTIAL.
+- [ ] Exact-URL and semantic-identity duplicates are verified; alternate URLs are retained in `url_index`.
+- [ ] Retargeted, expired, and identity-ambiguous URLs were checked through at least two access methods before removal.
 - [ ] Row-level provenance coverage is 100%.
+- [ ] Every carried-forward PARTIAL was rechecked and carry-forward/promoted/retained/rejected counts were reported.
 - [ ] Previous master is archived before replacement.
-- [ ] Final master, result.md and GitHub README are synchronized.
+- [ ] Final master, result.md and GitHub README have identical row sets and are synchronized.
 - [ ] Search continues until two consecutive complete passes produce zero new unique vacancies.
