@@ -1,46 +1,49 @@
-# QA Engineer Vacancies in Germany — 2026-10-13
+# QA Engineer Vacancies in Germany — 2026-10-14
 
-**Vacancies listed: 52**
+**Vacancies listed: 55**
 
 ## 1. Manual WEB QA Engineer (0)
 
 | # | Position | Company | Location | Posted | Work mode | Verification |
 |---:|---|---|---|---|---|---|
 
-## 2. Software Test Engineer (7)
+## 2. Software Test Engineer (15)
 
 | # | Position | Company | Location | Posted | Work mode | Verification |
 |---:|---|---|---|---|---|---|
-| 1 | [Senior QA Engineer - Hybrid](https://www.arbeitsagentur.de/jobsuche/jobdetail/17338-4d1d7c4676e6690688-S) | Communi5 Technologies GmbH | Berlin, Berlin, DE | 2026-09-20 | Hybrid | Current |
-| 2 | [QA Engineer (Ultimate team) (m/f/d)](https://www.arbeitsagentur.de/jobsuche/jobdetail/10001-1003780573-S) | JetBrains GmbH | Berlin, Berlin, DE (also München) | 2026-09-29 | Hybrid | Current |
-| 3 | [Senior Test Manager, ZEOS (all genders)](https://www.arbeitsagentur.de/jobsuche/jobdetail/18251-33241-S) | Zalando SE | Berlin, Berlin, DE | 2026-09-19 | Hybrid | Current |
-| 4 | [Embedded Test Automation Engineer (m/w/d)](https://www.arbeitsagentur.de/jobsuche/jobdetail/13645-286702-S) | grey engineering | Berlin | 2026-09-17 | Hybrid | Current |
-| 5 | [Testarchitekt:in / Senior Test Ops Engineer:in (all genders) - 4 Jahre befristet](https://www.arbeitsagentur.de/jobsuche/jobdetail/10001-1003778698-S) | gematik GmbH | Berlin | 2026-09-29 | Remote | Current |
-| 6 | [Testingenieur (m/w/d) Embedded Systems](https://www.arbeitsagentur.de/jobsuche/jobdetail/19821-2CBZ4N28SNHSIY8W-S) | Schmitt GmbH | Berlin, Germany | 2026-09-16 | Hybrid | Current |
-| 7 | [Staff Engineer Component Verification (f/m/div)](https://www.arbeitsagentur.de/jobsuche/jobdetail/12874-1576518-2-S) | Infineon Technologies Dresden AG & Co. KG | Dresden, Sachsen, DE | 2026-09-28 | Onsite | Current |
+| 1 | [Senior QA Engineer - Hybrid](https://www.arbeitsagentur.de/jobsuche/jobdetail/17338-4d1d7c4676e6690688-S) | Communi5 Technologies GmbH | Berlin, Berlin, DE | 2026-09-20 | Unknown | Current |
+| 2 | [QA Engineer (Ultimate team) (m/f/d)](https://www.arbeitsagentur.de/jobsuche/jobdetail/10001-1003780573-S) | JetBrains GmbH | Berlin, Berlin, DE | 2026-09-29 | Unknown | Current |
+| 3 | [Senior Test Manager, ZEOS (all genders)](https://www.arbeitsagentur.de/jobsuche/jobdetail/18251-33241-S) | Zalando SE | Berlin, Berlin, DE | 2026-09-19 | Unknown | Current |
+| 4 | [Cell Test Technician/Zelltesttechniker, Tesla Engineering Germany (m/f/d)](https://www.arbeitsagentur.de/jobsuche/jobdetail/15158-2026284385-S) | Tesla Germany GmbH | Berlin, Berlin, DE | 2026-09-25 | Unknown | Current |
+| 5 | [Testarchitekt:in / Senior Test Ops Engineer:in (all genders) - 4 Jahre befristet](https://www.arbeitsagentur.de/jobsuche/jobdetail/10001-1003778698-S) | gematik GmbH | Berlin, Berlin, DE | 2026-09-29 | Hybrid | Current |
+| 6 | [Senior Test- und Validierungsingenieur:in für Netzschutztechnik (m/w/d)](https://www.arbeitsagentur.de/jobsuche/jobdetail/12117-YF-51982-YF-S) | Sprecher Automation Deutschland GmbH | Berlin, Berlin, DE | 2026-10-12 | Onsite | Current |
+| 7 | [IT Expert Testautomatisierung (m/w/d)](https://www.arbeitsagentur.de/jobsuche/jobdetail/12336-a26f539j0455719-S) | BWI GmbH | Berlin, Berlin, DE | 2026-10-07 | Unknown | Current |
+| 8 | [Spezialist (m/w/d) Testautomatisierung,Bamberg,Berlin,Eltville am Rhein,München](https://www.arbeitsagentur.de/jobsuche/jobdetail/12811-2344134-S) | medatixx | Berlin, Berlin, DE | 2026-09-25 | Unknown | Current |
+| 9 | [Testingenieur (m/w/d) Embedded Systems](https://www.arbeitsagentur.de/jobsuche/jobdetail/19821-2CBZ4N28SNHSIY8W-S) | Schmitt GmbH | Berlin, Berlin, DE | 2026-09-16 | Unknown | Current |
+| 10 | [Testingenieur (w/m/d)](https://www.arbeitsagentur.de/jobsuche/jobdetail/12362-TR-247865_626166LS-S) | Brunel GmbH NL Berlin | Berlin, Berlin, DE | 2026-10-13 | Unknown | Current |
+| 11 | [Versuchsingenieur (m/w/d)](https://www.arbeitsagentur.de/jobsuche/jobdetail/12265-485458_JB5268095-S) | FERCHAU GmbH Niederlassung Berlin | Berlin, Berlin, DE | 2026-10-09 | Unknown | Current |
+| 12 | [(Senior-) Testautomatisierungsarchitekt (m/w/d)](https://www.arbeitsagentur.de/jobsuche/jobdetail/12288-4934577046-S) | SINC GmbH | Leipzig, Sachsen, DE | 2026-09-14 | Unknown | Current |
+| 13 | [Staff Engineer Component Verification (f/m/div)](https://www.arbeitsagentur.de/jobsuche/jobdetail/12874-1576518-2-S) | Infineon Technologies Dresden AG & Co. KG | Dresden, Sachsen, DE | 2026-09-28 | Unknown | Current |
+| 14 | [SPEKTRA Schwingungstechnik und Akustik GmbH Dresden: Test Automation Engineer (Embedded & HIL) (m/w/](https://www.arbeitsagentur.de/jobsuche/jobdetail/11956-3077971791842400-S) | SPEKTRA Schwingungstechnik und Akustik GmbH Dresden | Dresden, Sachsen, DE | 2026-10-13 | Unknown | Current |
+| 15 | [Quality Assurance Manager (m/w/d)](https://www.stepstone.de/stellenangebote--Quality-Assurance-Manager-m-w-d-Berlin-Traffics-Softwaresysteme-fuer-den-Tourismus-GmbH--14601752-inline.html) | Traffics Softwaresysteme für den Tourismus GmbH | Berlin, DE | 2026-10-13 | Unknown | Current |
 
 ## 3. Gamedev QA Engineer (0)
 
 | # | Position | Company | Location | Posted | Work mode | Verification |
 |---:|---|---|---|---|---|---|
 
-## 4. Other QA Roles (0)
+## 4. Other QA Roles (3)
 
 | # | Position | Company | Location | Posted | Work mode | Verification |
 |---:|---|---|---|---|---|---|
+| 1 | [NTT DATA Deutschland SE: Lead Cloud Software Architect für Microsoft Azure (w/m/x)](https://www.arbeitsagentur.de/jobsuche/jobdetail/19913-3001141790200801-S) | NTT DATA Deutschland SE | Berlin, Berlin, DE | 2026-09-24 | Unknown | Current |
+| 2 | [Application & Test Engineer (w/m/d)](https://www.arbeitsagentur.de/jobsuche/jobdetail/13645-286178-S) | Amphenol AOP | Berlin, Berlin, DE | 2026-10-05 | Unknown | Current |
+| 3 | [Embedded Test Automation Engineer (m/w/d)](https://www.arbeitsagentur.de/jobsuche/jobdetail/13645-286702-S) | grey engineering | Berlin, Berlin, DE | 2026-09-17 | Unknown | Current |
 
-## Partially verified (8)
+## Partially verified (0)
 
 | # | Position | Company | Location | Posted | Work mode | Verification |
 |---:|---|---|---|---|---|---|
-| 1 | [Senior Test Automation Engineer - BundesMessenger (m/w/d)](https://www.arbeitsagentur.de/jobsuche/jobdetail/12336-a26f539j0455237-S) | BWI GmbH | Hamburg, Berlin, Frankfurt, München, etc. | 2026-10-08 | Unknown | Current / Partial |
-| 2 | [IT Expert Testautomatisierung (m/w/d)](https://www.arbeitsagentur.de/jobsuche/jobdetail/12336-a26f539j0455719-S) | BWI GmbH | Berlin, Germany | 2026-10-07 | Unknown | Current / Partial |
-| 3 | [Spezialist (m/w/d) Testautomatisierung,Bamberg,Berlin,Eltville am Rhein,München](https://www.arbeitsagentur.de/jobsuche/jobdetail/12811-2344134-S) | medatixx | Bamberg, Berlin, Eltville am Rhein, München, Germany | 2026-09-25 | Unknown | Current / Partial |
-| 4 | [Testingenieur Elektronik (m/w/d)](https://www.arbeitsagentur.de/jobsuche/jobdetail/12265-513961_JB5268070-S) | FERCHAU GmbH Niederlassung Berlin | Berlin, Germany | 2026-10-09 | Unknown | Current / Partial |
-| 5 | [Versuchsingenieur (m/w/d)](https://www.arbeitsagentur.de/jobsuche/jobdetail/12265-485458_JB5268095-S) | FERCHAU GmbH Niederlassung Berlin | Berlin, Germany | 2026-10-09 | Unknown | Current / Partial |
-| 6 | [(Senior-) Testautomatisierungsarchitekt (m/w/d)](https://www.arbeitsagentur.de/jobsuche/jobdetail/12288-4934577046-S) | SINC GmbH | Leipzig, Sachsen, DE | 2026-09-14 | Unknown | Current / Partial |
-| 7 | [Soloplan GmbH: Softwaretester Qualitätssicherung [m\|w\|d]](https://www.arbeitsagentur.de/jobsuche/jobdetail/11956-2108241790460001-S) | Soloplan GmbH | Dresden, Sachsen, DE | 2026-09-27 | Unknown | Current / Partial |
-| 8 | [Staff Engineer Device Analysis (f/m/div)](https://www.arbeitsagentur.de/jobsuche/jobdetail/12874-1640743-1-S) | Infineon Technologies Dresden AG & Co. KG | Dresden, Sachsen, DE | 2026-10-07 | Unknown | Current / Partial |
 
 ## Unclear (0)
 
@@ -51,10 +54,10 @@
 
 | # | Position | Company | Location | Posted | Work mode | Verification |
 |---:|---|---|---|---|---|---|
-| 1 | [Test Requirements Engineer (m/w/d)](https://www.arbeitsagentur.de/jobsuche/jobdetail/12826-SA0149301_JB5269445-S) | expertplace professionals GmbH | Berlin | 2026-10-09 | Onsite | Unverified |
-| 2 | [Teamleiter - Testautomatisierung (m/w/d)](https://www.arbeitsagentur.de/jobsuche/jobdetail/14225-e6188335f91e74dc-S) | CGM | Berlin | 2026-10-01 | Hybrid | Unverified |
-| 3 | [Elektroingenieur - Testingenieur Automatisierung (m/w/d)](https://www.arbeitsagentur.de/jobsuche/jobdetail/14225-74266402b791b4a8-S) | CGM | Berlin | 2026-10-01 | Hybrid | Unverified |
-| 4 | [Sachbearbeiterin/Sachbearbeiter (w/m/d) als Softwaretesterin/Softwaretester (w/m/d)](https://www.arbeitsagentur.de/jobsuche/jobdetail/10001-1003824730-S) | Generalzolldirektion | Dresden, Sachsen, DE | 2026-10-08 | Hybrid | Unverified |
+| 1 | [Testingenieur Elektronik (m/w/d)](https://www.arbeitsagentur.de/jobsuche/jobdetail/12265-513961_JB5268070-S) | FERCHAU GmbH Niederlassung Berlin | Berlin, Germany | 2026-10-09 | Unknown | Unverified |
+| 2 | [Test Requirements Engineer (m/w/d)](https://www.arbeitsagentur.de/jobsuche/jobdetail/12826-SA0149301_JB5269445-S) | expertplace professionals GmbH | Berlin | 2026-10-09 | Onsite | Unverified |
+| 3 | [Teamleiter - Testautomatisierung (m/w/d)](https://www.arbeitsagentur.de/jobsuche/jobdetail/14225-e6188335f91e74dc-S) | CGM | Berlin | 2026-10-01 | Hybrid | Unverified |
+| 4 | [Elektroingenieur - Testingenieur Automatisierung (m/w/d)](https://www.arbeitsagentur.de/jobsuche/jobdetail/14225-74266402b791b4a8-S) | CGM | Berlin | 2026-10-01 | Hybrid | Unverified |
 | 5 | [Continuous Manual QA Tester for Backend and API-Only European Union](https://germantechjobs.de/jobs/Neuronation-Continuous-Manual-QA-Tester-for-Backend-and-API-Only-European-Union) | Neuronation | Remote (EU) | 41 week of 2026 | Remote | Unverified |
 | 6 | [Senior QA Engineer](https://germantechjobs.de/jobs/Communi5-Technologies-GmbH-Senior-QA-Engineer) | Communi5 Technologies GmbH | Berlin, Germany | 41 week of 2026 | Onsite | Unverified |
 | 7 | [Groupware Test Engineer (m/w/d)](https://de.linkedin.com/jobs/view/groupware-test-engineer-m-w-d-at-bwi-gmbh-4467098925) | BWI GmbH | Leipzig, Germany | ca. 2026-09-21 (LinkedIn: Vor 2 Wochen) | Hybrid | Unverified |
@@ -92,13 +95,13 @@
 ## Sources
 | Source | Status | Last checked | Last successful use | Reason |
 |---|---|---|---|---|
-| LinkedIn Jobs | Not used | 2026-10-13_cycle-1 | — | preflight blocked: all independent access methods failed: Camofox preflight: no card carries vacancy body text (a title alone is not a posting) -- card-1: 'Sign in to see who you already know at CHECK24' (1964 chars); card-2: 'Sign in to see who you already know at Trading 212' (1973 chars). Listing |
-| Arbeitsagentur Jobsuche | Used | 2026-10-13_cycle-1 | 2026-10-13_cycle-1 | cards collected |
-| StepStone | Used | 2026-10-13_cycle-1 | 2026-10-13_cycle-1 | cards collected |
-| XING Jobs | Not used | 2026-10-13_cycle-1 | — | preflight blocked: all independent access methods failed: Camofox preflight: source is readable but offered no QA/test vacancy in the first two cards ('Vertriebsmitarbeiter B2B Stellenanzeigen und Social Media (m/w/d)'; 'Recruiter (m/w/d)'). Both pages opened as real postings, so this is not an acce |
-| Hitmarker | Not used | 2026-10-13_cycle-1 | — | preflight blocked: all independent access methods failed: Camofox preflight: source is readable but offered no QA/test vacancy in the first two cards ('Cookies on Hitmarker'; 'Cookies on Hitmarker'). Both pages opened as real postings, so this is not an access failure; the source stays active for a  |
-| Remotive | Not used | 2026-10-13_cycle-1 | — | preflight blocked: all independent access methods failed: 'utf-8' codec can't decode byte 0xe9 in position 1: invalid continuation byte; 'utf-8' codec can't decode byte 0xe9 in position 1: invalid continuation byte; preflight: fewer than two analyzable direct cards; Camofox HTTP 404 for POST /tabs/8 |
-| Arbeitnow Job Board API | Not used | 2026-10-13_cycle-1 | — | preflight blocked: all independent access methods failed: 'utf-8' codec can't decode byte 0x9b in position 0: invalid start byte; 'utf-8' codec can't decode byte 0x9b in position 0: invalid start byte; preflight: fewer than two analyzable direct cards; Camofox HTTP 404 for POST /tabs/94ff4eca-544b-4 |
-| GermanTechJobs | Not used | 2026-10-13_cycle-1 | — | preflight blocked: all independent access methods failed: not well-formed (invalid token): line 1, column 0; preflight: fewer than two analyzable direct cards; Camofox returned an empty snapshot |
-| EuroTechJobs Test Analyst / Germany | Not used | 2026-10-13_cycle-1 | — | preflight blocked: all independent access methods failed: preflight: source is readable but offered no QA/test vacancy in the first two cards ('Senior Software Engineer - System Test (GPU) - Arm, Lund'; 'Satellite Systems, Software & RF Production Team Lead - ICEYE, Valencia'). Both pages opened and |
-| Adzuna Deutschland | Used | 2026-10-13_cycle-1 | 2026-10-13_cycle-1 | cards collected |
+| LinkedIn Jobs | Not used | 2026-10-13_cycle-3 | — | preflight blocked: all independent access methods failed: Camofox preflight: no card carries vacancy body text (a title alone is not a posting) -- card-1: 'Sign in to see who you already know at CHECK24' (1965 chars); card-2: 'Sign in to see who you already know at Shopware' (2013 chars). Listing of |
+| Arbeitsagentur Jobsuche | Used | 2026-10-13_cycle-3 | 2026-10-13_cycle-3 | cards collected |
+| StepStone | Used | 2026-10-13_cycle-3 | 2026-10-13_cycle-3 | cards collected |
+| XING Jobs | Not used | 2026-10-13_cycle-3 | — | preflight blocked: all independent access methods failed: Camofox preflight: source is readable but offered no QA/test vacancy in the first two cards ('Sales Manager (m/w/d) digitale Recruitinglösungen'; 'Recruiter (m/w/d)'). Both pages opened as real postings, so this is not an access failure; the  |
+| Hitmarker | Not used | 2026-10-13_cycle-3 | — | preflight blocked: all independent access methods failed: Camofox preflight: source is readable but offered no QA/test vacancy in the first two cards ('Cookies on Hitmarker'; 'Cookies on Hitmarker'). Both pages opened as real postings, so this is not an access failure; the source stays active for a  |
+| Remotive | Used | 2026-10-13_cycle-3 | 2026-10-13_cycle-3 | cards collected |
+| Arbeitnow Job Board API | Used | 2026-10-13_cycle-3 | 2026-10-13_cycle-3 | cards collected |
+| GermanTechJobs | Used | 2026-10-13_cycle-3 | 2026-10-13_cycle-3 | cards collected |
+| EuroTechJobs Test Analyst / Germany | Not used | 2026-10-13_cycle-3 | — | preflight blocked: all independent access methods failed: preflight: source is readable but offered no QA/test vacancy in the first two cards ('Senior Software Engineer - SoC SW Productisation - Arm, Sophia Antipolis'; 'Senior Software Engineer - System Test (GPU) - Arm, Lund'). Both pages opened an |
+| Adzuna Deutschland | Used | 2026-10-13_cycle-3 | 2026-10-13_cycle-3 | cards collected |
