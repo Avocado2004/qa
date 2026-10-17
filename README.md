@@ -1,6 +1,6 @@
-# QA Engineer Vacancies in Germany — 2026-10-16
+# QA Engineer Vacancies in Germany — 2026-10-17
 
-**Vacancies listed: 62**
+**Vacancies listed: 60**
 
 ## 1. Manual WEB QA Engineer (0)
 
@@ -11,10 +11,10 @@
 
 | # | Position | Company | Location | Posted | Work mode | Verification |
 |---:|---|---|---|---|---|---|
-| 1 | [Senior QA Engineer - Hybrid](https://www.arbeitsagentur.de/jobsuche/jobdetail/17338-4d1d7c4676e6690688-S) | Communi5 Technologies GmbH | Berlin, Berlin, DE | 2026-09-20 | Hybrid | Current |
-| 2 | [QA Engineer (Ultimate team) (m/f/d)](https://www.arbeitsagentur.de/jobsuche/jobdetail/10001-1003780573-S) | JetBrains GmbH | Berlin, Berlin, DE | 2026-09-29 | Hybrid | Current |
+| 1 | [QA Engineer (Ultimate team) (m/f/d)](https://www.arbeitsagentur.de/jobsuche/jobdetail/10001-1003780573-S) | JetBrains GmbH | Berlin, Berlin, DE | 2026-09-29 | Hybrid | Current |
+| 2 | [Embedded Test Automation Engineer (m/w/d)](https://www.arbeitsagentur.de/jobsuche/jobdetail/13645-286702-S) | grey engineering | Berlin, Berlin, DE | 2026-09-17 | Hybrid | Current |
 | 3 | [Test Requirements Engineer (m/w/d) Funkkommunikation](https://www.arbeitsagentur.de/jobsuche/jobdetail/10001-1003839002-S) | expertplace professionals GmbH | Berlin, Germany | 2026-10-12 | Hybrid | Current |
-| 4 | [IT Expert Testautomatisierung (m/w/d)](https://www.arbeitsagentur.de/jobsuche/jobdetail/12336-a26f539j0455719-S) | BWI GmbH | Berlin, Berlin, DE | 2026-10-07 | Unknown | Current |
+| 4 | [Spezialist (m/w/d) Testautomatisierung](https://www.arbeitsagentur.de/jobsuche/jobdetail/12811-2344134-S) | medatixx | Bamberg, Berlin, Eltville am Rhein, München, Germany | 2026-09-25 | Unknown | Current |
 | 5 | [Testarchitekt:in / Senior Test Ops Engineer:in (all genders) - 4 Jahre befristet](https://www.arbeitsagentur.de/jobsuche/jobdetail/10001-1003778698-S) | gematik GmbH | Berlin, Berlin, DE | 2026-09-29 | Hybrid | Current |
 | 6 | [Staff Engineer Component Verification (f/m/div)](https://www.arbeitsagentur.de/jobsuche/jobdetail/12874-1576518-2-S) | Infineon Technologies Dresden AG & Co. KG | Dresden, Sachsen, DE | 2026-09-28 | Onsite | Current |
 | 7 | [Sachbearbeiterin/Sachbearbeiter (w/m/d) als Softwaretesterin/Softwaretester (w/m/d)](https://www.arbeitsagentur.de/jobsuche/jobdetail/10001-1003824730-S) | Generalzolldirektion | Dresden, Sachsen, DE (also Bonn, Nürnberg, Weiden) | 2026-10-08 | Hybrid | Current |
@@ -25,24 +25,22 @@
 | # | Position | Company | Location | Posted | Work mode | Verification |
 |---:|---|---|---|---|---|---|
 
-## 4. Other QA Roles (6)
+## 4. Other QA Roles (5)
 
 | # | Position | Company | Location | Posted | Work mode | Verification |
 |---:|---|---|---|---|---|---|
-| 1 | [Application & Test Engineer (w/m/d)](https://www.arbeitsagentur.de/jobsuche/jobdetail/13645-286178-S) | Amphenol AOP | Berlin, Berlin, DE | 2026-10-05 | Unknown | Current |
-| 2 | [Embedded Test Automation Engineer (m/w/d)](https://www.arbeitsagentur.de/jobsuche/jobdetail/13645-286702-S) | grey engineering | Berlin, Berlin, DE | 2026-09-17 | Unknown | Current |
-| 3 | [Testingenieur (m/w/d) Embedded Systems](https://www.arbeitsagentur.de/jobsuche/jobdetail/19821-2CBZ4N28SNHSIY8W-S) | Schmitt GmbH | Berlin, Berlin, DE | 2026-09-16 | Unknown | Current |
-| 4 | [Senior Engineer QA/QC - CSA (m/f/d)](https://www.arbeitsagentur.de/jobsuche/jobdetail/18069-44471316-928-S) | exyte Management GmbH | Dresden, Sachsen, DE | 2026-09-29 | Unknown | Current |
-| 5 | [BIM Coordinator (m/f/d)](https://www.arbeitsagentur.de/jobsuche/jobdetail/18069-44464301-924-S) | exyte Management GmbH | Dresden, Sachsen, DE | 2026-09-25 | Unknown | Current |
-| 6 | [Staff Engineer Device Analysis (f/m/div)](https://www.arbeitsagentur.de/jobsuche/jobdetail/12874-1640743-1-S) | Infineon Technologies Dresden AG & Co. KG | Dresden, Sachsen, DE | 2026-10-07 | Unknown | Current |
+| 1 | [Senior QA Engineer - Hybrid](https://www.arbeitsagentur.de/jobsuche/jobdetail/17338-4d1d7c4676e6690688-S) | Communi5 Technologies GmbH | Berlin, Berlin, DE | 2026-09-20 | Unknown | Current |
+| 2 | [Senior Softwareentwickler Java / Spring Boot (m/w/d)](https://www.arbeitsagentur.de/jobsuche/jobdetail/10001-1003729367-S) | Gesellschaft zur Verwertung von Leistungsschutzrechten mbH | Berlin, Berlin, DE | 2026-09-18 | Unknown | Current |
+| 3 | [Application & Test Engineer (w/m/d)](https://www.arbeitsagentur.de/jobsuche/jobdetail/13645-286178-S) | Amphenol AOP | Berlin, Berlin, DE | 2026-10-05 | Unknown | Current |
+| 4 | [Robotron Datenbank-Software GmbH: Softwareentwickler Oracle APEX (m/w/d)](https://www.arbeitsagentur.de/jobsuche/jobdetail/20808-3037231790719201-S) | Robotron Datenbank Software GmbH | Dresden, Sachsen, DE | 2026-09-30 | Unknown | Current |
+| 5 | [Staff Engineer Device Analysis (f/m/div)](https://www.arbeitsagentur.de/jobsuche/jobdetail/12874-1640743-1-S) | Infineon Technologies Dresden AG & Co. KG | Dresden, Sachsen, DE | 2026-10-07 | Unknown | Current |
 
-## Partially verified (3)
+## Partially verified (2)
 
 | # | Position | Company | Location | Posted | Work mode | Verification |
 |---:|---|---|---|---|---|---|
-| 1 | [Spezialist (m/w/d) Testautomatisierung](https://www.arbeitsagentur.de/jobsuche/jobdetail/12811-2344134-S) | medatixx | Bamberg, Berlin, Eltville am Rhein, München, Germany | 2026-09-25 | Unknown | Current / Partial |
+| 1 | [Cookies on Hitmarker](https://hitmarker.net/jobs/black-soup-marketing-graphic-design-5154682) | Realistic 3D Characters Art Director at Room 8 Group | Unknown | Unknown | Remote | Current / Partial |
 | 2 | [Cookies on Hitmarker](https://hitmarker.net/jobs/astronomad-studios-senior-level-designer-5172031) | AstroNomad Studios | Unknown | Unknown | Remote | Current / Partial |
-| 3 | [Cookies on Hitmarker](https://hitmarker.net/jobs/black-soup-marketing-graphic-design-5154682) | Realistic 3D Characters Art Director at Room 8 Group | Unknown | Unknown | Remote | Current / Partial |
 
 ## Unclear (0)
 
@@ -53,7 +51,7 @@
 
 | # | Position | Company | Location | Posted | Work mode | Verification |
 |---:|---|---|---|---|---|---|
-| 1 | [Senior Test- und Validierungsingenieur:in für Netzschutztechnik (m/w/d)](https://www.arbeitsagentur.de/jobsuche/jobdetail/12117-YF-51982-YF-S) | Sprecher Automation Deutschland GmbH | Berlin, Berlin, DE | 2026-10-12 | Unknown | Unverified |
+| 1 | [IT Expert Testautomatisierung (m/w/d)](https://www.arbeitsagentur.de/jobsuche/jobdetail/12336-a26f539j0455719-S) | BWI GmbH | Berlin, Berlin, DE | 2026-10-07 | Unknown | Unverified |
 | 2 | [Software QA Test Engineer (m/w/d)](https://www.stepstone.de/stellenangebote--Software-QA-Test-Engineer-m-w-d-Stuttgart-Aveyara-Software-GmbH--13688522-inline.html) | Aveyara Software GmbH | Stuttgart, Germany | 2026-10-10 (portal: vor 4 Tagen) | Remote | Unverified |
 | 3 | [Quality Assurance Manager (m/w/d)](https://www.stepstone.de/stellenangebote--Quality-Assurance-Manager-m-w-d-Berlin-Traffics-Softwaresysteme-fuer-den-Tourismus-GmbH--14601752-inline.html) | Traffics Softwaresysteme für den Tourismus GmbH | Berlin, DE | 2026-10-13 | Hybrid | Unverified |
 | 4 | [QA Engineer - Filialsysteme (m/w/d)](https://www.stepstone.de/stellenangebote--QA-Engineer-Filialsysteme-m-w-d-Ulm-Mueller-Holding-GmbH-Co-KG--14529940-inline.html) | Müller Holding GmbH & Co. KG | Ulm | vor 1 Woche | Hybrid | Unverified |
@@ -102,17 +100,16 @@
 ## Sources
 | Source | Status | Last checked | Last successful use | Reason |
 |---|---|---|---|---|
-| Indeed Deutschland | Not used | 2026-10-16_cycle-1 | — | all independent access methods failed: preflight: no card carries vacancy body text (a title alone is not a posting) -- 2 opened but all are indexes/teasers (card-1: 'QA Lead' (0 chars); card-2: 'QA Automation Engineer' (0 chars)). About.md requires two analyzable vacancy cards.; preflight: fewer th |
-| LinkedIn Jobs | Not used | 2026-10-16_cycle-1 | — | all independent access methods failed: Camofox preflight: no card carries vacancy body text (a title alone is not a posting) -- card-1: 'Sign in to see who you already know at CHECK24' (2012 chars); card-2: 'Sign in to see who you already know at Shopware' (2014 chars). Listing offered 10 direct lin |
-| Arbeitsagentur Jobsuche | Used | 2026-10-16_cycle-1 | 2026-10-16_cycle-1 | cards collected |
-| StepStone | Not used | 2026-10-16_cycle-1 | — | worker access methods failed: Camofox HTTP 404 for POST /tabs/518a215e-baf9-4cb2-a169-c435996ebb73/navigate: {"error":"Tab not found"}; preflight: fewer than two analyzable direct cards; preflight: no card carries vacancy body text (a title alone is not a posting) -- 2 opened but all are indexes/tea |
-| XING Jobs | Used | 2026-10-16_cycle-1 | 2026-10-16_cycle-1 | cards collected |
-| Hitmarker | Used | 2026-10-16_cycle-1 | 2026-10-16_cycle-1 | cards collected |
-| Remotive | Not used | 2026-10-16_cycle-1 | — | all independent access methods failed: 'utf-8' codec can't decode byte 0x8b in position 0: invalid start byte; 'utf-8' codec can't decode byte 0xe8 in position 1: invalid continuation byte; preflight: fewer than two analyzable direct cards; Camofox returned an empty snapshot |
-| Arbeitnow Job Board API | Not used | 2026-10-16_cycle-1 | — | all independent access methods failed: 'utf-8' codec can't decode byte 0x9b in position 0: invalid start byte; 'utf-8' codec can't decode byte 0x9b in position 0: invalid start byte; preflight: fewer than two analyzable direct cards; Camofox preflight: fewer than two analyzable direct cards |
-| GermanTechJobs | Not used | 2026-10-16_cycle-1 | — | all independent access methods failed: not well-formed (invalid token): line 1, column 0; preflight: fewer than two analyzable direct cards; Camofox HTTP 404 for POST /tabs/8eb7c510-709c-4116-8502-9e5925ece690/navigate: {"error":"Tab not found"} |
-| EuroTechJobs Test Analyst / Germany | Used | 2026-10-16_cycle-1 | 2026-10-16_cycle-1 | cards collected |
-| Adzuna Deutschland | Used | 2026-10-16_cycle-1 | 2026-10-16_cycle-1 | cards collected |
-| Glassdoor Deutschland | Not used | 2026-10-16_cycle-1 | — | all independent access methods failed: preflight: fewer than two analyzable direct cards; preflight: fewer than two analyzable direct cards; preflight: no card carries vacancy body text (a title alone is not a posting) -- 2 opened but all are indexes/teasers (card-1: 'Zum Inhalt springen' (0 chars); |
-| Monster Deutschland | Not used | 2026-10-16_cycle-1 | — | all independent access methods failed: preflight: fewer than two analyzable direct cards; preflight: fewer than two analyzable direct cards; Crawl4AI failed after 3 attempts: rc=1  × https://www.monster.de/...ineer&where=Deutschland  \| Error: Blocked by anti-bot protection: DataDome captcha 
-[COMPLE |
+| Indeed Deutschland | Not used | 2026-10-17_cycle-1 | — | preflight blocked: all independent access methods failed: preflight: no card carries vacancy body text (a title alone is not a posting) -- 2 opened but all are indexes/teasers (card-1: 'Qualitätsingenieur KI-Fokus / Quality Engineer (AI-augmented) (m/w/d) IT-Consulting' (0 chars); card-2: '(Senior)  |
+| LinkedIn Jobs | Not used | 2026-10-17_cycle-1 | — | preflight blocked: all independent access methods failed: Camofox preflight: no card carries vacancy body text (a title alone is not a posting) -- card-1: 'Sign in to see who you already know at CHECK24' (2006 chars); card-2: 'Sign in to see who you already know at Shopware' (1967 chars). Listing of |
+| Arbeitsagentur Jobsuche | Used | 2026-10-17_cycle-1 | 2026-10-17_cycle-1 | cards collected |
+| StepStone | Not used | 2026-10-17_cycle-1 | — | preflight blocked: all independent access methods failed: preflight: fewer than two analyzable direct cards; preflight: no card carries vacancy body text (a title alone is not a posting) -- 2 opened but all are indexes/teasers (card-1: 'QA Engineer (m/w/d)' (0 chars); card-2: 'QA Engineer (gn)' (0 c |
+| XING Jobs | Used | 2026-10-17_cycle-1 | 2026-10-17_cycle-1 | cards collected |
+| Hitmarker | Used | 2026-10-17_cycle-1 | 2026-10-17_cycle-1 | cards collected |
+| Remotive | Not used | 2026-10-17_cycle-1 | — | preflight blocked: all independent access methods failed: 'utf-8' codec can't decode byte 0xb5 in position 1: invalid start byte; 'utf-8' codec can't decode byte 0xb5 in position 1: invalid start byte; preflight: fewer than two analyzable direct cards; Camofox HTTP 404 for POST /tabs/81faad2e-df87-4 |
+| Arbeitnow Job Board API | Not used | 2026-10-17_cycle-1 | — | preflight blocked: all independent access methods failed: 'utf-8' codec can't decode byte 0xcb in position 0: invalid continuation byte; 'utf-8' codec can't decode byte 0xcb in position 0: invalid continuation byte; preflight: fewer than two analyzable direct cards; Camofox HTTP 404 for POST /tabs/2 |
+| GermanTechJobs | Not used | 2026-10-17_cycle-1 | — | preflight blocked: all independent access methods failed: not well-formed (invalid token): line 1, column 0; preflight: fewer than two analyzable direct cards; Camofox returned an empty snapshot |
+| EuroTechJobs Test Analyst / Germany | Used | 2026-10-17_cycle-1 | 2026-10-17_cycle-1 | cards collected |
+| Adzuna Deutschland | Used | 2026-10-17_cycle-1 | 2026-10-17_cycle-1 | cards collected |
+| Glassdoor Deutschland | Not used | 2026-10-17_cycle-1 | — | preflight blocked: all independent access methods failed: preflight: fewer than two analyzable direct cards; preflight: fewer than two analyzable direct cards; preflight: no card carries vacancy body text (a title alone is not a posting) -- 2 opened but all are indexes/teasers (card-1: 'Zum Inhalt s |
+| Monster Deutschland | Not used | 2026-10-17_cycle-1 | — | preflight blocked: all independent access methods failed: preflight: fewer than two analyzable direct cards; preflight: fewer than two analyzable direct cards; Crawl4AI failed after 3 attempts: rc=1  × https://www.monster.de/...ineer&where=Deutschland  \| Error: Blocked by anti-bot protection: DataDo |
