@@ -350,9 +350,10 @@
       "adapter_version": 1,
       "config": {
         "listing_urls": [
-          "https://www.stepstone.de/jobs/berlin?q=QA",
-          "https://www.stepstone.de/jobs/leipzig?q=QA",
-          "https://www.stepstone.de/jobs/dresden?q=QA"
+          "https://www.stepstone.de/stellenangebote/berlin/qa-engineer",
+          "https://www.stepstone.de/stellenangebote/leipzig/qa-engineer",
+          "https://www.stepstone.de/stellenangebote/dresden/qa-engineer",
+          "https://www.stepstone.de/stellenangebote/deutschland/qa-engineer"
         ]
       },
       "detail_url_pattern": "https://www.stepstone.de/jobs?where=<encoded location>&what=<encoded role query>; browser/Camofox sequential listing and direct detail verification",
@@ -546,14 +547,31 @@
         "web extraction",
         "browser"
       ],
-      "primary_method": "api",
+      "primary_method": "http",
       "status": "active",
       "type": "remote job board/API"
     },
     {
       "adapter": "arbeitnow_v1",
       "adapter_version": 1,
-      "config": {},
+      "config": {
+        "api_url": "https://www.arbeitnow.com/api/job-board-api",
+        "filter_keywords": [
+          "qa",
+          "test",
+          "quality",
+          "automation",
+          "software test"
+        ],
+        "location_keywords": [
+          "germany",
+          "berlin",
+          "leipzig",
+          "dresden",
+          "remote",
+          "deutschland"
+        ]
+      },
       "detail_url_pattern": "https://www.arbeitnow.com/api/job-board-api (filter JSON records by title/description/location for QA, Software Test, Test Automation, Germany, Berlin, Leipzig, Dresden, remote)",
       "direct_card_domains": [
         "arbeitnow.com"
@@ -594,7 +612,7 @@
         "public API",
         "web extraction"
       ],
-      "primary_method": "api",
+      "primary_method": "http",
       "status": "active",
       "type": "aggregated job board/API"
     },
@@ -645,7 +663,7 @@
         "web extraction",
         "browser"
       ],
-      "primary_method": "api",
+      "primary_method": "http",
       "status": "active",
       "type": "German technology job board / RSS"
     },
@@ -787,7 +805,27 @@
       "name": "Glassdoor Deutschland",
       "notes": "crawl4ai for listing, detail pages have employer redirect. Glassdoor blocks plain HTTP; Camofox with stealth profile renders listings. Card URLs contain jobListing.htm with jl= parameter.",
       "status": "active",
-      "type": "general job board"
+      "type": "general job board",
+      "primary_method": "crawl4ai",
+      "adapter": "glassdoor",
+      "preferred_methods": [
+        "crawl4ai markdown render",
+        "Camofox browser session"
+      ],
+      "fallback_methods": [
+        "Camofox browser session"
+      ],
+      "config": {
+        "card_url_pattern": "jobListing\\.htm.*jl=",
+        "listing_urls": [
+          "https://www.glassdoor.de/Job/deutschland-qa-engineer-jobs-SRCH_IL.0,11_IN107_KO12,22.htm",
+          "https://www.glassdoor.de/Job/deutschland-software-test-engineer-jobs-SRCH_IL.0,11_IN107_KO12,28.htm",
+          "https://www.glassdoor.de/Job/deutschland-test-automation-engineer-jobs-SRCH_IL.0,11_IN107_KO12,31.htm"
+        ]
+      },
+      "direct_card_domains": [
+        "glassdoor.de"
+      ]
     },
     {
       "detail_url_pattern": "https://www.monster.de/jobs/stellenangebot/.*\\.html",
@@ -801,7 +839,27 @@
       "name": "Monster Deutschland",
       "notes": "crawl4ai for listing, detail pages are standard HTML. Monster uses standard job cards with direct links to /stellenangebot/ pages.",
       "status": "active",
-      "type": "general job board"
+      "type": "general job board",
+      "primary_method": "crawl4ai",
+      "adapter": "monster",
+      "preferred_methods": [
+        "crawl4ai markdown render",
+        "Camofox browser session"
+      ],
+      "fallback_methods": [
+        "Camofox browser session"
+      ],
+      "config": {
+        "card_url_pattern": "stellenangebot/.*\\.html",
+        "listing_urls": [
+          "https://www.monster.de/jobs/suche?q=QA-Engineer&where=Deutschland",
+          "https://www.monster.de/jobs/suche?q=Software-Tester&where=Deutschland",
+          "https://www.monster.de/jobs/suche?q=Test-Automation&where=Deutschland"
+        ]
+      },
+      "direct_card_domains": [
+        "monster.de"
+      ]
     }
   ]
 }

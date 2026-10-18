@@ -132,6 +132,13 @@ def decompress(body: bytes, encoding: str) -> bytes:
             return zstandard.ZstdDecompressor().decompress(body)
         except Exception:
             pass
+    # Try brotli (some CDNs use brotli without Content-Encoding header)
+    if body[:1] == b"\x8b" or body[:4] == b"\x8b\x01\x80\x74":
+        try:
+            import brotli
+            return brotli.decompress(body)
+        except Exception:
+            pass
     if body[:1] in (b"\x78",):
         out = _zlib_bare(body)
         if out is not None:
@@ -993,7 +1000,26 @@ class ExaCrawlAdapter(SourceAdapter):
         except (TypeError, ValueError):
             return super().cards(page)
         if isinstance(payload, list):
-            return [item for item in payload if isinstance(item, dict) and item.get("url")]
+            cards = [item for item in payload if isinstance(item, dict) and item.get("url")]
+            # Filter by target cities (Berlin, Leipzig, Dresden) or Germany-wide remote
+            filtered = []
+            for card in cards:
+                url = card.get("url", "")
+                # Check URL for city indicators
+                url_lower = url.casefold()
+                in_target_city = any(city in url_lower for city in ("berlin", "leipzig", "dresden"))
+                # Also check announcement/title if available
+                title = str(card.get("title", "")).casefold()
+                announcement = str(card.get("announcement", "")).casefold()
+                haystack = f"{url_lower} {title} {announcement}"
+                in_target_city = in_target_city or any(city in haystack for city in ("berlin", "leipzig", "dresden"))
+                # Germany-wide remote (no specific city mentioned but remote in Germany)
+                germany_remote = ("remote" in haystack or "homeoffice" in haystack or "home-office" in haystack) and not any(
+                    city in haystack for city in ("münchen", "muenchen", "stuttgart", "ulm", "eschenborn", "karlsruhe", "lüneburg", "lueneburg", "hamburg", "köln", "koeln", "frankfurt", "düsseldorf", "duesseldorf", "nürnberg", "nuernberg", "hannover", "mannheim", "bremen", "dortmund", "essen", "leipzig", "dresden")
+                )
+                if in_target_city or germany_remote:
+                    filtered.append(card)
+            return filtered
         return super().cards(page)
 
     def detail(self, card):
@@ -1476,8 +1502,9 @@ class APIAdapter(SourceAdapter):
         r=c.get("api",{}); url=c["url"]
         desc=r.get("description") or r.get("content") or r.get("excerpt") or ""
         page=fetch(url)
-        detail_text=text(page.body)
-        announcement=re.sub(r"\s+", " ", re.sub(r"<[^>]+>", " ", html.unescape(str(desc)))).strip() or detail_text
+        # Ensure body is properly decompressed before text extraction
+        body_text = text(page.body)
+        announcement=re.sub(r"\s+", " ", re.sub(r"<[^>]+>", " ", html.unescape(str(desc)))).strip() or body_text
         # RSS feeds name the fields differently from JSON job APIs, and
         # GermanTechJobs puts the employer in the feed title, so identity must
         # come from the record itself before falling back to the page markup.
@@ -1490,7 +1517,7 @@ class APIAdapter(SourceAdapter):
             if len(lead) == 2 and lead[1].strip():
                 title, company = lead[0].strip(), lead[1].split(" (")[0].split(" [")[0].strip()
         if not title or not company:
-            identity = page_identity(page.body.decode("utf-8", "replace"))
+            identity = page_identity(body_text)
             title = title or identity.get("title", "")
             company = company or identity.get("company", "")
         out={"url":url,"title":title, "company":company,
@@ -1727,6 +1754,26 @@ class CamofoxAdapter(SourceAdapter):
                 if non_vacancy_heading(identity.get("title", "")):
                     # A portal page that is not a posting: never a vacancy card.
                     self.progress(True); self.heartbeat(); continue
+                
+                # Filter out non-QA titles for XING and Hitmarker
+                source_id = self.source.get("id", "")
+                title = identity.get("title", "").lower()
+                if source_id in ("xing.com", "hitmarker.net"):
+                    non_qa_stems = ("recruiter", "vertrieb", "sales", "business development", "account manager",
+                                   "initiativbewerbung", "personalberater", "headhunter", "talent acquisition",
+                                   "hr ", "human resources", "personalleiter", "cookie", "cookies")
+                    if any(stem in title for stem in non_qa_stems):
+                        self.progress(True); self.heartbeat(); continue
+                
+                # Filter by target cities (Berlin, Leipzig, Dresden) or Germany-wide remote
+                haystack = f"{url} {identity.get('title', '')} {identity.get('location', '')} {identity.get('announcement', '')}".casefold()
+                in_target_city = any(city in haystack for city in ("berlin", "leipzig", "dresden"))
+                germany_remote = ("remote" in haystack or "homeoffice" in haystack or "home-office" in haystack) and not any(
+                    city in haystack for city in ("münchen", "muenchen", "stuttgart", "ulm", "eschenborn", "karlsruhe", "lüneburg", "lueneburg", "hamburg", "köln", "koeln", "frankfurt", "düsseldorf", "duesseldorf", "nürnberg", "nuernberg", "hannover", "mannheim", "bremen", "dortmund", "essen")
+                )
+                if not (in_target_city or germany_remote):
+                    self.progress(True); self.heartbeat(); continue
+                
                 cards.append({"url": url, "title": identity.get("title", ""), "company": identity.get("company", ""),
                               "location": identity.get("location", "Unknown"),
                               "posted": identity.get("posted", "Unknown"), "work_mode": identity.get("work_mode", "Unknown"),
@@ -1741,8 +1788,9 @@ class CamofoxAdapter(SourceAdapter):
 REGISTRY_TYPES = {
     "remotive.com": "remotive", "arbeitnow.com": "arbeitnow", "germantechjobs.de": "rss",
     "de.indeed.com": "indeed", "glassdoor.de": "glassdoor", "monster.de": "monster",
+    "xing.com": "xing", "hitmarker.net": "hitmarker", "stepstone.de": "stepstone",
 }
-CAMOFOX_SOURCES = {"xing.com", "linkedin.com"}
+CAMOFOX_SOURCES = {"linkedin.com"}
 
 # Sources that are AGGREGATORS: their listing reliably names a vacancy
 # (title, employer, city) but their card URL is a tracking redirect whose
@@ -2259,6 +2307,9 @@ def adapter_candidates(source: dict[str, Any]) -> list[str]:
         "http": ["http", "crawl4ai", "camofox"],
         "crawl4ai": ["crawl4ai", "http", "camofox"],
         "camofox": ["camofox", "crawl4ai", "http"],
+        "stepstone": ["http", "crawl4ai", "camofox"],
+        "glassdoor": ["http", "crawl4ai", "camofox"],
+        "monster": ["http", "crawl4ai", "camofox"],
     }
     if explicit in order:
         return list(order[explicit])
@@ -2296,4 +2347,8 @@ def make_adapter(source, artifact, *, method: str | None = None, **kwargs):
     kind = REGISTRY_TYPES.get(source["id"])
     if kind in {"remotive", "arbeitnow", "rss"}:
         return APIAdapter(source, artifact, **kwargs)
+    if kind in {"xing", "hitmarker"}:
+        return CamofoxAdapter(source, artifact, **kwargs)
+    if kind in {"stepstone", "glassdoor", "monster"}:
+        return SourceAdapter(source, artifact, **kwargs)
     return SourceAdapter(source, artifact, **kwargs)

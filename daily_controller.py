@@ -38,7 +38,7 @@ BACKOFF_SECONDS = [5, 30, 120]
 STALE_SECONDS = 300
 GRACE_SECONDS = 30
 TERMINAL = {"complete", "failed", "blocked"}
-VERIFICATIONS = {"Current", "Current / Partial", "Unverified", "Unclear"}
+VERIFICATIONS = {"Current", "Current / Partial", "Rejected", "Unclear"}
 CATEGORIES = (
     "Manual WEB QA Engineer", "Software Test Engineer",
     "Gamedev QA Engineer", "Other QA Roles",
@@ -236,7 +236,7 @@ def migrate_legacy_master(text: str) -> list[dict[str, str]]:
         if len(cells) != 7 or category is None: continue
         match = re.fullmatch(r"\[([^]]+)\]\((https?://[^)]+)\)", cells[1])
         if not match or not cells[0] or not cells[6]: continue
-        verif = cells[6] if cells[6] in VERIFICATIONS else "Unverified"
+        verif = cells[6] if cells[6] in VERIFICATIONS else "Unclear"
         rows.append({"legacy_id": cells[0], "title": match.group(1), "url": match.group(2),
                      "company": cells[2], "location": cells[3], "posted": cells[4],
                      "work_mode": cells[5], "url_index": cells[6], "category": category,
@@ -555,7 +555,7 @@ def render_master(rows: list[dict[str, str]], sources: list[dict[str, str]], run
     for index, category in enumerate(CATEGORIES, 1):
         selected = [r for r in rows if r.get("category") == category and r["verification"] == "Current"]
         out += f"## {index}. {category} ({len(selected)})\n\n{render_rows(selected)}\n"
-    for heading, status in (("Partially verified", "Current / Partial"), ("Unclear", "Unclear"), ("Unverified", "Unverified")):
+    for heading, status in (("Partially verified", "Current / Partial"), ("Unclear", "Unclear"), ("Rejected", "Rejected")):
         selected = [r for r in rows if r.get("category") in CATEGORIES and r["verification"] == status]
         out += f"## {heading} ({len(selected)})\n\n{render_rows(selected)}\n"
     out += ("## Sources\n| Source | Status | Last checked | Last successful use | Reason |\n"
@@ -586,7 +586,7 @@ def classify_semantic_candidate(candidate: dict[str, Any], run_date: dt.date) ->
 
     A candidate is removed only for an affirmative failed gate (including a
     deterministically stale date). Missing evidence is retained, and temporary
-    access failure has the more conservative ``Unverified`` status.
+    access failure has the more conservative ``Unclear`` status.
     """
     failed, missing = [], []
     for gate in SEMANTIC_GATES:
@@ -615,7 +615,9 @@ def classify_semantic_candidate(candidate: dict[str, Any], run_date: dt.date) ->
     if failed:
         verification, retain = "Rejected", False
     elif str(candidate.get("access_status", "readable")).casefold() in UNREADABLE_ACCESS:
-        verification, retain = "Unverified", True
+        # Access failure - cannot verify, but don't reject. Use "Unclear" to indicate
+        # the vacancy status is unknown due to technical issues, not content issues.
+        verification, retain = "Unclear", True
     elif missing:
         verification, retain = "Current / Partial", True
     else:
@@ -1022,7 +1024,7 @@ class Pipeline:
         """Return one LLM decision per complete announcement text.
 
         A failure is never treated as a negative eligibility decision.  The
-        caller retains the original candidate with Unverified status.
+        caller retains the original candidate with Unclear status.
         """
         if not cards:
             return {}
@@ -1059,13 +1061,11 @@ class Pipeline:
             "\n"
             "Return ONLY valid JSON: {results:[{url,title,company,location,posted,work_mode,verification,role_verified,german_entity_verified,germany_remote_explicit,category,reason}]}\n"
             "\n"
-            "If uncertain about a field, use these defaults:\n"
-            "- work_mode: 'Unknown'\n"
-            "- verification: 'Unverified'\n"
-            "- role_verified: false\n"
-            "- german_entity_verified: false\n"
-            "- germany_remote_explicit: false\n"
-            "- category: 'Software Test Engineer'\n"
+            "If uncertain about work_mode, use 'Unknown'. For verification, you MUST decide: 'Current' if evidence supports a genuine QA/testing vacancy in Germany, otherwise 'Rejected'. No 'Unverified' or 'Unclear' for verification.\n"
+            "- role_verified: true only for genuine QA/testing roles, false otherwise\n"
+            "- german_entity_verified: true if German legal entity or address clearly indicated\n"
+            "- germany_remote_explicit: true if remote for Germany explicitly stated\n"
+            "- category: Choose from predefined CATEGORIES list\n"
             "\n"
             "DO NOT return 'Unknown' strings for boolean fields - use true/false only. Boolean fields are: role_verified, german_entity_verified, germany_remote_explicit.\n"
             "\n"
@@ -1077,7 +1077,7 @@ class Pipeline:
     def recheck_published_rows(self, rows: list[dict[str, str]]) -> list[dict[str, str]]:
         """Fetch every published row and ask the semantic stage to re-evaluate it.
 
-        A failed fetch is never treated as closure: it becomes Unverified. The
+        A failed fetch is never treated as closure: it becomes Unclear. The
         full page text is passed to the LLM, never just a title or portal field.
         """
         prepared = []
@@ -1103,14 +1103,14 @@ class Pipeline:
         readable = [x for x in prepared if x["announcement"]]
         results = {}
         # Hard wall-clock budget for this stage. A free-tier LLM that stalls must
-        # not block the daily cycle; rows without a decision stay Unverified,
+        # not block the daily cycle; rows without a decision stay Unclear,
         # which is the retention-safe outcome, never a rejection.
         budget = int(os.environ.get("QA_VACANCY_RECHECK_BUDGET_SECONDS", "600"))
         # Batches are independent decisions, so they run concurrently: a
         # free-tier LLM answers one batch in ~2 min, which serially exhausted
         # the budget before the last rows were ever decided. The batch is sized
         # so every row fits inside the budget at the current worker count;
-        # otherwise the last rows stay Unverified every single day and never
+        # otherwise the last rows stay Unclear every single day and never
         # improve, which is worse than a slow cycle.
         workers = min(4, max(1, int(os.environ.get("QA_VACANCY_RECHECK_WORKERS", "4"))))
         batch_size = max(1, int(os.environ.get("QA_VACANCY_RECHECK_BATCH", "6")))
@@ -1162,13 +1162,13 @@ class Pipeline:
                 # master already confirmed keeps that confirmation: an unreadable
                 # page cannot disprove a role, employer or date already
                 # established. Only a row that was never confirmed is demoted.
-                prior = str(row.get("verification") or "Unverified")
+                prior = str(row.get("verification") or "Unclear")
                 if prior in self.CONFIRMED_TOKENS:
                     out.append({**row, "from_published_master": True,
                                 "recheck_unavailable": True})
                 else:
                     out.append({**row, "from_published_master": True,
-                                "verification": "Unverified", "role_verified": "Unknown"})
+                                "verification": "Unclear", "role_verified": "Unknown"})
                 continue
             # Preserve prior confirmation when the LLM gives a contradictory
             # result: a readable page that contradicts prior confirmation is
@@ -1511,7 +1511,7 @@ class Pipeline:
             first_seen = self._load_first_seen()
             rechecked = read_json(root / "published_recheck.json")["rows"]
             cards.extend({**r, **({"first_seen_in_master": first_seen[canonical_url(r.get("url"))]} if canonical_url(r.get("url")) in first_seen else {}),
-                          "announcement": r.get("announcement", ""), "from_published_master": True, "verification": r.get("verification", "Unverified")} for r in rechecked)
+                          "announcement": r.get("announcement", ""), "from_published_master": True, "verification": r.get("verification", "Unclear")} for r in rechecked)
         decisions = {}
         # Rows rechecked above already carry a semantic decision. Re-asking the
         # LLM about them cost a second full pass (~14 min) and could overwrite a
@@ -1605,7 +1605,7 @@ class Pipeline:
             if existing and not decision:
                 row = {**card, "posted": normalize_posted(card.get("posted")),
                        "work_mode": normalize_work_mode(card.get("work_mode")),
-                       "verification": "Unverified", "role_verified": "Unknown"}
+                       "verification": "Unclear", "role_verified": "Unknown"}
                 row.setdefault("category", "Software Test Engineer")
                 row["category"] = normalize_category(row.get("category"))
                 accepted.append(row)
@@ -1627,9 +1627,9 @@ class Pipeline:
             row["posted"] = normalize_posted(row.get("posted"))
             row["work_mode"] = normalize_work_mode(row.get("work_mode"))
             if existing:
-                row["verification"] = decision.get("verification") if decision else "Unverified"
+                row["verification"] = decision.get("verification") if decision else "Unclear"
                 if not decision or decision.get("role_verified") is not True:
-                    row["verification"] = "Unverified" if not decision else "Current / Partial"
+                    row["verification"] = "Unclear" if not decision else "Current / Partial"
             else:
                 employer_verified = bool(row.get("german_entity_verified"))
                 if gate["verification"] == "Current" and not employer_verified:
@@ -1745,13 +1745,13 @@ class Pipeline:
 
         The incident this guards against: on 2026-09-24 cycle-16 produced 36
         rows (17 Current, 19 Current/Partial). Hours later cycle-17 republished
-        the same 36 URLs with every one demoted to Unverified and added nothing.
+        the same 36 URLs with every one demoted to Unclear and added nothing.
         Seven of ten sources had failed preflight, so recheck could not re-read
-        the pages. Every structural check still passed -- Unverified is a legal
+        the pages. Every structural check still passed -- Unclear is a legal
         value and each row kept its URL, company and location -- so the verifier
         returned PASS on a master that had lost all of its evidence.
 
-        About.md treats a temporary access failure as Unverified, but that rule
+        About.md treats a temporary access failure as Unclear, but that rule
         governs rows whose status is being established. It is not a licence to
         erase confirmation that a previous run already established: an
         unreadable page cannot disprove a role, employer or date that was
