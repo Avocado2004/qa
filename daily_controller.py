@@ -555,6 +555,7 @@ def render_master(rows: list[dict[str, str]], sources: list[dict[str, str]], run
     for index, category in enumerate(CATEGORIES, 1):
         selected = [r for r in rows if r.get("category") == category and r["verification"] == "Current"]
         out += f"## {index}. {category} ({len(selected)})\n\n{render_rows(selected)}\n"
+
     for heading, status in (("Partially verified", "Current / Partial"), ("Unclear", "Unclear"), ("Rejected", "Rejected")):
         selected = [r for r in rows if r.get("category") in CATEGORIES and r["verification"] == status]
         out += f"## {heading} ({len(selected)})\n\n{render_rows(selected)}\n"
@@ -586,6 +587,7 @@ def classify_semantic_candidate(candidate: dict[str, Any], run_date: dt.date) ->
 
     A candidate is removed only for an affirmative failed gate (including a
     deterministically stale date). Missing evidence is retained, and temporary
+
     access failure has the more conservative ``Unclear`` status.
     """
     failed, missing = [], []
@@ -1103,6 +1105,7 @@ class Pipeline:
         readable = [x for x in prepared if x["announcement"]]
         results = {}
         # Hard wall-clock budget for this stage. A free-tier LLM that stalls must
+
         # not block the daily cycle; rows without a decision stay Unclear,
         # which is the retention-safe outcome, never a rejection.
         budget = int(os.environ.get("QA_VACANCY_RECHECK_BUDGET_SECONDS", "600"))
@@ -1110,6 +1113,7 @@ class Pipeline:
         # free-tier LLM answers one batch in ~2 min, which serially exhausted
         # the budget before the last rows were ever decided. The batch is sized
         # so every row fits inside the budget at the current worker count;
+
         # otherwise the last rows stay Unclear every single day and never
         # improve, which is worse than a slow cycle.
         workers = min(4, max(1, int(os.environ.get("QA_VACANCY_RECHECK_WORKERS", "4"))))
@@ -1162,13 +1166,16 @@ class Pipeline:
                 # master already confirmed keeps that confirmation: an unreadable
                 # page cannot disprove a role, employer or date already
                 # established. Only a row that was never confirmed is demoted.
+
                 prior = str(row.get("verification") or "Unclear")
+
                 if prior in self.CONFIRMED_TOKENS:
                     out.append({**row, "from_published_master": True,
                                 "recheck_unavailable": True})
                 else:
                     out.append({**row, "from_published_master": True,
                                 "verification": "Unclear", "role_verified": "Unknown"})
+
                 continue
             # Preserve prior confirmation when the LLM gives a contradictory
             # result: a readable page that contradicts prior confirmation is
@@ -1459,18 +1466,20 @@ class Pipeline:
         return "complete"
 
     def llm(self):
+
         # Primary: litellm with Nemotron 3 Ultra
         key = os.environ.get("LITELLM_API_KEY") or os.environ.get("OPENROUTER_API_KEY") or os.environ.get("QA_VACANCY_LLM_API_KEY") or os.environ.get("OPENAI_API_KEY")
         base = os.environ.get("LITELLM_BASE_URL", "http://host.docker.internal:4000")
         model = os.environ.get("QA_VACANCY_LLM_MODEL", "nemotron-3-ultra")
+
         timeout = int(os.environ.get("QA_VACANCY_LLM_TIMEOUT", "90"))
         return DirectLLM(base, model, key, timeout=timeout)
     
     def llm_with_fallback(self):
+
         """Use LiteLLM directly - it proxies all models with configured keys.
         No NVIDIA fallback needed since LiteLLM handles all providers."""
         return self.llm()
-
     @staticmethod
     def _synth_pool_size(pending: int, *, budget_hint: int = 0) -> tuple[int, int]:
         """(workers, cards_per_call) so the pending set fits the stage budget.
@@ -1511,7 +1520,9 @@ class Pipeline:
             first_seen = self._load_first_seen()
             rechecked = read_json(root / "published_recheck.json")["rows"]
             cards.extend({**r, **({"first_seen_in_master": first_seen[canonical_url(r.get("url"))]} if canonical_url(r.get("url")) in first_seen else {}),
+
                           "announcement": r.get("announcement", ""), "from_published_master": True, "verification": r.get("verification", "Unclear")} for r in rechecked)
+
         decisions = {}
         # Rows rechecked above already carry a semantic decision. Re-asking the
         # LLM about them cost a second full pass (~14 min) and could overwrite a
@@ -1605,7 +1616,9 @@ class Pipeline:
             if existing and not decision:
                 row = {**card, "posted": normalize_posted(card.get("posted")),
                        "work_mode": normalize_work_mode(card.get("work_mode")),
+
                        "verification": "Unclear", "role_verified": "Unknown"}
+
                 row.setdefault("category", "Software Test Engineer")
                 row["category"] = normalize_category(row.get("category"))
                 accepted.append(row)
@@ -1627,9 +1640,11 @@ class Pipeline:
             row["posted"] = normalize_posted(row.get("posted"))
             row["work_mode"] = normalize_work_mode(row.get("work_mode"))
             if existing:
+
                 row["verification"] = decision.get("verification") if decision else "Unclear"
                 if not decision or decision.get("role_verified") is not True:
                     row["verification"] = "Unclear" if not decision else "Current / Partial"
+
             else:
                 employer_verified = bool(row.get("german_entity_verified"))
                 if gate["verification"] == "Current" and not employer_verified:
@@ -1745,6 +1760,7 @@ class Pipeline:
 
         The incident this guards against: on 2026-09-24 cycle-16 produced 36
         rows (17 Current, 19 Current/Partial). Hours later cycle-17 republished
+
         the same 36 URLs with every one demoted to Unclear and added nothing.
         Seven of ten sources had failed preflight, so recheck could not re-read
         the pages. Every structural check still passed -- Unclear is a legal
@@ -1752,6 +1768,15 @@ class Pipeline:
         returned PASS on a master that had lost all of its evidence.
 
         About.md treats a temporary access failure as Unclear, but that rule
+
+        the same 36 URLs with every one demoted to Unverified and added nothing.
+        Seven of ten sources had failed preflight, so recheck could not re-read
+        the pages. Every structural check still passed -- Unverified is a legal
+        value and each row kept its URL, company and location -- so the verifier
+        returned PASS on a master that had lost all of its evidence.
+
+        About.md treats a temporary access failure as Unverified, but that rule
+
         governs rows whose status is being established. It is not a licence to
         erase confirmation that a previous run already established: an
         unreadable page cannot disprove a role, employer or date that was
@@ -1801,6 +1826,7 @@ class Pipeline:
         synthesis = read_json(root / "synthesis.json")
         evidence_rows = self._accepted_evidence(root)
         evidence_by_url = {str(r.get("url") or ""): r for r in evidence_rows}
+
         
         # Load previous master URLs to distinguish old vs new rows
         previous_master_urls = set()
@@ -1808,6 +1834,8 @@ class Pipeline:
             previous = parse_master_rows(self.master.read_text(encoding="utf-8"))
             previous_master_urls = {r["url"] for r in previous}
         
+
+
         errors: list[str] = []
         if not rows: errors.append("candidate contains no vacancy rows")
         if len(rows) != int(synthesis.get("rows", -1)): errors.append("candidate row count differs from synthesis")
@@ -1829,6 +1857,7 @@ class Pipeline:
             if row["verification"] == "Current":
                 if not evidence.get("german_entity_verified"):
                     errors.append(f"Current row lacks German-entity evidence: {row['url']}")
+
                 # Location check: strict for NEW rows, warning for OLD rows (from previous master)
                 is_old_row = row["url"] in previous_master_urls
                 location_ok = evidence.get("germany_remote_explicit") or any(city.casefold() in str(evidence.get("location", "")).casefold() for city in ("Berlin", "Leipzig", "Dresden"))
@@ -1837,6 +1866,10 @@ class Pipeline:
                         errors.append(f"WARNING: Old row lacks eligible location/remote evidence (kept from master): {row['url']}")
                     else:
                         errors.append(f"Current row lacks eligible location/remote evidence: {row['url']}")
+
+                if not evidence.get("germany_remote_explicit") and not any(city.casefold() in str(evidence.get("location", "")).casefold() for city in ("Berlin", "Leipzig", "Dresden")):
+                    errors.append(f"Current row lacks eligible location/remote evidence: {row['url']}")
+
         if len(evidence_by_url) != len({r.get("url") for r in rows}): errors.append("semantic evidence URL set does not round-trip")
         errors.extend(self._degradation_errors(rows))
         for phase in ("preflight", "workers"):
@@ -1868,7 +1901,11 @@ class Pipeline:
                     errors.append(
                         "worker failures not recorded as Not used: " + ", ".join(unaccounted)
                     )
+
         verdict = "PASS" if not any(not e.startswith("WARNING:") for e in errors) else "FAIL"
+
+        verdict = "PASS" if not errors else "FAIL"
+
         atomic_json(root / "verifier.json", {"schema_version": SCHEMA, "cycle_id": root.name, "verdict": verdict, "checked_at": utcnow(), "rows": len(rows), "errors": errors})
         return verdict
 
@@ -1979,8 +2016,12 @@ def launch_detached(project: Path, script: Path, selftest: bool = False) -> None
         log = open(runs / "controller.log", "ab", buffering=0)
         cmd = [sys.executable, str(script)]
         if selftest: cmd.append("--self-test")
+
         # Pass environment so child inherits LITELLM_API_KEY, LITELLM_BASE_URL from s6 container_environment
         proc = subprocess.Popen(cmd, cwd=project, stdin=subprocess.DEVNULL, stdout=log, stderr=subprocess.STDOUT, start_new_session=True, close_fds=True, env=os.environ.copy())
+
+        proc = subprocess.Popen(cmd, cwd=project, stdin=subprocess.DEVNULL, stdout=log, stderr=subprocess.STDOUT, start_new_session=True, close_fds=True)
+
         atomic_json(active, {"pid": proc.pid, "started_at": utcnow(), "script": str(script)})
 
 

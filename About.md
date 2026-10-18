@@ -2,6 +2,7 @@
 
 ## Goal
 
+
 Maintain a daily-updated Markdown list of unique QA/test vacancies in Germany. The canonical result is `qa_vacancies_master.md`, published to GitHub as `README.md` when it changes.
 
 ## Confirmed daily order
@@ -93,3 +94,4 @@ Before replacing a changed master, save the previous published master as `/opt/d
 - [ ] Final verification passed.
 - [ ] Changed master is archived, synchronized, committed, and pushed; unchanged master yields `NO_CHANGE`.
 - [ ] Notification was sent only on master change or controller error.
+9cb884f7c2d54356cc1e3f6074f4c013e592f0ce
