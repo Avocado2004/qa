@@ -47,6 +47,13 @@ CATEGORIES = (
 PROJECT_DEFAULT = Path(__file__).resolve().parent
 QA_REPOSITORY_DEFAULT = Path("/opt/data/qa-repo")
 
+# Configure logging for the pipeline
+logging.basicConfig(
+    level=logging.INFO,
+    format='%(asctime)s %(levelname)s %(name)s: %(message)s',
+    datefmt='%H:%M:%S'
+)
+
 
 @dataclass(frozen=True)
 class PublicationResult:
@@ -1558,7 +1565,7 @@ class Pipeline:
 
         # Primary: litellm with Nemotron 3 Ultra
         key = os.environ.get("LITELLM_API_KEY") or os.environ.get("OPENROUTER_API_KEY") or os.environ.get("QA_VACANCY_LLM_API_KEY") or os.environ.get("OPENAI_API_KEY")
-        base = os.environ.get("LITELLM_BASE_URL", "http://host.docker.internal:4000")
+        base = os.environ.get("LITELLM_BASE_URL") or os.environ.get("QA_VACANCY_LLM_BASE_URL") or "http://host.docker.internal:4000"
         model = os.environ.get("QA_VACANCY_LLM_MODEL", "nemotron-3-ultra")
 
         timeout = int(os.environ.get("QA_VACANCY_LLM_TIMEOUT", "90"))
