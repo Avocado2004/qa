@@ -1,13 +1,13 @@
 # QA Engineer Vacancies in Germany — 2026-10-18
 
-**Vacancies listed: 28**
+**Vacancies listed: 32**
 
 ## 1. Manual WEB QA Engineer (0)
 
 | # | Position | Company | Location | Posted | Work mode | Verification |
 |---:|---|---|---|---|---|---|
 
-## 2. Software Test Engineer (11)
+## 2. Software Test Engineer (10)
 
 | # | Position | Company | Location | Posted | Work mode | Verification |
 |---:|---|---|---|---|---|---|
@@ -19,9 +19,8 @@
 | 6 | [Versuchsingenieur (m/w/d)](https://www.arbeitsagentur.de/jobsuche/jobdetail/12265-485458_JB5268095-S) | FERCHAU GmbH Niederlassung Berlin | Berlin | 2026-10-09 | Onsite | Current |
 | 7 | [Testengineer:in (all genders) - 4 Jahre befristet](https://www.arbeitsagentur.de/jobsuche/jobdetail/10001-1003778698-S) | gematik GmbH | Berlin | 2026-09-29 | Hybrid | Current |
 | 8 | [Software Tester / Testautomatisierer (m/w/d)](https://www.arbeitsagentur.de/jobsuche/jobdetail/15794-468901_48559-1-S) | Deloitte GmbH | Leipzig (and Frankfurt) | 2026-09-18 | Hybrid | Current |
-| 9 | [Staff Engineer Component Verification (f/m/div)](https://www.arbeitsagentur.de/jobsuche/jobdetail/12874-1576518-2-S) | Infineon Technologies Dresden AG & Co. KG | Dresden, Sachsen, DE | 2026-09-28 | Onsite | Current |
-| 10 | [SPEKTRA Schwingungstechnik und Akustik GmbH Dresden: Test Automation Engineer (Embedded & HIL) (m/w/)](https://www.arbeitsagentur.de/jobsuche/jobdetail/11956-3077971791842400-S) | SPEKTRA Schwingungstechnik und Akustik GmbH Dresden | Dresden, Sachsen, DE | 2026-10-13 | Onsite | Current |
-| 11 | [Staff Engineer Device Analysis (f/m/div)](https://www.arbeitsagentur.de/jobsuche/jobdetail/12874-1640743-1-S) | Infineon Technologies Dresden AG & Co. KG | Dresden, Sachsen, DE | 2026-10-07 | Onsite | Current |
+| 9 | [SPEKTRA Schwingungstechnik und Akustik GmbH Dresden: Test Automation Engineer (Embedded & HIL) (m/w/)](https://www.arbeitsagentur.de/jobsuche/jobdetail/11956-3077971791842400-S) | SPEKTRA Schwingungstechnik und Akustik GmbH Dresden | Dresden, Sachsen, DE | 2026-10-13 | Onsite | Current |
+| 10 | [Staff Engineer Device Analysis (f/m/div)](https://www.arbeitsagentur.de/jobsuche/jobdetail/12874-1640743-1-S) | Infineon Technologies Dresden AG & Co. KG | Dresden, Sachsen, DE | 2026-10-07 | Onsite | Current |
 
 ## 3. Gamedev QA Engineer (0)
 
@@ -33,11 +32,16 @@
 | # | Position | Company | Location | Posted | Work mode | Verification |
 |---:|---|---|---|---|---|---|
 
-## Partially verified (1)
+## Partially verified (6)
 
 | # | Position | Company | Location | Posted | Work mode | Verification |
 |---:|---|---|---|---|---|---|
-| 1 | [Spezialist (m/w/d) Testautomatisierung](https://www.arbeitsagentur.de/jobsuche/jobdetail/12811-2344134-S) | medatixx | Bamberg, Berlin, Eltville am Rhein, München, Germany | 2026-09-25 | Unknown | Current / Partial |
+| 1 | [Graduate - Quality Assurance Analyst (all genders)](https://de.linkedin.com/jobs/view/graduate-quality-assurance-analyst-all-genders-at-distribusion-technologies-4448191887?position=3&pageNum=0&refId=OiYWloQRhwqtpFXCD%2FVJUA%3D%3D) | Distribusion Technologies | Berlin | 2026-10-11 | Onsite | Current / Partial |
+| 2 | [Senior Quality Assurance Engineer](https://de.linkedin.com/jobs/view/senior-quality-assurance-engineer-at-trading-212-4468924202?position=4&pageNum=0&refId=OiYWloQRhwqtpFXCD%2FVJUA%3D%3D) | Trading 212 | Berlin | 2026-10-14 | Unknown | Current / Partial |
+| 3 | [Senior QA Tester - Paper.io 2](https://de.linkedin.com/jobs/view/senior-qa-tester-paper-io-2-at-voodoo-4475542343?position=7&pageNum=0&refId=OiYWloQRhwqtpFXCD%2FVJUA%3D%3D) | Voodoo | Berlin | 2026-10-11 | Unknown | Current / Partial |
+| 4 | [Senior QA Engineer - Remote](https://de.linkedin.com/jobs/view/senior-qa-engineer-remote-at-kake-4461168232?position=8&pageNum=0&refId=OiYWloQRhwqtpFXCD%2FVJUA%3D%3D) | Kake | Berlin, Deutschland | 2026-10-04 | Remote | Current / Partial |
+| 5 | [Application & Test Engineer (w/m/d)](https://www.arbeitsagentur.de/jobsuche/jobdetail/13645-286178-S) | Amphenol AOP | Berlin | 2026-10-05 | Unknown | Current / Partial |
+| 6 | [Spezialist (m/w/d) Testautomatisierung](https://www.arbeitsagentur.de/jobsuche/jobdetail/12811-2344134-S) | medatixx | Bamberg, Berlin, Eltville am Rhein, München, Germany | 2026-09-25 | Unknown | Current / Partial |
 
 ## Unclear (16)
 
@@ -68,17 +72,17 @@
 ## Sources
 | Source | Status | Last checked | Last successful use | Reason |
 |---|---|---|---|---|
-| Indeed Deutschland | Not used | 2026-10-18_cycle-36 | — | all independent access methods failed: preflight: no card carries vacancy body text (a title alone is not a posting) -- 2 opened but all are indexes/teasers (card-1: 'Qualitätsingenieur KI-Fokus / Quality Engineer (AI-augmented) (m/w/d) IT-Consulting' (0 chars); card-2: '(Senior) Quality Engineer (m |
-| LinkedIn Jobs | Not used | 2026-10-18_cycle-36 | — | worker access methods failed: preflight: no card carries vacancy body text (a title alone is not a posting) -- 2 opened but all are indexes/teasers (card-1: '(Junior) QA Engineer/Software-Tester (m/w/d) – Produktqualität & Testautomatisierung' (12440 chars); card-2: 'Senior Quality Engineer - Checko |
-| Arbeitsagentur Jobsuche | Used | 2026-10-18_cycle-36 | 2026-10-18_cycle-36 | cards collected |
-| StepStone | Used | 2026-10-18_cycle-36 | 2026-10-18_cycle-36 | cards collected |
-| XING Jobs | Not used | 2026-10-18_cycle-36 | — | all independent access methods failed: Camofox returned an empty snapshot; preflight: fewer than two analyzable direct cards; Camofox transport failed for GET /health: <urlopen error [Errno 111] Connection refused> |
-| Hitmarker | Used | 2026-10-18_cycle-36 | 2026-10-18_cycle-36 | cards collected |
-| Remotive | Used | 2026-10-18_cycle-36 | 2026-10-18_cycle-36 | cards collected |
-| Arbeitnow Job Board API | Used | 2026-10-18_cycle-36 | 2026-10-18_cycle-36 | cards collected |
-| GermanTechJobs | Used | 2026-10-18_cycle-36 | 2026-10-18_cycle-36 | cards collected |
-| EuroTechJobs Test Analyst / Germany | Used | 2026-10-18_cycle-36 | 2026-10-18_cycle-36 | cards collected |
-| Adzuna Deutschland | Used | 2026-10-18_cycle-36 | 2026-10-18_cycle-36 | cards collected |
-| Glassdoor Deutschland | Not used | 2026-10-18_cycle-36 | — | all independent access methods failed: preflight: no card carries vacancy body text (a title alone is not a posting) -- 2 opened but all are indexes/teasers (card-1: 'Glassdoor' (4089 chars); card-2: 'Deine Jobsuche beginnt hier' (19713 chars)). About.md requires two analyzable vacancy cards.; prefl |
-| Monster Deutschland | Not used | 2026-10-18_cycle-36 | — | all independent access methods failed: Crawl4AI failed after 3 attempts: rc=1  × https://www.monster.de/...ineer&where=Deutschland  \| Error: Blocked by anti-bot protection: DataDome captcha 
+| Indeed Deutschland | Not used | 2026-10-18_cycle-35 | — | all independent access methods failed: preflight: no card carries vacancy body text (a title alone is not a posting) -- 2 opened but all are indexes/teasers (card-1: 'Qualitätsingenieur KI-Fokus / Quality Engineer (AI-augmented) (m/w/d) IT-Consulting' (0 chars); card-2: '(Senior) Quality Engineer (m |
+| LinkedIn Jobs | Used | 2026-10-18_cycle-35 | 2026-10-18_cycle-35 | cards collected |
+| Arbeitsagentur Jobsuche | Used | 2026-10-18_cycle-35 | 2026-10-18_cycle-35 | cards collected |
+| StepStone | Used | 2026-10-18_cycle-35 | 2026-10-18_cycle-35 | cards collected |
+| XING Jobs | Not used | 2026-10-18_cycle-35 | — | worker access methods failed: Camofox transport failed for GET /tabs/ad8e1e05-365d-4642-b518-72d7c268106f/snapshot: <urlopen error [Errno 111] Connection refused>; preflight: fewer than two analyzable direct cards; Camofox transport failed for GET /tabs/4b887dfd-0dcd-4c3b-b687-8ff913e3b8f8/snapshot: |
+| Hitmarker | Used | 2026-10-18_cycle-35 | 2026-10-18_cycle-35 | cards collected |
+| Remotive | Used | 2026-10-18_cycle-35 | 2026-10-18_cycle-35 | cards collected |
+| Arbeitnow Job Board API | Used | 2026-10-18_cycle-35 | 2026-10-18_cycle-35 | cards collected |
+| GermanTechJobs | Used | 2026-10-18_cycle-35 | 2026-10-18_cycle-35 | cards collected |
+| EuroTechJobs Test Analyst / Germany | Used | 2026-10-18_cycle-35 | 2026-10-18_cycle-35 | cards collected |
+| Adzuna Deutschland | Used | 2026-10-18_cycle-35 | 2026-10-18_cycle-35 | cards collected |
+| Glassdoor Deutschland | Not used | 2026-10-18_cycle-35 | — | all independent access methods failed: preflight: no card carries vacancy body text (a title alone is not a posting) -- 2 opened but all are indexes/teasers (card-1: 'Glassdoor' (3405 chars); card-2: 'Deine Jobsuche beginnt hier' (19049 chars)). About.md requires two analyzable vacancy cards.; prefl |
+| Monster Deutschland | Not used | 2026-10-18_cycle-35 | — | all independent access methods failed: Crawl4AI failed after 3 attempts: rc=1  × https://www.monster.de/...ineer&where=Deutschland  \| Error: Blocked by anti-bot protection: DataDome captcha 
 [COMPLETE] ● https://www.monster.de/jobs/suche?q=QA-Engineer&where=Deutschland                                |
