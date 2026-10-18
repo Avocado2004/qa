@@ -1249,7 +1249,10 @@ class Pipeline:
                                 "retain": classified["retain"],
                                 "failed_gates": classified["failed_gates"],
                                 "missing_gates": classified["missing_gates"],
-                                "first_seen_in_master": classified["first_seen_in_master"]})
+                                "first_seen_in_master": classified["first_seen_in_master"],
+                                "role_verified": role_pass,
+                                "german_entity_verified": employer_pass,
+                                "germany_remote_explicit": location_pass and ("remote" in work_mode or "remote" in location) and ("germany" in location or "deutschland" in location or "germany-wide" in location or "deutschlandweit" in location)})
 
                 continue
             # Preserve prior confirmation when the LLM gives a contradictory
