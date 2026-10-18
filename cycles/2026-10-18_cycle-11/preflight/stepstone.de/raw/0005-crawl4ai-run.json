@@ -1,7 +1,0 @@
-{
-  "url": "https://www.stepstone.de/stellenangebote--QA-Engineer-gn-Langenfeld-Rheinland-Control-Expert-GmbH--14556958-inline.html",
-  "attempt": 1,
-  "returncode": 0,
-  "stdout": "✓ 页面已保存到 /opt/data/qa-vacancy-project/cycles/2026-10-18_cycle-11/preflight/stepstone.de/raw/crawl4ai-card-tone-de-stellenangebote-QA-Engineer-gn-Langenfeld-Rheinland-Control-Expert-GmbH-14556958-inline-html.md\n  标题: QA Engineer (gn) - Feste Anstellung, Vollzeit, Homeoffice Job in Langenfeld (Rheinland)\n  链接数: 55\n",
-  "stderr": "[INIT].... → Crawl4AI 0.9.4 \n[FETCH]... ↓ https://www.stepstone.de/stellenangebote--QA-Eng...inland-Control-Expert-GmbH--14556958-inline.html  | ✓ | ⏱: 16.34s \n[SCRAPE].. ◆ https://www.stepstone.de/stellenangebote--QA-Eng...inland-Control-Expert-GmbH--14556958-inline.html  | ✓ | ⏱: 0.76s \n[COMPLETE] ● https://www.stepstone.de/stellenangebote--QA-Eng...inland-Control-Expert-GmbH--14556958-inline.html  | ✓ | ⏱: 17.31s \n"
-}

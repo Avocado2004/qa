@@ -1,6 +1,0 @@
-{
-  "url": "https://www.adzuna.de/land/ad/5902539391?se=JvZYoEzD8RG97c1msiT4yg&title=Senior_App_Engineer_-_Purchase_%26_Post_Purchase_%28all_genders%29&v=6EB75ACF292A36D3FAE77A72A405B4F204589BC2",
-  "returncode": 1,
-  "stdout": "",
-  "stderr": "[INIT].... → Crawl4AI 0.9.4 \n[FETCH]... ↓ https://www.adzuna.de/land/ad/5902539391?se=JvZY...ders)&v=6EB75ACF292A36D3FAE77A72A405B4F204589BC2  | ✓ | ⏱: 0.51s \n[SCRAPE].. ◆ https://www.adzuna.de/land/ad/5902539391?se=JvZY...ders)&v=6EB75ACF292A36D3FAE77A72A405B4F204589BC2  | ✓ | ⏱: 0.01s \n[ERROR]... × https://www.adzuna.de/l...AE77A72A405B4F204589BC2  | Error: Blocked by anti-bot protection: HTTP 403 with HTML content (923 bytes) \n[COMPLETE] ● https://www.adzuna.de/land/ad/5902539391?se=JvZY...ders)&v=6EB75ACF292A36D3FAE77A72A405B4F204589BC2  | ✗ | ⏱: 0.54s \n✗ 爬取失败: Blocked by anti-bot protection: HTTP 403 with HTML content (923 bytes)\n"
-}

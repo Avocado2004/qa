@@ -1,7 +1,0 @@
-{
-  "url": "https://de.indeed.com/jobs?q=QA+Analyst&l=K%C3%B6ln",
-  "attempt": 1,
-  "returncode": 0,
-  "stdout": "✓ 页面已保存到 /opt/data/qa-vacancy-project/cycles/2026-09-29_cycle-9/preflight/de.indeed.com/raw/crawl4ai-listing-42.md\n  标题: QA Analyst Jobs in Köln - 30. September 2026 | Stellenangebote auf Indeed\n  链接数: 45\n",
-  "stderr": "[INIT].... → Crawl4AI 0.9.4 \n[FETCH]... ↓ https://de.indeed.com/jobs?q=QA+Analyst&l=Köln                                                       | ✓ | ⏱: 3.45s \n[SCRAPE].. ◆ https://de.indeed.com/jobs?q=QA+Analyst&l=Köln                                                       | ✓ | ⏱: 0.19s \n[COMPLETE] ● https://de.indeed.com/jobs?q=QA+Analyst&l=Köln                                                       | ✓ | ⏱: 3.82s \n"
-}

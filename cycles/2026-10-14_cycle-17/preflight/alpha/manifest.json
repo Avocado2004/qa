@@ -1,9 +1,0 @@
-{
-  "cycle_id": "2026-10-14_cycle-17",
-  "finished_at": "2026-10-14T23:24:02.264165+00:00",
-  "schema_version": 2,
-  "source_id": "alpha",
-  "stage": "SOURCE_PREFLIGHT",
-  "started_at": "2026-10-14T23:24:02.199340+00:00",
-  "state": "pass"
-}

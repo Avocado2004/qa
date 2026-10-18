@@ -1,7 +1,0 @@
-{
-  "url": "https://de.indeed.com/jobs?q=Test+Engineer&l=Berlin",
-  "attempt": 1,
-  "returncode": 0,
-  "stdout": "✓ 页面已保存到 /opt/data/qa-vacancy-project/cycles/2026-09-29_cycle-9/preflight/de.indeed.com/raw/crawl4ai-listing-16.md\n  标题: Test Engineer Jobs in Berlin | Jetzt 500 offene Stellen finden | Indeed\n  链接数: 93\n",
-  "stderr": "[INIT].... → Crawl4AI 0.9.4 \n[FETCH]... ↓ https://de.indeed.com/jobs?q=Test+Engineer&l=Berlin                                                  | ✓ | ⏱: 4.32s \n[SCRAPE].. ◆ https://de.indeed.com/jobs?q=Test+Engineer&l=Berlin                                                  | ✓ | ⏱: 0.50s \n[COMPLETE] ● https://de.indeed.com/jobs?q=Test+Engineer&l=Berlin                                                  | ✓ | ⏱: 4.95s \n"
-}

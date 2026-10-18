@@ -1,4 +1,0 @@
-{
-  "at": "2026-09-25T12:30:57.766305+00:00",
-  "error": "the JSON object must be str, bytes or bytearray, not NoneType"
-}

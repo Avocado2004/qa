@@ -1,6 +1,0 @@
-{
-  "url": "https://www.stepstone.de/stellenangebote--Specialist-QA-Operations-m-w-d-Sterility-Assurance-QA-Oversight-Shopfloor-QA-Pfaffenhofen-an-der-Ilm-Daiichi-Sankyo-Europe-GmbH--14460994-inline.html",
-  "returncode": 0,
-  "stdout": "✓ 页面已保存到 /opt/data/qa-vacancy-project/cycles/2026-09-29_cycle-1/workers/stepstone.de/raw/crawl4ai-card-ce-QA-Oversight-Shopfloor-QA-Pfaffenhofen-an-der-Ilm-Daiichi-Sankyo-Europe-GmbH-14460994-inline-html.md\n  标题: Specialist QA Operations (m/w/d) Sterility Assurance - QA Oversight / Shopfloor QA - Feste Anstellung, Vollzeit Job in Pfaffenhofen an der Ilm\n  链接数: 45\n",
-  "stderr": "[INIT].... → Crawl4AI 0.9.4 \n[FETCH]... ↓ https://www.stepstone.de/stellenangebote--Specia...Daiichi-Sankyo-Europe-GmbH--14460994-inline.html  | ✓ | ⏱: 8.73s \n[SCRAPE].. ◆ https://www.stepstone.de/stellenangebote--Specia...Daiichi-Sankyo-Europe-GmbH--14460994-inline.html  | ✓ | ⏱: 0.12s \n[COMPLETE] ● https://www.stepstone.de/stellenangebote--Specia...Daiichi-Sankyo-Europe-GmbH--14460994-inline.html  | ✓ | ⏱: 8.94s \n"
-}

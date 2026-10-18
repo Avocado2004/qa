@@ -1,7 +1,0 @@
-{
-  "url": "https://www.linkedin.com/jobs-guest/jobs/api/seeMoreJobPostings/search?keywords=QA&location=Germany&f_TPR=r2592000&start=0",
-  "attempt": 3,
-  "returncode": 2,
-  "stdout": "",
-  "stderr": "Usage: crawl4ai-skill crawl [OPTIONS] URL\nTry 'crawl4ai-skill crawl --help' for help.\n\nError: No such option '--wait-until'. Did you mean '--wait-for'?\n"
-}

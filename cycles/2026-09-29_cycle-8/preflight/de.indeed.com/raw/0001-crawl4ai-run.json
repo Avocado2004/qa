@@ -1,7 +1,0 @@
-{
-  "url": "https://de.indeed.com/jobs?q=QA+Engineer&l=Berlin",
-  "attempt": 1,
-  "returncode": 0,
-  "stdout": "✓ 页面已保存到 /opt/data/qa-vacancy-project/cycles/2026-09-29_cycle-8/preflight/de.indeed.com/raw/crawl4ai-listing-01.md\n  标题: QA Engineer Jobs in Berlin | Jetzt 50 offene Stellen finden | Indeed\n  链接数: 128\n",
-  "stderr": "[INIT].... → Crawl4AI 0.9.4 \n[FETCH]... ↓ https://de.indeed.com/jobs?q=QA+Engineer&l=Berlin                                                    | ✓ | ⏱: 24.45s \n[SCRAPE].. ◆ https://de.indeed.com/jobs?q=QA+Engineer&l=Berlin                                                    | ✓ | ⏱: 1.61s \n[COMPLETE] ● https://de.indeed.com/jobs?q=QA+Engineer&l=Berlin                                                    | ✓ | ⏱: 27.02s \n"
-}

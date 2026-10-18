@@ -1,7 +1,0 @@
-{
-  "url": "https://www.xing.com/jobs/search",
-  "attempt": 3,
-  "returncode": 2,
-  "stdout": "",
-  "stderr": "Usage: crawl4ai-skill crawl [OPTIONS] URL\nTry 'crawl4ai-skill crawl --help' for help.\n\nError: No such option '--delay'. Did you mean '--help'?\n"
-}

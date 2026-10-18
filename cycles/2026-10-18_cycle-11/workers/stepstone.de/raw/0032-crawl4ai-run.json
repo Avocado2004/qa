@@ -1,7 +1,0 @@
-{
-  "url": "https://www.stepstone.de/stellenangebote--QA-Specialist-m-w-d-Marburg-FERCHAU-Connecting-People-and-Technologies--10762835-inline.html",
-  "attempt": 1,
-  "returncode": 0,
-  "stdout": "✓ 页面已保存到 /opt/data/qa-vacancy-project/cycles/2026-10-18_cycle-11/workers/stepstone.de/raw/crawl4ai-card-angebote-QA-Specialist-m-w-d-Marburg-FERCHAU-Connecting-People-and-Technologies-10762835-inline-html.md\n  标题: QA Specialist (m/w/d) - Feste Anstellung, Vollzeit, Homeoffice Job in Marburg\n  链接数: 37\n",
-  "stderr": "[INIT].... → Crawl4AI 0.9.4 \n[FETCH]... ↓ https://www.stepstone.de/stellenangebote--QA-Spe...ng-People-and-Technologies--10762835-inline.html  | ✓ | ⏱: 9.13s \n[SCRAPE].. ◆ https://www.stepstone.de/stellenangebote--QA-Spe...ng-People-and-Technologies--10762835-inline.html  | ✓ | ⏱: 0.18s \n[COMPLETE] ● https://www.stepstone.de/stellenangebote--QA-Spe...ng-People-and-Technologies--10762835-inline.html  | ✓ | ⏱: 9.39s \n"
-}

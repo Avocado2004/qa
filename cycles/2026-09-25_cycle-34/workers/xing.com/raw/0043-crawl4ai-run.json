@@ -1,6 +1,0 @@
-{
-  "url": "https://www.xing.com/jobs/grimma-job-ma-ge-rin-job-ma-ger-157807012",
-  "returncode": 0,
-  "stdout": "✓ 页面已保存到 /opt/data/qa-vacancy-project/cycles/2026-09-25_cycle-34/workers/xing.com/raw/crawl4ai-card-https-www-xing-com-jobs-grimma-job-ma-ge-rin-job-ma-ger-157807012.md\n  标题: Job­ma­na­ge­rin / Job­ma­na­ger (m/w/d) in Grimma | XING Jobs\n  链接数: 41\n",
-  "stderr": "[INIT].... → Crawl4AI 0.9.4 \n[FETCH]... ↓ https://www.xing.com/jobs/grimma-job-ma-ge-rin-job-ma-ger-157807012                                  | ✓ | ⏱: 2.84s \n[SCRAPE].. ◆ https://www.xing.com/jobs/grimma-job-ma-ge-rin-job-ma-ger-157807012                                  | ✓ | ⏱: 0.56s \n[COMPLETE] ● https://www.xing.com/jobs/grimma-job-ma-ge-rin-job-ma-ger-157807012                                  | ✓ | ⏱: 3.47s \n"
-}

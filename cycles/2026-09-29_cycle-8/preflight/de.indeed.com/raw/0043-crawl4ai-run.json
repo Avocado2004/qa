@@ -1,7 +1,0 @@
-{
-  "url": "https://de.indeed.com/jobs?q=QA+Analyst&l=Deutschland",
-  "attempt": 1,
-  "returncode": 0,
-  "stdout": "✓ 页面已保存到 /opt/data/qa-vacancy-project/cycles/2026-09-29_cycle-8/preflight/de.indeed.com/raw/crawl4ai-listing-43.md\n  标题: QA Analyst Jobs in Deutschland | Jetzt 100 offene Stellen finden | Indeed\n  链接数: 128\n",
-  "stderr": "[INIT].... → Crawl4AI 0.9.4 \n[FETCH]... ↓ https://de.indeed.com/jobs?q=QA+Analyst&l=Deutschland                                                | ✓ | ⏱: 4.34s \n[SCRAPE].. ◆ https://de.indeed.com/jobs?q=QA+Analyst&l=Deutschland                                                | ✓ | ⏱: 0.49s \n[COMPLETE] ● https://de.indeed.com/jobs?q=QA+Analyst&l=Deutschland                                                | ✓ | ⏱: 5.01s \n"
-}

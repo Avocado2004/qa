@@ -1,6 +1,0 @@
-{
-  "url": "https://de.linkedin.com/jobs/view/senior-quality-assurance-engineer-at-trading-212-4468924202?position=2&pageNum=0&refId=gI0jVddnf7TaEZaJ3ulsaA%3D%3D",
-  "returncode": 1,
-  "stdout": "",
-  "stderr": "[INIT].... → Crawl4AI 0.9.4 \n[FETCH]... ↓ https://de.linkedin.com/jobs/view/senior-quality...ition=2&pageNum=0&refId=gI0jVddnf7TaEZaJ3ulsaA==  | ✓ | ⏱: 1.34s \n[SCRAPE].. ◆ https://de.linkedin.com/jobs/view/senior-quality...ition=2&pageNum=0&refId=gI0jVddnf7TaEZaJ3ulsaA==  | ✓ | ⏱: 0.01s \n[ERROR]... × https://de.linkedin.com...I0jVddnf7TaEZaJ3ulsaA==  | Error: Blocked by anti-bot protection: HTTP 429 Too Many Requests \n[COMPLETE] ● https://de.linkedin.com/jobs/view/senior-quality...ition=2&pageNum=0&refId=gI0jVddnf7TaEZaJ3ulsaA==  | ✗ | ⏱: 1.39s \n✗ 爬取失败: Blocked by anti-bot protection: HTTP 429 Too Many Requests\n"
-}

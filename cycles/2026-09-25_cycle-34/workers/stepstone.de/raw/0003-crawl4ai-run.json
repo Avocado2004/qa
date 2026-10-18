@@ -1,6 +1,0 @@
-{
-  "url": "https://www.stepstone.de/stellenangebote--QA-Artwork-Management-Specialist-m-w-d-befristet-auf-2-Jahre-Freiburg-Dr-Falk-Pharma-GmbH--14469236-inline.html",
-  "returncode": 0,
-  "stdout": "✓ 页面已保存到 /opt/data/qa-vacancy-project/cycles/2026-09-25_cycle-34/workers/stepstone.de/raw/crawl4ai-t-Specialist-m-w-d-befristet-auf-2-Jahre-Freiburg-Dr-Falk-Pharma-GmbH-14469236-inline-html.md\n  标题: QA Artwork Management Specialist (m/w/d) - befristet auf 2 Jahre - Feste Anstellung, Vollzeit, Homeoffice Job in Freiburg\n  链接数: 35\n",
-  "stderr": "[INIT].... → Crawl4AI 0.9.4 \n[FETCH]... ↓ https://www.stepstone.de/stellenangebote--QA-Art...eiburg-Dr-Falk-Pharma-GmbH--14469236-inline.html  | ✓ | ⏱: 30.57s \n[SCRAPE].. ◆ https://www.stepstone.de/stellenangebote--QA-Art...eiburg-Dr-Falk-Pharma-GmbH--14469236-inline.html  | ✓ | ⏱: 1.04s \n[COMPLETE] ● https://www.stepstone.de/stellenangebote--QA-Art...eiburg-Dr-Falk-Pharma-GmbH--14469236-inline.html  | ✓ | ⏱: 32.14s \n"
-}

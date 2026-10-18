@@ -1,6 +1,0 @@
-{
-  "url": "https://de.linkedin.com/jobs/view/quality-assurance-specialist-d-m-w-at-genua-gmbh-4471885231?position=6&pageNum=0&refId=pIZ9a430tLXb2dHZKHjOlQ%3D%3D",
-  "returncode": 0,
-  "stdout": "✓ 页面已保存到 /opt/data/qa-vacancy-project/cycles/2026-09-25_cycle-50/workers/linkedin.com/raw/crawl4ai-card-ce-specialist-d-m-w-at-genua-gmbh-4471885231-position-6-pageNum-0-refId-pIZ9a430tLXb2dHZKHjOlQ-3D-3D.md\n  标题: genua GmbH sucht Quality Assurance Specialist (d/m/w) in Leipzig | LinkedIn\n  链接数: 184\n",
-  "stderr": "[INIT].... → Crawl4AI 0.9.4 \n[FETCH]... ↓ https://de.linkedin.com/jobs/view/quality-assura...ition=6&pageNum=0&refId=pIZ9a430tLXb2dHZKHjOlQ==  | ✓ | ⏱: 2.73s \n[SCRAPE].. ◆ https://de.linkedin.com/jobs/view/quality-assura...ition=6&pageNum=0&refId=pIZ9a430tLXb2dHZKHjOlQ==  | ✓ | ⏱: 0.60s \n[COMPLETE] ● https://de.linkedin.com/jobs/view/quality-assura...ition=6&pageNum=0&refId=pIZ9a430tLXb2dHZKHjOlQ==  | ✓ | ⏱: 3.43s \n"
-}

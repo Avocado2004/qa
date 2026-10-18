@@ -1,7 +1,0 @@
-{
-  "url": "https://www.stepstone.de/stellenangebote--Backend-Developerin-Backend-Developer-m-w-d-im-Referat-QA-1-Bildungsberichterstattung-fuer-das-Dashboarding-Team-Gunzenhausen-Staatsinstitut-fuer-Schulqualitaet-und-Bildungsforschung-ISB--14607138-inline.html",
-  "attempt": 1,
-  "returncode": 0,
-  "stdout": "✓ 页面已保存到 /opt/data/qa-vacancy-project/cycles/2026-10-18_cycle-8/workers/stepstone.de/raw/crawl4ai-card--Team-Gunzenhausen-Staatsinstitut-fuer-Schulqualitaet-und-Bildungsforschung-ISB-14607138-inline-html.md\n  标题: Backend Developerin / Backend Developer (m/w/d) im Referat QA 1 Bildungsberichterstattung für das Dashboarding-Team - Befristeter Vertrag, Vollzeit Job in Gunzenhausen\n  链接数: 53\n",
-  "stderr": "[INIT].... → Crawl4AI 0.9.4 \n[FETCH]... ↓ https://www.stepstone.de/stellenangebote--Backen...-und-Bildungsforschung-ISB--14607138-inline.html  | ✓ | ⏱: 7.82s \n[SCRAPE].. ◆ https://www.stepstone.de/stellenangebote--Backen...-und-Bildungsforschung-ISB--14607138-inline.html  | ✓ | ⏱: 0.13s \n[COMPLETE] ● https://www.stepstone.de/stellenangebote--Backen...-und-Bildungsforschung-ISB--14607138-inline.html  | ✓ | ⏱: 8.01s \n"
-}

@@ -1,9 +1,0 @@
-{
-  "cycle_id": "workers",
-  "finished_at": "2026-09-24T22:32:45.782092+00:00",
-  "schema_version": 2,
-  "source_id": "xing.com",
-  "stage": "VACANCY_WORKER",
-  "started_at": "2026-09-24T22:32:31.172176+00:00",
-  "state": "complete"
-}

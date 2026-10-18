@@ -1,6 +1,0 @@
-{
-  "url": "https://www.xing.com/jobs/burgkunstadt-personalreferent-recruiting-personaladministration-157601291",
-  "returncode": 0,
-  "stdout": "✓ 页面已保存到 /opt/data/qa-vacancy-project/cycles/2026-09-25_cycle-37/workers/xing.com/raw/crawl4ai-card-https-www-xing-com-jobs-burgkunstadt-personalreferent-recruiting-personaladministration-157601291.md\n  标题: Personalreferent - Recruiting / Personaladministration (m/w/d) in Burgkunstadt | XING Jobs\n  链接数: 59\n",
-  "stderr": "[INIT].... → Crawl4AI 0.9.4 \n[FETCH]... ↓ https://www.xing.com/jobs/burgkunstadt-personalreferent-recruiting-personaladministration-157601291  | ✓ | ⏱: 2.33s \n[SCRAPE].. ◆ https://www.xing.com/jobs/burgkunstadt-personalreferent-recruiting-personaladministration-157601291  | ✓ | ⏱: 0.24s \n[COMPLETE] ● https://www.xing.com/jobs/burgkunstadt-personalreferent-recruiting-personaladministration-157601291  | ✓ | ⏱: 2.63s \n"
-}

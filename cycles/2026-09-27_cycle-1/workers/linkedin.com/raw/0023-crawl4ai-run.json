@@ -1,6 +1,0 @@
-{
-  "url": "https://de.linkedin.com/jobs/view/software-quality-engineer-adobe-premiere-pro-at-adobe-4453015028?position=8&pageNum=0&refId=nX7lcFPMnJIbD%2F%2Fn%2BYTxhw%3D%3D",
-  "returncode": 0,
-  "stdout": "✓ 页面已保存到 /opt/data/qa-vacancy-project/cycles/2026-09-27_cycle-1/workers/linkedin.com/raw/crawl4ai-card-adobe-premiere-pro-at-adobe-4453015028-position-8-pageNum-0-refId-nX7lcFPMnJIbD-2F-2Fn-2BYTxhw-3D-3D.md\n  标题: Software Quality Engineer - Adobe Premiere Pro bei Adobe — Hamburg | LinkedIn Jobs\n  链接数: 182\n",
-  "stderr": "[INIT].... → Crawl4AI 0.9.4 \n[FETCH]... ↓ https://de.linkedin.com/jobs/view/software-quali...ition=8&pageNum=0&refId=nX7lcFPMnJIbD//n+YTxhw==  | ✓ | ⏱: 3.50s \n[SCRAPE].. ◆ https://de.linkedin.com/jobs/view/software-quali...ition=8&pageNum=0&refId=nX7lcFPMnJIbD//n+YTxhw==  | ✓ | ⏱: 0.57s \n[COMPLETE] ● https://de.linkedin.com/jobs/view/software-quali...ition=8&pageNum=0&refId=nX7lcFPMnJIbD//n+YTxhw==  | ✓ | ⏱: 4.17s \n"
-}

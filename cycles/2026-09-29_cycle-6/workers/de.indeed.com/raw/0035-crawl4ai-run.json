@@ -1,7 +1,0 @@
-{
-  "url": "https://de.indeed.com/rc/clk?jk=50143e16e3c55ae4&bb=EpVijBu42v4V9Dn28y9fDDvU-mn2SaIoFkHsVuIWh4jMRCLU1r62w87c-lOfzZ25yGnpIRBf6qWlnV4bATA-OpS1tKffgXn9oR9ofe42oF1O2cxT6kdLdeg2gvfb6u9L&xkcb=SoAr67M2e2RqzkzCTR0FbzkdCdPP&fccid=82068b77ccc817cf&vjs=3",
-  "attempt": 1,
-  "returncode": 0,
-  "stdout": "✓ 页面已保存到 /opt/data/qa-vacancy-project/cycles/2026-09-29_cycle-6/workers/de.indeed.com/raw/crawl4ai-card-fgXn9oR9ofe42oF1O2cxT6kdLdeg2gvfb6u9L-xkcb-SoAr67M2e2RqzkzCTR0FbzkdCdPP-fccid-82068b77ccc817cf-vjs-3.md\n  标题: Quality Assurance Engineer – E-Government Zoll (m/w/d) - Berlin - Indeed.com\n  链接数: 45\n",
-  "stderr": "[INIT].... → Crawl4AI 0.9.4 \n[FETCH]... ↓ https://de.indeed.com/rc/clk?jk=50143e16e3c55ae4...2RqzkzCTR0FbzkdCdPP&fccid=82068b77ccc817cf&vjs=3  | ✓ | ⏱: 4.12s \n[SCRAPE].. ◆ https://de.indeed.com/rc/clk?jk=50143e16e3c55ae4...2RqzkzCTR0FbzkdCdPP&fccid=82068b77ccc817cf&vjs=3  | ✓ | ⏱: 0.08s \n[COMPLETE] ● https://de.indeed.com/rc/clk?jk=50143e16e3c55ae4...2RqzkzCTR0FbzkdCdPP&fccid=82068b77ccc817cf&vjs=3  | ✓ | ⏱: 4.27s \n"
-}

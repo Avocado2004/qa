@@ -1,8 +1,0 @@
-{
-  "cycle_id": "2026-10-18_cycle-11",
-  "schema_version": 2,
-  "source_id": "de.indeed.com",
-  "stage": "SOURCE_PREFLIGHT",
-  "started_at": "2026-10-18T14:18:59.199474+00:00",
-  "state": "claimed"
-}

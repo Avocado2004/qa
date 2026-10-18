@@ -1,6 +1,0 @@
-{
-  "url": "https://hitmarker.net/jobs/cloud-imperium-games-technical-embedded-qa-specialist-i-4621360",
-  "title": "Technical Embedded QA Specialist I - Cloud Imperium Games | Hitmarker",
-  "content": "# Technical Embedded QA Specialist I\nLocation\n🇩🇪 Frankfurt am Main, HE, Germany\nLevel\nIntermediate (2–5 years)\nContract\nFull Time\nPosted\nStill accepting applications\n* Apply in seconds with a Hitmarker profile\n* Get discovered by studios hiring now\n* Track every application in one place\nReport listing\n\n...\n\n## About the Role\nThe successful person will be supporting not only testing the team’s creations in client, but also testing the tools used to create these pieces, as well as providing feedback. As the tester assigned to the team, your work will directly affect the quality of Star Citizen and Squadron 42.\n\n...\n\n### Fraud Statement\n[Cloud Imperium Games](https://hitmarker.net/companies/cloud-imperium-games) ·\nTechnical Embedded QA Specialist I\n[Hitmarker](https://hitmarker.net/)\nFind jobs across games, esports, content and media. Hire talented people across the industry. Make your mark.\nJoin our newsletter\nThe week in games, esports and content jobs.",
-  "error": null
-}

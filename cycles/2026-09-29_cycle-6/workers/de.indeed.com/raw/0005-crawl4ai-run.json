@@ -1,7 +1,0 @@
-{
-  "url": "https://de.indeed.com/rc/clk?jk=fb57349133c160b6&bb=a21sFF7WbDXm5Z2RuYGGemevrxcwQeiRKKAm1qYXPKVBrV6Klcd6_wba0T6QMoRFwTIUgtZYrzPuvKozY9Bu3NGtPVrYnShC921z4BhGfT12xLd86pBovpxF45kbQ2aw&xkcb=SoA867M2e2RUotzNrZ0KbzkdCdPP&fccid=9e215d88a6b33622&vjs=3",
-  "attempt": 1,
-  "returncode": 0,
-  "stdout": "✓ 页面已保存到 /opt/data/qa-vacancy-project/cycles/2026-09-29_cycle-6/workers/de.indeed.com/raw/crawl4ai-card-YnShC921z4BhGfT12xLd86pBovpxF45kbQ2aw-xkcb-SoA867M2e2RUotzNrZ0KbzkdCdPP-fccid-9e215d88a6b33622-vjs-3.md\n  标题: Senior IT-Consultant / Software Quality Engineer (m/w/d) - 10719 Berlin - Indeed.com\n  链接数: 44\n",
-  "stderr": "[INIT].... → Crawl4AI 0.9.4 \n[FETCH]... ↓ https://de.indeed.com/rc/clk?jk=fb57349133c160b6...2RUotzNrZ0KbzkdCdPP&fccid=9e215d88a6b33622&vjs=3  | ✓ | ⏱: 5.05s \n[SCRAPE].. ◆ https://de.indeed.com/rc/clk?jk=fb57349133c160b6...2RUotzNrZ0KbzkdCdPP&fccid=9e215d88a6b33622&vjs=3  | ✓ | ⏱: 0.16s \n[COMPLETE] ● https://de.indeed.com/rc/clk?jk=fb57349133c160b6...2RUotzNrZ0KbzkdCdPP&fccid=9e215d88a6b33622&vjs=3  | ✓ | ⏱: 5.42s \n"
-}

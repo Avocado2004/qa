@@ -1,4 +1,0 @@
-{
-  "at": "2026-10-08T21:44:06.507523+00:00",
-  "error": "AttributeError: 'list' object has no attribute 'get'"
-}

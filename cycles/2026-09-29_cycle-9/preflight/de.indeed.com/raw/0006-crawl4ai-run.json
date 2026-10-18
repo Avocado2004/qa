@@ -1,7 +1,0 @@
-{
-  "url": "https://de.indeed.com/jobs?q=QA+Engineer&l=Hamburg",
-  "attempt": 1,
-  "returncode": 0,
-  "stdout": "✓ 页面已保存到 /opt/data/qa-vacancy-project/cycles/2026-09-29_cycle-9/preflight/de.indeed.com/raw/crawl4ai-listing-06.md\n  标题: QA Engineer Jobs in Hamburg - 30. September 2026 | Stellenangebote auf Indeed\n  链接数: 118\n",
-  "stderr": "[INIT].... → Crawl4AI 0.9.4 \n[FETCH]... ↓ https://de.indeed.com/jobs?q=QA+Engineer&l=Hamburg                                                   | ✓ | ⏱: 5.51s \n[SCRAPE].. ◆ https://de.indeed.com/jobs?q=QA+Engineer&l=Hamburg                                                   | ✓ | ⏱: 0.43s \n[COMPLETE] ● https://de.indeed.com/jobs?q=QA+Engineer&l=Hamburg                                                   | ✓ | ⏱: 6.20s \n"
-}

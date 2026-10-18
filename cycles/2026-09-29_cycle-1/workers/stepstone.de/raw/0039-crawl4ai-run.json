@@ -1,6 +1,0 @@
-{
-  "url": "https://www.stepstone.de/stellenangebote--Ingenieur-m-w-d-fuer-Arbeitssicherheit-Produktionsplanung-Qualitaetssicherung-Eisenhuettenstadt-Interzero-Circular-Solutions-Germany-GmbH--14494805-inline.html",
-  "returncode": 0,
-  "stdout": "✓ 页面已保存到 /opt/data/qa-vacancy-project/cycles/2026-09-29_cycle-1/workers/stepstone.de/raw/crawl4ai-card-Qualitaetssicherung-Eisenhuettenstadt-Interzero-Circular-Solutions-Germany-GmbH-14494805-inline-html.md\n  标题: Ingenieur (m/w/d) für Arbeitssicherheit, Produktionsplanung & Qualitätssicherung - Feste Anstellung, Vollzeit Job in Eisenhüttenstadt\n  链接数: 34\n",
-  "stderr": "[INIT].... → Crawl4AI 0.9.4 \n[FETCH]... ↓ https://www.stepstone.de/stellenangebote--Ingeni...lar-Solutions-Germany-GmbH--14494805-inline.html  | ✓ | ⏱: 8.58s \n[SCRAPE].. ◆ https://www.stepstone.de/stellenangebote--Ingeni...lar-Solutions-Germany-GmbH--14494805-inline.html  | ✓ | ⏱: 0.14s \n[COMPLETE] ● https://www.stepstone.de/stellenangebote--Ingeni...lar-Solutions-Germany-GmbH--14494805-inline.html  | ✓ | ⏱: 8.83s \n"
-}

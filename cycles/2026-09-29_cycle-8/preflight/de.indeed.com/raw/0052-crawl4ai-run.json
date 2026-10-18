@@ -1,7 +1,0 @@
-{
-  "url": "https://de.indeed.com/rc/clk?jk=b61d3fbdb683ee91&bb=yoMoInuMGzRc3N1yjIYCbtJ-ytHr-vN-_4OhkeHw_VovHHigdIO3vSb-QGNL_FnDJpZnoyIUHeADk-lcPmaAx5JGlKI-BZjIne7rBTlQyOO4wIZgQwswavV0no4WU4Z8IbOniH-L46gg-V9exxhdMg%3D%3D&xkcb=SoDa67M2e2yEAnTCFh0LbzkdCdPP&fccid=f0c297c6270253e5&vjs=3",
-  "attempt": 2,
-  "returncode": 1,
-  "stdout": "",
-  "stderr": "[INIT].... → Crawl4AI 0.9.4 \n[FETCH]... ↓ https://de.indeed.com/rc/clk?jk=b61d3fbdb683ee91...2yEAnTCFh0LbzkdCdPP&fccid=f0c297c6270253e5&vjs=3  | ✓ | ⏱: 1.45s \n[SCRAPE].. ◆ https://de.indeed.com/rc/clk?jk=b61d3fbdb683ee91...2yEAnTCFh0LbzkdCdPP&fccid=f0c297c6270253e5&vjs=3  | ✓ | ⏱: 0.02s \n[ERROR]... × https://de.indeed.com/r...=f0c297c6270253e5&vjs=3  | Error: Blocked by anti-bot protection: Cloudflare JS challenge \n[COMPLETE] ● https://de.indeed.com/rc/clk?jk=b61d3fbdb683ee91...2yEAnTCFh0LbzkdCdPP&fccid=f0c297c6270253e5&vjs=3  | ✗ | ⏱: 1.49s \n✗ 爬取失败: Blocked by anti-bot protection: Cloudflare JS challenge\n"
-}

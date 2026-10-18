@@ -1,7 +1,0 @@
-{
-  "query": "site:linkedin.com (QA OR \"Quality Assurance\" OR \"Software Test\" OR \"Test Automation\") (Germany OR Berlin OR Leipzig OR Dresden)",
-  "result": {
-    "success": false,
-    "error": "Keyless Exa search failed: Unrecognized MCP response shape. Set EXA_API_KEY (https://exa.ai) or another web backend via `hermes tools` for reliable service."
-  }
-}

@@ -1,6 +1,0 @@
-{
-  "url": "https://de.linkedin.com/jobs/view/quality-engineer-schwerpunkt-testautomatisierung-all-genders-at-starface-gmbh-4402883225?position=10&pageNum=0&refId=HIHYt6va8W%2BTxYxlDUpphQ%3D%3D",
-  "returncode": 0,
-  "stdout": "✓ 页面已保存到 /opt/data/qa-vacancy-project/cycles/2026-09-26_cycle-1/workers/linkedin.com/raw/crawl4ai-card-g-all-genders-at-starface-gmbh-4402883225-position-10-pageNum-0-refId-HIHYt6va8W-2BTxYxlDUpphQ-3D-3D.md\n  标题: Quality Engineer - Schwerpunkt Testautomatisierung (all genders) bei STARFACE GmbH — Karlsruhe | LinkedIn Jobs\n  链接数: 183\n",
-  "stderr": "[INIT].... → Crawl4AI 0.9.4 \n[FETCH]... ↓ https://de.linkedin.com/jobs/view/quality-engine...tion=10&pageNum=0&refId=HIHYt6va8W+TxYxlDUpphQ==  | ✓ | ⏱: 3.75s \n[SCRAPE].. ◆ https://de.linkedin.com/jobs/view/quality-engine...tion=10&pageNum=0&refId=HIHYt6va8W+TxYxlDUpphQ==  | ✓ | ⏱: 0.81s \n[COMPLETE] ● https://de.linkedin.com/jobs/view/quality-engine...tion=10&pageNum=0&refId=HIHYt6va8W+TxYxlDUpphQ==  | ✓ | ⏱: 4.76s \n"
-}

@@ -1,0 +1,58 @@
+# Python
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+.Python
+*.so
+
+# Environment
+.env
+.env.local
+.env.*.local
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Project data - exclude historical cycles and large artifacts
+cycles/
+runs/
+*.md
+*.jsonl
+*.log
+*.bak*
+*_backup*
+
+# Keep source files
+!source_adapters.py
+!source_registry.json
+!daily_controller.py
+!SPEC.md
+!About.md
+!ID_AUDIT_SPEC.md
+!qa_invariants_test.py
+!config/
+!tests/
+!worker_queue.py
+!semantic_groups.json
+!notices.jsonl
+!first_seen.json
+!direct_details.json
+!focus_candidates.json
+!linkedin_candidates.json
+!official_checks.json
+!to_verify.json
+!verify_rules.md
+!verifier_verdict.md
+!recheck_unclear_*.md
+!recheck_parts/
+!initial_master.md
+!qa_vacancies_master*.md
+!result.md

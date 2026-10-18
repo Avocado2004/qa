@@ -1,7 +1,0 @@
-{
-  "url": "https://de.indeed.com/jobs?q=Softwaretester&l=Hamburg",
-  "attempt": 1,
-  "returncode": 0,
-  "stdout": "✓ 页面已保存到 /opt/data/qa-vacancy-project/cycles/2026-09-29_cycle-9/preflight/de.indeed.com/raw/crawl4ai-listing-13.md\n  标题: Softwaretester Jobs in Hamburg - 30. September 2026 | Stellenangebote auf Indeed\n  链接数: 76\n",
-  "stderr": "[INIT].... → Crawl4AI 0.9.4 \n[FETCH]... ↓ https://de.indeed.com/jobs?q=Softwaretester&l=Hamburg                                                | ✓ | ⏱: 3.68s \n[SCRAPE].. ◆ https://de.indeed.com/jobs?q=Softwaretester&l=Hamburg                                                | ✓ | ⏱: 0.25s \n[COMPLETE] ● https://de.indeed.com/jobs?q=Softwaretester&l=Hamburg                                                | ✓ | ⏱: 4.09s \n"
-}

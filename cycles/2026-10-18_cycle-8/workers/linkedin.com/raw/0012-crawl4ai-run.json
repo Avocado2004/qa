@@ -1,7 +1,0 @@
-{
-  "url": "https://de.linkedin.com/jobs/view/senior-quality-engineer-checkout-payments-m-w-d-at-shopware-4477997035?position=2&pageNum=0&refId=wGbxil85ZE8VDxK6e%2FnkyQ%3D%3D",
-  "attempt": 2,
-  "returncode": 1,
-  "stdout": "",
-  "stderr": "[INIT].... → Crawl4AI 0.9.4 \n[FETCH]... ↓ https://de.linkedin.com/jobs/view/senior-quality...ition=2&pageNum=0&refId=wGbxil85ZE8VDxK6e/nkyQ==  | ✓ | ⏱: 1.40s \n[SCRAPE].. ◆ https://de.linkedin.com/jobs/view/senior-quality...ition=2&pageNum=0&refId=wGbxil85ZE8VDxK6e/nkyQ==  | ✓ | ⏱: 0.01s \n[ERROR]... × https://de.linkedin.com...Gbxil85ZE8VDxK6e/nkyQ==  | Error: Blocked by anti-bot protection: HTTP 429 Too Many Requests \n[COMPLETE] ● https://de.linkedin.com/jobs/view/senior-quality...ition=2&pageNum=0&refId=wGbxil85ZE8VDxK6e/nkyQ==  | ✗ | ⏱: 1.44s \n✗ 爬取失败: Blocked by anti-bot protection: HTTP 429 Too Many Requests\n"
-}

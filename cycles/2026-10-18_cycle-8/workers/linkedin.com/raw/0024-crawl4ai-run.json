@@ -1,7 +1,0 @@
-{
-  "url": "https://de.linkedin.com/jobs/view/senior-qa-tester-paper-io-2-at-voodoo-4475542343?position=7&pageNum=0&refId=wGbxil85ZE8VDxK6e%2FnkyQ%3D%3D",
-  "attempt": 1,
-  "returncode": 0,
-  "stdout": "✓ 页面已保存到 /opt/data/qa-vacancy-project/cycles/2026-10-18_cycle-8/workers/linkedin.com/raw/crawl4ai-card--qa-tester-paper-io-2-at-voodoo-4475542343-position-7-pageNum-0-refId-wGbxil85ZE8VDxK6e-2FnkyQ-3D-3D.md\n  标题: Voodoo sucht Senior QA Tester - Paper.io 2 in Berlin | LinkedIn\n  链接数: 186\n",
-  "stderr": "[INIT].... → Crawl4AI 0.9.4 \n[FETCH]... ↓ https://de.linkedin.com/jobs/view/senior-qa-test...ition=7&pageNum=0&refId=wGbxil85ZE8VDxK6e/nkyQ==  | ✓ | ⏱: 6.57s \n[SCRAPE].. ◆ https://de.linkedin.com/jobs/view/senior-qa-test...ition=7&pageNum=0&refId=wGbxil85ZE8VDxK6e/nkyQ==  | ✓ | ⏱: 0.75s \n[COMPLETE] ● https://de.linkedin.com/jobs/view/senior-qa-test...ition=7&pageNum=0&refId=wGbxil85ZE8VDxK6e/nkyQ==  | ✓ | ⏱: 7.41s \n"
-}

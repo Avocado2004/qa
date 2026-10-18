@@ -1,6 +1,0 @@
-{
-  "url": "https://hitmarker.net/jobs/ibloxx-studios-dmcc-senior-game-ui-multimedia-designer-4917834",
-  "returncode": 0,
-  "stdout": "✓ 页面已保存到 /opt/data/qa-vacancy-project/cycles/2026-09-26_cycle-1/workers/hitmarker.net/raw/crawl4ai-card-https-hitmarker-net-jobs-ibloxx-studios-dmcc-senior-game-ui-multimedia-designer-4917834.md\n  标题: Senior Game UI & Multimedia Designer - iBLOXX Studios DMCC | Hitmarker\n  链接数: 53\n",
-  "stderr": "[INIT].... → Crawl4AI 0.9.4 \n[FETCH]... ↓ https://hitmarker.net/jobs/ibloxx-studios-dmcc-senior-game-ui-multimedia-designer-4917834            | ✓ | ⏱: 13.50s \n[SCRAPE].. ◆ https://hitmarker.net/jobs/ibloxx-studios-dmcc-senior-game-ui-multimedia-designer-4917834            | ✓ | ⏱: 0.10s \n[COMPLETE] ● https://hitmarker.net/jobs/ibloxx-studios-dmcc-senior-game-ui-multimedia-designer-4917834            | ✓ | ⏱: 13.71s \n"
-}

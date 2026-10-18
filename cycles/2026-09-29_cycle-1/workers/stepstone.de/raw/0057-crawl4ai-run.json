@@ -1,6 +1,0 @@
-{
-  "url": "https://www.stepstone.de/stellenangebote--Kaufmaennische-Sachbearbeitung-in-der-Logistik-Unterstuetzung-in-der-Qualitaetssicherung-w-m-d-Berlin-Jurk-Co-Handelsges-mbH--14399928-inline.html",
-  "returncode": 0,
-  "stdout": "✓ 页面已保存到 /opt/data/qa-vacancy-project/cycles/2026-09-29_cycle-1/workers/stepstone.de/raw/crawl4ai-card-k-Unterstuetzung-in-der-Qualitaetssicherung-w-m-d-Berlin-Jurk-Co-Handelsges-mbH-14399928-inline-html.md\n  标题: Kaufmännische Sachbearbeitung in der Logistik | Unterstützung in der Qualitätssicherung (w/m/d) - Feste Anstellung, Vollzeit Job in Berlin\n  链接数: 54\n",
-  "stderr": "[INIT].... → Crawl4AI 0.9.4 \n[FETCH]... ↓ https://www.stepstone.de/stellenangebote--Kaufma...lin-Jurk-Co-Handelsges-mbH--14399928-inline.html  | ✓ | ⏱: 9.01s \n[SCRAPE].. ◆ https://www.stepstone.de/stellenangebote--Kaufma...lin-Jurk-Co-Handelsges-mbH--14399928-inline.html  | ✓ | ⏱: 0.10s \n[COMPLETE] ● https://www.stepstone.de/stellenangebote--Kaufma...lin-Jurk-Co-Handelsges-mbH--14399928-inline.html  | ✓ | ⏱: 9.18s \n"
-}

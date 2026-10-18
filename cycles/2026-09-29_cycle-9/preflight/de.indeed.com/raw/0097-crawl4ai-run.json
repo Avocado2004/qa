@@ -1,7 +1,0 @@
-{
-  "url": "https://de.indeed.com/jobs?q=Test+Engineer&l=Dresden",
-  "attempt": 1,
-  "returncode": 0,
-  "stdout": "✓ 页面已保存到 /opt/data/qa-vacancy-project/cycles/2026-09-29_cycle-9/preflight/de.indeed.com/raw/crawl4ai-listing-18.md\n  标题: Test Engineer Jobs in Dresden | Jetzt 100 offene Stellen finden | Indeed\n  链接数: 105\n",
-  "stderr": "[INIT].... → Crawl4AI 0.9.4 \n[FETCH]... ↓ https://de.indeed.com/jobs?q=Test+Engineer&l=Dresden                                                 | ✓ | ⏱: 3.99s \n[SCRAPE].. ◆ https://de.indeed.com/jobs?q=Test+Engineer&l=Dresden                                                 | ✓ | ⏱: 0.52s \n[COMPLETE] ● https://de.indeed.com/jobs?q=Test+Engineer&l=Dresden                                                 | ✓ | ⏱: 4.80s \n"
-}

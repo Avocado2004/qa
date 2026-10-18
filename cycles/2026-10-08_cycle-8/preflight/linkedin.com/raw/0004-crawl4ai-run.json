@@ -1,7 +1,0 @@
-{
-  "url": "https://www.linkedin.com/jobs-guest/jobs/api/seeMoreJobPostings/search?keywords=QA&location=Germany&f_TPR=r2592000&start=0",
-  "attempt": 1,
-  "returncode": 0,
-  "stdout": "✓ 页面已保存到 /opt/data/qa-vacancy-project/cycles/2026-10-08_cycle-8/preflight/linkedin.com/raw/crawl4ai-listing.md\n  标题: \n  链接数: 20\n",
-  "stderr": "[INIT].... → Crawl4AI 0.9.4 \n[FETCH]... ↓ https://www.linkedin.com/jobs-guest/jobs/api/see...words=QA&location=Germany&f_TPR=r2592000&start=0  | ✓ | ⏱: 1.05s \n[SCRAPE].. ◆ https://www.linkedin.com/jobs-guest/jobs/api/see...words=QA&location=Germany&f_TPR=r2592000&start=0  | ✓ | ⏱: 0.05s \n[COMPLETE] ● https://www.linkedin.com/jobs-guest/jobs/api/see...words=QA&location=Germany&f_TPR=r2592000&start=0  | ✓ | ⏱: 1.16s \n"
-}

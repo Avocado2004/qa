@@ -1,7 +1,0 @@
-{
-  "url": "https://www.arbeitnow.com/api/job-board-api",
-  "attempt": 1,
-  "returncode": 0,
-  "stdout": "✓ 页面已保存到 /opt/data/qa-vacancy-project/cycles/2026-10-18_cycle-6/preflight/arbeitnow.com/raw/crawl4ai-listing.md\n  标题: \n  链接数: 0\n",
-  "stderr": "[INIT].... → Crawl4AI 0.9.4 \n[FETCH]... ↓ https://www.arbeitnow.com/api/job-board-api                                                          | ✓ | ⏱: 17.82s \n[SCRAPE].. ◆ https://www.arbeitnow.com/api/job-board-api                                                          | ✓ | ⏱: 14.41s \n[COMPLETE] ● https://www.arbeitnow.com/api/job-board-api                                                          | ✓ | ⏱: 32.31s \n"
-}

@@ -1,9 +1,0 @@
-{
-  "cycle_id": "workers",
-  "finished_at": "2026-09-24T23:11:03.849041+00:00",
-  "schema_version": 2,
-  "source_id": "eurotechjobs.com",
-  "stage": "VACANCY_WORKER",
-  "started_at": "2026-09-24T23:09:59.160028+00:00",
-  "state": "complete"
-}

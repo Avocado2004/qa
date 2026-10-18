@@ -1,6 +1,0 @@
-{
-  "url": "https://www.eurotechjobs.com/jobs/test_analyst",
-  "returncode": 0,
-  "stdout": "✓ 页面已保存到 /opt/data/qa-vacancy-project/cycles/2026-09-25_cycle-26/preflight/eurotechjobs.com/raw/crawl4ai-listing.md\n  标题: Test Analyst jobs in Europe | EuroTechJobs\n  链接数: 115\n",
-  "stderr": "[INIT].... → Crawl4AI 0.9.4 \n[FETCH]... ↓ https://www.eurotechjobs.com/jobs/test_analyst                                                       | ✓ | ⏱: 7.89s \n[SCRAPE].. ◆ https://www.eurotechjobs.com/jobs/test_analyst                                                       | ✓ | ⏱: 0.76s \n[COMPLETE] ● https://www.eurotechjobs.com/jobs/test_analyst                                                       | ✓ | ⏱: 8.74s \n"
-}

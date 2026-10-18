@@ -1,6 +1,0 @@
-{
-  "url": "https://www.xing.com/jobs/annaberg-buchholz-initiativbewerbung-mitarbeiter-158051671",
-  "returncode": 0,
-  "stdout": "✓ 页面已保存到 /opt/data/qa-vacancy-project/cycles/2026-09-27_cycle-3/preflight/xing.com/raw/crawl4ai-card-https-www-xing-com-jobs-annaberg-buchholz-initiativbewerbung-mitarbeiter-158051671.md\n  标题: Initiativbewerbung Mitarbeiter (m/w/d) in Annaberg-Buchholz | XING Jobs\n  链接数: 41\n",
-  "stderr": "[INIT].... → Crawl4AI 0.9.4 \n[FETCH]... ↓ https://www.xing.com/jobs/annaberg-buchholz-initiativbewerbung-mitarbeiter-158051671                 | ✓ | ⏱: 2.01s \n[SCRAPE].. ◆ https://www.xing.com/jobs/annaberg-buchholz-initiativbewerbung-mitarbeiter-158051671                 | ✓ | ⏱: 0.31s \n[COMPLETE] ● https://www.xing.com/jobs/annaberg-buchholz-initiativbewerbung-mitarbeiter-158051671                 | ✓ | ⏱: 2.39s \n"
-}

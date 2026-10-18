@@ -1,7 +1,0 @@
-{
-  "url": "https://www.stepstone.de/stellenangebote--Senior-QA-QC-Engineer-Electrical-m-f-d-Bad-Homburg-Dresden-Exyte-Germany-GmbH--14419917-inline.html",
-  "attempt": 1,
-  "returncode": 0,
-  "stdout": "✓ 页面已保存到 /opt/data/qa-vacancy-project/cycles/2026-10-18_cycle-9/workers/stepstone.de/raw/crawl4ai-card-e-Senior-QA-QC-Engineer-Electrical-m-f-d-Bad-Homburg-Dresden-Exyte-Germany-GmbH-14419917-inline-html.md\n  标题: Senior QA/QC Engineer - Electrical (m/f/d) - Feste Anstellung, Vollzeit Job in Bad Homburg, Dresden\n  链接数: 32\n",
-  "stderr": "[INIT].... → Crawl4AI 0.9.4 \n[FETCH]... ↓ https://www.stepstone.de/stellenangebote--Senior...Dresden-Exyte-Germany-GmbH--14419917-inline.html  | ✓ | ⏱: 7.28s \n[SCRAPE].. ◆ https://www.stepstone.de/stellenangebote--Senior...Dresden-Exyte-Germany-GmbH--14419917-inline.html  | ✓ | ⏱: 0.13s \n[COMPLETE] ● https://www.stepstone.de/stellenangebote--Senior...Dresden-Exyte-Germany-GmbH--14419917-inline.html  | ✓ | ⏱: 7.53s \n"
-}

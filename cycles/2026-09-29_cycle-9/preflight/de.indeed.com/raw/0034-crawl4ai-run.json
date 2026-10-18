@@ -1,7 +1,0 @@
-{
-  "url": "https://de.indeed.com/jobs?q=QA+Automation&l=M%C3%BCnchen",
-  "attempt": 2,
-  "returncode": 1,
-  "stdout": "",
-  "stderr": "[INIT].... → Crawl4AI 0.9.4 \n[FETCH]... ↓ https://de.indeed.com/jobs?q=QA+Automation&l=München                                                 | ✓ | ⏱: 0.92s \n[SCRAPE].. ◆ https://de.indeed.com/jobs?q=QA+Automation&l=München                                                 | ✓ | ⏱: 0.02s \n[ERROR]... × https://de.indeed.com/j...QA+Automation&l=München  | Error: Blocked by anti-bot protection: Cloudflare JS challenge \n[COMPLETE] ● https://de.indeed.com/jobs?q=QA+Automation&l=München                                                 | ✗ | ⏱: 0.99s \n✗ 爬取失败: Blocked by anti-bot protection: Cloudflare JS challenge\n"
-}

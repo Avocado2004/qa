@@ -1,6 +1,0 @@
-{
-  "url": "https://www.adzuna.de/details/5894966070",
-  "returncode": 1,
-  "stdout": "",
-  "stderr": "[INIT].... → Crawl4AI 0.9.4 \n[FETCH]... ↓ https://www.adzuna.de/details/5894966070                                                             | ✓ | ⏱: 1.08s \n[SCRAPE].. ◆ https://www.adzuna.de/details/5894966070                                                             | ✓ | ⏱: 0.01s \n[ERROR]... × https://www.adzuna.de/details/5894966070           | Error: Blocked by anti-bot protection: HTTP 403 with HTML content (923 bytes) \n[COMPLETE] ● https://www.adzuna.de/details/5894966070                                                             | ✗ | ⏱: 1.10s \n✗ 爬取失败: Blocked by anti-bot protection: HTTP 403 with HTML content (923 bytes)\n"
-}

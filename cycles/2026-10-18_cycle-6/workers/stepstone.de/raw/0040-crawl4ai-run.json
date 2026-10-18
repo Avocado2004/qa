@@ -1,7 +1,0 @@
-{
-  "url": "https://www.stepstone.de/stellenangebote--Qualitaetsingenieur-mit-Schwerpunkt-Software-QA-w-m-d-Ulm-HENSOLDT--14585395-inline.html",
-  "attempt": 1,
-  "returncode": 0,
-  "stdout": "✓ 页面已保存到 /opt/data/qa-vacancy-project/cycles/2026-10-18_cycle-6/workers/stepstone.de/raw/crawl4ai-card-llenangebote-Qualitaetsingenieur-mit-Schwerpunkt-Software-QA-w-m-d-Ulm-HENSOLDT-14585395-inline-html.md\n  标题: Qualitätsingenieur mit Schwerpunkt Software-QA (w/m/d) - Feste Anstellung, Vollzeit Job in Ulm\n  链接数: 54\n",
-  "stderr": "[INIT].... → Crawl4AI 0.9.4 \n[FETCH]... ↓ https://www.stepstone.de/stellenangebote--Qualit...ware-QA-w-m-d-Ulm-HENSOLDT--14585395-inline.html  | ✓ | ⏱: 7.75s \n[SCRAPE].. ◆ https://www.stepstone.de/stellenangebote--Qualit...ware-QA-w-m-d-Ulm-HENSOLDT--14585395-inline.html  | ✓ | ⏱: 0.13s \n[COMPLETE] ● https://www.stepstone.de/stellenangebote--Qualit...ware-QA-w-m-d-Ulm-HENSOLDT--14585395-inline.html  | ✓ | ⏱: 7.96s \n"
-}

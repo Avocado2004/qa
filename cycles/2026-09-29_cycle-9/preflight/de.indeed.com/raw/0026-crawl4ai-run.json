@@ -1,7 +1,0 @@
-{
-  "url": "https://de.indeed.com/jobs?q=Test+Automation&l=M%C3%BCnchen",
-  "attempt": 1,
-  "returncode": 0,
-  "stdout": "✓ 页面已保存到 /opt/data/qa-vacancy-project/cycles/2026-09-29_cycle-9/preflight/de.indeed.com/raw/crawl4ai-listing-26.md\n  标题: Test Automation Jobs in München | Jetzt 25 offene Stellen finden | Indeed\n  链接数: 113\n",
-  "stderr": "[INIT].... → Crawl4AI 0.9.4 \n[FETCH]... ↓ https://de.indeed.com/jobs?q=Test+Automation&l=München                                               | ✓ | ⏱: 4.54s \n[SCRAPE].. ◆ https://de.indeed.com/jobs?q=Test+Automation&l=München                                               | ✓ | ⏱: 0.40s \n[COMPLETE] ● https://de.indeed.com/jobs?q=Test+Automation&l=München                                               | ✓ | ⏱: 5.09s \n"
-}

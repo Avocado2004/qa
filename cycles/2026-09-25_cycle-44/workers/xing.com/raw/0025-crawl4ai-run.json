@@ -1,6 +1,0 @@
-{
-  "url": "https://www.xing.com/jobs/brandenburg-havel-initiativbewerbung-153593510",
-  "returncode": 0,
-  "stdout": "✓ 页面已保存到 /opt/data/qa-vacancy-project/cycles/2026-09-25_cycle-44/workers/xing.com/raw/crawl4ai-card-https-www-xing-com-jobs-brandenburg-havel-initiativbewerbung-153593510.md\n  标题: Initiativbewerbung ( m/w/d) in Brandenburg an der Havel | XING Jobs\n  链接数: 42\n",
-  "stderr": "[INIT].... → Crawl4AI 0.9.4 \n[FETCH]... ↓ https://www.xing.com/jobs/brandenburg-havel-initiativbewerbung-153593510                             | ✓ | ⏱: 2.38s \n[SCRAPE].. ◆ https://www.xing.com/jobs/brandenburg-havel-initiativbewerbung-153593510                             | ✓ | ⏱: 0.22s \n[COMPLETE] ● https://www.xing.com/jobs/brandenburg-havel-initiativbewerbung-153593510                             | ✓ | ⏱: 2.67s \n"
-}

@@ -1,6 +1,0 @@
-{
-  "url": "https://www.adzuna.de/land/ad/5918368933?se=-JTn8_bK8RGNi5ZqJ1QopQ&title=Senior_QA_Engineer_%28Berlin%2C_hybrid%29&v=389315BFEBA501DAAC9A8D04DA030B769D6084F6",
-  "returncode": 1,
-  "stdout": "",
-  "stderr": "[INIT].... → Crawl4AI 0.9.4 \n[FETCH]... ↓ https://www.adzuna.de/land/ad/5918368933?se=-JTn...brid)&v=389315BFEBA501DAAC9A8D04DA030B769D6084F6  | ✓ | ⏱: 1.52s \n[SCRAPE].. ◆ https://www.adzuna.de/land/ad/5918368933?se=-JTn...brid)&v=389315BFEBA501DAAC9A8D04DA030B769D6084F6  | ✓ | ⏱: 0.01s \n[ERROR]... × https://www.adzuna.de/l...C9A8D04DA030B769D6084F6  | Error: Blocked by anti-bot protection: HTTP 403 with HTML content (923 bytes) \n[COMPLETE] ● https://www.adzuna.de/land/ad/5918368933?se=-JTn...brid)&v=389315BFEBA501DAAC9A8D04DA030B769D6084F6  | ✗ | ⏱: 1.55s \n✗ 爬取失败: Blocked by anti-bot protection: HTTP 403 with HTML content (923 bytes)\n"
-}

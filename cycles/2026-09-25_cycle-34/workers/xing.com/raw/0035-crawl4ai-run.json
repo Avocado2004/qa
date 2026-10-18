@@ -1,6 +1,0 @@
-{
-  "url": "https://www.jobware.de/job/vertriebsmitarbeiter-b2b-stellenanzeigen-und-social-media-m-w-d.1928567655.html?jw_chl_seg=kt_nwse",
-  "returncode": 0,
-  "stdout": "✓ 页面已保存到 /opt/data/qa-vacancy-project/cycles/2026-09-25_cycle-34/workers/xing.com/raw/crawl4ai-card-b-vertriebsmitarbeiter-b2b-stellenanzeigen-und-social-media-m-w-d-1928567655-html-jw-chl-seg-kt-nwse.md\n  标题: Vertriebsmitarbeiter B2B Stellenanzeigen und Social Media (m/w/d) | Recruiting Excellence GmbH\n  链接数: 38\n",
-  "stderr": "[INIT].... → Crawl4AI 0.9.4 \n[FETCH]... ↓ https://www.jobware.de/job/vertriebsmitarbeiter-...l-media-m-w-d.1928567655.html?jw_chl_seg=kt_nwse  | ✓ | ⏱: 4.95s \n[SCRAPE].. ◆ https://www.jobware.de/job/vertriebsmitarbeiter-...l-media-m-w-d.1928567655.html?jw_chl_seg=kt_nwse  | ✓ | ⏱: 0.44s \n[COMPLETE] ● https://www.jobware.de/job/vertriebsmitarbeiter-...l-media-m-w-d.1928567655.html?jw_chl_seg=kt_nwse  | ✓ | ⏱: 5.54s \n"
-}

@@ -1,6 +1,0 @@
-{
-  "url": "https://de.linkedin.com/jobs/view/quality-assurance-engineer-at-quantum-machines-4468447338?position=9&pageNum=0&refId=pIZ9a430tLXb2dHZKHjOlQ%3D%3D",
-  "returncode": 0,
-  "stdout": "✓ 页面已保存到 /opt/data/qa-vacancy-project/cycles/2026-09-25_cycle-50/workers/linkedin.com/raw/crawl4ai-card-ance-engineer-at-quantum-machines-4468447338-position-9-pageNum-0-refId-pIZ9a430tLXb2dHZKHjOlQ-3D-3D.md\n  标题: Quality Assurance Engineer bei Quantum Machines — Stuttgart | LinkedIn Jobs\n  链接数: 187\n",
-  "stderr": "[INIT].... → Crawl4AI 0.9.4 \n[FETCH]... ↓ https://de.linkedin.com/jobs/view/quality-assura...ition=9&pageNum=0&refId=pIZ9a430tLXb2dHZKHjOlQ==  | ✓ | ⏱: 2.80s \n[SCRAPE].. ◆ https://de.linkedin.com/jobs/view/quality-assura...ition=9&pageNum=0&refId=pIZ9a430tLXb2dHZKHjOlQ==  | ✓ | ⏱: 0.62s \n[COMPLETE] ● https://de.linkedin.com/jobs/view/quality-assura...ition=9&pageNum=0&refId=pIZ9a430tLXb2dHZKHjOlQ==  | ✓ | ⏱: 3.51s \n"
-}

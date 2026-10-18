@@ -1,6 +1,0 @@
-{
-  "url": "https://de.linkedin.com/jobs/view/qa-engineer-softwaretester-automotive-software-m-w-d-at-bwsolution-gmbh-4466690243?position=3&pageNum=0&refId=oBBnGFqL5y5a1kNcxCAUnA%3D%3D",
-  "returncode": 0,
-  "stdout": "✓ 页面已保存到 /opt/data/qa-vacancy-project/cycles/2026-09-25_cycle-37/workers/linkedin.com/raw/crawl4ai-card-software-m-w-d-at-bwsolution-gmbh-4466690243-position-3-pageNum-0-refId-oBBnGFqL5y5a1kNcxCAUnA-3D-3D.md\n  标题: BWSolution GmbH sucht QA Engineer/Softwaretester Automotive-Software (m/w/d) in Hamburg | LinkedIn\n  链接数: 184\n",
-  "stderr": "[INIT].... → Crawl4AI 0.9.4 \n[FETCH]... ↓ https://de.linkedin.com/jobs/view/qa-engineer-so...ition=3&pageNum=0&refId=oBBnGFqL5y5a1kNcxCAUnA==  | ✓ | ⏱: 4.93s \n[SCRAPE].. ◆ https://de.linkedin.com/jobs/view/qa-engineer-so...ition=3&pageNum=0&refId=oBBnGFqL5y5a1kNcxCAUnA==  | ✓ | ⏱: 0.88s \n[COMPLETE] ● https://de.linkedin.com/jobs/view/qa-engineer-so...ition=3&pageNum=0&refId=oBBnGFqL5y5a1kNcxCAUnA==  | ✓ | ⏱: 5.95s \n"
-}

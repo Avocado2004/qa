@@ -1,9 +1,0 @@
-{
-  "cycle_id": "workers",
-  "finished_at": "2026-09-25T00:09:53.700044+00:00",
-  "schema_version": 2,
-  "source_id": "beta",
-  "stage": "VACANCY_WORKER",
-  "started_at": "2026-09-25T00:09:53.556600+00:00",
-  "state": "complete"
-}

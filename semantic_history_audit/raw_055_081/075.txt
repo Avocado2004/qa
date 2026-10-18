@@ -1,6 +1,0 @@
-{
-  "url": "https://www.linkedin.com/jobs/view/3733041130",
-  "title": "adesso SE hiring Senior IT-Consultant Testmanagement (all genders) in Dresden, Saxony, Germany | LinkedIn",
-  "content": "# Senior IT-Consultant Testmanagement (all genders)\n## [adesso SE](https://de.linkedin.com/company/adesso-se?trk=public_jobs_topcard-org-name) Dresden, Saxony, Germany\njob](https://www.linkedin.com/uas/login?fromSignIn=true&session_redirect=https%3A%2F%2Fde.linkedin.com%2Fjobs%2Fview%2Fsenior-it-consultant-testmanagement-all-genders-at-adesso-se-3733041130&trk=public_jobs_ellipsis-menu-semapho\n\n...\n\n## Explore top content on LinkedIn\nFind curated posts and insights for relevant topics all in one place.\n[View top content](https://www.linkedin.com/top-content/)\nKnow when new jobs open up\nNever miss a job alert with the new LinkedIn app for Windows.\nGet the app",
-  "error": null
-}

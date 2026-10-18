@@ -1,6 +1,0 @@
-{
-  "url": "https://www.stepstone.de/stellenangebote--QA-Engineer-m-w-d-Heilbronn-AZUR-SPACE-Solar-Power-GmbH--13809042-inline.html",
-  "returncode": 0,
-  "stdout": "✓ 页面已保存到 /opt/data/qa-vacancy-project/cycles/2026-09-29_cycle-1/workers/stepstone.de/raw/crawl4ai-card-tone-de-stellenangebote-QA-Engineer-m-w-d-Heilbronn-AZUR-SPACE-Solar-Power-GmbH-13809042-inline-html.md\n  标题: QA Engineer (m/w/d) - Feste Anstellung, Vollzeit, Homeoffice Job in Heilbronn\n  链接数: 35\n",
-  "stderr": "[INIT].... → Crawl4AI 0.9.4 \n[FETCH]... ↓ https://www.stepstone.de/stellenangebote--QA-Eng...ZUR-SPACE-Solar-Power-GmbH--13809042-inline.html  | ✓ | ⏱: 8.45s \n[SCRAPE].. ◆ https://www.stepstone.de/stellenangebote--QA-Eng...ZUR-SPACE-Solar-Power-GmbH--13809042-inline.html  | ✓ | ⏱: 0.21s \n[COMPLETE] ● https://www.stepstone.de/stellenangebote--QA-Eng...ZUR-SPACE-Solar-Power-GmbH--13809042-inline.html  | ✓ | ⏱: 8.76s \n"
-}

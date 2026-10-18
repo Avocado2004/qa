@@ -1,4 +1,0 @@
-{
-  "url": "https://de.indeed.com/rc/clk?jk=34b2f27db740da55&bb=13eoJlbodQkUWMzjLH7I48VIEK7aUyoI3bams53azqFnmLYUTDZ48724MKnuAA7qhOx5QIZ_X8ZJJ3q2dCp5rdrCM5pBj40Hv_qKSTrQA0DfmHNHVeinYJ86uuAVuuywsRqf4G5KMd1ftU7ZD_xCfw%3D%3D&xkcb=SoBe67M2e3iT_qz4rp0KbzkdCdPP&fccid=9e215d88a6b33622&vjs=3",
-  "error": "Crawl4AI failed after 3 attempts: rc=1 indeed.com/r...=9e215d88a6b33622&vjs=3  | Error: Blocked by anti-bot protection: Cloudflare JS challenge \n[COMPLETE] ● https://de.indeed.com/rc/clk?jk=34b2f27db740da55...3iT_qz4rp0KbzkdCdPP&fccid=9e215d88a6b33622&vjs=3  | ✗ | ⏱: 2.36s \n✗ 爬取失败: Blocked by anti-b"
-}

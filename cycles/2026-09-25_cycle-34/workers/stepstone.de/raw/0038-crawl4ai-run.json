@@ -1,6 +1,0 @@
-{
-  "url": "https://www.stepstone.de/stellenangebote--Spezialistin-m-w-d-Qualitaetssicherung-Lieferanten-und-Rohstoffmanagement-Ostbevern-bei-Muenster-Vossko-GmbH-Co-KG--14536790-inline.html",
-  "returncode": 0,
-  "stdout": "✓ 页面已保存到 /opt/data/qa-vacancy-project/cycles/2026-09-25_cycle-34/workers/stepstone.de/raw/crawl4ai-anten-und-Rohstoffmanagement-Ostbevern-bei-Muenster-Vossko-GmbH-Co-KG-14536790-inline-html.md\n  标题: Spezialist*in (m/w/d) Qualitätssicherung – Lieferanten- und Rohstoffmanagement - Feste Anstellung, Vollzeit Job in Ostbevern bei Münster\n  链接数: 37\n",
-  "stderr": "[INIT].... → Crawl4AI 0.9.4 \n[FETCH]... ↓ https://www.stepstone.de/stellenangebote--Spezia...Muenster-Vossko-GmbH-Co-KG--14536790-inline.html  | ✓ | ⏱: 9.51s \n[SCRAPE].. ◆ https://www.stepstone.de/stellenangebote--Spezia...Muenster-Vossko-GmbH-Co-KG--14536790-inline.html  | ✓ | ⏱: 0.29s \n[COMPLETE] ● https://www.stepstone.de/stellenangebote--Spezia...Muenster-Vossko-GmbH-Co-KG--14536790-inline.html  | ✓ | ⏱: 9.94s \n"
-}

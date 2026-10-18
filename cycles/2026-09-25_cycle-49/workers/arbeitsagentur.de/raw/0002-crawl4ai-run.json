@@ -1,6 +1,0 @@
-{
-  "url": "https://www.arbeitsagentur.de/jobsuche/jobdetail/10000-1183466875-S",
-  "returncode": 0,
-  "stdout": "✓ 页面已保存到 /opt/data/qa-vacancy-project/cycles/2026-09-25_cycle-49/workers/arbeitsagentur.de/raw/crawl4ai-card-https-www-arbeitsagentur-de-jobsuche-jobdetail-10000-1183466875-S.md\n  标题: Softwaretester:in | Jobsuche der BA\n  链接数: 11\n",
-  "stderr": "[INIT].... → Crawl4AI 0.9.4 \n[FETCH]... ↓ https://www.arbeitsagentur.de/jobsuche/jobdetail/10000-1183466875-S                                  | ✓ | ⏱: 9.31s \n[SCRAPE].. ◆ https://www.arbeitsagentur.de/jobsuche/jobdetail/10000-1183466875-S                                  | ✓ | ⏱: 0.51s \n[COMPLETE] ● https://www.arbeitsagentur.de/jobsuche/jobdetail/10000-1183466875-S                                  | ✓ | ⏱: 10.22s \n"
-}

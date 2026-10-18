@@ -1,7 +1,0 @@
-{
-  "url": "https://de.linkedin.com/jobs/view/quality-engineer-schwerpunkt-testautomatisierung-all-genders-at-starface-gmbh-4402883225?position=9&pageNum=0&refId=8QRyOiuZxhIGK43a1qjT6g%3D%3D",
-  "attempt": 1,
-  "returncode": 1,
-  "stdout": "",
-  "stderr": "[INIT].... → Crawl4AI 0.9.4 \n[FETCH]... ↓ https://de.linkedin.com/jobs/view/quality-engine...ition=9&pageNum=0&refId=8QRyOiuZxhIGK43a1qjT6g==  | ✓ | ⏱: 0.66s \n[SCRAPE].. ◆ https://de.linkedin.com/jobs/view/quality-engine...ition=9&pageNum=0&refId=8QRyOiuZxhIGK43a1qjT6g==  | ✓ | ⏱: 0.00s \n[ERROR]... × https://de.linkedin.com...QRyOiuZxhIGK43a1qjT6g==  | Error: Blocked by anti-bot protection: HTTP 429 Too Many Requests \n[COMPLETE] ● https://de.linkedin.com/jobs/view/quality-engine...ition=9&pageNum=0&refId=8QRyOiuZxhIGK43a1qjT6g==  | ✗ | ⏱: 0.68s \n✗ 爬取失败: Blocked by anti-bot protection: HTTP 429 Too Many Requests\n"
-}

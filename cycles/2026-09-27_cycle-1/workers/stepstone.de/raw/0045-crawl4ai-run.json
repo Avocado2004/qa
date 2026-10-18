@@ -1,6 +1,0 @@
-{
-  "url": "https://www.stepstone.de/stellenangebote--Quality-Assurance-Specialist-m-w-d-Nueziders-RAUCH-Fruchtsaefte-GmbH-Co-OG--14542307-inline.html",
-  "returncode": 0,
-  "stdout": "✓ 页面已保存到 /opt/data/qa-vacancy-project/cycles/2026-09-27_cycle-1/workers/stepstone.de/raw/crawl4ai-card-bote-Quality-Assurance-Specialist-m-w-d-Nueziders-RAUCH-Fruchtsaefte-GmbH-Co-OG-14542307-inline-html.md\n  标题: Quality Assurance Specialist (m/w/d) - Feste Anstellung, Vollzeit Job in Nüziders\n  链接数: 33\n",
-  "stderr": "[INIT].... → Crawl4AI 0.9.4 \n[FETCH]... ↓ https://www.stepstone.de/stellenangebote--Qualit...CH-Fruchtsaefte-GmbH-Co-OG--14542307-inline.html  | ✓ | ⏱: 8.61s \n[SCRAPE].. ◆ https://www.stepstone.de/stellenangebote--Qualit...CH-Fruchtsaefte-GmbH-Co-OG--14542307-inline.html  | ✓ | ⏱: 0.19s \n[COMPLETE] ● https://www.stepstone.de/stellenangebote--Qualit...CH-Fruchtsaefte-GmbH-Co-OG--14542307-inline.html  | ✓ | ⏱: 8.91s \n"
-}

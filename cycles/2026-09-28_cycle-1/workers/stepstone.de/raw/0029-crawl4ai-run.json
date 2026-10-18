@@ -1,6 +1,0 @@
-{
-  "url": "https://www.stepstone.de/stellenangebote--QA-QC-Manager-m-f-d-Bad-Homburg-Dresden-Exyte-Germany-GmbH--14419927-inline.html",
-  "returncode": 0,
-  "stdout": "✓ 页面已保存到 /opt/data/qa-vacancy-project/cycles/2026-09-28_cycle-1/workers/stepstone.de/raw/crawl4ai-card-e-de-stellenangebote-QA-QC-Manager-m-f-d-Bad-Homburg-Dresden-Exyte-Germany-GmbH-14419927-inline-html.md\n  标题: QA/QC Manager (m/f/d) - Job bei der Firma Exyte Germany GmbH in Bad Homburg, Dresden\n  链接数: 30\n",
-  "stderr": "[INIT].... → Crawl4AI 0.9.4 \n[FETCH]... ↓ https://www.stepstone.de/stellenangebote--QA-QC-...Dresden-Exyte-Germany-GmbH--14419927-inline.html  | ✓ | ⏱: 12.05s \n[SCRAPE].. ◆ https://www.stepstone.de/stellenangebote--QA-QC-...Dresden-Exyte-Germany-GmbH--14419927-inline.html  | ✓ | ⏱: 0.16s \n[COMPLETE] ● https://www.stepstone.de/stellenangebote--QA-QC-...Dresden-Exyte-Germany-GmbH--14419927-inline.html  | ✓ | ⏱: 12.30s \n"
-}

@@ -1,6 +1,0 @@
-{
-  "url": "https://www.stepstone.de/stellenangebote--Mitarbeiter-Qualitaetsmanagement-Qualitaetssicherung-QM-QS-m-w-d-Crailsheim-Graf-Barf-GmbH--14413077-inline.html",
-  "returncode": 0,
-  "stdout": "✓ 页面已保存到 /opt/data/qa-vacancy-project/cycles/2026-09-29_cycle-1/workers/stepstone.de/raw/crawl4ai-card--Qualitaetsmanagement-Qualitaetssicherung-QM-QS-m-w-d-Crailsheim-Graf-Barf-GmbH-14413077-inline-html.md\n  标题: Mitarbeiter Qualitätsmanagement / Qualitätssicherung (QM/QS) (m/w/d) - Feste Anstellung, Vollzeit Job in Crailsheim\n  链接数: 38\n",
-  "stderr": "[INIT].... → Crawl4AI 0.9.4 \n[FETCH]... ↓ https://www.stepstone.de/stellenangebote--Mitarb...-Crailsheim-Graf-Barf-GmbH--14413077-inline.html  | ✓ | ⏱: 8.08s \n[SCRAPE].. ◆ https://www.stepstone.de/stellenangebote--Mitarb...-Crailsheim-Graf-Barf-GmbH--14413077-inline.html  | ✓ | ⏱: 0.12s \n[COMPLETE] ● https://www.stepstone.de/stellenangebote--Mitarb...-Crailsheim-Graf-Barf-GmbH--14413077-inline.html  | ✓ | ⏱: 8.35s \n"
-}

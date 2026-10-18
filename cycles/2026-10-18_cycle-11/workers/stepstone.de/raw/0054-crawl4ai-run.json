@@ -1,7 +1,0 @@
-{
-  "url": "https://www.stepstone.de/stellenangebote--Manager-Quality-Assurance-Excellence-m-w-d-Essen-ALDI-Einkauf-SE-Co-oHG--14624780-inline.html",
-  "attempt": 1,
-  "returncode": 0,
-  "stdout": "✓ 页面已保存到 /opt/data/qa-vacancy-project/cycles/2026-10-18_cycle-11/workers/stepstone.de/raw/crawl4ai-card-ngebote-Manager-Quality-Assurance-Excellence-m-w-d-Essen-ALDI-Einkauf-SE-Co-oHG-14624780-inline-html.md\n  标题: Manager Quality Assurance Excellence (m/w/d) - Feste Anstellung, Vollzeit, Homeoffice Job in Essen\n  链接数: 33\n",
-  "stderr": "[INIT].... → Crawl4AI 0.9.4 \n[FETCH]... ↓ https://www.stepstone.de/stellenangebote--Manage...sen-ALDI-Einkauf-SE-Co-oHG--14624780-inline.html  | ✓ | ⏱: 7.85s \n[SCRAPE].. ◆ https://www.stepstone.de/stellenangebote--Manage...sen-ALDI-Einkauf-SE-Co-oHG--14624780-inline.html  | ✓ | ⏱: 0.12s \n[COMPLETE] ● https://www.stepstone.de/stellenangebote--Manage...sen-ALDI-Einkauf-SE-Co-oHG--14624780-inline.html  | ✓ | ⏱: 8.11s \n"
-}

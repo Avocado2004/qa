@@ -1,5 +1,0 @@
-{
-  "url": "https://www.adzuna.de/search?q=QA&loc=587664",
-  "tab_id": "cefd0f9d-1f90-430b-919d-bd5a0f2001e4",
-  "snapshot": "- img \"Oops\"\n- heading \"Well this is embarrassing...\" [level=1]\n- paragraph:\n  - strong: Something, somewhere has gone wrong. Sorry for the inconvenience!\n- paragraph: Our developers have been notified and are working furiously to fix this.\n- paragraph: Please try refreshing this page in a few minutes.\n- paragraph: Error (null) Backend fetch failed\n- paragraph: \"Guru meditation: (null)\""
-}

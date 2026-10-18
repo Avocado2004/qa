@@ -1,7 +1,0 @@
-{
-  "url": "https://de.indeed.com/jobs?q=Softwaretester&l=Berlin",
-  "attempt": 1,
-  "returncode": 0,
-  "stdout": "✓ 页面已保存到 /opt/data/qa-vacancy-project/cycles/2026-09-29_cycle-8/preflight/de.indeed.com/raw/crawl4ai-listing-09.md\n  标题: Softwaretester Jobs in Berlin - 29. September 2026 | Stellenangebote auf Indeed\n  链接数: 105\n",
-  "stderr": "[INIT].... → Crawl4AI 0.9.4 \n[FETCH]... ↓ https://de.indeed.com/jobs?q=Softwaretester&l=Berlin                                                 | ✓ | ⏱: 2.88s \n[SCRAPE].. ◆ https://de.indeed.com/jobs?q=Softwaretester&l=Berlin                                                 | ✓ | ⏱: 0.39s \n[COMPLETE] ● https://de.indeed.com/jobs?q=Softwaretester&l=Berlin                                                 | ✓ | ⏱: 3.43s \n"
-}

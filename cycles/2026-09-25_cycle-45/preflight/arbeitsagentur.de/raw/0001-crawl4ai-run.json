@@ -1,6 +1,0 @@
-{
-  "url": "https://www.arbeitsagentur.de/jobsuche/suche?was=Softwaretester&wo=Berlin",
-  "returncode": 0,
-  "stdout": "✓ 页面已保存到 /opt/data/qa-vacancy-project/cycles/2026-09-25_cycle-45/preflight/arbeitsagentur.de/raw/crawl4ai-listing.md\n  标题: Jobs für Softwaretester in Berlin | Jobsuche der BA\n  链接数: 14\n",
-  "stderr": "[INIT].... → Crawl4AI 0.9.4 \n[FETCH]... ↓ https://www.arbeitsagentur.de/jobsuche/suche?was=Softwaretester&wo=Berlin                            | ✓ | ⏱: 7.77s \n[SCRAPE].. ◆ https://www.arbeitsagentur.de/jobsuche/suche?was=Softwaretester&wo=Berlin                            | ✓ | ⏱: 0.45s \n[COMPLETE] ● https://www.arbeitsagentur.de/jobsuche/suche?was=Softwaretester&wo=Berlin                            | ✓ | ⏱: 8.57s \n"
-}

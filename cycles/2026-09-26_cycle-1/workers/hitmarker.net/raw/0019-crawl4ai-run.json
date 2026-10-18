@@ -1,6 +1,0 @@
-{
-  "url": "https://hitmarker.net/jobs/wooga-senior-user-acquisition-manager-4918306",
-  "returncode": 0,
-  "stdout": "✓ 页面已保存到 /opt/data/qa-vacancy-project/cycles/2026-09-26_cycle-1/workers/hitmarker.net/raw/crawl4ai-card-https-hitmarker-net-jobs-wooga-senior-user-acquisition-manager-4918306.md\n  标题: Senior User Acquisition Manager - Wooga | Hitmarker\n  链接数: 52\n",
-  "stderr": "[INIT].... → Crawl4AI 0.9.4 \n[FETCH]... ↓ https://hitmarker.net/jobs/wooga-senior-user-acquisition-manager-4918306                             | ✓ | ⏱: 8.96s \n[SCRAPE].. ◆ https://hitmarker.net/jobs/wooga-senior-user-acquisition-manager-4918306                             | ✓ | ⏱: 0.25s \n[COMPLETE] ● https://hitmarker.net/jobs/wooga-senior-user-acquisition-manager-4918306                             | ✓ | ⏱: 9.40s \n"
-}

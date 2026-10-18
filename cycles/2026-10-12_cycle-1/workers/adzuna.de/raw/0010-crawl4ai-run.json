@@ -1,6 +1,0 @@
-{
-  "url": "https://www.adzuna.de/land/ad/5895257203?se=wEgtbNHF8RG4v--tFacbpA&title=%28Senior%29_QA_Engineer_-_AI-Driven_Testing_%28m%2Ff%2Fd%29&v=E89D2B5FB89C4E909FA5F5D31F834599A2B936D9",
-  "returncode": 1,
-  "stdout": "",
-  "stderr": "[INIT].... → Crawl4AI 0.9.4 \n[FETCH]... ↓ https://www.adzuna.de/land/ad/5895257203?se=wEgt.../f/d)&v=E89D2B5FB89C4E909FA5F5D31F834599A2B936D9  | ✓ | ⏱: 1.16s \n[SCRAPE].. ◆ https://www.adzuna.de/land/ad/5895257203?se=wEgt.../f/d)&v=E89D2B5FB89C4E909FA5F5D31F834599A2B936D9  | ✓ | ⏱: 0.01s \n[ERROR]... × https://www.adzuna.de/l...FA5F5D31F834599A2B936D9  | Error: Blocked by anti-bot protection: HTTP 403 with HTML content (923 bytes) \n[COMPLETE] ● https://www.adzuna.de/land/ad/5895257203?se=wEgt.../f/d)&v=E89D2B5FB89C4E909FA5F5D31F834599A2B936D9  | ✗ | ⏱: 1.19s \n✗ 爬取失败: Blocked by anti-bot protection: HTTP 403 with HTML content (923 bytes)\n"
-}

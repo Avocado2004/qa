@@ -1,6 +1,0 @@
-{
-  "url": "https://www.stepstone.de/jobs/berlin?q=QA",
-  "returncode": 0,
-  "stdout": "✓ 页面已保存到 /opt/data/qa-vacancy-project/cycles/2026-09-27_cycle-1/preflight/stepstone.de/raw/crawl4ai-listing.md\n  标题: QA Jobs und Stellenangebote - 2026\n  链接数: 140\n",
-  "stderr": "[INIT].... → Crawl4AI 0.9.4 \n[FETCH]... ↓ https://www.stepstone.de/jobs/berlin?q=QA                                                            | ✓ | ⏱: 48.30s \n[SCRAPE].. ◆ https://www.stepstone.de/jobs/berlin?q=QA                                                            | ✓ | ⏱: 1.74s \n[COMPLETE] ● https://www.stepstone.de/jobs/berlin?q=QA                                                            | ✓ | ⏱: 50.41s \n"
-}

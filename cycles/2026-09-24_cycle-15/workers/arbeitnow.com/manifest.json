@@ -1,9 +1,0 @@
-{
-  "cycle_id": "workers",
-  "finished_at": "2026-09-24T23:24:24.098427+00:00",
-  "schema_version": 2,
-  "source_id": "arbeitnow.com",
-  "stage": "VACANCY_WORKER",
-  "started_at": "2026-09-24T23:23:39.368750+00:00",
-  "state": "complete"
-}

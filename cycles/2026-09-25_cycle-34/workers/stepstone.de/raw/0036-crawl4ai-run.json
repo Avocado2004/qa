@@ -1,6 +1,0 @@
-{
-  "url": "https://www.stepstone.de/stellenangebote--Leiter-in-der-Qualitaetssicherung-QA-QC-Gladbeck-BORSIG-Process-Heat-Exchanger-GmbH--14438377-inline.html",
-  "returncode": 0,
-  "stdout": "✓ 页面已保存到 /opt/data/qa-vacancy-project/cycles/2026-09-25_cycle-34/workers/stepstone.de/raw/crawl4ai-Qualitaetssicherung-QA-QC-Gladbeck-BORSIG-Process-Heat-Exchanger-GmbH-14438377-inline-html.md\n  标题: Leiter:in der Qualitätssicherung QA/QC - Feste Anstellung, Vollzeit Job in Gladbeck\n  链接数: 38\n",
-  "stderr": "[INIT].... → Crawl4AI 0.9.4 \n[FETCH]... ↓ https://www.stepstone.de/stellenangebote--Leiter...rocess-Heat-Exchanger-GmbH--14438377-inline.html  | ✓ | ⏱: 9.07s \n[SCRAPE].. ◆ https://www.stepstone.de/stellenangebote--Leiter...rocess-Heat-Exchanger-GmbH--14438377-inline.html  | ✓ | ⏱: 0.32s \n[COMPLETE] ● https://www.stepstone.de/stellenangebote--Leiter...rocess-Heat-Exchanger-GmbH--14438377-inline.html  | ✓ | ⏱: 9.51s \n"
-}

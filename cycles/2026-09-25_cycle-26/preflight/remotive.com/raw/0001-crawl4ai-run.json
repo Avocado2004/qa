@@ -1,6 +1,0 @@
-{
-  "url": "https://remotive.com/api/remote-jobs?search=QA",
-  "returncode": 0,
-  "stdout": "✓ 页面已保存到 /opt/data/qa-vacancy-project/cycles/2026-09-25_cycle-26/preflight/remotive.com/raw/crawl4ai-listing.md\n  标题: \n  链接数: 0\n",
-  "stderr": "[INIT].... → Crawl4AI 0.9.4 \n[FETCH]... ↓ https://remotive.com/api/remote-jobs?search=QA                                                       | ✓ | ⏱: 1.41s \n[SCRAPE].. ◆ https://remotive.com/api/remote-jobs?search=QA                                                       | ✓ | ⏱: 0.40s \n[COMPLETE] ● https://remotive.com/api/remote-jobs?search=QA                                                       | ✓ | ⏱: 1.87s \n"
-}

@@ -1,6 +1,0 @@
-{
-  "url": "https://www.arbeitsagentur.de/jobsuche/jobdetail/10001-1003303341-S",
-  "title": "Test-Automation Engineer (m/w/d) | Jobsuche der BA",
-  "content": "# Stellenangebot: Test-Automation Engineer (m/w/d) bei zollsoft GmbH\n## Das Wichtigste im Überblick\n### Berufsbezeichnung\n• Super Team\n• Flache Hierarchien\n• Job Crafting/Flexible Arbeitsplatzgestaltung\n• Flexible Arbeitszeiten\n• Urlaub, der nie verfällt\n• Individuelle Weiterentwicklung\n• Home Office/Mobiles Arbeiten\n• Betriebliche Altersvorsorge\n• Förderung der physischen und psychischen Gesundheit\n• Auslandsarbeit\n• Dienstradleasing/Jobrad\n\n...\n\nÜberzeugt? Dann bewirb Dich jetzt bei uns – entweder online ( https://zollsoft.de/jobs/test-automation-engineer-m-w-d/ ) oder per E-Mail. Wir freuen uns auf Dich! ### Arbeitsorte\nKarte anzeigen",
-  "error": null
-}

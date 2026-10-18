@@ -1,6 +1,0 @@
-{
-  "url": "https://de.linkedin.com/jobs/view/quality-assurance-engineer-m-w-d-at-hochtief-4455268504?position=6&pageNum=0&refId=bKTXHQ21Wm7diXKUPMtWeQ%3D%3D",
-  "returncode": 0,
-  "stdout": "✓ 页面已保存到 /opt/data/qa-vacancy-project/cycles/2026-09-25_cycle-56/workers/linkedin.com/raw/crawl4ai-card-urance-engineer-m-w-d-at-hochtief-4455268504-position-6-pageNum-0-refId-bKTXHQ21Wm7diXKUPMtWeQ-3D-3D.md\n  标题: HOCHTIEF sucht Quality Assurance Engineer (m/w/d) in Essen | LinkedIn\n  链接数: 185\n",
-  "stderr": "[INIT].... → Crawl4AI 0.9.4 \n[FETCH]... ↓ https://de.linkedin.com/jobs/view/quality-assura...ition=6&pageNum=0&refId=bKTXHQ21Wm7diXKUPMtWeQ==  | ✓ | ⏱: 3.29s \n[SCRAPE].. ◆ https://de.linkedin.com/jobs/view/quality-assura...ition=6&pageNum=0&refId=bKTXHQ21Wm7diXKUPMtWeQ==  | ✓ | ⏱: 0.75s \n[COMPLETE] ● https://de.linkedin.com/jobs/view/quality-assura...ition=6&pageNum=0&refId=bKTXHQ21Wm7diXKUPMtWeQ==  | ✓ | ⏱: 4.16s \n"
-}

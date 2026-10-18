@@ -1,6 +1,0 @@
-{
-  "url": "https://www.xing.com/jobs/hamburg-recruiter-157424165",
-  "returncode": 0,
-  "stdout": "✓ 页面已保存到 /opt/data/qa-vacancy-project/cycles/2026-09-25_cycle-54/preflight/xing.com/raw/crawl4ai-card-https-www-xing-com-jobs-hamburg-recruiter-157424165.md\n  标题: Recruiter (m/w/d) in Hamburg | XING Jobs\n  链接数: 62\n",
-  "stderr": "[INIT].... → Crawl4AI 0.9.4 \n[FETCH]... ↓ https://www.xing.com/jobs/hamburg-recruiter-157424165                                                | ✓ | ⏱: 3.31s \n[SCRAPE].. ◆ https://www.xing.com/jobs/hamburg-recruiter-157424165                                                | ✓ | ⏱: 0.58s \n[COMPLETE] ● https://www.xing.com/jobs/hamburg-recruiter-157424165                                                | ✓ | ⏱: 4.14s \n"
-}

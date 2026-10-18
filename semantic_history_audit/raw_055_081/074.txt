@@ -1,6 +1,0 @@
-{
-  "url": "https://www.arbeitsagentur.de/jobsuche/jobdetail/12288-4928648696-S",
-  "title": "Quality Engineer – Outgoing Quality Assurance (OQA) (m/f/d) | Jobsuche der BA",
-  "content": "# Stellenangebot: Quality Engineer – Outgoing Quality Assurance (OQA) (m/f/d) bei European Semiconductor Manufacturing Company\n## Das Wichtigste im Überblick\n### Vollständige Stellenbeschreibung bei unserem Kooperationspartner einsehen:\n[Externe Seite öffnen](https://www.persy.jobs/persy/l/job-jhd77-b)\nQuelle: [XING GmbH & Co. KG](https://www.xing.com/) ## Fußbereich\nStelle betreut durch Arbeitgeber\nReferenz-Nr.: 12288-4928648696-S\nVerstoß melden",
-  "error": null
-}

@@ -1,7 +1,0 @@
-{
-  "url": "https://de.indeed.com/jobs?q=Test+Engineer&l=Leipzig",
-  "attempt": 1,
-  "returncode": 0,
-  "stdout": "✓ 页面已保存到 /opt/data/qa-vacancy-project/cycles/2026-09-29_cycle-8/preflight/de.indeed.com/raw/crawl4ai-listing-17.md\n  标题: Test Engineer Jobs in Leipzig | Jetzt 25 offene Stellen finden | Indeed\n  链接数: 103\n",
-  "stderr": "[INIT].... → Crawl4AI 0.9.4 \n[FETCH]... ↓ https://de.indeed.com/jobs?q=Test+Engineer&l=Leipzig                                                 | ✓ | ⏱: 4.27s \n[SCRAPE].. ◆ https://de.indeed.com/jobs?q=Test+Engineer&l=Leipzig                                                 | ✓ | ⏱: 0.55s \n[COMPLETE] ● https://de.indeed.com/jobs?q=Test+Engineer&l=Leipzig                                                 | ✓ | ⏱: 5.04s \n"
-}

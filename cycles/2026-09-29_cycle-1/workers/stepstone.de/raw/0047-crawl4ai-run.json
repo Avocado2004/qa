@@ -1,6 +1,0 @@
-{
-  "url": "https://www.stepstone.de/stellenangebote--Fachteamkoordinator-m-w-d-Qualitaetssicherung-Roethenbach-a-d-Pegnitz-Metropolregion-Nuernberg-Diehl-Energy-Products-GmbH--14547731-inline.html",
-  "returncode": 0,
-  "stdout": "✓ 页面已保存到 /opt/data/qa-vacancy-project/cycles/2026-09-29_cycle-1/workers/stepstone.de/raw/crawl4ai-card-ung-Roethenbach-a-d-Pegnitz-Metropolregion-Nuernberg-Diehl-Energy-Products-GmbH-14547731-inline-html.md\n  标题: Fachteamkoordinator (m/w/d) Qualitätssicherung - Feste Anstellung, Vollzeit Job in Röthenbach a. d. Pegnitz / Metropolregion Nürnberg\n  链接数: 48\n",
-  "stderr": "[INIT].... → Crawl4AI 0.9.4 \n[FETCH]... ↓ https://www.stepstone.de/stellenangebote--Fachte...Diehl-Energy-Products-GmbH--14547731-inline.html  | ✓ | ⏱: 8.33s \n[SCRAPE].. ◆ https://www.stepstone.de/stellenangebote--Fachte...Diehl-Energy-Products-GmbH--14547731-inline.html  | ✓ | ⏱: 0.12s \n[COMPLETE] ● https://www.stepstone.de/stellenangebote--Fachte...Diehl-Energy-Products-GmbH--14547731-inline.html  | ✓ | ⏱: 8.53s \n"
-}

@@ -1,7 +1,0 @@
-{
-  "url": "https://de.indeed.com/rc/clk?jk=9514ba9592e87153&bb=EpVijBu42v4V9Dn28y9fDJBnd7SddhjHIe5odY9SQOut_BJhY2BvNx6AY9n_OEAcAeSVu9CDe999KoTAmVcrbfDnqYpfkiB1p89SgzuVrM9PM-fZDhqnYGloMBUQxicj&xkcb=SoD467M2e2RqzkzCTR0MbzkdCdPP&fccid=94b4bb170efad838&vjs=3",
-  "attempt": 1,
-  "returncode": 0,
-  "stdout": "✓ 页面已保存到 /opt/data/qa-vacancy-project/cycles/2026-09-29_cycle-6/workers/de.indeed.com/raw/crawl4ai-card-fkiB1p89SgzuVrM9PM-fZDhqnYGloMBUQxicj-xkcb-SoD467M2e2RqzkzCTR0MbzkdCdPP-fccid-94b4bb170efad838-vjs-3.md\n  标题: Senior App Engineer - Purchase & Post Purchase (all genders) - Berlin - Indeed.com\n  链接数: 45\n",
-  "stderr": "[INIT].... → Crawl4AI 0.9.4 \n[FETCH]... ↓ https://de.indeed.com/rc/clk?jk=9514ba9592e87153...2RqzkzCTR0MbzkdCdPP&fccid=94b4bb170efad838&vjs=3  | ✓ | ⏱: 4.96s \n[SCRAPE].. ◆ https://de.indeed.com/rc/clk?jk=9514ba9592e87153...2RqzkzCTR0MbzkdCdPP&fccid=94b4bb170efad838&vjs=3  | ✓ | ⏱: 0.10s \n[COMPLETE] ● https://de.indeed.com/rc/clk?jk=9514ba9592e87153...2RqzkzCTR0MbzkdCdPP&fccid=94b4bb170efad838&vjs=3  | ✓ | ⏱: 5.21s \n"
-}

@@ -1,7 +1,0 @@
-{
-  "url": "https://de.indeed.com/jobs?q=QA+Automation&l=Dresden",
-  "attempt": 1,
-  "returncode": 0,
-  "stdout": "✓ 页面已保存到 /opt/data/qa-vacancy-project/cycles/2026-09-29_cycle-9/preflight/de.indeed.com/raw/crawl4ai-listing-32.md\n  标题: QA Automation Jobs in Dresden - 30. September 2026 | Stellenangebote auf Indeed\n  链接数: 50\n",
-  "stderr": "[INIT].... → Crawl4AI 0.9.4 \n[FETCH]... ↓ https://de.indeed.com/jobs?q=QA+Automation&l=Dresden                                                 | ✓ | ⏱: 3.65s \n[SCRAPE].. ◆ https://de.indeed.com/jobs?q=QA+Automation&l=Dresden                                                 | ✓ | ⏱: 0.20s \n[COMPLETE] ● https://de.indeed.com/jobs?q=QA+Automation&l=Dresden                                                 | ✓ | ⏱: 4.08s \n"
-}

@@ -1,7 +1,0 @@
-{
-  "url": "https://germantechjobs.de/rss",
-  "attempt": 2,
-  "returncode": 0,
-  "stdout": "✓ 页面已保存到 /opt/data/qa-vacancy-project/cycles/2026-10-18_cycle-8/preflight/germantechjobs.de/raw/crawl4ai-listing.md\n  标题: GermanTechJobs - tech & IT jobs with salary info in Germany\n  链接数: 0\n",
-  "stderr": "[INIT].... → Crawl4AI 0.9.4 \n[FETCH]... ↓ https://germantechjobs.de/rss                                                                        | ✓ | ⏱: 53.62s \n[SCRAPE].. ◆ https://germantechjobs.de/rss                                                                        | ✓ | ⏱: 37.61s \n[COMPLETE] ● https://germantechjobs.de/rss                                                                        | ✓ | ⏱: 91.78s \n"
-}

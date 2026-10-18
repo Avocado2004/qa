@@ -1,8 +1,0 @@
-{
-  "cycle_id": "2026-10-15_cycle-3",
-  "schema_version": 2,
-  "source_id": "glassdoor.de",
-  "stage": "SOURCE_PREFLIGHT",
-  "started_at": "2026-10-15T23:11:34.316184+00:00",
-  "state": "claimed"
-}

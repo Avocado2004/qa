@@ -1,6 +1,0 @@
-{
-  "url": "https://de.linkedin.com/jobs/view/senior-quality-assurance-engineer-at-trading-212-4468924202?position=2&pageNum=0&refId=hyoBr%2F2%2BhzkZETuwc1fKgA%3D%3D",
-  "returncode": 0,
-  "stdout": "✓ 页面已保存到 /opt/data/qa-vacancy-project/cycles/2026-09-28_cycle-3/workers/linkedin.com/raw/crawl4ai-card-rance-engineer-at-trading-212-4468924202-position-2-pageNum-0-refId-hyoBr-2F2-2BhzkZETuwc1fKgA-3D-3D.md\n  标题: Trading 212 sucht Senior Quality Assurance Engineer in Berlin | LinkedIn\n  链接数: 183\n",
-  "stderr": "[INIT].... → Crawl4AI 0.9.4 \n[FETCH]... ↓ https://de.linkedin.com/jobs/view/senior-quality...ition=2&pageNum=0&refId=hyoBr/2+hzkZETuwc1fKgA==  | ✓ | ⏱: 4.41s \n[SCRAPE].. ◆ https://de.linkedin.com/jobs/view/senior-quality...ition=2&pageNum=0&refId=hyoBr/2+hzkZETuwc1fKgA==  | ✓ | ⏱: 0.95s \n[COMPLETE] ● https://de.linkedin.com/jobs/view/senior-quality...ition=2&pageNum=0&refId=hyoBr/2+hzkZETuwc1fKgA==  | ✓ | ⏱: 5.49s \n"
-}
