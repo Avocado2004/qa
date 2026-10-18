@@ -1,0 +1,21 @@
+проверяю 242 ссылок
+
+из 60 ссылок за 37s:
+  пригодных          : 59
+  без заголовка      : 0
+  слишком короткие   : 1
+  не выглядят как QA  : 0
+  недоступны         : 0
+
+=== 8 пригодных: заголовок / работодатель / длина ===
+  Quality Assurance Case Manager (w/m/d)           | bei Siemens AG           |   6391 | Quality Assuranc
+  SOFTWARE QUALITY ASSURANCE TESTER                | QUALITY ASSURANCE TEST   |   2549 | Quality Assuranc
+  Quality Assurance Expert (m/w/d)                 | bei Akkodis Germany Te   |   4661 | Quality Assuranc
+  Quality Assurance Rater                          |                          |    835 | Quality Assuranc
+  Manager (f/m/d) BV Supplier Quality Assurance    | Assurance bei Siemens    |   6075 | Quality Assuranc
+  Quality assurance before delivery expert (QA-B   | ein Geschäfts zweig de   |   4425 | Quality Assuranc
+  Global Quality Assurance Manager (w/m/div        | Assistance Services be   |   3840 | Quality Assuranc
+  Quality Engineer (f/m/d) Investment Castings     | Castings bei Siemens E   |   6052 | Quality Assuranc
+
+=== что отсеяно как 'не вакансия' ===
+=== недоступны ===

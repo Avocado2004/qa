@@ -1,0 +1,4 @@
+{
+  "at": "2026-10-08T19:41:38.057110+00:00",
+  "error": "RuntimeError: source discovery did not complete: missing verdict"
+}

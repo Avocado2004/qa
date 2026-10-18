@@ -1,0 +1,23 @@
+{
+  "archive": "/opt/data/qa-vacancy-project/qa_vacancies_master_2026-10-11.md",
+  "artifacts": {
+    "discovery": "/opt/data/qa-vacancy-project/cycles/2026-10-11_cycle-2/source_discovery.json",
+    "recheck": "/opt/data/qa-vacancy-project/cycles/2026-10-11_cycle-2/published_recheck.json",
+    "synthesis": "/opt/data/qa-vacancy-project/cycles/2026-10-11_cycle-2/synthesis.json"
+  },
+  "cycle_id": "2026-10-11_cycle-2",
+  "finished_at": "2026-10-11T22:42:48.831600+00:00",
+  "publication": "CHANGED_PUBLISHED",
+  "publication_allowed": true,
+  "schema_version": 2,
+  "stage": "DONE",
+  "stage_seconds": {
+    "FINAL_VERIFIER": 1.9,
+    "MASTER_RECHECK": 3.2,
+    "MASTER_SNAPSHOT": 468.8,
+    "SOURCE_DISCOVERY": 67.3
+  },
+  "started_at": "2026-10-11T22:33:47.661518+00:00",
+  "status": "CHANGED_PUBLISHED",
+  "updated_at": "2026-10-11T22:42:48.831688+00:00"
+}

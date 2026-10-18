@@ -1,0 +1,7 @@
+{
+  "url": "https://de.indeed.com/jobs?q=Test+Engineer&l=Hamburg",
+  "attempt": 1,
+  "returncode": 0,
+  "stdout": "✓ 页面已保存到 /opt/data/qa-vacancy-project/cycles/2026-09-29_cycle-9/preflight/de.indeed.com/raw/crawl4ai-listing-20.md\n  标题: Test Engineer Jobs | Jetzt 3.000 offene Stellen finden | Indeed\n  链接数: 81\n",
+  "stderr": "[INIT].... → Crawl4AI 0.9.4 \n[FETCH]... ↓ https://de.indeed.com/jobs?q=Test+Engineer&l=Hamburg                                                 | ✓ | ⏱: 4.51s \n[SCRAPE].. ◆ https://de.indeed.com/jobs?q=Test+Engineer&l=Hamburg                                                 | ✓ | ⏱: 0.47s \n[COMPLETE] ● https://de.indeed.com/jobs?q=Test+Engineer&l=Hamburg                                                 | ✓ | ⏱: 5.18s \n"
+}

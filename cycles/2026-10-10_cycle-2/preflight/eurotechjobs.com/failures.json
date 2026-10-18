@@ -1,0 +1,11 @@
+{
+  "cycle_id": "2026-10-10_cycle-2",
+  "failures": [
+    {
+      "at": "2026-10-10T13:09:51.021981+00:00",
+      "error": "all independent access methods failed: preflight: source is readable but offered no QA/test vacancy in the first two cards ('Senior Software Engineer - System Test (GPU) - Arm, Lund'; 'Satellite Systems, Software & RF Production Team Lead - ICEYE, Valencia'). Both pages opened and parsed as real postings, so this is not an access failure; the source stays active for a later run.; preflight: fewer than two analyzable direct cards; Camofox preflight: source is readable but offered no QA/test vacancy in the first two cards ('Senior Software Engineer - System Test (GPU)'; 'Satellite Systems, Software & RF Production Team Lead'). Both pages opened as real postings, so this is not an access failure; the source stays active for a later run. Listing offered 24 direct links."
+    }
+  ],
+  "schema_version": 2,
+  "source_id": "eurotechjobs.com"
+}

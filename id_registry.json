@@ -1,0 +1,71 @@
+{
+  "algorithm": "SHA-256 first 12 uppercase hex; deterministic -NN collision suffix by full hash",
+  "groups": {
+    "QADE-90D87E4547A5": {
+      "semantic_group_key": "diehl-aviation-gilching-gmbh|software-qa-engineer|unspecified|dresden",
+      "member_url_indexes": [
+        3
+      ]
+    },
+    "QADE-5E6A546CC0D4": {
+      "semantic_group_key": "lionbridge-germany-gmbh|game-localization-qa|unspecified|berlin",
+      "member_url_indexes": [
+        5
+      ]
+    },
+    "QADE-E477332A81DD": {
+      "semantic_group_key": "bvu-beratergruppe-verkehr-und-umwelt-gmbh|software-qa-engineer|unspecified|remote-de",
+      "member_url_indexes": [
+        66
+      ]
+    },
+    "QADE-E1480498DF7C": {
+      "semantic_group_key": "pta-programmier-technische-arbeiten-gmbh|test-management-consultant|unspecified|berlin",
+      "member_url_indexes": [
+        105
+      ]
+    },
+    "QADE-BE2A29302D0E": {
+      "semantic_group_key": "fio-systems-ag|test-automation-engineer|lead|remote-de",
+      "member_url_indexes": [
+        1
+      ]
+    },
+    "QADE-BB8202938CCA": {
+      "semantic_group_key": "medifox-dan-gmbh|test-automation-engineer|unspecified|remote-de",
+      "member_url_indexes": [
+        59
+      ]
+    },
+    "QADE-769EF4FD7445": {
+      "semantic_group_key": "supplyon-gmbh|software-qa-engineer|unspecified|dresden",
+      "member_url_indexes": [
+        12
+      ]
+    },
+    "QADE-4E46699AE568": {
+      "semantic_group_key": "talon-one-gmbh|software-qa-engineer|mid|berlin",
+      "member_url_indexes": [
+        9
+      ]
+    },
+    "QADE-1606B8719596": {
+      "semantic_group_key": "k-tronik-gmbh|software-test-engineer|unspecified|dresden",
+      "member_url_indexes": [
+        85
+      ]
+    },
+    "QADE-923B5186DD91": {
+      "semantic_group_key": "robotron-datenbank-software-gmbh|software-qa-engineer|unspecified|dresden",
+      "member_url_indexes": [
+        73
+      ]
+    },
+    "QADE-80429E3216C2": {
+      "semantic_group_key": "geomagic-gmbh|test-automation-engineer|unspecified|leipzig",
+      "member_url_indexes": [
+        107
+      ]
+    }
+  }
+}

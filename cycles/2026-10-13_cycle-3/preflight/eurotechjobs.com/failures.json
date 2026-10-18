@@ -1,0 +1,11 @@
+{
+  "cycle_id": "2026-10-13_cycle-3",
+  "failures": [
+    {
+      "at": "2026-10-13T23:54:49.073106+00:00",
+      "error": "all independent access methods failed: preflight: source is readable but offered no QA/test vacancy in the first two cards ('Senior Software Engineer - SoC SW Productisation - Arm, Sophia Antipolis'; 'Senior Software Engineer - System Test (GPU) - Arm, Lund'). Both pages opened and parsed as real postings, so this is not an access failure; the source stays active for a later run.; preflight: fewer than two analyzable direct cards; Camofox preflight: source is readable but offered no QA/test vacancy in the first two cards ('Senior Software Engineer - SoC SW Productisation'; 'Senior Software Engineer - System Test (GPU)'). Both pages opened as real postings, so this is not an access failure; the source stays active for a later run. Listing offered 27 direct links."
+    }
+  ],
+  "schema_version": 2,
+  "source_id": "eurotechjobs.com"
+}

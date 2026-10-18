@@ -1,0 +1,24 @@
+{
+  "attempts": [
+    {
+      "at": "2026-09-29T10:17:26.805253+00:00",
+      "error": "preflight: source is readable but offered no QA/test vacancy in the first two cards ('Stellenbeschreibung Gleichen Sie hier die Stellenbeschreibung mit Ihrem Profil ab'; 'Stellenbeschreibung Gleichen Sie hier die Stellenbeschreibung mit Ihrem Profil ab'). Both pages opened and parsed as real postings, so this is not an access failure; the source stays active for a later run.",
+      "method": "crawl4ai",
+      "status": "failed"
+    },
+    {
+      "at": "2026-09-29T10:17:27.077878+00:00",
+      "error": "preflight: fewer than two analyzable direct cards",
+      "method": "http",
+      "status": "failed"
+    },
+    {
+      "at": "2026-09-29T10:17:54.587426+00:00",
+      "error": "Camofox preflight: fewer than two analyzable direct cards",
+      "method": "camofox",
+      "status": "failed"
+    }
+  ],
+  "cycle_id": "2026-09-29_cycle-5",
+  "source_id": "de.indeed.com"
+}

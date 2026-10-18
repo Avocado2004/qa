@@ -1,0 +1,10 @@
+{
+  "checked_at": "2026-10-18T12:15:23.945855+00:00",
+  "cycle_id": "2026-10-18_cycle-6",
+  "errors": [
+    "Current row lacks eligible location/remote evidence: https://www.stepstone.de/stellenangebote--Software-Quality-Lead-QA-Test-Management-m-w-d-Eschborn-trendtours-Holding-GmbH--14598275-inline.html"
+  ],
+  "rows": 62,
+  "schema_version": 2,
+  "verdict": "FAIL"
+}

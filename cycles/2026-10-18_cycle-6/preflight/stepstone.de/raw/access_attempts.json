@@ -1,0 +1,12 @@
+{
+  "attempts": [
+    {
+      "at": "2026-10-18T11:56:28.566309+00:00",
+      "error": "preflight: fewer than two analyzable direct cards",
+      "method": "http",
+      "status": "failed"
+    }
+  ],
+  "cycle_id": "2026-10-18_cycle-6",
+  "source_id": "stepstone.de"
+}

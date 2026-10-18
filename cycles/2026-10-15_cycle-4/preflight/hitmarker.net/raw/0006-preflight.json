@@ -1,0 +1,33 @@
+{
+  "status": "pass",
+  "access_method": "camofox_gateway",
+  "cards_found": 3,
+  "cards_analyzable": 2,
+  "deep_scan_needed": true,
+  "operations": [
+    {
+      "op": "listing",
+      "url": "https://hitmarker.net/jobs",
+      "chars": 10705,
+      "evidence": "/opt/data/qa-vacancy-project/cycles/2026-10-15_cycle-4/preflight/hitmarker.net/raw/0002-listing-snapshot.json"
+    },
+    {
+      "op": "card-1",
+      "url": "https://hitmarker.net/jobs/drama-studios-3d-character-artist-4962743",
+      "chars": 15852,
+      "evidence": "/opt/data/qa-vacancy-project/cycles/2026-10-15_cycle-4/preflight/hitmarker.net/raw/0003-card-1-snapshot.json"
+    },
+    {
+      "op": "return",
+      "url": "https://hitmarker.net/jobs",
+      "chars": 9825,
+      "evidence": "/opt/data/qa-vacancy-project/cycles/2026-10-15_cycle-4/preflight/hitmarker.net/raw/0004-return-snapshot.json"
+    },
+    {
+      "op": "card-2",
+      "url": "https://hitmarker.net/jobs/black-soup-marketing-graphic-design-5154682",
+      "chars": 17177,
+      "evidence": "/opt/data/qa-vacancy-project/cycles/2026-10-15_cycle-4/preflight/hitmarker.net/raw/0005-card-2-snapshot.json"
+    }
+  ]
+}

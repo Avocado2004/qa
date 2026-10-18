@@ -1,0 +1,30 @@
+{
+  "attempts": [
+    {
+      "at": "2026-09-25T07:31:33.987305+00:00",
+      "error": "Camofox preflight: fewer than two analyzable direct cards",
+      "method": "camofox",
+      "status": "failed"
+    },
+    {
+      "at": "2026-09-25T07:31:34.105096+00:00",
+      "error": "No module named 'httpx'",
+      "method": "exa",
+      "status": "failed"
+    },
+    {
+      "at": "2026-09-25T07:31:55.287481+00:00",
+      "error": "Crawl4AI failed (1): l: minimal_text on small page (529 bytes, 14 chars visible) \n[COMPLETE] ● https://www.stepstone.de/jobs/qa-test/in-berlin.html                                                 | ✗ | ⏱: 4.93s \n✗ 爬取失败: Blocked by anti-bot protection: Structural: minimal_text on small page (529 bytes, 14 chars visible)\n",
+      "method": "crawl4ai",
+      "status": "failed"
+    },
+    {
+      "at": "2026-09-25T07:31:55.720282+00:00",
+      "error": "preflight: fewer than two analyzable direct cards",
+      "method": "http",
+      "status": "failed"
+    }
+  ],
+  "cycle_id": "2026-09-25_cycle-26",
+  "source_id": "stepstone.de"
+}

@@ -1,0 +1,13 @@
+{
+  "cycle_id": "2026-09-25_cycle-27",
+  "failures": [
+    {
+      "at": "2026-09-25T08:41:33.525790+00:00",
+      "attempt": 1,
+      "error": "all independent access methods failed: Camofox preflight: fewer than two analyzable direct cards; [Errno 2] No such file or directory: 'mcporter'; Crawl4AI failed (1): l: minimal_text on small page (529 bytes, 14 chars visible) \n[COMPLETE] ● https://www.stepstone.de/jobs/qa-test/in-berlin.html                                                 | ✗ | ⏱: 3.48s \n✗ 爬取失败: Blocked by anti-bot protection: Structural: minimal_text on small page (529 bytes, 14 chars visible)\n; preflight: fewer than two analyzable direct cards"
+    }
+  ],
+  "schema_version": 2,
+  "source_id": "stepstone.de",
+  "state": "blocked"
+}

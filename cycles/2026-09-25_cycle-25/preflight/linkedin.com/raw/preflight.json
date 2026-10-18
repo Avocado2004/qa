@@ -1,0 +1,56 @@
+{
+  "checked_at": "2026-09-25T07:08:10.473646+00:00",
+  "evidence": {
+    "access_method": "base",
+    "attempts": [
+      {
+        "at": "2026-09-25T07:07:37.414474+00:00",
+        "error": "Camofox preflight snapshot blocked",
+        "method": "camofox",
+        "status": "failed"
+      },
+      {
+        "at": "2026-09-25T07:07:37.601973+00:00",
+        "error": "No module named 'httpx'",
+        "method": "exa",
+        "status": "failed"
+      },
+      {
+        "at": "2026-09-25T07:08:07.901459+00:00",
+        "error": "preflight: fewer than two analyzable direct cards",
+        "method": "crawl4ai",
+        "status": "failed"
+      },
+      {
+        "method": "http",
+        "status": "pass"
+      }
+    ],
+    "cards_analyzable": 10,
+    "cards_found": 10,
+    "operations": [
+      {
+        "op": "listing",
+        "status": 200
+      },
+      {
+        "chars": 16182,
+        "op": "card-1",
+        "url": "https://de.linkedin.com/jobs/view/junior-qa-engineer-software-tester-m-w-d-%E2%80%93-produktqualit%C3%A4t-testautomatisierung-at-check24-4433870576?position=1&pageNum=0&refId=U0cjWOgrk1me0%2B2yrzGTTw%3D%3D"
+      },
+      {
+        "op": "return",
+        "status": 200
+      },
+      {
+        "chars": 15413,
+        "op": "card-2",
+        "url": "https://de.linkedin.com/jobs/view/quality-assurance-engineer-m-w-d-at-hochtief-4455268504?position=2&pageNum=0&refId=U0cjWOgrk1me0%2B2yrzGTTw%3D%3D"
+      }
+    ],
+    "primary_or_fallback": "http",
+    "status": "pass"
+  },
+  "listing": "https://www.linkedin.com/jobs-guest/jobs/api/seeMoreJobPostings/search?keywords=QA&location=Germany&f_TPR=r2592000&start=0",
+  "verdict": "PASS"
+}

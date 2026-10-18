@@ -1,0 +1,28 @@
+{
+  "completed_operations": [
+    {
+      "op": "listing",
+      "status": 200
+    },
+    {
+      "chars": 2830,
+      "op": "card-1",
+      "url": "https://remotive.com/remote-jobs/all-others/content-reviewer-united-states-2091144"
+    },
+    {
+      "op": "return",
+      "status": 200
+    },
+    {
+      "chars": 5727,
+      "op": "card-2",
+      "url": "https://remotive.com/remote-jobs/design/frontend-web-application-developer-2091141"
+    }
+  ],
+  "cycle_id": "2026-09-25_cycle-37",
+  "next_operation": 4,
+  "schema_version": 2,
+  "source_id": "remotive.com",
+  "state": "complete",
+  "updated_at": "2026-09-25T16:10:53.733354+00:00"
+}

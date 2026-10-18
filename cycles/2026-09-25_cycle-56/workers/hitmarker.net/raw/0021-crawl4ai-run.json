@@ -1,0 +1,6 @@
+{
+  "url": "https://hitmarker.net/jobs/nvidia-senior-deep-learning-compiler-engineer-pytorch-4911705",
+  "returncode": 0,
+  "stdout": "✓ 页面已保存到 /opt/data/qa-vacancy-project/cycles/2026-09-25_cycle-56/workers/hitmarker.net/raw/crawl4ai-card-https-hitmarker-net-jobs-nvidia-senior-deep-learning-compiler-engineer-pytorch-4911705.md\n  标题: Senior Deep Learning Compiler Engineer - PyTorch - NVIDIA | Hitmarker\n  链接数: 57\n",
+  "stderr": "[INIT].... → Crawl4AI 0.9.4 \n[FETCH]... ↓ https://hitmarker.net/jobs/nvidia-senior-deep-learning-compiler-engineer-pytorch-4911705             | ✓ | ⏱: 5.69s \n[SCRAPE].. ◆ https://hitmarker.net/jobs/nvidia-senior-deep-learning-compiler-engineer-pytorch-4911705             | ✓ | ⏱: 0.10s \n[COMPLETE] ● https://hitmarker.net/jobs/nvidia-senior-deep-learning-compiler-engineer-pytorch-4911705             | ✓ | ⏱: 5.86s \n"
+}

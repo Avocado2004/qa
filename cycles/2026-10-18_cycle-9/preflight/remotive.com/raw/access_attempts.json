@@ -1,0 +1,30 @@
+{
+  "attempts": [
+    {
+      "at": "2026-10-18T13:16:13.429204+00:00",
+      "error": "'utf-8' codec can't decode byte 0xb7 in position 1: invalid start byte",
+      "method": "api",
+      "status": "failed"
+    },
+    {
+      "at": "2026-10-18T13:16:13.847052+00:00",
+      "error": "'utf-8' codec can't decode byte 0xb7 in position 1: invalid start byte",
+      "method": "http",
+      "status": "failed"
+    },
+    {
+      "at": "2026-10-18T13:17:12.510442+00:00",
+      "error": "preflight: fewer than two analyzable direct cards",
+      "method": "crawl4ai",
+      "status": "failed"
+    },
+    {
+      "at": "2026-10-18T13:18:56.836751+00:00",
+      "error": "Camofox HTTP 404 for POST /tabs/ca3a9958-500c-438b-a078-907984b21918/navigate: {\"error\":\"Tab not found\"}",
+      "method": "camofox",
+      "status": "failed"
+    }
+  ],
+  "cycle_id": "2026-10-18_cycle-9",
+  "source_id": "remotive.com"
+}

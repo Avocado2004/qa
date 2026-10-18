@@ -1,0 +1,24 @@
+{
+  "attempts": [
+    {
+      "at": "2026-10-02T00:25:10.916225+00:00",
+      "error": "Camofox returned an empty snapshot",
+      "method": "camofox",
+      "status": "failed"
+    },
+    {
+      "at": "2026-10-02T00:25:59.809734+00:00",
+      "error": "preflight: fewer than two analyzable direct cards",
+      "method": "crawl4ai",
+      "status": "failed"
+    },
+    {
+      "at": "2026-10-02T00:26:04.291054+00:00",
+      "error": "preflight: source is readable but offered no QA/test vacancy in the first two cards ('Initiativbewerbung'; 'Initiativbewerbung Mitarbeiter (m/w/d)'). Both pages opened and parsed as real postings, so this is not an access failure; the source stays active for a later run.",
+      "method": "http",
+      "status": "failed"
+    }
+  ],
+  "cycle_id": "2026-10-02_cycle-1",
+  "source_id": "xing.com"
+}

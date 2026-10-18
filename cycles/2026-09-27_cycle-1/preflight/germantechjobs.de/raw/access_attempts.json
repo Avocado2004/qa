@@ -1,0 +1,30 @@
+{
+  "attempts": [
+    {
+      "at": "2026-09-27T00:06:53.600757+00:00",
+      "error": "not well-formed (invalid token): line 1, column 0",
+      "method": "api",
+      "status": "failed"
+    },
+    {
+      "at": "2026-09-27T00:06:54.072287+00:00",
+      "error": "not well-formed (invalid token): line 1, column 0",
+      "method": "http",
+      "status": "failed"
+    },
+    {
+      "at": "2026-09-27T00:09:20.587804+00:00",
+      "error": "preflight: fewer than two analyzable direct cards",
+      "method": "crawl4ai",
+      "status": "failed"
+    },
+    {
+      "at": "2026-09-27T00:10:07.372469+00:00",
+      "error": "Camofox returned an empty snapshot",
+      "method": "camofox",
+      "status": "failed"
+    }
+  ],
+  "cycle_id": "2026-09-27_cycle-1",
+  "source_id": "germantechjobs.de"
+}

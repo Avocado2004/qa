@@ -1,0 +1,27 @@
+{
+  "status": "pass",
+  "access_method": "base",
+  "cards_found": 25,
+  "cards_analyzable": 2,
+  "portal_pages_skipped": [],
+  "operations": [
+    {
+      "op": "listing",
+      "status": 200
+    },
+    {
+      "op": "card-1",
+      "url": "https://www.stepstone.de/stellenangebote--Senior-QA-QC-Engineer-Mechanical-m-f-d-Bad-Homburg-Exyte-Germany-GmbH--13936204-inline.html",
+      "chars": 7175
+    },
+    {
+      "op": "return",
+      "status": 200
+    },
+    {
+      "op": "card-2",
+      "url": "https://www.stepstone.de/stellenangebote--QA-Artwork-Management-Specialist-m-w-d-befristet-auf-2-Jahre-Freiburg-Dr-Falk-Pharma-GmbH--14469236-inline.html",
+      "chars": 4892
+    }
+  ]
+}

@@ -1,0 +1,30 @@
+{
+  "attempts": [
+    {
+      "at": "2026-09-25T08:41:35.682262+00:00",
+      "error": "Camofox HTTP 500 for GET /tabs/c505fea3-b24f-48c6-a7a1-3d7bef9d2396/snapshot",
+      "method": "camofox",
+      "status": "failed"
+    },
+    {
+      "at": "2026-09-25T08:41:35.718146+00:00",
+      "error": "[Errno 2] No such file or directory: 'mcporter'",
+      "method": "exa",
+      "status": "failed"
+    },
+    {
+      "at": "2026-09-25T08:42:42.502065+00:00",
+      "error": "Crawl4AI failed (1): 664       | Error: Blocked by anti-bot protection: HTTP 403 with HTML content (923 bytes) \n[COMPLETE] ● https://www.adzuna.de/search?q=QA&loc=587664                                                         | ✗ | ⏱: 1.79s \n✗ 爬取失败: Blocked by anti-bot protection: HTTP 403 with HTML content (923 bytes)\n",
+      "method": "crawl4ai",
+      "status": "failed"
+    },
+    {
+      "at": "2026-09-25T08:42:42.620619+00:00",
+      "error": "preflight: fewer than two analyzable direct cards",
+      "method": "http",
+      "status": "failed"
+    }
+  ],
+  "cycle_id": "2026-09-25_cycle-27",
+  "source_id": "adzuna.de"
+}

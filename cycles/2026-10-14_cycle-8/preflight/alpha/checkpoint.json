@@ -1,0 +1,22 @@
+{
+  "completed_operations": [
+    {
+      "op": "listing"
+    },
+    {
+      "op": "card-1"
+    },
+    {
+      "op": "return"
+    },
+    {
+      "op": "card-2"
+    }
+  ],
+  "cycle_id": "2026-10-14_cycle-8",
+  "next_operation": 4,
+  "schema_version": 2,
+  "source_id": "alpha",
+  "state": "complete",
+  "updated_at": "2026-10-14T16:30:12.880079+00:00"
+}

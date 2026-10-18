@@ -1,0 +1,28 @@
+{
+  "completed_operations": [
+    {
+      "op": "listing",
+      "status": 200
+    },
+    {
+      "chars": 7082,
+      "op": "card-1",
+      "url": "https://www.stepstone.de/stellenangebote--QA-Engineer-Software-m-w-d-Dresden-secunet-Security-Networks-AG--14547592-inline.html"
+    },
+    {
+      "op": "return",
+      "status": 200
+    },
+    {
+      "chars": 9222,
+      "op": "card-2",
+      "url": "https://www.stepstone.de/stellenangebote--Techniker-m-w-d-Analytische-QA-QC-Dresden-SGS-INSTITUT-FRESENIUS-GmbH--14496594-inline.html"
+    }
+  ],
+  "cycle_id": "2026-09-29_cycle-2",
+  "next_operation": 4,
+  "schema_version": 2,
+  "source_id": "stepstone.de",
+  "state": "complete",
+  "updated_at": "2026-09-29T06:23:07.588066+00:00"
+}

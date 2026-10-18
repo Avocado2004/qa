@@ -1,0 +1,6 @@
+{
+  "url": "https://www.stepstone.de/jobs/qa-test/in-berlin.html",
+  "returncode": 1,
+  "stdout": "",
+  "stderr": "[INIT].... → Crawl4AI 0.9.4 \n[FETCH]... ↓ https://www.stepstone.de/jobs/qa-test/in-berlin.html                                                 | ✓ | ⏱: 4.84s \n[SCRAPE].. ◆ https://www.stepstone.de/jobs/qa-test/in-berlin.html                                                 | ✓ | ⏱: 0.01s \n[ERROR]... × https://www.stepstone.d.../qa-test/in-berlin.html  | Error: Blocked by anti-bot protection: Structural: minimal_text on small page (529 bytes, 14 chars visible) \n[COMPLETE] ● https://www.stepstone.de/jobs/qa-test/in-berlin.html                                                 | ✗ | ⏱: 4.93s \n✗ 爬取失败: Blocked by anti-bot protection: Structural: minimal_text on small page (529 bytes, 14 chars visible)\n"
+}

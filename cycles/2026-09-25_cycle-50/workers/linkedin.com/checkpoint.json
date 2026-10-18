@@ -1,0 +1,20 @@
+{
+  "completed_operations": [
+    "card-1",
+    "card-2",
+    "card-3",
+    "card-4",
+    "card-5",
+    "card-6",
+    "card-7",
+    "card-8",
+    "card-9",
+    "card-10"
+  ],
+  "cycle_id": "2026-09-25_cycle-50",
+  "next_operation": 10,
+  "schema_version": 2,
+  "source_id": "linkedin.com",
+  "state": "claimed",
+  "updated_at": "2026-09-25T20:52:48.697225+00:00"
+}

@@ -1,0 +1,38 @@
+{
+  "checked_at": "2026-09-25T13:54:56.071967+00:00",
+  "evidence": {
+    "access_method": "base",
+    "attempts": [
+      {
+        "method": "api",
+        "status": "pass"
+      }
+    ],
+    "cards_analyzable": 2,
+    "cards_found": 245,
+    "operations": [
+      {
+        "op": "listing",
+        "status": 200
+      },
+      {
+        "chars": 5993,
+        "op": "card-1",
+        "url": "https://www.arbeitnow.com/jobs/companies/progyny-global/global-talent-acquisition-people-operations-partner-berlin-250760"
+      },
+      {
+        "op": "return",
+        "status": 200
+      },
+      {
+        "chars": 3103,
+        "op": "card-2",
+        "url": "https://www.arbeitnow.com/jobs/companies/elevion-green/project-manager-eaas-bess-project-development-berlin-164297"
+      }
+    ],
+    "primary_or_fallback": "api",
+    "status": "pass"
+  },
+  "listing": "https://www.arbeitnow.com/api/job-board-api",
+  "verdict": "PASS"
+}

@@ -1,0 +1,16 @@
+{
+  "additions": [],
+  "created_at": "2026-09-25T08:40:27.352475+00:00",
+  "cycle_id": "2026-09-25_cycle-27",
+  "evidence": {
+    "live_retrieval": "completed",
+    "model_evidence": [
+      "The supplied retrieval evidence records completed discovery across all five German QA/test queries.",
+      "The returned results are unrelated adult websites, retail listings, games, test-automation articles or service pages, and political media—not German QA/testing vacancy sources.",
+      "No supplied result exposes both a usable vacancy listing/API and direct QA/testing vacancy cards in Berlin, Leipzig, Dresden, or explicitly Germany-wide remote. Existing registry metadata and history do not establish new qualifying sources from these retrieval results."
+    ],
+    "retrieval_artifact": "/opt/data/qa-vacancy-project/cycles/2026-09-25_cycle-27/source_discovery_retrieval.json",
+    "retrieved_result_count": 49
+  },
+  "verdict": "pass"
+}

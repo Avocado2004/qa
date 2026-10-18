@@ -1,0 +1,27 @@
+{
+  "at": "2026-10-09T19:25:39.921398+00:00",
+  "cycle_id": "2026-10-09_cycle-10",
+  "schema_version": 2,
+  "sources": [
+    {
+      "reason": "preflight blocked: all independent access methods failed: Camofox preflight: no card carries vacancy body text (a title alone is not a posting) -- card-1: 'Sign in to see who you already know at CHECK24' (1965 chars); card-2: 'Sign in to see who you already know at Trading 212' (2012 chars). Listing offered 10 direct ",
+      "source_id": "linkedin.com",
+      "status": "Not used"
+    },
+    {
+      "reason": "preflight blocked: all independent access methods failed: Camofox preflight: source is readable but offered no QA/test vacancy in the first two cards ('Recruiter (m/w/d)'; 'Initiativbewerbung'). Both pages opened as real postings, so this is not an access failure; the source stays active for a later run. Listing offer",
+      "source_id": "xing.com",
+      "status": "Not used"
+    },
+    {
+      "reason": "preflight blocked: all independent access methods failed: Camofox preflight: source is readable but offered no QA/test vacancy in the first two cards ('Senior Community Manager, APAC'; 'Senior Game UI & Multimedia Designer'). Both pages opened as real postings, so this is not an access failure; the source stays active",
+      "source_id": "hitmarker.net",
+      "status": "Not used"
+    },
+    {
+      "reason": "preflight blocked: all independent access methods failed: preflight: source is readable but offered no QA/test vacancy in the first two cards ('Senior Software Engineer - System Test (GPU) - Arm, Lund'; 'Satellite Systems, Software & RF Production Team Lead - ICEYE, Valencia'). Both pages opened and parsed as real pos",
+      "source_id": "eurotechjobs.com",
+      "status": "Not used"
+    }
+  ]
+}

@@ -1,0 +1,9 @@
+{
+  "cycle_id": "2026-09-25_cycle-30",
+  "finished_at": "2026-09-25T10:57:39.904437+00:00",
+  "schema_version": 2,
+  "source_id": "remotive.com",
+  "stage": "SOURCE_PREFLIGHT",
+  "started_at": "2026-09-25T10:55:31.107185+00:00",
+  "state": "pass"
+}

@@ -1,0 +1,30 @@
+{
+  "attempts": [
+    {
+      "at": "2026-10-18T13:16:21.544406+00:00",
+      "error": "preflight: fewer than two analyzable direct cards",
+      "method": "api",
+      "status": "failed"
+    },
+    {
+      "at": "2026-10-18T13:16:21.876227+00:00",
+      "error": "preflight: fewer than two analyzable direct cards",
+      "method": "http",
+      "status": "failed"
+    },
+    {
+      "at": "2026-10-18T13:20:29.897402+00:00",
+      "error": "preflight: no card carries vacancy body text (a title alone is not a posting) -- 2 opened but all are indexes/teasers (card-1: 'Glassdoor' (3265 chars); card-2: 'Deine Jobsuche beginnt hier' (18628 chars)). About.md requires two analyzable vacancy cards.",
+      "method": "crawl4ai",
+      "status": "failed"
+    },
+    {
+      "at": "2026-10-18T13:20:43.309082+00:00",
+      "error": "Camofox HTTP 404 for GET /tabs/91bf174e-5460-4e16-99f2-a1cd4fd281c9/snapshot: {\"error\":\"Tab not found\"}",
+      "method": "camofox",
+      "status": "failed"
+    }
+  ],
+  "cycle_id": "2026-10-18_cycle-9",
+  "source_id": "glassdoor.de"
+}

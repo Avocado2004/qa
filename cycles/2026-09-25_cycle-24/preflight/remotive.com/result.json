@@ -1,0 +1,13 @@
+{
+  "cycle_id": "2026-09-25_cycle-24",
+  "failures": [
+    {
+      "at": "2026-09-25T06:16:14.017394+00:00",
+      "attempt": 1,
+      "error": "all independent access methods failed: preflight: fewer than two distinct API cards; Camofox HTTP 500 for POST /tabs/92276a72-4bc5-4f43-b84f-d23c4014ef4d/navigate; Exa returned fewer than two direct cards; Crawl4AI failed (2): Usage: crawl4ai-skill crawl [OPTIONS] URL\nTry 'crawl4ai-skill crawl --help' for help.\n\nError: No such option '--wait-until'. Did you mean '--wait-for'?\n"
+    }
+  ],
+  "schema_version": 2,
+  "source_id": "remotive.com",
+  "state": "blocked"
+}

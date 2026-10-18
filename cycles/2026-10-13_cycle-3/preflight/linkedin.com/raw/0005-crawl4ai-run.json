@@ -1,0 +1,7 @@
+{
+  "url": "https://de.linkedin.com/jobs/view/senior-quality-engineer-checkout-payments-m-w-d-at-shopware-4477997035?position=2&pageNum=0&refId=67mpEEhU%2F8O7%2Bkmau%2FEt5A%3D%3D",
+  "attempt": 1,
+  "returncode": 0,
+  "stdout": "✓ 页面已保存到 /opt/data/qa-vacancy-project/cycles/2026-10-13_cycle-3/preflight/linkedin.com/raw/crawl4ai-card--payments-m-w-d-at-shopware-4477997035-position-2-pageNum-0-refId-67mpEEhU-2F8O7-2Bkmau-2FEt5A-3D-3D.md\n  标题: Shopware sucht Senior Quality Engineer - Checkout & Payments (m/w/d) in Schöppingen | LinkedIn\n  链接数: 179\n",
+  "stderr": "[INIT].... → Crawl4AI 0.9.4 \n[FETCH]... ↓ https://de.linkedin.com/jobs/view/senior-quality...ition=2&pageNum=0&refId=67mpEEhU/8O7+kmau/Et5A==  | ✓ | ⏱: 2.75s \n[SCRAPE].. ◆ https://de.linkedin.com/jobs/view/senior-quality...ition=2&pageNum=0&refId=67mpEEhU/8O7+kmau/Et5A==  | ✓ | ⏱: 0.48s \n[COMPLETE] ● https://de.linkedin.com/jobs/view/senior-quality...ition=2&pageNum=0&refId=67mpEEhU/8O7+kmau/Et5A==  | ✓ | ⏱: 3.30s \n"
+}

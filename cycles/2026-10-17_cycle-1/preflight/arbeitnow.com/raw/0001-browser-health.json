@@ -1,0 +1,21 @@
+{
+  "start": {
+    "ok": true,
+    "profile": "camoufox"
+  },
+  "health": {
+    "ok": true,
+    "engine": "camoufox",
+    "browserConnected": true,
+    "browserRunning": true,
+    "activeTabs": 4,
+    "activeSessions": 4,
+    "consecutiveFailures": 0,
+    "memory": {
+      "rssMb": 133,
+      "heapUsedMb": 76,
+      "nativeMemMb": 57
+    }
+  },
+  "smoke_snapshot_chars": 1052
+}

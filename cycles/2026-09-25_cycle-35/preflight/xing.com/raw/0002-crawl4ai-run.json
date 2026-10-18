@@ -1,0 +1,6 @@
+{
+  "url": "https://www.xing.com/recruiting/jobs/create?sc_cmp=oow5eb8bc92",
+  "returncode": 0,
+  "stdout": "✓ 页面已保存到 /opt/data/qa-vacancy-project/cycles/2026-09-25_cycle-35/preflight/xing.com/raw/crawl4ai-card-https-www-xing-com-recruiting-jobs-create-sc-cmp-oow5eb8bc92.md\n  标题: XING\n  链接数: 28\n",
+  "stderr": "[INIT].... → Crawl4AI 0.9.4 \n[FETCH]... ↓ https://www.xing.com/recruiting/jobs/create?sc_cmp=oow5eb8bc92                                       | ✓ | ⏱: 8.13s \n[SCRAPE].. ◆ https://www.xing.com/recruiting/jobs/create?sc_cmp=oow5eb8bc92                                       | ✓ | ⏱: 0.33s \n[COMPLETE] ● https://www.xing.com/recruiting/jobs/create?sc_cmp=oow5eb8bc92                                       | ✓ | ⏱: 8.76s \n"
+}

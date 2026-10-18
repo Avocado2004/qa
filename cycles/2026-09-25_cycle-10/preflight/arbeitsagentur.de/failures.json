@@ -1,0 +1,11 @@
+{
+  "cycle_id": "2026-09-25_cycle-10",
+  "failures": [
+    {
+      "at": "2026-09-25T00:57:02.041119+00:00",
+      "error": "preflight: fewer than two analyzable direct cards"
+    }
+  ],
+  "schema_version": 2,
+  "source_id": "arbeitsagentur.de"
+}

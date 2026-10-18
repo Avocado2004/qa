@@ -1,0 +1,270 @@
+{
+  "created_at": "2026-09-24T22:32:31.143546+00:00",
+  "cycle_id": "workers",
+  "jobs": [
+    {
+      "attempt": 1,
+      "claimed_at": "2026-09-24T22:32:31.154012+00:00",
+      "error": null,
+      "failures": [],
+      "finished_at": "2026-09-24T22:32:45.530729+00:00",
+      "generation": 1,
+      "heartbeat_at": "2026-09-24T22:32:44.705376+00:00",
+      "index": 0,
+      "lease_token": null,
+      "next_retry_at": null,
+      "owner": null,
+      "pid": null,
+      "progress_at": "2026-09-24T22:32:44.677034+00:00",
+      "source": {
+        "adapter": "linkedin_v1",
+        "adapter_version": 1,
+        "config": {},
+        "detail_url_pattern": "site:linkedin.com/jobs/view QA Test Berlin Leipzig Dresden Germany Remote",
+        "direct_card_domains": [
+          "linkedin.com"
+        ],
+        "domain": "linkedin.com",
+        "evidence": {
+          "first_seen": "2026-09-24",
+          "last_preflight": null,
+          "last_success": null,
+          "last_verified": "2026-09-24",
+          "url": "https://www.linkedin.com/jobs/search/?keywords=QA%20Engineer&location=Germany"
+        },
+        "fallback_methods": [
+          "guest API",
+          "browser",
+          "web extraction"
+        ],
+        "id": "linkedin.com",
+        "legacy": {
+          "access_methods": [
+            "guest API",
+            "browser",
+            "web extraction"
+          ],
+          "domain": "linkedin.com",
+          "evidence_url": "https://www.linkedin.com/jobs/search/?keywords=QA%20Engineer&location=Germany",
+          "first_seen": "2026-09-24",
+          "last_access_status": "verified-live",
+          "last_verified": "2026-09-24",
+          "name": "LinkedIn Jobs",
+          "parent_platform": null,
+          "query_or_url_pattern": "site:linkedin.com/jobs/view QA Test Berlin Leipzig Dresden Germany Remote",
+          "status": "active",
+          "type": "general job board"
+        },
+        "listing_url": "https://www.linkedin.com/jobs-guest/jobs/api/seeMoreJobPostings/search?keywords=QA&location=Germany&f_TPR=r2592000&start=0",
+        "name": "LinkedIn Jobs",
+        "preferred_methods": [
+          "guest API",
+          "browser",
+          "web extraction"
+        ],
+        "status": "active",
+        "type": "general job board"
+      },
+      "source_id": "linkedin.com",
+      "state": "complete"
+    },
+    {
+      "attempt": 1,
+      "claimed_at": "2026-09-24T22:32:31.162542+00:00",
+      "error": null,
+      "failures": [],
+      "finished_at": "2026-09-24T22:32:45.800505+00:00",
+      "generation": 1,
+      "heartbeat_at": "2026-09-24T22:32:44.762897+00:00",
+      "index": 1,
+      "lease_token": null,
+      "next_retry_at": null,
+      "owner": null,
+      "pid": null,
+      "progress_at": "2026-09-24T22:32:44.736833+00:00",
+      "source": {
+        "adapter": "xing_v1",
+        "adapter_version": 1,
+        "config": {},
+        "detail_url_pattern": "QA Software Test Engineer Germany last month",
+        "direct_card_domains": [
+          "xing.com"
+        ],
+        "domain": "xing.com",
+        "evidence": {
+          "first_seen": "2026-09-24",
+          "last_preflight": null,
+          "last_success": null,
+          "last_verified": "2026-09-24",
+          "url": "https://www.xing.com/jobs/search"
+        },
+        "fallback_methods": [
+          "browser",
+          "Camofox",
+          "web extraction"
+        ],
+        "id": "xing.com",
+        "legacy": {
+          "access_methods": [
+            "browser",
+            "Camofox",
+            "web extraction"
+          ],
+          "domain": "xing.com",
+          "evidence_url": "https://www.xing.com/jobs/search",
+          "first_seen": "2026-09-24",
+          "last_access_status": "verified-live",
+          "last_verified": "2026-09-24",
+          "name": "XING Jobs",
+          "parent_platform": null,
+          "query_or_url_pattern": "QA Software Test Engineer Germany last month",
+          "status": "active",
+          "type": "professional network job board"
+        },
+        "listing_url": "https://www.xing.com/jobs/search",
+        "name": "XING Jobs",
+        "preferred_methods": [
+          "browser",
+          "Camofox",
+          "web extraction"
+        ],
+        "status": "active",
+        "type": "professional network job board"
+      },
+      "source_id": "xing.com",
+      "state": "complete"
+    },
+    {
+      "attempt": 1,
+      "claimed_at": "2026-09-24T22:32:31.172562+00:00",
+      "error": null,
+      "failures": [],
+      "finished_at": "2026-09-24T22:33:16.807597+00:00",
+      "generation": 1,
+      "heartbeat_at": "2026-09-24T22:33:13.024158+00:00",
+      "index": 2,
+      "lease_token": null,
+      "next_retry_at": null,
+      "owner": null,
+      "pid": null,
+      "progress_at": "2026-09-24T22:33:13.014350+00:00",
+      "source": {
+        "adapter": "arbeitnow_v1",
+        "adapter_version": 1,
+        "config": {},
+        "detail_url_pattern": "https://www.arbeitnow.com/api/job-board-api (filter JSON records by title/description/location for QA, Software Test, Test Automation, Germany, Berlin, Leipzig, Dresden, remote)",
+        "direct_card_domains": [
+          "arbeitnow.com"
+        ],
+        "domain": "arbeitnow.com",
+        "evidence": {
+          "first_seen": "2026-09-24",
+          "last_preflight": null,
+          "last_success": null,
+          "last_verified": "2026-09-24",
+          "url": "https://www.arbeitnow.com/api/job-board-api"
+        },
+        "fallback_methods": [
+          "public API",
+          "web extraction"
+        ],
+        "id": "arbeitnow.com",
+        "legacy": {
+          "access_methods": [
+            "public API",
+            "web extraction"
+          ],
+          "domain": "arbeitnow.com",
+          "evidence_url": "https://www.arbeitnow.com/api/job-board-api",
+          "first_seen": "2026-09-24",
+          "last_access_status": "verified-live",
+          "last_verified": "2026-09-24",
+          "name": "Arbeitnow Job Board API",
+          "parent_platform": null,
+          "query_or_url_pattern": "https://www.arbeitnow.com/api/job-board-api (filter JSON records by title/description/location for QA, Software Test, Test Automation, Germany, Berlin, Leipzig, Dresden, remote)",
+          "status": "active",
+          "type": "aggregated job board/API"
+        },
+        "listing_url": "https://www.arbeitnow.com/api/job-board-api",
+        "name": "Arbeitnow Job Board API",
+        "preferred_methods": [
+          "public API",
+          "web extraction"
+        ],
+        "status": "active",
+        "type": "aggregated job board/API"
+      },
+      "source_id": "arbeitnow.com",
+      "state": "complete"
+    },
+    {
+      "attempt": 1,
+      "claimed_at": "2026-09-24T22:32:31.188765+00:00",
+      "error": null,
+      "failures": [],
+      "finished_at": "2026-09-24T22:33:38.772710+00:00",
+      "generation": 1,
+      "heartbeat_at": "2026-09-24T22:33:36.626620+00:00",
+      "index": 3,
+      "lease_token": null,
+      "next_retry_at": null,
+      "owner": null,
+      "pid": null,
+      "progress_at": "2026-09-24T22:33:36.591003+00:00",
+      "source": {
+        "adapter": "html_v1",
+        "adapter_version": 1,
+        "config": {},
+        "detail_url_pattern": "https://www.eurotechjobs.com/jobs/test_analyst and https://www.eurotechjobs.com/jobs/germany; intersect/filter cards for Germany, Berlin, Leipzig, Dresden, or Germany-wide remote; direct cards /job_display/<id>/<slug>",
+        "direct_card_domains": [
+          "eurotechjobs.com"
+        ],
+        "domain": "eurotechjobs.com",
+        "evidence": {
+          "first_seen": "2026-09-24",
+          "last_preflight": null,
+          "last_success": null,
+          "last_verified": "2026-09-24",
+          "url": "https://www.eurotechjobs.com/job_display/295774/Senior_Software_Tester_BlackBerry_Dsseldorf_Germany"
+        },
+        "fallback_methods": [
+          "public HTML listing",
+          "direct card web extraction",
+          "curl"
+        ],
+        "id": "eurotechjobs.com",
+        "legacy": {
+          "access_methods": [
+            "public HTML listing",
+            "direct card web extraction",
+            "curl"
+          ],
+          "domain": "eurotechjobs.com",
+          "evidence_url": "https://www.eurotechjobs.com/job_display/295774/Senior_Software_Tester_BlackBerry_Dsseldorf_Germany",
+          "first_seen": "2026-09-24",
+          "last_access_status": "verified-live-direct-card",
+          "last_verified": "2026-09-24",
+          "name": "EuroTechJobs Test Analyst / Germany",
+          "parent_platform": "EuroJobsites",
+          "query_or_url_pattern": "https://www.eurotechjobs.com/jobs/test_analyst and https://www.eurotechjobs.com/jobs/germany; intersect/filter cards for Germany, Berlin, Leipzig, Dresden, or Germany-wide remote; direct cards /job_display/<id>/<slug>",
+          "status": "active",
+          "type": "European technology job board"
+        },
+        "listing_url": "https://www.eurotechjobs.com/jobs/test_analyst",
+        "name": "EuroTechJobs Test Analyst / Germany",
+        "preferred_methods": [
+          "public HTML listing",
+          "direct card web extraction",
+          "curl"
+        ],
+        "status": "active",
+        "type": "European technology job board"
+      },
+      "source_id": "eurotechjobs.com",
+      "state": "complete"
+    }
+  ],
+  "max_workers": 10,
+  "schema_version": 2,
+  "updated_at": "2026-09-24T22:33:38.772743+00:00"
+}

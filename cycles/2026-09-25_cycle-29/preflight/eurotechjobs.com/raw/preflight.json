@@ -1,0 +1,56 @@
+{
+  "checked_at": "2026-09-25T09:24:20.072074+00:00",
+  "evidence": {
+    "access_method": "base",
+    "attempts": [
+      {
+        "at": "2026-09-25T09:23:24.168261+00:00",
+        "error": "Camofox returned an empty snapshot",
+        "method": "camofox",
+        "status": "failed"
+      },
+      {
+        "at": "2026-09-25T09:23:30.420518+00:00",
+        "error": "preflight: fewer than two analyzable direct cards",
+        "method": "exa",
+        "status": "failed"
+      },
+      {
+        "at": "2026-09-25T09:24:16.450892+00:00",
+        "error": "preflight: fewer than two analyzable direct cards",
+        "method": "crawl4ai",
+        "status": "failed"
+      },
+      {
+        "method": "http",
+        "status": "pass"
+      }
+    ],
+    "cards_analyzable": 24,
+    "cards_found": 24,
+    "operations": [
+      {
+        "op": "listing",
+        "status": 200
+      },
+      {
+        "chars": 9895,
+        "op": "card-1",
+        "url": "https://www.eurotechjobs.com/job_display/296803/Data_Processing_Testing_Engineer_EUMETSAT_European_Organisation_for_the_Exploitation_of_Meteorological_Satellites_Darmstadt_Germany"
+      },
+      {
+        "op": "return",
+        "status": 200
+      },
+      {
+        "chars": 9962,
+        "op": "card-2",
+        "url": "https://www.eurotechjobs.com/job_display/296784/Quality_Assurance_Engineer_EUMETSAT_European_Organisation_for_the_Exploitation_of_Meteorological_Satellites_Darmstadt_Germany"
+      }
+    ],
+    "primary_or_fallback": "http",
+    "status": "pass"
+  },
+  "listing": "https://www.eurotechjobs.com/jobs/test_analyst",
+  "verdict": "PASS"
+}

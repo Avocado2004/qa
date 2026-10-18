@@ -1,0 +1,9 @@
+{
+  "cycle_id": "2026-09-25_cycle-29",
+  "finished_at": "2026-09-25T09:22:32.981454+00:00",
+  "schema_version": 2,
+  "source_id": "arbeitnow.com",
+  "stage": "SOURCE_PREFLIGHT",
+  "started_at": "2026-09-25T09:22:30.664627+00:00",
+  "state": "pass"
+}

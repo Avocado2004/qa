@@ -1,0 +1,12 @@
+{
+  "attempts": [
+    {
+      "at": "2026-09-25T15:32:28.792027+00:00",
+      "error": "Camofox returned an empty snapshot",
+      "method": "camofox",
+      "status": "failed"
+    }
+  ],
+  "cycle_id": "2026-09-25_cycle-35",
+  "source_id": "xing.com"
+}

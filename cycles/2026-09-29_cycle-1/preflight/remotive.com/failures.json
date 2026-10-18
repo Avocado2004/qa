@@ -1,0 +1,11 @@
+{
+  "cycle_id": "2026-09-29_cycle-1",
+  "failures": [
+    {
+      "at": "2026-09-29T00:13:21.870087+00:00",
+      "error": "all independent access methods failed: 'utf-8' codec can't decode byte 0x8b in position 0: invalid start byte; 'utf-8' codec can't decode byte 0x8b in position 0: invalid start byte; preflight: fewer than two analyzable direct cards; Camofox returned an empty snapshot"
+    }
+  ],
+  "schema_version": 2,
+  "source_id": "remotive.com"
+}

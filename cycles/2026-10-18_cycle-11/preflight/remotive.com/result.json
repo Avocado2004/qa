@@ -1,0 +1,13 @@
+{
+  "cycle_id": "2026-10-18_cycle-11",
+  "failures": [
+    {
+      "at": "2026-10-18T14:20:03.948894+00:00",
+      "attempt": 1,
+      "error": "all independent access methods failed: 'utf-8' codec can't decode byte 0xb7 in position 1: invalid start byte; 'utf-8' codec can't decode byte 0xb7 in position 1: invalid start byte; preflight: fewer than two analyzable direct cards; Camofox HTTP 404 for GET /tabs/5b774e52-05c8-404b-8d0e-a7ce16d53674/snapshot: {\"error\":\"Tab not found\"}"
+    }
+  ],
+  "schema_version": 2,
+  "source_id": "remotive.com",
+  "state": "blocked"
+}

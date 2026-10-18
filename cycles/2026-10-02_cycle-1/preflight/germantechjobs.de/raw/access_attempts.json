@@ -1,0 +1,24 @@
+{
+  "attempts": [
+    {
+      "at": "2026-10-02T00:22:54.983737+00:00",
+      "error": "not well-formed (invalid token): line 1, column 0",
+      "method": "http",
+      "status": "failed"
+    },
+    {
+      "at": "2026-10-02T00:25:54.843706+00:00",
+      "error": "preflight: fewer than two analyzable direct cards",
+      "method": "crawl4ai",
+      "status": "failed"
+    },
+    {
+      "at": "2026-10-02T00:26:57.652730+00:00",
+      "error": "Camofox returned an empty snapshot",
+      "method": "camofox",
+      "status": "failed"
+    }
+  ],
+  "cycle_id": "2026-10-02_cycle-1",
+  "source_id": "germantechjobs.de"
+}

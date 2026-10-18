@@ -1,0 +1,6 @@
+{
+  "url": "https://www.arbeitsagentur.de/jobsuche/jobdetail/13644-309295-S",
+  "title": "Softwaretester (m/w/d) | Jobsuche der BA",
+  "content": "# Stellenangebot: Softwaretester (m/w/d) bei Robotron Datenbank-Software\n## Das Wichtigste im Überblick\n### Besondere Merkmale\n* Homeoffice möglich\n\n### Arbeitsort\nDresden\n\n### Angebotsart\nArbeit\n\n### Beginn\nab sofort\n\n...\n\n### Vollständige Stellenbeschreibung bei unserem Kooperationspartner einsehen:\nVerstoß melden",
+  "error": null
+}

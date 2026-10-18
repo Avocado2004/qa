@@ -1,0 +1,205 @@
+{
+  "audit_date": "2026-09-24",
+  "accepted_verdict": "PASS",
+  "group_count": 11,
+  "groups": [
+    {
+      "semantic_group_key": "diehl-aviation-gilching-gmbh|software-qa-engineer|unspecified|dresden",
+      "member_url_indexes": [
+        3
+      ],
+      "member_urls": [
+        "https://de.linkedin.com/jobs/view/engineer-m-w-d-software-quality-assurance-at-diehl-aviation-4469424453"
+      ],
+      "chosen_url_index": 3,
+      "chosen_url": "https://de.linkedin.com/jobs/view/engineer-m-w-d-software-quality-assurance-at-diehl-aviation-4469424453",
+      "stable_id": "QADE-90D87E4547A5",
+      "position": "Engineer (m/w/d) Software Quality Assurance",
+      "company": "Diehl Aviation Gilching GmbH",
+      "location": "Dresden",
+      "posted_date": "2026-09-23",
+      "work_mode": "Hybrid",
+      "deduplication_basis": "single accepted PASS; no evidence of another identical opening"
+    },
+    {
+      "semantic_group_key": "lionbridge-germany-gmbh|game-localization-qa|unspecified|berlin",
+      "member_url_indexes": [
+        5
+      ],
+      "member_urls": [
+        "https://de.linkedin.com/jobs/view/game-localization-tester-m-f-d-at-lionbridge-games-4435685330"
+      ],
+      "chosen_url_index": 5,
+      "chosen_url": "https://de.linkedin.com/jobs/view/game-localization-tester-m-f-d-at-lionbridge-games-4435685330",
+      "stable_id": "QADE-5E6A546CC0D4",
+      "position": "Game Localization Tester (m/f/d)",
+      "company": "Lionbridge Germany GmbH",
+      "location": "Berlin",
+      "posted_date": "2026-09-22",
+      "work_mode": "Onsite",
+      "deduplication_basis": "single accepted PASS; no evidence of another identical opening"
+    },
+    {
+      "semantic_group_key": "bvu-beratergruppe-verkehr-und-umwelt-gmbh|software-qa-engineer|unspecified|remote-de",
+      "member_url_indexes": [
+        66
+      ],
+      "member_urls": [
+        "https://remotive.com/remote/jobs/qa/software-tester-5925120"
+      ],
+      "chosen_url_index": 66,
+      "chosen_url": "https://remotive.com/remote/jobs/qa/software-tester-5925120",
+      "stable_id": "QADE-E477332A81DD",
+      "position": "Software Tester",
+      "company": "BVU Beratergruppe Verkehr + Umwelt GmbH",
+      "location": "Germany (Remote)",
+      "posted_date": "2026-09-18",
+      "work_mode": "Remote",
+      "deduplication_basis": "single accepted PASS; no evidence of another identical opening"
+    },
+    {
+      "semantic_group_key": "pta-programmier-technische-arbeiten-gmbh|test-management-consultant|unspecified|berlin",
+      "member_url_indexes": [
+        105
+      ],
+      "member_urls": [
+        "https://www.stepstone.de/stellenangebote--Testmanager-IT-Consultant-Testmanagement-m-w-d-Berlin-Dresden-Duesseldorf-Frankfurt-Hamburg-Karlsruhe-Kassel-Koeln-Mannheim-Muenchen-PTA-GmbH--14496961-inline.html"
+      ],
+      "chosen_url_index": 105,
+      "chosen_url": "https://www.stepstone.de/stellenangebote--Testmanager-IT-Consultant-Testmanagement-m-w-d-Berlin-Dresden-Duesseldorf-Frankfurt-Hamburg-Karlsruhe-Kassel-Koeln-Mannheim-Muenchen-PTA-GmbH--14496961-inline.html",
+      "stable_id": "QADE-E1480498DF7C",
+      "position": "Testmanager / IT-Consultant Testmanagement (m/w/d)",
+      "company": "PTA GmbH",
+      "location": "Berlin",
+      "posted_date": "2026-09-17",
+      "work_mode": "Hybrid",
+      "deduplication_basis": "single accepted PASS; no evidence of another identical opening"
+    },
+    {
+      "semantic_group_key": "fio-systems-ag|test-automation-engineer|lead|remote-de",
+      "member_url_indexes": [
+        1
+      ],
+      "member_urls": [
+        "https://apply.j-vers.com/v3/job/AAAAAAAAAAAAAAAAAAAAAGQD_o2s1lvo2LlgC4A_3AJgEbC8Xk-MnmnR4U4SkR0MJXX18NA92_dlH5GS5KKU5Ii64tU5k5YaF97R_AoIv3d3xjf1rRMfZFv7LTq89W4Q89XJrrQK38xqoUNU2bsza1IXFvQg1eKizeWv7_jt0OIhunJR2lEdgQWwdKdIal-PEZqiurmSlMfovkg4yatAnhI3UDZcADgI11bHIK6e64TRq4zAsWc8Z-TmEtmDQRNPAzG3e2VMMTULzd6AEkRvZALE0kkNfZOsk6rFuo6CoAxo4AAsAuhPE6BGa3NE4yveiRHcY2je2v7cM1p3WHVq1JTO4MyV-dgnfVucUbTnrman2_3tNrpduBe-xcD4g1aUHeln4L37MNP_EhmkrOtnCA=="
+      ],
+      "chosen_url_index": 1,
+      "chosen_url": "https://apply.j-vers.com/v3/job/AAAAAAAAAAAAAAAAAAAAAGQD_o2s1lvo2LlgC4A_3AJgEbC8Xk-MnmnR4U4SkR0MJXX18NA92_dlH5GS5KKU5Ii64tU5k5YaF97R_AoIv3d3xjf1rRMfZFv7LTq89W4Q89XJrrQK38xqoUNU2bsza1IXFvQg1eKizeWv7_jt0OIhunJR2lEdgQWwdKdIal-PEZqiurmSlMfovkg4yatAnhI3UDZcADgI11bHIK6e64TRq4zAsWc8Z-TmEtmDQRNPAzG3e2VMMTULzd6AEkRvZALE0kkNfZOsk6rFuo6CoAxo4AAsAuhPE6BGa3NE4yveiRHcY2je2v7cM1p3WHVq1JTO4MyV-dgnfVucUbTnrman2_3tNrpduBe-xcD4g1aUHeln4L37MNP_EhmkrOtnCA==",
+      "stable_id": "QADE-BE2A29302D0E",
+      "position": "Team Lead Quality Assurance & Testautomatisierung (w/m/d)",
+      "company": "FIO SYSTEMS AG",
+      "location": "Germany (Remote)",
+      "posted_date": "2026-09-16",
+      "work_mode": "Remote",
+      "deduplication_basis": "single accepted PASS; no evidence of another identical opening"
+    },
+    {
+      "semantic_group_key": "medifox-dan-gmbh|test-automation-engineer|unspecified|remote-de",
+      "member_url_indexes": [
+        59
+      ],
+      "member_urls": [
+        "https://de.linkedin.com/jobs/view/test-automation-engineer-m-w-d-at-medifox-dan-4463397741"
+      ],
+      "chosen_url_index": 59,
+      "chosen_url": "https://de.linkedin.com/jobs/view/test-automation-engineer-m-w-d-at-medifox-dan-4463397741",
+      "stable_id": "QADE-BB8202938CCA",
+      "position": "Test Automation Engineer (m/w/d)",
+      "company": "MEDIFOX DAN GmbH",
+      "location": "Germany (Remote)",
+      "posted_date": "2026-09-10",
+      "work_mode": "Remote",
+      "deduplication_basis": "single accepted PASS; no evidence of another identical opening"
+    },
+    {
+      "semantic_group_key": "supplyon-gmbh|software-qa-engineer|unspecified|dresden",
+      "member_url_indexes": [
+        12
+      ],
+      "member_urls": [
+        "https://de.linkedin.com/jobs/view/qa-engineer-w-m-d-at-supplyon-4462956289"
+      ],
+      "chosen_url_index": 12,
+      "chosen_url": "https://de.linkedin.com/jobs/view/qa-engineer-w-m-d-at-supplyon-4462956289",
+      "stable_id": "QADE-769EF4FD7445",
+      "position": "QA-Engineer (w/m/d)",
+      "company": "SupplyOn GmbH",
+      "location": "Dresden",
+      "posted_date": "2026-09-10",
+      "work_mode": "Hybrid",
+      "deduplication_basis": "single accepted PASS; no evidence of another identical opening"
+    },
+    {
+      "semantic_group_key": "talon-one-gmbh|software-qa-engineer|mid|berlin",
+      "member_url_indexes": [
+        9
+      ],
+      "member_urls": [
+        "https://de.linkedin.com/jobs/view/qa-engineer-mid-level-at-talon-one-4465625914"
+      ],
+      "chosen_url_index": 9,
+      "chosen_url": "https://de.linkedin.com/jobs/view/qa-engineer-mid-level-at-talon-one-4465625914",
+      "stable_id": "QADE-4E46699AE568",
+      "position": "QA Engineer (Mid Level)",
+      "company": "Talon.One GmbH",
+      "location": "Berlin",
+      "posted_date": "2026-09-10",
+      "work_mode": "Hybrid",
+      "deduplication_basis": "single accepted PASS; no evidence of another identical opening"
+    },
+    {
+      "semantic_group_key": "k-tronik-gmbh|software-test-engineer|unspecified|dresden",
+      "member_url_indexes": [
+        85
+      ],
+      "member_urls": [
+        "https://www.linkedin.com/jobs/view/4461840440"
+      ],
+      "chosen_url_index": 85,
+      "chosen_url": "https://www.linkedin.com/jobs/view/4461840440",
+      "stable_id": "QADE-1606B8719596",
+      "position": "Software Test Engineer (m/w/x) – Sichere Kommunikation",
+      "company": "K-tronik GmbH",
+      "location": "Dresden",
+      "posted_date": "2026-09-06",
+      "work_mode": "Onsite",
+      "deduplication_basis": "single accepted PASS; no evidence of another identical opening"
+    },
+    {
+      "semantic_group_key": "robotron-datenbank-software-gmbh|software-qa-engineer|unspecified|dresden",
+      "member_url_indexes": [
+        73
+      ],
+      "member_urls": [
+        "https://www.arbeitsagentur.de/jobsuche/jobdetail/13644-309295-S"
+      ],
+      "chosen_url_index": 73,
+      "chosen_url": "https://www.arbeitsagentur.de/jobsuche/jobdetail/13644-309295-S",
+      "stable_id": "QADE-923B5186DD91",
+      "position": "Softwaretester (m/w/d)",
+      "company": "Robotron Datenbank-Software GmbH",
+      "location": "Dresden",
+      "posted_date": "2026-09-03",
+      "work_mode": "Onsite",
+      "deduplication_basis": "single accepted PASS; no evidence of another identical opening"
+    },
+    {
+      "semantic_group_key": "geomagic-gmbh|test-automation-engineer|unspecified|leipzig",
+      "member_url_indexes": [
+        107
+      ],
+      "member_urls": [
+        "https://www.xing.com/jobs/leipzig-test-automation-engineer-geomagic-157527998"
+      ],
+      "chosen_url_index": 107,
+      "chosen_url": "https://www.xing.com/jobs/leipzig-test-automation-engineer-geomagic-157527998",
+      "stable_id": "QADE-80429E3216C2",
+      "position": "Test Automation Engineer (m/w/d)",
+      "company": "GEOMAGIC GmbH",
+      "location": "Leipzig",
+      "posted_date": "2026-08-29",
+      "work_mode": "Onsite",
+      "deduplication_basis": "single accepted PASS; no evidence of another identical opening"
+    }
+  ]
+}

@@ -1,0 +1,131 @@
+Wir verwenden Cookies, um Inhalte und Anzeigen zu personalisieren, den Traffic zu analysieren sowie um unsere Dienstleistungen zu verbessern. Darüber hinaus verwenden wir notwendige Cookies, um Arbeitgeber darüber zu informieren, wie viele Klicks ihre Stellenanzeigen erhalten haben. Sie erkennen an, dass Ihre Nutzung von Indeed unseren [Richtlinien zur Verwendung von Cookies](https://hrtechprivacy.com/de/brands/about-indeed) unterliegt und empfehlen Ihnen, diese zu lesen.
+Cookie-Einstellungen Alle ablehnen Alle Cookies akzeptieren
+[](https://de.indeed.com/?from=gnav-homepage--homepage-frontend)
+  * [Startseite](https://de.indeed.com/)
+  * [Unternehmensbewertungen](https://de.indeed.com/companies)
+  * [Gehälter finden](https://de.indeed.com/career/salaries)
+
+
+  * [Anmelden](https://secure.indeed.com/auth?hl=de_DE&co=DE&continue=https%3A%2F%2Fde.indeed.com%2Fviewjob%3Fjk%3Dfb57349133c160b6%26from%3Dserp%26vjs%3D3&tmpl=desktop&from=gnav-util-homepage--homepage-frontend&jsContinue=https%3A%2F%2Fonboarding.indeed.com%2Fonboarding%3Fhl%3Dde_DE%26co%3DDE%26from%3Dgnav-homepage--homepage-frontend)
+[Anmelden](https://secure.indeed.com/auth?hl=de_DE&co=DE&continue=https%3A%2F%2Fde.indeed.com%2Fviewjob%3Fjk%3Dfb57349133c160b6%26from%3Dserp%26vjs%3D3&tmpl=desktop&from=gnav-util-homepage--homepage-frontend&jsContinue=https%3A%2F%2Fonboarding.indeed.com%2Fonboarding%3Fhl%3Dde_DE%26co%3DDE%26from%3Dgnav-homepage--homepage-frontend)
+  * [🇩🇪Land und Sprache](https://de.indeed.com/countries)
+
+
+1 new update
+[Arbeitgeber/Jobschaltung](https://de.indeed.com/hire?co=DE&hl=de)
+Beginn des Hauptinhalts
+Search
+##### Senior IT-Consultant / Software Quality Engineer (m/w/d)
+[Deloitte](http://de.indeed.com/cmp/Deloitte)
+·
+3.9
+Neues Kranzler Eck Kurfürstendamm 23, 10719 Berlin
+Vollzeit
+[Weiter zur Bewerbung](https://de.indeed.com/applystart?jk=fb57349133c160b6&from=vj&pos=bottom&mvj=0&spon=0&vjfrom=serp&asub=mob&astse=b3f1aff4ab34440e&assa=9452)
+#### Job details
+Weiterbildungsprogramme, Firmenfahrrad-Leasing, Firmenevents
+Vollzeit
+Neues Kranzler Eck Kurfürstendamm 23, 10719 Berlin
+#### Job details
+Here’s how the job details align with your [profile](https://profile.indeed.com).
+## Job type
+Vollzeit
+#### Benefits
+Pulled from the full job description
+Weiterbildungsprogramme
+Firmenfahrrad-Leasing
+Firmenevents
+#### Full job description
+Du willst im Bereich **Strategy, Risk & Transactions – Advisory – Digital Risk** unsereKunden dabei unterstützen, digitale Risiken in Chancen zu verwandeln? Unser Team entwickelt innovative Services, um digitale Risiken zu reduzieren, Bedrohungen zu vermeiden und das Wachstum unserer Mandanten durch eine risikovermeidende Digitalisierung zu fördern. Sichere unseren gemeinsamen Erfolg und mach mit uns den Unterschied: als **Senior Software Quality Engineer (m/w/d)**.
+Standorte:**Berlin, Düsseldorf, Frankfurt (Main), Hamburg und München.**
+## **Dein Impact:**
+Als Senior Software Quality Engineer (m/w/d) unterstützt du unser Team, für vielfältige technische Herausforderungen den jeweils optimalen Lösungsansatz zu erarbeiten. Dabei wendest du bewährte Methoden des Coding-, Design- und Qualitätsmanagements an.
+  * **Projektvielfalt:** von der Implementierung von Automatisierungs-Frameworks mit BDD/TDD bis zur Ausführung von Testskripten zur Validierung von Web-, Client/Serveranwendungen.
+  * **Teamwork:** Mit QA identifizierst du Abweichungen, die im Zuge von Geschäftsanforderungen/-prozessen stehen und ergreifst nötige Gegenmaßnahmen.
+  * **Schnittstellen:** Mit den Projekt- und Kundenteams entwickelst du Teststrategien und -szenarien, um die Übereinstimmung mit der Projektlieferdokumentation sicherzustellen.
+  * **Test:** Du konzipierst, erstellst und führst nicht-funktionale Tests wie Last- und Performance-Tests durch. Zudem erstellst, bewertest du Testpläne für Automatisierungsanwendungen.
+  * **Qualitätssicherung:** Im engen Austausch mit den Entwicklungsteams protokollierst, verfolgst und behebst du mögliche Fehler in der Lösung.
+
+
+## **Dein Skillset:**
+  * **Abschluss** eines Studiums (Wirtschafts-)Informatik, -ingenieurswesen, Mathematik, Physik oder einer IT-Ausbildung (z. B. zum Fachinformatiker (m/w/d))
+  * **Erfahrung** in einem der Themen: Automatisierungstests von Web- und Client/Server-Anwendungen; Qualitätssicherung mit Agile und Scrum (ideal: ISTQB-Zertifizierung)
+  * **Praxiserprobt** in einer der Lösungen: Selenium, Cucumber, Ranorex, Tosca, Eggplant, UFT, Soap UI, RESTAssured, Webdriver, PostMan, WebdriverIO, Protractor (Angular), Appium, Espresso
+  * **Erfahrung** in einem der Themen: OOP in Java / Python; Implementierung von Automatisierungs-Frameworks inklusive BDD oder TDD; Erstellung, Validierung umfassender Testpläne für Automatisierungsanwendungen und die Systemabnahme
+  * **Sicherheit auf einem der Gebiete:** Projektmanagement einschließlich UATs; Management von Umfangsüberschreitungen und Entwurf/Modellierung von Geschäftsprozessen
+  * **Reisebereitschaft sowie sehr gute Kommunikations- und Präsenatationsskills in Deutsch und Englisch** sehr gut in Wort und Schrift
+
+
+## **Deine Chance:**
+  * **Best-in-class Weiterbildung** an der Deloitte University sowie im Rahmen individueller Qualifikationsangebote und Trainings
+  * **Umfassende Entwicklungschancen** durch strukturierte Karriereplanung, Inclusive Leadership, Entsendungsprogramme, projektbasierte Job-Rotation sowie Förderung sozialen Engagements und Corporate Volunteering
+  * **Vereinbarkeit von Beruf & Familie** dank Mobile Working & Teilzeit, Sabbaticals und Familienservice, z. B. zur Unterstützung für pflegende Angehörige, Elternzeit-Beratung und vielem mehr
+  * **Gesundheit & Fitness im Fokus** durch regelmäßige Gesundheitstage, Kooperation mit Fitness-Anbietern und die Unterstützung von Sport- und Teamevents
+  * **Attraktive Arbeitgeberleistungen** inklusive Bike- und Pkw-Leasing, Firmen-Smartphone zur privaten Nutzung sowie flexiblen Arbeitsmodellen wie z. B. Vertrauensarbeitszeit und EU Remote Working
+  * **Vielfältige Gestaltungsräume** und **aktive Förderung** einer inklusiven Unternehmenskultur - u. a. durch unsere Diversity & Inclusion Mitarbeiter:innen-Netzwerke
+
+
+## **Job Visitenkarte**
+Senior IT-Consultant / Software Quality Engineer (m/w/d) 
+### **JOB-ID:**
+48452 
+### **STANDORT**
+  * Berlin, 10719DEBerlin
+  * Düsseldorf, 40476DENordrhein-Westfalen
+  * Frankfurt (Main), 60486DEHessen
+  * Hamburg, 20354Hamburg
+  * München81669DEBayern
+
+
+### **JOBART**
+Vollzeit 
+### **KEYWORDS**
+  * Berufserfahrene
+  * Advisory
+  * Digital Risk
+
+
+### **GESCHÄFTSBEREICH**
+Lerne den Geschäftsbereich Advisory kennen. 
+### **ZIELGRUPPE**
+Finde heraus, welche Möglichkeiten wir für Berufserfahrene bieten. 
+## **Bist du bereit? Mach mit uns den Unterschied!**
+Unser Recruiting-Team freut sich auf deine Bewerbungsunterlagen (CV sowie Abitur-, Hochschul- und Arbeitszeugnisse) über unser Online-Formular. Ein Anschreiben und ein Bewerbungsfoto sind bei uns nicht erforderlich.
+**Gleiche Chancen für alle:** Wir freuen uns über Bewerbungen von Menschen, die so vielfältig sind wie wir – unabhängig von Alter, Behinderung, ethnischer Herkunft und Nationalität, Geschlecht, Religion, sexueller Orientierung oder sozialer Herkunft. **Noch Fragen?** Alle Infos zu unserem Bewerbungsprozess findest du in unseren Bewerbungs-FAQs.
+**Bewerbungsfrist** : Solange der Job angezeigt wird, kannst du dich schnell und bequem online bewerben. Jobs werden häufig an verschiedenen Standorten mehrfach besetzt und du kannst flexibel jeden Monat beginnen - sofern nicht im Stellentext genannt, gibt es keinen Bewerbungsschluss.
+### Similar job categories
+[Gut Bezahlte Jobs Im Data Science In Berlin, BE jobs](https://de.indeed.com/karrierechancen/hohes-gehalt-data-science-berlin,-be)
+[Gut Bezahlte Jobs Im Medizintechnik Und Labor In Berlin, BE jobs](https://de.indeed.com/karrierechancen/hohes-gehalt-medizintechnik-und-labor-berlin,-be)
+### Career Guide articles
+[2024 Lebenslauf für Rechtsanwaltsfachangestellte (m/w/d)](https://de.indeed.com/karriere-guide/bewerbung/lebenslauf-rechtsanwaltsfachangestellte?from=viewjob)
+[Aufstiegsmöglichkeiten für Kfz-Mechatroniker*innen](https://de.indeed.com/karriere-guide/karriereplanung/aufstiegsmoeglichkeiten-kfz-mechatroniker?from=viewjob)
+[Gehalt als Konstruktionsmechaniker (m/w/d)](https://de.indeed.com/karriere-guide/karriereplanung/konstruktionsmechaniker-gehalt?from=viewjob)
+[Gehalt als Planungsingenieur (m/w/d)](https://de.indeed.com/karriere-guide/karriereplanung/planungsingenieur-gehalt?from=viewjob)
+[Kann man genehmigten Urlaub streichen? Das müssen Sie wissen](https://de.indeed.com/karriere-guide/karriereplanung/kann-man-genehmigten-urlaub-streichen?from=viewjob)
+[Mimik im Berufsleben – Alle wichtigen Infos and Tipps](https://de.indeed.com/karriere-guide/karriereplanung/mimik?from=viewjob)
+[Vorstellungsgespräch als Industriemechaniker (m/w/d): Häufige Fragen](https://de.indeed.com/karriere-guide/vorstellungsgespraech/vorstellungsgespraech-industriemechaniker?from=viewjob)
+[Welche Berufe gibt es im Bereich Kindheitspädagogik?](https://de.indeed.com/karriere-guide/jobsuche/kindheitspaedagogik-berufe?from=viewjob)
+[Wie viel verdient ein wissenschaftlicher Mitarbeiter (m/w/d)?](https://de.indeed.com/karriere-guide/karriereplanung/wie-viel-verdient-ein-wissenschaftliche-mitarbeiter?from=viewjob)
+[Wie viel verdient man als Facharzt (w/m/d)?](https://de.indeed.com/karriere-guide/karriereplanung/wie-viel-verdient-facharzt?from=viewjob)
+Report job
+  * [Hiring Lab ](https://www.hiringlab.org/de/)
+  * [Karriere-Guide ](https://de.indeed.com/karriere-guide)
+  * [Jobs finden ](https://de.indeed.com/browsejobs)
+  * [Unternehmen suchen ](https://de.indeed.com/companies/browse-companies)
+  * [Gehalt ](https://de.indeed.com/career/salaries)
+  * [Indeed Events ](https://www.indeedevents.com/de-de/)
+  * [Karriere bei Indeed ](https://de.indeed.com/cmp/Indeed/about)
+  * [Länder ](https://de.indeed.com/countries)
+  * [Über uns ](https://de.indeed.com/about)
+  * [Hilfe ](https://de.indeed.com/help/job-seekers?hl=de&co=de)
+
+
+  * © 2026 Indeed
+  * [Barrierefreiheit bei Indeed ](https://de.indeed.com/esg/accessibility?hl=de)
+  * [Datenschutzzentrum und Ad Choices ](https://hrtechprivacy.com/de/brands/about-indeed#privacypolicy)
+  * [Meldung gemäß dem Gesetz über digitale Dienste ](https://dsa-reporting-and-appeals.indeed.com/)
+  * [Seite zur Online-Sicherheit ](https://de.indeed.com/legal/online-safety-page)
+  * [Cookies ](https://de.indeed.com/legal/cookies?hl=de&showOneTrustModal=true)
+  * [Nutzungsbedingungen ](https://de.indeed.com/legal?hl=de)
+
+

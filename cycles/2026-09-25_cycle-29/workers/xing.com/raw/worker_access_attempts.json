@@ -1,0 +1,30 @@
+{
+  "attempts": [
+    {
+      "at": "2026-09-25T09:25:53.485612+00:00",
+      "error": "stale or revoked lease",
+      "method": "http",
+      "status": "failed"
+    },
+    {
+      "at": "2026-09-25T09:25:55.307325+00:00",
+      "error": "stale or revoked lease",
+      "method": "camofox",
+      "status": "failed"
+    },
+    {
+      "at": "2026-09-25T09:25:59.095459+00:00",
+      "error": "stale or revoked lease",
+      "method": "exa",
+      "status": "failed"
+    },
+    {
+      "at": "2026-09-25T09:26:13.093481+00:00",
+      "error": "stale or revoked lease",
+      "method": "crawl4ai",
+      "status": "failed"
+    }
+  ],
+  "cycle_id": "2026-09-25_cycle-29",
+  "source_id": "xing.com"
+}

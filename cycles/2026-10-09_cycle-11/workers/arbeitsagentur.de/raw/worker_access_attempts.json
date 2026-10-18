@@ -1,0 +1,10 @@
+{
+  "attempts": [
+    {
+      "method": "rolesearch",
+      "status": "pass"
+    }
+  ],
+  "cycle_id": "2026-10-09_cycle-11",
+  "source_id": "arbeitsagentur.de"
+}

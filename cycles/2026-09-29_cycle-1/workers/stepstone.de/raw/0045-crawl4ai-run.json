@@ -1,0 +1,6 @@
+{
+  "url": "https://www.stepstone.de/stellenangebote--Senior-Manager-Wirtschaftspruefer-m-w-d-in-der-Qualitaetssicherung-Frankfurt-am-Main-Koeln-Mannheim-Nexia-GmbH-Wirtschaftspruefungsgesellschaft-Steuerberatungsgesellschaft--14477432-inline.html",
+  "returncode": 0,
+  "stdout": "✓ 页面已保存到 /opt/data/qa-vacancy-project/cycles/2026-09-29_cycle-1/workers/stepstone.de/raw/crawl4ai-card-annheim-Nexia-GmbH-Wirtschaftspruefungsgesellschaft-Steuerberatungsgesellschaft-14477432-inline-html.md\n  标题: (Senior) Manager / Wirtschaftsprüfer (m/w/d) in der Qualitätssicherung - Feste Anstellung, Vollzeit Job in Frankfurt am Main, Köln, Mannheim\n  链接数: 49\n",
+  "stderr": "[INIT].... → Crawl4AI 0.9.4 \n[FETCH]... ↓ https://www.stepstone.de/stellenangebote--Senior...teuerberatungsgesellschaft--14477432-inline.html  | ✓ | ⏱: 8.13s \n[SCRAPE].. ◆ https://www.stepstone.de/stellenangebote--Senior...teuerberatungsgesellschaft--14477432-inline.html  | ✓ | ⏱: 0.24s \n[COMPLETE] ● https://www.stepstone.de/stellenangebote--Senior...teuerberatungsgesellschaft--14477432-inline.html  | ✓ | ⏱: 8.51s \n"
+}

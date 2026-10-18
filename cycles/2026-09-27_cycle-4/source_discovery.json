@@ -1,0 +1,362 @@
+{
+  "additions": [
+    {
+      "direct_card_urls": [
+        "https://www.remotely.de/job/cendas-gmbh-software-tester-qa-engineer-saas-mfd-remote-home-office",
+        "https://www.remotely.de/job/ankalink-gmbh-qa-engineer-test-automation-engineer-mwd-ki-testing-100-remote-freelance"
+      ],
+      "domain": "remotely.de",
+      "id": "remotely.de",
+      "listing_urls": [
+        "https://www.remotely.de/remote-jobs/bereich/quality-assurance"
+      ],
+      "name": "Remotely.de",
+      "scope": "Explicit Germany-only remote",
+      "status": "active",
+      "type": "remote job board"
+    },
+    {
+      "domain": "jobs.heise.de",
+      "id": "jobs.heise.de",
+      "listing_urls": [
+        "https://jobs.heise.de/softwareentwicklung/jobs/softwaretester-in-berlin",
+        "https://jobs.heise.de/softwareentwicklung/jobs/softwaretester"
+      ],
+      "name": "Heise Jobs",
+      "scope": "Berlin",
+      "status": "active",
+      "type": "technology job board"
+    },
+    {
+      "domain": "stellenonline.de",
+      "id": "stellenonline.de",
+      "listing_urls": [
+        "https://www.stellenonline.de/tester-jobs-in-berlin"
+      ],
+      "name": "Stellenonline",
+      "scope": "Berlin",
+      "status": "active",
+      "type": "job board"
+    },
+    {
+      "domain": "de.jooble.org",
+      "id": "de.jooble.org",
+      "listing_urls": [
+        "https://de.jooble.org/stellenangebote-game-tester/Leipzig",
+        "https://de.jooble.org/stellenangebote-qa-game-tester"
+      ],
+      "name": "Jooble Germany",
+      "scope": "Leipzig",
+      "status": "active",
+      "type": "aggregated job board"
+    },
+    {
+      "domain": "de.indeed.com",
+      "id": "de.indeed.com",
+      "listing_urls": [
+        "https://de.indeed.com/q-software-tester-l-berlin-jobs.html",
+        "https://de.indeed.com/q-testautomatisierung-remote-jobs.html"
+      ],
+      "name": "Indeed Deutschland",
+      "scope": "Berlin and explicit Germany-wide remote",
+      "status": "active",
+      "type": "aggregated job board"
+    },
+    {
+      "domain": "glassdoor.de",
+      "id": "glassdoor.de",
+      "listing_urls": [
+        "https://www.glassdoor.de/Job/berlin-software-testing-jobs-SRCH_IL.0,6_IC2622109_KO7,23.htm",
+        "https://www.glassdoor.de/Job/deutschland-remote-qa-jobs-SRCH_IL.0,11_IN96_KO12,21.htm"
+      ],
+      "name": "Glassdoor Deutschland",
+      "scope": "Berlin and Leipzig",
+      "status": "active",
+      "type": "aggregated job board"
+    },
+    {
+      "domain": "devjobs.de",
+      "id": "devjobs.de",
+      "listing_urls": [
+        "https://devjobs.de/jobs/test-qa-engineer",
+        "https://devjobs.de/jobs/playwright"
+      ],
+      "name": "DEVjobs.de",
+      "scope": "Explicit Germany-wide remote",
+      "status": "active",
+      "type": "German technology job board"
+    },
+    {
+      "domain": "dresdner-jobanzeiger.de",
+      "id": "dresdner-jobanzeiger.de",
+      "listing_urls": [
+        "https://www.dresdner-jobanzeiger.de/jobangebote/qualitaetssicherung/"
+      ],
+      "name": "Dresdner Jobanzeiger",
+      "scope": "Dresden QA/QC",
+      "status": "active",
+      "type": "regional QA/QC job board"
+    }
+  ],
+  "created_at": "2026-09-27T09:59:53.076485+00:00",
+  "cycle_id": "2026-09-27_cycle-4",
+  "evidence": {
+    "live_retrieval": "completed",
+    "model_evidence": [
+      {
+        "decision": "already_registered",
+        "domains": [
+          "linkedin.com",
+          "arbeitsagentur.de",
+          "stepstone.de",
+          "germantechjobs.de"
+        ],
+        "reason": "These domains are already active in the supplied registry, so the supplied listing results do not create duplicate additions."
+      },
+      {
+        "basis": "Supplied live_retrieval_evidence",
+        "card_evidence": [
+          {
+            "scope": "Remote/Home-Office; Nur Deutschland",
+            "title": "Software Tester / QA Engineer – SaaS (m/f/d)"
+          },
+          {
+            "scope": "100% remote; Nur Deutschland",
+            "title": "QA Engineer / Test Automation Engineer (m/w/d) – KI Testing"
+          }
+        ],
+        "decision": "add",
+        "direct_card_urls": [
+          "https://www.remotely.de/job/cendas-gmbh-software-tester-qa-engineer-saas-mfd-remote-home-office",
+          "https://www.remotely.de/job/ankalink-gmbh-qa-engineer-test-automation-engineer-mwd-ki-testing-100-remote-freelance"
+        ],
+        "domain": "remotely.de",
+        "listing_urls": [
+          "https://www.remotely.de/remote-jobs/bereich/quality-assurance"
+        ],
+        "name": "Remotely.de",
+        "scope": "Explicit Germany-only remote"
+      },
+      {
+        "basis": "Supplied live_retrieval_evidence",
+        "card_evidence": [
+          {
+            "employer": "Deutsche Rentenversicherung Bund",
+            "location": "Berlin",
+            "title": "Softwaretester (m/w/d) Testautomatisierung"
+          },
+          {
+            "location": "Berlin listing",
+            "title": "SOFTWARE QUALITY ASSURANCE TESTER"
+          }
+        ],
+        "decision": "add",
+        "domain": "jobs.heise.de",
+        "listing_urls": [
+          "https://jobs.heise.de/softwareentwicklung/jobs/softwaretester-in-berlin",
+          "https://jobs.heise.de/softwareentwicklung/jobs/softwaretester"
+        ],
+        "name": "Heise Jobs",
+        "scope": "Berlin"
+      },
+      {
+        "basis": "Supplied live_retrieval_evidence",
+        "card_evidence": [
+          {
+            "location": "Berlin listing",
+            "title": "Test Automation Engineer"
+          },
+          {
+            "location": "Berlin listing",
+            "title": "IT Consultant (m/w/d) Software Testing / Test Automation im Pega Umfeld"
+          },
+          {
+            "location": "Berlin listing",
+            "title": "Head of Test Fields (m/f/d)"
+          }
+        ],
+        "decision": "add",
+        "domain": "stellenonline.de",
+        "listing_urls": [
+          "https://www.stellenonline.de/tester-jobs-in-berlin"
+        ],
+        "name": "Stellenonline",
+        "scope": "Berlin"
+      },
+      {
+        "basis": "Supplied live_retrieval_evidence",
+        "card_evidence": [
+          {
+            "employer": "SEDIWORK",
+            "location": "Leipzig",
+            "title": "(Junior) QA Engineer/Software-Tester (m/w/d) - Produktqualität & Testautomatisierung"
+          },
+          {
+            "location": "Leipzig listing",
+            "title": "Student Wirtschaftsinformatik als Werkstudent Software Testing - Qualitätssicherung (m/w/d)"
+          }
+        ],
+        "decision": "add",
+        "domain": "de.jooble.org",
+        "listing_urls": [
+          "https://de.jooble.org/stellenangebote-game-tester/Leipzig",
+          "https://de.jooble.org/stellenangebote-qa-game-tester"
+        ],
+        "name": "Jooble Germany",
+        "scope": "Leipzig"
+      },
+      {
+        "basis": "Supplied live_retrieval_evidence",
+        "card_evidence": [
+          {
+            "location": "Berlin listing",
+            "title": "Softwaretester (m/w/d)"
+          },
+          {
+            "location": "Berlin listing",
+            "title": "Praktikum – Software-Tester (w/m/d)"
+          },
+          {
+            "location": "Berlin listing",
+            "title": "Softwaretester*in Testautomatisierung (m/w/d)"
+          },
+          {
+            "location": "Berlin listing",
+            "title": "Agile Tester (m/w/d)"
+          }
+        ],
+        "decision": "add",
+        "domain": "de.indeed.com",
+        "listing_urls": [
+          "https://de.indeed.com/q-software-tester-l-berlin-jobs.html",
+          "https://de.indeed.com/q-testautomatisierung-remote-jobs.html"
+        ],
+        "name": "Indeed Deutschland",
+        "remote_scope_evidence": "Full Remote in Deutschland",
+        "scope": "Berlin and explicit Germany-wide remote"
+      },
+      {
+        "basis": "Supplied live_retrieval_evidence",
+        "card_evidence": [
+          {
+            "employer": "bayoonet",
+            "location": "Berlin listing",
+            "title": "V&V Engineer (m/w/d) Digital Health | Software Testing & Validation"
+          },
+          {
+            "employer": "IT&I",
+            "location": "Berlin listing",
+            "title": "Softwaretester*in Testautomatisierung (m/w/d)"
+          },
+          {
+            "location": "Leipzig",
+            "title": "Team Lead Quality Assurance & Testautomatisierung (m/w/d)"
+          }
+        ],
+        "decision": "add",
+        "domain": "glassdoor.de",
+        "listing_urls": [
+          "https://www.glassdoor.de/Job/berlin-software-testing-jobs-SRCH_IL.0,6_IC2622109_KO7,23.htm",
+          "https://www.glassdoor.de/Job/deutschland-remote-qa-jobs-SRCH_IL.0,11_IN96_KO12,21.htm"
+        ],
+        "name": "Glassdoor Deutschland",
+        "scope": "Berlin and Leipzig"
+      },
+      {
+        "basis": "Supplied live_retrieval_evidence",
+        "card_evidence": [
+          {
+            "employer": "medatixx GmbH & Co. KG",
+            "location": "Germany; Full Remote",
+            "title": "Softwaretester Testautomatisierung"
+          }
+        ],
+        "decision": "add",
+        "domain": "devjobs.de",
+        "listing_urls": [
+          "https://devjobs.de/jobs/test-qa-engineer",
+          "https://devjobs.de/jobs/playwright"
+        ],
+        "name": "DEVjobs.de",
+        "scope": "Explicit Germany-wide remote"
+      },
+      {
+        "basis": "Supplied live_retrieval_evidence",
+        "card_evidence": [
+          {
+            "date": "16.09.2026",
+            "employer": "Exyte GmbH",
+            "location": "Dresden",
+            "reference": "JIM-365775",
+            "title": "Senior QA/QC Engineer - Electrical (m/f/d)"
+          }
+        ],
+        "decision": "add",
+        "domain": "dresdner-jobanzeiger.de",
+        "listing_urls": [
+          "https://www.dresdner-jobanzeiger.de/jobangebote/qualitaetssicherung/"
+        ],
+        "name": "Dresdner Jobanzeiger",
+        "scope": "Dresden QA/QC"
+      },
+      {
+        "decision": "do_not_add",
+        "reason": "Detail-page-only evidence does not establish an independently usable registry source under the stated listing/API-plus-card rule.",
+        "sources": [
+          {
+            "domain": "karriere-familienunternehmen.de",
+            "reason": "A direct Dresden card is exposed, but no reusable listing, index, or API endpoint is supplied for the host.",
+            "url": "https://www.karriere-familienunternehmen.de/jobs/hansa-flex/-1108-dresden/mitarbeiter-qualitaetssicherung--vt-pruefer-?detailId=o_i7gdwvyxtxcq"
+          },
+          {
+            "domain": "jobs-daheim.de",
+            "reason": "A direct card is exposed, but no separately evidenced listing/index/API endpoint is supplied.",
+            "url": "https://jobs-daheim.de/jobs/229202/softwaretester-qualitaetssicherung-m-w-d?locale=de"
+          },
+          {
+            "domain": "talents.studysmarter.de",
+            "reason": "The card has Germany-wide remote scope, but the supplied evidence does not expose a reusable listing/API for the host.",
+            "url": "https://talents.studysmarter.de/companies/simplytest-gmbh/experte-fuer-software-testautomatisierung-m-w-d-remote-innerhalb-deutschlands-moeglich-22859832/"
+          }
+        ]
+      },
+      {
+        "decision": "do_not_add",
+        "reason": "These results are generic career pages, count-only category pages, or out-of-scope cards rather than usable in-scope sources.",
+        "sources": [
+          {
+            "domain": "bundesdruckerei.de",
+            "reason": "The supplied career page does not expose a card-level vacancy with target location or remote scope."
+          },
+          {
+            "domain": "meinestadt.de",
+            "reason": "Only an aggregate category result is exposed, without a direct QA/test card."
+          },
+          {
+            "domain": "jobvector.de",
+            "reason": "Only an aggregate category result is exposed, without a direct QA/test card."
+          },
+          {
+            "domain": "vonardenne.de",
+            "reason": "The supplied career page has no exposed QA/test vacancy card."
+          },
+          {
+            "domain": "quodata.de",
+            "reason": "The supplied career page has no exposed vacancy card."
+          },
+          {
+            "domain": "touch.ferchau.com",
+            "reason": "The exposed test-automation card is in Mannheim, outside the allowed cities, and is not explicitly Germany-wide remote."
+          },
+          {
+            "domain": "jobs.kfw.de",
+            "reason": "The supplied direct card does not expose Berlin, Leipzig, Dresden, or explicit Germany-wide remote scope."
+          }
+        ]
+      }
+    ],
+    "retrieval_artifact": "/opt/data/qa-vacancy-project/cycles/2026-09-27_cycle-4/source_discovery_retrieval.json",
+    "retrieved_result_count": 139
+  },
+  "verdict": "pass"
+}

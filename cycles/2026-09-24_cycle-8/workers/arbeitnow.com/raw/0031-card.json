@@ -1,0 +1,27 @@
+{
+  "url": "https://www.arbeitnow.com/jobs/companies/manex-ai-gmbh/ai-agent-engineer-munich-317268",
+  "title": "AI Agent Engineer (f/m/d)",
+  "company": "Manex AI GmbH",
+  "location": "Munich",
+  "posted": "1790282406",
+  "work_mode": "Unknown",
+  "announcement": "Just a moment... Enable JavaScript and cookies to continue",
+  "http_status": 429,
+  "sha256": "0c496849a5d7b821b9fbe3c22fd01efa8b476c9738fe0a05d936630bebe07f60",
+  "source_record": {
+    "slug": "ai-agent-engineer-munich-317268",
+    "company_name": "Manex AI GmbH",
+    "title": "AI Agent Engineer (f/m/d)",
+    "description": "<h1><strong>AI Agent Engineer (f/m/d)</strong></h1><p style=\"min-height:1.5em\"></p><h1>Who we are</h1><p style=\"min-height:1.5em\">Manufacturing runs on fragmented data: machines, sensors, and decade-old systems that don't speak to each other. Data sits in departmental silos, knowledge lives in people's heads, and AI can not unfold its potential in point solutions that don’t deliver. At Manex AI, we build that missing layer with our platform: It handles manufacturing data at scale, models the factory ontology and builds agentic applications that reason and act across it.</p><p style=\"min-height:1.5em\">We're a small team in Munich, backed by Lightspeed and BlueYard, with engineers from top companies. We ship fast, work close to the shop floor and we don't ship things we're not proud of.</p><div style=\"min-height:1.2em;margin-top:0;margin-bottom:0\"> </div><h2><strong>The role</strong></h2><p style=\"min-height:1.5em\">You'll build our AI agent stack: From the tools, skills, and subagents, plus the MCP infrastructure that connects them. The work spans agent workflows, memory and context management, sandboxed execution, and agent observability - you'll work where your skills count most. You own agentic systems end-to-end and work directly with founders and customers.</p><p style=\"min-height:1.5em\"></p><h2><strong>You should apply if you</strong></h2><ul style=\"min-height:1.5em\"><li><p style=\"min-height:1.5em\">Have built AI agents or are eager to learn</p></li><li><p style=\"min-height:1.5em\">Bring experience with agent workflows, tools, skills and subagents</p></li><li><p style=\"min-height:1.5em\">Are interested in MCP, context and memory management at scale</p></li><li><p style=\"min-height:1.5em\">Build secure, sandboxed execution environments</p></li><li><p style=\"min-height:1.5em\">Care about evaluation, observability, safety, and reliability</p></li><li><p style=\"min-height:1.5em\">Write maintainable Python or TypeScript</p><p style=\"min-height:1.5em\"></p></li></ul><h2><strong>Nice to have</strong></h2><ul style=\"min-height:1.5em\"><li><p style=\"min-height:1.5em\">MCP servers and clients</p></li><li><p style=\"min-height:1.5em\">Tool design and multi-agent orchestration</p></li><li><p style=\"min-height:1.5em\">Containers, code execution, and sandboxing</p></li><li><p style=\"min-height:1.5em\">Agent evaluation, tracing, observability (e.g., Langfuse) and guardrails</p></li><li><p style=\"min-height:1.5em\">Retrieval, memory, and prompt engineering</p></li><li><p style=\"min-height:1.5em\">LLM APIs, open-source models and proxies (e.g., LiteLLM, OpenRouter)</p></li></ul><div style=\"min-height:1.2em;margin-top:0;margin-bottom:0\"> </div><h2>What we offer</h2><ul style=\"min-height:1.5em\"><li><p style=\"min-height:1.5em\">A cooperative team where you own your work, but never solve hard problems alone</p></li><li><p style=\"min-height:1.5em\">Competitive salary and equity</p></li><li><p style=\"min-height:1.5em\">High trust and ownership from day one</p></li><li><p style=\"min-height:1.5em\">Corporate Wellpass membership, subsidized public transport</p></li><li><p style=\"min-height:1.5em\">Regular offsites with the greatest team - think austrian mountains, lakeside retreats, or european cities</p></li><li><p style=\"min-height:1.5em\">Relocation support, incl. corporate housing offers</p></li></ul><p style=\"min-height:1.5em\"></p><p style=\"min-height:1.5em\">Are you willing to start contributing to European autonomy at scale? Apply now!</p><p>Find <a href=\"https://www.arbeitnow.com\">Jobs in Germany</a> on Arbeitnow</a>",
+    "remote": false,
+    "url": "https://www.arbeitnow.com/jobs/companies/manex-ai-gmbh/ai-agent-engineer-munich-317268",
+    "tags": [
+      "Tech"
+    ],
+    "job_types": [
+      "Full Time"
+    ],
+    "location": "Munich",
+    "created_at": 1790282406
+  }
+}

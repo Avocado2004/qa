@@ -1,0 +1,18 @@
+{
+  "artifacts": {
+    "recheck": "/opt/data/qa-vacancy-project/cycles/2026-10-10_cycle-1/published_recheck.json"
+  },
+  "cycle_id": "2026-10-10_cycle-1",
+  "error": "RuntimeError: LLM response missing 'choices': {'id': 'gen-1791590438-MxOjYmKMSV9EEaIxFonq', 'error': {'message': 'Upstream error from Nvidia: Service temporarily overloaded', 'code': 503, 'metadata': {'error_type': 'provider_overloaded'}}}",
+  "finished_at": "2026-10-10T00:00:39.596305+00:00",
+  "publication_allowed": false,
+  "schema_version": 2,
+  "stage": "FAILED",
+  "stage_seconds": {
+    "FAILED": 6.2,
+    "MASTER_RECHECK": 3.2
+  },
+  "started_at": "2026-10-10T00:00:30.202024+00:00",
+  "status": "FAILED",
+  "updated_at": "2026-10-10T00:00:39.596357+00:00"
+}

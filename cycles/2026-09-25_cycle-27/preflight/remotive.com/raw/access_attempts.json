@@ -1,0 +1,30 @@
+{
+  "attempts": [
+    {
+      "at": "2026-09-25T08:40:27.977452+00:00",
+      "error": "preflight: fewer than two distinct API cards",
+      "method": "api",
+      "status": "failed"
+    },
+    {
+      "at": "2026-09-25T08:42:13.907342+00:00",
+      "error": "Camofox HTTP 500 for POST /tabs/a8819e80-a0e2-4d5f-ba9c-9ebf72147eb7/navigate",
+      "method": "camofox",
+      "status": "failed"
+    },
+    {
+      "at": "2026-09-25T08:42:14.399930+00:00",
+      "error": "[Errno 2] No such file or directory: 'mcporter'",
+      "method": "exa",
+      "status": "failed"
+    },
+    {
+      "at": "2026-09-25T08:42:57.986720+00:00",
+      "error": "preflight: fewer than two analyzable direct cards",
+      "method": "crawl4ai",
+      "status": "failed"
+    }
+  ],
+  "cycle_id": "2026-09-25_cycle-27",
+  "source_id": "remotive.com"
+}

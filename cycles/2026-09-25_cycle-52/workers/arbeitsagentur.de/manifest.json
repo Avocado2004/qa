@@ -1,0 +1,9 @@
+{
+  "cycle_id": "2026-09-25_cycle-52",
+  "finished_at": "2026-09-25T21:34:13.034161+00:00",
+  "schema_version": 2,
+  "source_id": "arbeitsagentur.de",
+  "stage": "VACANCY_WORKER",
+  "started_at": "2026-09-25T21:34:04.071261+00:00",
+  "state": "complete"
+}

@@ -1,0 +1,28 @@
+{
+  "completed_operations": [
+    {
+      "op": "listing",
+      "status": 200
+    },
+    {
+      "chars": 10465,
+      "op": "card-1",
+      "url": "https://www.arbeitnow.com/jobs/companies/nutrition-plus-gmbh/werkstudent-content-redaktion-schwerpunkt-ernahrung-rezepte-video-100-homeoffice-grafschaft-399246"
+    },
+    {
+      "op": "return",
+      "status": 200
+    },
+    {
+      "chars": 9546,
+      "op": "card-2",
+      "url": "https://www.arbeitnow.com/jobs/companies/nutrition-plus-gmbh/werkstudent-marketing-contentpflege-grafschaft-259326"
+    }
+  ],
+  "cycle_id": "2026-09-25_cycle-26",
+  "next_operation": 4,
+  "schema_version": 2,
+  "source_id": "arbeitnow.com",
+  "state": "complete",
+  "updated_at": "2026-09-25T07:30:52.014148+00:00"
+}

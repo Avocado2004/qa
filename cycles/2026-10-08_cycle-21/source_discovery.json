@@ -1,0 +1,12 @@
+{
+  "additions": [],
+  "created_at": "2026-10-08T22:20:08.376708+00:00",
+  "cycle_id": "2026-10-08_cycle-21",
+  "evidence": {
+    "live_retrieval": "completed",
+    "model_evidence": [],
+    "retrieval_artifact": "/opt/data/qa-vacancy-project/cycles/2026-10-08_cycle-21/source_discovery_retrieval.json",
+    "retrieved_result_count": 100
+  },
+  "verdict": "pass"
+}

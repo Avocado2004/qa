@@ -1,0 +1,7 @@
+{
+  "url": "https://www.stepstone.de/stellenangebote--QA-Engineer-m-w-d-Lueneburg-evasys-GmbH--14557256-inline.html",
+  "attempt": 1,
+  "returncode": 0,
+  "stdout": "✓ 页面已保存到 /opt/data/qa-vacancy-project/cycles/2026-10-18_cycle-11/workers/stepstone.de/raw/crawl4ai-card-https-www-stepstone-de-stellenangebote-QA-Engineer-m-w-d-Lueneburg-evasys-GmbH-14557256-inline-html.md\n  标题: QA Engineer (m/w/d) - Feste Anstellung, Vollzeit, Homeoffice Job in Lüneburg\n  链接数: 53\n",
+  "stderr": "[INIT].... → Crawl4AI 0.9.4 \n[FETCH]... ↓ https://www.stepstone.de/stellenangebote--QA-Eng...-w-d-Lueneburg-evasys-GmbH--14557256-inline.html  | ✓ | ⏱: 31.28s \n[SCRAPE].. ◆ https://www.stepstone.de/stellenangebote--QA-Eng...-w-d-Lueneburg-evasys-GmbH--14557256-inline.html  | ✓ | ⏱: 0.65s \n[COMPLETE] ● https://www.stepstone.de/stellenangebote--QA-Eng...-w-d-Lueneburg-evasys-GmbH--14557256-inline.html  | ✓ | ⏱: 32.45s \n"
+}

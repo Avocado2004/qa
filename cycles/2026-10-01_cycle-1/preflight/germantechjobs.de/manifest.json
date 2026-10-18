@@ -1,0 +1,8 @@
+{
+  "cycle_id": "2026-10-01_cycle-1",
+  "schema_version": 2,
+  "source_id": "germantechjobs.de",
+  "stage": "SOURCE_PREFLIGHT",
+  "started_at": "2026-10-01T00:12:01.000910+00:00",
+  "state": "claimed"
+}

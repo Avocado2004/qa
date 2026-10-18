@@ -1,0 +1,7 @@
+{
+  "url": "https://www.glassdoor.de/Job/deutschland-qa-engineer-jobs-SRCH_IL.0,11_IN107_KO12,22.htm",
+  "attempt": 1,
+  "returncode": 0,
+  "stdout": "✓ 页面已保存到 /opt/data/qa-vacancy-project/cycles/2026-10-18_cycle-9/preflight/glassdoor.de/raw/crawl4ai-listing.md\n  标题: 0 Jobs als qa enginee in: Heard- und McDonald-Inseln | Glassdoor\n  链接数: 31\n",
+  "stderr": "[INIT].... → Crawl4AI 0.9.4 \n[FETCH]... ↓ https://www.glassdoor.de/Job/deutschland-qa-engineer-jobs-SRCH_IL.0,11_IN107_KO12,22.htm             | ✓ | ⏱: 34.99s \n[SCRAPE].. ◆ https://www.glassdoor.de/Job/deutschland-qa-engineer-jobs-SRCH_IL.0,11_IN107_KO12,22.htm             | ✓ | ⏱: 0.42s \n[COMPLETE] ● https://www.glassdoor.de/Job/deutschland-qa-engineer-jobs-SRCH_IL.0,11_IN107_KO12,22.htm             | ✓ | ⏱: 35.90s \n"
+}

@@ -1,0 +1,7 @@
+{
+  "url": "https://hitmarker.net/jobs",
+  "attempt": 1,
+  "returncode": 0,
+  "stdout": "✓ 页面已保存到 /opt/data/qa-vacancy-project/cycles/2026-10-08_cycle-12/preflight/hitmarker.net/raw/crawl4ai-listing.md\n  标题: Gaming, Esports & Content Jobs | Hitmarker\n  链接数: 50\n",
+  "stderr": "[INIT].... → Crawl4AI 0.9.4 \n[FETCH]... ↓ https://hitmarker.net/jobs                                                                           | ✓ | ⏱: 5.10s \n[SCRAPE].. ◆ https://hitmarker.net/jobs                                                                           | ✓ | ⏱: 0.12s \n[COMPLETE] ● https://hitmarker.net/jobs                                                                           | ✓ | ⏱: 5.31s \n"
+}

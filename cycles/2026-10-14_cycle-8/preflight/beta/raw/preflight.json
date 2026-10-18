@@ -1,0 +1,24 @@
+{
+  "checked_at": "2026-10-14T16:30:12.864423+00:00",
+  "evidence": {
+    "cards_analyzable": 2,
+    "cards_found": 2,
+    "operations": [
+      {
+        "op": "listing"
+      },
+      {
+        "op": "card-1"
+      },
+      {
+        "op": "return"
+      },
+      {
+        "op": "card-2"
+      }
+    ],
+    "status": "pass"
+  },
+  "listing": "file://fixture/beta",
+  "verdict": "PASS"
+}

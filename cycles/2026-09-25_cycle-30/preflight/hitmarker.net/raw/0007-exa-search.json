@@ -1,0 +1,37 @@
+{
+  "query": "site:hitmarker.net QA OR \"Quality Assurance\" OR \"Software Test\" OR \"Test Automation\" or Testautomatisierung or Softwaretester Berlin Leipzig Dresden Germany jobs",
+  "result": {
+    "data": [
+      {
+        "url": "https://hitmarker.net/jobs/unity-software-engineer-tooling-automation-4568415"
+      },
+      {
+        "url": "https://hitmarker.net/jobs/cd-projekt-red-senior-qa-engineer-1717530"
+      },
+      {
+        "url": "https://hitmarker.net/jobs/side-automation-engineer-sdet-consultant-4486879"
+      },
+      {
+        "url": "https://hitmarker.net/jobs/playstation-senior-software-development-engineer-in-test-1731463"
+      },
+      {
+        "url": "https://hitmarker.net/jobs/nvidia-senior-networking-solution-test-engineer---ai-cluster-debugging-1662672"
+      },
+      {
+        "url": "https://hitmarker.net/jobs/nvidia-senior-software-test-engineer-l3-and-l4-autonomous-driving-1698445"
+      },
+      {
+        "url": "https://hitmarker.net/jobs/tripledot-studios-lead-playable-ads-developer-ai-automation-1922000"
+      },
+      {
+        "url": "https://hitmarker.net/jobs/electronic-arts-software-development-engineer-in-test-1745346"
+      },
+      {
+        "url": "https://hitmarker.net/jobs/logitech-lead-software-qa-engineer-1706248"
+      },
+      {
+        "url": "https://hitmarker.net/jobs/logitech-lead-software-qa-engineer-1643015"
+      }
+    ]
+  }
+}

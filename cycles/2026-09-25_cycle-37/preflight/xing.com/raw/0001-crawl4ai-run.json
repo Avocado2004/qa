@@ -1,0 +1,6 @@
+{
+  "url": "https://www.xing.com/jobs/search",
+  "returncode": 0,
+  "stdout": "✓ 页面已保存到 /opt/data/qa-vacancy-project/cycles/2026-09-25_cycle-37/preflight/xing.com/raw/crawl4ai-listing.md\n  标题: Jobs finden - XING\n  链接数: 49\n",
+  "stderr": "[INIT].... → Crawl4AI 0.9.4 \n[FETCH]... ↓ https://www.xing.com/jobs/search                                                                     | ✓ | ⏱: 4.67s \n[SCRAPE].. ◆ https://www.xing.com/jobs/search                                                                     | ✓ | ⏱: 0.51s \n[COMPLETE] ● https://www.xing.com/jobs/search                                                                     | ✓ | ⏱: 5.32s \n"
+}

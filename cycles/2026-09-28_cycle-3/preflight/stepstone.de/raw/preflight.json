@@ -1,0 +1,77 @@
+{
+  "checked_at": "2026-09-28T13:47:40.610170+00:00",
+  "evidence": {
+    "access_method": "camofox_gateway",
+    "attempts": [
+      {
+        "at": "2026-09-28T13:43:20.685452+00:00",
+        "error": "preflight: source is readable but offered no QA/test vacancy in the first two cards ('Senior QA/QC Engineer - Mechanical (m/f/d)'; 'QA Artwork Management Specialist (m/w/d) - befristet auf 2 Jahre'). Both pages opened and parsed as real postings, so this is not an access failure; the source stays active for a later run.",
+        "method": "http",
+        "status": "failed"
+      },
+      {
+        "at": "2026-09-28T13:46:24.705177+00:00",
+        "error": "preflight: source is readable but offered no QA/test vacancy in the first two cards ('Senior QA/QC Engineer - Mechanical (m/f/d) Exyte Germany GmbH'; 'QA Artwork Management Specialist (m/w/d) - befristet auf 2 Jahre Dr. Falk Pharma GmbH'). Both pages opened and parsed as real postings, so this is not an access failure; the source stays active for a later run.",
+        "method": "crawl4ai",
+        "status": "failed"
+      },
+      {
+        "method": "camofox",
+        "status": "pass"
+      }
+    ],
+    "browser_health": {
+      "health": {
+        "activeSessions": 0,
+        "activeTabs": 0,
+        "browserConnected": true,
+        "browserRunning": true,
+        "consecutiveFailures": 0,
+        "engine": "camoufox",
+        "memory": {
+          "heapUsedMb": 72,
+          "nativeMemMb": 98,
+          "rssMb": 170
+        },
+        "ok": true
+      },
+      "smoke_snapshot_chars": 237,
+      "start": {
+        "ok": true,
+        "profile": "camoufox"
+      }
+    },
+    "cards_analyzable": 2,
+    "cards_found": 25,
+    "operations": [
+      {
+        "chars": 52276,
+        "evidence": "/opt/data/qa-vacancy-project/cycles/2026-09-28_cycle-3/preflight/stepstone.de/raw/0002-listing-snapshot.json",
+        "op": "listing",
+        "url": "https://www.stepstone.de/jobs/berlin?q=QA"
+      },
+      {
+        "chars": 20258,
+        "evidence": "/opt/data/qa-vacancy-project/cycles/2026-09-28_cycle-3/preflight/stepstone.de/raw/0003-card-1-snapshot.json",
+        "op": "card-1",
+        "url": "https://www.stepstone.de/stellenangebote--Senior-QA-QC-Engineer-Mechanical-m-f-d-Bad-Homburg-Exyte-Germany-GmbH--13936204-inline.html"
+      },
+      {
+        "chars": 52276,
+        "evidence": "/opt/data/qa-vacancy-project/cycles/2026-09-28_cycle-3/preflight/stepstone.de/raw/0004-return-snapshot.json",
+        "op": "return",
+        "url": "https://www.stepstone.de/jobs/berlin?q=QA"
+      },
+      {
+        "chars": 19697,
+        "evidence": "/opt/data/qa-vacancy-project/cycles/2026-09-28_cycle-3/preflight/stepstone.de/raw/0005-card-2-snapshot.json",
+        "op": "card-2",
+        "url": "https://www.stepstone.de/stellenangebote--QA-Artwork-Management-Specialist-m-w-d-befristet-auf-2-Jahre-Freiburg-Dr-Falk-Pharma-GmbH--14469236-inline.html"
+      }
+    ],
+    "primary_or_fallback": "camofox",
+    "status": "pass"
+  },
+  "listing": "https://www.stepstone.de/jobs/berlin?q=QA",
+  "verdict": "PASS"
+}

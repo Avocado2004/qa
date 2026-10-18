@@ -1,0 +1,11 @@
+{
+  "cycle_id": "2026-10-16_cycle-1",
+  "failures": [
+    {
+      "at": "2026-10-16T00:21:19.191710+00:00",
+      "error": "worker access methods failed: Camofox HTTP 404 for POST /tabs/518a215e-baf9-4cb2-a169-c435996ebb73/navigate: {\"error\":\"Tab not found\"}; preflight: fewer than two analyzable direct cards; preflight: no card carries vacancy body text (a title alone is not a posting) -- 2 opened but all are indexes/teasers (card-1: 'QA Engineer (m/w/d)' (0 chars); card-2: 'QA Engineer (gn)' (0 chars)). About.md requires two analyzable vacancy cards."
+    }
+  ],
+  "schema_version": 2,
+  "source_id": "stepstone.de"
+}

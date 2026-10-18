@@ -1,0 +1,210 @@
+[ Zum Inhalt springen ](https://www.jobware.de/job/vertriebsmitarbeiter-b2b-stellenanzeigen-und-social-media-m-w-d.1928567655.html?jw_chl_seg=kt_nwse#main-content)
+[ ](https://www.jobware.de/)
+  * [ Für Arbeitgeber ](https://www.jobware.de/fuer-arbeitgeber "Für Arbeitgeber")
+
+
+  * [ Für Arbeitgeber ](https://www.jobware.de/fuer-arbeitgeber "Für Arbeitgeber")
+
+
+Jobtitel
+Jobtitel, Stichwort oder Unternehmen
+Ortssuche
+Ort oder PLZ
+Jobs finden
+Gib bitte einen Suchbegriff oder einen Ort ein, um relevante Jobs zu erhalten.
+![Recruiting Excellence GmbH Logo](https://www.jobware.de/jobresources/logo/478/765478/634/017402634/2/logo.jpg)
+#  Vertriebsmitarbeiter B2B Stellenanzeigen und Social Media (m/w/d)
+Recruiting Excellence GmbH
+Teilzeit
+Vollzeit
+inDüsseldorf
+16.09.2026veröffentlicht
+inDüsseldorf
+16.09.2026veröffentlicht
+Teilen
+  * [WhatsApp](https://wa.me?text=Hiermit%20leite%20ich%20dir%20ein%20interessantes%20Stellenangebot%20auf%20jobware.de%20weiter%3A%20%22Vertriebsmitarbeiter%20B2B%20Stellenanzeigen%20und%20Social%20Media%20\(m%2Fw%2Fd\)%22%20von%20Recruiting%20Excellence%20GmbH.%0A%0Ahttps%3A%2F%2Fwww.jobware.de%2Fjob%2Fvertriebsmitarbeiter-b2b-stellenanzeigen-und-social-media-m-w-d.1928567655.html "WhatsApp")
+  * E-Mail
+
+
+Merken
+Jetzt bewerben
+![Recruiting Excellence GmbH Logo](https://www.jobware.de/jobresources/logo/478/765478/634/017402634/2/logo.jpg)
+### Recruiting Excellence GmbH
+aus Düsseldorf
+[ Alle Jobs ](https://www.jobware.de/jobs--bei-recruiting-excellence-gmb-h?c=765478 "Alle Jobs") [ Zum Unternehmensprofil ](https://www.jobware.de/unternehmen/recruiting-excellence-gmb-h-765478)
+### Pendelzeit berechnen
+Zollhof 30, 40221 Düsseldorf
+## Jobs die dir auch gefallen könnten 
+Basierend auf deiner aktuellen Suche
+![Recruiting Excellence GmbH Logo](https://www.jobware.de/jobresources/logo/478/765478/634/017402634/2/logo.jpg)
+###  Sales Manager B2B Stellenanzeigen und Social Media (m/w/d)
+Recruiting Excellence GmbH
+Vollzeit
+Teilzeit
+inDüsseldorf
+16.09.2026veröffentlicht
+inDüsseldorf
+16.09.2026veröffentlicht
+[Job "Sales Manager B2B Stellenanzeigen und Social Media (m/w/d)"ansehen](https://www.jobware.de/job/sales-manager-b2-b-stellenanzeigen-und-social-media-m-w-d-2006695035)
+![Personalwerk GmbH Logo](https://www.jobware.de/jobresources/logo/894/50894/489/001063489/96/logo_160x80.gif)
+###  Quereinsteiger / Bürokaufmann im Vertriebsinnendienst (m/w/d)
+Personalwerk GmbH
+Vollzeit
+Home-Office
+inGroßostheim
+16.09.2026veröffentlicht
+inGroßostheim
+16.09.2026veröffentlicht
+[Job "Quereinsteiger / Bürokaufmann im Vertriebsinnendienst (m/w/d)"ansehen](https://www.jobware.de/job/quereinsteiger-buerokaufmann-im-vertriebsinnendienst-m-w-d-2043622675)
+![Personalwerk GmbH Logo](https://www.jobware.de/jobresources/logo/894/50894/489/001063489/96/logo_160x80.gif)
+Neu
+###  Bürokauffrau / Bürokaufmann (w/m/d) im Vertrieb
+Personalwerk GmbH
+Vollzeit
+Home-Office
+inKarben
+Vor 1 Tagveröffentlicht
+inKarben
+Vor 1 Tagveröffentlicht
+[Job "Bürokauffrau / Bürokaufmann (w/m/d) im Vertrieb"ansehen](https://www.jobware.de/job/buerokauffrau-buerokaufmann-w-m-d-im-vertrieb-2032071525)
+![Jobware GmbH Logo](https://www.jobware.de/jobresources/logo/659/33659/499/001059499/441/210_4_160x80.gif)
+###  Sales Manager (m/w/d) digitale Recruitinglösungen
+Jobware GmbH
+Vollzeit
+Home-Office
+inPaderborn
+11.09.2026veröffentlicht
+inPaderborn
+11.09.2026veröffentlicht
+[Job "Sales Manager (m/w/d) digitale Recruitinglösungen"ansehen](https://www.jobware.de/job/sales-manager-m-w-d-digitale-recruitingloesungen-2025350605)
+![Klinik Bavaria GmbH & Co. KG Logo](https://www.jobware.de/jobresources/logo/578/1578/478/062513478/1/logo.png)
+###  Mitarbeiter telefonischer Vertrieb / Patientenberatung (m/w/d)
+Klinik Bavaria GmbH & Co. KG
+Vollzeit
+Home-Office
+inHamburg
+16.09.2026veröffentlicht
+inHamburg
+16.09.2026veröffentlicht
+[Job "Mitarbeiter telefonischer Vertrieb / Patientenberatung (m/w/d)"ansehen](https://www.jobware.de/job/mitarbeiter-telefonischer-vertrieb-patientenberatung-m-w-d-2051922765)
+![ADAC Hessen-Thüringen Beteiligungsgesellschaft mbH Logo](https://www.jobware.de/jobresources/logo/747/1190747/219/063279219/1/160.jpg)
+###  Vertriebsmitarbeiter im Outbound Telefonservice (w/m/d)
+ADAC Hessen-Thüringen Beteiligungsgesellschaft mbH
+Vollzeit
+Home-Office
+inFrankfurt am Main
+15.09.2026veröffentlicht
+inFrankfurt am Main
+15.09.2026veröffentlicht
+[Job "Vertriebsmitarbeiter im Outbound Telefonservice (w/m/d)"ansehen](https://www.jobware.de/job/vertriebsmitarbeiter-im-outbound-telefonservice-w-m-d-2051424525)
+![avitea GmbH Logo](https://www.jobware.de/jobresources/logo/472/46472/107/001092107/57/avitea_160_80.gif)
+Neu
+###  Vertriebsdisponent (m/w/d) für den Raum Hamm
+avitea GmbH
+Vollzeit
+Home-Office
+inHamm
+Vor 2 Tagenveröffentlicht
+inHamm
+Vor 2 Tagenveröffentlicht
+[Job "Vertriebsdisponent (m/w/d) für den Raum Hamm"ansehen](https://www.jobware.de/job/vertriebsdisponent-m-w-d-fuer-den-raum-hamm-2047721195)
+![Scheidt & Bachmann Parking Solutions Germany GmbH Logo](https://www.jobware.de/jobresources/logo/488/21488/428/001770428/30/scheidt_2_160x80.gif)
+###  Kaufmännische Mitarbeiterin (m/w/d) Kundenservice
+Scheidt & Bachmann Parking Solutions Germany GmbH
+Vollzeit
+Home-Office
+inMönchengladbach bei Düsseldorf
+20.09.2026veröffentlicht
+inMönchengladbach bei Düsseldorf
+20.09.2026veröffentlicht
+[Job "Kaufmännische Mitarbeiterin (m/w/d) Kundenservice"ansehen](https://www.jobware.de/job/kaufmaennische-mitarbeiterin-m-w-d-kundenservice-2030639485)
+![Personalwerk GmbH Logo](https://www.jobware.de/jobresources/logo/894/50894/489/001063489/96/logo_160x80.gif)
+Neu
+###  Call Center Agent als Kundenberater im telefonischen Vertrieb (m/w/d)
+Personalwerk GmbH
+Vollzeit
+Home-Office
+inWiesbaden
+Vor 10 Stundenveröffentlicht
+inWiesbaden
+Vor 10 Stundenveröffentlicht
+[Job "Call Center Agent als Kundenberater im telefonischen Vertrieb (m/w/d)"ansehen](https://www.jobware.de/job/call-center-agent-als-kundenberater-im-telefonischen-vertrieb-m-w-d-2049031825)
+![Gracher Kredit- & Kautionsmakler GmbH & Co. KG Logo](https://www.jobware.de/jobresources/logo/175/349175/907/009522907/67/160x80.gif)
+###  Tele-Sales Mitarbeiter/in B2B-Vertrieb (m/w/d)
+Gracher Kredit- & Kautionsmakler GmbH & Co. KG
+Vollzeit
+Teilzeit
+Home-Office
+inTrier
+17.09.2026veröffentlicht
+inTrier
+17.09.2026veröffentlicht
+[Job "Tele-Sales Mitarbeiter/in B2B-Vertrieb (m/w/d)"ansehen](https://www.jobware.de/job/tele-sales-mitarbeiter-in-b2-b-vertrieb-m-w-d-2044672585)
+##  Bewerbung auf  bei 
+1Profil
+2Lebenslauf
+Bitte vervollständige dein Profil, um deine Bewerbung abzuschicken.
+E-Mail*
+Anrede*
+Herr Frau Divers
+Divers
+Herr
+Frau
+Divers
+Vorname*
+Nachname*
+Telefonnummer*
+Adresse hinzufügen
+Weiter
+AnmeldungRegistrierung
+### Willkommen zurück!
+Anmelden mit Apple
+Anmelden mit E-MailMit deiner Anmeldung erklärst du dich mit den Richtlinien zur Verwendung von Cookies und unseren [Datenschutzbestimmungen](https://www.jobware.de/datenschutz) einverstanden.
+### Jetzt Konto erstellen!
+Registrieren mit Apple
+Registrieren mit E-MailMit der Erstellung eines Kontos erklärst du dich mit den Richtlinien zur Verwendung von Cookies und unseren [Datenschutzbestimmungen](https://www.jobware.de/datenschutz) einverstanden.
+##  Herzlichen Glückwunsch!
+Vielen Dank für dein Vertrauen!
+Ab jetzt erhältst du passende Jobs per E-Mail.
+Jobware, da hab' ich den Job her! 
+### Jobware 
+  * [Karriere bei Jobware](https://www.jobware.de/ueber-uns "Karriere bei Jobware")
+  * [Aktuelle Jobs bei Jobware ](https://www.jobware.de/jobs--bei-jobware-gmb-h?c=33659 "Aktuelle Jobs bei Jobware ")
+  * [Kontakt](https://www.jobware.de/kontakt "Kontakt")
+  * [JobwareTV](https://www.youtube.com/c/JobwareTV/videos "Jobware Tv")
+
+
+### Jobs 
+  * [Unternehmensprofile](https://www.jobware.de/unternehmen "Unternehmensprofile")
+  * [Jobsuche nach Standort](https://www.jobware.de/standortverzeichnis "Jobsuche nach Standort")
+  * [Jobsuche nach Beruf](https://www.jobware.de/berufsverzeichnis "Jobsuche nach Beruf")
+  * [Jobsuche nach Unternehmen](https://www.jobware.de/inserentenverzeichnis "Jobsuche nach Unternehmen")
+
+
+### Service 
+  * [Gehaltsrechner](https://www.jobware.de/gehaltsrechner "Gehaltsrechner")
+  * [Kein Ghosting](https://www.jobware.de/kein-ghosting "Kein Ghosting")
+  * [Mein Jobware](https://www.jobware.de/account "Mein Jobware")
+  * [bewerbung2go](https://www.bewerbung2go.de "bewerbung2go")
+
+
+  * [Kontakt](https://www.jobware.de/kontakt "Kontakt")
+  * [Datenschutz](https://www.jobware.de/datenschutz "Datenschutz")
+  * [AGB](https://www.jobware.de/pdf/agb-jobware-gmbh.pdf "AGB")
+  * [Presse](https://www.jobware.de/presse "Presse")
+  * [Impressum](https://www.jobware.de/impressum "Impressum")
+
+
+[ ](https://www.youtube.com/user/Jobware "Jobware Youtube")[ ](https://de-de.facebook.com/jobware "Jobware Facebook")[ ](https://www.instagram.com/jobware.de "Jobware Instagram")[ ](https://www.tiktok.com/@jobware.tv "JW Tiktok")
+© 2026 - Jobware GmbH
+Sprache 1
+Sprache 2
+Sprache 3
+Datenschutz auf Jobware.de
+Wir verwenden Cookies und andere Technologien für die folgenden Zwecke. Drittanbieter können Cookies und ähnliche Technologien zur Personalisierung und Analyse verwenden. Mit Klick auf "Alles akzeptieren" stimmen Sie dem gemäß Art. 6 Abs. 1 S. 1 a DSGVO, § 25 Abs. 1 TTDSG zu. Dies umfasst auch die Datenverarbeitung in Drittländern wie den USA gem. Art. 49 Abs. 1 a DSGVO. Die Verarbeitung technisch notwendiger Daten erfolgt gem. Art. 6 Abs. 1 S. 1 f DSGVO, §25 Abs. 2 TTDSG. Weitere Informationen zu Ihren Rechten samt der Möglichkeit der jederzeitigen Anpassung der Einstellungen finden Sie in unserer Datenschutzerklärung.
+[Datenschutzerklärung](https://www.jobware.de/datenschutz)
+StatistikCookies dieser Kategorie ermöglichen es uns, die Nutzung der Webseiten zu analysieren, um unseren Service für Sie kontinuierlich zu verbessern.
+MarketingWir kooperieren mit ausgewählten Partnern, um Sie auf frisch veröffentlichte Stellenanzeigen und andere Inhalte hinzuweisen, die für Sie interessant sein könnten.
+Alles akzeptierenAlles ablehnen
+Speichern und schließen
+[Piwik PRO](https://piwik.pro/?utm_source=App&utm_medium=Consent_Pop_Up&utm_campaign=Consent_Manager_Pop_Up)Powered by

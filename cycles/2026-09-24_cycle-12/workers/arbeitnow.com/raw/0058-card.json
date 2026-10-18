@@ -1,0 +1,37 @@
+{
+  "url": "https://www.arbeitnow.com/jobs/companies/sungrow-europe-welcome-traveler/senior-infrastructure-network-engineer-germany-germany-munich-31248",
+  "title": "Senior Infrastructure & Network Engineer - Germany",
+  "company": "Sungrow Europe - Welcome traveler!",
+  "location": "Germany - Munich",
+  "posted": "1790280590",
+  "work_mode": "Unknown",
+  "announcement": "Just a moment... Enable JavaScript and cookies to continue",
+  "http_status": 429,
+  "sha256": "534648562164532a3e9d4d3a9df32c2c24ff6dc2db8790527b9c9db5d01f6812",
+  "source_record": {
+    "slug": "senior-infrastructure-network-engineer-germany-germany-munich-31248",
+    "company_name": "Sungrow Europe - Welcome traveler!",
+    "title": "Senior Infrastructure & Network Engineer - Germany",
+    "description": "<br><strong>Your mission</strong><p>Servus und hallo bei uns in Sungrow! Join our Munich IT team and help keep the infrastructure behind Europe’s clean-energy growth secure, reliable, and ready for what comes next. Curious what this is all about? Let’s dive right in:<br><br><ul style=\"margin-top:0in;\"><li>Own the daily operation, maintenance, and continuous improvement of Sungrow Europe’s data center infrastructure, networks, servers, storage, and virtualization platforms.</li><li>Manage and optimize enterprise network services across European locations, including routing, resilience, performance, capacity, and high-availability design.</li><li>Take dedicated responsibility for Munich office connectivity, including switches, Wi-Fi, firewalls, VPNs, internet services, and meeting-room networks.</li><li>Lead technical troubleshooting, incident response, root-cause analysis, and sustainable corrective actions for complex infrastructure issues.</li><li>Support modernization, expansion, migration, disaster recovery, and technology-refresh initiatives across infrastructure platforms.</li><li>Strengthen security, compliance, and operational excellence through robust documentation, change management, vulnerability remediation, SOPs, and runbooks.</li></ul></p><br><strong>Your profile</strong><p>All right, that was intriguing, wasn’t it? To thrive in this role and enjoy building reliable services for the long term, your background could look like this:<br><br><ul style=\"margin-top:0in;\"><li>You hold a degree in Computer Science, Network Engineering, Information Technology, or a related field, along with at least three years of relevant infrastructure or enterprise network engineering experience.</li><li>You bring hands-on experience with Fortinet firewalls, SD-WAN, Cisco Firepower FTD, Cisco Nexus 9000, and Cisco enterprise switching environments.</li><li>You have strong knowledge of routing, switching, and security technologies, including BGP, OSPF, VRF, ACLs, QoS, STP, NAT, link aggregation, and high-availability architectures.</li><li>You are comfortable operating VMware, Nutanix, and KVM-based virtualization platforms, with knowledge of VMware NSX-T and its security capabilities.</li><li>You have worked with monitoring and observability tools such as Zabbix, Prometheus, and Grafana, and can use Python, Shell, PowerShell, or Perl for automation.</li><li>You combine structured problem-solving with a proactive mindset for capacity planning, service improvements, documentation, implementation plans, and rollback procedures.</li><li>You communicate confidently in English at C1 level; German at B2 level is an advantage, and Mandarin Chinese at B2 level or above is a strong advantage for collaboration with global technical teams.</li><li>Certifications such as VMware VCP, CCNA or CCNP, Microsoft Azure Administrator, ITIL Foundation, Fortinet NSE, or Nutanix Certified Professional are welcome.</li></ul></p><br><strong>Why us?</strong><p>Join a collaborative IT department where your work directly supports Sungrow Europe’s growth and operational resilience. You will have real ownership of a diverse infrastructure landscape, work closely with international technical teams, and contribute to the systems that enable colleagues across Europe to stay connected, productive, and secure.<br>At Sungrow, you will help modernize enterprise infrastructure in a fast-moving greentech environment, while building practical solutions across data centers, networks, cloud platforms, and workplace technology.</p><p>Find <a href=\"https://www.arbeitnow.com\">Jobs in Germany</a> on Arbeitnow</a>",
+    "remote": false,
+    "url": "https://www.arbeitnow.com/jobs/companies/sungrow-europe-welcome-traveler/senior-infrastructure-network-engineer-germany-germany-munich-31248",
+    "tags": [
+      "IT infrastructure",
+      "network engineering",
+      "data center operations",
+      "Fortinet",
+      "Cisco Firepower",
+      "Cisco Nexus",
+      "Nutanix",
+      "cybersecurity",
+      "automation"
+    ],
+    "job_types": [
+      "Experienced",
+      "Permanent",
+      "Full time"
+    ],
+    "location": "Germany - Munich",
+    "created_at": 1790280590
+  }
+}

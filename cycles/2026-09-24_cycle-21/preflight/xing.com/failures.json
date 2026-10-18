@@ -1,0 +1,11 @@
+{
+  "cycle_id": "preflight",
+  "failures": [
+    {
+      "at": "2026-09-25T00:06:37.605851+00:00",
+      "error": "Camofox preflight: fewer than two analyzable direct cards"
+    }
+  ],
+  "schema_version": 2,
+  "source_id": "xing.com"
+}

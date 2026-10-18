@@ -1,0 +1,56 @@
+{
+  "checked_at": "2026-09-25T08:42:52.838054+00:00",
+  "evidence": {
+    "access_method": "base",
+    "attempts": [
+      {
+        "at": "2026-09-25T08:41:36.476303+00:00",
+        "error": "Camofox HTTP 500 for GET /tabs/0d15008d-5bd3-42cc-ad9f-bc3de4860f70/snapshot",
+        "method": "camofox",
+        "status": "failed"
+      },
+      {
+        "at": "2026-09-25T08:41:36.632954+00:00",
+        "error": "[Errno 2] No such file or directory: 'mcporter'",
+        "method": "exa",
+        "status": "failed"
+      },
+      {
+        "at": "2026-09-25T08:42:49.600704+00:00",
+        "error": "preflight: fewer than two analyzable direct cards",
+        "method": "crawl4ai",
+        "status": "failed"
+      },
+      {
+        "method": "http",
+        "status": "pass"
+      }
+    ],
+    "cards_analyzable": 20,
+    "cards_found": 20,
+    "operations": [
+      {
+        "op": "listing",
+        "status": 200
+      },
+      {
+        "chars": 724,
+        "op": "card-1",
+        "url": "https://www.xing.com/recruiting/jobs/create?sc_cmp=oow5eb8bc92"
+      },
+      {
+        "op": "return",
+        "status": 200
+      },
+      {
+        "chars": 6872,
+        "op": "card-2",
+        "url": "https://www.xing.com/jobs/hamburg-recruiter-157424165"
+      }
+    ],
+    "primary_or_fallback": "http",
+    "status": "pass"
+  },
+  "listing": "https://www.xing.com/jobs/search",
+  "verdict": "PASS"
+}

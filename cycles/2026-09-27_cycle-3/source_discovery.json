@@ -1,0 +1,85 @@
+{
+  "additions": [
+    {
+      "detail_url_pattern": "https://www.remotely.de/job/<slug>",
+      "direct_card_domains": [
+        "remotely.de"
+      ],
+      "domain": "remotely.de",
+      "evidence_urls": [
+        "https://www.remotely.de/job/doozer-real-estate-systems-gmbh-qatest-automation-engineer-all-genders-remote-eu",
+        "https://www.remotely.de/job/cendas-gmbh-software-tester-qa-engineer-saas-mfd-remote-home-office",
+        "https://www.remotely.de/job/ankalink-gmbh-qa-engineer-test-automation-engineer-mwd-ki-testing-100-remote-freelance"
+      ],
+      "listing_url": "https://www.remotely.de/remote-jobs/bereich/quality-assurance",
+      "name": "Remotely.de",
+      "query_or_url_pattern": "Quality Assurance category listing; filter direct /job/<slug> cards for Germany-only remote QA, Software Test, Test Automation, and Quality Assurance roles",
+      "scope": "Explicit Germany-wide remote only",
+      "status": "active",
+      "type": "Germany remote job board"
+    }
+  ],
+  "created_at": "2026-09-27T09:25:58.880835+00:00",
+  "cycle_id": "2026-09-27_cycle-3",
+  "evidence": {
+    "live_retrieval": "completed",
+    "model_evidence": [
+      {
+        "direct_cards": [
+          {
+            "scope_evidence": "The supplied result states “Vollständig remote” and “Nur Deutschland”.",
+            "title": "QA/Test Automation Engineer (all genders) - Remote - EU",
+            "url": "https://www.remotely.de/job/doozer-real-estate-systems-gmbh-qatest-automation-engineer-all-genders-remote-eu"
+          },
+          {
+            "scope_evidence": "The supplied result states “Nur Deutschland” and identifies the role as remote/home-office.",
+            "title": "Software Tester / QA Engineer – SaaS (m/w/d) remote (Home-Office)",
+            "url": "https://www.remotely.de/job/cendas-gmbh-software-tester-qa-engineer-saas-mfd-remote-home-office"
+          },
+          {
+            "scope_evidence": "The supplied result states “Vollständig remote” and “Nur Deutschland.”",
+            "title": "QA Engineer / Test Automation Engineer (m/w/d) – KI Testing",
+            "url": "https://www.remotely.de/job/ankalink-gmbh-qa-engineer-test-automation-engineer-mwd-ki-testing-100-remote-freelance"
+          }
+        ],
+        "listing": {
+          "scope": "Germany-wide remote QA",
+          "title": "Quality Assurance Remote in Deutschland - Remotely",
+          "url": "https://www.remotely.de/remote-jobs/bereich/quality-assurance"
+        },
+        "reason": "The evidence exposes a dedicated Germany QA listing plus multiple direct QA/testing vacancy cards explicitly restricted to Germany. Remotely.de is distinct from the registered Remotive source.",
+        "source": "Remotely.de",
+        "status": "verified-new-source"
+      },
+      {
+        "reason": "The retrieval contains relevant current listing evidence for these hosts, but they are already active registry sources and are not additions.",
+        "sources": [
+          "StepStone",
+          "GermanTechJobs",
+          "LinkedIn Jobs",
+          "Arbeitsagentur Jobsuche"
+        ],
+        "status": "already-registered"
+      },
+      {
+        "candidates": [
+          "Indeed",
+          "Glassdoor",
+          "Heise Jobs",
+          "Jooble",
+          "DEVjobs.de",
+          "Jobvector",
+          "StudySmarter direct card",
+          "Get-in-it direct card",
+          "KfW direct card",
+          "FERCHAU direct card"
+        ],
+        "reason": "The supplied evidence either exposes only search/category pages without individual vacancy-card URLs, or exposes an individual direct card without a demonstrated independently searchable listing/API for the source. Under the supplied strict source criteria, they are not verified additions.",
+        "status": "not-added"
+      }
+    ],
+    "retrieval_artifact": "/opt/data/qa-vacancy-project/cycles/2026-09-27_cycle-3/source_discovery_retrieval.json",
+    "retrieved_result_count": 148
+  },
+  "verdict": "pass"
+}

@@ -1,0 +1,28 @@
+{
+  "completed_operations": [
+    {
+      "op": "listing",
+      "status": 200
+    },
+    {
+      "chars": 724,
+      "op": "card-1",
+      "url": "https://www.xing.com/recruiting/jobs/create?sc_cmp=oow5eb8bc92"
+    },
+    {
+      "op": "return",
+      "status": 200
+    },
+    {
+      "chars": 6978,
+      "op": "card-2",
+      "url": "https://www.xing.com/jobs/hamburg-recruiter-157424165"
+    }
+  ],
+  "cycle_id": "2026-09-25_cycle-26",
+  "next_operation": 4,
+  "schema_version": 2,
+  "source_id": "xing.com",
+  "state": "complete",
+  "updated_at": "2026-09-25T07:33:05.118413+00:00"
+}

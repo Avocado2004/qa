@@ -1,0 +1,57 @@
+{
+  "created_at": "2026-09-25T03:17:52.502024+00:00",
+  "cycle_id": "2026-09-25_cycle-16",
+  "jobs": [
+    {
+      "attempt": 1,
+      "claimed_at": "2026-09-25T03:17:52.509976+00:00",
+      "error": null,
+      "failures": [],
+      "finished_at": "2026-09-25T03:17:52.677159+00:00",
+      "generation": 1,
+      "heartbeat_at": "2026-09-25T03:17:52.509944+00:00",
+      "index": 0,
+      "lease_token": null,
+      "next_retry_at": null,
+      "owner": null,
+      "pid": null,
+      "progress_at": "2026-09-25T03:17:52.509968+00:00",
+      "source": {
+        "domain": "fake",
+        "id": "alpha",
+        "listing_url": "file://fixture/alpha",
+        "name": "alpha",
+        "status": "active"
+      },
+      "source_id": "alpha",
+      "state": "complete"
+    },
+    {
+      "attempt": 1,
+      "claimed_at": "2026-09-25T03:17:52.517441+00:00",
+      "error": null,
+      "failures": [],
+      "finished_at": "2026-09-25T03:17:52.686256+00:00",
+      "generation": 1,
+      "heartbeat_at": "2026-09-25T03:17:52.517419+00:00",
+      "index": 1,
+      "lease_token": null,
+      "next_retry_at": null,
+      "owner": null,
+      "pid": null,
+      "progress_at": "2026-09-25T03:17:52.517437+00:00",
+      "source": {
+        "domain": "fake",
+        "id": "beta",
+        "listing_url": "file://fixture/beta",
+        "name": "beta",
+        "status": "active"
+      },
+      "source_id": "beta",
+      "state": "complete"
+    }
+  ],
+  "max_workers": 10,
+  "schema_version": 2,
+  "updated_at": "2026-09-25T03:17:52.686291+00:00"
+}

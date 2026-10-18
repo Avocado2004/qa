@@ -1,0 +1,13 @@
+{
+  "cycle_id": "2026-10-14_cycle-15",
+  "failures": [
+    {
+      "at": "2026-10-14T22:39:13.628830+00:00",
+      "attempt": 1,
+      "error": "worker access methods failed: Camofox HTTP 404 for GET /tabs/f10bbeaf-1adf-4a81-9300-078507b18002/snapshot: {\"error\":\"Tab not found\"}; Crawl4AI failed after 3 attempts: rc=2 Usage: crawl4ai-skill crawl [OPTIONS] URL\nTry 'crawl4ai-skill crawl --help' for help.\n\nError: No such option '--wait-until'. Did you mean '--wait-for'?\n; preflight: fewer than two analyzable direct cards"
+    }
+  ],
+  "schema_version": 2,
+  "source_id": "hitmarker.net",
+  "state": "blocked"
+}

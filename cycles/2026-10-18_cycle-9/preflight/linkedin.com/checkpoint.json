@@ -1,0 +1,28 @@
+{
+  "completed_operations": [
+    {
+      "op": "listing",
+      "status": 200
+    },
+    {
+      "chars": 12287,
+      "op": "card-1",
+      "url": "https://de.linkedin.com/jobs/view/junior-qa-engineer-software-tester-m-w-d-%E2%80%93-produktqualit%C3%A4t-testautomatisierung-at-check24-4433870576?position=1&pageNum=0&refId=eG3Mm4Xg%2BiLwA0RHpIwnBQ%3D%3D"
+    },
+    {
+      "op": "return",
+      "status": 200
+    },
+    {
+      "chars": 13197,
+      "op": "card-2",
+      "url": "https://de.linkedin.com/jobs/view/senior-quality-engineer-checkout-payments-m-w-d-at-shopware-4477997035?position=2&pageNum=0&refId=eG3Mm4Xg%2BiLwA0RHpIwnBQ%3D%3D"
+    }
+  ],
+  "cycle_id": "2026-10-18_cycle-9",
+  "next_operation": 4,
+  "schema_version": 2,
+  "source_id": "linkedin.com",
+  "state": "complete",
+  "updated_at": "2026-10-18T13:20:44.712091+00:00"
+}

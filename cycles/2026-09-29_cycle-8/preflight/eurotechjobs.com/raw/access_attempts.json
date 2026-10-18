@@ -1,0 +1,24 @@
+{
+  "attempts": [
+    {
+      "at": "2026-09-29T15:38:16.394340+00:00",
+      "error": "preflight: source is readable but offered no QA/test vacancy in the first two cards ('Data Processing Systems Engineer - EUMETSAT - European Organisation for the Exploitation of Meteorological Satellites, Darmstadt'; 'Data Processing Testing Engineer - EUMETSAT - European Organisation for the Exploitation of Meteorological Satellites, Darmstadt'). Both pages opened and parsed as real postings, so this is not an access failure; the source stays active for a later run.",
+      "method": "http",
+      "status": "failed"
+    },
+    {
+      "at": "2026-09-29T15:39:15.532474+00:00",
+      "error": "preflight: fewer than two analyzable direct cards",
+      "method": "crawl4ai",
+      "status": "failed"
+    },
+    {
+      "at": "2026-09-29T15:39:18.777455+00:00",
+      "error": "Camofox HTTP 404 for GET /tabs/628b1868-cec0-4851-ab43-12466943b368/snapshot: {\"error\":\"Tab not found\"}",
+      "method": "camofox",
+      "status": "failed"
+    }
+  ],
+  "cycle_id": "2026-09-29_cycle-8",
+  "source_id": "eurotechjobs.com"
+}

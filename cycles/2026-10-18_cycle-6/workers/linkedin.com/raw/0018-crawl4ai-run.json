@@ -1,0 +1,7 @@
+{
+  "url": "https://de.linkedin.com/jobs/view/graduate-quality-assurance-analyst-all-genders-at-distribusion-technologies-4448191888?position=5&pageNum=0&refId=8KnCq6L4FPDj%2FSItmL73rA%3D%3D",
+  "attempt": 1,
+  "returncode": 0,
+  "stdout": "✓ 页面已保存到 /opt/data/qa-vacancy-project/cycles/2026-10-18_cycle-6/workers/linkedin.com/raw/crawl4ai-card-rs-at-distribusion-technologies-4448191888-position-5-pageNum-0-refId-8KnCq6L4FPDj-2FSItmL73rA-3D-3D.md\n  标题: Graduate - Quality Assurance Analyst (all genders) bei Distribusion Technologies — Berlin, Deutschland | LinkedIn Jobs\n  链接数: 186\n",
+  "stderr": "[INIT].... → Crawl4AI 0.9.4 \n[FETCH]... ↓ https://de.linkedin.com/jobs/view/graduate-quali...ition=5&pageNum=0&refId=8KnCq6L4FPDj/SItmL73rA==  | ✓ | ⏱: 3.84s \n[SCRAPE].. ◆ https://de.linkedin.com/jobs/view/graduate-quali...ition=5&pageNum=0&refId=8KnCq6L4FPDj/SItmL73rA==  | ✓ | ⏱: 0.68s \n[COMPLETE] ● https://de.linkedin.com/jobs/view/graduate-quali...ition=5&pageNum=0&refId=8KnCq6L4FPDj/SItmL73rA==  | ✓ | ⏱: 4.60s \n"
+}

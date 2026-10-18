@@ -1,0 +1,430 @@
+## LinkedIn nimmt den Schutz Ihrer Privatsphäre sehr ernst
+LinkedIn und Drittanbieter setzen essenzielle und nicht zwingend erforderliche Cookies ein, um die LinkedIn Dienste bereitzustellen, zu schützen, zu analysieren und zu verbessern und um auf LinkedIn und außerhalb von LinkedIn relevante Anzeigen zu präsentieren (einschließlich **zielgruppenspezifischer Anzeigen und Stellenanzeigen**). Weitere Informationen finden Sie in unserer [Cookie-Richtlinie](https://www.linkedin.com/legal/cookie-policy).
+Wählen Sie „Akzeptieren“, um dieser Nutzung zuzustimmen, oder wählen Sie „Ablehnen“, um die nicht zwingend erforderlichen Cookies abzulehnen. Sie können Ihre Auswahl jederzeit in den [Einstellungen](https://www.linkedin.com/mypreferences/g/guest-cookies) aktualisieren.
+Akzeptieren  Ablehnen 
+[ Weiter zum Hauptinhalt ](https://de.linkedin.com/jobs/view/qa-engineer-m-w-d-at-compeople-ag-4471467536?position=4&pageNum=0&refId=%2FMes8v4C24tl91bJDhy9Xg%3D%3D#main-content) [ LinkedIn ](https://de.linkedin.com/?trk=public_jobs_nav-header-logo)
+QA Engineer (m/w/d) in Leipzig 
+Suche erweitern
+Jobs 
+Dieser Button zeigt den derzeit ausgewählten Suchtyp an. Bei Erweiterung erscheint eine Liste mit Suchoptionen, die die Sucheingaben so ändern, dass sie zur aktuellen Auswahl passen.
+  * Jobs 
+  * Personen 
+  * Learning 
+
+
+Text löschen Text löschen Text löschen Text löschen Text löschen
+[ Einloggen ](https://www.linkedin.com/login?emailAddress=&fromSignIn=&fromSignIn=true&session_redirect=https%3A%2F%2Fde.linkedin.com%2Fjobs%2Fview%2Fqa-engineer-m-w-d-at-compeople-ag-4471467536%3Fposition%3D4%26pageNum%3D0%26refId%3D%252FMes8v4C24tl91bJDhy9Xg%253D%253D&trk=public_jobs_nav-header-signin) [ Mitglied werden  ](https://www.linkedin.com/signup/cold-join?source=jobs_registration&session_redirect=https%3A%2F%2Fde.linkedin.com%2Fjobs%2Fview%2Fqa-engineer-m-w-d-at-compeople-ag-4471467536%3Fposition%3D4%26pageNum%3D0%26refId%3D%252FMes8v4C24tl91bJDhy9Xg%253D%253D&trk=public_jobs_nav-header-join) [ ![](https://static.licdn.com/aero-v1/sc/h/9c8pery4andzj6ohjkjp54ma2) ](https://www.linkedin.com/login?emailAddress=&fromSignIn=&fromSignIn=true&session_redirect=https%3A%2F%2Fde.linkedin.com%2Fjobs%2Fview%2Fqa-engineer-m-w-d-at-compeople-ag-4471467536%3Fposition%3D4%26pageNum%3D0%26refId%3D%252FMes8v4C24tl91bJDhy9Xg%253D%253D&trk=public_jobs_nav-header-signin)
+![compeople AG](https://media.licdn.com/dms/image/v2/C560BAQFRSK6ava5TmQ/company-logo_100_100/company-logo_100_100/0/1630602101499/compeople_ag_logo?e=2147483647&v=beta&t=f5TZ1WkyHs7fCfagQKlsxuFPQaUXtqP36gx4isrw49c)
+### QA Engineer (m/w/d)
+[compeople AG](https://de.linkedin.com/company/compeople?trk=public_jobs_sub-nav-cta-optional-url "compeople AG") Frankfurt
+Bewerben 
+[ ![compeople AG](https://media.licdn.com/dms/image/v2/C560BAQFRSK6ava5TmQ/company-logo_100_100/company-logo_100_100/0/1630602101499/compeople_ag_logo?e=2147483647&v=beta&t=f5TZ1WkyHs7fCfagQKlsxuFPQaUXtqP36gx4isrw49c) ](https://de.linkedin.com/company/compeople?trk=public_jobs_topcard_logo)
+# QA Engineer (m/w/d)
+#### 
+[ compeople AG ](https://de.linkedin.com/company/compeople?trk=public_jobs_topcard-org-name) Frankfurt 
+Vor 4 Tagen  85 Bewerbungen 
+[ ![](https://static.licdn.com/aero-v1/sc/h/tgg16g4l8khb9lwyit64p5rp) ![](https://static.licdn.com/aero-v1/sc/h/l525cbfhd5o3bku6r37kxly1) ![](https://static.licdn.com/aero-v1/sc/h/cpmr0fzgd0uvdtnfmhm2blnnp) Sehen Sie, wen compeople AG für diese Position eingestellt hat  ](https://www.linkedin.com/login?session_redirect=https%3A%2F%2Fwww%2Elinkedin%2Ecom%2Fsearch%2Fresults%2Fpeople%2F%3FfacetCurrentCompany%3D418542%26title%3DQA-Ingenieur&emailAddress=&fromSignIn=&trk=public_jobs_see-who-was-hired_people-search-link_face-pile-cta)
+Bewerben  [ Speichern ](https://www.linkedin.com/login?emailAddress=&fromSignIn=&session_redirect=https%3A%2F%2Fde.linkedin.com%2Fjobs%2Fview%2Fqa-engineer-m-w-d-at-compeople-ag-4471467536&trk=public_jobs)
+  * [ Diesen Job melden ](https://www.linkedin.com/help/linkedin/ask/TS-RIC-LO?entityUrn=https%3A%2F%2Fde.linkedin.com%2Fjobs%2Fview%2Fqa-engineer-m-w-d-at-compeople-ag-4471467536)
+
+
+Den Jobinserenten von compeople AG direkt kontaktieren
+[ Najim Mallahi, M.A.  ](https://de.linkedin.com/in/najimmallahi) ![Hier klicken, um Najim Mallahi, M.A.s Profil anzuzeigen](https://static.licdn.com/aero-v1/sc/h/9c8pery4andzj6ohjkjp54ma2)
+###  Najim Mallahi, M.A. 
+####  Senior IT Recruiter @ compeople AG | Kein Headhunter – ich baue unser eigenes Team | IT-Beratung & Softwareentwicklung | Frankfurt 
+[ ](https://www.linkedin.com/login?emailAddress=&fromSignIn=&session_redirect=https%3A%2F%2Fde.linkedin.com%2Fin%2Fnajimmallahi&trk=public_jobs_message-the-recruiter-cta)
+Willkommen bei der compeople AG - where we believe in crafting digital solutions with a human touch.
+In der heutigen schnelllebigen digitalen Welt wissen wir, wie wichtig individuelle Erlebnisse und sinnvolle Verbindungen sind. Deshalb bieten wir nicht nur digitale Lösungen an – wir kombinieren unser technisches Fachwissen mit der Kraft der menschlichen Interaktion, um einen wirklich einzigartigen und personalisierten Ansatz für unsere geschätzten Kunden zu schaffen.
+Bei der compeople AG verstehen wir, dass hinter jeder geschäftlichen Herausforderung Menschen mit Bestrebungen, Träumen und Zielen stehen. Unser Ziel ist es, innovative digitale Lösungen zu entwickeln, die nicht nur die technologischen Aspekte, sondern auch die emotionalen und persönlichen Bedürfnisse unserer Kunden und deren Kunden berücksichtigen. Unser Engagement für eine menschliche Note bedeutet, dass wir während unserer gesamten Partnerschaft Wert auf Kommunikation, Verständnis und Empathie legen.
+  
+
+Wir suchen ab sofort in Vollzeit einen QA Engineer (m/w/d) in Vollzeit. 
+  
+
+**Deine Aufgaben:**
+  * Erstellung und Pflege von manuellen und (teil-)automatisierten Testfällen
+  * Analyse der Testanforderungen anhand von User Stories sowie Mitwirkung bei der Erstellung von Akzeptanzkriterien
+  * Abstimmung der Testanforderungen mit Produktmanagern, REs, technischen Architekten und Entwicklern
+  * Mitarbeit bei der Erstellung fachlicher und technischer Testfälle in Jira & Zephyr Scale
+  * Unterstützung bei der Organisation von Testrahmen, Testdaten und Testusern
+  * Durchführung von Tests im Bereich Kundendatenverwaltung
+  * Unterstützung bei Integrationstests von angeschlossenen Systemen und Schnittstellen
+  * Dokumentation der Ergebnisse in Jira & Zephyr Scale sowie Mitwirkung bei der Erstellung von Testreports
+  * Durchführung von Integrations-, System-, Regression- und Abnahmetests
+  * Unterstützung im Defect Management (Nachverfolgung von Fehlern)
+  * Identifikation und Reproduktion von Fehlern
+  * Beschreibung von Fehlern und Reproduktionsschritten in Jira & Zephyr Scale
+  * Kommunikation mit verschiedenen Stakeholdern zur Klärung von Fehlerursachen
+  * Verifikation und Dokumentation von Fehlerbehebungen
+  * Teilnahme an Sprint-Reviews und Refinement-Meetings
+  * Abstimmung mit Entwicklern und REs zur Optimierung der Testabdeckung
+
+
+  
+
+**Das bringst Du mit:**
+  * Ein abgeschlossenes Studium der Informatik oder eine vergleichbare Qualifikation
+  * Erste praktische Erfahrung im Software-Testing (z. B. durch Werkstudententätigkeit, Praktika oder erste Berufserfahrung)
+  * Grundkenntnisse in API- und Integrationstests sowie erste Berührungspunkte mit Tools wie Postman, Playwright o. ä.
+  * Erste Erfahrung mit Datenbankabfragen zur Verifikation von Daten
+  * Grundkenntnisse im Umgang mit Jira (oder vergleichbaren Tools)
+  * Verständnis für gängige Testmethoden (z. B. funktionale Tests, Regressionstests, exploratives Testen)
+  * Interesse an Testautomatisierung, idealerweise erste praktische Erfahrungen
+  * Analytisches Denkvermögen und eine strukturierte Arbeitsweise
+  * Motivation, Dich in neue Themen einzuarbeiten und Verantwortung zu übernehmen
+  * Erste Erfahrung im agilen Arbeiten sowie Team- und Kommunikationsfähigkeit
+  * Sehr gute Deutschkenntnisse in Wort und Schrift (mind. C1 Niveau)
+
+
+  
+
+**Das bieten wir Dir:**
+  * Unbefristete Festanstellung mit dem Ziel einer langfristigen Zusammenarbeit
+  * Individueller Einarbeitungsplan & Onboardingprozess
+  * Kontinuierliche, individuelle Weiterbildung und langfristige Karriereperspektiven
+  * Arbeitgeberzuschuss zur betrieblichen Altersvorsorge in Form einer Direktversicherung
+  * Möglichkeit zum Mobilen Arbeiten
+  * Moderner und ergonomisch gestalteter Arbeitsplatz in modernen Büros
+  * Regelmäßige Mitarbeiterveranstaltungen
+  * Ein kollegiales Umfeld in einer Arbeitskultur des Miteinanders und des offenen Dialogs
+  * Work-Life-Balance und flexible Arbeitszeiten
+  * Ein attraktives Vergütungssystem und tollen Zusatzleistungen
+
+
+  
+
+Show more  Show less 
+  * ###  Karrierestufe 
+Keine Angabe 
+  * ###  Beschäftigungsverhältnis 
+Vollzeit 
+  * ###  Branchen 
+IT-Dienstleistungen und IT-Beratung 
+
+
+Mit einer Empfehlung lassen sich Ihre Chancen auf ein Vorstellungsgespräch bei compeople AG verdoppeln.
+[ Wen kennen Sie bereits? ](https://www.linkedin.com/login?session_redirect=https%3A%2F%2Fwww%2Elinkedin%2Ecom%2Fsearch%2Fresults%2Fpeople%2F%3FfacetCurrentCompany%3D418542&emailAddress=&fromSignIn=&trk=public_jobs_find-a-referral-cta)
+Lassen Sie sich über neue Jobs im Bereich QA-Ingenieur in **Frankfurt** informieren. 
+[ Einloggen, um Jobbenachrichtigung zu erstellen ](https://www.linkedin.com/login?emailAddress=&fromSignIn=&session_redirect=https%3A%2F%2Fde.linkedin.com%2Fjobs%2Fview%2Fqa-engineer-m-w-d-at-compeople-ag-4471467536&trk=public_jobs_job-alert-guest-redirect-cta)
+`` `` ``
+##  Ähnliche Jobs 
+  * [ Software Testingenieur (m/w/d)  ](https://de.linkedin.com/jobs/view/software-testingenieur-m-w-d-at-schmitt-engineering-4468498970?refId=x%2FgfrBve5FZcVC2sgksk2g%3D%3D&trackingId=5NaTSl1%2BQIKFQb%2BynP8ojA%3D%3D)
+###  Software Testingenieur (m/w/d) 
+####  [ Schmitt Engineering ](https://de.linkedin.com/company/schmitt-engineering-erlangen?trk=public_jobs_similar-jobs_main-jobs-card-subtitle)
+Frankfurt am Main  Vor 6 Tagen 
+  * [ Quality Engineer (m/w/d)  ](https://de.linkedin.com/jobs/view/quality-engineer-m-w-d-at-kidicap-die-software-der-gip-gmbh-4468628491?refId=x%2FgfrBve5FZcVC2sgksk2g%3D%3D&trackingId=SQMVvsIEU6wcWq2otlmoag%3D%3D)
+###  Quality Engineer (m/w/d) 
+####  [ KIDICAP. - die Software der GIP GmbH ](https://de.linkedin.com/company/gipmbh?trk=public_jobs_similar-jobs_main-jobs-card-subtitle)
+Offenbach am Main  Vor 1 Woche 
+  * [ Qualitätsingenieur (m/w/d) (m/w/d) – Softwaretest & Automatisierung  ](https://de.linkedin.com/jobs/view/qualit%C3%A4tsingenieur-m-w-d-m-w-d-%E2%80%93-softwaretest-automatisierung-at-medatixx-4469329244?refId=x%2FgfrBve5FZcVC2sgksk2g%3D%3D&trackingId=liyGIyeJk8WFk%2B1e63216g%3D%3D)
+###  Qualitätsingenieur (m/w/d) (m/w/d) – Softwaretest & Automatisierung 
+####  [ medatixx ](https://de.linkedin.com/company/medatixx?trk=public_jobs_similar-jobs_main-jobs-card-subtitle)
+Eltville am Rhein  Vor 5 Tagen 
+  * [ Software Tester (all genders)  ](https://de.linkedin.com/jobs/view/software-tester-all-genders-at-expleo-group-4457339334?refId=x%2FgfrBve5FZcVC2sgksk2g%3D%3D&trackingId=KNPa4biHnDLFQsxcWJW9Bg%3D%3D)
+###  Software Tester (all genders) 
+####  [ Expleo Group ](https://fr.linkedin.com/company/expleo-group?trk=public_jobs_similar-jobs_main-jobs-card-subtitle)
+Frankfurt am Main  Vor 2 Wochen 
+  * [ Professional Software Quality and Automation Engineer (m/w/d)  ](https://de.linkedin.com/jobs/view/professional-software-quality-and-automation-engineer-m-w-d-at-rohde-schwarz-4437063860?refId=x%2FgfrBve5FZcVC2sgksk2g%3D%3D&trackingId=S4Q%2F4UdefU1YHM5SmaF2Ww%3D%3D)
+###  Professional Software Quality and Automation Engineer (m/w/d) 
+####  [ Rohde & Schwarz ](https://de.linkedin.com/company/rohde-schwarz?trk=public_jobs_similar-jobs_main-jobs-card-subtitle)
+Haiger  Vor 2 Monaten 
+  * [ QA Engineer  ](https://de.linkedin.com/jobs/view/qa-engineer-at-gsoba-4418537148?refId=x%2FgfrBve5FZcVC2sgksk2g%3D%3D&trackingId=7iaPkfWEhfrywdpcjIX%2Baw%3D%3D)
+###  QA Engineer 
+####  [ GSOBA ](https://cn.linkedin.com/company/gsobatestpage1?trk=public_jobs_similar-jobs_main-jobs-card-subtitle)
+Frankfurt/Rhein-Main  50.000,00 $ - 100.000,00 $ Vor 6 Tagen 
+  * [ Software Quality Engineer (m/w/d) Teststrategie, Reviews & Produktqualität  ](https://de.linkedin.com/jobs/view/software-quality-engineer-m-w-d-teststrategie-reviews-produktqualit%C3%A4t-at-apliconus-gmbh-4439788439?refId=x%2FgfrBve5FZcVC2sgksk2g%3D%3D&trackingId=hkK9bYE18rdGu996%2FZH74g%3D%3D) ![](https://media.licdn.com/dms/image/v2/C4D0BAQEsd7JCyXGbtQ/company-logo_100_100/company-logo_100_100/0/1630557966330/apliconus_gmbh_logo?e=2147483647&v=beta&t=Ry-KP-YQzOi3u47752YfmUTJOorQQvNGp43rl30fjGY)
+###  Software Quality Engineer (m/w/d) Teststrategie, Reviews & Produktqualität 
+####  [ APLICONUS GmbH ](https://de.linkedin.com/company/apliconus-gmbh?trk=public_jobs_similar-jobs_main-jobs-card-subtitle)
+Mannheim  Vor 2 Monaten 
+  * [ Softwaretester (m/w/d)  ](https://de.linkedin.com/jobs/view/softwaretester-m-w-d-at-mbi-4437070810?refId=x%2FgfrBve5FZcVC2sgksk2g%3D%3D&trackingId=MLlJ95adzQ%2B5P4bMe0scNA%3D%3D) ![](https://media.licdn.com/dms/image/v2/D4E0BAQGCguQp9zOkbg/company-logo_100_100/company-logo_100_100/0/1698745992605/mbisoftware_logo?e=2147483647&v=beta&t=JDS2-0u8BUb3uc2jsT0FuTuXnOM5PNX4HzyxU98ZgaI)
+###  Softwaretester (m/w/d) 
+####  [ mbi GmbH ](https://de.linkedin.com/company/mbisoftware?trk=public_jobs_similar-jobs_main-jobs-card-subtitle)
+Wetzlar  Vor 2 Monaten 
+  * [ Software­tester (w/m/d)  ](https://de.linkedin.com/jobs/view/software%C2%ADtester-w-m-d-at-power-plus-communications-4227536411?refId=x%2FgfrBve5FZcVC2sgksk2g%3D%3D&trackingId=skw%2Fe5ohZ7kDe5tjCpszYw%3D%3D) ![](https://media.licdn.com/dms/image/v2/D4E0BAQHGpNnhKkV-Gw/company-logo_100_100/company-logo_100_100/0/1728908263141/power_plus_communications_logo?e=2147483647&v=beta&t=knSiOf15-yOF_vVYZDDwfeYWjyA6TlMZJVfxNo13kLo)
+###  Software­tester (w/m/d) 
+####  [ Power Plus Communications ](https://de.linkedin.com/company/power-plus-communications?trk=public_jobs_similar-jobs_main-jobs-card-subtitle)
+Mannheim  Vor 1 Jahr 
+  * [ Softwaretester (m/w/d)  ](https://de.linkedin.com/jobs/view/softwaretester-m-w-d-at-knds-deutschland-4466759101?refId=x%2FgfrBve5FZcVC2sgksk2g%3D%3D&trackingId=e%2B%2FLyLI50dfFeGp7MCJHqQ%3D%3D) ![](https://media.licdn.com/dms/image/v2/D4E0BAQHWNhttYFFtgw/company-logo_100_100/company-logo_100_100/0/1686748112962/kraussmaffeiwegmann_logo?e=2147483647&v=beta&t=B-Qbp30mnoXjYgc9mII4sjMCPRNuQoZv2avl5-9_hlw)
+###  Softwaretester (m/w/d) 
+####  [ KNDS Deutschland ](https://de.linkedin.com/company/knds-deutschland?trk=public_jobs_similar-jobs_main-jobs-card-subtitle)
+Mainz  Vor 2 Wochen 
+  * [ Software Tester / Testautomatisierer (m/w/d) in Frankfurt (Main)  ](https://de.linkedin.com/jobs/view/software-tester-testautomatisierer-m-w-d-in-frankfurt-main-at-deloitte-4248340673?refId=x%2FgfrBve5FZcVC2sgksk2g%3D%3D&trackingId=DzbtmMl9Yt5qH%2Bg8hveDnw%3D%3D) ![](https://media.licdn.com/dms/image/v2/C560BAQGNtpblgQpJoQ/company-logo_100_100/company-logo_100_100/0/1662120928214/deloitte_logo?e=2147483647&v=beta&t=OSF8M5LreT0Sf2F-JcNk6XMT0ArCuPfDmRR-knCC4HY)
+###  Software Tester / Testautomatisierer (m/w/d) in Frankfurt (Main) 
+####  [ Deloitte ](https://www.linkedin.com/company/deloitte?trk=public_jobs_similar-jobs_main-jobs-card-subtitle)
+Frankfurt  Vor 4 Tagen 
+  * [ Test Automation Engineer (m/w/d)  ](https://de.linkedin.com/jobs/view/test-automation-engineer-m-w-d-at-bequalified-gmbh-4469306570?refId=x%2FgfrBve5FZcVC2sgksk2g%3D%3D&trackingId=%2BL%2B9sn4m8pyu7qGbMdSWsQ%3D%3D) ![](https://media.licdn.com/dms/image/v2/D4E0BAQHCkEHNfzOA9w/company-logo_100_100/company-logo_100_100/0/1719953435765/bequalified_de_logo?e=2147483647&v=beta&t=f0VjbKakl3qQIAJ-xqTIVWNU0wrGPk4SuGLziQQU9m4)
+###  Test Automation Engineer (m/w/d) 
+####  [ beQualified GmbH ](https://de.linkedin.com/company/bequalified-de?trk=public_jobs_similar-jobs_main-jobs-card-subtitle)
+Frankfurt  Vor 5 Tagen 
+  * [ Software Test Automation Engineer (d/f/m)  ](https://de.linkedin.com/jobs/view/software-test-automation-engineer-d-f-m-at-leica-microsystems-4428288334?refId=x%2FgfrBve5FZcVC2sgksk2g%3D%3D&trackingId=noDXBPD215Kp7UGrsZjTCw%3D%3D) ![](https://media.licdn.com/dms/image/v2/C4D0BAQEbUqPkqPIQew/company-logo_100_100/company-logo_100_100/0/1647256421749/leica_microsystems_logo?e=2147483647&v=beta&t=t6xYvq-o-JTRNExep7F5VNXOb6MEaUpJZOrhDYq72x0)
+###  Software Test Automation Engineer (d/f/m) 
+####  [ Leica Microsystems ](https://de.linkedin.com/company/leica-microsystems?trk=public_jobs_similar-jobs_main-jobs-card-subtitle)
+Mannheim  Vor 2 Wochen 
+  * [ Quality Engineer – Test Automation (Transport & Logistics) (m/w/d)  ](https://de.linkedin.com/jobs/view/quality-engineer-%E2%80%93-test-automation-transport-logistics-m-w-d-at-cgi-4438504481?refId=x%2FgfrBve5FZcVC2sgksk2g%3D%3D&trackingId=H3ne0hk8ndq2cFv2rX5V7Q%3D%3D) ![](https://media.licdn.com/dms/image/v2/D4D0BAQFlEEdVdlT8jw/company-logo_100_100/B4DZu7jLR3GkAU-/0/1768378119780/cgi_logo?e=2147483647&v=beta&t=HYQq760PNDiwamgO6B2gjCasn_PE6odKwp9BsNv5yuI)
+###  Quality Engineer – Test Automation (Transport & Logistics) (m/w/d) 
+####  [ CGI ](https://ca.linkedin.com/company/cgi?trk=public_jobs_similar-jobs_main-jobs-card-subtitle)
+Eschborn  Vor 2 Wochen 
+  * [ Quality Assurance Engineer  ](https://de.linkedin.com/jobs/view/quality-assurance-engineer-at-eumetsat-4469750392?refId=x%2FgfrBve5FZcVC2sgksk2g%3D%3D&trackingId=k2Ke0Ip9N33%2BQoAfER106Q%3D%3D) ![](https://media.licdn.com/dms/image/v2/D4E0BAQGM1XySIfF-cg/company-logo_100_100/B4EZ6Ce4nIKYAI-/0/1780305595260/eumetsat_logo?e=2147483647&v=beta&t=wYfVISpiyuBHuWrNnGAJoVqZOZjoqH1BhaDcJERUttc)
+###  Quality Assurance Engineer 
+####  [ EUMETSAT ](https://de.linkedin.com/company/eumetsat?trk=public_jobs_similar-jobs_main-jobs-card-subtitle)
+Darmstadt  Vor 4 Tagen 
+  * [ Testingenieur (m/w/d) Medizintechnik  ](https://de.linkedin.com/jobs/view/testingenieur-m-w-d-medizintechnik-at-ferchau-4438579559?refId=x%2FgfrBve5FZcVC2sgksk2g%3D%3D&trackingId=AOsncUfJnZK8X9e4207s%2FA%3D%3D) ![](https://media.licdn.com/dms/image/v2/D4E0BAQF5eB0KKknDeA/company-logo_100_100/company-logo_100_100/0/1710151559720/ferchau_logo?e=2147483647&v=beta&t=c7ELjXgDr5qBhInWNaSbN8iWHRRUujff5YfV6FszLAs)
+###  Testingenieur (m/w/d) Medizintechnik 
+####  [ FERCHAU ](https://de.linkedin.com/company/ferchau?trk=public_jobs_similar-jobs_main-jobs-card-subtitle)
+Mannheim    
+45.000,00 €  
+-  
+72.000,00 €  
+Vor 2 Wochen 
+  * [ Data Processing Testing Engineer  ](https://de.linkedin.com/jobs/view/data-processing-testing-engineer-at-eumetsat-4469752350?refId=x%2FgfrBve5FZcVC2sgksk2g%3D%3D&trackingId=P6dtB0U4b7XnfQJlbmbPHQ%3D%3D) ![](https://media.licdn.com/dms/image/v2/D4E0BAQGM1XySIfF-cg/company-logo_100_100/B4EZ6Ce4nIKYAI-/0/1780305595260/eumetsat_logo?e=2147483647&v=beta&t=wYfVISpiyuBHuWrNnGAJoVqZOZjoqH1BhaDcJERUttc)
+###  Data Processing Testing Engineer 
+####  [ EUMETSAT ](https://de.linkedin.com/company/eumetsat?trk=public_jobs_similar-jobs_main-jobs-card-subtitle)
+Darmstadt  Vor 4 Tagen 
+  * [ Senior QA / Test Engineer (m/w/d) Mobile & Web-Applications  ](https://de.linkedin.com/jobs/view/senior-qa-test-engineer-m-w-d-mobile-web-applications-at-solit-management-gmbh-4430198748?refId=x%2FgfrBve5FZcVC2sgksk2g%3D%3D&trackingId=xZN74u2KJQC%2BEkQmDbkYlQ%3D%3D) ![](https://media.licdn.com/dms/image/v2/C4E0BAQGvsMrDZRO9UQ/company-logo_100_100/company-logo_100_100/0/1630635475440/solit_management_gmbh_logo?e=2147483647&v=beta&t=RagPXtt49EY8dhWFR-fPpOj5FamqVagsF3WiPIgr3r0)
+###  Senior QA / Test Engineer (m/w/d) Mobile & Web-Applications 
+####  [ SOLIT Group AG ](https://ch.linkedin.com/company/solit-group-ag1?trk=public_jobs_similar-jobs_main-jobs-card-subtitle)
+Wiesbaden  Vor 3 Wochen 
+  * [ Senior QA Engineer (m/w/d)  ](https://de.linkedin.com/jobs/view/senior-qa-engineer-m-w-d-at-campoint-ag-4470182195?refId=x%2FgfrBve5FZcVC2sgksk2g%3D%3D&trackingId=iZE4MwaJJt5h17N88nTj3Q%3D%3D) ![](https://media.licdn.com/dms/image/v2/C4D0BAQGYlg_Qy406ow/company-logo_100_100/company-logo_100_100/0/1631332821151?e=2147483647&v=beta&t=3cJH3k3_AWPhmtKhhSGDdWAaRgMnuq8Owj8gyJ7ReC4)
+###  Senior QA Engineer (m/w/d) 
+####  [ campoint AG ](https://de.linkedin.com/company/campoint-ag?trk=public_jobs_similar-jobs_main-jobs-card-subtitle)
+Seligenstadt    
+60.000,00 €  
+-  
+70.000,00 €  
+Vor 3 Tagen 
+  * [ Software-/Gerätetester (w/m/d)  ](https://de.linkedin.com/jobs/view/software-ger%C3%A4tetester-w-m-d-at-kite-it-gmbh-4310379420?refId=x%2FgfrBve5FZcVC2sgksk2g%3D%3D&trackingId=zMwNW965t81l2PrnV3fF2g%3D%3D) ![](https://media.licdn.com/dms/image/v2/C4D0BAQGU6knETrUhcA/company-logo_100_100/company-logo_100_100/0/1630521134549?e=2147483647&v=beta&t=jVm48WTj8xClSZw-mx9grYTj00Ptfc5eYBYfMyS_gzw)
+###  Software-/Gerätetester (w/m/d) 
+####  [ Kite IT GmbH ](https://de.linkedin.com/company/kite-it-gmbh?trk=public_jobs_similar-jobs_main-jobs-card-subtitle)
+Mannheim  Vor 11 Monaten 
+  * [ AI QA Engineer – Conversational AI & GenAI-Automationen (m/w/d)  ](https://de.linkedin.com/jobs/view/ai-qa-engineer-%E2%80%93-conversational-ai-genai-automationen-m-w-d-at-cgi-4447592166?refId=x%2FgfrBve5FZcVC2sgksk2g%3D%3D&trackingId=uG3lmUa%2FnzINiWJfyUM%2BvA%3D%3D) ![](https://media.licdn.com/dms/image/v2/D4D0BAQFlEEdVdlT8jw/company-logo_100_100/B4DZu7jLR3GkAU-/0/1768378119780/cgi_logo?e=2147483647&v=beta&t=HYQq760PNDiwamgO6B2gjCasn_PE6odKwp9BsNv5yuI)
+###  AI QA Engineer – Conversational AI & GenAI-Automationen (m/w/d) 
+####  [ CGI ](https://ca.linkedin.com/company/cgi?trk=public_jobs_similar-jobs_main-jobs-card-subtitle)
+Eschborn  Vor 2 Wochen 
+  * [ Ingenieur (m/w/d) Testautomatisierung Cypress / Gherkin  ](https://de.linkedin.com/jobs/view/ingenieur-m-w-d-testautomatisierung-cypress-gherkin-at-ferchau-4438584295?refId=x%2FgfrBve5FZcVC2sgksk2g%3D%3D&trackingId=ALQITi4SzDUsGkCkRzodJA%3D%3D) ![](https://media.licdn.com/dms/image/v2/D4E0BAQF5eB0KKknDeA/company-logo_100_100/company-logo_100_100/0/1710151559720/ferchau_logo?e=2147483647&v=beta&t=c7ELjXgDr5qBhInWNaSbN8iWHRRUujff5YfV6FszLAs)
+###  Ingenieur (m/w/d) Testautomatisierung Cypress / Gherkin 
+####  [ FERCHAU ](https://de.linkedin.com/company/ferchau?trk=public_jobs_similar-jobs_main-jobs-card-subtitle)
+Mannheim    
+45.000,00 €  
+-  
+78.000,00 €  
+Vor 2 Wochen 
+  * [ Specialist Software & System Testing (m/w/d)  ](https://de.linkedin.com/jobs/view/specialist-software-system-testing-m-w-d-at-dpd-deutschland-4468139416?refId=x%2FgfrBve5FZcVC2sgksk2g%3D%3D&trackingId=XU00xl03MZ9nFln1w9Pjdw%3D%3D) ![](https://media.licdn.com/dms/image/v2/C4D0BAQEFOS7U0KdSgw/company-logo_100_100/company-logo_100_100/0/1630549587783/dpd_deutschland_logo?e=2147483647&v=beta&t=pEcQPhqLknzreglhVcR49o7gbFDXHk55veI0aD-YfDA)
+###  Specialist Software & System Testing (m/w/d) 
+####  [ DPD Deutschland ](https://de.linkedin.com/company/dpd-deutschland?trk=public_jobs_similar-jobs_main-jobs-card-subtitle)
+Aschaffenburg  Vor 1 Woche 
+  * [ Test Automation Engineer (all genders)  ](https://de.linkedin.com/jobs/view/test-automation-engineer-all-genders-at-msg-4369112729?refId=x%2FgfrBve5FZcVC2sgksk2g%3D%3D&trackingId=Q90ulfvuuCiscwpR3CiITQ%3D%3D) ![](https://media.licdn.com/dms/image/v2/D4E0BAQEoKStxr3LYEw/company-logo_100_100/B4EZ8diSpFJUAQ-/0/1782906956620/msggroup_logo?e=2147483647&v=beta&t=fWrJieM_3irW2JgRXHAa9ZfE4-ZWnjX6du6vYEld7Tw)
+###  Test Automation Engineer (all genders) 
+####  [ msg ](https://de.linkedin.com/company/msggroup?trk=public_jobs_similar-jobs_main-jobs-card-subtitle)
+Frankfurt am Main  Vor 7 Monaten 
+  * [ (Senior) Quality Engineer (m/w/d) in Frankfurt (Main)  ](https://de.linkedin.com/jobs/view/senior-quality-engineer-m-w-d-in-frankfurt-main-at-deloitte-4410280665?refId=x%2FgfrBve5FZcVC2sgksk2g%3D%3D&trackingId=0yQl1VQq56KSZmcJCXG9vA%3D%3D) ![](https://media.licdn.com/dms/image/v2/C560BAQGNtpblgQpJoQ/company-logo_100_100/company-logo_100_100/0/1662120928214/deloitte_logo?e=2147483647&v=beta&t=OSF8M5LreT0Sf2F-JcNk6XMT0ArCuPfDmRR-knCC4HY)
+###  (Senior) Quality Engineer (m/w/d) in Frankfurt (Main) 
+####  [ Deloitte ](https://www.linkedin.com/company/deloitte?trk=public_jobs_similar-jobs_main-jobs-card-subtitle)
+Frankfurt  Vor 2 Wochen 
+  * [ Systemtester (w/m/d)  ](https://de.linkedin.com/jobs/view/systemtester-w-m-d-at-kite-it-gmbh-4310364563?refId=x%2FgfrBve5FZcVC2sgksk2g%3D%3D&trackingId=84dO2eAY7jJXAaQtQ3C5qA%3D%3D) ![](https://media.licdn.com/dms/image/v2/C4D0BAQGU6knETrUhcA/company-logo_100_100/company-logo_100_100/0/1630521134549?e=2147483647&v=beta&t=jVm48WTj8xClSZw-mx9grYTj00Ptfc5eYBYfMyS_gzw)
+###  Systemtester (w/m/d) 
+####  [ Kite IT GmbH ](https://de.linkedin.com/company/kite-it-gmbh?trk=public_jobs_similar-jobs_main-jobs-card-subtitle)
+Mannheim  Vor 11 Monaten 
+  * [ Android Test Automation Engineer (m/w/d)  ](https://de.linkedin.com/jobs/view/android-test-automation-engineer-m-w-d-at-edeka-it-4452262260?refId=x%2FgfrBve5FZcVC2sgksk2g%3D%3D&trackingId=F2JY9K%2FYIKSzDVhHLpatOw%3D%3D) ![](https://media.licdn.com/dms/image/v2/D4D0BAQHfyjo5icfabg/company-logo_100_100/B4DZfqKT06GgAQ-/0/1751980261058/edeka_it_logo?e=2147483647&v=beta&t=QgBmylDRBUHaSv2mldMxjB-J-zY93GdYZpi8HS60xiw)
+###  Android Test Automation Engineer (m/w/d) 
+####  [ EDEKA IT ](https://de.linkedin.com/company/edeka-it?trk=public_jobs_similar-jobs_main-jobs-card-subtitle)
+Mannheim  Vor 1 Monat 
+
+Weitere ähnliche Jobs anzeigen  Weniger ähnliche Jobs anzeigen 
+##  Ebenfalls angesehen 
+  * [ Fachlicher Software Tester (m/w/d)  ](https://de.linkedin.com/jobs/view/fachlicher-software-tester-m-w-d-at-symbio-4465780343?refId=x%2FgfrBve5FZcVC2sgksk2g%3D%3D&trackingId=eG2DeWmFhYuzWkeMlHWbVA%3D%3D)
+###  Fachlicher Software Tester (m/w/d) 
+[ SymBio. ](https://de.linkedin.com/company/symbio-recruitment-gmbh?trk=public_jobs_people-also-viewed_aside-job-card-subtitle)
+Darmstadt  Vor 2 Wochen 
+  * [ Software Quality Lead – QA & Test Management (m/w/d)  ](https://de.linkedin.com/jobs/view/software-quality-lead-%E2%80%93-qa-test-management-m-w-d-at-trendtours-touristik-gmbh-4462207922?refId=x%2FgfrBve5FZcVC2sgksk2g%3D%3D&trackingId=%2FGGP%2FHIsgHxdq0r7ZZcmFQ%3D%3D)
+###  Software Quality Lead – QA & Test Management (m/w/d) 
+[ trendtours Touristik GmbH ](https://de.linkedin.com/company/trendtours-group?trk=public_jobs_people-also-viewed_aside-job-card-subtitle)
+Eschborn  Vor 3 Wochen 
+  * [ Technical Embedded QA Specialist I  ](https://de.linkedin.com/jobs/view/technical-embedded-qa-specialist-i-at-cloud-imperium-games-4464826672?refId=x%2FgfrBve5FZcVC2sgksk2g%3D%3D&trackingId=ZPrNntYFylIPLZylzuc5dg%3D%3D)
+###  Technical Embedded QA Specialist I 
+[ Cloud Imperium Games ](https://uk.linkedin.com/company/cloud-imperium-games?trk=public_jobs_people-also-viewed_aside-job-card-subtitle)
+Frankfurt am Main  Vor 2 Wochen 
+  * [ IT Software Tester (m/w/d) komplexe Altersvorsorgeprodukte  ](https://de.linkedin.com/jobs/view/it-software-tester-m-w-d-komplexe-altersvorsorgeprodukte-at-union-investment-4472736300?refId=x%2FgfrBve5FZcVC2sgksk2g%3D%3D&trackingId=n6uJ%2FQsHRaankwQClJ7Z7g%3D%3D)
+###  IT Software Tester (m/w/d) komplexe Altersvorsorgeprodukte 
+[ Union Investment ](https://de.linkedin.com/company/union-investment?trk=public_jobs_people-also-viewed_aside-job-card-subtitle)
+Frankfurt am Main  Vor 17 Stunden 
+  * [ Quality Engineer (m/w/d)  ](https://de.linkedin.com/jobs/view/quality-engineer-m-w-d-at-aip-services-gmbh-4437355222?refId=x%2FgfrBve5FZcVC2sgksk2g%3D%3D&trackingId=n%2BE8oaxpj3FHjMQT1ZkSrA%3D%3D)
+###  Quality Engineer (m/w/d) 
+[ AIP SERVICES GmbH ](https://de.linkedin.com/company/metrica-services-gmbh?trk=public_jobs_people-also-viewed_aside-job-card-subtitle)
+Altenstadt  Vor 2 Monaten 
+  * [ Quality Engineer  ](https://de.linkedin.com/jobs/view/quality-engineer-at-mercury-4412684212?refId=x%2FgfrBve5FZcVC2sgksk2g%3D%3D&trackingId=zpvH1dc6x5qVH%2BvpZTO3IA%3D%3D)
+###  Quality Engineer 
+[ Mercury ](https://ie.linkedin.com/company/mercury-engineering?trk=public_jobs_people-also-viewed_aside-job-card-subtitle)
+Frankfurt  Vor 1 Woche 
+  * [ Quality Engineer (m/w/d)  ](https://de.linkedin.com/jobs/view/quality-engineer-m-w-d-at-bertrandt-group-4465782668?refId=x%2FgfrBve5FZcVC2sgksk2g%3D%3D&trackingId=3GiCF5dxpax3cp%2Fhc0kMqA%3D%3D)
+###  Quality Engineer (m/w/d) 
+[ Bertrandt Group ](https://de.linkedin.com/company/bertrandt-ag?trk=public_jobs_people-also-viewed_aside-job-card-subtitle)
+Mannheim  Vor 2 Wochen 
+  * [ Quality Engineer (m/f/d) Customer Support  ](https://de.linkedin.com/jobs/view/quality-engineer-m-f-d-customer-support-at-lg-vehicle-solution-global-1515199825?refId=x%2FgfrBve5FZcVC2sgksk2g%3D%3D&trackingId=b%2Fu0qGgcQ%2BnxEcx3bJ%2BbEw%3D%3D)
+###  Quality Engineer (m/f/d) Customer Support 
+[ LG Vehicle Solution Global ](https://kr.linkedin.com/company/lgvehiclesolution?trk=public_jobs_people-also-viewed_aside-job-card-subtitle)
+Frankfurt  Vor 2 Wochen 
+  * [ Quality Engineer MedTech (m/w/d)  ](https://de.linkedin.com/jobs/view/quality-engineer-medtech-m-w-d-at-agap2-germany-4466526865?refId=x%2FgfrBve5FZcVC2sgksk2g%3D%3D&trackingId=jvLTNkJ8A%2F3rdoUHrF3Vyg%3D%3D)
+###  Quality Engineer MedTech (m/w/d) 
+[ agap2 Deutschland ](https://de.linkedin.com/company/agap2-germany?trk=public_jobs_people-also-viewed_aside-job-card-subtitle)
+Frankfurt/Rhein-Main  Vor 1 Woche 
+  * [ Experte Quality Assurance (m/w/d) – Softwareentwicklung – Mannheim  ](https://de.linkedin.com/jobs/view/experte-quality-assurance-m-w-d-%E2%80%93-softwareentwicklung-%E2%80%93-mannheim-at-stadler-4464864020?refId=x%2FgfrBve5FZcVC2sgksk2g%3D%3D&trackingId=a%2FBCiQSV4Thw9%2BPXKsBZsw%3D%3D)
+###  Experte Quality Assurance (m/w/d) – Softwareentwicklung – Mannheim 
+[ Stadler ](https://ch.linkedin.com/company/stadler-rail?trk=public_jobs_people-also-viewed_aside-job-card-subtitle)
+Mannheim  Vor 10 Stunden 
+
+
+##  Ähnliche Suchen 
+  * ### [ Softwaretester-Jobs  1.354 freie Stellen  ](https://de.linkedin.com/jobs/softwaretester-stellen?trk=public_jobs_full-click)
+  * ### [ Entwickler-Jobs  21.496 freie Stellen  ](https://de.linkedin.com/jobs/entwickler-stellen?trk=public_jobs_full-click)
+  * ### [ Scrum Master-Jobs  11.771 freie Stellen  ](https://de.linkedin.com/jobs/scrum-master-stellen?trk=public_jobs_full-click)
+  * ### [ Spieleentwickler-Jobs  15 freie Stellen  ](https://de.linkedin.com/jobs/spieleentwickler-stellen?trk=public_jobs_full-click)
+  * ### [ Android-Entwickler-Jobs  3.074 freie Stellen  ](https://de.linkedin.com/jobs/android-entwickler-stellen?trk=public_jobs_full-click)
+  * ### [ Analyst-Jobs  54.870 freie Stellen  ](https://de.linkedin.com/jobs/analyst-stellen?trk=public_jobs_full-click)
+  * ### [ Technischer Berater-Jobs  5.790 freie Stellen  ](https://de.linkedin.com/jobs/technischer-berater-stellen?trk=public_jobs_full-click)
+  * ### [ Labortechniker-Jobs  1.830 freie Stellen  ](https://de.linkedin.com/jobs/labortechniker-stellen?trk=public_jobs_full-click)
+  * ### [ PHP-Entwickler-Jobs  3.842 freie Stellen  ](https://de.linkedin.com/jobs/php-entwickler-stellen?trk=public_jobs_full-click)
+  * ### [ Java-Entwickler-Jobs  7.284 freie Stellen  ](https://de.linkedin.com/jobs/java-entwickler-stellen?trk=public_jobs_full-click)
+  * ### [ Informatik-Jobs  68.181 freie Stellen  ](https://de.linkedin.com/jobs/informatik-stellen?trk=public_jobs_full-click)
+  * ### [ Wissenschaftler-Jobs  647 freie Stellen  ](https://de.linkedin.com/jobs/wissenschaftler-stellen?trk=public_jobs_full-click)
+  * ### [ Business Analyst-Jobs  5.224 freie Stellen  ](https://de.linkedin.com/jobs/business-analyst-stellen?trk=public_jobs_full-click)
+  * ### [ Entwicklungsingenieur-Jobs  33.377 freie Stellen  ](https://de.linkedin.com/jobs/entwicklungsingenieur-stellen?trk=public_jobs_full-click)
+  * ### [ Online-Marketing-Jobs  10.218 freie Stellen  ](https://de.linkedin.com/jobs/online-marketing-stellen?trk=public_jobs_full-click)
+  * ### [ Klavierlehrer-Jobs  22 freie Stellen  ](https://de.linkedin.com/jobs/klavierlehrer-stellen?trk=public_jobs_full-click)
+  * ### [ Linux-Administrator-Jobs  1.565 freie Stellen  ](https://de.linkedin.com/jobs/linux-administrator-stellen?trk=public_jobs_full-click)
+  * ### [ Projektmanager-Jobs  15.641 freie Stellen  ](https://de.linkedin.com/jobs/projektmanager-stellen?trk=public_jobs_full-click)
+  * ### [ Deutschlehrer-Jobs  117 freie Stellen  ](https://de.linkedin.com/jobs/deutschlehrer-stellen?trk=public_jobs_full-click)
+  * ### [ ABAP-Jobs  11.643 freie Stellen  ](https://de.linkedin.com/jobs/abap-stellen?trk=public_jobs_full-click)
+  * ### [ IT-Projektmanager-Jobs  4.423 freie Stellen  ](https://de.linkedin.com/jobs/it-projektmanager-stellen?trk=public_jobs_full-click)
+  * ### [ IT-Koordinator-Jobs  3.817 freie Stellen  ](https://de.linkedin.com/jobs/it-koordinator-stellen?trk=public_jobs_full-click)
+  * ### [ Sicherheitsingenieur-Jobs  4.509 freie Stellen  ](https://de.linkedin.com/jobs/sicherheitsingenieur-stellen?trk=public_jobs_full-click)
+  * ### [ IT-Administrator-Jobs  9.513 freie Stellen  ](https://de.linkedin.com/jobs/it-administrator-stellen?trk=public_jobs_full-click)
+  * ### [ IT-Berater-Jobs  25.984 freie Stellen  ](https://de.linkedin.com/jobs/it-berater-stellen?trk=public_jobs_full-click)
+
+Mehr anzeigen  Weniger anzeigen 
+Weitere Suchen  Weitere Suchen 
+  *     * [ Softwaretester-Jobs ](https://de.linkedin.com/jobs/softwaretester-stellen?trk=public_jobs_linkster_link)
+    * [ Studydrive-Jobs ](https://de.linkedin.com/jobs/studydrive-stellen?trk=public_jobs_linkster_link)
+    * [ Entwickler-Jobs ](https://de.linkedin.com/jobs/entwickler-stellen?trk=public_jobs_linkster_link)
+    * [ Wunderflats-Jobs ](https://de.linkedin.com/jobs/wunderflats-stellen?trk=public_jobs_linkster_link)
+    * [ TeleClinic-Jobs ](https://de.linkedin.com/jobs/teleclinic-stellen?trk=public_jobs_linkster_link)
+    * [ Scrum Master-Jobs ](https://de.linkedin.com/jobs/scrum-master-stellen?trk=public_jobs_linkster_link)
+    * [ Spieleentwickler-Jobs ](https://de.linkedin.com/jobs/spieleentwickler-stellen?trk=public_jobs_linkster_link)
+    * [ Android-Entwickler-Jobs ](https://de.linkedin.com/jobs/android-entwickler-stellen?trk=public_jobs_linkster_link)
+    * [ Analyst-Jobs ](https://de.linkedin.com/jobs/analyst-stellen?trk=public_jobs_linkster_link)
+    * [ Technischer Berater-Jobs ](https://de.linkedin.com/jobs/technischer-berater-stellen?trk=public_jobs_linkster_link)
+    * [ Labortechniker-Jobs ](https://de.linkedin.com/jobs/labortechniker-stellen?trk=public_jobs_linkster_link)
+    * [ Cognizant-Jobs ](https://de.linkedin.com/jobs/cognizant-stellen?trk=public_jobs_linkster_link)
+    * [ PHP-Entwickler-Jobs ](https://de.linkedin.com/jobs/php-entwickler-stellen?trk=public_jobs_linkster_link)
+    * [ Java-Entwickler-Jobs ](https://de.linkedin.com/jobs/java-entwickler-stellen?trk=public_jobs_linkster_link)
+    * [ HOMAG-Jobs ](https://de.linkedin.com/jobs/homag-stellen?trk=public_jobs_linkster_link)
+    * [ foodspring-Jobs ](https://de.linkedin.com/jobs/foodspring-stellen?trk=public_jobs_linkster_link)
+    * [ Europa-Park Resort-Jobs ](https://de.linkedin.com/jobs/europa-park-resort-stellen?trk=public_jobs_linkster_link)
+    * [ Informatik-Jobs ](https://de.linkedin.com/jobs/informatik-stellen?trk=public_jobs_linkster_link)
+    * [ CGI-Jobs ](https://de.linkedin.com/jobs/cgi-stellen?trk=public_jobs_linkster_link)
+    * [ Delivery Hero SE-Jobs ](https://de.linkedin.com/jobs/delivery-hero-se-stellen?trk=public_jobs_linkster_link)
+    * [ Wissenschaftler-Jobs ](https://de.linkedin.com/jobs/wissenschaftler-stellen?trk=public_jobs_linkster_link)
+    * [ Business Analyst-Jobs ](https://de.linkedin.com/jobs/business-analyst-stellen?trk=public_jobs_linkster_link)
+    * [ Salesforce-Jobs ](https://de.linkedin.com/jobs/salesforce-stellen?trk=public_jobs_linkster_link)
+    * [ IBM-Jobs ](https://de.linkedin.com/jobs/ibm-stellen?trk=public_jobs_linkster_link)
+    * [ Entwicklungsingenieur-Jobs ](https://de.linkedin.com/jobs/entwicklungsingenieur-stellen?trk=public_jobs_linkster_link)
+    * [ Capco-Jobs ](https://de.linkedin.com/jobs/capco-stellen?trk=public_jobs_linkster_link)
+    * [ Debeka-Jobs ](https://de.linkedin.com/jobs/debeka-stellen?trk=public_jobs_linkster_link)
+    * [ Software AG-Jobs ](https://de.linkedin.com/jobs/software-ag-stellen?trk=public_jobs_linkster_link)
+    * [ Deutsche Rentenversicherung Bund-Jobs ](https://de.linkedin.com/jobs/deutsche-rentenversicherung-bund-stellen?trk=public_jobs_linkster_link)
+    * [ Amazon-Jobs ](https://de.linkedin.com/jobs/amazon-stellen?trk=public_jobs_linkster_link)
+    * [ Google-Jobs ](https://de.linkedin.com/jobs/google-stellen?trk=public_jobs_linkster_link)
+    * [ Online-Marketing-Jobs ](https://de.linkedin.com/jobs/online-marketing-stellen?trk=public_jobs_linkster_link)
+    * [ Klavierlehrer-Jobs ](https://de.linkedin.com/jobs/klavierlehrer-stellen?trk=public_jobs_linkster_link)
+    * [ Linux-Administrator-Jobs ](https://de.linkedin.com/jobs/linux-administrator-stellen?trk=public_jobs_linkster_link)
+    * [ Projektmanager-Jobs ](https://de.linkedin.com/jobs/projektmanager-stellen?trk=public_jobs_linkster_link)
+    * [ Sopra Steria-Jobs ](https://de.linkedin.com/jobs/sopra-steria-stellen?trk=public_jobs_linkster_link)
+    * [ Swift-Jobs ](https://de.linkedin.com/jobs/swift-stellen?trk=public_jobs_linkster_link)
+    * [ ARAG-Jobs ](https://de.linkedin.com/jobs/arag-stellen?trk=public_jobs_linkster_link)
+    * [ ERNI-Jobs ](https://de.linkedin.com/jobs/erni-stellen?trk=public_jobs_linkster_link)
+    * [ Retarus-Jobs ](https://de.linkedin.com/jobs/retarus-stellen?trk=public_jobs_linkster_link)
+    * [ Deutschlehrer-Jobs ](https://de.linkedin.com/jobs/deutschlehrer-stellen?trk=public_jobs_linkster_link)
+    * [ HOERBIGER-Jobs ](https://de.linkedin.com/jobs/hoerbiger-stellen?trk=public_jobs_linkster_link)
+    * [ ABAP-Jobs ](https://de.linkedin.com/jobs/abap-stellen?trk=public_jobs_linkster_link)
+    * [ Ubisoft-Jobs ](https://de.linkedin.com/jobs/ubisoft-stellen?trk=public_jobs_linkster_link)
+    * [ IT-Projektmanager-Jobs ](https://de.linkedin.com/jobs/it-projektmanager-stellen?trk=public_jobs_linkster_link)
+    * [ LEONI-Jobs ](https://de.linkedin.com/jobs/leoni-stellen?trk=public_jobs_linkster_link)
+    * [ IT-Koordinator-Jobs ](https://de.linkedin.com/jobs/it-koordinator-stellen?trk=public_jobs_linkster_link)
+    * [ Sicherheitsingenieur-Jobs ](https://de.linkedin.com/jobs/sicherheitsingenieur-stellen?trk=public_jobs_linkster_link)
+    * [ IT-Administrator-Jobs ](https://de.linkedin.com/jobs/it-administrator-stellen?trk=public_jobs_linkster_link)
+    * [ IT-Berater-Jobs ](https://de.linkedin.com/jobs/it-berater-stellen?trk=public_jobs_linkster_link)
+    * [ Immobiliengutachter-Jobs ](https://de.linkedin.com/jobs/immobiliengutachter-stellen?trk=public_jobs_linkster_link)
+    * [ Kunsttherapeut-Jobs ](https://de.linkedin.com/jobs/kunsttherapeut-stellen?trk=public_jobs_linkster_link)
+    * [ Recruiter-Jobs ](https://de.linkedin.com/jobs/recruiter-stellen?trk=public_jobs_linkster_link)
+    * [ DocuWare-Jobs ](https://de.linkedin.com/jobs/docuware-stellen?trk=public_jobs_linkster_link)
+    * [ Pilz-Jobs ](https://de.linkedin.com/jobs/pilz-stellen?trk=public_jobs_linkster_link)
+    * [ Atos-Jobs ](https://de.linkedin.com/jobs/atos-stellen?trk=public_jobs_linkster_link)
+    * [ Drehbuchautor-Jobs ](https://de.linkedin.com/jobs/drehbuchautor-stellen?trk=public_jobs_linkster_link)
+    * [ Werkstoffingenieur-Jobs ](https://de.linkedin.com/jobs/werkstoffingenieur-stellen?trk=public_jobs_linkster_link)
+    * [ Verkehrsingenieur-Jobs ](https://de.linkedin.com/jobs/verkehrsingenieur-stellen?trk=public_jobs_linkster_link)
+    * [ trivago-Jobs ](https://de.linkedin.com/jobs/trivago-stellen?trk=public_jobs_linkster_link)
+
+
+  * LinkedIn © 2026
+  * [ Info ](https://about.linkedin.com?trk=d_jobs_guest_details_footer-about)
+  * [ Barrierefreiheit ](https://www.linkedin.com/accessibility?trk=d_jobs_guest_details_footer-accessibility)
+  * [ Nutzervereinbarung ](https://www.linkedin.com/legal/user-agreement?trk=d_jobs_guest_details_footer-user-agreement)
+  * [ Datenschutzrichtlinie ](https://www.linkedin.com/legal/privacy-policy?trk=d_jobs_guest_details_footer-privacy-policy)
+  * [ Cookie-Richtlinie ](https://www.linkedin.com/legal/cookie-policy?trk=d_jobs_guest_details_footer-cookie-policy)
+  * [ Copyright-Richtlinie ](https://www.linkedin.com/legal/copyright-policy?trk=d_jobs_guest_details_footer-copyright-policy)
+  * [ Markenrichtlinine ](https://brand.linkedin.com/policies?trk=d_jobs_guest_details_footer-brand-policy)
+  * [ Einstellungen für Nichtmitglieder ](https://www.linkedin.com/psettings/guest-controls?trk=d_jobs_guest_details_footer-guest-controls)
+  * [ Community-Richtlinien ](https://www.linkedin.com/legal/professional-community-policies?trk=d_jobs_guest_details_footer-community-guide)
+  *     * العربية (Arabisch) 
+    * বাংলা (Bengali) 
+    * Čeština (Tschechisch) 
+    * Dansk (Dänisch) 
+    * **Deutsch**
+    * Ελανεκα (Griechisch) 
+    * English (Englisch) 
+    * Español (Spanisch) 
+    * فارسی (Persisch) 
+    * Suomi (Finnisch) 
+    * Français (Französisch) 
+    * हिंदी (Hindi) 
+    * Magyar (Ungarisch) 
+    * Bahasa Indonesia (Indonesisch) 
+    * Italiano (Italienisch) 
+    * עברית (Hebräisch) 
+    * 日本語 (Japanisch) 
+    * 한국어 (Koreanisch) 
+    * मराठी (Marathi) 
+    * Bahasa Malaysia (Malaysisch) 
+    * Nederlands (Niederländisch) 
+    * Norsk (Norwegisch) 
+    * ਪੰਜਾਬੀ (Punjabi) 
+    * Polski (Polnisch) 
+    * Português (Portugiesisch) 
+    * Română (Rumänisch) 
+    * Русский (Russisch) 
+    * Svenska (Schwedisch) 
+    * తెలుగు (Telugu) 
+    * ภาษาไทย (Thai) 
+    * Tagalog (Tagalog) 
+    * Türkçe (Türkisch) 
+    * Українська (Ukrainisch) 
+    * Tiếng Việt (Vietnamesisch) 
+    * 简体中文 (Chinesisch vereinfacht) 
+    * 正體中文 (Chinesisch traditionell) 
+Sprache 
+
+
+Zustimmen und LinkedIn beitreten 
+Wenn Sie auf „Weiter“ klicken, um Mitglied zu werden oder sich einzuloggen, stimmen Sie der [Nutzervereinbarung](https://de.linkedin.com/legal/user-agreement?trk=linkedin-tc_auth-button_user-agreement), der [Datenschutzrichtlinie](https://de.linkedin.com/legal/privacy-policy?trk=linkedin-tc_auth-button_privacy-policy) und der [Cookie-Richtlinie](https://de.linkedin.com/legal/cookie-policy?trk=linkedin-tc_auth-button_cookie-policy) von LinkedIn zu. 
+`` ``
+`` ``
+![](https://media.licdn.com/dms/image/v2/C560BAQFRSK6ava5TmQ/company-logo_100_100/company-logo_100_100/0/1630602101499/compeople_ag_logo?e=2147483647&v=beta&t=f5TZ1WkyHs7fCfagQKlsxuFPQaUXtqP36gx4isrw49c)
+##  Einloggen, um zu sehen, wen Sie bei compeople AG bereits kennen 
+`` `` `` `` `` ``
+E-Mail-Adresse/Telefon 
+Passwort 
+Einblenden
+[Passwort vergessen?](https://www.linkedin.com/uas/request-password-reset?trk=csm-v2_forgot_password) Einloggen 
+Mit E-Mail einloggen
+oder 
+Neu bei LinkedIn? [Mitglied werden](https://www.linkedin.com/signup/cold-join?source=jobs_registration&trk=public_jobs_contextual-sign-in-modal_join-link)
+Wenn Sie auf „Weiter“ klicken, um Mitglied zu werden oder sich einzuloggen, stimmen Sie der [Nutzervereinbarung](https://de.linkedin.com/legal/user-agreement?trk=linkedin-tc_auth-button_user-agreement), der [Datenschutzrichtlinie](https://de.linkedin.com/legal/privacy-policy?trk=linkedin-tc_auth-button_privacy-policy) und der [Cookie-Richtlinie](https://de.linkedin.com/legal/cookie-policy?trk=linkedin-tc_auth-button_cookie-policy) von LinkedIn zu. 

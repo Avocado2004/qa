@@ -1,0 +1,12 @@
+{
+  "attempts": [
+    {
+      "at": "2026-09-25T10:56:14.208292+00:00",
+      "error": "Camofox preflight: fewer than two analyzable direct cards",
+      "method": "camofox",
+      "status": "failed"
+    }
+  ],
+  "cycle_id": "2026-09-25_cycle-30",
+  "source_id": "stepstone.de"
+}

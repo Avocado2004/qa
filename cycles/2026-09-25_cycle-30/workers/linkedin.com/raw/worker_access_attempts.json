@@ -1,0 +1,10 @@
+{
+  "attempts": [
+    {
+      "method": "http",
+      "status": "pass"
+    }
+  ],
+  "cycle_id": "2026-09-25_cycle-30",
+  "source_id": "linkedin.com"
+}

@@ -1,0 +1,44 @@
+{
+  "checked_at": "2026-09-25T16:13:20.881673+00:00",
+  "evidence": {
+    "access_method": "crawl4ai",
+    "attempts": [
+      {
+        "at": "2026-09-25T16:12:02.945023+00:00",
+        "error": "Camofox HTTP 500 for GET /tabs/12af0533-e647-4a0c-b426-c395498319b9/snapshot",
+        "method": "camofox",
+        "status": "failed"
+      },
+      {
+        "method": "crawl4ai",
+        "status": "pass"
+      }
+    ],
+    "cards_analyzable": 20,
+    "cards_found": 20,
+    "operations": [
+      {
+        "op": "listing",
+        "status": 200
+      },
+      {
+        "chars": 2406,
+        "op": "card-1",
+        "url": "https://www.xing.com/recruiting/jobs/create?sc_cmp=oow5eb8bc92"
+      },
+      {
+        "op": "return",
+        "status": 200
+      },
+      {
+        "chars": 17931,
+        "op": "card-2",
+        "url": "https://www.xing.com/jobs/hamburg-recruiter-157424165"
+      }
+    ],
+    "primary_or_fallback": "crawl4ai",
+    "status": "pass"
+  },
+  "listing": "https://www.xing.com/jobs/search",
+  "verdict": "PASS"
+}

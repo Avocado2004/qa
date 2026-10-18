@@ -1,0 +1,33 @@
+{
+  "additions": [],
+  "created_at": "2026-09-25T15:26:17.267840+00:00",
+  "cycle_id": "2026-09-25_cycle-34",
+  "evidence": {
+    "live_retrieval": "completed",
+    "model_evidence": [
+      {
+        "finding": "The supplied search evidence contains no candidate exposing both a real vacancy listing/API and individual direct QA/test vacancy cards for Berlin, Leipzig, Dresden, or explicitly Germany-wide remote work.",
+        "queries": [
+          "Softwaretester Berlin Stellenangebote",
+          "Qualitätssicherung Dresden Job",
+          "Game QA Leipzig Job",
+          "Testautomatisierung Deutschland Remote Job",
+          "QA Engineer Germany Stellenanzeige"
+        ],
+        "type": "discovery_completed"
+      },
+      {
+        "classification": "rejected",
+        "reason": "The result title/snippet identifies a Germany QA jobs listing, but the supplied evidence exposes no direct vacancy cards or detail URLs and does not establish explicit Germany-wide remote eligibility or a qualifying target-city card.",
+        "url": "https://www.jobvector.de/jobs/qa/deutschland/"
+      },
+      {
+        "classification": "rejected",
+        "reason": "The remaining supplied results concern forums, translation services, games, educational material, dictionaries, or general QA information rather than German vacancy listings with direct cards."
+      }
+    ],
+    "retrieval_artifact": "/opt/data/qa-vacancy-project/cycles/2026-09-25_cycle-34/source_discovery_retrieval.json",
+    "retrieved_result_count": 50
+  },
+  "verdict": "pass"
+}

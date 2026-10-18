@@ -1,0 +1,27 @@
+{
+  "url": "https://www.arbeitnow.com/jobs/companies/perplexity/member-of-technical-staff-machine-learning-research-engineer-berlin-482658",
+  "title": "Member of Technical Staff (Machine Learning Research Engineer)",
+  "company": "Perplexity",
+  "location": "Berlin",
+  "posted": "1790282407",
+  "work_mode": "Unknown",
+  "announcement": "Just a moment... Enable JavaScript and cookies to continue",
+  "http_status": 429,
+  "sha256": "3f5b91d74421d705558d73f6805a939b10de56cee5207c5b3e8fea041bf8851b",
+  "source_record": {
+    "slug": "member-of-technical-staff-machine-learning-research-engineer-berlin-482658",
+    "company_name": "Perplexity",
+    "title": "Member of Technical Staff (Machine Learning Research Engineer)",
+    "description": "<p style=\"min-height:1.5em\">Perplexity is seeking an experienced Machine Learning Research Engineer to help build the next generation of advanced search technologies, with a focus on retrieval and ranking.</p><p style=\"min-height:1.5em\"><strong>Responsibilities</strong></p><ul style=\"min-height:1.5em\"><li><p style=\"min-height:1.5em\">Relentlessly push search quality forward — through models, data, tools, or any other leverage available</p></li><li><p style=\"min-height:1.5em\">Architect and build core components of the search platform and model stack</p></li><li><p style=\"min-height:1.5em\">Design, train, and optimize large-scale deep learning models using frameworks like PyTorch, leveraging distributed training (e.g., PyTorch Distributed, DeepSpeed, FSDP) and hardware acceleration, with a focus on retrieval and ranking models</p></li><li><p style=\"min-height:1.5em\">Conduct advanced research in representation learning, including contrastive learning, multilingual, and multimodal modeling for search and retrieval</p></li><li><p style=\"min-height:1.5em\">Deploy models — from boosting algorithms to LLMs — in a scalable and performant way</p></li><li><p style=\"min-height:1.5em\">Build and optimize RAG pipelines for grounding and answer generation</p></li><li><p style=\"min-height:1.5em\">Collaborate with Data, AI, Infrastructure, and Product teams to ensure fast and high-quality delivery</p></li></ul><p style=\"min-height:1.5em\"><strong>Qualifications</strong></p><ul style=\"min-height:1.5em\"><li><p style=\"min-height:1.5em\">Deep understanding of search and retrieval systems, including quality evaluation principles and metrics</p></li><li><p style=\"min-height:1.5em\">Proven track record with large-scale search or recommender systems</p></li><li><p style=\"min-height:1.5em\">Strong proficiency with PyTorch, including experience in distributed training techniques and performance optimization for large models</p></li><li><p style=\"min-height:1.5em\">Expertise in representation learning, including contrastive learning and embedding space alignment for multilingual and multimodal applications</p></li><li><p style=\"min-height:1.5em\">Strong publication record in AI/ML conferences or workshops (e.g., NeurIPS, ICML, ICLR, ACL, CVPR, SIGIR)</p></li><li><p style=\"min-height:1.5em\">Self-driven, with a strong sense of ownership and execution</p></li><li><p style=\"min-height:1.5em\">Minimum of 3 years (preferably 5+) working on search, recommender systems, or closely related research areas</p></li></ul><p>Find <a href=\"https://www.arbeitnow.com\">Jobs in Germany</a> on Arbeitnow</a>",
+    "remote": false,
+    "url": "https://www.arbeitnow.com/jobs/companies/perplexity/member-of-technical-staff-machine-learning-research-engineer-berlin-482658",
+    "tags": [
+      "Search"
+    ],
+    "job_types": [
+      "Full Time"
+    ],
+    "location": "Berlin",
+    "created_at": 1790282407
+  }
+}

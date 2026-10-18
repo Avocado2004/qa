@@ -1,0 +1,43 @@
+{
+  "url": "https://www.arbeitnow.com/jobs/companies/autonomous-teaming/senior-unreal-engine-developer-synthetic-data-ai-simulation-munich-deu-348697",
+  "title": "Senior Unreal Engine Developer – Synthetic Data & AI Simulation",
+  "company": "autonomous-teaming",
+  "location": "Munich (DEU)",
+  "posted": "1790302193",
+  "work_mode": "Unknown",
+  "announcement": "Just a moment... Enable JavaScript and cookies to continue",
+  "http_status": 429,
+  "sha256": "105075ff44a98807f0084e41ee3e38801db4ac714b2dc12f7fca403188f2c350",
+  "source_record": {
+    "slug": "senior-unreal-engine-developer-synthetic-data-ai-simulation-munich-deu-348697",
+    "company_name": "autonomous-teaming",
+    "title": "Senior Unreal Engine Developer – Synthetic Data & AI Simulation",
+    "description": "<br><strong>What we offer</strong><p><ul><li>Work in an international, agile team creating the future of autonomous systems</li><li>Grow your career in a expanding and ambitious engineering team</li><li>Build innovative products using state-of-the-art technologies in AI, robotics, and autonomy</li><li>Benefit from a steep learning curve and continuous development</li><li>Enjoy team events and a strong, collaborative culture</li></ul></p><br><strong>Your mission</strong><p><ul><li>Develop scalable synthetic data generation pipelines using Unreal Engine 5</li><li>Design, build, and maintain high-quality Unreal Engine systems using C++, Python, Blueprints, and custom plugins</li><li>Develop tools and automation to improve simulation workflows and dataset generation</li><li>Create, integrate, and optimize realistic environments, assets, and rendering pipelines</li><li>Work extensively with Blender and 3D assets to build high-quality simulation environments</li><li>Generate synthetic datasets for computer vision applications including object detection, tracking, segmentation, and sensor simulation</li><li>Collaborate closely with AI, robotics, and computer vision engineers to continuously improve data quality and simulation realism</li><li>Optimize performance, scalability, and maintainability across the simulation pipeline</li></ul></p><br><strong>Your profile</strong><p><ul><li>4+ years of professional experience developing software with Unreal Engine, game engines, simulation platforms, or comparable real-time 3D environments (Exceptional senior candidates are also encouraged to apply)</li><li>Strong professional experience developing with C++  </li><li>Strong Python programming skills for tooling, automation, and pipeline development</li><li>Practical experience using Blender for creating, editing, or optimizing 3D assets</li><li>Solid experience with Unreal Engine 5, including: C++ development, Plugin development, Blueprints, Asset integration</li><li>Experience building production-quality software rather than academic or hobby projects</li><li>Good understanding of rendering pipelines, simulation environments, or synthetic data generation</li><li>Familiarity with Git and collaborative software development workflows</li></ul></p><br><strong>Nice to have</strong><p><ul><li>Experience with synthetic data generation for AI or computer vision applications</li><li>Familiarity with robotics, autonomous systems, or simulation environments</li><li>Experience with procedural generation, digital twins, or geospatial datasets</li><li>Experience working with cloud platforms such as AWS or StackIT </li></ul></p><br><strong>What else</strong><p><ul><li>Intrinsic motivation, attention to detail, and strong problem-solving mindset</li><li>Creative thinker with a structured and systematic approach</li><li>Humble and collaborative — prioritizes collective success over individual recognition</li><li>High ethical standards and disciplined work ethic</li><li>Extra-curricular leadership or achievements are a bonus</li><li>Fluent in English, German is a plus</li><li>Nationality of a NATO member nation or close ally is required</li></ul></p><p>Find <a href=\"https://www.arbeitnow.com\">Jobs in Germany</a> on Arbeitnow</a>",
+    "remote": false,
+    "url": "https://www.arbeitnow.com/jobs/companies/autonomous-teaming/senior-unreal-engine-developer-synthetic-data-ai-simulation-munich-deu-348697",
+    "tags": [
+      "Unreal Engine 5",
+      "UE5",
+      "Blueprint",
+      "Computer Vision",
+      "C++",
+      "Python",
+      "Plugin Development",
+      "Synthetic Data",
+      "Real-Time Rendering",
+      "Simulation",
+      "Blender",
+      "Asset Integration",
+      "Dataset Generation",
+      "Procedural Generation",
+      "Rendering Pipelines"
+    ],
+    "job_types": [
+      "Experienced",
+      "Permanent",
+      "Full time"
+    ],
+    "location": "Munich (DEU)",
+    "created_at": 1790302193
+  }
+}

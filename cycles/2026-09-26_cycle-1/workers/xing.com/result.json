@@ -1,0 +1,13 @@
+{
+  "cycle_id": "2026-09-26_cycle-1",
+  "failures": [
+    {
+      "at": "2026-09-26T00:24:02.760584+00:00",
+      "attempt": 1,
+      "error": "worker access methods failed: Camofox transport failed for DELETE /tabs/6e78cba4-ebbf-4a36-80d3-af9dbd7c756d: <urlopen error [Errno 111] Connection refused>; preflight: detail pages are portal pages, not vacancies (card-1: 'Recruiter (m/w/d)'; card-2: 'Initiativbewerbung'). Listing offered 19 direct links; two real vacancy cards are required.; preflight: fewer than two analyzable direct cards"
+    }
+  ],
+  "schema_version": 2,
+  "source_id": "xing.com",
+  "state": "blocked"
+}

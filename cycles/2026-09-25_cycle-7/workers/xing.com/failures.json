@@ -1,0 +1,11 @@
+{
+  "cycle_id": "2026-09-25_cycle-7",
+  "failures": [
+    {
+      "at": "2026-09-25T00:36:24.071256+00:00",
+      "error": "Camofox HTTP 404 for GET /tabs/b28f3615-774d-46c3-a5b7-7c1b4fd9b7c8/snapshot"
+    }
+  ],
+  "schema_version": 2,
+  "source_id": "xing.com"
+}

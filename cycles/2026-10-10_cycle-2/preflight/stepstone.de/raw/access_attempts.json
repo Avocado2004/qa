@@ -1,0 +1,18 @@
+{
+  "attempts": [
+    {
+      "at": "2026-10-10T13:06:48.600992+00:00",
+      "error": "preflight: fewer than two analyzable direct cards",
+      "method": "http",
+      "status": "failed"
+    },
+    {
+      "at": "2026-10-10T13:11:14.854126+00:00",
+      "error": "preflight: no card carries vacancy body text (a title alone is not a posting) -- 2 opened but all are indexes/teasers (card-1: 'QA Engineer - Filialsysteme (m/w/d)' (0 chars); card-2: 'QA Engineer (m/w/d)' (0 chars)). About.md requires two analyzable vacancy cards.",
+      "method": "crawl4ai",
+      "status": "failed"
+    }
+  ],
+  "cycle_id": "2026-10-10_cycle-2",
+  "source_id": "stepstone.de"
+}

@@ -1,0 +1,30 @@
+{
+  "attempts": [
+    {
+      "at": "2026-10-12T00:02:17.185191+00:00",
+      "error": "'utf-8' codec can't decode byte 0xc3 in position 3: invalid continuation byte",
+      "method": "api",
+      "status": "failed"
+    },
+    {
+      "at": "2026-10-12T00:02:17.512534+00:00",
+      "error": "'utf-8' codec can't decode byte 0xc3 in position 3: invalid continuation byte",
+      "method": "http",
+      "status": "failed"
+    },
+    {
+      "at": "2026-10-12T00:03:36.289319+00:00",
+      "error": "preflight: fewer than two analyzable direct cards",
+      "method": "crawl4ai",
+      "status": "failed"
+    },
+    {
+      "at": "2026-10-12T00:05:07.774154+00:00",
+      "error": "Camofox returned an empty snapshot",
+      "method": "camofox",
+      "status": "failed"
+    }
+  ],
+  "cycle_id": "2026-10-12_cycle-1",
+  "source_id": "remotive.com"
+}

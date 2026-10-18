@@ -1,0 +1,34 @@
+{
+  "additions": [],
+  "created_at": "2026-10-08T19:47:52.518463+00:00",
+  "cycle_id": "2026-10-08_cycle-5",
+  "evidence": {
+    "live_retrieval": "completed",
+    "model_evidence": [
+      {
+        "engine": "google cse",
+        "query": "site:arbeitsagentur.de QA Engineer Berlin Leipzig Dresden",
+        "snippet": "vor 6 Tagen ... Software Tester / Testautomatisierer (m/w/d). Deloitte GmbH. Arbeitsort: LeipzigAnstellungsart: VollzeitBefristung: Unbefristet.",
+        "title": "111 Jobs für Software Tester/in - | Jobsuche der BA",
+        "url": "https://www.arbeitsagentur.de/jobsuche/suche?suchbereich=jobs&was=Software%20Tester%2Fin"
+      },
+      {
+        "engine": "google cse",
+        "query": "site:arbeitsagentur.de QA Engineer Berlin Leipzig Dresden",
+        "snippet": "Mitarbeiter Qualitätssicherung (m/w/d) bei Alpha-Engineering KG - Erfurt ... Arbeitsort: BerlinAnstellungsart: VollzeitBefristung: Unbefristet.",
+        "title": "Jobs für Qualitätssicherung | Jobsuche der BA",
+        "url": "https://www.arbeitsagentur.de/jobsuche/suche?suchbereich=jobs&was=Qualit%C3%A4tssicherung"
+      },
+      {
+        "engine": "google cse",
+        "query": "site:arbeitsagentur.de QA Engineer Berlin Leipzig Dresden",
+        "snippet": "18.08.2026 ... 46: Senior QA Engineer (m/w/d) bei camPoint AG. Kennzeichnungen: Logo des Arbeitgebers.",
+        "title": "Jobs für Kultur – Vollzeit | Jobsuche der BA - Arbeitsagentur",
+        "url": "https://www.arbeitsagentur.de/jobsuche/suche?suchbereich=jobs&was=Kultur&arbeitszeit=vz&homeoffice=prozentual_0"
+      }
+    ],
+    "retrieval_artifact": "/opt/data/qa-vacancy-project/cycles/2026-10-08_cycle-5/source_discovery_retrieval.json",
+    "retrieved_result_count": 120
+  },
+  "verdict": "pass"
+}

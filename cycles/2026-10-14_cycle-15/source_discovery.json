@@ -1,0 +1,51 @@
+{
+  "additions": [],
+  "created_at": "2026-10-14T22:34:04.789419+00:00",
+  "cycle_id": "2026-10-14_cycle-15",
+  "evidence": {
+    "live_retrieval": "completed",
+    "model_evidence": {
+      "note": "Classification based solely on supplied live_retrieval_evidence. Verified sources expose real listing/API and direct vacancy cards for QA/testing in Berlin, Leipzig, Dresden, or explicit Germany-wide remote.",
+      "sources_not_verified_by_this_evidence": [
+        "de.indeed.com",
+        "xing.com",
+        "hitmarker.net",
+        "remotive.com",
+        "arbeitnow.com",
+        "eurotechjobs.com",
+        "glassdoor.de",
+        "monster.de"
+      ],
+      "verified_sources": [
+        {
+          "domain": "arbeitsagentur.de",
+          "evidence": "Multiple search results show direct job cards for Software Tester, QA Engineer, Testautomatisierung roles in Leipzig, Berlin, Dresden (e.g., 'Software Tester / Testautomatisierer (m/w/d) – Deloitte GmbH, Leipzig'; 'Senior QA Engineer (m/w/d) bei camPoint AG, Berlin').",
+          "status": "verified-live-direct-cards"
+        },
+        {
+          "domain": "linkedin.com",
+          "evidence": "Numerous LinkedIn job listings for QA Engineer, Test Engineer, Software Test Engineer, Manual QA Tester with explicit locations Berlin, Leipzig, Dresden (e.g., 'Test Analyst & Engineer (m/w/d) bei Telekom MMS – Berlin, Dresden, Leipzig').",
+          "status": "verified-live-direct-cards"
+        },
+        {
+          "domain": "stepstone.de",
+          "evidence": "StepStone listing pages return job counts and direct cards for QA Engineer, Softwaretester, Test Engineer, Testautomation in Berlin, Leipzig, Dresden (e.g., 'QA Engineer: 20 Jobs in Berlin', 'Softwaretester/in: 9 Jobs in Dresden', 'Test Engineer: 145 Jobs in Dresden').",
+          "status": "verified-live-direct-cards"
+        },
+        {
+          "domain": "germantechjobs.de",
+          "evidence": "RSS and HTML listing pages expose direct vacancy cards for QA/Software Tester in Berlin, Leipzig, Dresden, and Germany-wide remote (e.g., 'Senior QA Engineer Job in Berlin – Communi5 Technologies', 'Remote Continuous Manual QA Tester for Backend and API-Only – Neuronation').",
+          "status": "verified-live-direct-cards"
+        },
+        {
+          "domain": "adzuna.de",
+          "evidence": "Detail page for a Quality Assurance Engineer (m/w/d) remote DE confirms at least one direct vacancy card matching Germany-wide remote QA role.",
+          "status": "verified-live-direct-cards"
+        }
+      ]
+    },
+    "retrieval_artifact": "/opt/data/qa-vacancy-project/cycles/2026-10-14_cycle-15/source_discovery_retrieval.json",
+    "retrieved_result_count": 151
+  },
+  "verdict": "pass"
+}

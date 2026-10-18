@@ -1,0 +1,13 @@
+{
+  "cycle_id": "2026-09-25_cycle-21",
+  "failures": [
+    {
+      "at": "2026-09-25T04:30:40.882795+00:00",
+      "attempt": 1,
+      "error": "preflight: fewer than two distinct API cards"
+    }
+  ],
+  "schema_version": 2,
+  "source_id": "remotive.com",
+  "state": "blocked"
+}

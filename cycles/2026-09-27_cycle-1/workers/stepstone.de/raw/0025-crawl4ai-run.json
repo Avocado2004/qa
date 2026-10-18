@@ -1,0 +1,6 @@
+{
+  "url": "https://www.stepstone.de/stellenangebote--QA-Specialist-all-genders-3-Jahre-befristet-Orsingen-Nenzingen-bei-Konstanz-Glanbia-Nutritionals-Deutschland-GmbH--14469326-inline.html",
+  "returncode": 0,
+  "stdout": "✓ 页面已保存到 /opt/data/qa-vacancy-project/cycles/2026-09-27_cycle-1/workers/stepstone.de/raw/crawl4ai-card-befristet-Orsingen-Nenzingen-bei-Konstanz-Glanbia-Nutritionals-Deutschland-GmbH-14469326-inline-html.md\n  标题: QA Specialist (all genders) - 3 Jahre befristet - Befristeter Vertrag, Vollzeit, Homeoffice Job in Orsingen-Nenzingen bei Konstanz\n  链接数: 36\n",
+  "stderr": "[INIT].... → Crawl4AI 0.9.4 \n[FETCH]... ↓ https://www.stepstone.de/stellenangebote--QA-Spe...ritionals-Deutschland-GmbH--14469326-inline.html  | ✓ | ⏱: 17.19s \n[SCRAPE].. ◆ https://www.stepstone.de/stellenangebote--QA-Spe...ritionals-Deutschland-GmbH--14469326-inline.html  | ✓ | ⏱: 0.16s \n[COMPLETE] ● https://www.stepstone.de/stellenangebote--QA-Spe...ritionals-Deutschland-GmbH--14469326-inline.html  | ✓ | ⏱: 17.43s \n"
+}

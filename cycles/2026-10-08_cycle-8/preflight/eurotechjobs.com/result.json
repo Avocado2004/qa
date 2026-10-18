@@ -1,0 +1,13 @@
+{
+  "cycle_id": "2026-10-08_cycle-8",
+  "failures": [
+    {
+      "at": "2026-10-08T20:20:12.566639+00:00",
+      "attempt": 1,
+      "error": "all independent access methods failed: preflight: source is readable but offered no QA/test vacancy in the first two cards ('Satellite Systems, Software & RF Production Team Lead - ICEYE, Valencia'; 'Smart Manufacturing Engineer, Software - ICEYE, Espoo'). Both pages opened and parsed as real postings, so this is not an access failure; the source stays active for a later run.; preflight: fewer than two analyzable direct cards; Camofox preflight: source is readable but offered no QA/test vacancy in the first two cards ('Satellite Systems, Software & RF Production Team Lead'; 'Smart Manufacturing Engineer, Software'). Both pages opened as real postings, so this is not an access failure; the source stays active for a later run. Listing offered 26 direct links."
+    }
+  ],
+  "schema_version": 2,
+  "source_id": "eurotechjobs.com",
+  "state": "blocked"
+}

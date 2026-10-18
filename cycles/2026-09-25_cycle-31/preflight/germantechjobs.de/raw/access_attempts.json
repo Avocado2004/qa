@@ -1,0 +1,30 @@
+{
+  "attempts": [
+    {
+      "at": "2026-09-25T11:22:16.811751+00:00",
+      "error": "Expecting value: line 1 column 1 (char 0)",
+      "method": "api",
+      "status": "failed"
+    },
+    {
+      "at": "2026-09-25T11:23:53.343924+00:00",
+      "error": "Camofox HTTP 500 for POST /tabs/ef25612c-8beb-4004-b3b2-52c46eac0535/navigate",
+      "method": "camofox",
+      "status": "failed"
+    },
+    {
+      "at": "2026-09-25T11:24:01.507271+00:00",
+      "error": "Exa returned fewer than two direct cards",
+      "method": "exa",
+      "status": "failed"
+    },
+    {
+      "at": "2026-09-25T11:24:47.529056+00:00",
+      "error": "preflight: fewer than two analyzable direct cards",
+      "method": "crawl4ai",
+      "status": "failed"
+    }
+  ],
+  "cycle_id": "2026-09-25_cycle-31",
+  "source_id": "germantechjobs.de"
+}

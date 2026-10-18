@@ -1,0 +1,30 @@
+{
+  "attempts": [
+    {
+      "at": "2026-10-02T00:22:54.844710+00:00",
+      "error": "'utf-8' codec can't decode byte 0xfc in position 1: invalid start byte",
+      "method": "api",
+      "status": "failed"
+    },
+    {
+      "at": "2026-10-02T00:22:55.211058+00:00",
+      "error": "'utf-8' codec can't decode byte 0xfc in position 1: invalid start byte",
+      "method": "http",
+      "status": "failed"
+    },
+    {
+      "at": "2026-10-02T00:24:09.357621+00:00",
+      "error": "preflight: fewer than two analyzable direct cards",
+      "method": "crawl4ai",
+      "status": "failed"
+    },
+    {
+      "at": "2026-10-02T00:25:25.229248+00:00",
+      "error": "Camofox preflight: fewer than two analyzable direct cards",
+      "method": "camofox",
+      "status": "failed"
+    }
+  ],
+  "cycle_id": "2026-10-02_cycle-1",
+  "source_id": "arbeitnow.com"
+}

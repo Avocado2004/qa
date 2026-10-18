@@ -1,0 +1,24 @@
+{
+  "attempts": [
+    {
+      "at": "2026-09-29T06:53:57.738362+00:00",
+      "error": "Camofox returned an empty snapshot",
+      "method": "camofox",
+      "status": "failed"
+    },
+    {
+      "at": "2026-09-29T06:54:57.502079+00:00",
+      "error": "preflight: fewer than two analyzable direct cards",
+      "method": "crawl4ai",
+      "status": "failed"
+    },
+    {
+      "at": "2026-09-29T06:54:58.050243+00:00",
+      "error": "preflight: fewer than two analyzable direct cards",
+      "method": "http",
+      "status": "failed"
+    }
+  ],
+  "cycle_id": "2026-09-29_cycle-3",
+  "source_id": "de.indeed.com"
+}

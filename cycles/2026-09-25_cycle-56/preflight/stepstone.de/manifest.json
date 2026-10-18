@@ -1,0 +1,9 @@
+{
+  "cycle_id": "2026-09-25_cycle-56",
+  "finished_at": "2026-09-25T22:56:46.238087+00:00",
+  "schema_version": 2,
+  "source_id": "stepstone.de",
+  "stage": "SOURCE_PREFLIGHT",
+  "started_at": "2026-09-25T22:56:41.533179+00:00",
+  "state": "pass"
+}

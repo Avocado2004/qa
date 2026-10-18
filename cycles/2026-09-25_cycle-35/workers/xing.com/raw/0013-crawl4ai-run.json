@@ -1,0 +1,6 @@
+{
+  "url": "https://www.xing.com/jobs/frankfurt-main-initiativbewerbung-157879691",
+  "returncode": 0,
+  "stdout": "✓ 页面已保存到 /opt/data/qa-vacancy-project/cycles/2026-09-25_cycle-35/workers/xing.com/raw/crawl4ai-card-https-www-xing-com-jobs-frankfurt-main-initiativbewerbung-157879691.md\n  标题: Initiativbewerbung in Frankfurt am Main | XING Jobs\n  链接数: 44\n",
+  "stderr": "[INIT].... → Crawl4AI 0.9.4 \n[FETCH]... ↓ https://www.xing.com/jobs/frankfurt-main-initiativbewerbung-157879691                                | ✓ | ⏱: 4.44s \n[SCRAPE].. ◆ https://www.xing.com/jobs/frankfurt-main-initiativbewerbung-157879691                                | ✓ | ⏱: 0.78s \n[COMPLETE] ● https://www.xing.com/jobs/frankfurt-main-initiativbewerbung-157879691                                | ✓ | ⏱: 5.45s \n"
+}

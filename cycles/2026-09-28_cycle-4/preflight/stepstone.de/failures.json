@@ -1,0 +1,11 @@
+{
+  "cycle_id": "2026-09-28_cycle-4",
+  "failures": [
+    {
+      "at": "2026-09-28T14:42:48.993475+00:00",
+      "error": "all independent access methods failed: preflight: source is readable but offered no QA/test vacancy in the first two cards ('Senior QA/QC Engineer - Mechanical (m/f/d)'; 'QA Artwork Management Specialist (m/w/d) - befristet auf 2 Jahre'). Both pages opened and parsed as real postings, so this is not an access failure; the source stays active for a later run.; preflight: source is readable but offered no QA/test vacancy in the first two cards ('Senior QA/QC Engineer - Mechanical (m/f/d) Exyte Germany GmbH'; 'QA Artwork Management Specialist (m/w/d) - befristet auf 2 Jahre Dr. Falk Pharma GmbH'). Both pages opened and parsed as real postings, so this is not an access failure; the source stays active for a later run.; Camofox HTTP 500 for POST /tabs/7d40417a-ee4d-4ead-b9b6-945167bdb909/navigate"
+    }
+  ],
+  "schema_version": 2,
+  "source_id": "stepstone.de"
+}

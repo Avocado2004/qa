@@ -1,0 +1,13 @@
+{
+  "cycle_id": "2026-09-25_cycle-10",
+  "failures": [
+    {
+      "at": "2026-09-25T00:57:03.589091+00:00",
+      "attempt": 1,
+      "error": "Expecting value: line 1 column 1 (char 0)"
+    }
+  ],
+  "schema_version": 2,
+  "source_id": "germantechjobs.de",
+  "state": "blocked"
+}

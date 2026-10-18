@@ -1,0 +1,37 @@
+{
+  "query": "site:stepstone.de QA OR \"Quality Assurance\" OR \"Software Test\" OR \"Test Automation\" or Testautomatisierung or Softwaretester Berlin Leipzig Dresden Germany jobs",
+  "result": {
+    "data": [
+      {
+        "url": "https://www.stepstone.de/stellenangebote--QA-Automation-Engineer-gn-Berlin-OPTIMAL-SYSTEMS-GmbH--14050335-inline.html"
+      },
+      {
+        "url": "https://www.stepstone.de/stellenangebote--Software-Tester-w-m-d-Berlin-GEBIT-Solutions-GmbH-Hauptsitz--14076656-inline.html"
+      },
+      {
+        "url": "https://www.stepstone.de/stellenangebote--TOSCA-Test-Automation-Engineer-all-genders-Berlin-Braunschweig-Chemnitz-Frankfurt-am-Main-Goerlitz-Hamburg-Hannover-Ismaning-bei-Muenchen-msg-systems-ag--13958699-inline.html"
+      },
+      {
+        "url": "https://www.stepstone.de/stellenangebote--QA-Automation-Software-Test-Engineer-m-w-d-Warehouse-Systeme-Muenster-Koeln-Berlin-Home-Office-flaschenpost-SE--13969844-inline.html"
+      },
+      {
+        "url": "https://www.stepstone.de/stellenangebote--Senior-System-Test-Engineer-m-w-d-fuer-Software-und-Geraete-Tests-Berlin-Bundesdruckerei-Gruppe--14262871-inline.html"
+      },
+      {
+        "url": "https://www.stepstone.de/stellenangebote--Senior-QA-Automation-Engineer-m-w-d-Berlin-Autohaus-Royal-GmbH--13757961-inline.html"
+      },
+      {
+        "url": "https://www.stepstone.de/jobs/qa-engineer-test-automation"
+      },
+      {
+        "url": "https://www.stepstone.de/stellenangebote--Test-Entwickler-m-w-d-Satellitenkommunikation-Dresden-NEOSAT-GmbH--13888678-inline.html"
+      },
+      {
+        "url": "https://www.stepstone.de/stellenangebote--Qualitaetsingenieur-KI-Fokus-Quality-Engineer-AI-augmented-m-w-d-IT-Consulting-Berlin-Dresden-Duesseldorf-Frankfurt-Hamburg-Karlsruhe-Kassel-Koeln-Mannheim-Muenchen-PTA-GmbH--14178984-inline.html"
+      },
+      {
+        "url": "https://www.stepstone.de/stellenangebote--Test-Automation-Engineer-all-genders-Berlin-Braunschweig-Chemnitz-Frankfurt-am-Main-Goerlitz-Hamburg-Hannover-Ismaning-bei-Muenchen-msg-systems-ag--13789925-inline.html"
+      }
+    ]
+  }
+}

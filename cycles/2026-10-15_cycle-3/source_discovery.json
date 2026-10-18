@@ -1,0 +1,25 @@
+{
+  "additions": [],
+  "created_at": "2026-10-15T23:11:31.095548+00:00",
+  "cycle_id": "2026-10-15_cycle-3",
+  "evidence": {
+    "live_retrieval": "completed",
+    "model_evidence": [
+      {
+        "evidence_url": "https://www.eurotechjobs.com/job_display/295774/Senior_Software_Tester_BlackBerry_Dsseldorf_Germany",
+        "source": "EuroTechJobs Test Analyst / Germany"
+      },
+      {
+        "evidence_url": "https://germantechjobs.de/jobs/Communi5-Technologies-GmbH-Senior-QA-Engineer",
+        "source": "GermanTechJobs"
+      },
+      {
+        "evidence_url": "https://www.adzuna.de/land/ad/5887258708?title=QM_Pr%C3%BCfer_%28m%2Fw%2Fd%29",
+        "source": "Adzuna Deutschland"
+      }
+    ],
+    "retrieval_artifact": "/opt/data/qa-vacancy-project/cycles/2026-10-15_cycle-3/source_discovery_retrieval.json",
+    "retrieved_result_count": 192
+  },
+  "verdict": "pass"
+}

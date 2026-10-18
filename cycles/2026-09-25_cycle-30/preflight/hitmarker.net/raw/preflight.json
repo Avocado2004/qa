@@ -1,0 +1,44 @@
+{
+  "checked_at": "2026-09-25T10:56:59.809151+00:00",
+  "evidence": {
+    "access_method": "exa+keyless-crawl4ai-runtime",
+    "attempts": [
+      {
+        "at": "2026-09-25T10:56:35.406224+00:00",
+        "error": "Camofox HTTP 500 for GET /tabs/91603f26-e800-436c-ae20-69d98904de41/snapshot",
+        "method": "camofox",
+        "status": "failed"
+      },
+      {
+        "method": "exa",
+        "status": "pass"
+      }
+    ],
+    "cards_analyzable": 10,
+    "cards_found": 10,
+    "operations": [
+      {
+        "op": "listing",
+        "status": 200
+      },
+      {
+        "chars": 6578,
+        "op": "card-1",
+        "url": "https://hitmarker.net/jobs/unity-software-engineer-tooling-automation-4568415"
+      },
+      {
+        "op": "return",
+        "status": 200
+      },
+      {
+        "chars": 6604,
+        "op": "card-2",
+        "url": "https://hitmarker.net/jobs/cd-projekt-red-senior-qa-engineer-1717530"
+      }
+    ],
+    "primary_or_fallback": "exa",
+    "status": "pass"
+  },
+  "listing": "https://hitmarker.net/jobs",
+  "verdict": "PASS"
+}

@@ -1,0 +1,57 @@
+{
+  "at": "2026-09-25T22:04:18.252740+00:00",
+  "cycle_id": "2026-09-25_cycle-53",
+  "dropped": 6,
+  "duplicates": [
+    {
+      "dropped_url": "https://www.stepstone.de/stellenangebote--Software-QA-Test-Engineer-m-w-d-Stuttgart-Aveyara-Software-GmbH--13688522-inline.html",
+      "identity": "aveyara software gmbh|software qa test engineer m w d|stuttgart||https://www.stepstone.de/stellenangebote--Software-QA-Test-Engineer-m-w-d-Stuttgart-Aveyara-Software-GmbH--13688522-inline.html||b660932debe5d50f28053c40acbadf5241fa090b02120027d21de8cdebe70250",
+      "kept_url": "https://www.stepstone.de/stellenangebote--Software-QA-Test-Engineer-m-w-d-Stuttgart-Aveyara-Software-GmbH--13688522-inline.html",
+      "matched_on": "text",
+      "source_id": "",
+      "title": "Software QA Test Engineer (m/w/d)"
+    },
+    {
+      "dropped_url": "https://www.arbeitsagentur.de/jobsuche/jobdetail/12811-2344134-S",
+      "identity": "medatixx|softwaretester m w d testautomatisierung|bamberg,berlin,eltville,münchen||https://www.arbeitsagentur.de/jobsuche/jobdetail/12811-2344134-S||2cc813aafea35376525f585733ca1eb45b49d5929f2507eccec2dd7cd60b627e",
+      "kept_url": "https://www.arbeitsagentur.de/jobsuche/jobdetail/12811-2344134-S",
+      "matched_on": "text",
+      "source_id": "",
+      "title": "Softwaretester (m/w/d) Testautomatisierung"
+    },
+    {
+      "dropped_url": "https://www.adzuna.de/details/5896363113",
+      "identity": "communi5 technologies gmbh|senior qa engineer|berlin||https://www.adzuna.de/details/5896363113||5c8a4539cf98613a493610f80714cfa9ffce267391b07f3f4392e8e1bd5e0d2f",
+      "kept_url": "https://www.adzuna.de/details/5896363113",
+      "matched_on": "text",
+      "source_id": "",
+      "title": "Senior QA Engineer"
+    },
+    {
+      "dropped_url": "https://de.linkedin.com/jobs/view/senior-qa-engineer-remote-at-kake-4461168232?position=8&pageNum=0&refId=D%2BiLkCG0Oj%2BF0MYOUvcbhQ%3D%3D",
+      "identity": "kake|senior qa engineer remote|remote+berlin||https://de.linkedin.com/jobs/view/senior-qa-engineer-remote-at-kake-4461168232||7f9819f7f13baf7509bc434364bf146bfd7a24504a75826f7b0edf103abb051e",
+      "kept_url": "https://de.linkedin.com/jobs/view/senior-qa-engineer-remote-at-kake-4461168232?position=8&pageNum=0&refId=29a5xdCamXZXEJXC4BveMQ%3D%3D",
+      "matched_on": "url",
+      "source_id": "",
+      "title": "Senior QA Engineer - Remote"
+    },
+    {
+      "dropped_url": "https://de.linkedin.com/jobs/view/senior-quality-assurance-engineer-at-trading-212-4468924202?position=2&pageNum=0&refId=p4g9HDNcqZceU71B%2BJYMpA%3D%3D",
+      "identity": "trading 212|senior quality assurance engineer|berlin||https://de.linkedin.com/jobs/view/senior-quality-assurance-engineer-at-trading-212-4468924202||0b0993e649dec86a3488ed2fb7acfb4608e438afcc92684c12155242c1d7075f",
+      "kept_url": "https://de.linkedin.com/jobs/view/senior-quality-assurance-engineer-at-trading-212-4468924202?position=3&pageNum=0&refId=29a5xdCamXZXEJXC4BveMQ%3D%3D",
+      "matched_on": "text",
+      "source_id": "",
+      "title": "Senior Quality Assurance Engineer"
+    },
+    {
+      "dropped_url": "https://de.linkedin.com/jobs/view/senior-qa-engineer-remote-at-kake-4461168232?position=7&pageNum=0&refId=p4g9HDNcqZceU71B%2BJYMpA%3D%3D",
+      "identity": "kake|senior qa engineer remote|remote+berlin||https://de.linkedin.com/jobs/view/senior-qa-engineer-remote-at-kake-4461168232||d926b7b336cb150261025acb34cc9a698623815d264d1cbc14244a7361a16bde",
+      "kept_url": "https://de.linkedin.com/jobs/view/senior-qa-engineer-remote-at-kake-4461168232?position=8&pageNum=0&refId=29a5xdCamXZXEJXC4BveMQ%3D%3D",
+      "matched_on": "url",
+      "source_id": "",
+      "title": "Senior QA Engineer - Remote"
+    }
+  ],
+  "kept": 35,
+  "schema_version": 2
+}

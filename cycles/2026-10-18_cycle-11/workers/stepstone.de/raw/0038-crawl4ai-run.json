@@ -1,0 +1,7 @@
+{
+  "url": "https://www.stepstone.de/stellenangebote--IT-Qualitaetssicherung-QA-Engineer-m-w-d-Schwerpunkt-Webanwendungen-Hannover-fb-research-GmbH--14577256-inline.html",
+  "attempt": 1,
+  "returncode": 0,
+  "stdout": "✓ 页面已保存到 /opt/data/qa-vacancy-project/cycles/2026-10-18_cycle-11/workers/stepstone.de/raw/crawl4ai-card-icherung-QA-Engineer-m-w-d-Schwerpunkt-Webanwendungen-Hannover-fb-research-GmbH-14577256-inline-html.md\n  标题: IT-Qualitätssicherung / QA Engineer (m/w/d) - Schwerpunkt Webanwendungen - Feste Anstellung, Vollzeit, Homeoffice Job in Hannover\n  链接数: 36\n",
+  "stderr": "[INIT].... → Crawl4AI 0.9.4 \n[FETCH]... ↓ https://www.stepstone.de/stellenangebote--IT-Qua...-Hannover-fb-research-GmbH--14577256-inline.html  | ✓ | ⏱: 7.22s \n[SCRAPE].. ◆ https://www.stepstone.de/stellenangebote--IT-Qua...-Hannover-fb-research-GmbH--14577256-inline.html  | ✓ | ⏱: 0.10s \n[COMPLETE] ● https://www.stepstone.de/stellenangebote--IT-Qua...-Hannover-fb-research-GmbH--14577256-inline.html  | ✓ | ⏱: 7.40s \n"
+}

@@ -1,0 +1,7 @@
+{
+  "url": "https://de.indeed.com/jobs?q=QA+Engineer&l=Berlin",
+  "attempt": 3,
+  "returncode": 1,
+  "stdout": "",
+  "stderr": "[INIT].... → Crawl4AI 0.9.4 \n[FETCH]... ↓ https://de.indeed.com/jobs?q=QA+Engineer&l=Berlin                                                    | ✓ | ⏱: 3.73s \n[SCRAPE].. ◆ https://de.indeed.com/jobs?q=QA+Engineer&l=Berlin                                                    | ✓ | ⏱: 0.10s \n[ERROR]... × https://de.indeed.com/jobs?q=QA+Engineer&l=Berlin  | Error: Blocked by anti-bot protection: Cloudflare JS challenge \n[COMPLETE] ● https://de.indeed.com/jobs?q=QA+Engineer&l=Berlin                                                    | ✗ | ⏱: 3.91s \n✗ 爬取失败: Blocked by anti-bot protection: Cloudflare JS challenge\n"
+}

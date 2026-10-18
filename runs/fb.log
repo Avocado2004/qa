@@ -1,0 +1,5 @@
+  preflight PASS with all details blocked | cards: 25
+    listing | None | chars: None
+    card-1 | https://de.indeed.com/rc/clk?jk=b61d3fbdb683ee91&bb=zcPUXmw6 | chars: 0
+    return | None | chars: None
+    card-2 | https://de.indeed.com/rc/clk?jk=fb57349133c160b6&bb=zcPUXmw6 | chars: 0

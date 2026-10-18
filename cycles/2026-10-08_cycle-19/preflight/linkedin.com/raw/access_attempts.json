@@ -1,0 +1,24 @@
+{
+  "attempts": [
+    {
+      "at": "2026-10-08T22:10:57.566932+00:00",
+      "error": "Camofox transport failed for GET /tabs/113711b9-0893-4d02-a75f-4fd4839984c2/snapshot: <urlopen error [Errno 111] Connection refused>",
+      "method": "camofox",
+      "status": "failed"
+    },
+    {
+      "at": "2026-10-08T22:11:55.179161+00:00",
+      "error": "preflight: no card carries vacancy body text (a title alone is not a posting) -- 2 opened but all are indexes/teasers (card-1: '(Junior) QA Engineer/Software-Tester (m/w/d) – Produktqualität & Testautomatisierung' (0 chars); card-2: 'Senior Quality Assurance Engineer' (0 chars)). About.md requires two analyzable vacancy cards.",
+      "method": "crawl4ai",
+      "status": "failed"
+    },
+    {
+      "at": "2026-10-08T22:11:55.681209+00:00",
+      "error": "preflight: fewer than two analyzable direct cards",
+      "method": "http",
+      "status": "failed"
+    }
+  ],
+  "cycle_id": "2026-10-08_cycle-19",
+  "source_id": "linkedin.com"
+}

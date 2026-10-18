@@ -1,0 +1,24 @@
+{
+  "attempts": [
+    {
+      "at": "2026-09-25T09:23:58.033211+00:00",
+      "error": "Camofox HTTP 500 for GET /tabs/dd808a77-4032-440e-b76a-d895ef4260d0/snapshot",
+      "method": "camofox",
+      "status": "failed"
+    },
+    {
+      "at": "2026-09-25T09:24:04.922447+00:00",
+      "error": "Exa returned fewer than two direct cards",
+      "method": "exa",
+      "status": "failed"
+    },
+    {
+      "at": "2026-09-25T09:24:49.079013+00:00",
+      "error": "preflight: fewer than two analyzable direct cards",
+      "method": "crawl4ai",
+      "status": "failed"
+    }
+  ],
+  "cycle_id": "2026-09-25_cycle-29",
+  "source_id": "linkedin.com"
+}

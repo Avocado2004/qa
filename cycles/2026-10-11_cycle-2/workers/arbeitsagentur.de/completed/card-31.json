@@ -1,0 +1,17 @@
+{
+  "at": "2026-10-11T22:40:04.554080+00:00",
+  "card": {
+    "access_method": "http",
+    "announcement": "Site Reliability Engineer (m/w/d) | Jobsuche der BA ) brechen SSR. dh hier so lassen--> Zur Jobsuche Startseite Stellenangebot: Site Reliability Engineer (m/w/d) bei Bundesdruckerei Gruppe GmbH Das Wichtigste im Überblick Besondere Merkmale Arbeitsort Berlin Angebotsart Arbeit Anstellungsart Vollzeit Beginn ab sofort Berufsbezeichnung DevOps Engineer Info zur Bewerbung Vormerken Notiz / Status Notiz hinzufügen Bitte anmelden, um diese Funktion zu nutzen. Bewerbungsstatus hinzufügen Bitte anmelden, um diese Funktion zu nutzen. PDF / Drucken Teilen Veröffentlichungsdatum: Vor 30+ Tagen veröffentlicht Stellenbeschreibung Zum nächstmöglichen Zeitpunkt suchen wir Sie als Site Reliability Engineer für den Standort Berlin. Ihr Aufgabenbereich Definition von SLOs auf Basis kundenseitiger SLAs und Errechnung der daraus resultierenden Fehlertoleranzen (Error Budgets) Zusammenarbeit mit Software- und DevOps Engineers bei der Entwicklung neuer Designs und Architekturen für moderne Web-Anwendungen Standardisierung und Automatisierung von Build-, Test- und Deployment-Prozessen unter Berücksichtigung höchster Qualitäts- und strenger Datenschutz-Anforderungen Aufbau und Betrieb einer Continuous Integration Umgebung sowie Administration und Synchronisation der Container-Registries Aufbau und Betrieb von virtuellen Netzwerkinfrastrukturen Einführung und Weiterentwicklung sinnvoller SRE-Praktiken Analyse und Lösung von Systemstörungen durch Recherche und sorgfältige Fehlerdokumentation Ihr Profil Erfolgreich abgeschlossenes Studium der Informatik bzw. einer vergleichbaren Fachrichtung oder eine technische Ausbildung mit einschlägiger Berufspraxis in vergleichbarer Position Erfahrungen im Cloud-Umfeld (z.B. AWS, MS AZURE) sowie im Betrieb von verteilten Netzwerk-Infrastrukturen Erfahrungen mit Tools zum Monitoring, Debugging und zur Performance-Messung sowie Expertise im Umgang mit Containern und deren Orchestrierung Sicherer Umgang mit regulären Ausdrücken, Scripting und dynamischen Programmiersprachen (zB. bash, Python, Ruby, Go) Gute Kenntnisse mit verteilten Versionierungsystemen (zB. git, hg) sowie Erfahrung mit der SRE-Methodik & -Kultur Systematische, zielorientierte und selbständige Arbeitsweise sowie Teamfähigkeit und gutes Kommunikationsvermögen Bereitschaft zur Arbeit in Rufbereitschaft und Schichtbetrieb Arbeitsorte Karte anzeigen 10969 Berlin Unternehmensdarstellung: Bundesdruckerei Gruppe GmbH In diesem Dokument befinden sich aus Sicherheitsgründen keine Kontaktdaten des Arbeitgebers. Wenn Sie diese sehen möchten, lösen Sie bitte die Sicherheitsfrage und laden Sie das PDF erneut. Informationen zur Bewerbung Fußbereich Stelle betreut durch Arbeitgeber Referenz-Nr.: 15933-0067012870-S Verstoß melden",
+    "company": "Bundesdruckerei Gruppe GmbH",
+    "http_status": 200,
+    "location": "Berlin, Berlin, DE",
+    "posted": "2026-08-27",
+    "search_city": "Berlin",
+    "search_role": "Software Test",
+    "sha256": "f32a740a27d3a3b9e1b06862af5ec27c57235564b85ea9ffd3885e3162c55985",
+    "title": "Site Reliability Engineer (m/w/d)",
+    "url": "https://www.arbeitsagentur.de/jobsuche/jobdetail/15933-0067012870-S",
+    "work_mode": "Unknown"
+  }
+}

@@ -1,0 +1,17 @@
+{
+  "at": "2026-09-30T16:24:30.398781+00:00",
+  "card": {
+    "access_method": "http",
+    "announcement": "DevOps Engineer - Digital Government (m/w/d) | Jobsuche der BA ) brechen SSR. dh hier so lassen--> Zur Jobsuche Startseite Stellenangebot: DevOps Engineer - Digital Government (m/w/d) bei Bundesdruckerei Gruppe GmbH Das Wichtigste im Überblick Besondere Merkmale Arbeitsort Berlin Angebotsart Arbeit Anstellungsart Vollzeit Beginn ab sofort Berufsbezeichnung DevOps Engineer Info zur Bewerbung Vormerken Notiz / Status Notiz hinzufügen Bitte anmelden, um diese Funktion zu nutzen. Bewerbungsstatus hinzufügen Bitte anmelden, um diese Funktion zu nutzen. PDF / Drucken Teilen Veröffentlichungsdatum: Vor 30+ Tagen veröffentlicht Änderungsdatum: Vor 29 Tagen bearbeitet Stellenbeschreibung Zum nächstmöglichen Zeitpunkt suchen wir Sie als DevOps Engineer für den Standort Berlin. Ihr Aufgabenbereich Konzeption, Aufbau und Konfiguration von lokalen Entwicklungsumgebungen unter k3d Sicherstellung schneller und reibungsloser Deployments über alle internen Stages und Pipelines, sowie entsprechende Software-Auslieferungen Beratung und Begleitung von Tätigkeiten im Rahmen der Containerisierung von modernen Web-Anwendungen (Microservices) sowie deren Betrieb Umsetzung Standardisierung und Automatisierung von Build-, Test- und Deployment-Prozessen unter Berücksichtig höchster Qualitäts- und strenger Datenschutz-Anforderungen Definition von relevanten Metriken für die Applikationsüberwachung in Zusammenarbeit mit SRE Deployment von Applikation via selbst erstellter Helm Charts Debugging von Applikationen und Unterstützung 3rd Level Support Ihr Profil Technisches Studium, idealerweise im Bereich Informatik oder eine vergleichbare Ausbildung (IT-Fachinformatiker) Expertise im Umgang mit Docker, Kubernetes (k3d und OpenShift) und Helm Charts Erfahrung mit Logging (Elasticsearch, Logstash, Kibana) und Monitoring (Prometheus, Grafana) Know-how im Bereich Programmierung (Java, JavaScript, Lua, Scala), Scripting (Shell, Bash, Python) und API-Design (REST, Messaging, rabbitMQ) sowie Postgres und S3 im Umfeld von Microservice-Architekturen Erfahrungen mit CI/CD-Pipelines sowie beim Deployment von großen Softwareanwendungen, vorzugsweise mit Gitlab Kenntnisse in Linux, vorzugsweise auf Redhat-Systemen und von Netzwerkprotokollen im Kontext von Apisix und Myra Team- und Kommunikationsfähigkeit (Englisch und mind. B2 Deutschkenntnisse) sowie systematische, zielorientierte und selbständige Arbeitsweise Arbeitsorte Karte anzeigen 10969 Berlin Unternehmensdarstellung: Bundesdruckerei Gruppe GmbH In diesem Dokument befinden sich aus Sicherheitsgründen keine Kontaktdaten des Arbeitgebers. Wenn Sie diese sehen möchten, lösen Sie bitte die Sicherheitsfrage und laden Sie das PDF erneut. Informationen zur Bewerbung Fußbereich Stelle betreut durch Arbeitgeber Referenz-Nr.: 15933-0062638829-S Verstoß melden",
+    "company": "Bundesdruckerei Gruppe GmbH",
+    "http_status": 200,
+    "location": "Berlin, Berlin, DE",
+    "posted": "2026-02-05",
+    "search_city": "Berlin",
+    "search_role": "Test Engineer",
+    "sha256": "6652b8797f8dde06b6e8f88d9742bb77b7b2ff9014fc784f19b464205f01e30c",
+    "title": "DevOps Engineer - Digital Government (m/w/d)",
+    "url": "https://www.arbeitsagentur.de/jobsuche/jobdetail/15933-0062638829-S",
+    "work_mode": "Unknown"
+  }
+}

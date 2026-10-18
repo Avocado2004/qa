@@ -1,0 +1,33 @@
+{
+  "status": "pass",
+  "access_method": "camofox_gateway",
+  "cards_found": 3,
+  "cards_analyzable": 2,
+  "deep_scan_needed": true,
+  "operations": [
+    {
+      "op": "listing",
+      "url": "https://hitmarker.net/jobs",
+      "chars": 10640,
+      "evidence": "/opt/data/qa-vacancy-project/cycles/2026-10-18_cycle-10/workers/hitmarker.net/raw/0002-listing-snapshot.json"
+    },
+    {
+      "op": "card-1",
+      "url": "https://hitmarker.net/jobs/drama-studios-3d-character-artist-4962743",
+      "chars": 16079,
+      "evidence": "/opt/data/qa-vacancy-project/cycles/2026-10-18_cycle-10/workers/hitmarker.net/raw/0003-card-1-snapshot.json"
+    },
+    {
+      "op": "return",
+      "url": "https://hitmarker.net/jobs",
+      "chars": 10640,
+      "evidence": "/opt/data/qa-vacancy-project/cycles/2026-10-18_cycle-10/workers/hitmarker.net/raw/0004-return-snapshot.json"
+    },
+    {
+      "op": "card-2",
+      "url": "https://hitmarker.net/jobs/astronomad-studios-senior-level-designer-5172031",
+      "chars": 18353,
+      "evidence": "/opt/data/qa-vacancy-project/cycles/2026-10-18_cycle-10/workers/hitmarker.net/raw/0005-card-2-snapshot.json"
+    }
+  ]
+}

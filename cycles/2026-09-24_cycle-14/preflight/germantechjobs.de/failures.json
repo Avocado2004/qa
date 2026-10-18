@@ -1,0 +1,11 @@
+{
+  "cycle_id": "preflight",
+  "failures": [
+    {
+      "at": "2026-09-24T23:19:39.651350+00:00",
+      "error": "Expecting value: line 1 column 1 (char 0)"
+    }
+  ],
+  "schema_version": 2,
+  "source_id": "germantechjobs.de"
+}

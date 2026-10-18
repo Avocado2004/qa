@@ -1,0 +1,27 @@
+{
+  "at": "2026-10-15T23:15:07.499593+00:00",
+  "cycle_id": "2026-10-15_cycle-3",
+  "schema_version": 2,
+  "sources": [
+    {
+      "reason": "preflight blocked: all independent access methods failed: preflight: no card carries vacancy body text (a title alone is not a posting) -- 2 opened but all are indexes/teasers (card-1: 'QA Lead' (0 chars); card-2: 'Senior QA Engineer (All genders)' (0 chars)). About.md requires two analyzable vacancy cards.; preflight",
+      "source_id": "de.indeed.com",
+      "status": "Not used"
+    },
+    {
+      "reason": "preflight blocked: all independent access methods failed: Camofox preflight: no card carries vacancy body text (a title alone is not a posting) -- card-1: 'Sign in to see who you already know at CHECK24' (1965 chars); card-2: 'Sign in to see who you already know at Shopware' (1989 chars). Listing offered 10 direct lin",
+      "source_id": "linkedin.com",
+      "status": "Not used"
+    },
+    {
+      "reason": "preflight blocked: all independent access methods failed: preflight: fewer than two analyzable direct cards; preflight: fewer than two analyzable direct cards; preflight: no card carries vacancy body text (a title alone is not a posting) -- 2 opened but all are indexes/teasers (card-1: 'Zum Inhalt springen' (0 chars);",
+      "source_id": "glassdoor.de",
+      "status": "Not used"
+    },
+    {
+      "reason": "preflight blocked: all independent access methods failed: preflight: fewer than two analyzable direct cards; preflight: fewer than two analyzable direct cards; Crawl4AI failed after 3 attempts: rc=1  × https://www.monster.de/...ineer&where=Deutschland  | Error: Blocked by anti-bot protection: DataDome captcha \n[COMPLE",
+      "source_id": "monster.de",
+      "status": "Not used"
+    }
+  ]
+}

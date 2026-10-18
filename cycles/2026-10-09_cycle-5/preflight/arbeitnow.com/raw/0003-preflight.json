@@ -1,0 +1,26 @@
+{
+  "status": "pass",
+  "access_method": "base",
+  "cards_found": 98,
+  "cards_analyzable": 2,
+  "operations": [
+    {
+      "op": "listing",
+      "status": 200
+    },
+    {
+      "op": "card-1",
+      "url": "https://www.arbeitnow.com/jobs/companies/systavo-gmbh-co-kg/ausbildung-als-fachinformatiker-systemintegration-metzingen-270502",
+      "chars": 1348
+    },
+    {
+      "op": "return",
+      "status": 200
+    },
+    {
+      "op": "card-2",
+      "url": "https://www.arbeitnow.com/jobs/companies/vestlane/software-engineer-product-full-stack-angular-kotlin-mongodb-berlin-365981",
+      "chars": 2854
+    }
+  ]
+}

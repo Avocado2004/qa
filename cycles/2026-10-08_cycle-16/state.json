@@ -1,0 +1,17 @@
+{
+  "artifacts": {
+    "discovery": "/opt/data/qa-vacancy-project/cycles/2026-10-08_cycle-16/source_discovery.json",
+    "recheck": "/opt/data/qa-vacancy-project/cycles/2026-10-08_cycle-16/published_recheck.json"
+  },
+  "cycle_id": "2026-10-08_cycle-16",
+  "publication_allowed": false,
+  "schema_version": 2,
+  "stage": "MASTER_SNAPSHOT",
+  "stage_seconds": {
+    "MASTER_RECHECK": 2.9,
+    "SOURCE_DISCOVERY": 56.5
+  },
+  "started_at": "2026-10-08T22:03:06.757617+00:00",
+  "status": "RUNNING",
+  "updated_at": "2026-10-08T22:04:06.157535+00:00"
+}

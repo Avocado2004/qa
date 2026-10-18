@@ -1,0 +1,13 @@
+{
+  "cycle_id": "2026-10-08_cycle-19",
+  "failures": [
+    {
+      "at": "2026-10-08T22:10:57.642890+00:00",
+      "attempt": 1,
+      "error": "all independent access methods failed: preflight: source is readable but offered no QA/test vacancy in the first two cards ('Satellite Systems, Software & RF Production Team Lead - ICEYE, Valencia'; 'Smart Manufacturing Engineer, Software - ICEYE, Espoo'). Both pages opened and parsed as real postings, so this is not an access failure; the source stays active for a later run.; preflight: fewer than two analyzable direct cards; Camofox transport failed for GET /tabs/471a3762-b3b9-47ba-92e5-7908d1abe0eb/snapshot: <urlopen error [Errno 111] Connection refused>"
+    }
+  ],
+  "schema_version": 2,
+  "source_id": "eurotechjobs.com",
+  "state": "blocked"
+}

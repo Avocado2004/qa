@@ -1,0 +1,6 @@
+{
+  "url": "https://www.xing.com/jobs/espelkamp-merkur-group-jobmessen-2026-berufseinsteiger-berufserfahrene-155362349",
+  "returncode": 0,
+  "stdout": "✓ 页面已保存到 /opt/data/qa-vacancy-project/cycles/2026-09-25_cycle-45/workers/xing.com/raw/crawl4ai-card-s-www-xing-com-jobs-espelkamp-merkur-group-jobmessen-2026-berufseinsteiger-berufserfahrene-155362349.md\n  标题: MERKUR GROUP Jobmessen 2026 Berufseinsteiger & Berufserfahrene in Espelkamp | XING Jobs\n  链接数: 61\n",
+  "stderr": "[INIT].... → Crawl4AI 0.9.4 \n[FETCH]... ↓ https://www.xing.com/jobs/espelkamp-merkur-group...-2026-berufseinsteiger-berufserfahrene-155362349  | ✓ | ⏱: 2.78s \n[SCRAPE].. ◆ https://www.xing.com/jobs/espelkamp-merkur-group...-2026-berufseinsteiger-berufserfahrene-155362349  | ✓ | ⏱: 0.41s \n[COMPLETE] ● https://www.xing.com/jobs/espelkamp-merkur-group...-2026-berufseinsteiger-berufserfahrene-155362349  | ✓ | ⏱: 3.36s \n"
+}

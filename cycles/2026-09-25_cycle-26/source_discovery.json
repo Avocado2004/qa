@@ -1,0 +1,42 @@
+{
+  "additions": [],
+  "created_at": "2026-09-25T07:30:48.951335+00:00",
+  "cycle_id": "2026-09-25_cycle-26",
+  "evidence": {
+    "live_retrieval": "completed",
+    "model_evidence": [
+      {
+        "assessment": "Discovery is complete, but none of the supplied results exposes a real job listing/API together with a direct QA/testing vacancy card for Berlin, Leipzig, Dresden, or explicit Germany-wide remote.",
+        "scope": "All 5 supplied live retrieval result sets"
+      },
+      {
+        "observed": "Results were unrelated fuel-price news pages from domains including augsburger-allgemeine.de, wiwo.de, zeit.de, and handelsblatt.com.",
+        "qualification": "Rejected: no vacancy listing, QA/testing card, or relevant location evidence.",
+        "query": "Softwaretester Berlin Stellenangebote"
+      },
+      {
+        "observed": "Results were YouTube, Google, and Wikipedia pages rather than job vacancies.",
+        "qualification": "Rejected: no job board, vacancy API, or Dresden QA/testing card.",
+        "query": "Qualitätssicherung Dresden Job"
+      },
+      {
+        "observed": "Results were game portals, gaming retailers, and a game wiki, including poki.com, crazygames.com, y8.com, and game.co.uk.",
+        "qualification": "Rejected: game-related content is not a vacancy source, and no Leipzig game-QA card was supplied.",
+        "query": "Game QA Leipzig Job"
+      },
+      {
+        "observed": "Results were encyclopedic, educational, consultancy, and test-automation information pages, including Wikipedia, Qytera, Testing-Board, and imbus.",
+        "qualification": "Rejected: no vacancy listing/API or direct Germany-wide remote QA/testing card.",
+        "query": "Testautomatisierung Deutschland Remote Job"
+      },
+      {
+        "observed": "Results included Wikipedia articles, QA training-provider pages, general quality-assurance explainers, and articles describing QA roles.",
+        "qualification": "Rejected: none identifies a current vacancy card or an explicit Germany-wide remote position.",
+        "query": "QA Engineer Germany Stellenanzeige"
+      }
+    ],
+    "retrieval_artifact": "/opt/data/qa-vacancy-project/cycles/2026-09-25_cycle-26/source_discovery_retrieval.json",
+    "retrieved_result_count": 50
+  },
+  "verdict": "pass"
+}

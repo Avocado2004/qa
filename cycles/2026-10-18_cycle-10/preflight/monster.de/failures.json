@@ -1,0 +1,11 @@
+{
+  "cycle_id": "2026-10-18_cycle-10",
+  "failures": [
+    {
+      "at": "2026-10-18T14:02:27.489985+00:00",
+      "error": "all independent access methods failed: preflight: fewer than two analyzable direct cards; preflight: fewer than two analyzable direct cards; Crawl4AI failed after 3 attempts: rc=1  × https://www.monster.de/...ineer&where=Deutschland  | Error: Blocked by anti-bot protection: DataDome captcha \n[COMPLETE] ● https://www.monster.de/jobs/suche?q=QA-Engineer&where=Deutschland                                    | ✗ | ⏱: 8.27s \n✗ 爬取失败: Blocked by anti-bot protection: DataDome captcha\n; Camofox preflight: fewer than two analyzable direct cards"
+    }
+  ],
+  "schema_version": 2,
+  "source_id": "monster.de"
+}

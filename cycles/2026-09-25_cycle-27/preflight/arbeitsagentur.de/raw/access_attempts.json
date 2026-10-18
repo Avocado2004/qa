@@ -1,0 +1,30 @@
+{
+  "attempts": [
+    {
+      "at": "2026-09-25T08:40:27.836636+00:00",
+      "error": "preflight: fewer than two analyzable direct cards",
+      "method": "http",
+      "status": "failed"
+    },
+    {
+      "at": "2026-09-25T08:41:32.956953+00:00",
+      "error": "Camofox HTTP 500 for POST /tabs",
+      "method": "camofox",
+      "status": "failed"
+    },
+    {
+      "at": "2026-09-25T08:41:32.993969+00:00",
+      "error": "[Errno 2] No such file or directory: 'mcporter'",
+      "method": "exa",
+      "status": "failed"
+    },
+    {
+      "at": "2026-09-25T08:42:48.867310+00:00",
+      "error": "preflight: fewer than two analyzable direct cards",
+      "method": "crawl4ai",
+      "status": "failed"
+    }
+  ],
+  "cycle_id": "2026-09-25_cycle-27",
+  "source_id": "arbeitsagentur.de"
+}

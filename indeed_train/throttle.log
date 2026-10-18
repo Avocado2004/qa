@@ -1,0 +1,24 @@
+
+=== измерение троттлинга, старт 07:20:10 ===
+
+=== измерение троттлинга, старт 07:20:42 ===
+07:20:43  попытка  1  HTTP 403     27KB  cookies=1
+07:40:45  попытка  2  HTTP 403     27KB  cookies=1
+08:00:46  попытка  3  HTTP 403     27KB  cookies=1
+08:20:47  попытка  4  HTTP 403     27KB  cookies=1
+08:40:48  попытка  5  HTTP 403     27KB  cookies=1
+09:00:49  попытка  6  HTTP 403     27KB  cookies=1
+09:20:50  попытка  7  HTTP 403     27KB  cookies=1
+09:40:51  попытка  8  HTTP 403     27KB  cookies=1
+10:00:52  попытка  9  HTTP 403     27KB  cookies=1
+10:20:53  попытка 10  HTTP 403     27KB  cookies=1
+10:40:54  попытка 11  HTTP 403     27KB  cookies=1
+11:00:56  попытка 12  HTTP 403     27KB  cookies=1
+11:20:57  попытка 13  HTTP 403     27KB  cookies=1
+11:40:58  попытка 14  HTTP 403     27KB  cookies=1
+12:00:59  попытка 15  HTTP 403     27KB  cookies=1
+12:21:00  попытка 16  HTTP 403     27KB  cookies=1
+12:41:01  попытка 17  HTTP 403     27KB  cookies=1
+13:01:02  попытка 18  HTTP 403     27KB  cookies=1
+13:21:03  попытка 19  HTTP 403     27KB  cookies=1
+13:41:04  попытка 20  HTTP 403     27KB  cookies=1

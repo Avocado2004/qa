@@ -1,0 +1,7 @@
+{
+  "url": "https://www.linkedin.com/jobs-guest/jobs/api/seeMoreJobPostings/search?keywords=QA&location=Germany&f_TPR=r2592000&start=0",
+  "attempt": 1,
+  "returncode": 1,
+  "stdout": "",
+  "stderr": "[INIT].... → Crawl4AI 0.9.4 \n[FETCH]... ↓ https://www.linkedin.com/jobs-guest/jobs/api/see...words=QA&location=Germany&f_TPR=r2592000&start=0  | ✓ | ⏱: 2.28s \n[SCRAPE].. ◆ https://www.linkedin.com/jobs-guest/jobs/api/see...words=QA&location=Germany&f_TPR=r2592000&start=0  | ✓ | ⏱: 0.03s \n[ERROR]... × https://www.linkedin.co...&f_TPR=r2592000&start=0  | Error: Blocked by anti-bot protection: HTTP 429 Too Many Requests \n[COMPLETE] ● https://www.linkedin.com/jobs-guest/jobs/api/see...words=QA&location=Germany&f_TPR=r2592000&start=0  | ✗ | ⏱: 2.42s \n✗ 爬取失败: Blocked by anti-bot protection: HTTP 429 Too Many Requests\n"
+}

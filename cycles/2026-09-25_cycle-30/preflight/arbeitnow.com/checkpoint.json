@@ -1,0 +1,28 @@
+{
+  "completed_operations": [
+    {
+      "op": "listing",
+      "status": 200
+    },
+    {
+      "chars": 15245,
+      "op": "card-1",
+      "url": "https://www.arbeitnow.com/jobs/companies/homie/senior-performance-marketing-manager-hamburg-125364"
+    },
+    {
+      "op": "return",
+      "status": 200
+    },
+    {
+      "chars": 9106,
+      "op": "card-2",
+      "url": "https://www.arbeitnow.com/jobs/companies/skills-hr-experts-gmbh/selbstandiger-finanzberater-vermogensberater-frankfurt-am-main-341360"
+    }
+  ],
+  "cycle_id": "2026-09-25_cycle-30",
+  "next_operation": 4,
+  "schema_version": 2,
+  "source_id": "arbeitnow.com",
+  "state": "complete",
+  "updated_at": "2026-09-25T10:55:33.433627+00:00"
+}

@@ -1,0 +1,7 @@
+{
+  "url": "https://www.stepstone.de/stellenangebote--QA-Engineer-Plant-Compliance-Chicken-m-w-d-Gersthofen-OSI-International-Holding-GmbH--14478153-inline.html",
+  "attempt": 1,
+  "returncode": 0,
+  "stdout": "✓ 页面已保存到 /opt/data/qa-vacancy-project/cycles/2026-10-18_cycle-11/workers/stepstone.de/raw/crawl4ai-card-gineer-Plant-Compliance-Chicken-m-w-d-Gersthofen-OSI-International-Holding-GmbH-14478153-inline-html.md\n  标题: QA Engineer Plant Compliance – Chicken (m/w/d) - Feste Anstellung, Vollzeit, Homeoffice Job in Gersthofen\n  链接数: 55\n",
+  "stderr": "[INIT].... → Crawl4AI 0.9.4 \n[FETCH]... ↓ https://www.stepstone.de/stellenangebote--QA-Eng...International-Holding-GmbH--14478153-inline.html  | ✓ | ⏱: 9.41s \n[SCRAPE].. ◆ https://www.stepstone.de/stellenangebote--QA-Eng...International-Holding-GmbH--14478153-inline.html  | ✓ | ⏱: 0.15s \n[COMPLETE] ● https://www.stepstone.de/stellenangebote--QA-Eng...International-Holding-GmbH--14478153-inline.html  | ✓ | ⏱: 9.66s \n"
+}

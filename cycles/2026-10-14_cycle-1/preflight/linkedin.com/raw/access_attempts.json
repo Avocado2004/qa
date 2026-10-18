@@ -1,0 +1,12 @@
+{
+  "attempts": [
+    {
+      "at": "2026-10-14T09:57:37.304291+00:00",
+      "error": "Camofox preflight: no card carries vacancy body text (a title alone is not a posting) -- card-1: 'Sign in to see who you already know at CHECK24' (2012 chars); card-2: 'Sign in to see who you already know at Shopware' (2006 chars). Listing offered 10 direct links; About.md requires two analyzable vacancy cards.",
+      "method": "camofox",
+      "status": "failed"
+    }
+  ],
+  "cycle_id": "2026-10-14_cycle-1",
+  "source_id": "linkedin.com"
+}

@@ -1,0 +1,9 @@
+  term 1/7 QA+Engineer        accumulated: cards= 75 QA= 47 [84s]
+  term 2/7 Softwaretester     accumulated: cards=122 QA= 81 [173s]
+  term 3/7 Test+Engineer      accumulated: cards=168 QA= 83 [262s]
+  term 4/7 Test+Automation    accumulated: cards=196 QA=103 [347s]
+  term 5/7 QA+Automation      accumulated: cards=214 QA=117 [430s]
+  term 6/7 QA+Analyst         accumulated: cards=248 QA=119 [514s]
+  term 7/7 Testmanager        accumulated: cards=300 QA=130 [599s]
+
+FINAL crawls=49 distinct_cards=300 distinct_QA=130

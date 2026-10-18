@@ -1,0 +1,7 @@
+{
+  "url": "https://www.glassdoor.de/Job/deutschland-qa-engineer-jobs-SRCH_IL.0,11_IN107_KO12,22.htm",
+  "attempt": 2,
+  "returncode": 2,
+  "stdout": "",
+  "stderr": "Usage: crawl4ai-skill crawl [OPTIONS] URL\nTry 'crawl4ai-skill crawl --help' for help.\n\nError: No such option '--wait-until'. Did you mean '--wait-for'?\n"
+}

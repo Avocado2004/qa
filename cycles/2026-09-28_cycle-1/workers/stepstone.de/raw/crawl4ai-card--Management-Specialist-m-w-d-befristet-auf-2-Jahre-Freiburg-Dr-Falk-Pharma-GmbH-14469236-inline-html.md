@@ -1,0 +1,188 @@
+[](https://www.stepstone.de/de)
+Suche
+[Login](https://www.stepstone.de/de-DE/candidate/register?login_source=Listing_top-register&intcid=Button_Listing-navigation_register)
+Menu
+* * *
+Genug gesucht? Lass uns schneller passende Jobs für dich findenJetzt starten
+* * *
+Jobs finden
+[![Dr. Falk Pharma GmbH logo](https://www.stepstone.de/upload_DE/logo/1/logoDr-Falk-Pharma-GmbH-136286DE.gif)](https://www.stepstone.de/cmp/de/Dr-Falk-Pharma-GmbH-136286/jobs.html)
+# QA Artwork Management Specialist (m/w/d) - befristet auf 2 Jahre
+  * Dr. Falk Pharma GmbH
+  * [Freiburg](https://www.stepstone.de/stellenangebote--QA-Artwork-Management-Specialist-m-w-d-befristet-auf-2-Jahre-Freiburg-Dr-Falk-Pharma-GmbH--14469236-inline.html#location)
+  * Feste Anstellung
+  * Homeoffice möglich, Vollzeit
+  * Erschienen: vor 1 Woche
+  * Gehalt anzeigen
+  * Verifiziert
+
+
+Sei einer der ersten Bewerber
+Schnelle Bewerbung
+Ich bin interessiert
+Speichern
+[![Dr. Falk Pharma GmbH logo](https://www.stepstone.de/upload_DE/logo/1/logoDr-Falk-Pharma-GmbH-136286DE.gif)](https://www.stepstone.de/cmp/de/Dr-Falk-Pharma-GmbH-136286/jobs.html)
+**QA Artwork Management Specialist (m/w/d) - befristet auf 2 Jahre**[ Dr. Falk Pharma GmbH](https://www.stepstone.de/cmp/de/Dr-Falk-Pharma-GmbH-136286/jobs.html)
+Ich bin interessiert
+Als Spezialist in der Verdauungs- und Stoffwechselmedizin und Familienunternehmen mit globaler Vernetzung, setzen wir unseren Fokus auf die Entwicklung und den Vertrieb innovativer Arzneimittel für verschiedene Erkrankungen der Leber, der Gallenwege, des Darms und der Speiseröhre, um das Leben von Menschen zu verbessern. Wir glauben daran, dass wir nur gemeinsam medizinischen Fortschritt erreichen können. Daher suchen wir: 
+* * *
+#### Deine Aufgaben
+#### Ihre Aufgaben
+Als Teil unserer Qualitätsabteilung sind Sie verantwortlich für:
+  * Die Abwicklung von Verpackungsänderungen und -gestaltungen von der Designübernahme bis zur Druckfreigabe
+  * Die Einhaltung von technischen Spezifikationen, Design-Vorgaben und regulatorischen Anforderungen im Verpackungsumfeld
+  * Die Koordination von Freigabeprozessen für Artworks und Begleitdokumente in Zusammenarbeit mit internen und externen Partnern
+  * Die Etablierung und laufende Verbesserung teaminterner sowie teamübergreifender Prozesse 
+
+
+* * *
+#### Dein Profil
+#### Ihre Qualifikation
+  * Abgeschlossene Berufsausbildung im Medienbereich oder eine kaufmännische Ausbildung
+  * Versierter Umgang mit den gängigen MS-Office-Applikationen und Acrobat Professional
+  * Verhandlungssichere Deutsch- und Englischkenntnisse
+  * Erfahrung im Umgang mit Workflow-Tools von Vorteil
+  * Hohe Prozessaffinität
+  * Sehr gutes analytisches Denkvermögen, Organisationsgeschick und lösungsorientiertes Arbeiten
+  * Strukturierte, zielorientierte und eigenverantwortliche Arbeitsweise sowie ausgeprägte Kommunikationsstärke
+
+
+* * *
+#### Was wir bieten
+#### Ihre Vorteile
+  * New Work, flexible Arbeitszeiten und Mobiles Arbeiten
+  * Vielfältige Benefits wie z.B. Hansefit, Jobrad, Deutschlandticket, Kindergartenzuschuss und Kauf zusätzlicher Urlaubstage 
+  * Umfassendes Onboarding- und Mentoring-Programm
+  * Individuelle Weiterbildungsmöglichkeiten
+  * Internationales und wachsendes Familienunternehmen mit kurzen Entscheidungswegen und finanzieller Unabhängigkeit
+
+Für Fragen steht Ihnen Julia Odebrecht per Mail unter personal@drfalkpharma.de oder unter der Telefonnummer 0761 1514 5513 gerne zur Verfügung. Wir freuen uns auf Ihre Bewerbung über unser [Online-Portal](https://drfalkpharma.mhmhr.com/jobs/947-qa-artwork-management-specialist-m-w-d-befristet-auf-2-jahre/job_application/new).
+* * *
+#### Kontakt
+* * *
+Ich bin interessiert
+* * *
+#### Gehalt
+Neugierig auf das Gehalt für diesen Job?Gehalt anzeigen
+Chart icon
+Min €Max €
+* * *
+[![Logo Dr. Falk Pharma GmbH](https://www.stepstone.de/upload_DE/logo/1/logoDr-Falk-Pharma-GmbH-136286DE.gif)](https://www.stepstone.de/cmp/de/Dr-Falk-Pharma-GmbH-136286/jobs.html)
+Dr. Falk Pharma GmbH
+Pharmaindustrie • 251-1000 Mitarbeiter
+[13 Jobs](https://www.stepstone.de/cmp/de/Dr-Falk-Pharma-GmbH-136286/jobs.html)
+* * *
+##### Pendelzeit
+Von:
+Nach:
+Wie:
+Auto ÖPNV Zu Fuß Fahrrad
+Pendelzeit anzeigen
+- - : - -
+* * *
+#### Mitarbeitervorteile
+Betriebskantine
+Betriebsarzt im Unternehmen
+Betriebliche Altersvorsorge
+Zusätzlicher Urlaubstag
+Fitnessangebote
+Flexible Arbeitszeiten
+Gute Verkehrsanbindung
+Homeoffice
+Firmenevents- und Veranstaltungen
+Parkplatz
+Firmenticket
+Die abgebildeten Mitarbeitervorteile sind unternehmensabhängig und können je nach Position und Abteilung abweichen.
+#### Diese Jobs waren bei anderen Jobsuchenden beliebt
+[![Dr. Falk Pharma GmbH](https://www.stepstone.de/upload_DE/logo/1/logoDr-Falk-Pharma-GmbH-136286DE.gif?im=Resize=\(56,56\))](https://www.stepstone.de/cmp/de/Dr-Falk-Pharma-GmbH-136286/jobs.html)
+## [SAP Application Expert QM (m/w/d)](https://www.stepstone.de/stellenangebote--SAP-Application-Expert-QM-m-w-d-Freiburg-Dr-Falk-Pharma-GmbH--14454200-inline.html)
+Dr. Falk Pharma GmbH
+Freiburg
+Teilweise Home-Office
+vor 1 Woche
+[![Hays – Working for your tomorrow](https://www.stepstone.de/upload_DE/logo/F/logoHays--Working-for-your-tomorrow-28362DE-2506301538.gif?im=Resize=\(56,56\))](https://www.stepstone.de/cmp/de/Hays-Working-for-your-tomorrow-28362/jobs.html)
+## [Regulatory Affairs Manager In-vitro Diagnostics (m/w/d)](https://www.stepstone.de/stellenangebote--Regulatory-Affairs-Manager-In-vitro-Diagnostics-m-w-d-Freiburg-Hays-Working-for-your-tomorrow--14519625-inline.html)
+Hays – Working for your tomorrow
+Freiburg
+Teilweise Home-Office
+vor 1 Woche
+[![Dr. Falk Pharma GmbH](https://www.stepstone.de/upload_DE/logo/1/logoDr-Falk-Pharma-GmbH-136286DE.gif?im=Resize=\(56,56\))](https://www.stepstone.de/cmp/de/Dr-Falk-Pharma-GmbH-136286/jobs.html)
+## [Meeting Manager Falk Foundation Services 80-100% (m/w/d)](https://www.stepstone.de/stellenangebote--Meeting-Manager-Falk-Foundation-Services-80-100-m-w-d-Freiburg-Dr-Falk-Pharma-GmbH--14453402-inline.html)
+Dr. Falk Pharma GmbH
+Freiburg
+Teilweise Home-Office
+vor 1 Woche
+[![Northrop Grumman LITEF GmbH](https://www.stepstone.de/upload_DE/logo/8/logoNorthrop-Grumman-LITEF-GmbH-60531DE-2009170915.gif?im=Resize=\(56,56\))](https://www.stepstone.de/cmp/de/Northrop-Grumman-LITEF-GmbH-60531/jobs.html)
+## [Programmleiter Defence (m/w/d](https://www.stepstone.de/stellenangebote--Programmleiter-Defence-m-w-d-Freiburg-Northrop-Grumman-LITEF-GmbH--14537658-inline.html)
+Northrop Grumman LITEF GmbH
+Freiburg
+Teilweise Home-Office
+vor 3 Tagen
+[![Dr. Falk Pharma GmbH](https://www.stepstone.de/upload_DE/logo/1/logoDr-Falk-Pharma-GmbH-136286DE.gif?im=Resize=\(56,56\))](https://www.stepstone.de/cmp/de/Dr-Falk-Pharma-GmbH-136286/jobs.html)
+## [Head of Quality Assurance Issue Management / Qualified Person (m/w/d)](https://www.stepstone.de/stellenangebote--Head-of-Quality-Assurance-Issue-Management-Qualified-Person-m-w-d-Freiburg-Dr-Falk-Pharma-GmbH--14470726-inline.html)
+Dr. Falk Pharma GmbH
+Freiburg
+Teilweise Home-Office
+vor 1 Woche
+[![Universitätsklinikum Freiburg](https://www.stepstone.de/upload_DE/logo/E/logoUniversitaetsklinikum-Freiburg-47500DE-2302231024.gif?im=Resize=\(56,56\))](https://www.stepstone.de/cmp/de/Universitaetsklinikum-Freiburg-47500/jobs.html)
+## [Wissenschaftsmanager*in (m/w/d) Klinik für Diagnostische und Interventionelle Radiologie](https://www.stepstone.de/stellenangebote--Wissenschaftsmanagerin-m-w-d-Klinik-fuer-Diagnostische-und-Interventionelle-Radiologie-Freiburg-im-Breisgau-Universitaetsklinikum-Freiburg--14429511-inline.html)
+Universitätsklinikum Freiburg
+Freiburg im Breisgau
+vor 2 Wochen
+[![Dr. Falk Pharma GmbH](https://www.stepstone.de/upload_DE/logo/1/logoDr-Falk-Pharma-GmbH-136286DE.gif?im=Resize=\(56,56\))](https://www.stepstone.de/cmp/de/Dr-Falk-Pharma-GmbH-136286/jobs.html)
+## [SAP Basis & Technical Application Expert (m/w/d)](https://www.stepstone.de/stellenangebote--SAP-Basis-Technical-Application-Expert-m-w-d-Freiburg-Dr-Falk-Pharma-GmbH--14454223-inline.html)
+Dr. Falk Pharma GmbH
+Freiburg
+Teilweise Home-Office
+vor 1 Woche
+[![Universitätsklinikum Freiburg](https://www.stepstone.de/upload_DE/logo/E/logoUniversitaetsklinikum-Freiburg-47500DE-2302231024.gif?im=Resize=\(56,56\))](https://www.stepstone.de/cmp/de/Universitaetsklinikum-Freiburg-47500/jobs.html)
+## [Naturwissenschaftler*in der Fachrichtung Chemie (Master/Diplom) als EHS-Fachkraft (m/w/d)](https://www.stepstone.de/stellenangebote--Naturwissenschaftlerin-der-Fachrichtung-Chemie-Master-Diplom-als-EHS-Fachkraft-m-w-d-Freiburg-Universitaetsklinikum-Freiburg--14509724-inline.html)
+Universitätsklinikum Freiburg
+Freiburg
+Teilweise Home-Office
+vor 1 Woche
+[![OMS Prüfservice GmbH](https://www.stepstone.de/upload_DE/logo/9/logoOMS-Prufservice-GmbH-239564DE-2212301049.gif?im=Resize=\(56,56\))](https://www.stepstone.de/cmp/de/OMS-Pruefservice-GmbH-239564/jobs.html)
+## [Teamleiter Prüftechnik 4.000 € Willkommensprämie (m/w/d)](https://www.stepstone.de/stellenangebote--Teamleiter-Prueftechnik-4-000-Willkommenspraemie-m-w-d-Freiburg-OMS-Pruefservice-GmbH--14021775-inline.html)
+OMS Prüfservice GmbH
+Freiburg
+vor 1 Woche
+[![Dr. Falk Pharma GmbH](https://www.stepstone.de/upload_DE/logo/1/logoDr-Falk-Pharma-GmbH-136286DE.gif?im=Resize=\(56,56\))](https://www.stepstone.de/cmp/de/Dr-Falk-Pharma-GmbH-136286/jobs.html)
+## [Jobber*in im Bereich Clinical Research (m/w/d)](https://www.stepstone.de/stellenangebote--Jobberin-im-Bereich-Clinical-Research-m-w-d-Freiburg-im-Breisgau-Dr-Falk-Pharma-GmbH--14481125-inline.html)
+Dr. Falk Pharma GmbH
+Freiburg im Breisgau
+vor 4 Tagen
+  * [Management Jobs](https://www.stepstone.de/jobs/management)
+  * [Management Jobs in Freiburg Im Breisgau](https://www.stepstone.de/jobs/management/in-freiburg-im-breisgau)
+  * [Testing Jobs](https://www.stepstone.de/jobs/testing)
+  * [Testing Jobs in Freiburg Im Breisgau](https://www.stepstone.de/jobs/testing/in-freiburg-im-breisgau)
+  * [Jobs in Freiburg Im Breisgau](https://www.stepstone.de/jobs/in-freiburg-im-breisgau)
+
+
+# Finde den Job,  
+der zu dir passt.
+[Los geht's](https://www.stepstone.de/de-DE/candidate/register?login_source=Listing_bottom-register&intcid=Button_Listing_bottom-navigation_register)
+[](https://twitter.com/stepstone_de)[](https://www.facebook.com/stepstone.de)[](https://www.instagram.com/stepstone_de/)[](https://www.youtube.com/traumjob)
+Stepstone
+Bewerbende
+Arbeitgebende
+Download
+The Stepstone Group GmbH © 2026
+Deutsch
+# Wir verwenden Cookies
+Deutsch
+Deutsch
+English
+Wir übermitteln personenbezogene Daten an Drittanbieter, die uns helfen, unser Webangebot zu verbessern. In diesem Zusammenhang werden auch Nutzungsprofile (u.a. auf Basis von Cookie-IDs) gebildet und angereichert, auch außerhalb des EWR.
+Hierfür und um bestimmte Dienste zu nachfolgend aufgeführten Zwecken verwenden zu dürfen, benötigen wir Ihre Einwilligung. Indem Sie "Alle akzeptieren" klicken, stimmen Sie diesen (jederzeit widerruflich) zu. Dies umfasst auch Ihre Einwilligung in die Übermittlung bestimmter personenbezogener Daten in Drittländer, u.a. die USADie betreffenden Drittländer, insbesondere die USA, weisen im Zweifel nicht das Datenschutzniveau auf, das Sie unter der DSGVO genießen. Das kann Nachteile wie eine erschwerte Durchsetzung von Betroffenenrechten, eine fehlende Kontrolle der Weiterverarbeitung und Übermittlung der Daten oder Zugriffe auf die Daten durch staatliche Stellen, ins. Behörden der USA, zu Kontroll- und Überwachungszwecken bedeuten, ohne dass Ihnen Rechtsbehelfe dagegen zustehen.*, nach Art. 49 (1) (a) DSGVO. Unter "Einstellungen oder ablehnen" können Sie Ihre Einstellungen ändern oder die Datenverarbeitung ablehnen. Sie können Ihre Auswahl jederzeit unter [Privatsphäre](https://www.stepstone.de/ueber-stepstone/privatsphaere) am Seitenende ändern.
+Informationen auf einem Gerät speichern und/oder abrufen
+Für die Ihnen angezeigten Verarbeitungszwecke können Cookies, Geräte-Kennungen oder andere Informationen auf Ihrem Gerät gespeichert oder abgerufen werden.
+Personalisierte Anzeigen und Inhalte, Anzeigen- und Inhaltsmessungen, Erkenntnisse über Zielgruppen und Produktentwicklungen
+Anzeigen und Inhalte können basierend auf einem Profil personalisiert werden. Es können mehr Daten hinzugefügt werden, um Anzeigen und Inhalte besser zu personalisieren. Die Performance von Anzeigen und Inhalten kann gemessen werden. Erkenntnisse über Zielgruppen, die die Anzeigen und Inhalte betrachtet haben, können abgeleitet werden. Daten können verwendet werden, um Benutzerfreundlichkeit, Systeme und Software aufzubauen oder zu verbessern.
+Fremdinhalte anzeigen (Soziale Netzwerke, Videos)
+Inhalte von sozialen Netzwerken und eingebettete Inhalte von Drittanbietern können angezeigt werden.
+Aus Authentifizierungen abgeleitete Kennungen
+Wenn eine Kennung auf der Grundlage von Authentifizierungsdaten erstellt wird, wie z. B. Kontaktdaten im Zusammenhang mit Online-Konten, die Sie auf Websites oder Apps eingerichtet haben (z. B. E-Mail-Adresse, Telefonnummer) oder Kundenkennungen (z. B. eine von Ihrem Telekommunikationsanbieter bereitgestellte Kennung), dann kann diese Kennung dazu verwendet werden, Sie über Websites, Apps und Geräte hinweg wiederzuerkennen, wenn Sie mit denselben Kontaktdaten angemeldet sind.
+Einstellungen oder ablehnen
+Alles akzeptieren
+Widerspruchsrechte zu Datenverarbeitungen auf Grundlage von berechtigten Interessen können Sie ebenfalls unter „Datenschutzerklärung“ ausüben.
+[Datenschutzerklärung](https://www.stepstone.de/e-recruiting/rechtliches/datenschutzerklarung)[Impressum](https://www.stepstone.de/e-recruiting/impressum)[Cookie Richtlinie](https://www.stepstone.de/e-recruiting/rechtliches/cookie-policy/)

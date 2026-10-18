@@ -1,0 +1,44 @@
+{
+  "checked_at": "2026-09-25T11:23:16.919803+00:00",
+  "evidence": {
+    "access_method": "exa+keyless-crawl4ai-runtime",
+    "attempts": [
+      {
+        "at": "2026-09-25T11:22:59.952365+00:00",
+        "error": "Camofox preflight: fewer than two analyzable direct cards",
+        "method": "camofox",
+        "status": "failed"
+      },
+      {
+        "method": "exa",
+        "status": "pass"
+      }
+    ],
+    "cards_analyzable": 10,
+    "cards_found": 10,
+    "operations": [
+      {
+        "op": "listing",
+        "status": 200
+      },
+      {
+        "chars": 10545,
+        "op": "card-1",
+        "url": "https://www.stepstone.de/stellenangebote--QA-Automation-Engineer-gn-Berlin-OPTIMAL-SYSTEMS-GmbH--14050335-inline.html"
+      },
+      {
+        "op": "return",
+        "status": 200
+      },
+      {
+        "chars": 6590,
+        "op": "card-2",
+        "url": "https://www.stepstone.de/stellenangebote--QA-Automation-Software-Test-Engineer-m-w-d-Warehouse-Systeme-Muenster-Koeln-Berlin-Home-Office-flaschenpost-SE--13969844-inline.html"
+      }
+    ],
+    "primary_or_fallback": "exa",
+    "status": "pass"
+  },
+  "listing": "https://www.stepstone.de/jobs/qa-test/in-berlin.html",
+  "verdict": "PASS"
+}

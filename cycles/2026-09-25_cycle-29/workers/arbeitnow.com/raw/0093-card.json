@@ -1,0 +1,43 @@
+{
+  "url": "https://www.arbeitnow.com/jobs/companies/autonomous-teaming/ml-data-engineer-sensor-data-pipelines-munich-deu-455358",
+  "title": "ML Data Engineer (m/f/d) - Sensor Data & Pipelines",
+  "company": "autonomous-teaming",
+  "location": "Munich (DEU)",
+  "posted": "1790302193",
+  "work_mode": "Unknown",
+  "announcement": "Just a moment... Enable JavaScript and cookies to continue",
+  "http_status": 429,
+  "sha256": "78d0c87aabdcb43dd7bb18503ade771a3b2d602b69f0f928c93f23881727504a",
+  "source_record": {
+    "slug": "ml-data-engineer-sensor-data-pipelines-munich-deu-455358",
+    "company_name": "autonomous-teaming",
+    "title": "ML Data Engineer (m/f/d) - Sensor Data & Pipelines",
+    "description": "<br><strong>What we offer</strong><p><ul><li>Work in an international, agile team creating the future of autonomous systems</li><li>Grow your career in a expanding and ambitious engineering team</li><li>Build innovative products using state-of-the-art technologies in AI, robotics, and autonomy </li><li>Benefit from a steep learning curve and continuous development</li><li>Enjoy team events and a strong, collaborative culture</li></ul></p><br><strong>Your mission</strong><p>This role owns the data foundation of our perception systems end-to-end — the layer that directly determines model performance in real-world environments. You'll set the technical direction for how we collect, curate, and continuously improve the datasets behind object detection, working as a senior technical partner to ML, perception, and robotics teams — turning raw, messy sensor data into reliable, production-grade systems at scale.<br><br>You will take full ownership of the ML data lifecycle — from architecture decisions on ingestion and pipelines, through labeling strategy and QA, to driving continuous, metrics-informed dataset improvement — and will be expected to bring judgment and prior experience to how this is done, not just execute a defined process.<br><br><br><br>What you'll do:<br><ul><li>Architect and own scalable pipelines for ingesting, organizing, and preprocessing large volumes of time-series camera and multi-sensor data (RGB, IR, thermal, depth, IMU)</li><li>Drive the strategy behind our object detection datasets, ensuring quality, diversity, and statistical representativeness at scale</li><li>Design and operate active learning loops that connect model performance directly to data selection and improvement priorities</li><li>Own labeling workflows end-to-end — tooling decisions, QA methodology, consistency standards, and coordination of annotation efforts</li><li>Partner closely with AI Engineers to diagnose model weaknesses, bias, and drift, and translate findings into concrete dataset strategy</li><li>Plan and lead data collection campaigns (field recordings, drone/video capture) to close gaps with high-value real-world data</li><li>Build internal tools and dashboards that give the org visibility into dataset quality, distribution, and performance gaps</li></ul></p><br><strong>Your profile</strong><p><ul><li style=\"font-style:normal;font-weight:400;text-transform:none;color:rgb(0,0,0);\">5+ years of hands-on experience in Python and data processing frameworks (Pandas, NumPy, vectorized operations, multiprocessing)</li><li style=\"font-style:normal;font-weight:400;text-transform:none;color:rgb(0,0,0);\">Proven track record building and owning ETL/ELT pipelines for large-scale video and sensor datasets in production</li><li style=\"font-style:normal;font-weight:400;text-transform:none;color:rgb(0,0,0);\">Deep experience with data orchestration and lifecycle management for ML/computer vision workflows, including dataset versioning and reproducibility</li><li style=\"font-style:normal;font-weight:400;text-transform:none;color:rgb(0,0,0);\">Strong command of object detection pipelines (Detectron2, MMDetection, COCO format, bounding-box standards)</li><li style=\"font-style:normal;font-weight:400;text-transform:none;color:rgb(0,0,0);\">Demonstrated experience designing active learning, uncertainty sampling, or semi-supervised dataset workflows</li><li style=\"font-style:normal;font-weight:400;text-transform:none;color:rgb(0,0,0);\">Deep familiarity with data annotation platforms (CVAT, Label Studio) and building automated QA/consistency checks</li><li style=\"font-style:normal;font-weight:400;text-transform:none;color:rgb(0,0,0);\">Strong grasp of evaluation metrics for object detection (IoU, mAP, precision-recall curves, class-wise metrics)</li><li style=\"font-style:normal;font-weight:400;text-transform:none;color:rgb(0,0,0);\">Comfortable owning decisions around databases (SQL/NoSQL), file systems, and large-scale image, video, and sensor dataset management</li><li style=\"font-style:normal;font-weight:400;text-transform:none;color:rgb(0,0,0);\">Track record of working cross-functionally and influencing perception, deployment, robotics, and data infrastructure teams</li><li style=\"font-style:normal;font-weight:400;text-transform:none;color:rgb(0,0,0);\">Fluent in English; German and/or French are a plus</li></ul></p><br><strong>Nice to have</strong><p><ul><li>Experience with cloud storage and MLOps tools (AWS S3, MinIO, ClearML, MLFlow, Weights &amp; Biases).</li><li>Familiarity with ROS / robotics data formats (bag files, TF trees, sensor_msgs), Docker, or embedded ML workflows.</li><li>Prior work with robotics, drones, or multi-sensor perception systems, including IR, LiDAR, radar, or audio datasets.</li></ul></p><br><strong>What else</strong><p><ul><li>Outside-the-box creativity with a blend of conceptual and systematic design thinking.</li><li>High intrinsic motivation, attention to detail, and strong problem-solving mindset.</li><li>Structured, methodical, and reliable execution, even under uncertainty.</li><li>Humble, collaborative, and mission-driven — values collective success over ego.</li><li>High ethical standards and disciplined work ethic.</li><li>Extra-curricular achievements, leadership, or unique projects are a plus.</li><li>NATO-aligned nationality or close ally citizenship is required.</li></ul></p><br><strong>Why us?</strong><p>Join us to shape the future of AI-driven defense!</p><p>Find more <a href=\"https://www.arbeitnow.com/english-speaking-jobs\">English Speaking Jobs in Germany</a> on Arbeitnow</a>",
+    "remote": false,
+    "url": "https://www.arbeitnow.com/jobs/companies/autonomous-teaming/ml-data-engineer-sensor-data-pipelines-munich-deu-455358",
+    "tags": [
+      "Active Learning",
+      "Machine Learning",
+      "Python",
+      "Pandas",
+      "Data Orchestration",
+      "CVAT",
+      "NumPy",
+      "Data Engineering",
+      "Data Pipelines",
+      "Dataset Engineering",
+      "Data Processing",
+      "Data Lifecycle",
+      "ELT / ETL",
+      "Sensor Data",
+      "Video Data Processing"
+    ],
+    "job_types": [
+      "Experienced",
+      "Permanent",
+      "Full time"
+    ],
+    "location": "Munich (DEU)",
+    "created_at": 1790302193
+  }
+}

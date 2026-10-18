@@ -1,0 +1,6 @@
+{
+  "url": "https://de.linkedin.com/jobs/view/senior-qa-engineer-remote-at-kake-4461168232?position=7&pageNum=0&refId=wmecPdgV7tyPVdrvVCxGeA%3D%3D",
+  "returncode": 0,
+  "stdout": "✓ 页面已保存到 /opt/data/qa-vacancy-project/cycles/2026-09-29_cycle-1/workers/linkedin.com/raw/crawl4ai-card-senior-qa-engineer-remote-at-kake-4461168232-position-7-pageNum-0-refId-wmecPdgV7tyPVdrvVCxGeA-3D-3D.md\n  标题: Kake sucht Senior QA Engineer - Remote in Berlin, Deutschland | LinkedIn\n  链接数: 183\n",
+  "stderr": "[INIT].... → Crawl4AI 0.9.4 \n[FETCH]... ↓ https://de.linkedin.com/jobs/view/senior-qa-engi...ition=7&pageNum=0&refId=wmecPdgV7tyPVdrvVCxGeA==  | ✓ | ⏱: 4.36s \n[SCRAPE].. ◆ https://de.linkedin.com/jobs/view/senior-qa-engi...ition=7&pageNum=0&refId=wmecPdgV7tyPVdrvVCxGeA==  | ✓ | ⏱: 0.98s \n[COMPLETE] ● https://de.linkedin.com/jobs/view/senior-qa-engi...ition=7&pageNum=0&refId=wmecPdgV7tyPVdrvVCxGeA==  | ✓ | ⏱: 5.45s \n"
+}

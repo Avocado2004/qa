@@ -1,0 +1,18 @@
+{
+  "artifacts": {
+    "recheck": "/opt/data/qa-vacancy-project/cycles/2026-10-14_cycle-9/published_recheck.json"
+  },
+  "cycle_id": "2026-10-14_cycle-9",
+  "error": "RuntimeError: LLM request failed after 4 attempts: HTTP Error 400: Bad Request",
+  "finished_at": "2026-10-14T17:00:25.797497+00:00",
+  "publication_allowed": false,
+  "schema_version": 2,
+  "stage": "FAILED",
+  "stage_seconds": {
+    "FAILED": 161.3,
+    "MASTER_RECHECK": 316.8
+  },
+  "started_at": "2026-10-14T16:52:27.620888+00:00",
+  "status": "FAILED",
+  "updated_at": "2026-10-14T17:00:25.797537+00:00"
+}

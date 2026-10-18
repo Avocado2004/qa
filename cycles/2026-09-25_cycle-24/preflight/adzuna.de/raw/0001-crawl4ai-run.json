@@ -1,0 +1,6 @@
+{
+  "url": "https://www.adzuna.de/search?q=QA&loc=587664",
+  "returncode": 2,
+  "stdout": "",
+  "stderr": "Usage: crawl4ai-skill crawl [OPTIONS] URL\nTry 'crawl4ai-skill crawl --help' for help.\n\nError: No such option '--wait-until'. Did you mean '--wait-for'?\n"
+}

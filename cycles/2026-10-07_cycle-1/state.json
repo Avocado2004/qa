@@ -1,0 +1,18 @@
+{
+  "artifacts": {
+    "recheck": "/opt/data/qa-vacancy-project/cycles/2026-10-07_cycle-1/published_recheck.json"
+  },
+  "cycle_id": "2026-10-07_cycle-1",
+  "error": "RuntimeError: LLM request failed after 4 attempts: HTTP Error 404: Not Found",
+  "finished_at": "2026-10-07T00:08:11.627602+00:00",
+  "publication_allowed": false,
+  "schema_version": 2,
+  "stage": "FAILED",
+  "stage_seconds": {
+    "FAILED": 158.5,
+    "MASTER_RECHECK": 315.0
+  },
+  "started_at": "2026-10-07T00:00:18.102301+00:00",
+  "status": "FAILED",
+  "updated_at": "2026-10-07T00:08:11.627647+00:00"
+}

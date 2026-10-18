@@ -1,0 +1,37 @@
+{
+  "query": "site:xing.com QA OR \"Quality Assurance\" OR \"Software Test\" OR \"Test Automation\" or Testautomatisierung or Softwaretester Berlin Leipzig Dresden Germany jobs",
+  "result": {
+    "data": [
+      {
+        "url": "https://www.xing.com/jobs/berlin-software-tester-qualitaetssicherung-testautomatisierung-150542060"
+      },
+      {
+        "url": "https://www.xing.com/jobs/leipzig-senior-testautomatisierungsentwickler-156015361"
+      },
+      {
+        "url": "https://www.xing.com/jobs/dresden-test-automation-engineer-156779968"
+      },
+      {
+        "url": "https://www.xing.com/jobs/berlin-it-quality-engineer-schwerpunkt-automation-152400842"
+      },
+      {
+        "url": "https://www.xing.com/jobs/berlin-senior-test-automation-engineer-152982478"
+      },
+      {
+        "url": "https://www.xing.com/jobs/berlin-senior-testingenieur-testautomatisierung-qualitaetssicherung-qa-engineer-157559393"
+      },
+      {
+        "url": "https://www.xing.com/jobs/leipzig-software-test-analyst-daten-157099310"
+      },
+      {
+        "url": "https://www.xing.com/jobs/berlin-softwaretester-berlin-nexus-swisslab-gmbh-154591372"
+      },
+      {
+        "url": "https://www.xing.com/jobs/berlin-senior-software-engineer-test-automation-154575435"
+      },
+      {
+        "url": "https://www.xing.com/jobs/berlin-senior-it-testautomatisierungsingenieur-qa-ki-transformation-155635347"
+      }
+    ]
+  }
+}

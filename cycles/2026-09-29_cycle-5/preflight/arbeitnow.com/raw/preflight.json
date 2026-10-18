@@ -1,0 +1,38 @@
+{
+  "checked_at": "2026-09-29T10:15:01.348865+00:00",
+  "evidence": {
+    "access_method": "base",
+    "attempts": [
+      {
+        "method": "api",
+        "status": "pass"
+      }
+    ],
+    "cards_analyzable": 2,
+    "cards_found": 97,
+    "operations": [
+      {
+        "op": "listing",
+        "status": 200
+      },
+      {
+        "chars": 1799,
+        "op": "card-1",
+        "url": "https://www.arbeitnow.com/jobs/companies/studio-julian-charriere/buchhalter-auf-honorarbasis-berlin-460069"
+      },
+      {
+        "op": "return",
+        "status": 200
+      },
+      {
+        "chars": 3878,
+        "op": "card-2",
+        "url": "https://www.arbeitnow.com/jobs/companies/brainershub-gmbh/senior-healthcare-marketing-consultant-hamburg-456944"
+      }
+    ],
+    "primary_or_fallback": "api",
+    "status": "pass"
+  },
+  "listing": "https://www.arbeitnow.com/api/job-board-api",
+  "verdict": "PASS"
+}

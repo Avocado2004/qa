@@ -1,0 +1,38 @@
+{
+  "checked_at": "2026-09-25T16:10:54.499562+00:00",
+  "evidence": {
+    "access_method": "base",
+    "attempts": [
+      {
+        "method": "http",
+        "status": "pass"
+      }
+    ],
+    "cards_analyzable": 10,
+    "cards_found": 10,
+    "operations": [
+      {
+        "op": "listing",
+        "status": 200
+      },
+      {
+        "chars": 8833,
+        "op": "card-1",
+        "url": "https://www.adzuna.de/details/5595226766"
+      },
+      {
+        "op": "return",
+        "status": 200
+      },
+      {
+        "chars": 4519,
+        "op": "card-2",
+        "url": "https://www.adzuna.de/details/5896363113"
+      }
+    ],
+    "primary_or_fallback": "http",
+    "status": "pass"
+  },
+  "listing": "https://www.adzuna.de/berlin/qa-engineer",
+  "verdict": "PASS"
+}

@@ -1,0 +1,46 @@
+[
+  {
+    "source": "Arbeitsagentur fallback",
+    "url": "https://www.arbeitsagentur.de/jobsuche/suche?was=Softwaretester%20Testautomatisierung&wo=Deutschland",
+    "status": 200,
+    "latency_ms": 693,
+    "count": 25,
+    "bytes": 370050,
+    "final": "https://www.arbeitsagentur.de/jobsuche/suche?was=Softwaretester%20Testautomatisierung&wo=Deutschland&suchbereich=jobs",
+    "retry_after": null,
+    "body": "<!DOCTYPE html><html lang=\"de\"><head>   <title>Jobs für Softwaretester Testautomatisierung in Deutschland | Jobsuche der BA</title>    <meta name=\"google-site-verification\" content=\"p13Ggb4Cq78RdCjrz7uf5wUo_74UB3TigT6o9yk5xz8\">    <base href=\"/jobsuche/\">    <meta charset=\"utf-8\">   <meta http-equiv"
+  },
+  {
+    "source": "StepStone fallback",
+    "url": "https://www.stepstone.de/jobs/qa-test/in-berlin.html",
+    "status": 410,
+    "latency_ms": 165,
+    "count": 0,
+    "bytes": 362,
+    "final": "https://www.stepstone.de/jobs/qa-test/in-berlin.html",
+    "retry_after": null,
+    "body": "\u001f�\b\u0000\u0000\u0000\u0000\u0000\u0000\u0003�Q�N�0\u0010�#�\u000f��[��B�\u0003��VE\u0010�\u0012��\u001boj'�\u00139V[��q�R8��#\u0017[�ٝ����.Ut~\u0016 d< �� ��v\u000b� �!���X_5/���\u0004�E\u0013���(� �\u0007�V��\u0001�ԛ&W%F�\u0016�+�O,n,�؊�_\t@e�>�7��x{�e�&�کQ�ؘ�ި�ߊ�M�Yӡ��ܐ2Ֆiܚ�t�A|��T\u0014*�s0����Na%\u0010�A�7�*o(\f�?9�\u0013��\u0015��%�{�����\u000e2;�6�1~����b��=t^��4.\t���\u00048��G�\u0002s�\u0002�}\\L�b�F1G`��O��J����{�6)�eR������<��\u001e7}\u0011\u0004��d�K�\u0000["
+  },
+  {
+    "source": "Hitmarker fallback",
+    "url": "https://hitmarker.net/jobs",
+    "status": 200,
+    "latency_ms": 205,
+    "count": 0,
+    "bytes": 60126,
+    "final": "https://hitmarker.net/jobs",
+    "retry_after": null,
+    "body": " <!DOCTYPE html> <html lang=\"en\" data-theme=\"dark\">   <head>     <meta charset=\"utf-8\" />     <meta name=\"viewport\" content=\"width=device-width, initial-scale=1.0\" />     <link rel=\"home\" href=\"https://hitmarker.net/\" />     <link rel=\"canonical\" href=\"https://hitmarker.net/jobs\" />     <title>Gamin"
+  },
+  {
+    "source": "Company ATS fallback",
+    "url": "https://jobs.sap.com/search/?q=Software%20Quality%20Assurance&location=Germany",
+    "status": 200,
+    "latency_ms": 1155,
+    "count": 167,
+    "bytes": 614236,
+    "final": "https://jobs.sap.com/en/jobs/",
+    "retry_after": null,
+    "body": "<!DOCTYPE html><html lang=\"en\" class=\"h-full\"><head><meta charSet=\"utf-8\"/><meta name=\"viewport\" content=\"width=device-width, initial-scale=1\"/><link rel=\"preload\" href=\"https://sap-careers-cdn.happydance.website/media/chohpz1o/how-we-hire-icon-find-apply.svg?v=639160307889100000\" as=\"image\"/><link "
+  }
+]

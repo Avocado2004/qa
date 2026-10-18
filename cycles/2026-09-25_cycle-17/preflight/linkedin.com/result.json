@@ -1,0 +1,13 @@
+{
+  "cycle_id": "2026-09-25_cycle-17",
+  "failures": [
+    {
+      "at": "2026-09-25T03:28:30.529159+00:00",
+      "attempt": 1,
+      "error": "Camofox preflight snapshot blocked"
+    }
+  ],
+  "schema_version": 2,
+  "source_id": "linkedin.com",
+  "state": "blocked"
+}

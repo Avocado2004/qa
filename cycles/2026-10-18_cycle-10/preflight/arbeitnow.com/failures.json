@@ -1,0 +1,11 @@
+{
+  "cycle_id": "2026-10-18_cycle-10",
+  "failures": [
+    {
+      "at": "2026-10-18T14:00:05.898627+00:00",
+      "error": "all independent access methods failed: 'utf-8' codec can't decode byte 0xcb in position 0: invalid continuation byte; 'utf-8' codec can't decode byte 0xcb in position 0: invalid continuation byte; preflight: fewer than two analyzable direct cards; Camofox returned an empty snapshot"
+    }
+  ],
+  "schema_version": 2,
+  "source_id": "arbeitnow.com"
+}

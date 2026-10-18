@@ -1,0 +1,6 @@
+{
+  "url": "https://de.linkedin.com/jobs/view/test-automation-engineer-m-w-d-at-ip-dynamics-gmbh-4440015435?position=6&pageNum=0&refId=SmJrWtSpyU698VdsPXkOwA%3D%3D",
+  "returncode": 0,
+  "stdout": "✓ 页面已保存到 /opt/data/qa-vacancy-project/cycles/2026-09-27_cycle-3/workers/linkedin.com/raw/crawl4ai-card-ngineer-m-w-d-at-ip-dynamics-gmbh-4440015435-position-6-pageNum-0-refId-SmJrWtSpyU698VdsPXkOwA-3D-3D.md\n  标题: Test Automation Engineer (m/w/d) bei IP Dynamics GmbH — Hamburg, Deutschland | LinkedIn Jobs\n  链接数: 185\n",
+  "stderr": "[INIT].... → Crawl4AI 0.9.4 \n[FETCH]... ↓ https://de.linkedin.com/jobs/view/test-automatio...ition=6&pageNum=0&refId=SmJrWtSpyU698VdsPXkOwA==  | ✓ | ⏱: 2.41s \n[SCRAPE].. ◆ https://de.linkedin.com/jobs/view/test-automatio...ition=6&pageNum=0&refId=SmJrWtSpyU698VdsPXkOwA==  | ✓ | ⏱: 0.40s \n[COMPLETE] ● https://de.linkedin.com/jobs/view/test-automatio...ition=6&pageNum=0&refId=SmJrWtSpyU698VdsPXkOwA==  | ✓ | ⏱: 2.87s \n"
+}

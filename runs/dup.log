@@ -1,0 +1,13 @@
+  same query twice: run1=15 run2=15
+  distinct jk: run1=15 run2=15 common=15
+  identical URL sets (incl. bb=): False
+
+  sample URLs from run1:
+    https://de.indeed.com/rc/clk?jk=b61d3fbdb683ee91&bb=6sEC9AoPnYEhgxHIIr_fzKDUaMOB7n8ybfM24eLKmMR3LxqiJCH99JyB_CUW
+    https://de.indeed.com/rc/clk?jk=fb57349133c160b6&bb=6sEC9AoPnYEhgxHIIr_fzNfLTe-BIbIFYZ22LGJEgINTW6C2BKhqf2EqHYB3
+  sample URLs from run2:
+    https://de.indeed.com/rc/clk?jk=b61d3fbdb683ee91&bb=oEAKjjcRPfoIoyg4PbyPzuIF_v0LYHnDndO7CHEBmwPXdpAIE-GVAlDsCSwt
+    https://de.indeed.com/rc/clk?jk=fb57349133c160b6&bb=oEAKjjcRPfoIoyg4PbyPzqKeod3FYQf7Vzt9ztXFka6IpI2tzE2cs6UPSwwN
+
+  => if bb= differs between runs, the adapter's URL-level dedup
+     counts the SAME vacancy once per crawl, inflating the union.

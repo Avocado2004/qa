@@ -1,0 +1,11 @@
+{
+  "cycle_id": "2026-10-14_cycle-18",
+  "failures": [
+    {
+      "at": "2026-10-14T23:36:47.537994+00:00",
+      "error": "all independent access methods failed: preflight: fewer than two analyzable direct cards; preflight: fewer than two analyzable direct cards; preflight: no card carries vacancy body text (a title alone is not a posting) -- 2 opened but all are indexes/teasers (card-1: 'Zum Inhalt springen' (0 chars); card-2: 'Jobs' (0 chars)). About.md requires two analyzable vacancy cards.; Camofox preflight: no card carries vacancy body text (a title alone is not a posting) -- card-1: 'Deine Jobsuche beginnt hier' (4911 chars); card-2: 'Wir sollten uns kennenlernen' (5200 chars). Listing offered 3 direct links; About.md requires two analyzable vacancy cards."
+    }
+  ],
+  "schema_version": 2,
+  "source_id": "glassdoor.de"
+}

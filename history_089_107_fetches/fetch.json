@@ -1,0 +1,173 @@
+[
+  {
+    "i": 89,
+    "url": "https://www.stepstone.de/stellenangebote--QA-Engineer-m-w-d-Heilbronn-AZUR-SPACE-Solar-Power-GmbH--13809042-inline.html",
+    "status": 0,
+    "final": "https://www.stepstone.de/stellenangebote--QA-Engineer-m-w-d-Heilbronn-AZUR-SPACE-Solar-Power-GmbH--13809042-inline.html",
+    "bytes": 0,
+    "title": "",
+    "error": "curl: (92) HTTP/2 stream 1 was not closed cleanly: INTERNAL_ERROR (err 2)"
+  },
+  {
+    "i": 90,
+    "url": "https://www.stepstone.de/stellenangebote--Qualitaetsingenieur-KI-Fokus-Quality-Engineer-AI-augmented-m-w-d-IT-Consulting-Berlin-Dresden-Duesseldorf-Frankfurt-Hamburg-Karlsruhe-Kassel-Koeln-Mannheim-Muenchen-PTA-GmbH--14178984-inline.html",
+    "status": 0,
+    "final": "https://www.stepstone.de/stellenangebote--Qualitaetsingenieur-KI-Fokus-Quality-Engineer-AI-augmented-m-w-d-IT-Consulting-Berlin-Dresden-Duesseldorf-Frankfurt-Hamburg-Karlsruhe-Kassel-Koeln-Mannheim-Muenchen-PTA-GmbH--14178984-inline.html",
+    "bytes": 0,
+    "title": "",
+    "error": "curl: (92) HTTP/2 stream 1 was not closed cleanly: INTERNAL_ERROR (err 2)"
+  },
+  {
+    "i": 91,
+    "url": "https://www.stepstone.de/stellenangebote--Quality-Assurance-Engineer-m-w-d-E-Commerce-Koeln-igus-SE-Co-KG--14501510-inline.html",
+    "status": 0,
+    "final": "https://www.stepstone.de/stellenangebote--Quality-Assurance-Engineer-m-w-d-E-Commerce-Koeln-igus-SE-Co-KG--14501510-inline.html",
+    "bytes": 0,
+    "title": "",
+    "error": "curl: (92) HTTP/2 stream 1 was not closed cleanly: INTERNAL_ERROR (err 2)"
+  },
+  {
+    "i": 92,
+    "url": "https://www.stepstone.de/stellenangebote--Senior-QA-Engineer-m-w-d-Luebbecke-adp-MERKUR-GmbH--14466609-inline.html",
+    "status": 0,
+    "final": "https://www.stepstone.de/stellenangebote--Senior-QA-Engineer-m-w-d-Luebbecke-adp-MERKUR-GmbH--14466609-inline.html",
+    "bytes": 0,
+    "title": "",
+    "error": "curl: (92) HTTP/2 stream 1 was not closed cleanly: INTERNAL_ERROR (err 2)"
+  },
+  {
+    "i": 93,
+    "url": "https://www.stepstone.de/stellenangebote--Senior-Test-Engineer-m-w-d-Erprobung-und-Validierung-Leipzig-Falk-Defence--14341604-inline.html",
+    "status": 0,
+    "final": "https://www.stepstone.de/stellenangebote--Senior-Test-Engineer-m-w-d-Erprobung-und-Validierung-Leipzig-Falk-Defence--14341604-inline.html",
+    "bytes": 0,
+    "title": "",
+    "error": "curl: (92) HTTP/2 stream 1 was not closed cleanly: INTERNAL_ERROR (err 2)"
+  },
+  {
+    "i": 94,
+    "url": "https://www.stepstone.de/stellenangebote--Software-QA-Test-Engineer-m-w-d-Stuttgart-Aveyara-Software-GmbH--13688522-inline.html",
+    "status": 0,
+    "final": "https://www.stepstone.de/stellenangebote--Software-QA-Test-Engineer-m-w-d-Stuttgart-Aveyara-Software-GmbH--13688522-inline.html",
+    "bytes": 0,
+    "title": "",
+    "error": "curl: (92) HTTP/2 stream 1 was not closed cleanly: INTERNAL_ERROR (err 2)"
+  },
+  {
+    "i": 95,
+    "url": "https://www.stepstone.de/stellenangebote--Software-Quality-Engineer-m-w-d-Hannover-WERTGARANTIE-Group--14000604-inline.html",
+    "status": 0,
+    "final": "https://www.stepstone.de/stellenangebote--Software-Quality-Engineer-m-w-d-Hannover-WERTGARANTIE-Group--14000604-inline.html",
+    "bytes": 0,
+    "title": "",
+    "error": "curl: (92) HTTP/2 stream 1 was not closed cleanly: INTERNAL_ERROR (err 2)"
+  },
+  {
+    "i": 96,
+    "url": "https://www.stepstone.de/stellenangebote--Software-Quality-Engineer-m-w-d-Konstanz-Bedifol-GmbH--14438387-inline.html",
+    "status": 0,
+    "final": "https://www.stepstone.de/stellenangebote--Software-Quality-Engineer-m-w-d-Konstanz-Bedifol-GmbH--14438387-inline.html",
+    "bytes": 0,
+    "title": "",
+    "error": "curl: (92) HTTP/2 stream 1 was not closed cleanly: INTERNAL_ERROR (err 2)"
+  },
+  {
+    "i": 97,
+    "url": "https://www.stepstone.de/stellenangebote--Software-Quality-Engineer-m-w-d-Pulsnitz-secupay-AG--14411331-inline.html",
+    "status": 0,
+    "final": "https://www.stepstone.de/stellenangebote--Software-Quality-Engineer-m-w-d-Pulsnitz-secupay-AG--14411331-inline.html",
+    "bytes": 0,
+    "title": "",
+    "error": "curl: (92) HTTP/2 stream 1 was not closed cleanly: INTERNAL_ERROR (err 2)"
+  },
+  {
+    "i": 98,
+    "url": "https://www.stepstone.de/stellenangebote--Software-Tester-w-m-d-Schwerpunkt-manuelle-Tests-Hamburg-seca-GmbH-Co-KG--14519955-inline.html",
+    "status": 0,
+    "final": "https://www.stepstone.de/stellenangebote--Software-Tester-w-m-d-Schwerpunkt-manuelle-Tests-Hamburg-seca-GmbH-Co-KG--14519955-inline.html",
+    "bytes": 0,
+    "title": "",
+    "error": "curl: (92) HTTP/2 stream 1 was not closed cleanly: INTERNAL_ERROR (err 2)"
+  },
+  {
+    "i": 99,
+    "url": "https://www.stepstone.de/stellenangebote--System-Validation-Test-Automation-Engineer-a-Radeberg-bei-Dresden-Baumer-Optronic-GmbH--14460761-inline.html",
+    "status": 0,
+    "final": "https://www.stepstone.de/stellenangebote--System-Validation-Test-Automation-Engineer-a-Radeberg-bei-Dresden-Baumer-Optronic-GmbH--14460761-inline.html",
+    "bytes": 0,
+    "title": "",
+    "error": "curl: (92) HTTP/2 stream 1 was not closed cleanly: INTERNAL_ERROR (err 2)"
+  },
+  {
+    "i": 100,
+    "url": "https://www.stepstone.de/stellenangebote--Test-Automation-Engineer-all-genders-Berlin-Braunschweig-Chemnitz-Frankfurt-am-Main-Goerlitz-Hamburg-Hannover-Ismaning-bei-Muenchen-msg-systems-ag--13789925-inline.html",
+    "status": 0,
+    "final": "https://www.stepstone.de/stellenangebote--Test-Automation-Engineer-all-genders-Berlin-Braunschweig-Chemnitz-Frankfurt-am-Main-Goerlitz-Hamburg-Hannover-Ismaning-bei-Muenchen-msg-systems-ag--13789925-inline.html",
+    "bytes": 0,
+    "title": "",
+    "error": "curl: (92) HTTP/2 stream 1 was not closed cleanly: INTERNAL_ERROR (err 2)"
+  },
+  {
+    "i": 101,
+    "url": "https://www.stepstone.de/stellenangebote--Test-Automation-Engineer-m-w-d-Berlin-Bremen-Dortmund-Dresden-Duesseldorf-Erlangen-Frankfurt-Hamburg-Hannover-Koeln-Muenchen-Materna-Information-Communications-SE--14342627-inline.html",
+    "status": 0,
+    "final": "https://www.stepstone.de/stellenangebote--Test-Automation-Engineer-m-w-d-Berlin-Bremen-Dortmund-Dresden-Duesseldorf-Erlangen-Frankfurt-Hamburg-Hannover-Koeln-Muenchen-Materna-Information-Communications-SE--14342627-inline.html",
+    "bytes": 0,
+    "title": "",
+    "error": "curl: (92) HTTP/2 stream 1 was not closed cleanly: INTERNAL_ERROR (err 2)"
+  },
+  {
+    "i": 102,
+    "url": "https://www.stepstone.de/stellenangebote--Test-Automation-Engineer-m-w-d-Dresden-Essen-secunet-Security-Networks-AG--14337141-inline.html",
+    "status": 0,
+    "final": "https://www.stepstone.de/stellenangebote--Test-Automation-Engineer-m-w-d-Dresden-Essen-secunet-Security-Networks-AG--14337141-inline.html",
+    "bytes": 0,
+    "title": "",
+    "error": "curl: (92) HTTP/2 stream 1 was not closed cleanly: INTERNAL_ERROR (err 2)"
+  },
+  {
+    "i": 103,
+    "url": "https://www.stepstone.de/stellenangebote--Test-Entwickler-m-w-d-Satellitenkommunikation-Dresden-NEOSAT-GmbH--13888678-inline.html",
+    "status": 0,
+    "final": "https://www.stepstone.de/stellenangebote--Test-Entwickler-m-w-d-Satellitenkommunikation-Dresden-NEOSAT-GmbH--13888678-inline.html",
+    "bytes": 0,
+    "title": "",
+    "error": "curl: (92) HTTP/2 stream 1 was not closed cleanly: INTERNAL_ERROR (err 2)"
+  },
+  {
+    "i": 104,
+    "url": "https://www.stepstone.de/stellenangebote--Testautomatisierer-m-w-d-bundesweit-Berlin-Frankfurt-Hamburg-Koeln-Leipzig-Muenchen-Sopra-Steria--13163223-inline.html",
+    "status": 0,
+    "final": "https://www.stepstone.de/stellenangebote--Testautomatisierer-m-w-d-bundesweit-Berlin-Frankfurt-Hamburg-Koeln-Leipzig-Muenchen-Sopra-Steria--13163223-inline.html",
+    "bytes": 0,
+    "title": "",
+    "error": "curl: (92) HTTP/2 stream 1 was not closed cleanly: INTERNAL_ERROR (err 2)"
+  },
+  {
+    "i": 105,
+    "url": "https://www.stepstone.de/stellenangebote--Testmanager-IT-Consultant-Testmanagement-m-w-d-Berlin-Dresden-Duesseldorf-Frankfurt-Hamburg-Karlsruhe-Kassel-Koeln-Mannheim-Muenchen-PTA-GmbH--14496961-inline.html",
+    "status": 0,
+    "final": "https://www.stepstone.de/stellenangebote--Testmanager-IT-Consultant-Testmanagement-m-w-d-Berlin-Dresden-Duesseldorf-Frankfurt-Hamburg-Karlsruhe-Kassel-Koeln-Mannheim-Muenchen-PTA-GmbH--14496961-inline.html",
+    "bytes": 0,
+    "title": "",
+    "error": "curl: (92) HTTP/2 stream 1 was not closed cleanly: INTERNAL_ERROR (err 2)"
+  },
+  {
+    "i": 106,
+    "url": "https://www.xing.com/jobs/leipzig-freelance-qa-tester-software-tester-157958385",
+    "status": 200,
+    "final": "https://www.xing.com/jobs/leipzig-freelance-qa-tester-software-tester-157958385",
+    "bytes": 302671,
+    "title": "Freelance QA Tester / Software-Tester (m/w/d) in Leipzig | XING Jobs",
+    "error": ""
+  },
+  {
+    "i": 107,
+    "url": "https://www.xing.com/jobs/leipzig-test-automation-engineer-geomagic-157527998",
+    "status": 200,
+    "final": "https://www.xing.com/jobs/leipzig-test-automation-engineer-geomagic-157527998",
+    "bytes": 390776,
+    "title": "Test Automation Engineer (m/w/d) - GEOMAGIC in Leipzig | XING Jobs",
+    "error": ""
+  }
+]

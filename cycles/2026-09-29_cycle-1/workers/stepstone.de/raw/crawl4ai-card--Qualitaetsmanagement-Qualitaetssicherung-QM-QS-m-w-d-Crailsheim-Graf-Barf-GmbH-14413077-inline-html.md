@@ -1,0 +1,192 @@
+[](https://www.stepstone.de/de)
+Suche
+[Login](https://www.stepstone.de/de-DE/candidate/register?login_source=Listing_top-register&intcid=Button_Listing-navigation_register)
+Menu
+* * *
+Genug gesucht? Lass uns schneller passende Jobs für dich findenJetzt starten
+* * *
+Jobs finden
+[![Graf Barf GmbH logo](https://www.stepstone.de/upload_DE/logo/6/logoGraf-Barf-GmbH-401398DE-2507091554.gif)](https://www.stepstone.de/cmp/de/Graf-Barf-GmbH-401398/jobs.html)
+# Mitarbeiter Qualitätsmanagement / Qualitätssicherung (QM/QS) (m/w/d)
+  * Graf Barf GmbH
+  * [Crailsheim](https://www.stepstone.de/stellenangebote--Mitarbeiter-Qualitaetsmanagement-Qualitaetssicherung-QM-QS-m-w-d-Crailsheim-Graf-Barf-GmbH--14413077-inline.html#location)
+  * Feste Anstellung
+  * Vollzeit
+  * Erschienen: vor 4 Tagen
+  * Gehalt anzeigen
+  * Verifiziert
+
+
+Schnelle Bewerbung
+Ich bin interessiert
+Speichern
+[![Graf Barf GmbH logo](https://www.stepstone.de/upload_DE/logo/6/logoGraf-Barf-GmbH-401398DE-2507091554.gif)](https://www.stepstone.de/cmp/de/Graf-Barf-GmbH-401398/jobs.html)
+**Mitarbeiter Qualitätsmanagement / Qualitätssicherung (QM/QS) (m/w/d)**[ Graf Barf GmbH](https://www.stepstone.de/cmp/de/Graf-Barf-GmbH-401398/jobs.html)
+Ich bin interessiert
+#### Über uns
+Graf Barf ist Teil von The Nutriment Company. Wir sind in einem der am schnellsten wachsenden Segmente des FMCG-Marktes tätig und sind stolz darauf, Europas führendes Unternehmen im Bereich natürlicher Premium-Tiernahrung zu sein. Unser Hauptsitz befindet sich in Stockholm und Düsseldorf, und wir beschäftigen derzeit über 800 Mitarbeitende in ganz Europa. Mit einem Umsatz von über 200 Millionen EUR und starker Profitabilität sind wir im Besitz des nordischen Private-Equity-Unternehmens Axcel.  
+  
+Bei The Nutriment Company haben wir ein hochmotiviertes, ehrgeiziges und begeistertes Team, das unser Unternehmen auf die nächste Stufe heben möchte, durch starkes organisches Wachstum und gezielte Akquisitionen in ganz Europa.
+**Die Stelle**
+Qualität und Lebensmittelsicherheit stehen bei uns im Mittelpunkt. Als Mitarbeiter Qualitätsmanagement / Qualitätssicherung (QM/QS) (m/w/d) stellst du die Einhaltung und Weiterentwicklung unserer Qualitätsstandards sowie aller lebensmittelrechtlichen und hygienischen Anforderungen sicher. In unserem dynamischen Umfeld suchen wir eine pragmatische, hands-on orientierte Persönlichkeit, die Strukturen und Prozesse aufbaut, erfolgreich implementiert und deren nachhaltige Umsetzung sicherstellt.
+* * *
+#### Deine Aufgaben
+  * Verantwortung für die Umsetzung, Überwachung und Weiterentwicklung des Qualitätsmanagementsystems
+  * Sicherstellung der Einhaltung aller Qualitäts-, Hygiene- und Lebensmittelsicherheitsstandards
+  * Vorbereitung, Begleitung und Nachbereitung von internen und externen Audits
+  * Umsetzung, Pflege und Überwachung des HACCP-Konzepts
+  * Überwachung und Dokumentation aller qualitätsrelevanten Prozesse
+  * Durchführung von Qualitätskontrollen sowie Einleitung geeigneter Verbesserungsmaßnahmen
+  * Kontinuierliche Prozessoptimierung zur Steigerung von Qualität und Effizienz
+  * Schnittstelle zu Behörden, Kunden, Lieferanten und internen Abteilungen
+
+
+* * *
+#### Wen wir suchen
+_Erfahrung_
+  * Abgeschlossene Ausbildung oder Studium im Bereich Lebensmitteltechnologie, Ökotrophologie, Qualitätsmanagement oder einer vergleichbaren Fachrichtung
+  * Erste Berufserfahrung im Qualitätsmanagement oder in der Qualitätssicherung, idealerweise in der Lebensmittel- oder Tiernahrungsindustrie
+  * Kenntnisse der relevanten lebensmittelrechtlichen Anforderungen sowie Erfahrung im Umgang mit HACCP-Systemen
+  * Erfahrungen in der Vorbereitung und Begleitung von Audits sind von Vorteil
+
+
+_Fähigkeiten und Arbeitsweise_
+  * Hohes Qualitäts- und Verantwortungsbewusstsein sowie eine strukturierte und sorgfältige Arbeitsweise
+  * Analytisches Denkvermögen und die Fähigkeit, Prozesse kritisch zu bewerten und nachhaltig zu verbessern
+  * Durchsetzungsvermögen bei gleichzeitiger lösungsorientierter und pragmatischer Herangehensweise
+  * Kommunikationsstärke und sicheres Auftreten gegenüber Kunden, Behörden, Auditoren und internen Ansprechpartnern
+  * Freude an der Zusammenarbeit mit verschiedenen Abteilungen und an der Gestaltung von Verbesserungsprozessen
+  * Sicherer Umgang mit MS Office und digitalen Dokumentationssystemen
+  * Gute Deutschkenntnisse in Wort und Schrift; Englischkenntnisse sind von Vorteil
+
+
+_Persönlichkeit_
+  * Du übernimmst gerne Verantwortung und arbeitest selbstständig
+  * Du behältst auch in dynamischen Situationen den Überblick und setzt Prioritäten erfolgreich um
+  * Du bist proaktiv, lernbereit und möchtest aktiv zur Weiterentwicklung unserer Qualitätsstandards beitragen
+  * Du teilst unsere Leidenschaft für hochwertige Produkte und höchste Qualitätsansprüche an natürliche Tiernahrung
+
+
+* * *
+#### Warum wir
+  * **Leidenschaft für Premium Petfood:** Unsere Begeisterung für hochwertiges Hundefutter treibt uns jeden Tag an. Qualität, Sicherheit und das Wohl unserer vierbeinigen Kunden stehen bei allem, was wir tun, im Mittelpunkt.
+  * **Gestaltungsspielraum statt Stillstand:** Bei uns kannst du etwas bewegen. Du hast die Möglichkeit, deine eigene Entwicklung aktiv zu gestalten, Ideen einzubringen und insbesondere den Bereich Qualitätsmanagement nachhaltig mitzuprägen.
+  * **Schnelles Wachstum und echte Verantwortung:** Wir bieten ein Umfeld, in dem du schnell lernen, wachsen und Verantwortung übernehmen kannst. Spannende Herausforderungen gehören dabei dazu und schaffen die Basis für deine persönliche und berufliche Weiterentwicklung.
+  * **Ein stark wachsendes Tiernahrungsunternehmen mit echter europäischer Reichweite** und dem Ehrgeiz, weiterzuwachsen. 
+  * **Attraktive Vergütung**
+  * **Betriebliche Altersvorsorge**
+  * **Kostenlose Parkplätze**
+  * **Mitarbeiterrabatte**
+  * **Team-Events**
+
+
+* * *
+#### Weitere Informationen
+* * *
+Ich bin interessiert
+* * *
+#### Gehalt
+Neugierig auf das Gehalt für diesen Job?Gehalt anzeigen
+Chart icon
+Min €Max €
+* * *
+[![Logo Graf Barf GmbH](https://www.stepstone.de/upload_DE/logo/6/logoGraf-Barf-GmbH-401398DE-2507091554.gif)](https://www.stepstone.de/cmp/de/Graf-Barf-GmbH-401398/jobs.html)
+Graf Barf GmbH
+Sonstiges produzierendes Gewerbe • Sonstige Branchen
+[1 Job](https://www.stepstone.de/cmp/de/Graf-Barf-GmbH-401398/jobs.html)
+* * *
+##### Pendelzeit
+Von:
+Nach:
+Wie:
+Auto ÖPNV Zu Fuß Fahrrad
+Pendelzeit anzeigen
+- - : - -
+#### Diese Jobs waren bei anderen Jobsuchenden beliebt
+[![Hofmann Menü- Manufaktur GmbH](https://www.stepstone.de/upload_DE/logo/C/logoHofmann-Menu-Manufaktur-GmbH-101448DE-2608201432.gif?im=Resize=\(56,56\))](https://www.stepstone.de/cmp/de/Hofmann-Menue-Manufaktur-GmbH-101448/jobs.html)
+## [Mitarbeiter Qualitätsmanagement (m/w/d)](https://www.stepstone.de/stellenangebote--Mitarbeiter-Qualitaetsmanagement-m-w-d-Boxberg-Schweigern-Hofmann-Menue-Manufaktur-GmbH--14536935-inline.html)
+Hofmann Menü- Manufaktur GmbH
+Boxberg- Schweigern
+vor 4 Tagen
+[![Schwer Fittings GmbH](https://www.stepstone.de/upload_DE/logo/0/logoSchwer-Fittings-GmbH-80219DE-2409111644.gif?im=Resize=\(56,56\))](https://www.stepstone.de/cmp/de/Schwer-Fittings-GmbH-80219/jobs.html)
+## [Mitarbeiter/in im Qualitäts- und Umweltmanagement (m/w/d)](https://www.stepstone.de/stellenangebote--Mitarbeiter-in-im-Qualitaets-und-Umweltmanagement-m-w-d-Denkingen-Schwer-Fittings-GmbH--14246498-inline.html)
+Schwer Fittings GmbH
+Denkingen
+Teilweise Home-Office
+vor 3 Wochen
+[![Klingbeil GmbH](https://www.stepstone.de/upload_DE/logo/E/logoKlingbeil-GmbH-258495DE-2102181407.gif?im=Resize=\(56,56\))](https://www.stepstone.de/cmp/de/Klingbeil-GmbH-258495/jobs.html)
+## [Mitarbeiter im Qualitätsmanagement (m/w/d)](https://www.stepstone.de/stellenangebote--Mitarbeiter-im-Qualitaetsmanagement-m-w-d-Ilsfeld-bei-Heilbronn-Klingbeil-GmbH--14445996-inline.html)
+Klingbeil GmbH
+Ilsfeld bei Heilbronn
+vor 1 Woche
+[![Cryotherm GmbH & Co. KG](https://recruit.stepstone.com/media-library/logo/44363eee-3f6e-5b67-b670-92449b545f78.png?im=Resize=\(56,56\))](https://www.stepstone.de/cmp/de/Cryotherm-GmbH-Co-KG-253811/jobs.html)
+## [Mitarbeiter/in im Qualitätsmanagement (m/w/d)](https://www.stepstone.de/stellenangebote--Mitarbeiter-in-im-Qualitaetsmanagement-m-w-d-Kirchen-Euteneuen-Cryotherm-GmbH-Co-KG--14533010-inline.html)
+Cryotherm GmbH & Co. KG
+Kirchen-Euteneuen
+vor 5 Tagen
+[![Flexco Europe GmbH](https://www.stepstone.de/upload_DE/logo/F/logoFlexco-Europe-GmbH-160782DE.gif?im=Resize=\(56,56\))](https://www.stepstone.de/cmp/de/Flexco-Europe-GmbH-160782/jobs.html)
+## [Mitarbeiter Qualitätssicherung & Continuous Improvement (m/w/d)](https://www.stepstone.de/stellenangebote--Mitarbeiter-Qualitaetssicherung-Continuous-Improvement-m-w-d-Rosenfeld-Flexco-Europe-GmbH--14509772-inline.html)
+Flexco Europe GmbH
+Rosenfeld
+vor 1 Woche
+[![Georg Rügamer GmbH](https://www.stepstone.de/upload_DE/logo/3/logoGeorg-Rugamer-GmbH-270573DE-2107211214.gif?im=Resize=\(56,56\))](https://www.stepstone.de/cmp/de/Georg-Ruegamer-GmbH-270573/jobs.html)
+## [Mitarbeiter Qualitätssicherung / QS-Assistenz (m/w/d)](https://www.stepstone.de/stellenangebote--Mitarbeiter-Qualitaetssicherung-QS-Assistenz-m-w-d-Schwebheim-bei-Schweinfurt-Georg-Ruegamer-GmbH--14539074-inline.html)
+Georg Rügamer GmbH
+Schwebheim bei Schweinfurt
+vor 4 Tagen
+[![Dipl.-Ing. H. Horstmann GmbH](https://www.stepstone.de/upload_DE/logo/0/logoDipl-Ing-H-Horstmann-GmbH-112117DE-2305220948.gif?im=Resize=\(56,56\))](https://www.stepstone.de/cmp/de/Dipl-Ing-H-Horstmann-GmbH-112117/jobs.html)
+## [Mitarbeiter (m/w/d) Qualitätsmanagement](https://www.stepstone.de/stellenangebote--Mitarbeiter-m-w-d-Qualitaetsmanagement-Koerperich-Dipl-Ing-H-Horstmann-GmbH--14538765-inline.html)
+Dipl.-Ing. H. Horstmann GmbH
+Körperich
+vor 4 Tagen
+[![NZYM Deutschland GmbH](https://recruit.stepstone.com/media-library/logo/205ce2c1-8b6e-418b-932b-c4964b542859.png?im=Resize=\(56,56\))](https://www.stepstone.de/cmp/de/NZYM-Deutschland-GmbH-426891/jobs.html)
+## [Qualitätsmanager (m/w/d) – Lebensmittel/ Nahrungsergänzungsmittel](https://www.stepstone.de/stellenangebote--Qualitaetsmanager-m-w-d-Lebensmittel-Nahrungsergaenzungsmittel-Baltmannsweiler-NZYM-Deutschland-GmbH--13956970-inline.html)
+NZYM Deutschland GmbH
+Baltmannsweiler
+vor 14 Stunden
+NEU
+[![Destilla GmbH](https://www.stepstone.de/upload_DE/logo/D/logoDestilla-GmbH-162434DE.gif?im=Resize=\(56,56\))](https://www.stepstone.de/cmp/de/Destilla-GmbH-162434/jobs.html)
+## [Mitarbeiter Qualitätsmanagement Lebensmittelindustrie (m/w/d)](https://www.stepstone.de/stellenangebote--Mitarbeiter-Qualitaetsmanagement-Lebensmittelindustrie-m-w-d-Noerdlingen-Destilla-GmbH--13998789-inline.html)
+Destilla GmbH
+Nördlingen
+vor 3 Tagen
+[![SE Kunststoffverarbeitung GmbH & Co.](https://www.stepstone.de/upload_DE/logo/9/logoSE-Kunststoffverarbeitung-GmbH-Co-311359DE-2208091102.gif?im=Resize=\(56,56\))](https://www.stepstone.de/cmp/de/SE-Kunststoffverarbeitung-GmbH-Co-311359/jobs.html)
+## [Qualitätstechniker (m/w/d) Serie](https://www.stepstone.de/stellenangebote--Qualitaetstechniker-m-w-d-Serie-Langenargen-SE-Kunststoffverarbeitung-GmbH-Co--14387586-inline.html)
+SE Kunststoffverarbeitung GmbH & Co.
+Langenargen
+vor 2 Wochen
+  * [Fertigung, Produktion Jobs](https://www.stepstone.de/jobs/fertigung_produktion)
+  * [Fertigung, Produktion Jobs in Crailsheim](https://www.stepstone.de/jobs/fertigung_produktion/in-crailsheim)
+  * [Qualität & Sicherheit Jobs](https://www.stepstone.de/jobs/qualitaet-sicherheit)
+  * [Qualität & Sicherheit Jobs in Crailsheim](https://www.stepstone.de/jobs/qualitaet-sicherheit/in-crailsheim)
+  * [Jobs in Crailsheim](https://www.stepstone.de/jobs/in-crailsheim)
+
+
+# Finde den Job,  
+der zu dir passt.
+[Los geht's](https://www.stepstone.de/de-DE/candidate/register?login_source=Listing_bottom-register&intcid=Button_Listing_bottom-navigation_register)
+[](https://twitter.com/stepstone_de)[](https://www.facebook.com/stepstone.de)[](https://www.instagram.com/stepstone_de/)[](https://www.youtube.com/traumjob)
+Stepstone
+Bewerbende
+Arbeitgebende
+Download
+The Stepstone Group GmbH © 2026
+Deutsch
+# Wir verwenden Cookies
+Deutsch
+Deutsch
+English
+Wir übermitteln personenbezogene Daten an Drittanbieter, die uns helfen, unser Webangebot zu verbessern. In diesem Zusammenhang werden auch Nutzungsprofile (u.a. auf Basis von Cookie-IDs) gebildet und angereichert, auch außerhalb des EWR.
+Hierfür und um bestimmte Dienste zu nachfolgend aufgeführten Zwecken verwenden zu dürfen, benötigen wir Ihre Einwilligung. Indem Sie "Alle akzeptieren" klicken, stimmen Sie diesen (jederzeit widerruflich) zu. Dies umfasst auch Ihre Einwilligung in die Übermittlung bestimmter personenbezogener Daten in Drittländer, u.a. die USADie betreffenden Drittländer, insbesondere die USA, weisen im Zweifel nicht das Datenschutzniveau auf, das Sie unter der DSGVO genießen. Das kann Nachteile wie eine erschwerte Durchsetzung von Betroffenenrechten, eine fehlende Kontrolle der Weiterverarbeitung und Übermittlung der Daten oder Zugriffe auf die Daten durch staatliche Stellen, ins. Behörden der USA, zu Kontroll- und Überwachungszwecken bedeuten, ohne dass Ihnen Rechtsbehelfe dagegen zustehen.*, nach Art. 49 (1) (a) DSGVO. Unter "Einstellungen oder ablehnen" können Sie Ihre Einstellungen ändern oder die Datenverarbeitung ablehnen. Sie können Ihre Auswahl jederzeit unter [Privatsphäre](https://www.stepstone.de/ueber-stepstone/privatsphaere) am Seitenende ändern.
+Informationen auf einem Gerät speichern und/oder abrufen
+Für die Ihnen angezeigten Verarbeitungszwecke können Cookies, Geräte-Kennungen oder andere Informationen auf Ihrem Gerät gespeichert oder abgerufen werden.
+Personalisierte Anzeigen und Inhalte, Anzeigen- und Inhaltsmessungen, Erkenntnisse über Zielgruppen und Produktentwicklungen
+Anzeigen und Inhalte können basierend auf einem Profil personalisiert werden. Es können mehr Daten hinzugefügt werden, um Anzeigen und Inhalte besser zu personalisieren. Die Performance von Anzeigen und Inhalten kann gemessen werden. Erkenntnisse über Zielgruppen, die die Anzeigen und Inhalte betrachtet haben, können abgeleitet werden. Daten können verwendet werden, um Benutzerfreundlichkeit, Systeme und Software aufzubauen oder zu verbessern.
+Fremdinhalte anzeigen (Soziale Netzwerke, Videos)
+Inhalte von sozialen Netzwerken und eingebettete Inhalte von Drittanbietern können angezeigt werden.
+Aus Authentifizierungen abgeleitete Kennungen
+Wenn eine Kennung auf der Grundlage von Authentifizierungsdaten erstellt wird, wie z. B. Kontaktdaten im Zusammenhang mit Online-Konten, die Sie auf Websites oder Apps eingerichtet haben (z. B. E-Mail-Adresse, Telefonnummer) oder Kundenkennungen (z. B. eine von Ihrem Telekommunikationsanbieter bereitgestellte Kennung), dann kann diese Kennung dazu verwendet werden, Sie über Websites, Apps und Geräte hinweg wiederzuerkennen, wenn Sie mit denselben Kontaktdaten angemeldet sind.
+Einstellungen oder ablehnen
+Alles akzeptieren
+Widerspruchsrechte zu Datenverarbeitungen auf Grundlage von berechtigten Interessen können Sie ebenfalls unter „Datenschutzerklärung“ ausüben.
+[Datenschutzerklärung](https://www.stepstone.de/e-recruiting/rechtliches/datenschutzerklarung)[Impressum](https://www.stepstone.de/e-recruiting/impressum)[Cookie Richtlinie](https://www.stepstone.de/e-recruiting/rechtliches/cookie-policy/)

@@ -1,0 +1,30 @@
+{
+  "attempts": [
+    {
+      "at": "2026-09-25T11:22:15.828173+00:00",
+      "error": "preflight: fewer than two analyzable direct cards",
+      "method": "http",
+      "status": "failed"
+    },
+    {
+      "at": "2026-09-25T11:23:45.719224+00:00",
+      "error": "Camofox preflight: fewer than two analyzable direct cards",
+      "method": "camofox",
+      "status": "failed"
+    },
+    {
+      "at": "2026-09-25T11:23:49.703885+00:00",
+      "error": "Exa returned fewer than two direct cards",
+      "method": "exa",
+      "status": "failed"
+    },
+    {
+      "at": "2026-09-25T11:24:18.545264+00:00",
+      "error": "preflight: fewer than two analyzable direct cards",
+      "method": "crawl4ai",
+      "status": "failed"
+    }
+  ],
+  "cycle_id": "2026-09-25_cycle-31",
+  "source_id": "arbeitsagentur.de"
+}

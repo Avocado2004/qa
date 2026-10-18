@@ -1,0 +1,56 @@
+{
+  "checked_at": "2026-09-25T07:33:05.092046+00:00",
+  "evidence": {
+    "access_method": "base",
+    "attempts": [
+      {
+        "at": "2026-09-25T07:31:57.233230+00:00",
+        "error": "Camofox HTTP 500 for GET /tabs/b14fa660-6bf5-4730-be5c-3867171f969e/snapshot",
+        "method": "camofox",
+        "status": "failed"
+      },
+      {
+        "at": "2026-09-25T07:31:57.331051+00:00",
+        "error": "No module named 'httpx'",
+        "method": "exa",
+        "status": "failed"
+      },
+      {
+        "at": "2026-09-25T07:33:01.988811+00:00",
+        "error": "preflight: fewer than two analyzable direct cards",
+        "method": "crawl4ai",
+        "status": "failed"
+      },
+      {
+        "method": "http",
+        "status": "pass"
+      }
+    ],
+    "cards_analyzable": 21,
+    "cards_found": 21,
+    "operations": [
+      {
+        "op": "listing",
+        "status": 200
+      },
+      {
+        "chars": 724,
+        "op": "card-1",
+        "url": "https://www.xing.com/recruiting/jobs/create?sc_cmp=oow5eb8bc92"
+      },
+      {
+        "op": "return",
+        "status": 200
+      },
+      {
+        "chars": 6978,
+        "op": "card-2",
+        "url": "https://www.xing.com/jobs/hamburg-recruiter-157424165"
+      }
+    ],
+    "primary_or_fallback": "http",
+    "status": "pass"
+  },
+  "listing": "https://www.xing.com/jobs/search",
+  "verdict": "PASS"
+}

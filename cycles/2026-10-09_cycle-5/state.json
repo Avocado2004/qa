@@ -1,0 +1,22 @@
+{
+  "artifacts": {
+    "discovery": "/opt/data/qa-vacancy-project/cycles/2026-10-09_cycle-5/source_discovery.json",
+    "recheck": "/opt/data/qa-vacancy-project/cycles/2026-10-09_cycle-5/published_recheck.json",
+    "synthesis": "/opt/data/qa-vacancy-project/cycles/2026-10-09_cycle-5/synthesis.json"
+  },
+  "cycle_id": "2026-10-09_cycle-5",
+  "error": "RuntimeError: final verifier: FAIL",
+  "finished_at": "2026-10-09T09:14:15.616372+00:00",
+  "publication_allowed": false,
+  "schema_version": 2,
+  "stage": "FAILED",
+  "stage_seconds": {
+    "FAILED": 0.0,
+    "MASTER_RECHECK": 3.1,
+    "MASTER_SNAPSHOT": 1054.3,
+    "SOURCE_DISCOVERY": 77.1
+  },
+  "started_at": "2026-10-09T08:55:21.041633+00:00",
+  "status": "FAILED",
+  "updated_at": "2026-10-09T09:14:15.616415+00:00"
+}

@@ -1,0 +1,214 @@
+{
+  "created_at": "2026-09-25T02:38:42.156501+00:00",
+  "cycle_id": "2026-09-25_cycle-14",
+  "evidence": {
+    "decision": "retain_registry_unchanged",
+    "historical_rejections": [
+      {
+        "candidate": "Landing.jobs",
+        "history_refs": [
+          "2026-09-24_cycle-5",
+          "2026-09-24_cycle-7"
+        ],
+        "reason": "German QA query returned 0 results and the API was recorded as 404."
+      },
+      {
+        "candidate": "Jobicy",
+        "history_refs": [
+          "2026-09-24_cycle-5"
+        ],
+        "reason": "Tag query returned HTTP 400."
+      },
+      {
+        "candidate": "Honeypot",
+        "history_refs": [
+          "2026-09-24_cycle-5",
+          "2026-09-24_cycle-8"
+        ],
+        "reason": "Legacy API returned HTTP 410 and was treated as duplicate coverage for XING."
+      },
+      {
+        "candidate": "We Work Remotely",
+        "history_refs": [
+          "2026-09-24_cycle-5"
+        ],
+        "reason": "Access remained HTTP 403."
+      },
+      {
+        "candidate": "Berlin Startup Jobs",
+        "history_refs": [
+          "2026-09-24_cycle-5"
+        ],
+        "reason": "Access remained HTTP 403."
+      },
+      {
+        "candidate": "GameDevJobs",
+        "history_refs": [
+          "2026-09-24_cycle-6"
+        ],
+        "reason": "Game-QA cards existed, but no current Germany, Berlin, Leipzig, or Dresden card was found."
+      },
+      {
+        "candidate": "RemoteOK",
+        "history_refs": [
+          "2026-09-24_cycle-6"
+        ],
+        "reason": "QA filtering existed, but the 100-record API snapshot contained no Germany QA/test record."
+      },
+      {
+        "candidate": "gamedevmap",
+        "history_refs": [
+          "2026-09-24_cycle-6"
+        ],
+        "reason": "Employer directory rather than a vacancy listing source."
+      },
+      {
+        "candidate": "jobs.ch",
+        "history_refs": [
+          "2026-09-24_cycle-6"
+        ],
+        "reason": "Switzerland-focused and no German QA card was found."
+      },
+      {
+        "candidate": "DevITJobs",
+        "history_refs": [
+          "2026-09-24_cycle-7"
+        ],
+        "reason": "UK-only coverage."
+      },
+      {
+        "candidate": "stellenwerk",
+        "history_refs": [
+          "2026-09-24_cycle-7"
+        ],
+        "reason": "Live cards existed, but the current QA query was empty."
+      },
+      {
+        "candidate": "Joblift",
+        "history_refs": [
+          "2026-09-24_cycle-7"
+        ],
+        "reason": "Redirects to Adzuna and is duplicate coverage."
+      }
+    ],
+    "latest_recorded_cycle": {
+      "active_sources_rechecked": 10,
+      "cycle": "2026-09-24_cycle-10",
+      "new_sources": 0,
+      "rejected_sources": 3,
+      "result": "No new non-duplicate source passed live two-method German QA/test evidence."
+    },
+    "limitations": [
+      "The verification statements and URLs are copied from registry evidence dated 2026-09-24.",
+      "The registry records last_success as null for these entries, so a fresh RSS, API, browser, or direct-card check is required before claiming current availability."
+    ],
+    "new_sources": [],
+    "other_registered_live_hosts": [
+      {
+        "evidence": "German QA search host, guest API, browser, and web-extraction access recorded; no individual QA card supplied.",
+        "id": "linkedin.com",
+        "name": "LinkedIn Jobs",
+        "url": "https://www.linkedin.com/jobs/search/?keywords=QA%20Engineer&location=Germany"
+      },
+      {
+        "evidence": "Jobsuche host and public API/JSON-LD access recorded; no individual German QA card supplied.",
+        "id": "arbeitsagentur.de",
+        "name": "Arbeitsagentur Jobsuche",
+        "url": "https://www.arbeitsagentur.de/jobsuche/"
+      },
+      {
+        "evidence": "QA/Test Berlin search page, browser, Camofox, and web-extraction access recorded; no individual card supplied.",
+        "id": "stepstone.de",
+        "name": "StepStone",
+        "url": "https://www.stepstone.de/jobs/qa-test/in-berlin.html"
+      },
+      {
+        "evidence": "Jobs search host and browser/Camofox/web-extraction access recorded; no individual German QA card supplied.",
+        "id": "xing.com",
+        "name": "XING Jobs",
+        "url": "https://www.xing.com/jobs/search"
+      },
+      {
+        "evidence": "Game-development jobs host and browser/web-extraction access recorded; no current German QA card is supplied.",
+        "id": "hitmarker.net",
+        "name": "Hitmarker",
+        "url": "https://hitmarker.net/jobs"
+      },
+      {
+        "evidence": "Job-board API endpoint and public API/web-extraction access recorded; no individual German QA card supplied.",
+        "id": "arbeitnow.com",
+        "name": "Arbeitnow Job Board API",
+        "url": "https://www.arbeitnow.com/api/job-board-api"
+      }
+    ],
+    "registry_as_of": "2026-09-24T22:25:15.732448+00:00",
+    "registry_delta": {
+      "active_sources_retained": 10,
+      "sources_added": [],
+      "sources_retired": []
+    },
+    "remote_qa_evidence": [
+      {
+        "direct_card_url": "https://remotive.com/remote/jobs/qa/software-tester-5925120",
+        "evidence": "A Software Tester card and public API are recorded. Germany filtering is described in the registry, but the direct URL does not independently establish a Germany location.",
+        "id": "remotive.com",
+        "listing_url": "https://remotive.com/api/remote-jobs?search=QA",
+        "name": "Remotive",
+        "recorded_last_verified": "2026-09-24",
+        "registry_status": "active",
+        "verification": "registry-recorded live API and direct-card evidence"
+      }
+    ],
+    "scope": {
+      "locations": [
+        "Germany",
+        "Berlin",
+        "Leipzig",
+        "Dresden",
+        "Germany-wide remote"
+      ],
+      "region": "Germany",
+      "roles": [
+        "QA",
+        "Quality Assurance",
+        "Software Tester",
+        "Test Automation",
+        "Game QA"
+      ]
+    },
+    "strongest_existing_german_qa_evidence": [
+      {
+        "direct_card_url": "https://germantechjobs.de/jobs/Communi5-Technologies-GmbH-Senior-QA-Engineer",
+        "evidence": "Registry history reports 992 analyzable RSS cards, including Senior QA Engineer and Test Engineer/Test Automation.",
+        "id": "germantechjobs.de",
+        "listing_url": "https://germantechjobs.de/rss",
+        "name": "GermanTechJobs",
+        "recorded_last_verified": "2026-09-24",
+        "registry_status": "active",
+        "verification": "registry-recorded live direct-card evidence"
+      },
+      {
+        "direct_card_url": "https://www.eurotechjobs.com/job_display/295774/Senior_Software_Tester_BlackBerry_Dsseldorf_Germany",
+        "evidence": "22 live direct cards were reported; the cited card is a Senior Software Tester role in Düsseldorf, Germany.",
+        "id": "eurotechjobs.com",
+        "listing_url": "https://www.eurotechjobs.com/jobs/test_analyst",
+        "name": "EuroTechJobs Test Analyst / Germany",
+        "recorded_last_verified": "2026-09-24",
+        "registry_status": "active",
+        "verification": "registry-recorded live direct-card evidence"
+      },
+      {
+        "direct_card_url": "https://www.adzuna.de/land/ad/5887258708?title=QM_Pr%C3%BCfer_%28m%2Fw%2Fd%29",
+        "evidence": "Browser and web extraction exposed a QM Prüfer (m/w/d) role at Everllence SE in Berlin and home-office coverage; direct curl was recorded as 403.",
+        "id": "adzuna.de",
+        "listing_url": "https://www.adzuna.de/search?q=QA&loc=587664",
+        "name": "Adzuna Deutschland",
+        "recorded_last_verified": "2026-09-24",
+        "registry_status": "active",
+        "verification": "registry-recorded live browser and web-extraction evidence"
+      }
+    ],
+    "verification_basis": "User-supplied registry and discovery history; no independent live network, browser, or API recheck was performed in this response."
+  },
+  "verdict": "no_new_source_established"
+}

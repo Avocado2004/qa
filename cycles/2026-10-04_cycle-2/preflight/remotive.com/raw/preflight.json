@@ -1,0 +1,38 @@
+{
+  "checked_at": "2026-10-04T15:03:02.278094+00:00",
+  "evidence": {
+    "access_method": "base",
+    "attempts": [
+      {
+        "method": "api",
+        "status": "pass"
+      }
+    ],
+    "cards_analyzable": 2,
+    "cards_found": 18,
+    "operations": [
+      {
+        "op": "listing",
+        "status": 200
+      },
+      {
+        "chars": 2685,
+        "op": "card-1",
+        "url": "https://remotive.com/remote-jobs/writing/freelance-copywriter-1749306"
+      },
+      {
+        "op": "return",
+        "status": 200
+      },
+      {
+        "chars": 3843,
+        "op": "card-2",
+        "url": "https://remotive.com/remote-jobs/software-development/senior-react-full-stack-developer-2091133"
+      }
+    ],
+    "primary_or_fallback": "api",
+    "status": "pass"
+  },
+  "listing": "https://remotive.com/api/remote-jobs?search=QA",
+  "verdict": "PASS"
+}

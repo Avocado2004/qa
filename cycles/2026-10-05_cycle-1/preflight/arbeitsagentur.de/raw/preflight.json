@@ -1,0 +1,39 @@
+{
+  "checked_at": "2026-10-05T00:12:50.894486+00:00",
+  "evidence": {
+    "access_method": "rolesearch",
+    "attempts": [
+      {
+        "method": "rolesearch",
+        "status": "pass"
+      }
+    ],
+    "cards_analyzable": 2,
+    "cards_found": 140,
+    "operations": [
+      {
+        "op": "listing",
+        "status": 200
+      },
+      {
+        "chars": 839,
+        "op": "card-1",
+        "url": "https://www.arbeitsagentur.de/jobsuche/jobdetail/13644-305866-S"
+      },
+      {
+        "op": "return",
+        "status": 200
+      },
+      {
+        "chars": 828,
+        "op": "card-2",
+        "url": "https://www.arbeitsagentur.de/jobsuche/jobdetail/17338-4d1d7c4676e6690688-S"
+      }
+    ],
+    "portal_pages_skipped": [],
+    "primary_or_fallback": "rolesearch",
+    "status": "pass"
+  },
+  "listing": "https://www.arbeitsagentur.de/jobsuche/suche?was=Softwaretester&wo=Berlin",
+  "verdict": "PASS"
+}

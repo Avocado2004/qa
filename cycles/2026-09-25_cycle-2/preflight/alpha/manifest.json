@@ -1,0 +1,9 @@
+{
+  "cycle_id": "preflight",
+  "finished_at": "2026-09-25T00:09:53.458439+00:00",
+  "schema_version": 2,
+  "source_id": "alpha",
+  "stage": "SOURCE_PREFLIGHT",
+  "started_at": "2026-09-25T00:09:53.396176+00:00",
+  "state": "pass"
+}

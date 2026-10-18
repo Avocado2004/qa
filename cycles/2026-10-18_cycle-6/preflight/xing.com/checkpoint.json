@@ -1,0 +1,28 @@
+{
+  "completed_operations": [
+    {
+      "op": "listing",
+      "status": 200
+    },
+    {
+      "chars": 6903,
+      "op": "card-1",
+      "url": "https://www.xing.com/jobs/hamburg-recruiter-157424165"
+    },
+    {
+      "op": "return",
+      "status": 200
+    },
+    {
+      "chars": 10253,
+      "op": "card-2",
+      "url": "https://www.xing.com/jobs/annaberg-buchholz-initiativbewerbung-mitarbeiter-158051671"
+    }
+  ],
+  "cycle_id": "2026-10-18_cycle-6",
+  "next_operation": 4,
+  "schema_version": 2,
+  "source_id": "xing.com",
+  "state": "complete",
+  "updated_at": "2026-10-18T11:58:27.311295+00:00"
+}

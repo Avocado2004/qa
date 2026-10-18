@@ -1,0 +1,415 @@
+{
+  "created_at": "2026-10-11T22:38:03.447623+00:00",
+  "cycle_id": "2026-10-11_cycle-2",
+  "jobs": [
+    {
+      "attempt": 1,
+      "claimed_at": "2026-10-11T22:38:03.466703+00:00",
+      "error": null,
+      "failures": [],
+      "finished_at": "2026-10-11T22:40:07.069938+00:00",
+      "generation": 1,
+      "heartbeat_at": "2026-10-11T22:40:03.406925+00:00",
+      "index": 0,
+      "lease_token": null,
+      "next_retry_at": null,
+      "owner": null,
+      "pid": null,
+      "progress_at": "2026-10-11T22:40:03.380152+00:00",
+      "source": {
+        "adapter": "rolesearch",
+        "adapter_note": "searches every About.md role in each target city instead of one fixed listing URL; measured 2026-09-30 243 unique cards, 0 blocked, ~90s",
+        "adapter_version": 1,
+        "config": {
+          "cities": [
+            "Berlin",
+            "Leipzig",
+            "Dresden"
+          ]
+        },
+        "detail_url_pattern": "Softwaretester QA Testautomatisierung Berlin Leipzig Dresden Deutschland",
+        "direct_card_domains": [
+          "arbeitsagentur.de"
+        ],
+        "domain": "arbeitsagentur.de",
+        "evidence": {
+          "first_seen": "2026-09-24",
+          "last_preflight": null,
+          "last_success": null,
+          "last_verified": "2026-09-24",
+          "url": "https://www.arbeitsagentur.de/jobsuche/"
+        },
+        "fallback_methods": [
+          "Camofox browser session"
+        ],
+        "id": "arbeitsagentur.de",
+        "legacy": {
+          "access_methods": [
+            "public API",
+            "JSON-LD",
+            "browser",
+            "web extraction"
+          ],
+          "domain": "arbeitsagentur.de",
+          "evidence_url": "https://www.arbeitsagentur.de/jobsuche/",
+          "first_seen": "2026-09-24",
+          "last_access_status": "verified-live",
+          "last_verified": "2026-09-24",
+          "name": "Arbeitsagentur Jobsuche",
+          "parent_platform": null,
+          "query_or_url_pattern": "Softwaretester QA Testautomatisierung Berlin Leipzig Dresden Deutschland",
+          "status": "active",
+          "type": "government job board"
+        },
+        "listing_url": "https://www.arbeitsagentur.de/jobsuche/suche?was=Softwaretester&wo=Berlin",
+        "name": "Arbeitsagentur Jobsuche",
+        "preferred_methods": [
+          "crawl4ai markdown render of the Jobsuche result list"
+        ],
+        "primary_method": "crawl4ai",
+        "query_or_url_pattern": "/jobsuche/jobdetail/<hash>-<refnr>-S — result list is a JS app, so the listing and every card are rendered with crawl4ai",
+        "status": "active",
+        "type": "government job board"
+      },
+      "source_id": "arbeitsagentur.de",
+      "state": "complete"
+    },
+    {
+      "attempt": 1,
+      "claimed_at": "2026-10-11T22:38:03.498440+00:00",
+      "error": null,
+      "failures": [],
+      "finished_at": "2026-10-11T22:38:46.256243+00:00",
+      "generation": 1,
+      "heartbeat_at": "2026-10-11T22:38:44.728510+00:00",
+      "index": 1,
+      "lease_token": null,
+      "next_retry_at": null,
+      "owner": null,
+      "pid": null,
+      "progress_at": "2026-10-11T22:38:44.662245+00:00",
+      "source": {
+        "adapter": "stepstone_v1",
+        "adapter_version": 1,
+        "config": {},
+        "detail_url_pattern": "https://www.stepstone.de/jobs?where=<encoded location>&what=<encoded role query>; browser/Camofox sequential listing and direct detail verification",
+        "direct_card_domains": [
+          "stepstone.de"
+        ],
+        "domain": "stepstone.de",
+        "evidence": {
+          "first_seen": "2026-09-24",
+          "last_preflight": "2026-09-28T13:52:58.821286+00:00",
+          "last_run_status": "Not used",
+          "last_success": null,
+          "last_verified": "2026-09-24",
+          "url": "https://www.stepstone.de/jobs/qa-test/in-berlin.html"
+        },
+        "fallback_methods": [
+          "Camofox browser session",
+          "crawl4ai markdown render"
+        ],
+        "id": "stepstone.de",
+        "legacy": {
+          "access_methods": [
+            "browser",
+            "Camofox",
+            "web extraction"
+          ],
+          "domain": "stepstone.de",
+          "evidence_url": "https://www.stepstone.de/jobs/qa-test/in-berlin.html",
+          "first_seen": "2026-09-24",
+          "last_access_status": "verified-live",
+          "last_verified": "2026-09-24",
+          "name": "StepStone",
+          "parent_platform": null,
+          "query_or_url_pattern": "https://www.stepstone.de/jobs?where=<encoded location>&what=<encoded role query>; browser/Camofox sequential listing and direct detail verification",
+          "status": "active",
+          "type": "general job board"
+        },
+        "listing_url": "https://www.stepstone.de/jobs/berlin?q=QA",
+        "name": "StepStone",
+        "preferred_methods": [
+          "HTML listing over plain HTTP; detail pages re-rendered with crawl4ai when the origin cuts the HTTP/2 stream"
+        ],
+        "primary_method": "http",
+        "query_or_url_pattern": "https://www.stepstone.de/jobs/<city>?q=QA — listing is server-rendered HTML; direct cards match /stellenangebote--",
+        "status": "active",
+        "type": "general job board"
+      },
+      "source_id": "stepstone.de",
+      "state": "complete"
+    },
+    {
+      "attempt": 1,
+      "claimed_at": "2026-10-11T22:38:03.530212+00:00",
+      "error": null,
+      "failures": [],
+      "finished_at": "2026-10-11T22:38:11.732922+00:00",
+      "generation": 1,
+      "heartbeat_at": "2026-10-11T22:38:10.793733+00:00",
+      "index": 2,
+      "lease_token": null,
+      "next_retry_at": null,
+      "owner": null,
+      "pid": null,
+      "progress_at": "2026-10-11T22:38:10.780733+00:00",
+      "source": {
+        "adapter": "remotive_v1",
+        "adapter_version": 1,
+        "config": {},
+        "detail_url_pattern": "https://remotive.com/api/remote-jobs?search=QA (filter category=Quality Assurance; location=Germany; direct card URL https://remotive.com/remote/jobs/qa/<slug>-<id>)",
+        "direct_card_domains": [
+          "remotive.com"
+        ],
+        "domain": "remotive.com",
+        "evidence": {
+          "first_seen": "2026-09-24",
+          "last_preflight": "2026-10-10T13:12:53.005482+00:00",
+          "last_run_status": "Not used",
+          "last_success": null,
+          "last_verified": "2026-09-24",
+          "url": "https://remotive.com/remote/jobs/qa/software-tester-5925120"
+        },
+        "fallback_methods": [
+          "public API",
+          "web extraction",
+          "browser"
+        ],
+        "id": "remotive.com",
+        "legacy": {
+          "access_methods": [
+            "public API",
+            "web extraction",
+            "browser"
+          ],
+          "domain": "remotive.com",
+          "evidence_url": "https://remotive.com/remote/jobs/qa/software-tester-5925120",
+          "first_seen": "2026-09-24",
+          "last_access_status": "verified-live",
+          "last_verified": "2026-09-24",
+          "name": "Remotive",
+          "parent_platform": null,
+          "query_or_url_pattern": "https://remotive.com/api/remote-jobs?search=QA (filter category=Quality Assurance; location=Germany; direct card URL https://remotive.com/remote/jobs/qa/<slug>-<id>)",
+          "status": "active",
+          "type": "remote job board/API"
+        },
+        "listing_url": "https://remotive.com/api/remote-jobs?search=QA",
+        "name": "Remotive",
+        "preferred_methods": [
+          "public API",
+          "web extraction",
+          "browser"
+        ],
+        "primary_method": "api",
+        "status": "active",
+        "type": "remote job board/API"
+      },
+      "source_id": "remotive.com",
+      "state": "complete"
+    },
+    {
+      "attempt": 1,
+      "claimed_at": "2026-10-11T22:38:03.548969+00:00",
+      "error": null,
+      "failures": [],
+      "finished_at": "2026-10-11T22:38:38.733997+00:00",
+      "generation": 1,
+      "heartbeat_at": "2026-10-11T22:38:37.481475+00:00",
+      "index": 3,
+      "lease_token": null,
+      "next_retry_at": null,
+      "owner": null,
+      "pid": null,
+      "progress_at": "2026-10-11T22:38:37.468490+00:00",
+      "source": {
+        "adapter": "arbeitnow_v1",
+        "adapter_version": 1,
+        "config": {},
+        "detail_url_pattern": "https://www.arbeitnow.com/api/job-board-api (filter JSON records by title/description/location for QA, Software Test, Test Automation, Germany, Berlin, Leipzig, Dresden, remote)",
+        "direct_card_domains": [
+          "arbeitnow.com"
+        ],
+        "domain": "arbeitnow.com",
+        "evidence": {
+          "first_seen": "2026-09-24",
+          "last_preflight": "2026-10-10T13:12:53.005492+00:00",
+          "last_run_status": "Not used",
+          "last_success": null,
+          "last_verified": "2026-09-24",
+          "url": "https://www.arbeitnow.com/api/job-board-api"
+        },
+        "fallback_methods": [
+          "public API",
+          "web extraction"
+        ],
+        "id": "arbeitnow.com",
+        "legacy": {
+          "access_methods": [
+            "public API",
+            "web extraction"
+          ],
+          "domain": "arbeitnow.com",
+          "evidence_url": "https://www.arbeitnow.com/api/job-board-api",
+          "first_seen": "2026-09-24",
+          "last_access_status": "verified-live",
+          "last_verified": "2026-09-24",
+          "name": "Arbeitnow Job Board API",
+          "parent_platform": null,
+          "query_or_url_pattern": "https://www.arbeitnow.com/api/job-board-api (filter JSON records by title/description/location for QA, Software Test, Test Automation, Germany, Berlin, Leipzig, Dresden, remote)",
+          "status": "active",
+          "type": "aggregated job board/API"
+        },
+        "listing_url": "https://www.arbeitnow.com/api/job-board-api",
+        "name": "Arbeitnow Job Board API",
+        "preferred_methods": [
+          "public API",
+          "web extraction"
+        ],
+        "primary_method": "api",
+        "status": "active",
+        "type": "aggregated job board/API"
+      },
+      "source_id": "arbeitnow.com",
+      "state": "complete"
+    },
+    {
+      "attempt": 1,
+      "claimed_at": "2026-10-11T22:38:03.575026+00:00",
+      "error": null,
+      "failures": [],
+      "finished_at": "2026-10-11T22:38:08.518038+00:00",
+      "generation": 1,
+      "heartbeat_at": "2026-10-11T22:38:08.282742+00:00",
+      "index": 4,
+      "lease_token": null,
+      "next_retry_at": null,
+      "owner": null,
+      "pid": null,
+      "progress_at": "2026-10-11T22:38:08.268210+00:00",
+      "source": {
+        "adapter": "rss_v1",
+        "adapter_version": 1,
+        "config": {},
+        "detail_url_pattern": "https://germantechjobs.de/rss (fetch current feed; filter title+description for Softwaretester, Software Tester, QA Engineer, Quality Assurance, Test Engineer, Testautomatisierung, Qualitätssicherung; direct card pattern https://germantechjobs.de/jobs/<slug>)",
+        "direct_card_domains": [
+          "germantechjobs.de"
+        ],
+        "domain": "germantechjobs.de",
+        "evidence": {
+          "first_seen": "2026-09-24",
+          "last_preflight": "2026-10-10T13:12:53.005501+00:00",
+          "last_run_status": "Not used",
+          "last_success": null,
+          "last_verified": "2026-09-24",
+          "url": "https://germantechjobs.de/jobs/Communi5-Technologies-GmbH-Senior-QA-Engineer"
+        },
+        "fallback_methods": [
+          "public RSS",
+          "web extraction",
+          "browser"
+        ],
+        "id": "germantechjobs.de",
+        "legacy": {
+          "access_methods": [
+            "public RSS",
+            "web extraction",
+            "browser"
+          ],
+          "domain": "germantechjobs.de",
+          "evidence_url": "https://germantechjobs.de/jobs/Communi5-Technologies-GmbH-Senior-QA-Engineer",
+          "first_seen": "2026-09-24",
+          "last_access_status": "verified-live",
+          "last_verified": "2026-09-24",
+          "name": "GermanTechJobs",
+          "parent_platform": null,
+          "query_or_url_pattern": "https://germantechjobs.de/rss (fetch current feed; filter title+description for Softwaretester, Software Tester, QA Engineer, Quality Assurance, Test Engineer, Testautomatisierung, Qualitätssicherung; direct card pattern https://germantechjobs.de/jobs/<slug>)",
+          "status": "active",
+          "type": "German technology job board / RSS"
+        },
+        "listing_url": "https://germantechjobs.de/rss",
+        "name": "GermanTechJobs",
+        "preferred_methods": [
+          "public RSS",
+          "web extraction",
+          "browser"
+        ],
+        "primary_method": "api",
+        "status": "active",
+        "type": "German technology job board / RSS"
+      },
+      "source_id": "germantechjobs.de",
+      "state": "complete"
+    },
+    {
+      "attempt": 1,
+      "claimed_at": "2026-10-11T22:38:03.592959+00:00",
+      "error": null,
+      "failures": [],
+      "finished_at": "2026-10-11T22:39:22.679297+00:00",
+      "generation": 1,
+      "heartbeat_at": "2026-10-11T22:39:22.132578+00:00",
+      "index": 5,
+      "lease_token": null,
+      "next_retry_at": null,
+      "owner": null,
+      "pid": null,
+      "progress_at": "2026-10-11T22:39:22.093985+00:00",
+      "source": {
+        "adapter": "adzuna_v1",
+        "adapter_version": 1,
+        "config": {},
+        "detail_url_pattern": "https://www.adzuna.de/search?q=<urlencoded German QA query>&loc=<location-id>; city discovery /berlin/<query>, /leipzig/<query>, /dresden/<query>; pagination &p=<page>",
+        "direct_card_domains": [
+          "adzuna.de"
+        ],
+        "domain": "adzuna.de",
+        "evidence": {
+          "first_seen": "2026-09-24",
+          "last_preflight": null,
+          "last_success": null,
+          "last_verified": "2026-09-24",
+          "url": "https://www.adzuna.de/land/ad/5887258708?title=QM_Pr%C3%BCfer_%28m%2Fw%2Fd%29"
+        },
+        "fallback_methods": [
+          "Camofox browser session",
+          "crawl4ai markdown render"
+        ],
+        "id": "adzuna.de",
+        "last_access_status": "verified-live",
+        "legacy": {
+          "access_methods": [
+            "browser",
+            "Camofox",
+            "web extraction"
+          ],
+          "domain": "adzuna.de",
+          "evidence_url": "https://www.adzuna.de/land/ad/5887258708?title=QM_Pr%C3%BCfer_%28m%2Fw%2Fd%29",
+          "first_seen": "2026-09-24",
+          "last_access_status": "verified-live-browser-and-web-extract",
+          "last_verified": "2026-09-24",
+          "name": "Adzuna Deutschland",
+          "parent_platform": null,
+          "query_or_url_pattern": "https://www.adzuna.de/search?q=<urlencoded German QA query>&loc=<location-id>; city discovery /berlin/<query>, /leipzig/<query>, /dresden/<query>; pagination &p=<page>",
+          "status": "active",
+          "type": "German general/aggregated job board"
+        },
+        "listing_url": "https://www.adzuna.de/berlin/qa-engineer",
+        "name": "Adzuna Deutschland",
+        "notes": "HTTP 403 anti-bot on listing and detail even through a rendered browser session; stays active and is retried daily",
+        "preferred_methods": [
+          "HTML listing with a complete browser header set (CloudFront WAF blocks incomplete headers with 403)"
+        ],
+        "primary_method": "http",
+        "query_or_url_pattern": "/berlin/<query> — cards are /details/<numeric-id>; editorial /details/<slug> pages must be excluded",
+        "status": "active",
+        "type": "German general/aggregated job board"
+      },
+      "source_id": "adzuna.de",
+      "state": "complete"
+    }
+  ],
+  "max_workers": 10,
+  "schema_version": 2,
+  "updated_at": "2026-10-11T22:40:07.069974+00:00"
+}

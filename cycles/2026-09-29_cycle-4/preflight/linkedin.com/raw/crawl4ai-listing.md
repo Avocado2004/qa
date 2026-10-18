@@ -1,0 +1,46 @@
+* [ (Junior) QA Engineer/Software-Tester (m/w/d) – Produktqualität & Testautomatisierung  ](https://de.linkedin.com/jobs/view/junior-qa-engineer-software-tester-m-w-d-%E2%80%93-produktqualit%C3%A4t-testautomatisierung-at-check24-4433870576?position=1&pageNum=0&refId=vJkjJ4oNrl5YaldLBZWKrg%3D%3D&trackingId=SGGyz0p7UozhtoE36VKdsg%3D%3D)
+###  (Junior) QA Engineer/Software-Tester (m/w/d) – Produktqualität & Testautomatisierung 
+####  [ CHECK24 ](https://de.linkedin.com/company/check24-vergleichsportal-gmbh?trk=public_jobs_jserp-result_job-search-card-subtitle)
+Dortmund, North Rhine-Westphalia, Germany  1 week ago 
+* [ Senior Quality Assurance Engineer  ](https://de.linkedin.com/jobs/view/senior-quality-assurance-engineer-at-trading-212-4468924202?position=2&pageNum=0&refId=vJkjJ4oNrl5YaldLBZWKrg%3D%3D&trackingId=j5f9lO%2BEbsID2jeJbn40Hg%3D%3D)
+###  Senior Quality Assurance Engineer 
+####  [ Trading 212 ](https://uk.linkedin.com/company/trading212?trk=public_jobs_jserp-result_job-search-card-subtitle)
+Berlin, Berlin, Germany 
+Actively Hiring 
+6 days ago 
+* [ QA Engineer/Softwaretester Automotive-Software (m/w/d)  ](https://de.linkedin.com/jobs/view/qa-engineer-softwaretester-automotive-software-m-w-d-at-bwsolution-gmbh-4466690243?position=3&pageNum=0&refId=vJkjJ4oNrl5YaldLBZWKrg%3D%3D&trackingId=SmjaXPJfsGp0%2BexLqZBtvg%3D%3D)
+###  QA Engineer/Softwaretester Automotive-Software (m/w/d) 
+####  [ BWSolution GmbH ](https://de.linkedin.com/company/bwsolution-gmbh?trk=public_jobs_jserp-result_job-search-card-subtitle)
+Hamburg, Hamburg, Germany  1 week ago 
+* [ QA Engineer (m/w/d)  ](https://de.linkedin.com/jobs/view/qa-engineer-m-w-d-at-compeople-ag-4471467536?position=4&pageNum=0&refId=vJkjJ4oNrl5YaldLBZWKrg%3D%3D&trackingId=6tiG4woqX79u7iI6ih9qtg%3D%3D)
+###  QA Engineer (m/w/d) 
+####  [ compeople AG ](https://de.linkedin.com/company/compeople?trk=public_jobs_jserp-result_job-search-card-subtitle)
+Frankfurt, Hesse, Germany 
+Actively Hiring 
+4 days ago 
+* [ Quality Assurance Engineer (m/w/d)  ](https://de.linkedin.com/jobs/view/quality-assurance-engineer-m-w-d-at-hochtief-4455268504?position=5&pageNum=0&refId=vJkjJ4oNrl5YaldLBZWKrg%3D%3D&trackingId=Y%2FP3UDm3pdGHJBKzJNQeRw%3D%3D)
+###  Quality Assurance Engineer (m/w/d) 
+####  [ HOCHTIEF ](https://de.linkedin.com/company/hochtief?trk=public_jobs_jserp-result_job-search-card-subtitle)
+Essen, North Rhine-Westphalia, Germany  3 weeks ago 
+* [ Test Automation Engineer (m/w/d)  ](https://de.linkedin.com/jobs/view/test-automation-engineer-m-w-d-at-ip-dynamics-gmbh-4440015435?position=6&pageNum=0&refId=vJkjJ4oNrl5YaldLBZWKrg%3D%3D&trackingId=Ee15Ep2FLs1OFe4DRx5x6A%3D%3D)
+###  Test Automation Engineer (m/w/d) 
+####  [ IP Dynamics GmbH ](https://de.linkedin.com/company/ip-dynamics-gmbh?trk=public_jobs_jserp-result_job-search-card-subtitle)
+Hamburg, Germany  3 weeks ago 
+* [ Senior QA Engineer - Remote  ](https://de.linkedin.com/jobs/view/senior-qa-engineer-remote-at-kake-4461168232?position=7&pageNum=0&refId=vJkjJ4oNrl5YaldLBZWKrg%3D%3D&trackingId=i%2FlihOXqBzpa0Lzmei%2BnRA%3D%3D)
+###  Senior QA Engineer - Remote 
+####  [ Kake ](https://www.linkedin.com/company/kake?trk=public_jobs_jserp-result_job-search-card-subtitle)
+Berlin, Germany  3 weeks ago 
+* [ Software Quality Engineer - Adobe Premiere Pro  ](https://de.linkedin.com/jobs/view/software-quality-engineer-adobe-premiere-pro-at-adobe-4453015028?position=8&pageNum=0&refId=vJkjJ4oNrl5YaldLBZWKrg%3D%3D&trackingId=HQ2G5kIpy0gP9C7yzuccRg%3D%3D)
+###  Software Quality Engineer - Adobe Premiere Pro 
+####  [ Adobe ](https://www.linkedin.com/company/adobe?trk=public_jobs_jserp-result_job-search-card-subtitle)
+Hamburg, Hamburg, Germany 
+Actively Hiring 
+5 days ago 
+* [ Quality Engineer - Schwerpunkt Testautomatisierung (all genders)  ](https://de.linkedin.com/jobs/view/quality-engineer-schwerpunkt-testautomatisierung-all-genders-at-starface-gmbh-4402883225?position=9&pageNum=0&refId=vJkjJ4oNrl5YaldLBZWKrg%3D%3D&trackingId=WiCG3s2S%2BQJw1yNmu05VYg%3D%3D)
+###  Quality Engineer - Schwerpunkt Testautomatisierung (all genders) 
+####  [ STARFACE GmbH ](https://de.linkedin.com/company/starface-gmbh?trk=public_jobs_jserp-result_job-search-card-subtitle)
+Karlsruhe, Baden-Württemberg, Germany  1 week ago 
+* [ SENIOR QUALITY ASSURANCE ENGINEER (M/W/D)  ](https://de.linkedin.com/jobs/view/senior-quality-assurance-engineer-m-w-d-at-wilken-software-group-4428103994?position=10&pageNum=0&refId=vJkjJ4oNrl5YaldLBZWKrg%3D%3D&trackingId=A25gs%2Bj05aR%2BrRduL4CHxg%3D%3D)
+###  SENIOR QUALITY ASSURANCE ENGINEER (M/W/D) 
+####  [ Wilken Software Group ](https://de.linkedin.com/company/wilken-software-group?trk=public_jobs_jserp-result_job-search-card-subtitle)
+Ulm, Baden-Württemberg, Germany  3 weeks ago 

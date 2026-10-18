@@ -1,0 +1,11 @@
+{
+  "cycle_id": "2026-09-28_cycle-4",
+  "failures": [
+    {
+      "at": "2026-09-28T14:41:53.057182+00:00",
+      "error": "all independent access methods failed: Camofox HTTP 500 for GET /tabs/540ee969-1380-4b68-b3d2-96a005b6656b/snapshot; preflight: source is readable but offered no QA/test vacancy in the first two cards ('Recruiter (m/w/d)'; 'Ähnliche Jobs'). Both pages opened and parsed as real postings, so this is not an access failure; the source stays active for a later run.; preflight: source is readable but offered no QA/test vacancy in the first two cards ('Recruiter (m/w/d)'; 'Initiativbewerbung'). Both pages opened and parsed as real postings, so this is not an access failure; the source stays active for a later run."
+    }
+  ],
+  "schema_version": 2,
+  "source_id": "xing.com"
+}

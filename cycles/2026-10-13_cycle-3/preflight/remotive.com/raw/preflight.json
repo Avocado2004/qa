@@ -1,0 +1,38 @@
+{
+  "checked_at": "2026-10-13T23:52:32.516047+00:00",
+  "evidence": {
+    "access_method": "base",
+    "attempts": [
+      {
+        "method": "api",
+        "status": "pass"
+      }
+    ],
+    "cards_analyzable": 2,
+    "cards_found": 16,
+    "operations": [
+      {
+        "op": "listing",
+        "status": 200
+      },
+      {
+        "chars": 4816,
+        "op": "card-1",
+        "url": "https://remotive.com/remote-jobs/marketing/remote-office-assistant-1680495"
+      },
+      {
+        "op": "return",
+        "status": 200
+      },
+      {
+        "chars": 3902,
+        "op": "card-2",
+        "url": "https://remotive.com/remote-jobs/sales/inside-sales-contractor-2086540"
+      }
+    ],
+    "primary_or_fallback": "api",
+    "status": "pass"
+  },
+  "listing": "https://remotive.com/api/remote-jobs?search=QA",
+  "verdict": "PASS"
+}

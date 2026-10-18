@@ -1,0 +1,40 @@
+{
+  "checked_at": "2026-10-14T23:32:03.650019+00:00",
+  "evidence": {
+    "access_method": "base",
+    "attempts": [
+      {
+        "method": "http",
+        "status": "pass"
+      }
+    ],
+    "cards_analyzable": 2,
+    "cards_found": 26,
+    "deep_scan_needed": true,
+    "operations": [
+      {
+        "op": "listing",
+        "status": 200
+      },
+      {
+        "chars": 5292,
+        "op": "card-1",
+        "url": "https://www.eurotechjobs.com/job_display/297619/Senior_Software_Engineer_SoC_SW_Productisation_Arm_Sophia_Antipolis_France"
+      },
+      {
+        "op": "return",
+        "status": 200
+      },
+      {
+        "chars": 4981,
+        "op": "card-2",
+        "url": "https://www.eurotechjobs.com/job_display/297528/Senior_Software_Engineer_System_Test_GPU_Arm_Lund_Sweden"
+      }
+    ],
+    "portal_pages_skipped": [],
+    "primary_or_fallback": "http",
+    "status": "pass"
+  },
+  "listing": "https://www.eurotechjobs.com/jobs/test_analyst",
+  "verdict": "PASS"
+}

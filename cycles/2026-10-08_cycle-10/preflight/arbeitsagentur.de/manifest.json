@@ -1,0 +1,9 @@
+{
+  "cycle_id": "2026-10-08_cycle-10",
+  "finished_at": "2026-10-08T20:35:13.822081+00:00",
+  "schema_version": 2,
+  "source_id": "arbeitsagentur.de",
+  "stage": "SOURCE_PREFLIGHT",
+  "started_at": "2026-10-08T20:34:39.779847+00:00",
+  "state": "pass"
+}

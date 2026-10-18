@@ -1,0 +1,12 @@
+{
+  "attempts": [
+    {
+      "at": "2026-09-25T22:56:57.417118+00:00",
+      "error": "Camofox HTTP 503 for POST /tabs",
+      "method": "camofox",
+      "status": "failed"
+    }
+  ],
+  "cycle_id": "2026-09-25_cycle-56",
+  "source_id": "hitmarker.net"
+}

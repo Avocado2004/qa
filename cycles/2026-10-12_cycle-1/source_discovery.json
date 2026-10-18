@@ -1,0 +1,63 @@
+{
+  "additions": [],
+  "created_at": "2026-10-12T00:02:16.706509+00:00",
+  "cycle_id": "2026-10-12_cycle-1",
+  "evidence": {
+    "live_retrieval": "completed",
+    "model_evidence": [
+      {
+        "details": "Live retrieval shows multiple direct QA/test vacancy cards in target cities: QA Engineer in Dresden (SupplyOn), Softwaretester in Dresden (Robotron), Test Analyst/Engineer in Berlin/Dresden/Leipzig (Telekom MSS), Quality Engineer in Berlin, Manual QA Tester in Leipzig. URLs are direct job view pages (de.linkedin.com/jobs/view/...).",
+        "source": "linkedin.com",
+        "verified": true
+      },
+      {
+        "details": "Live retrieval returns city-specific listing pages with current job counts: QA Engineer 20 jobs in Berlin, 4 in Leipzig, 9 in Dresden; Softwaretester 14 in Berlin, 3 in Leipzig, 9 in Dresden; Test Engineer 139 in Dresden; Test Automation 21 in Berlin. URLs follow pattern /jobs/<role>/in-<city> and are direct vacancy listings.",
+        "source": "stepstone.de",
+        "verified": true
+      },
+      {
+        "details": "Live retrieval shows dedicated city pages for QA/Software Tester roles: Berlin, Leipzig, Dresden, and remote. Direct job cards include Senior QA Engineer (Communi5, Berlin), Test Analyst (Secunet, Dresden), Remote Continuous Manual QA Tester (Neuronation), Remote Software Tester (Krieger MIS, interSales). RSS feed and job detail URLs (https://germantechjobs.de/jobs/<slug>) are exposed.",
+        "source": "germantechjobs.de",
+        "verified": true
+      },
+      {
+        "details": "Live retrieval shows at least one direct vacancy card for Germany-wide remote: Quality Assurance Engineer (m/w/d) - remote DE (details/5909929117). Other results include Siemens Mobility jobs in Leipzig. Note: anti-bot 403 on some routes, but card exists.",
+        "source": "adzuna.de",
+        "verified": true
+      },
+      {
+        "details": "Live retrieval shows relevant QA/test cards: Integration Test Engineer (Dekra), Softwaretester (Generalzolldirektion, Dresden), Teamleiter Testautomatisierung (CGM, Berlin). URLs are search result pages but snippets confirm QA/test roles in target cities. Registry indicates crawl4ai renders direct card links.",
+        "source": "arbeitsagentur.de",
+        "verified": true
+      },
+      {
+        "details": "Live retrieval for Softwaretester returned only weather sites, no job cards. Registry has a historic direct card (Senior Software Tester, Düsseldorf) but not in current live evidence for Berlin/Leipzig/Dresden/remote.",
+        "source": "eurotechjobs.com",
+        "verified": false
+      },
+      {
+        "details": "Live retrieval returned only unrelated Wikipedia/recipe pages. No QA/test vacancy cards for Germany found.",
+        "source": "remotive.com",
+        "verified": false
+      },
+      {
+        "details": "Live retrieval returned only Kleinanzeigen (classifieds) pages. No game QA/test cards for Germany.",
+        "source": "hitmarker.net",
+        "verified": false
+      },
+      {
+        "details": "Live retrieval returned irrelevant legal/market sites. No QA/test cards for target cities.",
+        "source": "arbeitnow.com",
+        "verified": false
+      },
+      {
+        "details": "No live retrieval evidence supplied for XING. Cannot verify current direct QA/test cards.",
+        "source": "xing.com",
+        "verified": false
+      }
+    ],
+    "retrieval_artifact": "/opt/data/qa-vacancy-project/cycles/2026-10-12_cycle-1/source_discovery_retrieval.json",
+    "retrieved_result_count": 207
+  },
+  "verdict": "pass"
+}

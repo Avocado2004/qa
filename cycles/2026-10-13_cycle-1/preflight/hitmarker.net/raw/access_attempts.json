@@ -1,0 +1,24 @@
+{
+  "attempts": [
+    {
+      "at": "2026-10-13T00:06:06.231296+00:00",
+      "error": "Camofox preflight: source is readable but offered no QA/test vacancy in the first two cards ('Cookies on Hitmarker'; 'Cookies on Hitmarker'). Both pages opened as real postings, so this is not an access failure; the source stays active for a later run. Listing offered 3 direct links.",
+      "method": "camofox",
+      "status": "failed"
+    },
+    {
+      "at": "2026-10-13T00:07:04.306246+00:00",
+      "error": "preflight: fewer than two analyzable direct cards",
+      "method": "crawl4ai",
+      "status": "failed"
+    },
+    {
+      "at": "2026-10-13T00:07:04.797568+00:00",
+      "error": "preflight: fewer than two analyzable direct cards",
+      "method": "http",
+      "status": "failed"
+    }
+  ],
+  "cycle_id": "2026-10-13_cycle-1",
+  "source_id": "hitmarker.net"
+}

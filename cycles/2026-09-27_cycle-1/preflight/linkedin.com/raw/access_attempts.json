@@ -1,0 +1,12 @@
+{
+  "attempts": [
+    {
+      "at": "2026-09-27T00:08:08.424337+00:00",
+      "error": "Camofox HTTP 500 for GET /tabs/5f53dd0e-ba85-4499-a828-41fce3220d89/snapshot",
+      "method": "camofox",
+      "status": "failed"
+    }
+  ],
+  "cycle_id": "2026-09-27_cycle-1",
+  "source_id": "linkedin.com"
+}

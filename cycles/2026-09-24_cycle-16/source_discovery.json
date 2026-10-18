@@ -1,0 +1,38 @@
+{
+  "created_at": "2026-09-24T23:25:56.844155+00:00",
+  "cycle_id": "2026-09-24_cycle-16",
+  "evidence": {
+    "active_source_entries": 10,
+    "basis": "supplied_registry_only",
+    "latest_reported_discovery_record": {
+      "checked_at": "2026-09-24T20:45:00Z",
+      "cycle": "2026-09-24_cycle-10",
+      "evidence_status": "secondhand_registry_claim_not_reverified",
+      "reported_new_sources": 0,
+      "reported_rejected_sources": 3
+    },
+    "live_requests_performed": 0,
+    "new_candidates_independently_checked": 0,
+    "registry_generated_at": "2026-09-24T22:25:15.732448+00:00",
+    "registry_revision": 1,
+    "verification_gaps": [
+      "All current source entries have last_preflight set to null.",
+      "All current source entries have last_success set to null.",
+      "Legacy verified-live labels are supplied claims; no current direct-card or API response was observed in this execution.",
+      "Several history entries report 11 active sources rechecked, while the current registry contains 10 source entries and records no corresponding retirement."
+    ]
+  },
+  "required_follow_up": [
+    "Run live preflight checks against each candidate's listing or API endpoint.",
+    "Verify a current, directly addressable German QA, Software Test, Quality Assurance, or Test Automation vacancy card, including Germany-wide remote coverage where applicable.",
+    "Capture timestamped access evidence, direct-card URL, and successful access method before adding a source.",
+    "Reconcile the active-source count discrepancy without changing source status solely from historical metadata."
+  ],
+  "verdict": {
+    "decision": "no_registry_change",
+    "new_sources": [],
+    "reason": "No new German QA vacancy source can be independently verified from registry metadata alone. Live web, HTTP, browser, RSS, or API access is unavailable in this execution, so existing URLs and reported verification results must not be represented as freshly confirmed.",
+    "retired_sources": [],
+    "status": "inconclusive"
+  }
+}

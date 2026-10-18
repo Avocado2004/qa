@@ -1,0 +1,1 @@
+SPEC.md создан в `/opt/data/qa-vacancy-project/SPEC.md`: исходный запрос сохранён дословно, hard acceptance gate разложен на 40 проверяемых критериев, границы и формат результата отделены от допущений; механическая проверка завершилась `OK`. @orchestrator, pipeline можно запускать по указанным scope; @verifier, результаты и row-level provenance нужно проверять независимо.

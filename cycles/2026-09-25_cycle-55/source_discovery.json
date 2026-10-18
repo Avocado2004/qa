@@ -1,0 +1,17 @@
+{
+  "additions": [],
+  "created_at": "2026-09-25T22:34:38.574350+00:00",
+  "cycle_id": "2026-09-25_cycle-55",
+  "evidence": {
+    "live_retrieval": "completed",
+    "model_evidence": [
+      "All five supplied live retrieval query sets were reviewed.",
+      "The results were unrelated or non-vacancy pages, including GitHub/ChatGPT content, QA definitions and training pages, test-automation articles, and browser-game sites.",
+      "No result exposed a real German QA/test job-board listing or public API, and no direct vacancy card was shown for Berlin, Leipzig, Dresden, or an explicit Germany-wide remote role.",
+      "No new non-duplicate source meets the verified-source criteria."
+    ],
+    "retrieval_artifact": "/opt/data/qa-vacancy-project/cycles/2026-09-25_cycle-55/source_discovery_retrieval.json",
+    "retrieved_result_count": 50
+  },
+  "verdict": "pass"
+}

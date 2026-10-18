@@ -1,0 +1,104 @@
+# Test Automation Engineer (m/w/d)
+* secunet Security Networks AG
+* Dresden, Essen
+* Feste Anstellung
+* Homeoffice möglich, Teilzeit, Vollzeit
+* Erschienen: vor 3 Wochen
+* Gehalt anzeigen
+**Test Automation Engineer (m/w/d)** [secunet Security Networks AG](https://www.stepstone.de/cmp/de/secunet-Security-Networks-AG-9874/jobs.html)
+loader
+
+...
+
+## Optimale Perspektiven | Neue Möglichkeiten | Mit Sicherheit
+Mit über 250.000 installierten Systemen ist SINA die führende Sicherheitsarchitektur Deutschlands und wird weltweit von Regierungen, Betreibern kritischer Infrastrukturen und in der Industrie eingesetzt.
+
+...
+
+Er garantiert die Vertraulichkeit in allen nationalen und internationalen VS-Einstufungen (bis einschließlich GEHEIM) und bietet weit mehr als herkömmliche VPN-Lösungen.
+Für unsere **Division Defence & Space** suchen wir an einem unserer Standorte in **Dresden oder Essen** zum nächst­mög­lichen Zeitpunkt Deinen klugen Kopf.
+
+### Deine Aufgaben
+* Du setzt automatisierte Tests auf Basis unserer umfangreichen Bibliothek an Test-Templates um.
+* Du entwickelst bei Bedarf neue Test-Templates in Java und stellst die dafür erforderlichen Services bereit.
+* Du arbeitest sicher mit Tools und Plattformen wie Jira und GitLab.
+
+...
+
+#### Dein Profil | Du verfügst über
+* ein abgeschlossenes Studium oder eine Ausbildung und entsprechende Berufserfahrung
+* signifikante Erfahrung im Software-Testing, insbesondere in der Testautomatisierung und im Umgang mit gängigen Testmanagement-Tools wie TestLink oder Polarion
+
+...
+
+#### Diese Jobs waren bei anderen Jobsuchenden beliebt
+[TOI TOI & DIXI Group GmbH](https://www.stepstone.de/cmp/de/TOI-TOI-DIXI-Group-GmbH-131776/jobs.html)
+
+## [Test Automation Engineer (m/w/d)](https://www.stepstone.de/stellenangebote--Test-Automation-Engineer-m-w-d-Duesseldorf-Ratingen-TOI-TOI-DIXI-Group-GmbH--14447888-inline.html)
+TOI TOI & DIXI Group GmbH
+Düsseldorf, Ratingen
+Teilweise Home-Office
+vor 1 Woche
+[Materna Information & Communications SE](https://www.stepstone.de/cmp/de/Materna-Information-Communications-SE-4261/jobs.html)
+
+## [Test Automation Engineer (m/w/d)](https://www.stepstone.de/stellenangebote--Test-Automation-Engineer-m-w-d-Berlin-Bremen-Dortmund-Dresden-Duesseldorf-Erlangen-Frankfurt-Hamburg-Hannover-Koeln-Muenchen-Materna-Information-Communications-SE--14342627-inline.html)
+Materna Information & Communications SE
+Berlin, Bremen, Dortmund, Dresden, Düsseldorf, Erlangen, Frankfurt, Hamburg,
+Hannover, Köln, München
+Teilweise Home-Office
+vor 3 Wochen
+[Noerr Partnerschaftsgesellschaft
+mbB](https://www.stepstone.de/cmp/de/Noerr-Partnerschaftsgesellschaft-mbB-1942
+5/jobs.html)
+
+## [Test Automation Engineer (w/m/d)](https://www.stepstone.de/stellenangebote--Test-Automation-Engineer-w-m-d-Muenchen-Noerr-Partnerschaftsgesellschaft-mbB--14375958-inline.html)
+Noerr Partnerschaftsgesellschaft mbB
+München
+Teilweise Home-Office
+vor 2 Wochen
+[Allgeier IT GmbH](https://www.stepstone.de/cmp/de/Allgeier-IT-GmbH-6598/jobs.html)
+
+## [Test Automation Engineer (m/w/d)](https://www.stepstone.de/stellenangebote--Test-Automation-Engineer-m-w-d-Muenchen-Allgeier-IT-GmbH--14479418-inline.html)
+Allgeier IT GmbH
+München
+Teilweise Home-Office
+vor 1 Tag
+[Baumer Optronic GmbH](https://www.stepstone.de/cmp/de/Baumer-Optronic-GmbH-24306/jobs.html)
+
+## [System Validation & Test Automation Engineer (a)](https://www.stepstone.de/stellenangebote--System-Validation-Test-Automation-Engineer-a-Radeberg-bei-Dresden-Baumer-Optronic-GmbH--14460761-inline.html)
+Baumer Optronic GmbH
+Radeberg (bei Dresden)
+vor 6 Tagen
+[ASMPT GmbH & Co. KG](https://www.stepstone.de/cmp/de/ASMPT-GmbH-Co-KG-127024/jobs.html)
+
+## [DevOps & Test Automation Engineer AI (m/w/d)](https://www.stepstone.de/stellenangebote--DevOps-Test-Automation-Engineer-AI-m-w-d-Muenchen-ASMPT-GmbH-Co-KG--14428840-inline.html)
+ASMPT GmbH & Co. KG
+München
+Teilweise Home-Office
+vor 1 Woche
+[Deutsche Post AG](https://www.stepstone.de/cmp/de/Deutsche-Post-AG-136538/jobs.html)
+
+## [Senior Test-Engineer (m/w/d)](https://www.stepstone.de/stellenangebote--Senior-Test-Engineer-m-w-d-Koeln-Deutsche-Post-AG--14384467-inline.html)
+Deutsche Post AG
+Köln
+Teilweise Home-Office
+vor 2 Wochen
+[Diehl Aviation](https://www.stepstone.de/cmp/de/Diehl-Aviation-99955/jobs.html)
+
+## [Engineer (m/w/d) Software Quality Assurance](https://www.stepstone.de/stellenangebote--Engineer-m-w-d-Software-Quality-Assurance-Dresden-Gilching-Muenchen-Diehl-Aviation--14435235-inline.html)
+Diehl Aviation
+Dresden, Gilching, München
+vor 1 Woche
+[HOCHTIEF PPP Solutions GmbH](https://www.stepstone.de/cmp/de/HOCHTIEF-PPP-Solutions-GmbH-180611/jobs.html)
+
+## [Quality Assurance Engineer (m/w/d)](https://www.stepstone.de/stellenangebote--Quality-Assurance-Engineer-m-w-d-Essen-HOCHTIEF-PPP-Solutions-GmbH--14402777-inline.html)
+HOCHTIEF PPP Solutions GmbH
+Essen
+vor 1 Woche
+[Securiton GmbH - IPS Intelligent Video Software](https://www.stepstone.de/cmp/de/Securiton-GmbH-IPS-Intelligent-Video-Software-394374/jobs.html)
+
+## [Test Engineer Videosicherheitssoftware (m/w/d)](https://www.stepstone.de/stellenangebote--Test-Engineer-Videosicherheitssoftware-m-w-d-Muenchen-Securiton-GmbH-IPS-Intelligent-Video-Software--14433020-inline.html)
+Securiton GmbH - IPS Intelligent Video Software
+München
+Teilweise Home-Office
+vor 1 Woche

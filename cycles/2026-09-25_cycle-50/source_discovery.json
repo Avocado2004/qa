@@ -1,0 +1,16 @@
+{
+  "additions": [],
+  "created_at": "2026-09-25T20:45:42.576343+00:00",
+  "cycle_id": "2026-09-25_cycle-50",
+  "evidence": {
+    "live_retrieval": "completed",
+    "model_evidence": [
+      "The supplied live retrieval covers all five discovery queries for Berlin, Leipzig, Dresden, and Germany-wide remote QA/testing vacancies.",
+      "Results were unrelated sports, adult-content, gaming, informational, training, or service pages; none exposed a real German job listing/API with a direct QA or testing vacancy card.",
+      "No candidate source met the geographic and direct-card evidence requirements, so no source should be added."
+    ],
+    "retrieval_artifact": "/opt/data/qa-vacancy-project/cycles/2026-09-25_cycle-50/source_discovery_retrieval.json",
+    "retrieved_result_count": 50
+  },
+  "verdict": "pass"
+}

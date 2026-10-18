@@ -1,0 +1,30 @@
+{
+  "attempts": [
+    {
+      "at": "2026-10-09T00:02:19.686257+00:00",
+      "error": "'utf-8' codec can't decode byte 0x9b in position 0: invalid start byte",
+      "method": "api",
+      "status": "failed"
+    },
+    {
+      "at": "2026-10-09T00:02:20.138479+00:00",
+      "error": "'utf-8' codec can't decode byte 0x9b in position 0: invalid start byte",
+      "method": "http",
+      "status": "failed"
+    },
+    {
+      "at": "2026-10-09T00:03:39.864582+00:00",
+      "error": "preflight: fewer than two analyzable direct cards",
+      "method": "crawl4ai",
+      "status": "failed"
+    },
+    {
+      "at": "2026-10-09T00:04:50.703716+00:00",
+      "error": "Camofox preflight: fewer than two analyzable direct cards",
+      "method": "camofox",
+      "status": "failed"
+    }
+  ],
+  "cycle_id": "2026-10-09_cycle-1",
+  "source_id": "arbeitnow.com"
+}

@@ -1,0 +1,13 @@
+{
+  "cycle_id": "2026-09-25_cycle-33",
+  "failures": [
+    {
+      "at": "2026-09-25T13:56:48.473990+00:00",
+      "attempt": 1,
+      "error": "all independent access methods failed: Camofox preflight: fewer than two analyzable direct cards; mcporter Exa web_search_exa rate limited: shared keyless MCP is at 429; Crawl4AI failed (1): l: minimal_text on small page (529 bytes, 14 chars visible) \n[COMPLETE] ● https://www.stepstone.de/jobs/qa-test/in-berlin.html                                                 | ✗ | ⏱: 5.59s \n✗ 爬取失败: Blocked by anti-bot protection: Structural: minimal_text on small page (529 bytes, 14 chars visible)\n; preflight: fewer than two analyzable direct cards"
+    }
+  ],
+  "schema_version": 2,
+  "source_id": "stepstone.de",
+  "state": "blocked"
+}

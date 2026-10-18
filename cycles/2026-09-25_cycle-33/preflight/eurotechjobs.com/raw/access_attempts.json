@@ -1,0 +1,24 @@
+{
+  "attempts": [
+    {
+      "at": "2026-09-25T13:55:26.001280+00:00",
+      "error": "Camofox HTTP 503 for POST /tabs",
+      "method": "camofox",
+      "status": "failed"
+    },
+    {
+      "at": "2026-09-25T13:55:28.570011+00:00",
+      "error": "mcporter Exa web_search_exa rate limited: shared keyless MCP is at 429",
+      "method": "exa",
+      "status": "failed"
+    },
+    {
+      "at": "2026-09-25T13:55:47.199828+00:00",
+      "error": "preflight: fewer than two analyzable direct cards",
+      "method": "crawl4ai",
+      "status": "failed"
+    }
+  ],
+  "cycle_id": "2026-09-25_cycle-33",
+  "source_id": "eurotechjobs.com"
+}

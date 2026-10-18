@@ -1,0 +1,7 @@
+{
+  "url": "https://de.indeed.com/jobs?q=QA+Analyst&l=Dresden",
+  "attempt": 1,
+  "returncode": 1,
+  "stdout": "",
+  "stderr": "[INIT].... → Crawl4AI 0.9.4 \n[FETCH]... ↓ https://de.indeed.com/jobs?q=QA+Analyst&l=Dresden                                                    | ✓ | ⏱: 0.96s \n[SCRAPE].. ◆ https://de.indeed.com/jobs?q=QA+Analyst&l=Dresden                                                    | ✓ | ⏱: 0.02s \n[ERROR]... × https://de.indeed.com/jobs?q=QA+Analyst&l=Dresden  | Error: Blocked by anti-bot protection: Cloudflare JS challenge \n[COMPLETE] ● https://de.indeed.com/jobs?q=QA+Analyst&l=Dresden                                                    | ✗ | ⏱: 0.99s \n✗ 爬取失败: Blocked by anti-bot protection: Cloudflare JS challenge\n"
+}

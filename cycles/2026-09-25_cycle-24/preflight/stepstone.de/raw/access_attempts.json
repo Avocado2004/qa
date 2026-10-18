@@ -1,0 +1,30 @@
+{
+  "attempts": [
+    {
+      "at": "2026-09-25T06:15:31.723373+00:00",
+      "error": "Camofox preflight: fewer than two analyzable direct cards",
+      "method": "camofox",
+      "status": "failed"
+    },
+    {
+      "at": "2026-09-25T06:15:35.090825+00:00",
+      "error": "Exa returned fewer than two direct cards",
+      "method": "exa",
+      "status": "failed"
+    },
+    {
+      "at": "2026-09-25T06:15:36.061721+00:00",
+      "error": "Crawl4AI failed (2): Usage: crawl4ai-skill crawl [OPTIONS] URL\nTry 'crawl4ai-skill crawl --help' for help.\n\nError: No such option '--wait-until'. Did you mean '--wait-for'?\n",
+      "method": "crawl4ai",
+      "status": "failed"
+    },
+    {
+      "at": "2026-09-25T06:15:36.263790+00:00",
+      "error": "preflight: fewer than two analyzable direct cards",
+      "method": "http",
+      "status": "failed"
+    }
+  ],
+  "cycle_id": "2026-09-25_cycle-24",
+  "source_id": "stepstone.de"
+}

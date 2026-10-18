@@ -1,0 +1,53 @@
+{
+  "status": "pass",
+  "access_method": "camofox_gateway",
+  "cards_found": 3,
+  "cards_analyzable": 2,
+  "browser_health": {
+    "start": {
+      "ok": true,
+      "profile": "camoufox"
+    },
+    "health": {
+      "ok": true,
+      "engine": "camoufox",
+      "browserConnected": true,
+      "browserRunning": true,
+      "activeTabs": 0,
+      "activeSessions": 0,
+      "consecutiveFailures": 0,
+      "memory": {
+        "rssMb": 153,
+        "heapUsedMb": 85,
+        "nativeMemMb": 68
+      }
+    },
+    "smoke_snapshot_chars": 237
+  },
+  "operations": [
+    {
+      "op": "listing",
+      "url": "https://hitmarker.net/jobs",
+      "chars": 11114,
+      "evidence": "/opt/data/qa-vacancy-project/cycles/2026-09-25_cycle-44/workers/hitmarker.net/raw/0002-listing-snapshot.json"
+    },
+    {
+      "op": "card-1",
+      "url": "https://hitmarker.net/jobs/scapeworld-entertainment-ab-senior-community-manager-apac-4763342",
+      "chars": 15851,
+      "evidence": "/opt/data/qa-vacancy-project/cycles/2026-09-25_cycle-44/workers/hitmarker.net/raw/0003-card-1-snapshot.json"
+    },
+    {
+      "op": "return",
+      "url": "https://hitmarker.net/jobs",
+      "chars": 11114,
+      "evidence": "/opt/data/qa-vacancy-project/cycles/2026-09-25_cycle-44/workers/hitmarker.net/raw/0004-return-snapshot.json"
+    },
+    {
+      "op": "card-2",
+      "url": "https://hitmarker.net/jobs/confidential-3-pokemon-tcg-growth-marketing-lead-4644088",
+      "chars": 9224,
+      "evidence": "/opt/data/qa-vacancy-project/cycles/2026-09-25_cycle-44/workers/hitmarker.net/raw/0005-card-2-snapshot.json"
+    }
+  ]
+}

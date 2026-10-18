@@ -1,0 +1,7 @@
+{
+  "url": "https://de.indeed.com/rc/clk?jk=bea55165f0e59e79&bb=EpVijBu42v4V9Dn28y9fDNz3_ecoAHuFQaO6gofjDwOK4T0Jvvx8717hS2OtQyZkcaON6vvoW6YyTj0Rj8aE0Xia6m6gBc7b0nPdHXU2cGECdX1tnXZIOQy_25rN_Fv1&xkcb=SoAC67M2e2RqzkzCTR0HbzkdCdPP&fccid=71e4179a4d24dc36&vjs=3",
+  "attempt": 1,
+  "returncode": 0,
+  "stdout": "✓ 页面已保存到 /opt/data/qa-vacancy-project/cycles/2026-09-29_cycle-6/workers/de.indeed.com/raw/crawl4ai-card-gBc7b0nPdHXU2cGECdX1tnXZIOQy-25rN-Fv1-xkcb-SoAC67M2e2RqzkzCTR0HbzkdCdPP-fccid-71e4179a4d24dc36-vjs-3.md\n  标题: Senior Test Automation Engineer (m/w/d) - Berlin - Indeed.com\n  链接数: 45\n",
+  "stderr": "[INIT].... → Crawl4AI 0.9.4 \n[FETCH]... ↓ https://de.indeed.com/rc/clk?jk=bea55165f0e59e79...2RqzkzCTR0HbzkdCdPP&fccid=71e4179a4d24dc36&vjs=3  | ✓ | ⏱: 3.56s \n[SCRAPE].. ◆ https://de.indeed.com/rc/clk?jk=bea55165f0e59e79...2RqzkzCTR0HbzkdCdPP&fccid=71e4179a4d24dc36&vjs=3  | ✓ | ⏱: 0.13s \n[COMPLETE] ● https://de.indeed.com/rc/clk?jk=bea55165f0e59e79...2RqzkzCTR0HbzkdCdPP&fccid=71e4179a4d24dc36&vjs=3  | ✓ | ⏱: 3.81s \n"
+}

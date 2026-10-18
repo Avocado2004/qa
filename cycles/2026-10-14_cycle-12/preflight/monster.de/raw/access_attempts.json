@@ -1,0 +1,30 @@
+{
+  "attempts": [
+    {
+      "at": "2026-10-14T20:50:25.011908+00:00",
+      "error": "preflight: fewer than two analyzable direct cards",
+      "method": "api",
+      "status": "failed"
+    },
+    {
+      "at": "2026-10-14T20:50:25.812736+00:00",
+      "error": "preflight: fewer than two analyzable direct cards",
+      "method": "http",
+      "status": "failed"
+    },
+    {
+      "at": "2026-10-14T20:53:20.922728+00:00",
+      "error": "Crawl4AI failed after 3 attempts: rc=1 × https://www.monster.de/...ineer&where=Deutschland  | Error: Blocked by anti-bot protection: DataDome captcha \n[COMPLETE] ● https://www.monster.de/jobs/suche?q=QA-Engineer&where=Deutschland                                    | ✗ | ⏱: 10.10s \n✗ 爬取失败: Blocked by anti-bot protection: DataDome captcha\n",
+      "method": "crawl4ai",
+      "status": "failed"
+    },
+    {
+      "at": "2026-10-14T20:53:36.979421+00:00",
+      "error": "Camofox HTTP 404 for POST /tabs/a3dc39f6-949b-4f96-8e7a-c8911333c949/navigate: {\"error\":\"Tab not found\"}",
+      "method": "camofox",
+      "status": "failed"
+    }
+  ],
+  "cycle_id": "2026-10-14_cycle-12",
+  "source_id": "monster.de"
+}

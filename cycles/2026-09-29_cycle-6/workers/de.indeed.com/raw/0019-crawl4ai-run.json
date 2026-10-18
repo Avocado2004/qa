@@ -1,0 +1,7 @@
+{
+  "url": "https://de.indeed.com/rc/clk?jk=6e1b757911953183&bb=EpVijBu42v4V9Dn28y9fDB9NMHkzmlboLpEkeAqVtyIdokMQedqPPFXzGTDVZgKVuJ8fTdXP8hrkBd1t9aIVif0S98bWaVnnmq2FRgBysVDVdW5OjRPQido5hmGo1z4H&xkcb=SoBM67M2e2RqzkzCTR0NbzkdCdPP&fccid=42505c18baebd87b&vjs=3",
+  "attempt": 1,
+  "returncode": 0,
+  "stdout": "✓ 页面已保存到 /opt/data/qa-vacancy-project/cycles/2026-09-29_cycle-6/workers/de.indeed.com/raw/crawl4ai-card-WaVnnmq2FRgBysVDVdW5OjRPQido5hmGo1z4H-xkcb-SoBM67M2e2RqzkzCTR0NbzkdCdPP-fccid-42505c18baebd87b-vjs-3.md\n  标题: Search QA Automation Test Engineer (m/w/d) - 10178 Berlin - Indeed.com\n  链接数: 44\n",
+  "stderr": "[INIT].... → Crawl4AI 0.9.4 \n[FETCH]... ↓ https://de.indeed.com/rc/clk?jk=6e1b757911953183...2RqzkzCTR0NbzkdCdPP&fccid=42505c18baebd87b&vjs=3  | ✓ | ⏱: 5.41s \n[SCRAPE].. ◆ https://de.indeed.com/rc/clk?jk=6e1b757911953183...2RqzkzCTR0NbzkdCdPP&fccid=42505c18baebd87b&vjs=3  | ✓ | ⏱: 0.26s \n[COMPLETE] ● https://de.indeed.com/rc/clk?jk=6e1b757911953183...2RqzkzCTR0NbzkdCdPP&fccid=42505c18baebd87b&vjs=3  | ✓ | ⏱: 5.82s \n"
+}

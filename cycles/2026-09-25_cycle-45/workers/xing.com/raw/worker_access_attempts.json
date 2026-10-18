@@ -1,0 +1,16 @@
+{
+  "attempts": [
+    {
+      "at": "2026-09-25T17:55:23.108807+00:00",
+      "error": "Camofox HTTP 404 for GET /tabs/a0b5c301-9e0d-4f98-8cb2-fe585a084d6e/snapshot",
+      "method": "camofox",
+      "status": "failed"
+    },
+    {
+      "method": "crawl4ai",
+      "status": "pass"
+    }
+  ],
+  "cycle_id": "2026-09-25_cycle-45",
+  "source_id": "xing.com"
+}

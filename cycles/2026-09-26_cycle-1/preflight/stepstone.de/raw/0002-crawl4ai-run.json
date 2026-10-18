@@ -1,0 +1,6 @@
+{
+  "url": "https://www.stepstone.de/stellenangebote--Senior-QA-QC-Engineer-Mechanical-m-f-d-Bad-Homburg-Exyte-Germany-GmbH--13936204-inline.html",
+  "returncode": 0,
+  "stdout": "✓ 页面已保存到 /opt/data/qa-vacancy-project/cycles/2026-09-26_cycle-1/preflight/stepstone.de/raw/crawl4ai-card-nangebote-Senior-QA-QC-Engineer-Mechanical-m-f-d-Bad-Homburg-Exyte-Germany-GmbH-13936204-inline-html.md\n  标题: Senior QA/QC Engineer - Mechanical (m/f/d) - Feste Anstellung, Vollzeit Job in Bad Homburg\n  链接数: 33\n",
+  "stderr": "[INIT].... → Crawl4AI 0.9.4 \n[FETCH]... ↓ https://www.stepstone.de/stellenangebote--Senior...Homburg-Exyte-Germany-GmbH--13936204-inline.html  | ✓ | ⏱: 23.26s \n[SCRAPE].. ◆ https://www.stepstone.de/stellenangebote--Senior...Homburg-Exyte-Germany-GmbH--13936204-inline.html  | ✓ | ⏱: 1.09s \n[COMPLETE] ● https://www.stepstone.de/stellenangebote--Senior...Homburg-Exyte-Germany-GmbH--13936204-inline.html  | ✓ | ⏱: 24.87s \n"
+}

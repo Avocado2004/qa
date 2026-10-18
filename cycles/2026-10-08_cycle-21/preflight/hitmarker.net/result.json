@@ -1,0 +1,13 @@
+{
+  "cycle_id": "2026-10-08_cycle-21",
+  "failures": [
+    {
+      "at": "2026-10-08T22:22:12.818775+00:00",
+      "attempt": 1,
+      "error": "all independent access methods failed: Camofox preflight: no card carries vacancy body text (a title alone is not a posting) -- card-1: 'Senior Game UI & Multimedia Designer' (12826 chars); card-2: 'Senior Systems Game Designer' (15623 chars). Listing offered 3 direct links; About.md requires two analyzable vacancy cards.; preflight: fewer than two analyzable direct cards; preflight: fewer than two analyzable direct cards"
+    }
+  ],
+  "schema_version": 2,
+  "source_id": "hitmarker.net",
+  "state": "blocked"
+}

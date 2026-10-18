@@ -1,0 +1,34 @@
+{
+  "completed_operations": [
+    {
+      "chars": 6107,
+      "evidence": "/opt/data/qa-vacancy-project/cycles/2026-09-24_cycle-9/preflight/linkedin.com/raw/0002-listing-snapshot.json",
+      "op": "listing",
+      "url": "https://www.linkedin.com/jobs-guest/jobs/api/seeMoreJobPostings/search?keywords=QA&location=Germany&f_TPR=r2592000&start=0"
+    },
+    {
+      "chars": 25820,
+      "evidence": "/opt/data/qa-vacancy-project/cycles/2026-09-24_cycle-9/preflight/linkedin.com/raw/0003-card-1-snapshot.json",
+      "op": "card-1",
+      "url": "https://de.linkedin.com/jobs/view/junior-qa-engineer-software-tester-m-w-d-%E2%80%93-produktqualit%C3%A4t-testautomatisierung-at-check24-4433870576?position=1&pageNum=0&refId=HoT4I2AG6pHEQ%2FuLLl9HYw%3D%3D"
+    },
+    {
+      "chars": 6107,
+      "evidence": "/opt/data/qa-vacancy-project/cycles/2026-09-24_cycle-9/preflight/linkedin.com/raw/0004-return-snapshot.json",
+      "op": "return",
+      "url": "https://www.linkedin.com/jobs-guest/jobs/api/seeMoreJobPostings/search?keywords=QA&location=Germany&f_TPR=r2592000&start=0"
+    },
+    {
+      "chars": 23960,
+      "evidence": "/opt/data/qa-vacancy-project/cycles/2026-09-24_cycle-9/preflight/linkedin.com/raw/0005-card-2-snapshot.json",
+      "op": "card-2",
+      "url": "https://de.linkedin.com/jobs/view/quality-assurance-engineer-m-w-d-at-hochtief-4455268504?position=2&pageNum=0&refId=HoT4I2AG6pHEQ%2FuLLl9HYw%3D%3D"
+    }
+  ],
+  "cycle_id": "preflight",
+  "next_operation": 4,
+  "schema_version": 2,
+  "source_id": "linkedin.com",
+  "state": "complete",
+  "updated_at": "2026-09-24T23:03:40.488922+00:00"
+}

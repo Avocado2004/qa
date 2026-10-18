@@ -1,0 +1,56 @@
+{
+  "checked_at": "2026-09-25T06:16:09.657451+00:00",
+  "evidence": {
+    "access_method": "base",
+    "attempts": [
+      {
+        "at": "2026-09-25T06:15:59.735855+00:00",
+        "error": "Camofox preflight: fewer than two analyzable direct cards",
+        "method": "camofox",
+        "status": "failed"
+      },
+      {
+        "at": "2026-09-25T06:16:05.076039+00:00",
+        "error": "Exa returned fewer than two direct cards",
+        "method": "exa",
+        "status": "failed"
+      },
+      {
+        "at": "2026-09-25T06:16:06.161118+00:00",
+        "error": "Crawl4AI failed (2): Usage: crawl4ai-skill crawl [OPTIONS] URL\nTry 'crawl4ai-skill crawl --help' for help.\n\nError: No such option '--wait-until'. Did you mean '--wait-for'?\n",
+        "method": "crawl4ai",
+        "status": "failed"
+      },
+      {
+        "method": "http",
+        "status": "pass"
+      }
+    ],
+    "cards_analyzable": 54,
+    "cards_found": 54,
+    "operations": [
+      {
+        "op": "listing",
+        "status": 200
+      },
+      {
+        "chars": 9232,
+        "op": "card-1",
+        "url": "https://www.eurotechjobs.com/jobs/test_analyst"
+      },
+      {
+        "op": "return",
+        "status": 200
+      },
+      {
+        "chars": 9915,
+        "op": "card-2",
+        "url": "https://www.eurotechjobs.com/job_display/296803/Data_Processing_Testing_Engineer_EUMETSAT_European_Organisation_for_the_Exploitation_of_Meteorological_Satellites_Darmstadt_Germany"
+      }
+    ],
+    "primary_or_fallback": "http",
+    "status": "pass"
+  },
+  "listing": "https://www.eurotechjobs.com/jobs/test_analyst",
+  "verdict": "PASS"
+}

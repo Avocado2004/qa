@@ -1,0 +1,7 @@
+{
+  "url": "https://de.indeed.com/jobs?q=Softwaretester&l=Leipzig",
+  "attempt": 1,
+  "returncode": 0,
+  "stdout": "✓ 页面已保存到 /opt/data/qa-vacancy-project/cycles/2026-09-29_cycle-8/preflight/de.indeed.com/raw/crawl4ai-listing-10.md\n  标题: Softwaretester Jobs in Leipzig - 29. September 2026 | Stellenangebote auf Indeed\n  链接数: 82\n",
+  "stderr": "[INIT].... → Crawl4AI 0.9.4 \n[FETCH]... ↓ https://de.indeed.com/jobs?q=Softwaretester&l=Leipzig                                                | ✓ | ⏱: 3.49s \n[SCRAPE].. ◆ https://de.indeed.com/jobs?q=Softwaretester&l=Leipzig                                                | ✓ | ⏱: 0.26s \n[COMPLETE] ● https://de.indeed.com/jobs?q=Softwaretester&l=Leipzig                                                | ✓ | ⏱: 3.93s \n"
+}

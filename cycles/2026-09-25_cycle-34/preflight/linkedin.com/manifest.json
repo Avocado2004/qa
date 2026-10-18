@@ -1,0 +1,9 @@
+{
+  "cycle_id": "2026-09-25_cycle-34",
+  "finished_at": "2026-09-25T15:29:20.619240+00:00",
+  "schema_version": 2,
+  "source_id": "linkedin.com",
+  "stage": "SOURCE_PREFLIGHT",
+  "started_at": "2026-09-25T15:26:17.314806+00:00",
+  "state": "pass"
+}

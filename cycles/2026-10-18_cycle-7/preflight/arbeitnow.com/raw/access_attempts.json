@@ -1,0 +1,30 @@
+{
+  "attempts": [
+    {
+      "at": "2026-10-18T12:51:51.191495+00:00",
+      "error": "'utf-8' codec can't decode byte 0xcb in position 0: invalid continuation byte",
+      "method": "api",
+      "status": "failed"
+    },
+    {
+      "at": "2026-10-18T12:51:51.814383+00:00",
+      "error": "'utf-8' codec can't decode byte 0xcb in position 0: invalid continuation byte",
+      "method": "http",
+      "status": "failed"
+    },
+    {
+      "at": "2026-10-18T12:53:27.438807+00:00",
+      "error": "preflight: fewer than two analyzable direct cards",
+      "method": "crawl4ai",
+      "status": "failed"
+    },
+    {
+      "at": "2026-10-18T12:53:53.675193+00:00",
+      "error": "Camofox preflight: fewer than two analyzable direct cards",
+      "method": "camofox",
+      "status": "failed"
+    }
+  ],
+  "cycle_id": "2026-10-18_cycle-7",
+  "source_id": "arbeitnow.com"
+}

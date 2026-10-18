@@ -1,0 +1,52 @@
+{
+  "checked_at": "2026-10-18T11:58:27.289850+00:00",
+  "evidence": {
+    "access_method": "base",
+    "attempts": [
+      {
+        "at": "2026-10-18T11:57:08.174040+00:00",
+        "error": "Camofox HTTP 410 for POST /tabs/f74941ec-ebcf-425d-98e5-e740ab101db2/navigate: {\"error\":\"Tab no longer exists (browser was restarted). Create a new tab.\",\"code\":\"browser_restarted\"}",
+        "method": "camofox",
+        "status": "failed"
+      },
+      {
+        "at": "2026-10-18T11:58:21.301635+00:00",
+        "error": "preflight: fewer than two analyzable direct cards",
+        "method": "crawl4ai",
+        "status": "failed"
+      },
+      {
+        "method": "http",
+        "status": "pass"
+      }
+    ],
+    "cards_analyzable": 2,
+    "cards_found": 20,
+    "deep_scan_needed": true,
+    "operations": [
+      {
+        "op": "listing",
+        "status": 200
+      },
+      {
+        "chars": 6903,
+        "op": "card-1",
+        "url": "https://www.xing.com/jobs/hamburg-recruiter-157424165"
+      },
+      {
+        "op": "return",
+        "status": 200
+      },
+      {
+        "chars": 10253,
+        "op": "card-2",
+        "url": "https://www.xing.com/jobs/annaberg-buchholz-initiativbewerbung-mitarbeiter-158051671"
+      }
+    ],
+    "portal_pages_skipped": [],
+    "primary_or_fallback": "http",
+    "status": "pass"
+  },
+  "listing": "https://www.xing.com/jobs/search",
+  "verdict": "PASS"
+}

@@ -1,0 +1,13 @@
+{
+  "cycle_id": "2026-09-29_cycle-8",
+  "failures": [
+    {
+      "at": "2026-09-29T15:39:15.371640+00:00",
+      "attempt": 1,
+      "error": "all independent access methods failed: Camofox HTTP 404 for GET /tabs/b04d5da9-e1b8-4c12-8e5d-427c2570ab09/snapshot: {\"error\":\"Tab not found\"}; preflight: fewer than two analyzable direct cards; preflight: source is readable but offered no QA/test vacancy in the first two cards ('Recruiter (m/w/d)'; 'Initiativbewerbung'). Both pages opened and parsed as real postings, so this is not an access failure; the source stays active for a later run."
+    }
+  ],
+  "schema_version": 2,
+  "source_id": "xing.com",
+  "state": "blocked"
+}

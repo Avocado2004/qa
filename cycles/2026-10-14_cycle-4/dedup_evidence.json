@@ -1,0 +1,25 @@
+{
+  "at": "2026-10-14T10:39:49.818638+00:00",
+  "cycle_id": "2026-10-14_cycle-4",
+  "dropped": 2,
+  "duplicates": [
+    {
+      "dropped_url": "https://fake/beta/qa-1",
+      "identity": "beta gmbh|qa engineer beta|berlin||https://fake/beta/qa-1||6a04984cc5b0e9574ecdf926084802cfd49939a56a0a50d603c39e07b444184b",
+      "kept_url": "https://fake/alpha/qa-1",
+      "matched_on": "announcement",
+      "source_id": "",
+      "title": "QA Engineer beta"
+    },
+    {
+      "dropped_url": "https://fake/beta/qa-2",
+      "identity": "beta gmbh|test engineer beta|dresden||https://fake/beta/qa-2||82f0ebeb3fd4d84ae8ce97f174795c821690a91772fff22cfe6b79f920fbeb49",
+      "kept_url": "https://fake/alpha/qa-2",
+      "matched_on": "announcement",
+      "source_id": "",
+      "title": "Test Engineer beta"
+    }
+  ],
+  "kept": 2,
+  "schema_version": 2
+}

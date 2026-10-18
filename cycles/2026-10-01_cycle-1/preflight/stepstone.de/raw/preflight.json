@@ -1,0 +1,77 @@
+{
+  "checked_at": "2026-10-01T00:16:29.363737+00:00",
+  "evidence": {
+    "access_method": "camofox_gateway",
+    "attempts": [
+      {
+        "at": "2026-10-01T00:12:01.240462+00:00",
+        "error": "preflight: fewer than two analyzable direct cards",
+        "method": "http",
+        "status": "failed"
+      },
+      {
+        "at": "2026-10-01T00:15:18.245524+00:00",
+        "error": "preflight: no card carries vacancy body text (a title alone is not a posting) -- 2 opened but all are indexes/teasers (card-1: 'QA Engineer Software (m/w/d)' (0 chars); card-2: 'QA Engineer (m/w/d)' (0 chars)). About.md requires two analyzable vacancy cards.",
+        "method": "crawl4ai",
+        "status": "failed"
+      },
+      {
+        "method": "camofox",
+        "status": "pass"
+      }
+    ],
+    "browser_health": {
+      "health": {
+        "activeSessions": 2,
+        "activeTabs": 1,
+        "browserConnected": true,
+        "browserRunning": true,
+        "consecutiveFailures": 0,
+        "engine": "camoufox",
+        "memory": {
+          "heapUsedMb": 77,
+          "nativeMemMb": 52,
+          "rssMb": 129
+        },
+        "ok": true
+      },
+      "smoke_snapshot_chars": 1052,
+      "start": {
+        "ok": true,
+        "profile": "camoufox"
+      }
+    },
+    "cards_analyzable": 2,
+    "cards_found": 25,
+    "operations": [
+      {
+        "chars": 49978,
+        "evidence": "/opt/data/qa-vacancy-project/cycles/2026-10-01_cycle-1/preflight/stepstone.de/raw/0002-listing-snapshot.json",
+        "op": "listing",
+        "url": "https://www.stepstone.de/jobs/berlin?q=QA"
+      },
+      {
+        "chars": 22175,
+        "evidence": "/opt/data/qa-vacancy-project/cycles/2026-10-01_cycle-1/preflight/stepstone.de/raw/0003-card-1-snapshot.json",
+        "op": "card-1",
+        "url": "https://www.stepstone.de/stellenangebote--QA-Engineer-Software-m-w-d-Dresden-secunet-Security-Networks-AG--14547592-inline.html"
+      },
+      {
+        "chars": 49978,
+        "evidence": "/opt/data/qa-vacancy-project/cycles/2026-10-01_cycle-1/preflight/stepstone.de/raw/0004-return-snapshot.json",
+        "op": "return",
+        "url": "https://www.stepstone.de/jobs/berlin?q=QA"
+      },
+      {
+        "chars": 21085,
+        "evidence": "/opt/data/qa-vacancy-project/cycles/2026-10-01_cycle-1/preflight/stepstone.de/raw/0005-card-2-snapshot.json",
+        "op": "card-2",
+        "url": "https://www.stepstone.de/stellenangebote--QA-Engineer-m-w-d-Lueneburg-evasys-GmbH--14557256-inline.html"
+      }
+    ],
+    "primary_or_fallback": "camofox",
+    "status": "pass"
+  },
+  "listing": "https://www.stepstone.de/jobs/berlin?q=QA",
+  "verdict": "PASS"
+}

@@ -1,0 +1,2 @@
+{"event": "master_changed", "message": "2026-10-04_cycle-2: master changed and was published", "at": "2026-10-04T15:27:17.627303+00:00", "cycle_id": "2026-10-04_cycle-2", "status": "CHANGED_PUBLISHED", "stage": "DONE", "error": null}
+{"cycle_id": "2026-10-04_cycle-2", "status": "CHANGED_PUBLISHED", "stage": "DONE", "error": null}

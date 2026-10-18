@@ -1,0 +1,6 @@
+{
+  "url": "https://www.stepstone.de/stellenangebote--Software-Quality-Assurance-Architect-AWS-m-w-d-Wiesbaden-SCHUFA-Holding-AG--14535350-inline.html",
+  "returncode": 0,
+  "stdout": "✓ 页面已保存到 /opt/data/qa-vacancy-project/cycles/2026-09-27_cycle-1/workers/stepstone.de/raw/crawl4ai-card-bote-Software-Quality-Assurance-Architect-AWS-m-w-d-Wiesbaden-SCHUFA-Holding-AG-14535350-inline-html.md\n  标题: Software Quality Assurance Architect – AWS (m/w/d) - Feste Anstellung, Vollzeit, Homeoffice Job in Wiesbaden\n  链接数: 51\n",
+  "stderr": "[INIT].... → Crawl4AI 0.9.4 \n[FETCH]... ↓ https://www.stepstone.de/stellenangebote--Softwa...iesbaden-SCHUFA-Holding-AG--14535350-inline.html  | ✓ | ⏱: 12.67s \n[SCRAPE].. ◆ https://www.stepstone.de/stellenangebote--Softwa...iesbaden-SCHUFA-Holding-AG--14535350-inline.html  | ✓ | ⏱: 0.31s \n[COMPLETE] ● https://www.stepstone.de/stellenangebote--Softwa...iesbaden-SCHUFA-Holding-AG--14535350-inline.html  | ✓ | ⏱: 13.12s \n"
+}

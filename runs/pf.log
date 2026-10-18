@@ -1,0 +1,8 @@
+listing OK: 833360 bytes in 609s
+cards=250 QA=105
+ERR: RuntimeError
+Crawl4AI failed after 3 attempts: rc=1 indeed.com/r...=9e215d88a6b33622&vjs=3  | Error: Blocked by anti-bot protection: Cloudflare JS challenge 
+[COMPLETE] ● https://de.indeed.com/rc/clk?jk=fb57349133c160b6...3tF_GzNyZ0KbzkdCdPP&fccid=9e215d88a6b33622&vjs=3  | ✗ | ⏱: 1.25s 
+✗ 爬取失败: Blocked by anti-bot protection: Cloudflare JS challenge
+
+elapsed 1886s

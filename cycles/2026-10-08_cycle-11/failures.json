@@ -1,0 +1,4 @@
+{
+  "at": "2026-10-08T20:46:09.414459+00:00",
+  "error": "RuntimeError: LLM response missing 'choices': {'id': 'gen-1791492368-KNI5s3QqXkhyNdcE35ra', 'error': {'message': 'Upstream error from Nvidia: Service temporarily overloaded', 'code': 503, 'metadata': {'error_type': 'provider_overloaded'}}}"
+}

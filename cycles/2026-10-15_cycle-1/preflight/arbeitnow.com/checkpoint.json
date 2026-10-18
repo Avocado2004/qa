@@ -1,0 +1,28 @@
+{
+  "completed_operations": [
+    {
+      "op": "listing",
+      "status": 200
+    },
+    {
+      "chars": 5021,
+      "op": "card-1",
+      "url": "https://www.arbeitnow.com/jobs/companies/alp-ami-hospitality-gmbh/operations-manager-munich-386500"
+    },
+    {
+      "op": "return",
+      "status": 200
+    },
+    {
+      "chars": 4740,
+      "op": "card-2",
+      "url": "https://www.arbeitnow.com/jobs/companies/luminovo-gmbh/business-development-bdr-dach-remote-90716"
+    }
+  ],
+  "cycle_id": "2026-10-15_cycle-1",
+  "next_operation": 4,
+  "schema_version": 2,
+  "source_id": "arbeitnow.com",
+  "state": "complete",
+  "updated_at": "2026-10-15T21:43:15.620242+00:00"
+}

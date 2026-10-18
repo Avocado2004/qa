@@ -1,0 +1,7 @@
+{
+  "url": "https://de.indeed.com/rc/clk?jk=b61d3fbdb683ee91&bb=Pn3X54z_R_dHPZEJ-oYmfvxwWwnK71clJL1sVHFXkXOXMXtoE8j4vT5MMW69HLlbV2fnIjtv8zUV_3V0RZzo_bj0ygjM4dVy9mHmpIlBD0RPG-cfzBAJt3g2I5jRIDnQ_GIqceEobsflrmdOakHHLQ%3D%3D&xkcb=SoDw67M2e2RM_szN3x0LbzkdCdPP&fccid=f0c297c6270253e5&vjs=3",
+  "attempt": 1,
+  "returncode": 0,
+  "stdout": "✓ 页面已保存到 /opt/data/qa-vacancy-project/cycles/2026-09-29_cycle-6/preflight/de.indeed.com/raw/crawl4ai-card-2I5jRIDnQ-GIqceEobsflrmdOakHHLQ-3D-3D-xkcb-SoDw67M2e2RM-szN3x0LbzkdCdPP-fccid-f0c297c6270253e5-vjs-3.md\n  标题: Qualitätsingenieur KI-Fokus / Quality Engineer (AI-augmented) (m/w/d) IT-Consulting - Berlin - Indeed.com\n  链接数: 45\n",
+  "stderr": "[INIT].... → Crawl4AI 0.9.4 \n[FETCH]... ↓ https://de.indeed.com/rc/clk?jk=b61d3fbdb683ee91...2RM_szN3x0LbzkdCdPP&fccid=f0c297c6270253e5&vjs=3  | ✓ | ⏱: 5.00s \n[SCRAPE].. ◆ https://de.indeed.com/rc/clk?jk=b61d3fbdb683ee91...2RM_szN3x0LbzkdCdPP&fccid=f0c297c6270253e5&vjs=3  | ✓ | ⏱: 0.41s \n[COMPLETE] ● https://de.indeed.com/rc/clk?jk=b61d3fbdb683ee91...2RM_szN3x0LbzkdCdPP&fccid=f0c297c6270253e5&vjs=3  | ✓ | ⏱: 5.57s \n"
+}

@@ -1,0 +1,38 @@
+{
+  "candidates_evaluated": [],
+  "created_at": "2026-09-24T23:53:57.040803+00:00",
+  "cycle_id": "2026-09-24_cycle-20",
+  "evidence": [
+    {
+      "limitation": "Their active status and historical direct-card URLs are inherited metadata, not live findings from this execution.",
+      "observation": "The supplied schema-v2 registry contains 11 source records marked active, including German job boards, technology job boards, and public job APIs.",
+      "type": "provided_registry"
+    },
+    {
+      "consequence": "Current accessibility and current German QA/test listings could not be independently established.",
+      "observation": "No live web search, HTTP/API/RSS retrieval, browser verification, or direct job-card inspection was performed.",
+      "type": "execution_limitation"
+    },
+    {
+      "consequence": "Unverified candidates cannot be added to the active registry.",
+      "observation": "A newly accepted source must be independently searchable and provide a verifiable current direct vacancy card or accessible current listing/API relevant to QA or software testing in Germany.",
+      "type": "scope"
+    }
+  ],
+  "live_discovery_completed": false,
+  "next_actions": [
+    "Search for non-duplicate candidate hosts beyond the registered domains.",
+    "Verify live German QA/test results through a listing, API, or RSS feed and at least one direct detail page.",
+    "Record access method, HTTP status, final URL, role, employer, location, vacancy date where available, and verification timestamp.",
+    "To match the registry's recorded acceptance standard, corroborate a new source with two methods before adding it."
+  ],
+  "registry_effect": {
+    "existing_sources_reverified": [],
+    "new_sources": [],
+    "observed_registry_revision": 1,
+    "retired_sources": [],
+    "revision_changed": false
+  },
+  "summary": "No new German QA source is certified in this run. This is not evidence that existing sources are inactive or that no additional sources exist; it reflects the absence of live retrieval evidence.",
+  "verdict": "not_verified"
+}

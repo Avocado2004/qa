@@ -1,0 +1,24 @@
+{
+  "attempts": [
+    {
+      "at": "2026-10-08T22:10:57.493237+00:00",
+      "error": "Camofox transport failed for POST /tabs/91fa4557-0b2a-47ce-9167-7f1c4dbaef17/navigate: <urlopen error [Errno 111] Connection refused>",
+      "method": "camofox",
+      "status": "failed"
+    },
+    {
+      "at": "2026-10-08T22:11:22.763971+00:00",
+      "error": "preflight: fewer than two analyzable direct cards",
+      "method": "crawl4ai",
+      "status": "failed"
+    },
+    {
+      "at": "2026-10-08T22:11:23.071707+00:00",
+      "error": "preflight: fewer than two analyzable direct cards",
+      "method": "http",
+      "status": "failed"
+    }
+  ],
+  "cycle_id": "2026-10-08_cycle-19",
+  "source_id": "hitmarker.net"
+}

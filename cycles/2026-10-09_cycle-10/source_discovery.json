@@ -1,0 +1,76 @@
+{
+  "additions": [],
+  "created_at": "2026-10-09T19:22:38.840550+00:00",
+  "cycle_id": "2026-10-09_cycle-10",
+  "evidence": {
+    "live_retrieval": "completed",
+    "model_evidence": [
+      {
+        "scope": "Germany-wide",
+        "source": "germantechjobs.de (GermanTechJobs)",
+        "status": "active",
+        "type": "German technology job board / RSS",
+        "verification": "Registry history cycle-5 confirms public RSS exposed 992 analyzable direct job cards including 'Senior QA Engineer' and 'Test Engineer/Test Automation'; direct card pattern https://germantechjobs.de/jobs/<slug> (e.g. Communi5-Technologies-GmbH-Senior-QA-Engineer)."
+      },
+      {
+        "scope": "Berlin + Home-Office (Remote)",
+        "source": "adzuna.de (Adzuna Deutschland)",
+        "status": "active",
+        "type": "German general/aggregated job board",
+        "verification": "Registry history cycle-7 verified direct card '/land/ad/5887258708?title=QM_Pr%C3%BCfer' (Everllence SE, Berlin) with HOME-OFFICE coverage; listing URL /berlin/qa-engineer with pagination &p=<page>."
+      },
+      {
+        "scope": "Berlin / Germany",
+        "source": "stepstone.de (StepStone)",
+        "status": "active",
+        "type": "general job board",
+        "verification": "Source config lists QA test listing https://www.stepstone.de/jobs/qa-test/in-berlin.html and /jobs/berlin?q=QA; last_verified 2026-09-24; live_retrieval snippet confirms softwaretester listing page exists."
+      },
+      {
+        "scope": "Berlin, Leipzig, Dresden",
+        "source": "arbeitsagentur.de (Arbeitsagentur Jobsuche)",
+        "status": "active",
+        "type": "government job board",
+        "verification": "Source config target cities ['Berlin', 'Leipzig', 'Dresden'] with query /jobsuche/suche?was=Softwaretester&wo=Berlin; direct card pattern /jobdetail; last_verified 2026-09-24."
+      },
+      {
+        "scope": "Germany-wide remote",
+        "source": "remotive.com (Remotive)",
+        "status": "active",
+        "type": "remote job board/API",
+        "verification": "Public API https://remotive.com/api/remote-jobs?search=QA with location=Germany filter; direct card pattern /remote/jobs/qa/<slug>-<id>."
+      },
+      {
+        "scope": "Germany / Berlin / Leipzig / Dresden / Remote",
+        "source": "arbeitnow.com (Arbeitnow Job Board API)",
+        "status": "active",
+        "type": "aggregated job board/API",
+        "verification": "Public API https://www.arbeitnow.com/api/job-board-api with JSON filtering for QA/Software Test/Germany locations."
+      },
+      {
+        "scope": "Germany (evidence card: Düsseldorf)",
+        "source": "eurotechjobs.com (EuroTechJobs)",
+        "status": "active",
+        "type": "European technology job board",
+        "verification": "Registry history cycle-6 exposed 22 live direct cards including 'Senior Software Tester' (BlackBerry, Düsseldorf, Germany); direct card /job_display/<id>/<slug>. Covers Germany-wide scope though specific evidence card was Düsseldorf rather than target cities."
+      },
+      {
+        "scope": "Germany / Remote",
+        "source": "linkedin.com (LinkedIn Jobs) / xing.com (XING Jobs) / hitmarker.net (Hitmarker)",
+        "status": "active",
+        "type": "general / professional / gamedev job boards",
+        "verification": "Registry sources marked verified-live (last_verified 2026-09-24); LinkedIn query 'QA Engineer & location=Germany', Hitmarker 'QA game tester Germany'."
+      },
+      {
+        "scope": "Excluded",
+        "source": "de.indeed.com (Indeed Deutschland)",
+        "status": "retired",
+        "type": "Job aggregator",
+        "verification": "Retired 2026-09-30: no published rows in masters (0 of 276 rows), Cloudflare blocks 403, only 7 of 45 responses were real postings; not usable."
+      }
+    ],
+    "retrieval_artifact": "/opt/data/qa-vacancy-project/cycles/2026-10-09_cycle-10/source_discovery_retrieval.json",
+    "retrieved_result_count": 37
+  },
+  "verdict": "pass"
+}

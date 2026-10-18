@@ -1,0 +1,13 @@
+{
+  "cycle_id": "2026-09-25_cycle-30",
+  "failures": [
+    {
+      "at": "2026-09-25T10:57:33.914782+00:00",
+      "attempt": 1,
+      "error": "all independent access methods failed: preflight: fewer than two analyzable direct cards; Camofox preflight: fewer than two analyzable direct cards; Exa returned fewer than two direct cards; preflight: fewer than two analyzable direct cards"
+    }
+  ],
+  "schema_version": 2,
+  "source_id": "arbeitsagentur.de",
+  "state": "blocked"
+}

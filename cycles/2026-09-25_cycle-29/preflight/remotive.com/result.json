@@ -1,0 +1,13 @@
+{
+  "cycle_id": "2026-09-25_cycle-29",
+  "failures": [
+    {
+      "at": "2026-09-25T09:24:53.964058+00:00",
+      "attempt": 1,
+      "error": "all independent access methods failed: preflight: fewer than two distinct API cards; Camofox HTTP 500 for POST /tabs/c0b42a6c-3c15-4d00-a7b9-d2ce5db3a57f/navigate; preflight: fewer than two analyzable direct cards; preflight: fewer than two analyzable direct cards"
+    }
+  ],
+  "schema_version": 2,
+  "source_id": "remotive.com",
+  "state": "blocked"
+}

@@ -1,0 +1,7 @@
+{
+  "url": "https://www.stepstone.de/stellenangebote--Mitarbeiter-Qualitaetsmanagement-Qualitaetssicherung-im-technischen-Umfeld-m-w-d-Raisting-bei-Muenchen-HEPAKO-GmbH--14405233-inline.html",
+  "attempt": 1,
+  "returncode": 0,
+  "stdout": "✓ 页面已保存到 /opt/data/qa-vacancy-project/cycles/2026-10-18_cycle-9/workers/stepstone.de/raw/crawl4ai-card-alitaetssicherung-im-technischen-Umfeld-m-w-d-Raisting-bei-Muenchen-HEPAKO-GmbH-14405233-inline-html.md\n  标题: Mitarbeiter Qualitätsmanagement & Qualitätssicherung im technischen Umfeld (m/w/d) - Feste Anstellung, Teilzeit, Vollzeit Job in Raisting bei München\n  链接数: 55\n",
+  "stderr": "[INIT].... → Crawl4AI 0.9.4 \n[FETCH]... ↓ https://www.stepstone.de/stellenangebote--Mitarb...g-bei-Muenchen-HEPAKO-GmbH--14405233-inline.html  | ✓ | ⏱: 8.21s \n[SCRAPE].. ◆ https://www.stepstone.de/stellenangebote--Mitarb...g-bei-Muenchen-HEPAKO-GmbH--14405233-inline.html  | ✓ | ⏱: 0.21s \n[COMPLETE] ● https://www.stepstone.de/stellenangebote--Mitarb...g-bei-Muenchen-HEPAKO-GmbH--14405233-inline.html  | ✓ | ⏱: 8.51s \n"
+}

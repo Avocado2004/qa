@@ -1,0 +1,9 @@
+{
+  "cycle_id": "workers",
+  "finished_at": "2026-09-25T00:18:24.562382+00:00",
+  "schema_version": 2,
+  "source_id": "linkedin.com",
+  "stage": "VACANCY_WORKER",
+  "started_at": "2026-09-25T00:17:39.581867+00:00",
+  "state": "complete"
+}

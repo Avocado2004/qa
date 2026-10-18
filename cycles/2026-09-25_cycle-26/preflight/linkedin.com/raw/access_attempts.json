@@ -1,0 +1,24 @@
+{
+  "attempts": [
+    {
+      "at": "2026-09-25T07:32:15.583261+00:00",
+      "error": "Camofox HTTP 500 for GET /tabs/1d9182df-9abe-43de-b221-fb4f32478898/snapshot",
+      "method": "camofox",
+      "status": "failed"
+    },
+    {
+      "at": "2026-09-25T07:32:16.278306+00:00",
+      "error": "No module named 'httpx'",
+      "method": "exa",
+      "status": "failed"
+    },
+    {
+      "at": "2026-09-25T07:33:07.586572+00:00",
+      "error": "preflight: fewer than two analyzable direct cards",
+      "method": "crawl4ai",
+      "status": "failed"
+    }
+  ],
+  "cycle_id": "2026-09-25_cycle-26",
+  "source_id": "linkedin.com"
+}

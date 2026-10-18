@@ -1,0 +1,18 @@
+{
+  "attempts": [
+    {
+      "at": "2026-10-18T11:57:08.174040+00:00",
+      "error": "Camofox HTTP 410 for POST /tabs/f74941ec-ebcf-425d-98e5-e740ab101db2/navigate: {\"error\":\"Tab no longer exists (browser was restarted). Create a new tab.\",\"code\":\"browser_restarted\"}",
+      "method": "camofox",
+      "status": "failed"
+    },
+    {
+      "at": "2026-10-18T11:58:21.301635+00:00",
+      "error": "preflight: fewer than two analyzable direct cards",
+      "method": "crawl4ai",
+      "status": "failed"
+    }
+  ],
+  "cycle_id": "2026-10-18_cycle-6",
+  "source_id": "xing.com"
+}

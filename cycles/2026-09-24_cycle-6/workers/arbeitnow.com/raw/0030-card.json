@@ -1,0 +1,27 @@
+{
+  "url": "https://www.arbeitnow.com/jobs/companies/manex-ai-gmbh/software-engineer-munich-183229",
+  "title": "Software Engineer (f/m/d)",
+  "company": "Manex AI GmbH",
+  "location": "Munich",
+  "posted": "1790282406",
+  "work_mode": "Unknown",
+  "announcement": "Just a moment... Enable JavaScript and cookies to continue",
+  "http_status": 429,
+  "sha256": "5b9e2897f714a0f083020aca97687905e751bdb62ff00112401506539b04c0d3",
+  "source_record": {
+    "slug": "software-engineer-munich-183229",
+    "company_name": "Manex AI GmbH",
+    "title": "Software Engineer (f/m/d)",
+    "description": "<h1>Who we are</h1><p style=\"min-height:1.5em\">Manufacturing runs on fragmented data: machines, sensors, and decade-old systems that don't speak to each other. Data sits in departmental silos, knowledge lives in people's heads, and AI can not unfold its potential in point solutions that don’t deliver. At Manex AI, we build that missing layer with our platform: It handles manufacturing data at scale, models the factory ontology and builds agentic applications that reason and act across it.</p><p style=\"min-height:1.5em\">We're a small team in Munich, backed by Lightspeed and BlueYard, with engineers from top companies. We ship fast, work close to the shop floor and we don't ship things we're not proud of.</p><div style=\"min-height:1.2em;margin-top:0;margin-bottom:0\"> </div><h2>The Role </h2><p style=\"min-height:1.5em\">You'll build the core of our platform: From data ingestion and our ontology layer to the applications manufacturers use on the shop floor every day. The work spans backend, frontend, performance, and tooling - you'll work where your skills count most. You own features end-to-end and work directly with founders and customers.</p><div style=\"min-height:1.2em;margin-top:0;margin-bottom:0\"> </div><h2>You should apply if you</h2><ul style=\"min-height:1.5em\"><li><p style=\"min-height:1.5em\">Write maintainable, tested, and performant code</p></li><li><p style=\"min-height:1.5em\">Own problems from design to production</p></li><li><p style=\"min-height:1.5em\">Enjoy writing and reviewing RFCs</p></li><li><p style=\"min-height:1.5em\">Know at least one of React, Python, TypeScript, or Rust</p></li><li><p style=\"min-height:1.5em\">Thrive in the pace of an early-stage startup</p></li><li><p style=\"min-height:1.5em\">Have 2+ years of professional experience</p></li></ul><div style=\"min-height:1.2em;margin-top:0;margin-bottom:0\"> </div><h2>Nice to have</h2><ul style=\"min-height:1.5em\"><li><p style=\"min-height:1.5em\">PostgreSQL, DuckDB or experience with lakehouse formats</p></li><li><p style=\"min-height:1.5em\">Docker, Kubernetes, Terraform, or AWS</p></li><li><p style=\"min-height:1.5em\">ML and LLM systems</p></li><li><p style=\"min-height:1.5em\">CI/CD pipelines, preferably GitHub Actions</p></li><li><p style=\"min-height:1.5em\">Monitoring distributed enterprise systems</p></li><li><p style=\"min-height:1.5em\">Open standards (e.g. RDF, OWL, SHACL)</p></li></ul><div style=\"min-height:1.2em;margin-top:0;margin-bottom:0\"> </div><h2>What we offer</h2><ul style=\"min-height:1.5em\"><li><p style=\"min-height:1.5em\">A cooperative team where you never solve hard problems alone</p></li><li><p style=\"min-height:1.5em\">Competitive salary and equity</p></li><li><p style=\"min-height:1.5em\">High trust and ownership from day one</p></li><li><p style=\"min-height:1.5em\">Corporate Wellpass membership, subsidized public transport</p></li><li><p style=\"min-height:1.5em\">Regular offsites with the greatest team - think austrian mountains, lakeside retreats, or european cities</p></li><li><p style=\"min-height:1.5em\">Relocation support, incl. corporate housing offers</p></li></ul><p style=\"min-height:1.5em\"></p><p style=\"min-height:1.5em\">Are you willing to start contributing to European autonomy at scale? Apply now!</p><p>Find more <a href=\"https://www.arbeitnow.com/english-speaking-jobs\">English Speaking Jobs in Germany</a> on Arbeitnow</a>",
+    "remote": false,
+    "url": "https://www.arbeitnow.com/jobs/companies/manex-ai-gmbh/software-engineer-munich-183229",
+    "tags": [
+      "Tech"
+    ],
+    "job_types": [
+      "Full Time"
+    ],
+    "location": "Munich",
+    "created_at": 1790282406
+  }
+}

@@ -1,0 +1,6 @@
+{
+  "url": "https://www.arbeitsagentur.de/jobsuche/jobdetail/11956-3046511788127201-S",
+  "title": "\nTestmanager / IT-Consultant Testmanagement (m/w/d) - Feste Anstellung, Vollzeit, Homeoffice Job in Berlin, Dresden, Düsseldorf, Frankfurt, Hamburg, Karlsruhe, Kassel, Köln, Mannheim, München",
+  "content": "[](https://www.stepstone.de/de)\nJobs finden\nJobs finden\n[PTA GmbH logo](https://www.stepstone.de/cmp/de/PTA-GmbH-57032/jobs.html)\n\n...\n\n# Testmanager / IT-Consultant Testmanagement (m/w/d)\n## Über uns\n### Ihre Aufgaben\nIn Ihrer Rolle sind Sie daher maßgeblich dafür verantwortlich, in unseren Projekten eine reibungslose und effiziente Testphase zu gewährleisten. Sie koordinieren dabei das Team, um das Risiko für kritische Fehler nach dem Test zu minimieren und sicherzustellen, dass die Software den festgelegten Anforderungen entspricht.\n\n...\n\n## [SAP Test Manager (m/w/d) mit Tricentis Know-how](https://www.stepstone.de/stellenangebote--SAP-Test-Manager-m-w-d-mit-Tricentis-Know-how-Berlin-Muenchen-Duesseldorf-Wien-Qnit-AG--14049890-inline.html)\nQnit AG\nBerlin, München, Düsseldorf, Wien\nvor 5 Tagen\n[Materna Information & Communications SE](https://www.stepstone.de/cmp/de/Materna-Information-Communications-SE-4261/jobs.html)",
+  "error": null
+}

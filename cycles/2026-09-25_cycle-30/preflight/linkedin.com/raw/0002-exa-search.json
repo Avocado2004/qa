@@ -1,0 +1,37 @@
+{
+  "query": "site:linkedin.com QA OR \"Quality Assurance\" OR \"Software Test\" OR \"Test Automation\" or Testautomatisierung or Softwaretester Berlin Leipzig Dresden Germany jobs",
+  "result": {
+    "data": [
+      {
+        "url": "https://de.linkedin.com/posts/mitteldeutscheit_hiring-activity-7437459025677578242-M3lC"
+      },
+      {
+        "url": "https://de.linkedin.com/posts/kvsachsen_stellenangebot-softwaretester-mwd-f%C3%BCr-activity-7439207720521613312-R30B"
+      },
+      {
+        "url": "https://de.linkedin.com/posts/qualistack_hiring-qa-testautomation-activity-7461031087360892928-Ad4y"
+      },
+      {
+        "url": "https://de.linkedin.com/jobs/view/quality-engineer-schwerpunkt-testautomatisierung-all-genders-at-starface-gmbh-4402883225"
+      },
+      {
+        "url": "https://de.linkedin.com/posts/qa-network_qualityengineering-testautomatisierung-activity-7483162235113082880-I0P5"
+      },
+      {
+        "url": "https://de.linkedin.com/posts/mahabrahms_qa-tester-testautomatisierer-mwd-activity-7452742010295283714-sREm"
+      },
+      {
+        "url": "https://de.linkedin.com/posts/qa-network_tosca-sap-testautomatisierung-activity-7449371536613908480-wuqF"
+      },
+      {
+        "url": "https://de.linkedin.com/posts/accompio_ai-softwaretesting-qualityengineering-activity-7455552787712552961-0bxB"
+      },
+      {
+        "url": "https://de.linkedin.com/posts/dolpheen-it_hiring-testautomatisierung-softwaretesting-activity-7475846695637975040-rXrR"
+      },
+      {
+        "url": "https://www.linkedin.com/in/shanijaperera"
+      }
+    ]
+  }
+}

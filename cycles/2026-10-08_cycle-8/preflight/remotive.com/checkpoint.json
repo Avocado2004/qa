@@ -1,0 +1,28 @@
+{
+  "completed_operations": [
+    {
+      "op": "listing",
+      "status": 200
+    },
+    {
+      "chars": 3298,
+      "op": "card-1",
+      "url": "https://remotive.com/remote-jobs/information-technology/tier-iii-service-desk-engineer-2091045"
+    },
+    {
+      "op": "return",
+      "status": 200
+    },
+    {
+      "chars": 2210,
+      "op": "card-2",
+      "url": "https://remotive.com/remote-jobs/software-development/software-engineer-ai-code-trainer-python-web-full-stack-2091149"
+    }
+  ],
+  "cycle_id": "2026-10-08_cycle-8",
+  "next_operation": 4,
+  "schema_version": 2,
+  "source_id": "remotive.com",
+  "state": "complete",
+  "updated_at": "2026-10-08T20:18:44.988163+00:00"
+}

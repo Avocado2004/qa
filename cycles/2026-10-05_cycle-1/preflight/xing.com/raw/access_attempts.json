@@ -1,0 +1,24 @@
+{
+  "attempts": [
+    {
+      "at": "2026-10-05T00:14:08.235585+00:00",
+      "error": "Camofox HTTP 500 for GET /tabs/96943bd4-876b-4b1e-9d80-99fb659b6e50/snapshot: {\"error\":\"Internal server error\",\"retryable\":false}",
+      "method": "camofox",
+      "status": "failed"
+    },
+    {
+      "at": "2026-10-05T00:14:47.257416+00:00",
+      "error": "preflight: fewer than two analyzable direct cards",
+      "method": "crawl4ai",
+      "status": "failed"
+    },
+    {
+      "at": "2026-10-05T00:14:52.125942+00:00",
+      "error": "preflight: source is readable but offered no QA/test vacancy in the first two cards ('Recruiter (m/w/d)'; 'Initiativbewerbung'). Both pages opened and parsed as real postings, so this is not an access failure; the source stays active for a later run.",
+      "method": "http",
+      "status": "failed"
+    }
+  ],
+  "cycle_id": "2026-10-05_cycle-1",
+  "source_id": "xing.com"
+}

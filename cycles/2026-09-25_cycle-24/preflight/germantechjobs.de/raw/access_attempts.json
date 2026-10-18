@@ -1,0 +1,30 @@
+{
+  "attempts": [
+    {
+      "at": "2026-09-25T06:14:48.674715+00:00",
+      "error": "Expecting value: line 1 column 1 (char 0)",
+      "method": "api",
+      "status": "failed"
+    },
+    {
+      "at": "2026-09-25T06:16:33.993807+00:00",
+      "error": "Camofox returned an empty snapshot",
+      "method": "camofox",
+      "status": "failed"
+    },
+    {
+      "at": "2026-09-25T06:16:35.332104+00:00",
+      "error": "Exa returned fewer than two direct cards",
+      "method": "exa",
+      "status": "failed"
+    },
+    {
+      "at": "2026-09-25T06:16:36.091684+00:00",
+      "error": "Crawl4AI failed (2): Usage: crawl4ai-skill crawl [OPTIONS] URL\nTry 'crawl4ai-skill crawl --help' for help.\n\nError: No such option '--wait-until'. Did you mean '--wait-for'?\n",
+      "method": "crawl4ai",
+      "status": "failed"
+    }
+  ],
+  "cycle_id": "2026-09-25_cycle-24",
+  "source_id": "germantechjobs.de"
+}

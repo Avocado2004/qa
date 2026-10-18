@@ -1,0 +1,24 @@
+{
+  "attempts": [
+    {
+      "at": "2026-10-08T20:51:35.274139+00:00",
+      "error": "Camofox preflight: source is readable but offered no QA/test vacancy in the first two cards ('Senior Community Manager, APAC'; 'Senior Game UI & Multimedia Designer'). Both pages opened as real postings, so this is not an access failure; the source stays active for a later run. Listing offered 3 direct links.",
+      "method": "camofox",
+      "status": "failed"
+    },
+    {
+      "at": "2026-10-08T20:51:53.347232+00:00",
+      "error": "preflight: fewer than two analyzable direct cards",
+      "method": "crawl4ai",
+      "status": "failed"
+    },
+    {
+      "at": "2026-10-08T20:51:53.490857+00:00",
+      "error": "preflight: fewer than two analyzable direct cards",
+      "method": "http",
+      "status": "failed"
+    }
+  ],
+  "cycle_id": "2026-10-08_cycle-12",
+  "source_id": "hitmarker.net"
+}

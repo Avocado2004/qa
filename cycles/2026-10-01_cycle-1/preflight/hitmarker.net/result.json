@@ -1,0 +1,13 @@
+{
+  "cycle_id": "2026-10-01_cycle-1",
+  "failures": [
+    {
+      "at": "2026-10-01T00:13:35.147542+00:00",
+      "attempt": 1,
+      "error": "all independent access methods failed: Camofox HTTP 404 for POST /tabs/1c7f4b87-ce31-42e5-a926-176f56b3fd35/navigate: {\"error\":\"Tab not found\"}; preflight: fewer than two analyzable direct cards; preflight: fewer than two analyzable direct cards"
+    }
+  ],
+  "schema_version": 2,
+  "source_id": "hitmarker.net",
+  "state": "blocked"
+}

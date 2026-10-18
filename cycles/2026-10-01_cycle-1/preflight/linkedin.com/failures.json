@@ -1,0 +1,11 @@
+{
+  "cycle_id": "2026-10-01_cycle-1",
+  "failures": [
+    {
+      "at": "2026-10-01T00:13:30.739934+00:00",
+      "error": "all independent access methods failed: Camofox HTTP 404 for GET /tabs/623da492-023f-420a-b691-307b5f518251/snapshot: {\"error\":\"Tab not found\"}; preflight: fewer than two analyzable direct cards; preflight: fewer than two analyzable direct cards"
+    }
+  ],
+  "schema_version": 2,
+  "source_id": "linkedin.com"
+}

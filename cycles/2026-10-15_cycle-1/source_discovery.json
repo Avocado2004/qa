@@ -1,0 +1,12 @@
+{
+  "additions": [],
+  "created_at": "2026-10-15T21:43:12.147950+00:00",
+  "cycle_id": "2026-10-15_cycle-1",
+  "evidence": {
+    "live_retrieval": "completed",
+    "model_evidence": "Verified German QA/test vacancy sources from live retrieval evidence: (1) Bundesagentur für Arbeit (arbeitsagentur.de) Softwaretester search returns Leipzig listing with 'Software Tester / Testautomatisierer (m/w/d). Deloitte GmbH. Arbeitsort: Leipzig' direct card exposure. (2) StepStone (stepstone.de) QA Engineer searches expose cards in Berlin (22 listings), Leipzig (5), Dresden (9) via live result pages. (3) GermanTechJobs (germantechjobs.de) job pages expose QA/Test Engineer and Senior QA Engineer cards in Berlin and Germany-wide remote, e.g. 'Senior QA Engineer Job in Berlin | Communi5 Technologies GmbH'. All evidence drawn exclusively from the supplied live_retrieval_evidence; no new sources meeting the strict direct-vacancy-card+scope criteria were discovered beyond the existing registry.",
+    "retrieval_artifact": "/opt/data/qa-vacancy-project/cycles/2026-10-15_cycle-1/source_discovery_retrieval.json",
+    "retrieved_result_count": 212
+  },
+  "verdict": "pass"
+}

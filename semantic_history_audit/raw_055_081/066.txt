@@ -1,0 +1,6 @@
+{
+  "url": "https://remotive.com/remote/jobs/qa/software-tester-5925120",
+  "title": "[Hiring] Software Tester @BVU Beratergruppe Verkehr+Umwelt",
+  "content": "# [Hiring] Software Tester @BVU Beratergruppe Verkehr+Umwelt\n## Softwaretester:in (w/m/d)\n### Deine Aufgaben – zusammen machen wir Strecke\n* Du unterstützt dein Team bei der Erstellung und Automatisierung von Testfällen\n* Als erste:r Ansprechpartner:in über alle Teststufen gelingt es dir mit deiner kommunikativen, analytischen Art dein:e Kolleg:innen fachlich mitzunehmen\n* Darüber hinaus dokumentierst, analysierst und bewertest Du Testergebnisse\n* Erstellst Präsentationen von Testberichten und bist kompetente:r Ansprechpartner:in bei fachlichen Fragen der Kunden im Testing\n\n...\n\n* [Senior QA Engineer • Lemon.io Lemon.io](https://remotive.com/remote-jobs/qa/senior-qa-engineer-2091100)\n[Quality Assurance](https://remotive.com/remote-jobs/qa) [Europe](https://remotive.com/remote-jobs?location=Europe)\n4wks ago\nApply [See more >](https://remotive.com/remote-jobs/qa/senior-qa-engineer-2091100)",
+  "error": null
+}

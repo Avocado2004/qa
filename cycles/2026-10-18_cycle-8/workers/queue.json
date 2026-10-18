@@ -1,0 +1,513 @@
+{
+  "created_at": "2026-10-18T13:02:49.625780+00:00",
+  "cycle_id": "2026-10-18_cycle-8",
+  "jobs": [
+    {
+      "attempt": 1,
+      "claimed_at": "2026-10-18T13:02:49.638247+00:00",
+      "error": null,
+      "failures": [],
+      "finished_at": "2026-10-18T13:10:23.858128+00:00",
+      "generation": 1,
+      "heartbeat_at": "2026-10-18T13:10:22.850476+00:00",
+      "index": 0,
+      "lease_token": null,
+      "next_retry_at": null,
+      "owner": null,
+      "pid": null,
+      "progress_at": "2026-10-18T13:10:22.819807+00:00",
+      "source": {
+        "adapter": "linkedin_v1",
+        "adapter_version": 1,
+        "config": {},
+        "detail_url_pattern": "site:linkedin.com/jobs/view QA Test Berlin Leipzig Dresden Germany Remote",
+        "direct_card_domains": [
+          "linkedin.com"
+        ],
+        "domain": "linkedin.com",
+        "evidence": {
+          "first_seen": "2026-09-24",
+          "last_preflight": "2026-10-17T00:13:42.857039+00:00",
+          "last_run_status": "Not used",
+          "last_success": null,
+          "last_verified": "2026-09-24",
+          "url": "https://www.linkedin.com/jobs/search/?keywords=QA%20Engineer&location=Germany"
+        },
+        "fallback_methods": [
+          "guest API",
+          "browser",
+          "web extraction"
+        ],
+        "id": "linkedin.com",
+        "legacy": {
+          "access_methods": [
+            "guest API",
+            "browser",
+            "web extraction"
+          ],
+          "domain": "linkedin.com",
+          "evidence_url": "https://www.linkedin.com/jobs/search/?keywords=QA%20Engineer&location=Germany",
+          "first_seen": "2026-09-24",
+          "last_access_status": "verified-live",
+          "last_verified": "2026-09-24",
+          "name": "LinkedIn Jobs",
+          "parent_platform": null,
+          "query_or_url_pattern": "site:linkedin.com/jobs/view QA Test Berlin Leipzig Dresden Germany Remote",
+          "status": "active",
+          "type": "general job board"
+        },
+        "listing_url": "https://www.linkedin.com/jobs-guest/jobs/api/seeMoreJobPostings/search?keywords=QA&location=Germany&f_TPR=r2592000&start=0",
+        "name": "LinkedIn Jobs",
+        "preferred_methods": [
+          "guest API",
+          "browser",
+          "web extraction"
+        ],
+        "primary_method": "camofox",
+        "status": "active",
+        "type": "general job board"
+      },
+      "source_id": "linkedin.com",
+      "state": "complete"
+    },
+    {
+      "attempt": 1,
+      "claimed_at": "2026-10-18T13:02:49.651329+00:00",
+      "error": null,
+      "failures": [],
+      "finished_at": "2026-10-18T13:07:12.504801+00:00",
+      "generation": 1,
+      "heartbeat_at": "2026-10-18T13:07:05.948970+00:00",
+      "index": 1,
+      "lease_token": null,
+      "next_retry_at": null,
+      "owner": null,
+      "pid": null,
+      "progress_at": "2026-10-18T13:07:05.910859+00:00",
+      "source": {
+        "adapter": "rolesearch",
+        "adapter_note": "searches every About.md role in each target city instead of one fixed listing URL; measured 2026-09-30 243 unique cards, 0 blocked, ~90s",
+        "adapter_version": 1,
+        "config": {
+          "cities": [
+            "Berlin",
+            "Leipzig",
+            "Dresden"
+          ]
+        },
+        "detail_url_pattern": "Softwaretester QA Testautomatisierung Berlin Leipzig Dresden Deutschland",
+        "direct_card_domains": [
+          "arbeitsagentur.de"
+        ],
+        "domain": "arbeitsagentur.de",
+        "evidence": {
+          "first_seen": "2026-09-24",
+          "last_preflight": "2026-10-14T03:13:53.570916+00:00",
+          "last_run_status": "Not used",
+          "last_success": null,
+          "last_verified": "2026-09-24",
+          "url": "https://www.arbeitsagentur.de/jobsuche/"
+        },
+        "fallback_methods": [
+          "Camofox browser session"
+        ],
+        "id": "arbeitsagentur.de",
+        "legacy": {
+          "access_methods": [
+            "public API",
+            "JSON-LD",
+            "browser",
+            "web extraction"
+          ],
+          "domain": "arbeitsagentur.de",
+          "evidence_url": "https://www.arbeitsagentur.de/jobsuche/",
+          "first_seen": "2026-09-24",
+          "last_access_status": "verified-live",
+          "last_verified": "2026-09-24",
+          "name": "Arbeitsagentur Jobsuche",
+          "parent_platform": null,
+          "query_or_url_pattern": "Softwaretester QA Testautomatisierung Berlin Leipzig Dresden Deutschland",
+          "status": "active",
+          "type": "government job board"
+        },
+        "listing_url": "https://www.arbeitsagentur.de/jobsuche/suche?was=Softwaretester&wo=Berlin",
+        "name": "Arbeitsagentur Jobsuche",
+        "preferred_methods": [
+          "crawl4ai markdown render of the Jobsuche result list"
+        ],
+        "primary_method": "crawl4ai",
+        "query_or_url_pattern": "/jobsuche/jobdetail/<hash>-<refnr>-S — result list is a JS app, so the listing and every card are rendered with crawl4ai",
+        "status": "active",
+        "type": "government job board"
+      },
+      "source_id": "arbeitsagentur.de",
+      "state": "complete"
+    },
+    {
+      "attempt": 1,
+      "claimed_at": "2026-10-18T13:02:49.667969+00:00",
+      "failures": [],
+      "generation": 1,
+      "heartbeat_at": "2026-10-18T13:13:20.646424+00:00",
+      "index": 2,
+      "lease_token": "05d18413c7ee41a6a653ca908adaf162",
+      "next_retry_at": null,
+      "owner": "worker-3",
+      "pid": 28689,
+      "progress_at": "2026-10-18T13:13:20.625731+00:00",
+      "source": {
+        "adapter": "stepstone_v1",
+        "adapter_version": 1,
+        "config": {
+          "listing_urls": [
+            "https://www.stepstone.de/jobs/berlin?q=QA",
+            "https://www.stepstone.de/jobs/leipzig?q=QA",
+            "https://www.stepstone.de/jobs/dresden?q=QA"
+          ]
+        },
+        "detail_url_pattern": "https://www.stepstone.de/jobs?where=<encoded location>&what=<encoded role query>; browser/Camofox sequential listing and direct detail verification",
+        "direct_card_domains": [
+          "stepstone.de"
+        ],
+        "domain": "stepstone.de",
+        "evidence": {
+          "first_seen": "2026-09-24",
+          "last_preflight": "2026-10-17T00:13:42.857057+00:00",
+          "last_run_status": "Not used",
+          "last_success": null,
+          "last_verified": "2026-09-24",
+          "url": "https://www.stepstone.de/jobs/qa-test/in-berlin.html"
+        },
+        "fallback_methods": [
+          "Camofox browser session",
+          "crawl4ai markdown render"
+        ],
+        "id": "stepstone.de",
+        "legacy": {
+          "access_methods": [
+            "browser",
+            "Camofox",
+            "web extraction"
+          ],
+          "domain": "stepstone.de",
+          "evidence_url": "https://www.stepstone.de/jobs/qa-test/in-berlin.html",
+          "first_seen": "2026-09-24",
+          "last_access_status": "verified-live",
+          "last_verified": "2026-09-24",
+          "name": "StepStone",
+          "parent_platform": null,
+          "query_or_url_pattern": "https://www.stepstone.de/jobs?where=<encoded location>&what=<encoded role query>; browser/Camofox sequential listing and direct detail verification",
+          "status": "active",
+          "type": "general job board"
+        },
+        "listing_url": "https://www.stepstone.de/jobs/berlin?q=QA",
+        "name": "StepStone",
+        "preferred_methods": [
+          "HTML listing over plain HTTP; detail pages re-rendered with crawl4ai when the origin cuts the HTTP/2 stream"
+        ],
+        "primary_method": "http",
+        "query_or_url_pattern": "https://www.stepstone.de/jobs/<city>?q=QA — listing is server-rendered HTML; direct cards match /stellenangebote--",
+        "status": "active",
+        "type": "general job board"
+      },
+      "source_id": "stepstone.de",
+      "state": "claimed"
+    },
+    {
+      "attempt": 1,
+      "claimed_at": "2026-10-18T13:02:49.687632+00:00",
+      "error": null,
+      "failures": [],
+      "finished_at": "2026-10-18T13:12:10.401054+00:00",
+      "generation": 1,
+      "heartbeat_at": "2026-10-18T13:12:09.446247+00:00",
+      "index": 3,
+      "lease_token": null,
+      "next_retry_at": null,
+      "owner": null,
+      "pid": null,
+      "progress_at": "2026-10-18T13:12:09.422094+00:00",
+      "source": {
+        "adapter": "xing_v1",
+        "adapter_version": 1,
+        "config": {},
+        "detail_url_pattern": "QA Software Test Engineer Germany last month",
+        "direct_card_domains": [
+          "xing.com"
+        ],
+        "domain": "xing.com",
+        "evidence": {
+          "first_seen": "2026-09-24",
+          "last_preflight": "2026-10-14T08:02:00.748915+00:00",
+          "last_run_status": "Not used",
+          "last_success": null,
+          "last_verified": "2026-09-24",
+          "url": "https://www.xing.com/jobs/search"
+        },
+        "fallback_methods": [
+          "browser",
+          "Camofox",
+          "web extraction"
+        ],
+        "id": "xing.com",
+        "legacy": {
+          "access_methods": [
+            "browser",
+            "Camofox",
+            "web extraction"
+          ],
+          "domain": "xing.com",
+          "evidence_url": "https://www.xing.com/jobs/search",
+          "first_seen": "2026-09-24",
+          "last_access_status": "verified-live",
+          "last_verified": "2026-09-24",
+          "name": "XING Jobs",
+          "parent_platform": null,
+          "query_or_url_pattern": "QA Software Test Engineer Germany last month",
+          "status": "active",
+          "type": "professional network job board"
+        },
+        "listing_url": "https://www.xing.com/jobs/search",
+        "name": "XING Jobs",
+        "preferred_methods": [
+          "browser",
+          "Camofox",
+          "web extraction"
+        ],
+        "primary_method": "camofox",
+        "status": "active",
+        "type": "professional network job board"
+      },
+      "source_id": "xing.com",
+      "state": "complete"
+    },
+    {
+      "attempt": 1,
+      "claimed_at": "2026-10-18T13:02:49.707699+00:00",
+      "error": null,
+      "failures": [],
+      "finished_at": "2026-10-18T13:04:57.382493+00:00",
+      "generation": 1,
+      "heartbeat_at": "2026-10-18T13:04:56.173542+00:00",
+      "index": 4,
+      "lease_token": null,
+      "next_retry_at": null,
+      "owner": null,
+      "pid": null,
+      "progress_at": "2026-10-18T13:04:56.142076+00:00",
+      "source": {
+        "adapter": "hitmarker_v1",
+        "adapter_version": 1,
+        "config": {},
+        "detail_url_pattern": "QA game tester Germany",
+        "direct_card_domains": [
+          "hitmarker.net"
+        ],
+        "domain": "hitmarker.net",
+        "evidence": {
+          "first_seen": "2026-09-24",
+          "last_preflight": "2026-10-14T22:45:49.627101+00:00",
+          "last_run_status": "Not used",
+          "last_success": null,
+          "last_verified": "2026-09-24",
+          "url": "https://hitmarker.net/jobs"
+        },
+        "fallback_methods": [
+          "crawl4ai markdown render",
+          "plain HTTP"
+        ],
+        "id": "hitmarker.net",
+        "legacy": {
+          "access_methods": [
+            "browser",
+            "web extraction"
+          ],
+          "domain": "hitmarker.net",
+          "evidence_url": "https://hitmarker.net/jobs",
+          "first_seen": "2026-09-24",
+          "last_access_status": "verified-live",
+          "last_verified": "2026-09-24",
+          "name": "Hitmarker",
+          "parent_platform": null,
+          "query_or_url_pattern": "QA game tester Germany",
+          "status": "active",
+          "type": "gamedev job board"
+        },
+        "listing_url": "https://hitmarker.net/jobs",
+        "name": "Hitmarker",
+        "preferred_methods": [
+          "Camofox browser session — the jobs index is a client-rendered app and returns no card links over plain HTTP"
+        ],
+        "primary_method": "camofox",
+        "query_or_url_pattern": "/jobs/<category> — cards are rendered client-side; HTTP HTML contains zero /job/ links",
+        "status": "active",
+        "type": "gamedev job board"
+      },
+      "source_id": "hitmarker.net",
+      "state": "complete"
+    },
+    {
+      "attempt": 1,
+      "claimed_at": "2026-10-18T13:02:49.728598+00:00",
+      "error": null,
+      "failures": [],
+      "finished_at": "2026-10-18T13:03:28.307777+00:00",
+      "generation": 1,
+      "heartbeat_at": "2026-10-18T13:03:26.173424+00:00",
+      "index": 5,
+      "lease_token": null,
+      "next_retry_at": null,
+      "owner": null,
+      "pid": null,
+      "progress_at": "2026-10-18T13:03:26.062611+00:00",
+      "source": {
+        "adapter": "html_v1",
+        "adapter_version": 1,
+        "config": {
+          "listing_urls": [
+            "https://www.eurotechjobs.com/jobs/q?where=Berlin",
+            "https://www.eurotechjobs.com/jobs/q?where=Leipzig",
+            "https://www.eurotechjobs.com/jobs/q?where=Dresden"
+          ]
+        },
+        "detail_url_pattern": "https://www.eurotechjobs.com/jobs/test_analyst and https://www.eurotechjobs.com/jobs/germany; intersect/filter cards for Germany, Berlin, Leipzig, Dresden, or Germany-wide remote; direct cards /job_display/<id>/<slug>",
+        "direct_card_domains": [
+          "eurotechjobs.com"
+        ],
+        "domain": "eurotechjobs.com",
+        "evidence": {
+          "first_seen": "2026-09-24",
+          "last_preflight": "2026-10-14T08:02:00.748948+00:00",
+          "last_run_status": "Not used",
+          "last_success": null,
+          "last_verified": "2026-09-24",
+          "url": "https://www.eurotechjobs.com/job_display/295774/Senior_Software_Tester_BlackBerry_Dsseldorf_Germany"
+        },
+        "fallback_methods": [
+          "public HTML listing",
+          "direct card web extraction",
+          "curl"
+        ],
+        "id": "eurotechjobs.com",
+        "legacy": {
+          "access_methods": [
+            "public HTML listing",
+            "direct card web extraction",
+            "curl"
+          ],
+          "domain": "eurotechjobs.com",
+          "evidence_url": "https://www.eurotechjobs.com/job_display/295774/Senior_Software_Tester_BlackBerry_Dsseldorf_Germany",
+          "first_seen": "2026-09-24",
+          "last_access_status": "verified-live-direct-card",
+          "last_verified": "2026-09-24",
+          "name": "EuroTechJobs Test Analyst / Germany",
+          "parent_platform": "EuroJobsites",
+          "query_or_url_pattern": "https://www.eurotechjobs.com/jobs/test_analyst and https://www.eurotechjobs.com/jobs/germany; intersect/filter cards for Germany, Berlin, Leipzig, Dresden, or Germany-wide remote; direct cards /job_display/<id>/<slug>",
+          "status": "active",
+          "type": "European technology job board"
+        },
+        "listing_url": "https://www.eurotechjobs.com/jobs/test_analyst",
+        "name": "EuroTechJobs Test Analyst / Germany",
+        "preferred_methods": [
+          "public HTML listing",
+          "direct card web extraction",
+          "curl"
+        ],
+        "primary_method": "http",
+        "status": "active",
+        "type": "European technology job board"
+      },
+      "source_id": "eurotechjobs.com",
+      "state": "complete"
+    },
+    {
+      "attempt": 1,
+      "claimed_at": "2026-10-18T13:02:49.753307+00:00",
+      "error": null,
+      "failures": [],
+      "finished_at": "2026-10-18T13:05:42.584731+00:00",
+      "generation": 1,
+      "heartbeat_at": "2026-10-18T13:05:41.954232+00:00",
+      "index": 6,
+      "lease_token": null,
+      "next_retry_at": null,
+      "owner": null,
+      "pid": null,
+      "progress_at": "2026-10-18T13:05:41.932556+00:00",
+      "source": {
+        "adapter": "adzuna_v1",
+        "adapter_version": 1,
+        "config": {
+          "listing_urls": [
+            "https://www.adzuna.de/search?q=QA+Engineer&loc=101214",
+            "https://www.adzuna.de/search?q=Softwaretester&loc=101214",
+            "https://www.adzuna.de/search?q=Test+Engineer&loc=101214",
+            "https://www.adzuna.de/search?q=Test+Automation&loc=101214",
+            "https://www.adzuna.de/search?q=QA+Automation&loc=101214",
+            "https://www.adzuna.de/search?q=QA+Engineer&loc=101392",
+            "https://www.adzuna.de/search?q=Softwaretester&loc=101392",
+            "https://www.adzuna.de/search?q=Test+Engineer&loc=101392",
+            "https://www.adzuna.de/search?q=Test+Automation&loc=101392",
+            "https://www.adzuna.de/search?q=QA+Automation&loc=101392",
+            "https://www.adzuna.de/search?q=QA+Engineer&loc=101393",
+            "https://www.adzuna.de/search?q=Softwaretester&loc=101393",
+            "https://www.adzuna.de/search?q=Test+Engineer&loc=101393",
+            "https://www.adzuna.de/search?q=Test+Automation&loc=101393",
+            "https://www.adzuna.de/search?q=QA+Automation&loc=101393"
+          ]
+        },
+        "detail_url_pattern": "https://www.adzuna.de/search?q=<urlencoded German QA query>&loc=<location-id>; city discovery /berlin/<query>, /leipzig/<query>, /dresden/<query>; pagination &p=<page>",
+        "direct_card_domains": [
+          "adzuna.de"
+        ],
+        "domain": "adzuna.de",
+        "evidence": {
+          "first_seen": "2026-09-24",
+          "last_preflight": "2026-10-14T03:13:53.570974+00:00",
+          "last_run_status": "Not used",
+          "last_success": null,
+          "last_verified": "2026-09-24",
+          "url": "https://www.adzuna.de/land/ad/5887258708?title=QM_Pr%C3%BCfer_%28m%2Fw%2Fd%29"
+        },
+        "fallback_methods": [
+          "Camofox browser session",
+          "crawl4ai markdown render"
+        ],
+        "id": "adzuna.de",
+        "last_access_status": "verified-live",
+        "legacy": {
+          "access_methods": [
+            "browser",
+            "Camofox",
+            "web extraction"
+          ],
+          "domain": "adzuna.de",
+          "evidence_url": "https://www.adzuna.de/land/ad/5887258708?title=QM_Pr%C3%BCfer_%28m%2Fw%2Fd%29",
+          "first_seen": "2026-09-24",
+          "last_access_status": "verified-live-browser-and-web-extract",
+          "last_verified": "2026-09-24",
+          "name": "Adzuna Deutschland",
+          "parent_platform": null,
+          "query_or_url_pattern": "https://www.adzuna.de/search?q=<urlencoded German QA query>&loc=<location-id>; city discovery /berlin/<query>, /leipzig/<query>, /dresden/<query>; pagination &p=<page>",
+          "status": "active",
+          "type": "German general/aggregated job board"
+        },
+        "listing_url": "https://www.adzuna.de/berlin/qa-engineer",
+        "name": "Adzuna Deutschland",
+        "notes": "HTTP 403 anti-bot on listing and detail even through a rendered browser session; stays active and is retried daily",
+        "preferred_methods": [
+          "HTML listing with a complete browser header set (CloudFront WAF blocks incomplete headers with 403)"
+        ],
+        "primary_method": "http",
+        "query_or_url_pattern": "/berlin/<query> — cards are /details/<numeric-id>; editorial /details/<slug> pages must be excluded",
+        "status": "active",
+        "type": "German general/aggregated job board"
+      },
+      "source_id": "adzuna.de",
+      "state": "complete"
+    }
+  ],
+  "max_workers": 10,
+  "schema_version": 2,
+  "updated_at": "2026-10-18T13:13:20.646443+00:00"
+}

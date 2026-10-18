@@ -1,0 +1,13 @@
+{
+  "cycle_id": "2026-10-04_cycle-1",
+  "failures": [
+    {
+      "at": "2026-10-04T00:14:55.194954+00:00",
+      "attempt": 1,
+      "error": "all independent access methods failed: preflight: source is readable but offered no QA/test vacancy in the first two cards ('Data Processing Systems Engineer - EUMETSAT - European Organisation for the Exploitation of Meteorological Satellites, Darmstadt'; 'Data Processing Testing Engineer - EUMETSAT - European Organisation for the Exploitation of Meteorological Satellites, Darmstadt'). Both pages opened and parsed as real postings, so this is not an access failure; the source stays active for a later run.; preflight: fewer than two analyzable direct cards; Camofox HTTP 404 for GET /tabs/0072e9f9-b6e8-4f54-9924-28eb3f2b2f93/snapshot: {\"error\":\"Tab not found\"}"
+    }
+  ],
+  "schema_version": 2,
+  "source_id": "eurotechjobs.com",
+  "state": "blocked"
+}

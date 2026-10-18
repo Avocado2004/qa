@@ -1,0 +1,24 @@
+{
+  "attempts": [
+    {
+      "at": "2026-09-25T15:26:17.788463+00:00",
+      "error": "preflight: fewer than two analyzable direct cards",
+      "method": "http",
+      "status": "failed"
+    },
+    {
+      "at": "2026-09-25T15:26:41.590866+00:00",
+      "error": "Crawl4AI failed (1):           | Error: Blocked by anti-bot protection: HTTP 403 with HTML content (923 bytes) \n[COMPLETE] ● https://www.adzuna.de/berlin/qa-engineer                                                             | ✗ | ⏱: 2.06s \n✗ 爬取失败: Blocked by anti-bot protection: HTTP 403 with HTML content (923 bytes)\n",
+      "method": "crawl4ai",
+      "status": "failed"
+    },
+    {
+      "at": "2026-09-25T15:28:30.639469+00:00",
+      "error": "Camofox preflight snapshot blocked",
+      "method": "camofox",
+      "status": "failed"
+    }
+  ],
+  "cycle_id": "2026-09-25_cycle-34",
+  "source_id": "adzuna.de"
+}

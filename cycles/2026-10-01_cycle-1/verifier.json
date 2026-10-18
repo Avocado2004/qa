@@ -1,0 +1,10 @@
+{
+  "checked_at": "2026-10-01T00:38:53.775204+00:00",
+  "cycle_id": "2026-10-01_cycle-1",
+  "errors": [
+    "degradation: 21 of 50 confirmed rows demoted to unresolved (allowance 20); an unreadable page cannot disprove a previously verified role, employer or date: https://de.linkedin.com/jobs/view/senior-quality-assurance-engineer-at-trading-212-4468924202?position=2&pageNum=0&refId=wokqnNdU2%2BWfdoNzT9ctYg%3D%3D, https://de.linkedin.com/jobs/view/test-engineer-m-w-d-at-mamgo-talente-%F0%9F%94%97-jobs-4471187905, https://germantechjobs.de/jobs/TELUS-Digital-Quality-Assurance-Rater---German-Germany"
+  ],
+  "rows": 57,
+  "schema_version": 2,
+  "verdict": "FAIL"
+}

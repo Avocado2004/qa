@@ -1,0 +1,6 @@
+{
+  "url": "https://www.linkedin.com/jobs/view/3925557524",
+  "title": "Senior IT-Consultant Software-Testautomatisierung (all genders) at adesso SE — Dresden, Saxony, Germany | LinkedIn Jobs",
+  "content": "# Senior IT-Consultant Software-Testautomatisierung (all genders)\n## Explore top content on LinkedIn\nFind curated posts and insights for relevant topics all in one place.\n[View top content](https://www.linkedin.com/top-content/)\nKnow when new jobs open up\nNever miss a job alert with the new LinkedIn app for Windows.\nGet the app",
+  "error": null
+}

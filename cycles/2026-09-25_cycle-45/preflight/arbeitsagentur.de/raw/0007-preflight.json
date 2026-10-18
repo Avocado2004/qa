@@ -1,0 +1,26 @@
+{
+  "status": "pass",
+  "access_method": "crawl4ai",
+  "cards_found": 2,
+  "cards_analyzable": 2,
+  "operations": [
+    {
+      "op": "listing",
+      "status": 200
+    },
+    {
+      "op": "card-1",
+      "url": "https://www.arbeitsagentur.de/jobsuche/jobdetail/10000-1183466875-S",
+      "chars": 5206
+    },
+    {
+      "op": "return",
+      "status": 200
+    },
+    {
+      "op": "card-2",
+      "url": "https://www.arbeitsagentur.de/jobsuche/jobdetail/12811-2344134-S",
+      "chars": 3834
+    }
+  ]
+}

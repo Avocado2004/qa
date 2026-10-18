@@ -1,0 +1,10 @@
+{
+  "checked_at": "2026-10-09T09:14:15.605482+00:00",
+  "cycle_id": "2026-10-09_cycle-5",
+  "errors": [
+    "degradation: 21 of 30 confirmed rows demoted to unresolved (allowance 12); an unreadable page cannot disprove a previously verified role, employer or date: https://de.linkedin.com/jobs/view/game-localization-tester-m-f-d-at-lionbridge-games-4435685330, https://de.linkedin.com/jobs/view/groupware-test-engineer-m-w-d-at-bwi-gmbh-4467098925, https://de.linkedin.com/jobs/view/qa-engineer-mid-level-at-talon-one-4465625914"
+  ],
+  "rows": 52,
+  "schema_version": 2,
+  "verdict": "FAIL"
+}

@@ -1,0 +1,33 @@
+{
+  "url": "https://www.arbeitnow.com/jobs/companies/renewa/full-stack-engineer-renewa-hamburg-90861",
+  "title": "Full-Stack Engineer",
+  "company": "Renewa",
+  "location": "RENEWA - Hamburg",
+  "posted": "1790302161",
+  "work_mode": "Unknown",
+  "announcement": "Just a moment... Enable JavaScript and cookies to continue",
+  "http_status": 429,
+  "sha256": "60a5725c8f30f4f4a039e0381a5b347800ee5abd4361aa8551c7a9903bf48148",
+  "source_record": {
+    "slug": "full-stack-engineer-renewa-hamburg-90861",
+    "company_name": "Renewa",
+    "title": "Full-Stack Engineer",
+    "description": "<br><strong>Deine Rolle</strong><p>Wir bauen Renewa One – das zentrale System, mit dem wir die Sanierung von Gebäuden managen. Wir entwickeln radikal anders als die meisten: KI-first mit Claude Code. Der Code entsteht schnell und in großer Menge – die eigentliche Kunst liegt nicht mehr im Tippen, sondern im Beurteilen, Zusammenführen und Verantworten.</p><br><strong>Deine Mission</strong><p><ul><li>Du entwickelst neue Features unseres Sanierungs-Management-Systems – KI-assistiert und auf Basis unserer bestehenden Architektur.</li><li>Du bringst Pull Requests verlässlich zum Release: reviewen, testen, Konflikte lösen und dafür geradestehen, dass nur sauberer, korrekter Code live geht.</li><li>Du bist die entscheidende Qualitätsinstanz für KI-generierten Code – du erkennst die subtilen Fehler, die eine grüne Pipeline nicht sichtbar macht.</li><li>Du hältst die Codebase konsistent und wartbar: gemeinsame Muster und ein sauberes Datenmodell statt Wildwuchs.</li><li>Du verantwortest den Weg von der Idee bis zum Release mit – damit Features schnell und in guter Qualität bei den Nutzern ankommen.</li></ul></p><br><strong>Dein Profil</strong><p><ul><li><strong>Erfahrung mit Claude Code: </strong>Du entwickelst KI-first mit Claude Code (oder vergleichbaren KI-Coding-Agents) und prüfst generierten Code kritisch, statt ihn blind zu übernehmen. Bei uns ist das die Grundlage der Arbeit, kein Bonus.</li><li><strong>Full-Stack-TypeScript mit echter Tiefe:</strong> Du bist im Frontend (React) sattelfest und kannst Backend-Code – APIs, Datenbank-Queries, Services – selbst schreiben und korrigieren. Nur so kannst du ihn wirklich beurteilen statt nur durchwinken. </li><li><strong>Urteilsvermögen fürs Merge-Gate:</strong> Du liest Pull Requests kritisch, gibst klares, konstruktives Feedback und übernimmst Verantwortung dafür, was released wird. </li><li><strong>PostgreSQL &amp; Datenmodellierung:</strong> Du verstehst Transaktionen, Indizes, Fremdschlüssel und Migrationen – und behandelst das Schema als langlebigen Contract, nicht als Wegwerfartikel.</li><li><strong>Sauberes Git-Handwerk:</strong> Rebase, Merge-Konflikte, CI-Pipelines und ein Branch-basierter Workflow sind für dich Alltag.</li><li><strong>Disziplin statt Ego:</strong> Du arbeitest mit den bestehenden Mustern des Teams, statt bei jedem PR deine eigene Meinung durchzudrücken.</li><li><strong>Du wohnst bereits in Hamburg: </strong>Diese Stelle ist nicht remote zu besetzen. Du solltest bereits in Hamburg oder im Umland wohnen und bereit sein, mehrmals in der Woche aus unserem Büro in Winterhude zu arbeiten.</li><li><strong>Deutschkenntnisse auf C-Level: </strong>Um intern gut mit unseren Mitarbeitenden zu kommunizieren und ein Verständnis für ihre Wünsche und die fachlichen Ansprüche zu entwickeln, sind sehr gute Deutschkenntnisse notwendig. </li></ul>Schöne Extras:<br><ul><li>Erfahrung mit <a href=\"http://fly.io/\">Fly.io</a> / Docker und der Anbindung externer APIs (z. B. CRM- oder Buchhaltungssysteme)</li><li>Blick für UI-Konsistenz und Design-Systeme</li><li>Interesse an der Bau- / Sanierungs-Domäne</li></ul><br></p><p>Find <a href=\"https://www.arbeitnow.com\">Jobs in Germany</a> on Arbeitnow</a>",
+    "remote": false,
+    "url": "https://www.arbeitnow.com/jobs/companies/renewa/full-stack-engineer-renewa-hamburg-90861",
+    "tags": [
+      "AI",
+      "Software Development",
+      "Claude",
+      "Claude Code",
+      "IT"
+    ],
+    "job_types": [
+      "Experienced",
+      "Permanent",
+      "Full time"
+    ],
+    "location": "RENEWA - Hamburg",
+    "created_at": 1790302161
+  }
+}

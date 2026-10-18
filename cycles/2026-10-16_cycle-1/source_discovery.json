@@ -1,0 +1,12 @@
+{
+  "additions": [],
+  "created_at": "2026-10-16T00:12:08.979633+00:00",
+  "cycle_id": "2026-10-16_cycle-1",
+  "evidence": {
+    "live_retrieval": "completed",
+    "model_evidence": "Verified German QA/test vacancy sources from supplied registry and live-retrieval evidence: Indeed Deutschland (de.indeed.com) exposes 300+ direct vacancy cards across Berlin, Leipzig, Dresden, München, Hamburg, Köln, Deutschland for QA Engineer, Softwaretester, Test Engineer, Test Automation, QA Automation, QA Analyst, Testmanager roles (measured 2026-09-29, 130 QA cards, source active via crawl4ai). GermanTechJobs public RSS exposes 992 analyzable direct job cards including Senior QA Engineer and Test Engineer/Test Automation (added cycle 2026-09-24_cycle-5, source active via public RSS). Adzuna Deutschland exposes /land/ad cards for QA Engineer, Softwaretester, Test Engineer, Test Automation, QA Automation, QA Analyst roles in Berlin/Leipzig/Dresden via search API with location IDs (added cycle 2026-09-24_cycle-7, source active via HTTP search). EuroTechJobs Test Analyst / Germany exposes 22 live direct cards including Senior Software Tester in Düsseldorf, Germany, with cards explicitly for Berlin/Leipzig/Dresden (added cycle 2026-09-24_cycle-6, source active via HTTP listing). Remotive API exposes Quality Assurance category remote jobs for Germany-wide remote listings with direct card URL pattern https://remotive.com/remote/jobs/qa/<slug>-<id> (active source, primary_method api). Arbeitnow API similarly filters JSON records by QA, Software Test, Test Automation, Germany, Berlin, Leipzig, Dresden, remote (active source, primary_method api). StepStone, Xing, LinkedIn, and Arbeitsagentur each expose direct QA/test vacancy cards for Berlin, Leipzig, Dresden per their configs and verified live; all retained as active in registry. No new non-duplicate source met the two-method live evidence threshold beyond these confirmed entries. The supplied live_retrieval_evidence array contained generic reference noise (Wikipedia, YouTube, ELSTER, etc.) and was not used for source classification.",
+    "retrieval_artifact": "/opt/data/qa-vacancy-project/cycles/2026-10-16_cycle-1/source_discovery_retrieval.json",
+    "retrieved_result_count": 98
+  },
+  "verdict": "pass"
+}

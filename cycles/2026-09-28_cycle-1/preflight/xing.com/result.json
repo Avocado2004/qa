@@ -1,0 +1,13 @@
+{
+  "cycle_id": "2026-09-28_cycle-1",
+  "failures": [
+    {
+      "at": "2026-09-28T00:12:56.953934+00:00",
+      "attempt": 1,
+      "error": "all independent access methods failed: Camofox HTTP 500 for GET /tabs/8b1891eb-6a40-41b8-acc6-bfdd4afe6877/snapshot; preflight: detail pages are portal pages, not vacancies (card-1: 'Recruiter (m/w/d)'; card-2: 'Ähnliche Jobs'). Listing offered 20 direct links; two real vacancy cards are required.; preflight: detail pages are portal pages, not vacancies (card-1: 'Recruiter (m/w/d)'; card-2: 'Initiativbewerbung Mitarbeiter (m/w/d)'). Listing offered 19 direct links; two real vacancy cards are required."
+    }
+  ],
+  "schema_version": 2,
+  "source_id": "xing.com",
+  "state": "blocked"
+}

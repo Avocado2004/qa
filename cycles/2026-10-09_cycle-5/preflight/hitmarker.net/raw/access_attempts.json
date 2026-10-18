@@ -1,0 +1,24 @@
+{
+  "attempts": [
+    {
+      "at": "2026-10-09T08:57:02.326304+00:00",
+      "error": "Camofox HTTP 404 for POST /tabs/d4dee499-be2e-4d35-b8a3-a4510eec24fe/navigate: {\"error\":\"Tab not found\"}",
+      "method": "camofox",
+      "status": "failed"
+    },
+    {
+      "at": "2026-10-09T08:57:39.533346+00:00",
+      "error": "preflight: fewer than two analyzable direct cards",
+      "method": "crawl4ai",
+      "status": "failed"
+    },
+    {
+      "at": "2026-10-09T08:57:39.920806+00:00",
+      "error": "preflight: fewer than two analyzable direct cards",
+      "method": "http",
+      "status": "failed"
+    }
+  ],
+  "cycle_id": "2026-10-09_cycle-5",
+  "source_id": "hitmarker.net"
+}

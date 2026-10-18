@@ -1,0 +1,26 @@
+{
+  "status": "pass",
+  "access_method": "base",
+  "cards_found": 96,
+  "cards_analyzable": 2,
+  "operations": [
+    {
+      "op": "listing",
+      "status": 200
+    },
+    {
+      "op": "card-1",
+      "url": "https://www.arbeitnow.com/jobs/companies/interlead-gmbh/junior-account-manager-berlin-128453",
+      "chars": 4234
+    },
+    {
+      "op": "return",
+      "status": 200
+    },
+    {
+      "op": "card-2",
+      "url": "https://www.arbeitnow.com/jobs/companies/modulist-gmbh/automatisierungsingenieur-berlin-85372",
+      "chars": 2991
+    }
+  ]
+}

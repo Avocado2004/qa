@@ -1,0 +1,7 @@
+{
+  "url": "https://de.indeed.com/rc/clk?jk=b61d3fbdb683ee91&bb=a21sFF7WbDXm5Z2RuYGGeuF-1ekTnC1hM9ORq6psLsKeGK2UYrXxa0ldXXlLrmjTVc5hk_uDRgwVTgJhl7Uk_rVjCQW1QupjZSOJaUnnVx3IeFQT3k1ZxQAKOsh6pnhE&xkcb=SoCI67M2e2RUotzNrZ0LbzkdCdPP&fccid=f0c297c6270253e5&vjs=3",
+  "attempt": 1,
+  "returncode": 0,
+  "stdout": "✓ 页面已保存到 /opt/data/qa-vacancy-project/cycles/2026-09-29_cycle-6/workers/de.indeed.com/raw/crawl4ai-card-1QupjZSOJaUnnVx3IeFQT3k1ZxQAKOsh6pnhE-xkcb-SoCI67M2e2RUotzNrZ0LbzkdCdPP-fccid-f0c297c6270253e5-vjs-3.md\n  标题: \n  链接数: 21\n",
+  "stderr": "[INIT].... → Crawl4AI 0.9.4 \n[FETCH]... ↓ https://de.indeed.com/rc/clk?jk=b61d3fbdb683ee91...2RUotzNrZ0LbzkdCdPP&fccid=f0c297c6270253e5&vjs=3  | ✓ | ⏱: 5.39s \n[SCRAPE].. ◆ https://de.indeed.com/rc/clk?jk=b61d3fbdb683ee91...2RUotzNrZ0LbzkdCdPP&fccid=f0c297c6270253e5&vjs=3  | ✓ | ⏱: 0.22s \n[COMPLETE] ● https://de.indeed.com/rc/clk?jk=b61d3fbdb683ee91...2RUotzNrZ0LbzkdCdPP&fccid=f0c297c6270253e5&vjs=3  | ✓ | ⏱: 5.71s \n"
+}

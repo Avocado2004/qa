@@ -1,0 +1,6 @@
+{
+  "url": "https://www.xing.com/jobs/riederich-recruiter-personaladministration-talent-akquise-157625728",
+  "returncode": 0,
+  "stdout": "✓ 页面已保存到 /opt/data/qa-vacancy-project/cycles/2026-09-25_cycle-37/workers/xing.com/raw/crawl4ai-card-https-www-xing-com-jobs-riederich-recruiter-personaladministration-talent-akquise-157625728.md\n  标题: Recruiter - Personaladministration / Talent Akquise (m/w/d) in Riederich | XING Jobs\n  链接数: 39\n",
+  "stderr": "[INIT].... → Crawl4AI 0.9.4 \n[FETCH]... ↓ https://www.xing.com/jobs/riederich-recruiter-personaladministration-talent-akquise-157625728        | ✓ | ⏱: 4.48s \n[SCRAPE].. ◆ https://www.xing.com/jobs/riederich-recruiter-personaladministration-talent-akquise-157625728        | ✓ | ⏱: 0.78s \n[COMPLETE] ● https://www.xing.com/jobs/riederich-recruiter-personaladministration-talent-akquise-157625728        | ✓ | ⏱: 5.36s \n"
+}

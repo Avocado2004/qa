@@ -1,0 +1,12 @@
+{
+  "attempts": [
+    {
+      "at": "2026-09-29T06:23:17.351317+00:00",
+      "error": "Camofox HTTP 503 for POST /tabs/b6268329-57e6-4104-8e81-2b35e8c0d6f0/navigate",
+      "method": "camofox",
+      "status": "failed"
+    }
+  ],
+  "cycle_id": "2026-09-29_cycle-2",
+  "source_id": "linkedin.com"
+}

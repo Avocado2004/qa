@@ -1,0 +1,13 @@
+{
+  "cycle_id": "2026-09-30_cycle-1",
+  "failures": [
+    {
+      "at": "2026-09-30T16:21:01.041142+00:00",
+      "attempt": 1,
+      "error": "all independent access methods failed: Camofox preflight snapshot blocked; preflight: no card carries vacancy body text (a title alone is not a posting) -- 2 opened but all are indexes/teasers (card-1: '(Junior) QA Engineer/Software-Tester (m/w/d) – Produktqualität & Testautomatisierung' (0 chars); card-2: 'Senior Quality Assurance Engineer' (0 chars)). About.md requires two analyzable vacancy cards.; preflight: fewer than two analyzable direct cards"
+    }
+  ],
+  "schema_version": 2,
+  "source_id": "linkedin.com",
+  "state": "blocked"
+}

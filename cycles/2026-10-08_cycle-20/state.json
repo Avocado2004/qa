@@ -1,0 +1,20 @@
+{
+  "artifacts": {
+    "discovery": "/opt/data/qa-vacancy-project/cycles/2026-10-08_cycle-20/source_discovery.json",
+    "recheck": "/opt/data/qa-vacancy-project/cycles/2026-10-08_cycle-20/published_recheck.json"
+  },
+  "cycle_id": "2026-10-08_cycle-20",
+  "error": "AttributeError: 'list' object has no attribute 'get'",
+  "finished_at": "2026-10-08T22:17:26.485368+00:00",
+  "publication_allowed": false,
+  "schema_version": 2,
+  "stage": "FAILED",
+  "stage_seconds": {
+    "FAILED": 170.9,
+    "MASTER_RECHECK": 2.9,
+    "SOURCE_DISCOVERY": 41.0
+  },
+  "started_at": "2026-10-08T22:13:51.707182+00:00",
+  "status": "FAILED",
+  "updated_at": "2026-10-08T22:17:26.485406+00:00"
+}

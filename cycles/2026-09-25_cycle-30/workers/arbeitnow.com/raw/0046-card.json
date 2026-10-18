@@ -1,0 +1,29 @@
+{
+  "url": "https://www.arbeitnow.com/jobs/companies/sidekick-network-gmbh-co-kg/senior-dvelop-cloud-migration-consultant-freelance-dresden-467882",
+  "title": "Senior d.velop Cloud Migration Consultant (Freelance)",
+  "company": "Sidekick Network GmbH & Co. KG",
+  "location": "Dresden",
+  "posted": "1790321468",
+  "work_mode": "Unknown",
+  "announcement": "Just a moment... Enable JavaScript and cookies to continue",
+  "http_status": 429,
+  "sha256": "f5833209cd9c3bb612d411f908e16379278a93e633a8f80598ba4946a56ae555",
+  "source_record": {
+    "slug": "senior-dvelop-cloud-migration-consultant-freelance-dresden-467882",
+    "company_name": "Sidekick Network GmbH & Co. KG",
+    "title": "Senior d.velop Cloud Migration Consultant (Freelance)",
+    "description": "<p>Für langfristige Kundenprojekte suchen wir einen erfahrenen <strong>Senior d.velop Cloud Migration Consultant</strong>, der bestehende d.velop-On-Premise-Landschaften analysiert und Migrationen zu <strong>d.velop documents Cloud</strong> konzipiert und durchführt.</p>\n<p>Gesucht wird ausdrücklich ein Consultant mit konkreter d.velop-Migrationserfahrung. Allgemeine Azure-, AWS- oder Cloud-Erfahrung allein ist nicht ausreichend.</p>\n<p>Neben technischer Migrationserfahrung ist die Fähigkeit wichtig, Kunden durch <strong>Assessment, Zielarchitektur, Migrationsstrategie, Cutover und Go-live</strong> zu führen.</p>\n<p><strong>Start:</strong> November 2026<br>\n<strong>Laufzeit:</strong> Dezember 2027<br>\n<strong>Auslastung:</strong> 80-100%<br>\n<strong>Einsatzort:</strong> überwiegend remote, einzelne Workshops und Meetings deutschlandweit<br>\n<strong>Sprache:</strong> Deutsch mindestens C1<br>\n<strong>Vertragsart:</strong> Freelance</p>\n<h2>Aufgaben</h2>\n<ul>\n<li>Ist-Aufnahme bestehender d.velop-/d.3-Landschaften</li>\n<li>Durchführung von Readiness- und Migrationsfähigkeitsanalysen</li>\n<li>Analyse von Customizings, Hooks, Skripten, Workflows und Integrationen</li>\n<li>Konzeption von Cloud-Zielarchitektur und Migrationsstrategie</li>\n<li>Definition von Mapping, Berechtigungen und Migrationsverfahren</li>\n<li>Durchführung von Test-, Voll- und Delta-Migrationen</li>\n<li>Fehleranalyse, Datenbereinigung und Qualitätssicherung</li>\n<li>Kundenberatung, Cutover-Planung, Go-live und Übergabe in den Betrieb</li>\n</ul>\n<h2>Qualifikation</h2>\n<ul>\n<li>Mehrjährige Erfahrung mit <strong>d.velop documents und/oder d.3</strong></li>\n<li>Nachgewiesene Erfahrung mit <strong>ECM-/DMS-Migrationen</strong></li>\n<li>Praktische Erfahrung mit Migrationen von d.velop-On-Premise-Landschaften Richtung <strong>d.velop Cloud</strong></li>\n<li>Erfahrung mit Migrationstools, Repository Export, APIs, Connectoren oder vergleichbaren d.velop-Migrationsmechanismen</li>\n<li>Erfahrung mit Mapping von Dokumentarten, Eigenschaften, Benutzern, Gruppen und Berechtigungen</li>\n<li>Fähigkeit, bestehende Customizings, Workflows und Schnittstellen hinsichtlich ihrer Cloud-Fähigkeit zu bewerten</li>\n<li>Nachweisbare <strong>Consulting-Erfahrung mit Assessments, Workshops, Zielarchitektur und Kundenkommunikation</strong></li>\n<li>Deutsch mindestens <strong>C1</strong></li>\n<li><strong>Nice-to-haves:</strong></li>\n<li>d.velop Cloud Migration Toolkit</li>\n<li>Hybridarchitekturen, Identity Management und SSO</li>\n<li>Integrationen mit SAP, Microsoft 365 oder Salesforce</li>\n<li>Erfahrung mit sehr großen Dokumentenbeständen oder Fremd-ECM-Migrationen</li>\n</ul>\n<p>Bitte gib bei deiner Bewerbung deinen gewünschten <strong>All-in-Stundensatz</strong> an.</p>\n<p>Bitte beschreibe außerdem möglichst konkret ein bereits durchgeführtes Migrationsprojekt inklusive <strong>Quell-/Zielsystem, Datenvolumen, Migrationstools und Cutover-Vorgehen</strong>.</p>\n<p>Find <a href=\"https://www.arbeitnow.com\">Jobs in Germany</a> on Arbeitnow</a>",
+    "remote": false,
+    "url": "https://www.arbeitnow.com/jobs/companies/sidekick-network-gmbh-co-kg/senior-dvelop-cloud-migration-consultant-freelance-dresden-467882",
+    "tags": [
+      "Consulting",
+      "Engineering"
+    ],
+    "job_types": [
+      "Freelance",
+      "berufserfahren"
+    ],
+    "location": "Dresden",
+    "created_at": 1790321468
+  }
+}

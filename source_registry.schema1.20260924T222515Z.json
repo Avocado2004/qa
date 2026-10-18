@@ -1,0 +1,298 @@
+{
+  "schema_version": 1,
+  "description": "Persistent registry of independently searchable QA/test vacancy sources. Maintained by the mandatory Source Scout each complete search cycle.",
+  "sources": [
+    {
+      "name": "LinkedIn Jobs",
+      "domain": "linkedin.com",
+      "type": "general job board",
+      "status": "active",
+      "access_methods": [
+        "guest API",
+        "browser",
+        "web extraction"
+      ],
+      "query_or_url_pattern": "site:linkedin.com/jobs/view QA Test Berlin Leipzig Dresden Germany Remote",
+      "parent_platform": null,
+      "first_seen": "2026-09-24",
+      "last_verified": "2026-09-24",
+      "evidence_url": "https://www.linkedin.com/jobs/search/?keywords=QA%20Engineer&location=Germany",
+      "last_access_status": "verified-live"
+    },
+    {
+      "name": "Arbeitsagentur Jobsuche",
+      "domain": "arbeitsagentur.de",
+      "type": "government job board",
+      "status": "active",
+      "access_methods": [
+        "public API",
+        "JSON-LD",
+        "browser",
+        "web extraction"
+      ],
+      "query_or_url_pattern": "Softwaretester QA Testautomatisierung Berlin Leipzig Dresden Deutschland",
+      "parent_platform": null,
+      "first_seen": "2026-09-24",
+      "last_verified": "2026-09-24",
+      "evidence_url": "https://www.arbeitsagentur.de/jobsuche/",
+      "last_access_status": "verified-live"
+    },
+    {
+      "name": "StepStone",
+      "domain": "stepstone.de",
+      "type": "general job board",
+      "status": "active",
+      "access_methods": [
+        "browser",
+        "Camofox",
+        "web extraction"
+      ],
+      "query_or_url_pattern": "https://www.stepstone.de/jobs?where=<encoded location>&what=<encoded role query>; browser/Camofox sequential listing and direct detail verification",
+      "parent_platform": null,
+      "first_seen": "2026-09-24",
+      "last_verified": "2026-09-24",
+      "evidence_url": "https://www.stepstone.de/jobs/qa-test/in-berlin.html",
+      "last_access_status": "verified-live"
+    },
+    {
+      "name": "XING Jobs",
+      "domain": "xing.com",
+      "type": "professional network job board",
+      "status": "active",
+      "access_methods": [
+        "browser",
+        "Camofox",
+        "web extraction"
+      ],
+      "query_or_url_pattern": "QA Software Test Engineer Germany last month",
+      "parent_platform": null,
+      "first_seen": "2026-09-24",
+      "last_verified": "2026-09-24",
+      "evidence_url": "https://www.xing.com/jobs/search",
+      "last_access_status": "verified-live"
+    },
+    {
+      "name": "Hitmarker",
+      "domain": "hitmarker.net",
+      "type": "gamedev job board",
+      "status": "active",
+      "access_methods": [
+        "browser",
+        "web extraction"
+      ],
+      "query_or_url_pattern": "QA game tester Germany",
+      "parent_platform": null,
+      "first_seen": "2026-09-24",
+      "last_verified": "2026-09-24",
+      "evidence_url": "https://hitmarker.net/jobs",
+      "last_access_status": "verified-live"
+    },
+    {
+      "name": "Remotive",
+      "domain": "remotive.com",
+      "type": "remote job board/API",
+      "status": "active",
+      "access_methods": [
+        "public API",
+        "web extraction",
+        "browser"
+      ],
+      "query_or_url_pattern": "https://remotive.com/api/remote-jobs?search=QA (filter category=Quality Assurance; location=Germany; direct card URL https://remotive.com/remote/jobs/qa/<slug>-<id>)",
+      "parent_platform": null,
+      "first_seen": "2026-09-24",
+      "last_verified": "2026-09-24",
+      "evidence_url": "https://remotive.com/remote/jobs/qa/software-tester-5925120",
+      "last_access_status": "verified-live"
+    },
+    {
+      "name": "Arbeitnow Job Board API",
+      "domain": "arbeitnow.com",
+      "type": "aggregated job board/API",
+      "status": "active",
+      "access_methods": [
+        "public API",
+        "web extraction"
+      ],
+      "query_or_url_pattern": "https://www.arbeitnow.com/api/job-board-api (filter JSON records by title/description/location for QA, Software Test, Test Automation, Germany, Berlin, Leipzig, Dresden, remote)",
+      "parent_platform": null,
+      "first_seen": "2026-09-24",
+      "last_verified": "2026-09-24",
+      "evidence_url": "https://www.arbeitnow.com/api/job-board-api",
+      "last_access_status": "verified-live"
+    },
+    {
+      "name": "GermanTechJobs",
+      "domain": "germantechjobs.de",
+      "type": "German technology job board / RSS",
+      "status": "active",
+      "access_methods": [
+        "public RSS",
+        "web extraction",
+        "browser"
+      ],
+      "query_or_url_pattern": "https://germantechjobs.de/rss (fetch current feed; filter title+description for Softwaretester, Software Tester, QA Engineer, Quality Assurance, Test Engineer, Testautomatisierung, Qualitätssicherung; direct card pattern https://germantechjobs.de/jobs/<slug>)",
+      "parent_platform": null,
+      "first_seen": "2026-09-24",
+      "last_verified": "2026-09-24",
+      "evidence_url": "https://germantechjobs.de/jobs/Communi5-Technologies-GmbH-Senior-QA-Engineer",
+      "last_access_status": "verified-live"
+    },
+    {
+      "name": "EuroTechJobs Test Analyst / Germany",
+      "domain": "eurotechjobs.com",
+      "type": "European technology job board",
+      "status": "active",
+      "access_methods": [
+        "public HTML listing",
+        "direct card web extraction",
+        "curl"
+      ],
+      "query_or_url_pattern": "https://www.eurotechjobs.com/jobs/test_analyst and https://www.eurotechjobs.com/jobs/germany; intersect/filter cards for Germany, Berlin, Leipzig, Dresden, or Germany-wide remote; direct cards /job_display/<id>/<slug>",
+      "parent_platform": "EuroJobsites",
+      "first_seen": "2026-09-24",
+      "last_verified": "2026-09-24",
+      "evidence_url": "https://www.eurotechjobs.com/job_display/295774/Senior_Software_Tester_BlackBerry_Dsseldorf_Germany",
+      "last_access_status": "verified-live-direct-card"
+    },
+    {
+      "name": "Adzuna Deutschland",
+      "domain": "adzuna.de",
+      "type": "German general/aggregated job board",
+      "status": "active",
+      "access_methods": [
+        "browser",
+        "Camofox",
+        "web extraction"
+      ],
+      "query_or_url_pattern": "https://www.adzuna.de/search?q=<urlencoded German QA query>&loc=<location-id>; city discovery /berlin/<query>, /leipzig/<query>, /dresden/<query>; pagination &p=<page>",
+      "parent_platform": null,
+      "first_seen": "2026-09-24",
+      "last_verified": "2026-09-24",
+      "evidence_url": "https://www.adzuna.de/land/ad/5887258708?title=QM_Pr%C3%BCfer_%28m%2Fw%2Fd%29",
+      "last_access_status": "verified-live-browser-and-web-extract"
+    }
+  ],
+  "retired_sources": [
+    {
+      "name": "Direct company ATS and career sites",
+      "domain": "multiple",
+      "type": "employer-owned",
+      "status": "retired",
+      "access_methods": [
+        "web search",
+        "browser",
+        "web extraction",
+        "API when public"
+      ],
+      "query_or_url_pattern": "company career site QA Test Engineer Germany",
+      "parent_platform": null,
+      "first_seen": "2026-09-24",
+      "last_verified": "2026-09-24",
+      "evidence_url": "https://www.google.com/search?q=site%3Ajobs+OR+site%3Acareers+%22QA%22+%22Berlin%22+Germany",
+      "last_access_status": "verified-live",
+      "retired_reason": "Heterogeneous source class without a concrete independently searchable host/API; direct company ATS must be discovered and registered as concrete hosts by Source Scout."
+    }
+  ],
+  "last_source_scout_cycle": "2026-09-24_cycle-10",
+  "scout_history": [
+    {
+      "cycle": "2026-09-24_cycle-5",
+      "checked_at": "2026-09-24T14:00:00Z",
+      "active_sources_rechecked": 9,
+      "new_sources": 1,
+      "rejected_sources": 3,
+      "retired_sources": 0,
+      "notes": "Broad German discovery plus direct live checks. GermanTechJobs public RSS exposed 992 analyzable direct job cards, including Senior QA Engineer and Test Engineer/Test Automation; added. Landing.jobs API was 404, Jobicy tag query 400, Honeypot legacy API 410, We Work Remotely and Berlin Startup Jobs remained 403, and GermanTechJobs web-search shell was correctly superseded by its live RSS. No source retired; vacancy master untouched."
+    },
+    {
+      "cycle": "2026-09-24_cycle-6",
+      "checked_at": "2026-09-24T16:00:00Z",
+      "active_sources_rechecked": 9,
+      "new_sources": 1,
+      "rejected_sources": 4,
+      "retired_sources": 0,
+      "notes": "Discovery extended beyond the registry. EuroTechJobs test-analyst listing exposed 22 live direct cards, including a live Senior Software Tester card in Düsseldorf, Germany; added as a new searchable European tech source. GameDevJobs exposed direct game-QA cards but no current Germany/Berlin/Leipzig/Dresden card; retained as a rejected-for-current-scope candidate. RemoteOK exposed a QA listing/filter but its current 100-record API snapshot had no Germany QA/test record. gamedevmap is an employer directory, not a vacancy listing. jobs.ch search was Switzerland-focused and exposed no German QA card. No registry source retired; public vacancy list untouched."
+    },
+    {
+      "cycle": "2026-09-24_cycle-7",
+      "checked_at": "2026-09-24T18:18:00Z",
+      "active_sources_rechecked": 10,
+      "new_sources": 1,
+      "rejected_sources": 4,
+      "retired_sources": 0,
+      "notes": "Broad live discovery verified Adzuna Deutschland with browser and web extraction: analyzable /land/ad cards included QM Prüfer (Everllence SE, Berlin) and HOME-OFFICE coverage; curl independently returned 403. Added Adzuna as a new parent. Joblift redirects to Adzuna and was treated as duplicate. Landing.Jobs Germany QA had 0 results; DevITJobs is UK-only; stellenwerk had live direct cards but its current QA query was empty. Existing history retained; no vacancy/public-list modification."
+    },
+    {
+      "cycle": "2026-09-24_cycle-1",
+      "checked_at": "2026-09-24T15:00:00Z",
+      "active_sources_rechecked": 11,
+      "new_sources": 0,
+      "rejected_sources": 4,
+      "retired_sources": 0,
+      "notes": "Exactly one Source Scout completed for this cycle. Registry retained unchanged because no new non-duplicate source met live direct-card evidence and current German QA/test scope. No sources retired; no downstream stages started."
+    },
+    {
+      "cycle": "2026-09-24_cycle-2",
+      "checked_at": "2026-09-24T00:00:00Z",
+      "active_sources_rechecked": 11,
+      "new_sources": 0,
+      "rejected_sources": 4,
+      "retired_sources": 0,
+      "notes": "Exactly one Source Scout executed for this cycle. Broad German live discovery queries were run. Candidate discovery results did not establish a new, independently searchable source with a verifiable direct QA/test vacancy card or accessible current API; no registry source was added or retired. Registry history retained."
+    },
+    {
+      "cycle": "2026-09-24_cycle-3",
+      "checked_at": "2026-09-24T20:00:00Z",
+      "active_sources_rechecked": 11,
+      "new_sources": 0,
+      "rejected_sources": 5,
+      "retired_sources": 0,
+      "notes": "Exactly one Source Scout. Fresh broad German QA/test source discovery and live candidate checks found no non-duplicate source with verifiable current direct vacancy cards or accessible listing/API. No registry source added or retired; existing history preserved."
+    },
+    {
+      "cycle": "2026-09-24_cycle-4",
+      "checked_at": "2026-09-24T21:00:00Z",
+      "active_sources_rechecked": 11,
+      "new_sources": 0,
+      "rejected_sources": 8,
+      "retired_sources": 0,
+      "notes": "Exactly one Source Scout completed. Broad German live discovery found no new non-duplicate source with verifiable current direct German QA/test cards or accessible listing/API. Existing registry retained; no source retired; no downstream stages started."
+    },
+    {
+      "cycle": "2026-09-24_cycle-6",
+      "checked_at": "2026-09-24T16:30:00Z",
+      "active_sources_rechecked": 11,
+      "new_sources": 0,
+      "rejected_sources": 4,
+      "retired_sources": 0,
+      "notes": "Exactly one Source Scout completed. Camofox gate passed. Broad discovery attempted SearXNG, Exa, crawl4ai-skill, web extraction and direct HTTP/browser verification. Exa was rate-limited (HTTP 429) and crawl4ai-skill was unavailable (command not found). No new non-duplicate source met live two-method German QA/test evidence; registry sources and history preserved."
+    },
+    {
+      "cycle": "2026-09-24_cycle-8",
+      "checked_at": "2026-09-24T00:00:00Z",
+      "active_sources_rechecked": 11,
+      "new_sources": 0,
+      "rejected_sources": 3,
+      "retired_sources": 0,
+      "notes": "Exactly one Source Scout completed. Broad discovery and live verification found no new non-duplicate source. DevITJobs rejected as UK-only; Landing.Jobs lacked concrete German QA cards/API evidence; Honeypot duplicate of XING. SearXNG, Exa MCP and crawl4ai were unavailable as callable backends in this execution; web_extract, direct HTTP and web search were completed. No public vacancy list modified."
+    },
+    {
+      "cycle": "2026-09-24_cycle-9",
+      "checked_at": "2026-09-24T00:00:00Z",
+      "active_sources_rechecked": 10,
+      "new_sources": 0,
+      "rejected_sources": 5,
+      "retired_sources": 0,
+      "notes": "Exactly one mandatory Source Scout completed for cycle 9. Camofox unavailable (CAMOFOX_URL unset). Exa MCP HTTP 429; SearXNG URL unset; crawl4ai-skill unavailable; keyless web extraction timed out. Built-in web search found no relevant candidates. Direct checks found no new source meeting two-method live evidence. Registry retained; public vacancy list untouched."
+    },
+    {
+      "cycle": "2026-09-24_cycle-10",
+      "checked_at": "2026-09-24T20:45:00Z",
+      "active_sources_rechecked": 10,
+      "new_sources": 0,
+      "rejected_sources": 3,
+      "retired_sources": 0,
+      "notes": "Exactly one mandatory Source Scout completed. Camofox passed; SearXNG, Exa, crawl4ai availability, built-in web search, web extraction, direct HTTP and browser were attempted. Exa HTTP 429, crawl4ai unavailable, SearXNG irrelevant. No new source passed live two-method German QA/test evidence. No downstream stage started."
+    }
+  ]
+}

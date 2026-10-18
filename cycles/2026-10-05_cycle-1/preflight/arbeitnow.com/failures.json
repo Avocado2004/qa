@@ -1,0 +1,11 @@
+{
+  "cycle_id": "2026-10-05_cycle-1",
+  "failures": [
+    {
+      "at": "2026-10-05T00:14:02.762046+00:00",
+      "error": "all independent access methods failed: 'utf-8' codec can't decode byte 0xfc in position 1: invalid start byte; 'utf-8' codec can't decode byte 0xfc in position 1: invalid start byte; preflight: fewer than two analyzable direct cards; Camofox HTTP 404 for POST /tabs/7f4b7883-5a97-4d06-80ee-120b8cfc922d/navigate: {\"error\":\"Tab not found\"}"
+    }
+  ],
+  "schema_version": 2,
+  "source_id": "arbeitnow.com"
+}

@@ -1,0 +1,28 @@
+{
+  "completed_operations": [
+    {
+      "op": "listing",
+      "status": 200
+    },
+    {
+      "chars": 18094,
+      "op": "card-1",
+      "url": "https://de.linkedin.com/jobs/view/junior-qa-engineer-software-tester-m-w-d-%E2%80%93-produktqualit%C3%A4t-testautomatisierung-at-check24-4433870576?position=1&pageNum=0&refId=Iai17Id6E4mfWjCWFa3Zyw%3D%3D"
+    },
+    {
+      "op": "return",
+      "status": 200
+    },
+    {
+      "chars": 16256,
+      "op": "card-2",
+      "url": "https://de.linkedin.com/jobs/view/quality-assurance-engineer-m-w-d-at-hochtief-4455268504?position=2&pageNum=0&refId=Iai17Id6E4mfWjCWFa3Zyw%3D%3D"
+    }
+  ],
+  "cycle_id": "2026-09-25_cycle-24",
+  "next_operation": 4,
+  "schema_version": 2,
+  "source_id": "linkedin.com",
+  "state": "complete",
+  "updated_at": "2026-09-25T06:16:39.851558+00:00"
+}

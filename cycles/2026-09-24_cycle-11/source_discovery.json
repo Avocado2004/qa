@@ -1,0 +1,38 @@
+{
+  "created_at": "2026-09-24T23:09:11.057837+00:00",
+  "cycle_id": "2026-09-24_cycle-11",
+  "evidence": {
+    "active_sources_reviewed": 10,
+    "limitations": [
+      "No web-search, browser, HTTP, API, RSS, or direct-page retrieval tool is available in this execution.",
+      "Existing verified-live assertions in the supplied metadata were not independently rechecked.",
+      "This result does not establish that no additional German QA sources exist."
+    ],
+    "live_checks_performed": 0,
+    "mode": "offline_registry_review",
+    "registry_generated_at": "2026-09-24T22:25:15.732448+00:00",
+    "registry_revision": 1,
+    "registry_schema_version": 2,
+    "retirement_assessment": {
+      "eligible_sources": [],
+      "reason": "No current access failure was established. Null last_preflight and last_success fields alone do not prove that a source is inactive."
+    },
+    "verified_new_candidates": [],
+    "verified_new_direct_cards": [],
+    "verified_new_listing_urls": []
+  },
+  "registry_mutation": null,
+  "required_next_evidence": [
+    "An accessible live listing or public API from a candidate domain not already represented in the registry.",
+    "At least one current QA, software-test, test-automation, or quality-assurance vacancy explicitly associated with Germany, Berlin, Leipzig, Dresden, or Germany-wide remote work.",
+    "A loadable direct vacancy-detail page on the candidate domain.",
+    "Independent corroboration using two successful access methods, consistent with the discovery criteria in the registry history."
+  ],
+  "verdict": {
+    "decision": "no_registry_change",
+    "new_sources": [],
+    "reason": "The supplied registry was reviewed offline, but no candidate received fresh live verification. No source should be added or retired without a current, independently verifiable German QA/test listing and direct job-detail page.",
+    "retired_sources": [],
+    "status": "insufficient_live_evidence"
+  }
+}

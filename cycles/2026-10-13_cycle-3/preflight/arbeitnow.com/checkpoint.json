@@ -1,0 +1,28 @@
+{
+  "completed_operations": [
+    {
+      "op": "listing",
+      "status": 200
+    },
+    {
+      "chars": 2454,
+      "op": "card-1",
+      "url": "https://www.arbeitnow.com/jobs/companies/sightwise-gmbh/senior-software-engineer-fur-backend-cloud-infrastruktur-hannover-478011"
+    },
+    {
+      "op": "return",
+      "status": 200
+    },
+    {
+      "chars": 11845,
+      "op": "card-2",
+      "url": "https://www.arbeitnow.com/jobs/companies/coreweaveu/account-solutions-architect-greenfield-dach-330505"
+    }
+  ],
+  "cycle_id": "2026-10-13_cycle-3",
+  "next_operation": 4,
+  "schema_version": 2,
+  "source_id": "arbeitnow.com",
+  "state": "complete",
+  "updated_at": "2026-10-13T23:52:33.201474+00:00"
+}

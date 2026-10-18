@@ -1,0 +1,11 @@
+{
+  "cycle_id": "2026-09-25_cycle-29",
+  "failures": [
+    {
+      "at": "2026-09-25T09:23:44.272063+00:00",
+      "error": "all independent access methods failed: Camofox preflight: fewer than two analyzable direct cards; preflight: fewer than two analyzable direct cards; Crawl4AI failed (1): l: minimal_text on small page (529 bytes, 14 chars visible) \n[COMPLETE] ● https://www.stepstone.de/jobs/qa-test/in-berlin.html                                                 | ✗ | ⏱: 6.91s \n✗ 爬取失败: Blocked by anti-bot protection: Structural: minimal_text on small page (529 bytes, 14 chars visible)\n; preflight: fewer than two analyzable direct cards"
+    }
+  ],
+  "schema_version": 2,
+  "source_id": "stepstone.de"
+}

@@ -1,0 +1,28 @@
+{
+  "completed_operations": [
+    {
+      "op": "listing",
+      "status": 200
+    },
+    {
+      "chars": 8775,
+      "op": "card-1",
+      "url": "https://www.arbeitnow.com/jobs/companies/caronsale/software-supporter-1st-2nd-level-alpha-online-hamburg-280303"
+    },
+    {
+      "op": "return",
+      "status": 200
+    },
+    {
+      "chars": 8831,
+      "op": "card-2",
+      "url": "https://www.arbeitnow.com/jobs/companies/caronsale/kundenbetreuer-software-support-alpha-online-hamburg-397471"
+    }
+  ],
+  "cycle_id": "2026-09-25_cycle-10",
+  "next_operation": 4,
+  "schema_version": 2,
+  "source_id": "arbeitnow.com",
+  "state": "complete",
+  "updated_at": "2026-09-25T00:57:04.154059+00:00"
+}

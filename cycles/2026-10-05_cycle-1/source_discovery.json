@@ -1,0 +1,88 @@
+{
+  "additions": [
+    {
+      "detail_url_pattern": "https://www.remotely.de/job/<slug>",
+      "direct_card_domains": [
+        "remotely.de"
+      ],
+      "domain": "remotely.de",
+      "evidence": {
+        "card_title": "Software Tester / QA Engineer – SaaS (m/w/d) remote (Home-Office)",
+        "example_direct_card": "https://www.remotely.de/job/cendas-gmbh-software-tester-qa-engineer-saas-mfd-remote-home-office",
+        "germany_confirmation": "The direct-card snippet states \"Nur Deutschland\".",
+        "listing": "https://www.remotely.de/remote-jobs/bereich/quality-assurance"
+      },
+      "listing_url": "https://www.remotely.de/remote-jobs/bereich/quality-assurance",
+      "name": "Remotely.de",
+      "query_or_url_pattern": "Quality Assurance category filtered to Germany-wide remote QA/test roles",
+      "scope": [
+        "Germany-wide remote"
+      ],
+      "status": "active",
+      "type": "remote job board"
+    }
+  ],
+  "created_at": "2026-10-05T00:11:50.525596+00:00",
+  "cycle_id": "2026-10-05_cycle-1",
+  "evidence": {
+    "live_retrieval": "completed",
+    "model_evidence": {
+      "discovery_completed": true,
+      "not_added": [
+        {
+          "reason": "The supplied evidence exposes search or category listings and job-title snippets, but no individual vacancy-card URL or API record that independently verifies a direct QA/test card.",
+          "sources": [
+            "jobs.heise.de",
+            "stellenonline.de",
+            "metajob.de",
+            "de.jooble.org",
+            "glassdoor.de",
+            "devjobs.de",
+            "jobvector.de",
+            "heyjobs.co",
+            "jobrobot.de"
+          ]
+        },
+        {
+          "reason": "A direct-looking page exists, but no real listing/API is exposed alongside it. The FourEnergy result also says applications are merely being checked rather than confirming a current opening.",
+          "sources": [
+            "jobs-daheim.de",
+            "fourenergy.de",
+            "talents.studysmarter.de",
+            "teqs-consulting.com"
+          ]
+        },
+        {
+          "reason": "The exposed roles are in Mannheim or Munich and are not shown as Germany-wide remote.",
+          "sources": [
+            "touch.ferchau.com",
+            "esportconnect.de"
+          ]
+        },
+        {
+          "reason": "Already represented in the supplied registry as active or retired, so they are not new additions.",
+          "sources": [
+            "arbeitsagentur.de",
+            "stepstone.de",
+            "linkedin.com",
+            "germantechjobs.de",
+            "de.indeed.com"
+          ]
+        }
+      ],
+      "usable": [
+        {
+          "card_evidence": "Direct card is titled \"Software Tester / QA Engineer – SaaS (m/w/d) remote (Home-Office)\"; its snippet includes \"Nur Deutschland\".",
+          "direct_vacancy_card": "https://www.remotely.de/job/cendas-gmbh-software-tester-qa-engineer-saas-mfd-remote-home-office",
+          "listing_evidence": "The supplied result exposes a real Quality Assurance category listing titled \"Quality Assurance Remote in Deutschland: 12 offene Stellen\".",
+          "listing_url": "https://www.remotely.de/remote-jobs/bereich/quality-assurance",
+          "scope": "Explicit Germany-wide remote QA/testing vacancy",
+          "source": "Remotely.de"
+        }
+      ]
+    },
+    "retrieval_artifact": "/opt/data/qa-vacancy-project/cycles/2026-10-05_cycle-1/source_discovery_retrieval.json",
+    "retrieved_result_count": 143
+  },
+  "verdict": "pass"
+}

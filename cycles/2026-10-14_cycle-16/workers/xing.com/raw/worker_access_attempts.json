@@ -1,0 +1,22 @@
+{
+  "attempts": [
+    {
+      "at": "2026-10-14T23:03:03.989751+00:00",
+      "error": "Camofox transport failed for GET /tabs/4213f589-b2ca-40f2-aea2-aa13096516c5/snapshot: <urlopen error [Errno 111] Connection refused>",
+      "method": "camofox",
+      "status": "failed"
+    },
+    {
+      "at": "2026-10-14T23:03:24.302043+00:00",
+      "error": "Crawl4AI failed after 3 attempts: rc=2 Usage: crawl4ai-skill crawl [OPTIONS] URL\nTry 'crawl4ai-skill crawl --help' for help.\n\nError: No such option '--delay'. Did you mean '--help'?\n",
+      "method": "crawl4ai",
+      "status": "failed"
+    },
+    {
+      "method": "http",
+      "status": "pass"
+    }
+  ],
+  "cycle_id": "2026-10-14_cycle-16",
+  "source_id": "xing.com"
+}

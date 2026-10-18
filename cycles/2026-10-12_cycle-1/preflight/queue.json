@@ -1,0 +1,726 @@
+{
+  "created_at": "2026-10-12T00:02:16.744428+00:00",
+  "cycle_id": "2026-10-12_cycle-1",
+  "jobs": [
+    {
+      "attempt": 1,
+      "claimed_at": "2026-10-12T00:02:16.757595+00:00",
+      "error": "all independent access methods failed: Camofox HTTP 500 for GET /tabs/88a26821-cb27-4b53-9ecf-56658abf7b70/snapshot: {\"error\":\"Internal server error\",\"retryable\":false}; preflight: no card carries vacancy body text (a title alone is not a posting) -- 2 opened but all are indexes/teasers (card-1: '(Junior) QA Engineer/Software-Tester (m/w/d) – Produktqualität & Testautomatisierung' (0 chars); card-2: 'Senior Quality Assurance Engineer' (0 chars)). About.md requires two analyzable vacancy cards.; preflight: fewer than two analyzable direct cards",
+      "failures": [
+        {
+          "at": "2026-10-12T00:08:05.946941+00:00",
+          "attempt": 1,
+          "error": "all independent access methods failed: Camofox HTTP 500 for GET /tabs/88a26821-cb27-4b53-9ecf-56658abf7b70/snapshot: {\"error\":\"Internal server error\",\"retryable\":false}; preflight: no card carries vacancy body text (a title alone is not a posting) -- 2 opened but all are indexes/teasers (card-1: '(Junior) QA Engineer/Software-Tester (m/w/d) – Produktqualität & Testautomatisierung' (0 chars); card-2: 'Senior Quality Assurance Engineer' (0 chars)). About.md requires two analyzable vacancy cards.; preflight: fewer than two analyzable direct cards"
+        }
+      ],
+      "finished_at": "2026-10-12T00:08:05.946904+00:00",
+      "generation": 1,
+      "heartbeat_at": "2026-10-12T00:08:05.913996+00:00",
+      "index": 0,
+      "lease_token": null,
+      "next_retry_at": null,
+      "owner": null,
+      "pid": null,
+      "progress_at": "2026-10-12T00:08:05.914026+00:00",
+      "source": {
+        "adapter": "linkedin_v1",
+        "adapter_version": 1,
+        "config": {},
+        "detail_url_pattern": "site:linkedin.com/jobs/view QA Test Berlin Leipzig Dresden Germany Remote",
+        "direct_card_domains": [
+          "linkedin.com"
+        ],
+        "domain": "linkedin.com",
+        "evidence": {
+          "first_seen": "2026-09-24",
+          "last_preflight": "2026-10-11T22:38:03.396729+00:00",
+          "last_run_status": "Not used",
+          "last_success": null,
+          "last_verified": "2026-09-24",
+          "url": "https://www.linkedin.com/jobs/search/?keywords=QA%20Engineer&location=Germany"
+        },
+        "fallback_methods": [
+          "guest API",
+          "browser",
+          "web extraction"
+        ],
+        "id": "linkedin.com",
+        "legacy": {
+          "access_methods": [
+            "guest API",
+            "browser",
+            "web extraction"
+          ],
+          "domain": "linkedin.com",
+          "evidence_url": "https://www.linkedin.com/jobs/search/?keywords=QA%20Engineer&location=Germany",
+          "first_seen": "2026-09-24",
+          "last_access_status": "verified-live",
+          "last_verified": "2026-09-24",
+          "name": "LinkedIn Jobs",
+          "parent_platform": null,
+          "query_or_url_pattern": "site:linkedin.com/jobs/view QA Test Berlin Leipzig Dresden Germany Remote",
+          "status": "active",
+          "type": "general job board"
+        },
+        "listing_url": "https://www.linkedin.com/jobs-guest/jobs/api/seeMoreJobPostings/search?keywords=QA&location=Germany&f_TPR=r2592000&start=0",
+        "name": "LinkedIn Jobs",
+        "preferred_methods": [
+          "guest API",
+          "browser",
+          "web extraction"
+        ],
+        "primary_method": "camofox",
+        "status": "active",
+        "type": "general job board"
+      },
+      "source_id": "linkedin.com",
+      "state": "blocked"
+    },
+    {
+      "attempt": 1,
+      "claimed_at": "2026-10-12T00:02:16.778919+00:00",
+      "error": null,
+      "failures": [],
+      "finished_at": "2026-10-12T00:03:27.938724+00:00",
+      "generation": 1,
+      "heartbeat_at": "2026-10-12T00:03:27.708961+00:00",
+      "index": 1,
+      "lease_token": null,
+      "next_retry_at": null,
+      "owner": null,
+      "pid": null,
+      "progress_at": "2026-10-12T00:03:27.366625+00:00",
+      "source": {
+        "adapter": "rolesearch",
+        "adapter_note": "searches every About.md role in each target city instead of one fixed listing URL; measured 2026-09-30 243 unique cards, 0 blocked, ~90s",
+        "adapter_version": 1,
+        "config": {
+          "cities": [
+            "Berlin",
+            "Leipzig",
+            "Dresden"
+          ]
+        },
+        "detail_url_pattern": "Softwaretester QA Testautomatisierung Berlin Leipzig Dresden Deutschland",
+        "direct_card_domains": [
+          "arbeitsagentur.de"
+        ],
+        "domain": "arbeitsagentur.de",
+        "evidence": {
+          "first_seen": "2026-09-24",
+          "last_preflight": null,
+          "last_success": null,
+          "last_verified": "2026-09-24",
+          "url": "https://www.arbeitsagentur.de/jobsuche/"
+        },
+        "fallback_methods": [
+          "Camofox browser session"
+        ],
+        "id": "arbeitsagentur.de",
+        "legacy": {
+          "access_methods": [
+            "public API",
+            "JSON-LD",
+            "browser",
+            "web extraction"
+          ],
+          "domain": "arbeitsagentur.de",
+          "evidence_url": "https://www.arbeitsagentur.de/jobsuche/",
+          "first_seen": "2026-09-24",
+          "last_access_status": "verified-live",
+          "last_verified": "2026-09-24",
+          "name": "Arbeitsagentur Jobsuche",
+          "parent_platform": null,
+          "query_or_url_pattern": "Softwaretester QA Testautomatisierung Berlin Leipzig Dresden Deutschland",
+          "status": "active",
+          "type": "government job board"
+        },
+        "listing_url": "https://www.arbeitsagentur.de/jobsuche/suche?was=Softwaretester&wo=Berlin",
+        "name": "Arbeitsagentur Jobsuche",
+        "preferred_methods": [
+          "crawl4ai markdown render of the Jobsuche result list"
+        ],
+        "primary_method": "crawl4ai",
+        "query_or_url_pattern": "/jobsuche/jobdetail/<hash>-<refnr>-S — result list is a JS app, so the listing and every card are rendered with crawl4ai",
+        "status": "active",
+        "type": "government job board"
+      },
+      "source_id": "arbeitsagentur.de",
+      "state": "complete"
+    },
+    {
+      "attempt": 1,
+      "claimed_at": "2026-10-12T00:02:16.806310+00:00",
+      "error": null,
+      "failures": [],
+      "finished_at": "2026-10-12T00:10:18.847050+00:00",
+      "generation": 1,
+      "heartbeat_at": "2026-10-12T00:10:18.691382+00:00",
+      "index": 2,
+      "lease_token": null,
+      "next_retry_at": null,
+      "owner": null,
+      "pid": null,
+      "progress_at": "2026-10-12T00:10:18.678938+00:00",
+      "source": {
+        "adapter": "stepstone_v1",
+        "adapter_version": 1,
+        "config": {},
+        "detail_url_pattern": "https://www.stepstone.de/jobs?where=<encoded location>&what=<encoded role query>; browser/Camofox sequential listing and direct detail verification",
+        "direct_card_domains": [
+          "stepstone.de"
+        ],
+        "domain": "stepstone.de",
+        "evidence": {
+          "first_seen": "2026-09-24",
+          "last_preflight": "2026-09-28T13:52:58.821286+00:00",
+          "last_run_status": "Not used",
+          "last_success": null,
+          "last_verified": "2026-09-24",
+          "url": "https://www.stepstone.de/jobs/qa-test/in-berlin.html"
+        },
+        "fallback_methods": [
+          "Camofox browser session",
+          "crawl4ai markdown render"
+        ],
+        "id": "stepstone.de",
+        "legacy": {
+          "access_methods": [
+            "browser",
+            "Camofox",
+            "web extraction"
+          ],
+          "domain": "stepstone.de",
+          "evidence_url": "https://www.stepstone.de/jobs/qa-test/in-berlin.html",
+          "first_seen": "2026-09-24",
+          "last_access_status": "verified-live",
+          "last_verified": "2026-09-24",
+          "name": "StepStone",
+          "parent_platform": null,
+          "query_or_url_pattern": "https://www.stepstone.de/jobs?where=<encoded location>&what=<encoded role query>; browser/Camofox sequential listing and direct detail verification",
+          "status": "active",
+          "type": "general job board"
+        },
+        "listing_url": "https://www.stepstone.de/jobs/berlin?q=QA",
+        "name": "StepStone",
+        "preferred_methods": [
+          "HTML listing over plain HTTP; detail pages re-rendered with crawl4ai when the origin cuts the HTTP/2 stream"
+        ],
+        "primary_method": "http",
+        "query_or_url_pattern": "https://www.stepstone.de/jobs/<city>?q=QA — listing is server-rendered HTML; direct cards match /stellenangebote--",
+        "status": "active",
+        "type": "general job board"
+      },
+      "source_id": "stepstone.de",
+      "state": "complete"
+    },
+    {
+      "attempt": 1,
+      "claimed_at": "2026-10-12T00:02:16.822295+00:00",
+      "error": "all independent access methods failed: Camofox preflight: source is readable but offered no QA/test vacancy in the first two cards ('Recruiter (m/w/d)'; 'Initiativbewerbung'). Both pages opened as real postings, so this is not an access failure; the source stays active for a later run. Listing offered 20 direct links.; preflight: fewer than two analyzable direct cards; preflight: source is readable but offered no QA/test vacancy in the first two cards ('Recruiter (m/w/d)'; 'Initiativbewerbung'). Both pages opened and parsed as real postings, so this is not an access failure; the source stays active for a later run.",
+      "failures": [
+        {
+          "at": "2026-10-12T00:07:37.346810+00:00",
+          "attempt": 1,
+          "error": "all independent access methods failed: Camofox preflight: source is readable but offered no QA/test vacancy in the first two cards ('Recruiter (m/w/d)'; 'Initiativbewerbung'). Both pages opened as real postings, so this is not an access failure; the source stays active for a later run. Listing offered 20 direct links.; preflight: fewer than two analyzable direct cards; preflight: source is readable but offered no QA/test vacancy in the first two cards ('Recruiter (m/w/d)'; 'Initiativbewerbung'). Both pages opened and parsed as real postings, so this is not an access failure; the source stays active for a later run."
+        }
+      ],
+      "finished_at": "2026-10-12T00:07:37.346770+00:00",
+      "generation": 1,
+      "heartbeat_at": "2026-10-12T00:07:37.285946+00:00",
+      "index": 3,
+      "lease_token": null,
+      "next_retry_at": null,
+      "owner": null,
+      "pid": null,
+      "progress_at": "2026-10-12T00:07:37.285975+00:00",
+      "source": {
+        "adapter": "xing_v1",
+        "adapter_version": 1,
+        "config": {},
+        "detail_url_pattern": "QA Software Test Engineer Germany last month",
+        "direct_card_domains": [
+          "xing.com"
+        ],
+        "domain": "xing.com",
+        "evidence": {
+          "first_seen": "2026-09-24",
+          "last_preflight": "2026-10-11T22:38:03.396768+00:00",
+          "last_run_status": "Not used",
+          "last_success": null,
+          "last_verified": "2026-09-24",
+          "url": "https://www.xing.com/jobs/search"
+        },
+        "fallback_methods": [
+          "browser",
+          "Camofox",
+          "web extraction"
+        ],
+        "id": "xing.com",
+        "legacy": {
+          "access_methods": [
+            "browser",
+            "Camofox",
+            "web extraction"
+          ],
+          "domain": "xing.com",
+          "evidence_url": "https://www.xing.com/jobs/search",
+          "first_seen": "2026-09-24",
+          "last_access_status": "verified-live",
+          "last_verified": "2026-09-24",
+          "name": "XING Jobs",
+          "parent_platform": null,
+          "query_or_url_pattern": "QA Software Test Engineer Germany last month",
+          "status": "active",
+          "type": "professional network job board"
+        },
+        "listing_url": "https://www.xing.com/jobs/search",
+        "name": "XING Jobs",
+        "preferred_methods": [
+          "browser",
+          "Camofox",
+          "web extraction"
+        ],
+        "primary_method": "camofox",
+        "status": "active",
+        "type": "professional network job board"
+      },
+      "source_id": "xing.com",
+      "state": "blocked"
+    },
+    {
+      "attempt": 1,
+      "claimed_at": "2026-10-12T00:02:16.838909+00:00",
+      "error": "all independent access methods failed: Camofox preflight: source is readable but offered no QA/test vacancy in the first two cards ('Cookies on Hitmarker'; 'Cookies on Hitmarker'). Both pages opened as real postings, so this is not an access failure; the source stays active for a later run. Listing offered 3 direct links.; preflight: fewer than two analyzable direct cards; preflight: fewer than two analyzable direct cards",
+      "failures": [
+        {
+          "at": "2026-10-12T00:06:34.708901+00:00",
+          "attempt": 1,
+          "error": "all independent access methods failed: Camofox preflight: source is readable but offered no QA/test vacancy in the first two cards ('Cookies on Hitmarker'; 'Cookies on Hitmarker'). Both pages opened as real postings, so this is not an access failure; the source stays active for a later run. Listing offered 3 direct links.; preflight: fewer than two analyzable direct cards; preflight: fewer than two analyzable direct cards"
+        }
+      ],
+      "finished_at": "2026-10-12T00:06:34.708863+00:00",
+      "generation": 1,
+      "heartbeat_at": "2026-10-12T00:06:34.653974+00:00",
+      "index": 4,
+      "lease_token": null,
+      "next_retry_at": null,
+      "owner": null,
+      "pid": null,
+      "progress_at": "2026-10-12T00:06:34.654005+00:00",
+      "source": {
+        "adapter": "hitmarker_v1",
+        "adapter_version": 1,
+        "config": {},
+        "detail_url_pattern": "QA game tester Germany",
+        "direct_card_domains": [
+          "hitmarker.net"
+        ],
+        "domain": "hitmarker.net",
+        "evidence": {
+          "first_seen": "2026-09-24",
+          "last_preflight": "2026-10-11T22:38:03.396780+00:00",
+          "last_run_status": "Not used",
+          "last_success": null,
+          "last_verified": "2026-09-24",
+          "url": "https://hitmarker.net/jobs"
+        },
+        "fallback_methods": [
+          "crawl4ai markdown render",
+          "plain HTTP"
+        ],
+        "id": "hitmarker.net",
+        "legacy": {
+          "access_methods": [
+            "browser",
+            "web extraction"
+          ],
+          "domain": "hitmarker.net",
+          "evidence_url": "https://hitmarker.net/jobs",
+          "first_seen": "2026-09-24",
+          "last_access_status": "verified-live",
+          "last_verified": "2026-09-24",
+          "name": "Hitmarker",
+          "parent_platform": null,
+          "query_or_url_pattern": "QA game tester Germany",
+          "status": "active",
+          "type": "gamedev job board"
+        },
+        "listing_url": "https://hitmarker.net/jobs",
+        "name": "Hitmarker",
+        "preferred_methods": [
+          "Camofox browser session — the jobs index is a client-rendered app and returns no card links over plain HTTP"
+        ],
+        "primary_method": "camofox",
+        "query_or_url_pattern": "/jobs/<category> — cards are rendered client-side; HTTP HTML contains zero /job/ links",
+        "status": "active",
+        "type": "gamedev job board"
+      },
+      "source_id": "hitmarker.net",
+      "state": "blocked"
+    },
+    {
+      "attempt": 1,
+      "claimed_at": "2026-10-12T00:02:16.863595+00:00",
+      "error": "all independent access methods failed: 'utf-8' codec can't decode byte 0xc3 in position 3: invalid continuation byte; 'utf-8' codec can't decode byte 0xc3 in position 3: invalid continuation byte; preflight: fewer than two analyzable direct cards; Camofox returned an empty snapshot",
+      "failures": [
+        {
+          "at": "2026-10-12T00:05:08.323542+00:00",
+          "attempt": 1,
+          "error": "all independent access methods failed: 'utf-8' codec can't decode byte 0xc3 in position 3: invalid continuation byte; 'utf-8' codec can't decode byte 0xc3 in position 3: invalid continuation byte; preflight: fewer than two analyzable direct cards; Camofox returned an empty snapshot"
+        }
+      ],
+      "finished_at": "2026-10-12T00:05:08.323500+00:00",
+      "generation": 1,
+      "heartbeat_at": "2026-10-12T00:05:08.112882+00:00",
+      "index": 5,
+      "lease_token": null,
+      "next_retry_at": null,
+      "owner": null,
+      "pid": null,
+      "progress_at": "2026-10-12T00:05:08.112913+00:00",
+      "source": {
+        "adapter": "remotive_v1",
+        "adapter_version": 1,
+        "config": {},
+        "detail_url_pattern": "https://remotive.com/api/remote-jobs?search=QA (filter category=Quality Assurance; location=Germany; direct card URL https://remotive.com/remote/jobs/qa/<slug>-<id>)",
+        "direct_card_domains": [
+          "remotive.com"
+        ],
+        "domain": "remotive.com",
+        "evidence": {
+          "first_seen": "2026-09-24",
+          "last_preflight": "2026-10-10T13:12:53.005482+00:00",
+          "last_run_status": "Not used",
+          "last_success": null,
+          "last_verified": "2026-09-24",
+          "url": "https://remotive.com/remote/jobs/qa/software-tester-5925120"
+        },
+        "fallback_methods": [
+          "public API",
+          "web extraction",
+          "browser"
+        ],
+        "id": "remotive.com",
+        "legacy": {
+          "access_methods": [
+            "public API",
+            "web extraction",
+            "browser"
+          ],
+          "domain": "remotive.com",
+          "evidence_url": "https://remotive.com/remote/jobs/qa/software-tester-5925120",
+          "first_seen": "2026-09-24",
+          "last_access_status": "verified-live",
+          "last_verified": "2026-09-24",
+          "name": "Remotive",
+          "parent_platform": null,
+          "query_or_url_pattern": "https://remotive.com/api/remote-jobs?search=QA (filter category=Quality Assurance; location=Germany; direct card URL https://remotive.com/remote/jobs/qa/<slug>-<id>)",
+          "status": "active",
+          "type": "remote job board/API"
+        },
+        "listing_url": "https://remotive.com/api/remote-jobs?search=QA",
+        "name": "Remotive",
+        "preferred_methods": [
+          "public API",
+          "web extraction",
+          "browser"
+        ],
+        "primary_method": "api",
+        "status": "active",
+        "type": "remote job board/API"
+      },
+      "source_id": "remotive.com",
+      "state": "blocked"
+    },
+    {
+      "attempt": 1,
+      "claimed_at": "2026-10-12T00:02:16.883955+00:00",
+      "error": "all independent access methods failed: 'utf-8' codec can't decode byte 0x9b in position 0: invalid start byte; 'utf-8' codec can't decode byte 0x9b in position 0: invalid start byte; preflight: fewer than two analyzable direct cards; Camofox preflight: fewer than two analyzable direct cards",
+      "failures": [
+        {
+          "at": "2026-10-12T00:05:26.106013+00:00",
+          "attempt": 1,
+          "error": "all independent access methods failed: 'utf-8' codec can't decode byte 0x9b in position 0: invalid start byte; 'utf-8' codec can't decode byte 0x9b in position 0: invalid start byte; preflight: fewer than two analyzable direct cards; Camofox preflight: fewer than two analyzable direct cards"
+        }
+      ],
+      "finished_at": "2026-10-12T00:05:26.105970+00:00",
+      "generation": 1,
+      "heartbeat_at": "2026-10-12T00:05:25.990935+00:00",
+      "index": 6,
+      "lease_token": null,
+      "next_retry_at": null,
+      "owner": null,
+      "pid": null,
+      "progress_at": "2026-10-12T00:05:25.990963+00:00",
+      "source": {
+        "adapter": "arbeitnow_v1",
+        "adapter_version": 1,
+        "config": {},
+        "detail_url_pattern": "https://www.arbeitnow.com/api/job-board-api (filter JSON records by title/description/location for QA, Software Test, Test Automation, Germany, Berlin, Leipzig, Dresden, remote)",
+        "direct_card_domains": [
+          "arbeitnow.com"
+        ],
+        "domain": "arbeitnow.com",
+        "evidence": {
+          "first_seen": "2026-09-24",
+          "last_preflight": "2026-10-10T13:12:53.005492+00:00",
+          "last_run_status": "Not used",
+          "last_success": null,
+          "last_verified": "2026-09-24",
+          "url": "https://www.arbeitnow.com/api/job-board-api"
+        },
+        "fallback_methods": [
+          "public API",
+          "web extraction"
+        ],
+        "id": "arbeitnow.com",
+        "legacy": {
+          "access_methods": [
+            "public API",
+            "web extraction"
+          ],
+          "domain": "arbeitnow.com",
+          "evidence_url": "https://www.arbeitnow.com/api/job-board-api",
+          "first_seen": "2026-09-24",
+          "last_access_status": "verified-live",
+          "last_verified": "2026-09-24",
+          "name": "Arbeitnow Job Board API",
+          "parent_platform": null,
+          "query_or_url_pattern": "https://www.arbeitnow.com/api/job-board-api (filter JSON records by title/description/location for QA, Software Test, Test Automation, Germany, Berlin, Leipzig, Dresden, remote)",
+          "status": "active",
+          "type": "aggregated job board/API"
+        },
+        "listing_url": "https://www.arbeitnow.com/api/job-board-api",
+        "name": "Arbeitnow Job Board API",
+        "preferred_methods": [
+          "public API",
+          "web extraction"
+        ],
+        "primary_method": "api",
+        "status": "active",
+        "type": "aggregated job board/API"
+      },
+      "source_id": "arbeitnow.com",
+      "state": "blocked"
+    },
+    {
+      "attempt": 1,
+      "claimed_at": "2026-10-12T00:02:16.911923+00:00",
+      "error": "all independent access methods failed: not well-formed (invalid token): line 1, column 0; preflight: fewer than two analyzable direct cards; Camofox returned an empty snapshot",
+      "failures": [
+        {
+          "at": "2026-10-12T00:11:05.134976+00:00",
+          "attempt": 1,
+          "error": "all independent access methods failed: not well-formed (invalid token): line 1, column 0; preflight: fewer than two analyzable direct cards; Camofox returned an empty snapshot"
+        }
+      ],
+      "finished_at": "2026-10-12T00:11:05.134940+00:00",
+      "generation": 1,
+      "heartbeat_at": "2026-10-12T00:11:05.112043+00:00",
+      "index": 7,
+      "lease_token": null,
+      "next_retry_at": null,
+      "owner": null,
+      "pid": null,
+      "progress_at": "2026-10-12T00:11:05.112073+00:00",
+      "source": {
+        "adapter": "rss_v1",
+        "adapter_version": 1,
+        "config": {},
+        "detail_url_pattern": "https://germantechjobs.de/rss (fetch current feed; filter title+description for Softwaretester, Software Tester, QA Engineer, Quality Assurance, Test Engineer, Testautomatisierung, Qualitätssicherung; direct card pattern https://germantechjobs.de/jobs/<slug>)",
+        "direct_card_domains": [
+          "germantechjobs.de"
+        ],
+        "domain": "germantechjobs.de",
+        "evidence": {
+          "first_seen": "2026-09-24",
+          "last_preflight": "2026-10-10T13:12:53.005501+00:00",
+          "last_run_status": "Not used",
+          "last_success": null,
+          "last_verified": "2026-09-24",
+          "url": "https://germantechjobs.de/jobs/Communi5-Technologies-GmbH-Senior-QA-Engineer"
+        },
+        "fallback_methods": [
+          "public RSS",
+          "web extraction",
+          "browser"
+        ],
+        "id": "germantechjobs.de",
+        "legacy": {
+          "access_methods": [
+            "public RSS",
+            "web extraction",
+            "browser"
+          ],
+          "domain": "germantechjobs.de",
+          "evidence_url": "https://germantechjobs.de/jobs/Communi5-Technologies-GmbH-Senior-QA-Engineer",
+          "first_seen": "2026-09-24",
+          "last_access_status": "verified-live",
+          "last_verified": "2026-09-24",
+          "name": "GermanTechJobs",
+          "parent_platform": null,
+          "query_or_url_pattern": "https://germantechjobs.de/rss (fetch current feed; filter title+description for Softwaretester, Software Tester, QA Engineer, Quality Assurance, Test Engineer, Testautomatisierung, Qualitätssicherung; direct card pattern https://germantechjobs.de/jobs/<slug>)",
+          "status": "active",
+          "type": "German technology job board / RSS"
+        },
+        "listing_url": "https://germantechjobs.de/rss",
+        "name": "GermanTechJobs",
+        "preferred_methods": [
+          "public RSS",
+          "web extraction",
+          "browser"
+        ],
+        "primary_method": "api",
+        "status": "active",
+        "type": "German technology job board / RSS"
+      },
+      "source_id": "germantechjobs.de",
+      "state": "blocked"
+    },
+    {
+      "attempt": 1,
+      "claimed_at": "2026-10-12T00:02:16.958726+00:00",
+      "error": "all independent access methods failed: preflight: source is readable but offered no QA/test vacancy in the first two cards ('Senior Software Engineer - System Test (GPU) - Arm, Lund'; 'Satellite Systems, Software & RF Production Team Lead - ICEYE, Valencia'). Both pages opened and parsed as real postings, so this is not an access failure; the source stays active for a later run.; preflight: fewer than two analyzable direct cards; Camofox preflight: source is readable but offered no QA/test vacancy in the first two cards ('Senior Software Engineer - System Test (GPU)'; 'Satellite Systems, Software & RF Production Team Lead'). Both pages opened as real postings, so this is not an access failure; the source stays active for a later run. Listing offered 22 direct links.",
+      "failures": [
+        {
+          "at": "2026-10-12T00:06:10.138229+00:00",
+          "attempt": 1,
+          "error": "all independent access methods failed: preflight: source is readable but offered no QA/test vacancy in the first two cards ('Senior Software Engineer - System Test (GPU) - Arm, Lund'; 'Satellite Systems, Software & RF Production Team Lead - ICEYE, Valencia'). Both pages opened and parsed as real postings, so this is not an access failure; the source stays active for a later run.; preflight: fewer than two analyzable direct cards; Camofox preflight: source is readable but offered no QA/test vacancy in the first two cards ('Senior Software Engineer - System Test (GPU)'; 'Satellite Systems, Software & RF Production Team Lead'). Both pages opened as real postings, so this is not an access failure; the source stays active for a later run. Listing offered 22 direct links."
+        }
+      ],
+      "finished_at": "2026-10-12T00:06:10.138189+00:00",
+      "generation": 1,
+      "heartbeat_at": "2026-10-12T00:06:10.019194+00:00",
+      "index": 8,
+      "lease_token": null,
+      "next_retry_at": null,
+      "owner": null,
+      "pid": null,
+      "progress_at": "2026-10-12T00:06:10.019224+00:00",
+      "source": {
+        "adapter": "html_v1",
+        "adapter_version": 1,
+        "config": {},
+        "detail_url_pattern": "https://www.eurotechjobs.com/jobs/test_analyst and https://www.eurotechjobs.com/jobs/germany; intersect/filter cards for Germany, Berlin, Leipzig, Dresden, or Germany-wide remote; direct cards /job_display/<id>/<slug>",
+        "direct_card_domains": [
+          "eurotechjobs.com"
+        ],
+        "domain": "eurotechjobs.com",
+        "evidence": {
+          "first_seen": "2026-09-24",
+          "last_preflight": "2026-10-11T22:38:03.396796+00:00",
+          "last_run_status": "Not used",
+          "last_success": null,
+          "last_verified": "2026-09-24",
+          "url": "https://www.eurotechjobs.com/job_display/295774/Senior_Software_Tester_BlackBerry_Dsseldorf_Germany"
+        },
+        "fallback_methods": [
+          "public HTML listing",
+          "direct card web extraction",
+          "curl"
+        ],
+        "id": "eurotechjobs.com",
+        "legacy": {
+          "access_methods": [
+            "public HTML listing",
+            "direct card web extraction",
+            "curl"
+          ],
+          "domain": "eurotechjobs.com",
+          "evidence_url": "https://www.eurotechjobs.com/job_display/295774/Senior_Software_Tester_BlackBerry_Dsseldorf_Germany",
+          "first_seen": "2026-09-24",
+          "last_access_status": "verified-live-direct-card",
+          "last_verified": "2026-09-24",
+          "name": "EuroTechJobs Test Analyst / Germany",
+          "parent_platform": "EuroJobsites",
+          "query_or_url_pattern": "https://www.eurotechjobs.com/jobs/test_analyst and https://www.eurotechjobs.com/jobs/germany; intersect/filter cards for Germany, Berlin, Leipzig, Dresden, or Germany-wide remote; direct cards /job_display/<id>/<slug>",
+          "status": "active",
+          "type": "European technology job board"
+        },
+        "listing_url": "https://www.eurotechjobs.com/jobs/test_analyst",
+        "name": "EuroTechJobs Test Analyst / Germany",
+        "preferred_methods": [
+          "public HTML listing",
+          "direct card web extraction",
+          "curl"
+        ],
+        "primary_method": "http",
+        "status": "active",
+        "type": "European technology job board"
+      },
+      "source_id": "eurotechjobs.com",
+      "state": "blocked"
+    },
+    {
+      "attempt": 1,
+      "claimed_at": "2026-10-12T00:02:16.980870+00:00",
+      "error": null,
+      "failures": [],
+      "finished_at": "2026-10-12T00:02:20.620758+00:00",
+      "generation": 1,
+      "heartbeat_at": "2026-10-12T00:02:20.347255+00:00",
+      "index": 9,
+      "lease_token": null,
+      "next_retry_at": null,
+      "owner": null,
+      "pid": null,
+      "progress_at": "2026-10-12T00:02:20.303491+00:00",
+      "source": {
+        "adapter": "adzuna_v1",
+        "adapter_version": 1,
+        "config": {},
+        "detail_url_pattern": "https://www.adzuna.de/search?q=<urlencoded German QA query>&loc=<location-id>; city discovery /berlin/<query>, /leipzig/<query>, /dresden/<query>; pagination &p=<page>",
+        "direct_card_domains": [
+          "adzuna.de"
+        ],
+        "domain": "adzuna.de",
+        "evidence": {
+          "first_seen": "2026-09-24",
+          "last_preflight": null,
+          "last_success": null,
+          "last_verified": "2026-09-24",
+          "url": "https://www.adzuna.de/land/ad/5887258708?title=QM_Pr%C3%BCfer_%28m%2Fw%2Fd%29"
+        },
+        "fallback_methods": [
+          "Camofox browser session",
+          "crawl4ai markdown render"
+        ],
+        "id": "adzuna.de",
+        "last_access_status": "verified-live",
+        "legacy": {
+          "access_methods": [
+            "browser",
+            "Camofox",
+            "web extraction"
+          ],
+          "domain": "adzuna.de",
+          "evidence_url": "https://www.adzuna.de/land/ad/5887258708?title=QM_Pr%C3%BCfer_%28m%2Fw%2Fd%29",
+          "first_seen": "2026-09-24",
+          "last_access_status": "verified-live-browser-and-web-extract",
+          "last_verified": "2026-09-24",
+          "name": "Adzuna Deutschland",
+          "parent_platform": null,
+          "query_or_url_pattern": "https://www.adzuna.de/search?q=<urlencoded German QA query>&loc=<location-id>; city discovery /berlin/<query>, /leipzig/<query>, /dresden/<query>; pagination &p=<page>",
+          "status": "active",
+          "type": "German general/aggregated job board"
+        },
+        "listing_url": "https://www.adzuna.de/berlin/qa-engineer",
+        "name": "Adzuna Deutschland",
+        "notes": "HTTP 403 anti-bot on listing and detail even through a rendered browser session; stays active and is retried daily",
+        "preferred_methods": [
+          "HTML listing with a complete browser header set (CloudFront WAF blocks incomplete headers with 403)"
+        ],
+        "primary_method": "http",
+        "query_or_url_pattern": "/berlin/<query> — cards are /details/<numeric-id>; editorial /details/<slug> pages must be excluded",
+        "status": "active",
+        "type": "German general/aggregated job board"
+      },
+      "source_id": "adzuna.de",
+      "state": "complete"
+    }
+  ],
+  "max_workers": 10,
+  "schema_version": 2,
+  "updated_at": "2026-10-12T00:11:05.134986+00:00"
+}

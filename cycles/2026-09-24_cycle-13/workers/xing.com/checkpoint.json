@@ -1,0 +1,9 @@
+{
+  "completed_operations": [],
+  "cycle_id": "workers",
+  "next_operation": 0,
+  "schema_version": 2,
+  "source_id": "xing.com",
+  "state": "claimed",
+  "updated_at": "2026-09-24T23:16:30.805391+00:00"
+}

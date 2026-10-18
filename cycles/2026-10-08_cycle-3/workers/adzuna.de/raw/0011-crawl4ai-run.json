@@ -1,0 +1,6 @@
+{
+  "url": "https://www.adzuna.de/land/ad/5912482164?se=JvZYoEzD8RG97c1msiT4yg&title=Senior_QA_Engineer_%28w%2Fm%2Fd%29_mit_Fokus_auf_Mobile_Testing_-_Zasta_GmbH&v=CEC0EA998ACDCE049650302AB35897EF4BAC9B27",
+  "returncode": 1,
+  "stdout": "",
+  "stderr": "[INIT].... → Crawl4AI 0.9.4 \n[FETCH]... ↓ https://www.adzuna.de/land/ad/5912482164?se=JvZY..._GmbH&v=CEC0EA998ACDCE049650302AB35897EF4BAC9B27  | ✓ | ⏱: 0.50s \n[SCRAPE].. ◆ https://www.adzuna.de/land/ad/5912482164?se=JvZY..._GmbH&v=CEC0EA998ACDCE049650302AB35897EF4BAC9B27  | ✓ | ⏱: 0.01s \n[ERROR]... × https://www.adzuna.de/l...650302AB35897EF4BAC9B27  | Error: Blocked by anti-bot protection: HTTP 403 with HTML content (923 bytes) \n[COMPLETE] ● https://www.adzuna.de/land/ad/5912482164?se=JvZY..._GmbH&v=CEC0EA998ACDCE049650302AB35897EF4BAC9B27  | ✗ | ⏱: 0.54s \n✗ 爬取失败: Blocked by anti-bot protection: HTTP 403 with HTML content (923 bytes)\n"
+}

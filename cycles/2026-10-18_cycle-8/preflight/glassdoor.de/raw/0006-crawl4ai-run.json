@@ -1,0 +1,7 @@
+{
+  "url": "https://www.glassdoor.de/Job/index.htm",
+  "attempt": 1,
+  "returncode": 0,
+  "stdout": "✓ 页面已保存到 /opt/data/qa-vacancy-project/cycles/2026-10-18_cycle-8/preflight/glassdoor.de/raw/crawl4ai-card-https-www-glassdoor-de-Job-index-htm.md\n  标题: Empfohlene Jobs für dich | Glassdoor Job-Suche\n  链接数: 189\n",
+  "stderr": "[INIT].... → Crawl4AI 0.9.4 \n[FETCH]... ↓ https://www.glassdoor.de/Job/index.htm                                                               | ✓ | ⏱: 12.81s \n[SCRAPE].. ◆ https://www.glassdoor.de/Job/index.htm                                                               | ✓ | ⏱: 0.18s \n[COMPLETE] ● https://www.glassdoor.de/Job/index.htm                                                               | ✓ | ⏱: 13.22s \n"
+}

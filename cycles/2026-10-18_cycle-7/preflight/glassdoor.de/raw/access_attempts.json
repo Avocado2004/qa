@@ -1,0 +1,18 @@
+{
+  "attempts": [
+    {
+      "at": "2026-10-18T12:51:59.589914+00:00",
+      "error": "preflight: fewer than two analyzable direct cards",
+      "method": "api",
+      "status": "failed"
+    },
+    {
+      "at": "2026-10-18T12:52:00.077587+00:00",
+      "error": "preflight: fewer than two analyzable direct cards",
+      "method": "http",
+      "status": "failed"
+    }
+  ],
+  "cycle_id": "2026-10-18_cycle-7",
+  "source_id": "glassdoor.de"
+}

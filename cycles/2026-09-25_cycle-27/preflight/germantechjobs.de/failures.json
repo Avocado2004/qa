@@ -1,0 +1,11 @@
+{
+  "cycle_id": "2026-09-25_cycle-27",
+  "failures": [
+    {
+      "at": "2026-09-25T08:43:48.509447+00:00",
+      "error": "all independent access methods failed: Expecting value: line 1 column 1 (char 0); Camofox HTTP 500 for POST /tabs; [Errno 2] No such file or directory: 'mcporter'; preflight: fewer than two analyzable direct cards"
+    }
+  ],
+  "schema_version": 2,
+  "source_id": "germantechjobs.de"
+}

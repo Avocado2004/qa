@@ -1,0 +1,30 @@
+{
+  "attempts": [
+    {
+      "at": "2026-09-25T12:44:33.919024+00:00",
+      "error": "Camofox preflight: fewer than two analyzable direct cards",
+      "method": "camofox",
+      "status": "failed"
+    },
+    {
+      "at": "2026-09-25T12:45:14.888055+00:00",
+      "error": "mcporter Exa web_search_exa failed (1): I key.\\n\\nFix: Create API key at https://dashboard.exa.ai/api-keys , then either:\\n- Set the header: Authorization: Bearer YOUR_EXA_API_KEY\\n- Or use the URL: https://mcp.exa.ai/mcp?exaApiKey=YOUR_EXA_API_KEY\"},\"id\":null}\n    at StreamableHTTPClientTransport.send (file:///opt/data/.npm-global/lib/node_modules/mcporter/node_modules/@modelcontextprotocol/sdk/dist/esm/client/streamableHttp.js:364:23)\n    at process.processTicksAndRejections (node:internal/process/task_queues:104:5) {\n  code: 429\n}\n",
+      "method": "exa",
+      "status": "failed"
+    },
+    {
+      "at": "2026-09-25T12:45:56.274952+00:00",
+      "error": "Crawl4AI failed (1): l: minimal_text on small page (529 bytes, 14 chars visible) \n[COMPLETE] ● https://www.stepstone.de/jobs/qa-test/in-berlin.html                                                 | ✗ | ⏱: 2.29s \n✗ 爬取失败: Blocked by anti-bot protection: Structural: minimal_text on small page (529 bytes, 14 chars visible)\n",
+      "method": "crawl4ai",
+      "status": "failed"
+    },
+    {
+      "at": "2026-09-25T12:45:56.640192+00:00",
+      "error": "preflight: fewer than two analyzable direct cards",
+      "method": "http",
+      "status": "failed"
+    }
+  ],
+  "cycle_id": "2026-09-25_cycle-32",
+  "source_id": "stepstone.de"
+}

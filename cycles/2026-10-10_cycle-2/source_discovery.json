@@ -1,0 +1,86 @@
+{
+  "additions": [],
+  "created_at": "2026-10-10T13:06:48.099442+00:00",
+  "cycle_id": "2026-10-10_cycle-2",
+  "evidence": {
+    "live_retrieval": "completed",
+    "model_evidence": [
+      {
+        "source": "arbeitsagentur.de",
+        "supporting_snippets": [
+          "Arbeitsort: Berlin ... QA Engineer Plant Compliance – Chicken",
+          "Mitarbeiter Qualitätssicherung (m/w/d) ... Arbeitsort: Berlin",
+          "Senior QA Engineer (m/w/d) bei camPoint AG ... Leipzig",
+          "Softwareentwickler mit dem Schwerpunkt Testautomatisierung (m/w/d) ... Landesamt",
+          "Teamleiter - Testautomatisierung (m/w/d) ... Arbeitsort: Berlin"
+        ],
+        "verified": true
+      },
+      {
+        "source": "linkedin.com",
+        "supporting_snippets": [
+          "QA-Engineer (w/m/d). SupplyOn. Dresden.",
+          "TEST ANALYST / QA ENGINEER W/M/D IN BERLIN. Quirin Privatbank AG.",
+          "Softwaretester (m/w/d). Robotron Datenbank-Software GmbH. Dresden ... Leipzig.",
+          "Leipzig Vor 1 Tag. R&D Engineer Testing (m/w/d).",
+          "Berlin ... Manual Software Tester ... Leipzig ... Software Test Engineer (m/f/d)."
+        ],
+        "verified": true
+      },
+      {
+        "source": "stepstone.de",
+        "supporting_snippets": [
+          "Qa-engineer: 9 Jobs & Stellenangebote in Dresden",
+          "Qa Engineer Jobs in Leipzig: Stellenangebote",
+          "Qa Engineer: 19 Jobs & Stellenangebote in Berlin",
+          "27 Treffer für Quality Assurance Engineer Jobs in Berlin ... TOSCA Test Automation Engineer",
+          "Softwaretester/in: 10 Jobs & Stellenangebote in Dresden",
+          "Softwaretester: 13 Jobs & Stellenangebote in Berlin"
+        ],
+        "verified": true
+      },
+      {
+        "source": "adzuna.de",
+        "supporting_snippets": [
+          "Quality Assurance Engineer (m/w/d) - remote DE - Adzuna.de"
+        ],
+        "verified": true
+      },
+      {
+        "source": "germantechjobs.de",
+        "supporting_snippets": [
+          "QA, Softwaretester Stellenangebote in Leipzig ... transparente Stellen mit Gehalt-Info",
+          "QA, Softwaretester Stellenangebote in Berlin ... transparente Stellen mit Gehalt-Info",
+          "Senior QA Engineer Stelle bei Communi5 Technologies GmbH in Berlin. 40.000 - 80.000 € pro Jahr.",
+          "Remote QA, Softwaretester Stellenangebote in Deutschland ... transparente Stellen",
+          "Test Analyst (m/w/d) Stelle bei Secunet Security Networks AG in Dresden. 60.000 - 90.000 € pro Jahr.",
+          "Remote Embedded Systems Test Engineer (m/w/d) Stelle bei RX-Systems GmbH (100% Remote). 55.000 - 70.000 € pro Jahr."
+        ],
+        "verified": true
+      },
+      {
+        "reason": "Live retrieval evidence shows only crossword puzzle sites, no QA/test vacancy cards for target locations.",
+        "source": "eurotechjobs.com",
+        "verified": false
+      },
+      {
+        "reason": "Live retrieval evidence shows unrelated geographic content (Sargstedter Warte), no QA/test vacancy cards.",
+        "source": "remotive.com",
+        "verified": false
+      },
+      {
+        "reason": "Live retrieval evidence shows adult content sites, no QA/test vacancy cards.",
+        "source": "hitmarker.net",
+        "verified": false
+      },
+      {
+        "reason": "Live retrieval evidence shows adult content sites, no QA/test vacancy cards.",
+        "source": "arbeitnow.com",
+        "verified": false
+      }
+    ],
+    "retrieval_artifact": "/opt/data/qa-vacancy-project/cycles/2026-10-10_cycle-2/source_discovery_retrieval.json",
+    "retrieved_result_count": 214
+  },
+  "verdict": "pass"
+}

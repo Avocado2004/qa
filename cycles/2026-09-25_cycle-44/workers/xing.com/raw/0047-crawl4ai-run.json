@@ -1,0 +1,6 @@
+{
+  "url": "https://www.xing.com/jobs/buchs-betriebsmitarbeiter-100-147561885",
+  "returncode": 0,
+  "stdout": "✓ 页面已保存到 /opt/data/qa-vacancy-project/cycles/2026-09-25_cycle-44/workers/xing.com/raw/crawl4ai-card-https-www-xing-com-jobs-buchs-betriebsmitarbeiter-100-147561885.md\n  标题: Betriebsmitarbeiter/in 100% (m/w/d) in Buchs SG | XING Jobs\n  链接数: 39\n",
+  "stderr": "[INIT].... → Crawl4AI 0.9.4 \n[FETCH]... ↓ https://www.xing.com/jobs/buchs-betriebsmitarbeiter-100-147561885                                    | ✓ | ⏱: 2.11s \n[SCRAPE].. ◆ https://www.xing.com/jobs/buchs-betriebsmitarbeiter-100-147561885                                    | ✓ | ⏱: 0.24s \n[COMPLETE] ● https://www.xing.com/jobs/buchs-betriebsmitarbeiter-100-147561885                                    | ✓ | ⏱: 2.44s \n"
+}

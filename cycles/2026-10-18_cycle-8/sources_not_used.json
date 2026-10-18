@@ -1,0 +1,37 @@
+{
+  "at": "2026-10-18T13:02:49.603694+00:00",
+  "cycle_id": "2026-10-18_cycle-8",
+  "schema_version": 2,
+  "sources": [
+    {
+      "reason": "preflight blocked: all independent access methods failed: preflight: no card carries vacancy body text (a title alone is not a posting) -- 2 opened but all are indexes/teasers (card-1: 'Qualitätsingenieur KI-Fokus / Quality Engineer (AI-augmented) (m/w/d) IT-Consulting' (0 chars); card-2: '(Senior) Quality Engineer (m",
+      "source_id": "de.indeed.com",
+      "status": "Not used"
+    },
+    {
+      "reason": "preflight blocked: all independent access methods failed: 'utf-8' codec can't decode byte 0xb7 in position 1: invalid start byte; 'utf-8' codec can't decode byte 0xb7 in position 1: invalid start byte; preflight: fewer than two analyzable direct cards; Camofox HTTP 404 for POST /tabs/b1939e3a-21c6-4eae-bc61-57d98fc1c1",
+      "source_id": "remotive.com",
+      "status": "Not used"
+    },
+    {
+      "reason": "preflight blocked: all independent access methods failed: 'utf-8' codec can't decode byte 0xcb in position 0: invalid continuation byte; 'utf-8' codec can't decode byte 0xcb in position 0: invalid continuation byte; preflight: fewer than two analyzable direct cards; Camofox preflight: fewer than two analyzable direct ",
+      "source_id": "arbeitnow.com",
+      "status": "Not used"
+    },
+    {
+      "reason": "preflight blocked: all independent access methods failed: not well-formed (invalid token): line 1, column 0; preflight: fewer than two analyzable direct cards; Camofox returned an empty snapshot",
+      "source_id": "germantechjobs.de",
+      "status": "Not used"
+    },
+    {
+      "reason": "preflight blocked: all independent access methods failed: preflight: fewer than two analyzable direct cards; preflight: fewer than two analyzable direct cards; preflight: no card carries vacancy body text (a title alone is not a posting) -- 2 opened but all are indexes/teasers (card-1: 'Glassdoor' (3328 chars); card-2",
+      "source_id": "glassdoor.de",
+      "status": "Not used"
+    },
+    {
+      "reason": "preflight blocked: all independent access methods failed: preflight: fewer than two analyzable direct cards; preflight: fewer than two analyzable direct cards; Crawl4AI failed after 3 attempts: rc=1  × https://www.monster.de/...ineer&where=Deutschland  | Error: Blocked by anti-bot protection: DataDome captcha \n[COMPLE",
+      "source_id": "monster.de",
+      "status": "Not used"
+    }
+  ]
+}

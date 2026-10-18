@@ -1,0 +1,24 @@
+{
+  "attempts": [
+    {
+      "at": "2026-09-29T00:12:06.893293+00:00",
+      "error": "not well-formed (invalid token): line 1, column 0",
+      "method": "http",
+      "status": "failed"
+    },
+    {
+      "at": "2026-09-29T00:15:07.287822+00:00",
+      "error": "Command '['/opt/data/.venv/bin/crawl4ai-skill', 'crawl', 'https://germantechjobs.de/rss', '--format', 'raw_markdown', '--output', '/opt/data/qa-vacancy-project/cycles/2026-09-29_cycle-1/preflight/germantechjobs.de/raw/crawl4ai-listing.md', '--timeout', '60']' timed out after 180 seconds",
+      "method": "crawl4ai",
+      "status": "failed"
+    },
+    {
+      "at": "2026-09-29T00:16:12.091276+00:00",
+      "error": "Camofox returned an empty snapshot",
+      "method": "camofox",
+      "status": "failed"
+    }
+  ],
+  "cycle_id": "2026-09-29_cycle-1",
+  "source_id": "germantechjobs.de"
+}

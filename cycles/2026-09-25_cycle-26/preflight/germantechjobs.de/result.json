@@ -1,0 +1,13 @@
+{
+  "cycle_id": "2026-09-25_cycle-26",
+  "failures": [
+    {
+      "at": "2026-09-25T07:34:01.953360+00:00",
+      "attempt": 1,
+      "error": "all independent access methods failed: Expecting value: line 1 column 1 (char 0); Camofox HTTP 500 for POST /tabs; No module named 'httpx'; preflight: fewer than two analyzable direct cards"
+    }
+  ],
+  "schema_version": 2,
+  "source_id": "germantechjobs.de",
+  "state": "blocked"
+}

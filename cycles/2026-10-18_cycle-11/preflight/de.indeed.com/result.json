@@ -1,0 +1,13 @@
+{
+  "cycle_id": "2026-10-18_cycle-11",
+  "failures": [
+    {
+      "at": "2026-10-18T14:22:07.935039+00:00",
+      "attempt": 1,
+      "error": "all independent access methods failed: preflight: no card carries vacancy body text (a title alone is not a posting) -- 2 opened but all are indexes/teasers (card-1: 'Qualitätsingenieur KI-Fokus / Quality Engineer (AI-augmented) (m/w/d) IT-Consulting' (0 chars); card-2: '(Senior) Quality Engineer (m/w/d)' (0 chars)). About.md requires two analyzable vacancy cards.; preflight: fewer than two analyzable direct cards; Camofox preflight: fewer than two analyzable direct cards"
+    }
+  ],
+  "schema_version": 2,
+  "source_id": "de.indeed.com",
+  "state": "blocked"
+}

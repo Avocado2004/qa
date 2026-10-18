@@ -1,0 +1,6 @@
+{
+  "url": "https://www.arbeitsagentur.de/jobsuche/jobdetail/10001-1003658566-S",
+  "title": "Engineer (m/w/d) Software Quality Assurance | Jobsuche der BA",
+  "content": "[Bundesagentur für Arbeit bringt weiter](https://www.arbeitsagentur.de/ \"zur Startseite der Bundesagentur für Arbeit\")\nZur Jobsuche Startseite\n\n# Stellenangebot: Engineer (m/w/d) Software Quality Assurance bei Diehl Aviation Gilching GmbH\n## Das Wichtigste im Überblick\n### Arbeitsort\nDresden\n\n### Angebotsart\nArbeit\n\n### Anstellungsart\nVollzeit\n\n### Befristung\nunbefristet\n\n### Beginn\nab sofort\n\n...\n\n### Berufsbezeichnung\n#### Das sind Ihre Aufgaben:\n* Sie vermitteln Ihr Fachwissen in internen Schulungen zu Software-Lebenszyklusprozessen und Luftfahrtstandards\n\n...\n\n##### Das bringen Sie mit:\nKarte anzeigen\n\n...\n\nWenn Sie diese sehen möchten, lösen Sie bitte die [Sicherheitsfrage](https://www.arbeitsagentur.de/jobsuche/jobdetail/10001-1003658566-S) und laden Sie das PDF erneut.\n\n## Informationen zur Bewerbung ## Fußbereich\nStelle betreut durch Arbeitgeber\nReferenz-Nr.: 10001-1003658566-S\nVerstoß melden",
+  "error": null
+}

@@ -1,0 +1,6 @@
+{
+  "url": "https://www.adzuna.de/land/ad/5904079596?se=6HUriSLI8RG70aZorYIKYw&title=Senior_QA_Manager_-_Android_%26_iOS_Apps_%28m%2Ff%2Fd%29&v=A7CBA53A7CD07B2D8AB3D27EA98342FC805ACEE8",
+  "returncode": 1,
+  "stdout": "",
+  "stderr": "[INIT].... → Crawl4AI 0.9.4 \n[FETCH]... ↓ https://www.adzuna.de/land/ad/5904079596?se=6HUr.../f/d)&v=A7CBA53A7CD07B2D8AB3D27EA98342FC805ACEE8  | ✓ | ⏱: 1.24s \n[SCRAPE].. ◆ https://www.adzuna.de/land/ad/5904079596?se=6HUr.../f/d)&v=A7CBA53A7CD07B2D8AB3D27EA98342FC805ACEE8  | ✓ | ⏱: 0.10s \n[ERROR]... × https://www.adzuna.de/l...AB3D27EA98342FC805ACEE8  | Error: Blocked by anti-bot protection: HTTP 403 with HTML content (923 bytes) \n[COMPLETE] ● https://www.adzuna.de/land/ad/5904079596?se=6HUr.../f/d)&v=A7CBA53A7CD07B2D8AB3D27EA98342FC805ACEE8  | ✗ | ⏱: 1.39s \n✗ 爬取失败: Blocked by anti-bot protection: HTTP 403 with HTML content (923 bytes)\n"
+}

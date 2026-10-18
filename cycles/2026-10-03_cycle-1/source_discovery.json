@@ -1,0 +1,93 @@
+{
+  "additions": [
+    {
+      "domain": "remotely.de",
+      "listing_url": "https://www.remotely.de/remote-jobs/bereich/quality-assurance",
+      "name": "Remotely.de",
+      "observed_detail_urls": [
+        "https://www.remotely.de/job/cendas-gmbh-software-tester-qa-engineer-saas-mfd-remote-home-office",
+        "https://www.remotely.de/job/doozer-real-estate-systems-gmbh-qatest-automation-engineer-all-genders-remote-eu"
+      ],
+      "scope": "explicit Germany-wide remote QA/testing",
+      "status": "active",
+      "type": "remote job board"
+    }
+  ],
+  "created_at": "2026-10-03T00:12:01.760451+00:00",
+  "cycle_id": "2026-10-03_cycle-1",
+  "evidence": {
+    "live_retrieval": "completed",
+    "model_evidence": [
+      {
+        "decision": "accepted",
+        "direct_cards": [
+          {
+            "location_scope": "Remote, explicitly Germany only",
+            "title": "Software Tester / QA Engineer – SaaS (m/f/d) remote (Home-Office)",
+            "url": "https://www.remotely.de/job/cendas-gmbh-software-tester-qa-engineer-saas-mfd-remote-home-office"
+          },
+          {
+            "location_scope": "Fully remote, explicitly Germany only",
+            "title": "QA/Test Automation Engineer (all genders) - Remote - EU",
+            "url": "https://www.remotely.de/job/doozer-real-estate-systems-gmbh-qatest-automation-engineer-all-genders-remote-eu"
+          }
+        ],
+        "domain": "remotely.de",
+        "listing_evidence": "The retrieved title reports 12 open Quality Assurance remote jobs in Germany.",
+        "listing_url": "https://www.remotely.de/remote-jobs/bereich/quality-assurance",
+        "reason": "The supplied retrieval exposes a real Germany-focused QA listing plus individual QA/test vacancy pages. Both direct cards are explicitly remote and limited to Germany."
+      },
+      {
+        "decision": "rejected",
+        "domains": [
+          "jobs.heise.de",
+          "stellenonline.de",
+          "jooble.org",
+          "glassdoor.de"
+        ],
+        "reason": "The retrieval exposes category/listing pages and job-title snippets, but no direct individual vacancy-card URLs. Listing snippets alone do not meet the direct-card evidence requirement."
+      },
+      {
+        "decision": "rejected",
+        "domains": [
+          "jobs-daheim.de",
+          "trabajo.org"
+        ],
+        "reason": "Individual Dresden or Berlin vacancy pages were retrieved, but the evidence does not expose a corresponding independently searchable listing/API for the source."
+      },
+      {
+        "decision": "rejected",
+        "domains": [
+          "fourenergy.de",
+          "bundesdruckerei.de",
+          "quodata.de",
+          "vonardenne.de",
+          "teqs-consulting.com"
+        ],
+        "reason": "These are employer career pages without a current, direct QA/test vacancy card in the supplied evidence."
+      },
+      {
+        "decision": "rejected",
+        "domains": [
+          "windhoff-group.de",
+          "touch.ferchau.com"
+        ],
+        "reason": "The observed roles are outside Berlin, Leipzig, and Dresden, and the evidence does not establish explicit Germany-wide remote eligibility."
+      },
+      {
+        "decision": "duplicate",
+        "domains": [
+          "linkedin.com",
+          "stepstone.de",
+          "arbeitsagentur.de",
+          "germantechjobs.de",
+          "de.indeed.com"
+        ],
+        "reason": "Relevant evidence was already represented in the supplied registry; Indeed is currently marked retired."
+      }
+    ],
+    "retrieval_artifact": "/opt/data/qa-vacancy-project/cycles/2026-10-03_cycle-1/source_discovery_retrieval.json",
+    "retrieved_result_count": 143
+  },
+  "verdict": "pass"
+}

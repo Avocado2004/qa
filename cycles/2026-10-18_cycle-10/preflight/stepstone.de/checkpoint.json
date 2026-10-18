@@ -1,0 +1,34 @@
+{
+  "completed_operations": [
+    {
+      "chars": 65690,
+      "evidence": "/opt/data/qa-vacancy-project/cycles/2026-10-18_cycle-10/preflight/stepstone.de/raw/0002-listing-snapshot.json",
+      "op": "listing",
+      "url": "https://www.stepstone.de/jobs/berlin?q=QA"
+    },
+    {
+      "chars": 23391,
+      "evidence": "/opt/data/qa-vacancy-project/cycles/2026-10-18_cycle-10/preflight/stepstone.de/raw/0003-card-1-snapshot.json",
+      "op": "card-1",
+      "url": "https://www.stepstone.de/stellenangebote--QA-Engineer-m-w-d-Lueneburg-evasys-GmbH--14557256-inline.html"
+    },
+    {
+      "chars": 65690,
+      "evidence": "/opt/data/qa-vacancy-project/cycles/2026-10-18_cycle-10/preflight/stepstone.de/raw/0004-return-snapshot.json",
+      "op": "return",
+      "url": "https://www.stepstone.de/jobs/berlin?q=QA"
+    },
+    {
+      "chars": 23160,
+      "evidence": "/opt/data/qa-vacancy-project/cycles/2026-10-18_cycle-10/preflight/stepstone.de/raw/0005-card-2-snapshot.json",
+      "op": "card-2",
+      "url": "https://www.stepstone.de/stellenangebote--QA-Engineer-gn-Langenfeld-Rheinland-Control-Expert-GmbH--14556958-inline.html"
+    }
+  ],
+  "cycle_id": "2026-10-18_cycle-10",
+  "next_operation": 4,
+  "schema_version": 2,
+  "source_id": "stepstone.de",
+  "state": "complete",
+  "updated_at": "2026-10-18T14:04:59.935166+00:00"
+}

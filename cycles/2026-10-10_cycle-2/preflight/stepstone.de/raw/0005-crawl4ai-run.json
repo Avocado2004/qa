@@ -1,0 +1,7 @@
+{
+  "url": "https://www.stepstone.de/stellenangebote--QA-Engineer-m-w-d-Karlsruhe-Muenchen-Berlin-finanzen-net-zero-GmbH--14587011-inline.html",
+  "attempt": 1,
+  "returncode": 0,
+  "stdout": "✓ 页面已保存到 /opt/data/qa-vacancy-project/cycles/2026-10-10_cycle-2/preflight/stepstone.de/raw/crawl4ai-card-llenangebote-QA-Engineer-m-w-d-Karlsruhe-Muenchen-Berlin-finanzen-net-zero-GmbH-14587011-inline-html.md\n  标题: QA Engineer (m/w/d) - Feste Anstellung, Vollzeit, Homeoffice Job in Karlsruhe, München, Berlin\n  链接数: 48\n",
+  "stderr": "[INIT].... → Crawl4AI 0.9.4 \n[FETCH]... ↓ https://www.stepstone.de/stellenangebote--QA-Eng...lin-finanzen-net-zero-GmbH--14587011-inline.html  | ✓ | ⏱: 16.03s \n[SCRAPE].. ◆ https://www.stepstone.de/stellenangebote--QA-Eng...lin-finanzen-net-zero-GmbH--14587011-inline.html  | ✓ | ⏱: 0.26s \n[COMPLETE] ● https://www.stepstone.de/stellenangebote--QA-Eng...lin-finanzen-net-zero-GmbH--14587011-inline.html  | ✓ | ⏱: 16.42s \n"
+}

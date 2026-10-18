@@ -1,0 +1,53 @@
+{
+  "status": "pass",
+  "access_method": "camofox_gateway",
+  "cards_found": 10,
+  "cards_analyzable": 2,
+  "browser_health": {
+    "start": {
+      "ok": true,
+      "profile": "camoufox"
+    },
+    "health": {
+      "ok": true,
+      "engine": "camoufox",
+      "browserConnected": true,
+      "browserRunning": true,
+      "activeTabs": 0,
+      "activeSessions": 0,
+      "consecutiveFailures": 0,
+      "memory": {
+        "rssMb": 119,
+        "heapUsedMb": 45,
+        "nativeMemMb": 74
+      }
+    },
+    "smoke_snapshot_chars": 237
+  },
+  "operations": [
+    {
+      "op": "listing",
+      "url": "https://www.linkedin.com/jobs-guest/jobs/api/seeMoreJobPostings/search?keywords=QA&location=Germany&f_TPR=r2592000&start=0",
+      "chars": 6097,
+      "evidence": "/opt/data/qa-vacancy-project/cycles/2026-09-24_cycle-17/preflight/linkedin.com/raw/0002-listing-snapshot.json"
+    },
+    {
+      "op": "card-1",
+      "url": "https://de.linkedin.com/jobs/view/junior-qa-engineer-software-tester-m-w-d-%E2%80%93-produktqualit%C3%A4t-testautomatisierung-at-check24-4433870576?position=1&pageNum=0&refId=J%2BWaDJ6ZYfxa8OwQzkVLkQ%3D%3D",
+      "chars": 25818,
+      "evidence": "/opt/data/qa-vacancy-project/cycles/2026-09-24_cycle-17/preflight/linkedin.com/raw/0003-card-1-snapshot.json"
+    },
+    {
+      "op": "return",
+      "url": "https://www.linkedin.com/jobs-guest/jobs/api/seeMoreJobPostings/search?keywords=QA&location=Germany&f_TPR=r2592000&start=0",
+      "chars": 6085,
+      "evidence": "/opt/data/qa-vacancy-project/cycles/2026-09-24_cycle-17/preflight/linkedin.com/raw/0004-return-snapshot.json"
+    },
+    {
+      "op": "card-2",
+      "url": "https://de.linkedin.com/jobs/view/quality-assurance-engineer-m-w-d-at-hochtief-4455268504?position=2&pageNum=0&refId=J%2BWaDJ6ZYfxa8OwQzkVLkQ%3D%3D",
+      "chars": 24014,
+      "evidence": "/opt/data/qa-vacancy-project/cycles/2026-09-24_cycle-17/preflight/linkedin.com/raw/0005-card-2-snapshot.json"
+    }
+  ]
+}

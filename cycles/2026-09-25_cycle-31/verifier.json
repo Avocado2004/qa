@@ -1,0 +1,14 @@
+{
+  "checked_at": "2026-09-25T12:30:57.859613+00:00",
+  "cycle_id": "2026-09-25_cycle-31",
+  "errors": [
+    "invalid work mode: https://de.linkedin.com/jobs/view/software-engineer-in-test-berlin-at-cresta-4343158227",
+    "invalid work mode: https://de.linkedin.com/jobs/view/senior-technical-qa-tester-f-m-d-at-kolibri-games-4460476943",
+    "invalid work mode: https://de.linkedin.com/jobs/view/senior-it-consultant-testmanagement-all-genders-at-adesso-se-3733042109",
+    "invalid work mode: https://www.empfehlungsbund.de/job/304651",
+    "invalid work mode: https://www.linkedin.com/jobs/view/4402988237"
+  ],
+  "rows": 56,
+  "schema_version": 2,
+  "verdict": "FAIL"
+}

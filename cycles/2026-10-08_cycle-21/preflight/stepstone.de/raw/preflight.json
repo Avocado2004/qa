@@ -1,0 +1,39 @@
+{
+  "checked_at": "2026-10-08T22:20:12.516788+00:00",
+  "evidence": {
+    "access_method": "base",
+    "attempts": [
+      {
+        "method": "http",
+        "status": "pass"
+      }
+    ],
+    "cards_analyzable": 2,
+    "cards_found": 25,
+    "operations": [
+      {
+        "op": "listing",
+        "status": 200
+      },
+      {
+        "chars": 6721,
+        "op": "card-1",
+        "url": "https://www.stepstone.de/stellenangebote--QA-Engineer-Filialsysteme-m-w-d-Ulm-Mueller-Holding-GmbH-Co-KG--14529940-inline.html"
+      },
+      {
+        "op": "return",
+        "status": 200
+      },
+      {
+        "chars": 8774,
+        "op": "card-2",
+        "url": "https://www.stepstone.de/stellenangebote--QA-Engineer-m-w-d-Karlsruhe-Muenchen-Berlin-finanzen-net-zero-GmbH--14587011-inline.html"
+      }
+    ],
+    "portal_pages_skipped": [],
+    "primary_or_fallback": "http",
+    "status": "pass"
+  },
+  "listing": "https://www.stepstone.de/jobs/berlin?q=QA",
+  "verdict": "PASS"
+}

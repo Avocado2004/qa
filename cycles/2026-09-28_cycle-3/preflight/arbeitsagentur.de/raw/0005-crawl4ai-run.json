@@ -1,0 +1,6 @@
+{
+  "url": "https://www.arbeitsagentur.de/jobsuche/jobdetail/12811-2344134-S",
+  "returncode": 0,
+  "stdout": "✓ 页面已保存到 /opt/data/qa-vacancy-project/cycles/2026-09-28_cycle-3/preflight/arbeitsagentur.de/raw/crawl4ai-card-https-www-arbeitsagentur-de-jobsuche-jobdetail-12811-2344134-S.md\n  标题: Softwaretester (m/w/d) Testautomatisierung,Bamberg,Berlin,Eltville am Rhein,München | Jobsuche der BA\n  链接数: 4\n",
+  "stderr": "[INIT].... → Crawl4AI 0.9.4 \n[FETCH]... ↓ https://www.arbeitsagentur.de/jobsuche/jobdetail/12811-2344134-S                                     | ✓ | ⏱: 7.82s \n[SCRAPE].. ◆ https://www.arbeitsagentur.de/jobsuche/jobdetail/12811-2344134-S                                     | ✓ | ⏱: 0.27s \n[COMPLETE] ● https://www.arbeitsagentur.de/jobsuche/jobdetail/12811-2344134-S                                     | ✓ | ⏱: 8.69s \n"
+}

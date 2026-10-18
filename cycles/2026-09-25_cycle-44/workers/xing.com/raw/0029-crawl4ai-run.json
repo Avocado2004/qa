@@ -1,0 +1,6 @@
+{
+  "url": "https://www.xing.com/jobs/nordhausen-initiativbewerbung-mitarbeiter-nordhausen-umgebung-157684889",
+  "returncode": 0,
+  "stdout": "✓ 页面已保存到 /opt/data/qa-vacancy-project/cycles/2026-09-25_cycle-44/workers/xing.com/raw/crawl4ai-card-https-www-xing-com-jobs-nordhausen-initiativbewerbung-mitarbeiter-nordhausen-umgebung-157684889.md\n  标题: Initiativbewerbung Mitarbeiter (m/w/d) Nordhausen und Umgebung in Nordhausen | XING Jobs\n  链接数: 41\n",
+  "stderr": "[INIT].... → Crawl4AI 0.9.4 \n[FETCH]... ↓ https://www.xing.com/jobs/nordhausen-initiativbewerbung-mitarbeiter-nordhausen-umgebung-157684889    | ✓ | ⏱: 2.84s \n[SCRAPE].. ◆ https://www.xing.com/jobs/nordhausen-initiativbewerbung-mitarbeiter-nordhausen-umgebung-157684889    | ✓ | ⏱: 0.29s \n[COMPLETE] ● https://www.xing.com/jobs/nordhausen-initiativbewerbung-mitarbeiter-nordhausen-umgebung-157684889    | ✓ | ⏱: 3.22s \n"
+}

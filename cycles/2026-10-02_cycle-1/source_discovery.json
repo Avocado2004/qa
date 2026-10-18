@@ -1,0 +1,219 @@
+{
+  "additions": [
+    {
+      "card_evidence": [
+        "Deutsche Rentenversicherung Bund — Softwaretester (m/w/d) Testautomatisierung",
+        "SOFTWARE QUALITY ASSURANCE TESTER"
+      ],
+      "eligible_scope": [
+        "Berlin"
+      ],
+      "id": "jobs.heise.de",
+      "listing_urls": [
+        "https://jobs.heise.de/softwareentwicklung/jobs/softwaretester-in-berlin",
+        "https://jobs.heise.de/softwareentwicklung/jobs/softwaretester"
+      ],
+      "name": "Heise Jobs",
+      "type": "technology job board"
+    },
+    {
+      "card_evidence": [
+        "Test Automation Engineer",
+        "Head of Test Fields (f/m/d)",
+        "IT Consultant (m/w/d) Software Testing / Test Automation im Pega Umfeld"
+      ],
+      "eligible_scope": [
+        "Berlin"
+      ],
+      "id": "stellenonline.de",
+      "listing_urls": [
+        "https://www.stellenonline.de/tester-jobs-in-berlin"
+      ],
+      "name": "Stellenonline",
+      "type": "job board"
+    },
+    {
+      "card_evidence": [
+        "GeneralMind — Quality Assurance Engineer (Berlin)",
+        "360Dialog — QA Automation Engineer",
+        "Team Lead Quality Assurance & Testautomatisierung (w/m/d) — Leipzig"
+      ],
+      "eligible_scope": [
+        "Berlin",
+        "Germany-wide remote"
+      ],
+      "id": "glassdoor.de",
+      "listing_urls": [
+        "https://www.glassdoor.de/Job/berlin-software-testing-jobs-SRCH_IL.0,6_IC2622109_KO7,23.htm",
+        "https://www.glassdoor.de/Job/deutschland-remote-qa-jobs-SRCH_IL.0,11_IN96_KO12,21.htm"
+      ],
+      "name": "Glassdoor",
+      "type": "general and aggregated job board"
+    },
+    {
+      "card_evidence": [
+        "SEDIWORK — Leipzig — (Junior) QA Engineer/Software-Tester (m/w/d) - Produktqualität & Testautomatisierung"
+      ],
+      "eligible_scope": [
+        "Leipzig"
+      ],
+      "id": "de.jooble.org",
+      "listing_urls": [
+        "https://de.jooble.org/stellenangebote-qa-game-tester",
+        "https://de.jooble.org/stellenangebote-game-tester/Leipzig"
+      ],
+      "name": "Jooble",
+      "type": "aggregated job board"
+    },
+    {
+      "card_evidence": [
+        "Software Tester / QA Engineer – SaaS (m/f/d) remote (Home-Office) — Nur Deutschland",
+        "QA/Test Automation Engineer (all genders) - Remote - EU — Vollständig remote, Nur Deutschland"
+      ],
+      "direct_card_urls": [
+        "https://www.remotely.de/job/cendas-gmbh-software-tester-qa-engineer-saas-mfd-remote-home-office",
+        "https://www.remotely.de/job/doozer-real-estate-systems-gmbh-qatest-automation-engineer-all-genders-remote-eu"
+      ],
+      "eligible_scope": [
+        "Germany-wide remote"
+      ],
+      "id": "remotely.de",
+      "listing_urls": [
+        "https://www.remotely.de/remote-jobs/bereich/quality-assurance"
+      ],
+      "name": "Remotely",
+      "type": "remote job board"
+    }
+  ],
+  "created_at": "2026-10-02T00:22:54.296020+00:00",
+  "cycle_id": "2026-10-02_cycle-1",
+  "evidence": {
+    "live_retrieval": "completed",
+    "model_evidence": [
+      {
+        "detail": "Only the supplied live_retrieval_evidence URLs, titles and snippets are used; no additional browsing is asserted.",
+        "source": "_retrieval_basis",
+        "status": "note"
+      },
+      {
+        "card_evidence": [
+          "Deutsche Rentenversicherung Bund — Softwaretester (m/w/d) Testautomatisierung",
+          "SOFTWARE QUALITY ASSURANCE TESTER"
+        ],
+        "detail": "The supplied Berlin result states 9 Softwaretester jobs and exposes these named vacancy-card entries.",
+        "eligible_scope": [
+          "Berlin"
+        ],
+        "listing_urls": [
+          "https://jobs.heise.de/softwareentwicklung/jobs/softwaretester-in-berlin",
+          "https://jobs.heise.de/softwareentwicklung/jobs/softwaretester"
+        ],
+        "source": "jobs.heise.de",
+        "status": "qualified"
+      },
+      {
+        "card_evidence": [
+          "Test Automation Engineer",
+          "Head of Test Fields (f/m/d)",
+          "IT Consultant (m/w/d) Software Testing / Test Automation im Pega Umfeld"
+        ],
+        "detail": "The supplied result identifies a current tester listing in Berlin and exposes these named software-testing entries.",
+        "eligible_scope": [
+          "Berlin"
+        ],
+        "listing_urls": [
+          "https://www.stellenonline.de/tester-jobs-in-berlin"
+        ],
+        "source": "stellenonline.de",
+        "status": "qualified"
+      },
+      {
+        "card_evidence": [
+          "GeneralMind — Quality Assurance Engineer (Berlin)",
+          "Almedia — QA Lead",
+          "360Dialog — QA Automation Engineer",
+          "Team Lead Quality Assurance & Testautomatisierung (w/m/d) — Leipzig"
+        ],
+        "detail": "The supplied Berlin result reports 237 software-testing jobs and names QA entries; the separate Germany result reports 308 remote-QA jobs and includes a Leipzig QA/Testautomatisierung entry.",
+        "eligible_scope": [
+          "Berlin",
+          "Germany-wide remote"
+        ],
+        "listing_urls": [
+          "https://www.glassdoor.de/Job/berlin-software-testing-jobs-SRCH_IL.0,6_IC2622109_KO7,23.htm",
+          "https://www.glassdoor.de/Job/deutschland-remote-qa-jobs-SRCH_IL.0,11_IN96_KO12,21.htm"
+        ],
+        "source": "glassdoor.de",
+        "status": "qualified"
+      },
+      {
+        "card_evidence": [
+          "SEDIWORK — Leipzig — (Junior) QA Engineer/Software-Tester (m/w/d) - Produktqualität & Testautomatisierung"
+        ],
+        "detail": "The supplied QA/game-tester result exposes a named QA Engineer/Software-Tester card in Leipzig, and a Leipzig-specific listing is also supplied.",
+        "eligible_scope": [
+          "Leipzig"
+        ],
+        "listing_urls": [
+          "https://de.jooble.org/stellenangebote-qa-game-tester",
+          "https://de.jooble.org/stellenangebote-game-tester/Leipzig"
+        ],
+        "source": "de.jooble.org",
+        "status": "qualified"
+      },
+      {
+        "card_evidence": [
+          "Software Tester / QA Engineer – SaaS (m/f/d) remote (Home-Office) — Nur Deutschland",
+          "QA/Test Automation Engineer (all genders) - Remote - EU — Vollständig remote, Nur Deutschland"
+        ],
+        "detail": "The supplied category result reports 12 open Germany remote QA positions, and two supplied direct card URLs explicitly state Germany-only remote eligibility. This host is distinct from the registered remotive.com source.",
+        "direct_card_urls": [
+          "https://www.remotely.de/job/cendas-gmbh-software-tester-qa-engineer-saas-mfd-remote-home-office",
+          "https://www.remotely.de/job/doozer-real-estate-systems-gmbh-qatest-automation-engineer-all-genders-remote-eu"
+        ],
+        "eligible_scope": [
+          "Germany-wide remote"
+        ],
+        "listing_urls": [
+          "https://www.remotely.de/remote-jobs/bereich/quality-assurance"
+        ],
+        "source": "remotely.de",
+        "status": "qualified"
+      },
+      {
+        "detail": "The supplied results for arbeitsagentur.de, stepstone.de, linkedin.com and germantechjobs.de correspond to active registry entries. de.indeed.com is explicitly retired and is not re-added.",
+        "source": "registry",
+        "status": "deduplicated"
+      },
+      {
+        "items": [
+          {
+            "reason": "The supplied pages are Germany-wide QA listings, but no Berlin, Leipzig or Dresden card, or explicit Germany-wide remote card, is exposed.",
+            "source": "devjobs.de"
+          },
+          {
+            "reason": "The supplied software-tester listing names roles but exposes no allowed location or explicit Germany-wide remote condition.",
+            "source": "metajop.de"
+          },
+          {
+            "reason": "The supplied results expose counts and broad quality categories, not a concrete direct software QA/test card in an allowed scope.",
+            "source": "jobvector.de"
+          },
+          {
+            "reason": "A direct Dresden Softwaretester card is exposed, but no separate source listing or API is exposed.",
+            "source": "jobs-daheim.de"
+          },
+          {
+            "reason": "The exposed QA/QC card is Electrical and does not establish a software QA/test vacancy under the registry scope.",
+            "source": "dresdner-jobanzeiger.de"
+          }
+        ],
+        "source": "screened_candidates",
+        "status": "not_added"
+      }
+    ],
+    "retrieval_artifact": "/opt/data/qa-vacancy-project/cycles/2026-10-02_cycle-1/source_discovery_retrieval.json",
+    "retrieved_result_count": 144
+  },
+  "verdict": "pass"
+}

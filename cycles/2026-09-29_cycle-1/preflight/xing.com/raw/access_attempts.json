@@ -1,0 +1,24 @@
+{
+  "attempts": [
+    {
+      "at": "2026-09-29T00:13:20.266716+00:00",
+      "error": "Camofox HTTP 500 for GET /tabs/d229293b-09ae-452c-9610-7f9bf734325f/snapshot",
+      "method": "camofox",
+      "status": "failed"
+    },
+    {
+      "at": "2026-09-29T00:16:19.253048+00:00",
+      "error": "preflight: source is readable but offered no QA/test vacancy in the first two cards ('Recruiter (m/w/d)'; 'Initiativbewerbung'). Both pages opened and parsed as real postings, so this is not an access failure; the source stays active for a later run.",
+      "method": "crawl4ai",
+      "status": "failed"
+    },
+    {
+      "at": "2026-09-29T00:16:23.077093+00:00",
+      "error": "preflight: source is readable but offered no QA/test vacancy in the first two cards ('Recruiter (m/w/d)'; 'Initiativbewerbung'). Both pages opened and parsed as real postings, so this is not an access failure; the source stays active for a later run.",
+      "method": "http",
+      "status": "failed"
+    }
+  ],
+  "cycle_id": "2026-09-29_cycle-1",
+  "source_id": "xing.com"
+}

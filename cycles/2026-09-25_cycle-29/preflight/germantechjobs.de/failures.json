@@ -1,0 +1,11 @@
+{
+  "cycle_id": "2026-09-25_cycle-29",
+  "failures": [
+    {
+      "at": "2026-09-25T09:25:52.024023+00:00",
+      "error": "all independent access methods failed: Expecting value: line 1 column 1 (char 0); Camofox HTTP 500 for POST /tabs; Exa returned fewer than two direct cards; preflight: fewer than two analyzable direct cards"
+    }
+  ],
+  "schema_version": 2,
+  "source_id": "germantechjobs.de"
+}

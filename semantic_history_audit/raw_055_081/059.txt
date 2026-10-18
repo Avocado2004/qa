@@ -1,0 +1,6 @@
+{
+  "url": "https://de.linkedin.com/jobs/view/test-automation-engineer-m-w-d-at-medifox-dan-4463397741",
+  "title": "K-tronik GmbH hiring Software Test Engineer (m/w/x) - Sichere Kommunikation in Dresden, Saxony, Germany | LinkedIn",
+  "content": "# Software Test Engineer (m/w/x) - Sichere Kommunikation\n## [K-tronik GmbH](https://de.linkedin.com/company/k-tronik-gmbh?trk=public_jobs_topcard-org-name) Dresden, Saxony, Germany\n### Use AI to assess how you fit\n* Kenntnisse in Testmanagement (Testmethoden, Test-/Integrationsstrategien, Testentwurfsmethoden)\n* Kenntnisse in Konfigurationsverwaltungssystemen (z.B. Git)\n* Erfahrungen im Bereich Betriebssysteme (insbesondere Netzwerktechnik) und Hardware Kenntnissen (HiL Systeme, Signalanalysen) wünschenswert\n\n...\n\n* 360° Betreuung: Feedbackgespräche, Karriereplanung, Unterstützung bei Umzug, etc.\n* Seniority level\nAssociate\n* Employment type\nFull-time\n* Job function\nEngineering\n* Industries\nIT Services and IT Consulting\n\n...\n\n## Explore top content on LinkedIn\nFind curated posts and insights for relevant topics all in one place.\n[View top content](https://www.linkedin.com/top-content/)\nKnow when new jobs open up\nNever miss a job alert with the new LinkedIn app for Windows.\nGet the app",
+  "error": null
+}

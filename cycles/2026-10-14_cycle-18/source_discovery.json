@@ -1,0 +1,41 @@
+{
+  "additions": [],
+  "created_at": "2026-10-14T23:31:56.135199+00:00",
+  "cycle_id": "2026-10-14_cycle-18",
+  "evidence": {
+    "live_retrieval": "completed",
+    "model_evidence": [
+      {
+        "location": "Leipzig",
+        "snippet": "Software Tester / Testautomatisierer (m/w/d). Deloitte GmbH. Arbeitsort: Leipzig",
+        "source": "arbeitsagentur.de",
+        "type": "direct vacancy card",
+        "url": "https://www.arbeitsagentur.de/jobsuche/suche?suchbereich=jobs&was=Software%20Tester%2Fin"
+      },
+      {
+        "location": "Germany (remote/homeoffice)",
+        "snippet": "Integration Test Engineer (w/m/d).",
+        "source": "arbeitsagentur.de",
+        "type": "direct vacancy card",
+        "url": "https://www.arbeitsagentur.de/jobsuche/suche?suchbereich=jobs&was=Dekra&homeoffice=prozentual_0"
+      },
+      {
+        "location": "Leipzig",
+        "snippet": "Senior QA Engineer (m/w/d) bei camPoint AG.",
+        "source": "arbeitsagentur.de",
+        "type": "direct vacancy card",
+        "url": "https://www.arbeitsagentur.de/jobsuche/suche?suchbereich=jobs&was=Kultur&arbeitszeit=vz&homeoffice=prozentual_0"
+      },
+      {
+        "location": "Germany",
+        "snippet": "Softwaretester (w/m/d). Generalzolldirektion.",
+        "source": "arbeitsagentur.de",
+        "type": "direct vacancy card",
+        "url": "https://www.arbeitsagentur.de/jobsuche/suche?suchbereich=jobs&was=Beamter%2FBeamtin&homeoffice=prozentual_0"
+      }
+    ],
+    "retrieval_artifact": "/opt/data/qa-vacancy-project/cycles/2026-10-14_cycle-18/source_discovery_retrieval.json",
+    "retrieved_result_count": 59
+  },
+  "verdict": "pass"
+}

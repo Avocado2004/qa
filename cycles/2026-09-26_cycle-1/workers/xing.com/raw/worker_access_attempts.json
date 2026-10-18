@@ -1,0 +1,24 @@
+{
+  "attempts": [
+    {
+      "at": "2026-09-26T00:22:00.609743+00:00",
+      "error": "Camofox transport failed for DELETE /tabs/6e78cba4-ebbf-4a36-80d3-af9dbd7c756d: <urlopen error [Errno 111] Connection refused>",
+      "method": "camofox",
+      "status": "failed"
+    },
+    {
+      "at": "2026-09-26T00:24:01.985459+00:00",
+      "error": "preflight: detail pages are portal pages, not vacancies (card-1: 'Recruiter (m/w/d)'; card-2: 'Initiativbewerbung'). Listing offered 19 direct links; two real vacancy cards are required.",
+      "method": "crawl4ai",
+      "status": "failed"
+    },
+    {
+      "at": "2026-09-26T00:24:02.732551+00:00",
+      "error": "preflight: fewer than two analyzable direct cards",
+      "method": "http",
+      "status": "failed"
+    }
+  ],
+  "cycle_id": "2026-09-26_cycle-1",
+  "source_id": "xing.com"
+}

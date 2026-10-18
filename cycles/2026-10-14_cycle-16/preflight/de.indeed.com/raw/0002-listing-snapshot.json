@@ -1,0 +1,5 @@
+{
+  "url": "https://de.indeed.com/jobs?q=QA+Engineer&l=Berlin",
+  "tab_id": "3f228e46-96cf-48f6-8062-77b7a057d944",
+  "snapshot": "- navigation:\n  - link \"Indeed Home\":\n    - /url: https://www.indeed.com/\n    - img \"Indeed logo\"\n  - link \"Sign in\":\n    - /url: https://secure.indeed.com/account/login?hl=en&continue=https%3A%2F%2Fwww.indeed.com\n  - button \"Primary navigation\"\n- main:\n  - heading \"Additional Verification Required\" [level=1]\n  - paragraph: Your Ray ID for this request is a4aa2aac1b76cc1b\n  - main:\n    - heading [level=2]\n    - paragraph\n  - link \"Return home →\":\n    - /url: https://www.indeed.com/\n  - paragraph:\n    - link \"Troubleshooting Cloudflare Errors\":\n      - /url: https://www.indeed.com/help/job-seekers/articles/33465379855501-cloudflare-errors-basic-troubleshooting?hl=en\n  - paragraph:\n    - text: Need more help?\n    - link \"Contact us\":\n      - /url: https://www.indeed.com/support/contact"
+}

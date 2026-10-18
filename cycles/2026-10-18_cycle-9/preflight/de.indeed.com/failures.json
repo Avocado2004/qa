@@ -1,0 +1,11 @@
+{
+  "cycle_id": "2026-10-18_cycle-9",
+  "failures": [
+    {
+      "at": "2026-10-18T13:19:16.755471+00:00",
+      "error": "all independent access methods failed: preflight: no card carries vacancy body text (a title alone is not a posting) -- 2 opened but all are indexes/teasers (card-1: 'QA Lead' (0 chars); card-2: 'Senior QA Engineer (All genders)' (0 chars)). About.md requires two analyzable vacancy cards.; preflight: fewer than two analyzable direct cards; Camofox preflight: fewer than two analyzable direct cards"
+    }
+  ],
+  "schema_version": 2,
+  "source_id": "de.indeed.com"
+}

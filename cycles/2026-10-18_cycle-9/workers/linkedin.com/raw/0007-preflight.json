@@ -1,0 +1,27 @@
+{
+  "status": "pass",
+  "access_method": "crawl4ai",
+  "cards_found": 10,
+  "cards_analyzable": 2,
+  "portal_pages_skipped": [],
+  "operations": [
+    {
+      "op": "listing",
+      "status": 200
+    },
+    {
+      "op": "card-1",
+      "url": "https://de.linkedin.com/jobs/view/junior-qa-engineer-software-tester-m-w-d-%E2%80%93-produktqualit%C3%A4t-testautomatisierung-at-check24-4433870576?position=1&pageNum=0&refId=cDT9Yu0S070w4PRZORCLUA%3D%3D",
+      "chars": 15502
+    },
+    {
+      "op": "return",
+      "status": 200
+    },
+    {
+      "op": "card-2",
+      "url": "https://de.linkedin.com/jobs/view/senior-quality-engineer-checkout-payments-m-w-d-at-shopware-4477997035?position=2&pageNum=0&refId=cDT9Yu0S070w4PRZORCLUA%3D%3D",
+      "chars": 14164
+    }
+  ]
+}

@@ -1,0 +1,33 @@
+{
+  "status": "pass",
+  "access_method": "camofox_gateway",
+  "cards_found": 20,
+  "cards_analyzable": 2,
+  "deep_scan_needed": true,
+  "operations": [
+    {
+      "op": "listing",
+      "url": "https://www.xing.com/jobs/search",
+      "chars": 15658,
+      "evidence": "/opt/data/qa-vacancy-project/cycles/2026-10-14_cycle-12/workers/xing.com/raw/0002-listing-snapshot.json"
+    },
+    {
+      "op": "card-1",
+      "url": "https://www.jobware.de/job/sales-manager-m-w-d-digitale-recruitingloesungen.2066332625.html?jw_chl_seg=kt_nwse",
+      "chars": 17920,
+      "evidence": "/opt/data/qa-vacancy-project/cycles/2026-10-14_cycle-12/workers/xing.com/raw/0003-card-1-snapshot.json"
+    },
+    {
+      "op": "return",
+      "url": "https://www.xing.com/jobs/search",
+      "chars": 15253,
+      "evidence": "/opt/data/qa-vacancy-project/cycles/2026-10-14_cycle-12/workers/xing.com/raw/0004-return-snapshot.json"
+    },
+    {
+      "op": "card-2",
+      "url": "https://www.xing.com/jobs/hamburg-initiativbewerbung-158553995",
+      "chars": 11617,
+      "evidence": "/opt/data/qa-vacancy-project/cycles/2026-10-14_cycle-12/workers/xing.com/raw/0005-card-2-snapshot.json"
+    }
+  ]
+}

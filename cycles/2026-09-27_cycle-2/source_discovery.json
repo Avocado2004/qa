@@ -1,0 +1,94 @@
+{
+  "additions": [
+    {
+      "detail_url_pattern": "https://www.remotely.de/job/<vacancy-slug>",
+      "direct_card_urls": [
+        "https://www.remotely.de/job/doozer-real-estate-systems-gmbh-qatest-automation-engineer-all-genders-remote-eu",
+        "https://www.remotely.de/job/cendas-gmbh-software-tester-qa-engineer-saas-mfd-remote-home-office",
+        "https://www.remotely.de/job/ankalink-gmbh-qa-engineer-test-automation-engineer-mwd-ki-testing-100-remote-freelance"
+      ],
+      "domain": "remotely.de",
+      "duplicate_check": "Distinct from the existing remotive.com API source.",
+      "listing_url": "https://www.remotely.de/remote-jobs/bereich/quality-assurance",
+      "name": "Remotely",
+      "scope": "Explicit Germany-only remote QA/testing vacancies",
+      "status": "active",
+      "type": "Germany-focused remote job board"
+    }
+  ],
+  "created_at": "2026-09-27T08:32:15.818678+00:00",
+  "cycle_id": "2026-09-27_cycle-2",
+  "evidence": {
+    "live_retrieval": "completed",
+    "model_evidence": [
+      {
+        "conclusion": "The evidence exposes a real Germany QA listing plus multiple direct QA/test vacancy cards with explicit Germany-wide remote eligibility.",
+        "direct_cards": [
+          {
+            "scope_evidence": "The supplied snippet states “Vollständig remote” and “Nur Deutschland”.",
+            "title": "QA/Test Automation Engineer (all genders) - Remote - EU",
+            "url": "https://www.remotely.de/job/doozer-real-estate-systems-gmbh-qatest-automation-engineer-all-genders-remote-eu"
+          },
+          {
+            "scope_evidence": "The supplied snippet states “Nur Deutschland”; the title explicitly identifies a Germany-eligible remote QA/testing role.",
+            "title": "Software Tester / QA Engineer – SaaS (m/f/d) remote (Home-Office)",
+            "url": "https://www.remotely.de/job/cendas-gmbh-software-tester-qa-engineer-saas-mfd-remote-home-office"
+          },
+          {
+            "scope_evidence": "The supplied snippet identifies the role as fully remote, freelance and “Nur Deutschland.”",
+            "title": "QA Engineer / Test Automation Engineer (m/w/d) – KI Testing",
+            "url": "https://www.remotely.de/job/ankalink-gmbh-qa-engineer-test-automation-engineer-mwd-ki-testing-100-remote-freelance"
+          }
+        ],
+        "listing_title": "Quality Assurance Remote in Deutschland - Remotely",
+        "listing_url": "https://www.remotely.de/remote-jobs/bereich/quality-assurance",
+        "source": "Remotely",
+        "status": "qualified"
+      },
+      {
+        "conclusion": "Relevant Berlin or Germany results were returned for these domains, but they are already registered and therefore do not constitute additions.",
+        "examples": [
+          "linkedin.com",
+          "arbeitsagentur.de",
+          "stepstone.de",
+          "germantechjobs.de"
+        ],
+        "source": "Existing registry sources",
+        "status": "not-new"
+      },
+      {
+        "conclusion": "The supplied results expose search or category pages and card-text snippets, but not individual direct vacancy-card URLs. Search-result counts alone do not satisfy the direct-card requirement.",
+        "examples": [
+          "Indeed",
+          "Heise Jobs",
+          "Stellenonline",
+          "Jooble",
+          "DEVjobs",
+          "Glassdoor",
+          "Metajob",
+          "Jobvector",
+          "meinestadt"
+        ],
+        "source": "Other search candidates",
+        "status": "insufficient"
+      },
+      {
+        "conclusion": "Individual QA/test detail URLs are present, but the supplied evidence does not expose an independently searchable listing or API for the respective host.",
+        "examples": [
+          "karriere-familienunternehmen.de",
+          "jobs-daheim.de",
+          "talents.studysmarter.de",
+          "get-in-it.de",
+          "jobs.kfw.de",
+          "touch.ferchau.com",
+          "alten-germany.de"
+        ],
+        "source": "Direct-detail-only candidates",
+        "status": "insufficient"
+      }
+    ],
+    "retrieval_artifact": "/opt/data/qa-vacancy-project/cycles/2026-09-27_cycle-2/source_discovery_retrieval.json",
+    "retrieved_result_count": 148
+  },
+  "verdict": "pass"
+}

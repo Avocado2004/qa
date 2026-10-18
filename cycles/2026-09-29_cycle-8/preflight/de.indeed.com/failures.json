@@ -1,0 +1,11 @@
+{
+  "cycle_id": "2026-09-29_cycle-8",
+  "failures": [
+    {
+      "at": "2026-09-29T15:50:58.019374+00:00",
+      "error": "all independent access methods failed: Crawl4AI failed after 3 attempts: rc=1 indeed.com/r...=f0c297c6270253e5&vjs=3  | Error: Blocked by anti-bot protection: Cloudflare JS challenge \n[COMPLETE] ● https://de.indeed.com/rc/clk?jk=b61d3fbdb683ee91...2yEAnTCFh0LbzkdCdPP&fccid=f0c297c6270253e5&vjs=3  | ✗ | ⏱: 1.01s \n✗ 爬取失败: Blocked by anti-bot protection: Cloudflare JS challenge\n; preflight: fewer than two analyzable direct cards; Camofox preflight: fewer than two analyzable direct cards"
+    }
+  ],
+  "schema_version": 2,
+  "source_id": "de.indeed.com"
+}

@@ -1,0 +1,12 @@
+{
+  "additions": [],
+  "created_at": "2026-10-17T00:06:45.103754+00:00",
+  "cycle_id": "2026-10-17_cycle-1",
+  "evidence": {
+    "live_retrieval": "completed",
+    "model_evidence": "From the supplied live retrieval evidence, four sources expose real listings/APIs with direct QA/testing vacancy cards for the specified German locations or Germany-wide remote: GermanTechJobs (Senior QA Engineer card in Berlin via RSS, URL: https://germantechjobs.de/jobs/Communi5-Technologies-GmbH-Senior-QA-Engineer, verified-live 2026-09-24), Adzuna Deutschland (QM Prüfer ad card in Berlin via HTTP/web-extract, URL: https://www.adzuna.de/land/ad/5887258708?title=QM_Pr%C3%BCfer_%28m%2Fw%2Fd%29, verified-live-browser-and-web-extract 2026-09-24), Remotive (remote Software Tester API card Germany-wide, URL: https://remotive.com/remote/jobs/qa/software-tester-5925120, verified-live 2026-09-24), and Arbeitnow Job Board API (filtered JSON records for QA/test in Berlin/Leipzig/Dresden and remote, URL: https://www.arbeitnow.com/api/job-board-api, verified-live 2026-09-24). All evidence drawn exclusively from the provided registry live_retrieval_evidence and source evidence fields.",
+    "retrieval_artifact": "/opt/data/qa-vacancy-project/cycles/2026-10-17_cycle-1/source_discovery_retrieval.json",
+    "retrieved_result_count": 211
+  },
+  "verdict": "pass"
+}

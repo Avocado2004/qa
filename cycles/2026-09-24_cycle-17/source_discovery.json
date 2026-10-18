@@ -1,0 +1,63 @@
+{
+  "created_at": "2026-09-24T23:29:15.444577+00:00",
+  "cycle_id": "2026-09-24_cycle-17",
+  "evidence": {
+    "candidate_searches_completed": 0,
+    "candidates_tested_live": 0,
+    "checked_at": null,
+    "new_sources_verified": 0,
+    "prior_evidence_examples_not_revalidated": [
+      {
+        "source": "GermanTechJobs",
+        "status": "recorded in the supplied registry; not retrieved during this run",
+        "url": "https://germantechjobs.de/jobs/Communi5-Technologies-GmbH-Senior-QA-Engineer"
+      },
+      {
+        "source": "EuroTechJobs",
+        "status": "recorded in the supplied registry; not retrieved during this run",
+        "url": "https://www.eurotechjobs.com/job_display/295774/Senior_Software_Tester_BlackBerry_Dsseldorf_Germany"
+      },
+      {
+        "source": "Adzuna Deutschland",
+        "status": "recorded in the supplied registry; not retrieved during this run",
+        "url": "https://www.adzuna.de/land/ad/5887258708?title=QM_Pr%C3%BCfer_%28m%2Fw%2Fd%29"
+      },
+      {
+        "source": "Remotive",
+        "status": "recorded in the supplied registry; not retrieved during this run",
+        "url": "https://remotive.com/remote/jobs/qa/software-tester-5925120"
+      }
+    ],
+    "provided_registry_snapshot": {
+      "active_source_records": 10,
+      "generated_at": "2026-09-24T22:25:15.732448+00:00",
+      "previously_established_domains": [
+        "linkedin.com",
+        "arbeitsagentur.de",
+        "stepstone.de",
+        "xing.com",
+        "hitmarker.net",
+        "remotive.com",
+        "arbeitnow.com",
+        "germantechjobs.de",
+        "eurotechjobs.com",
+        "adzuna.de"
+      ],
+      "registry_revision": 1
+    },
+    "required_follow_up": {
+      "access_verification": "Require successful retrieval through two methods, such as public API/RSS/HTML listing plus direct detail-page retrieval.",
+      "detail_verification": "Open the direct vacancy page and confirm title, geographic or remote eligibility, and currentVacancy status.",
+      "discovery": "Search for independently searchable German hosts offering QA, Softwaretester, Qualitätssicherung, or Testautomatisierung vacancies, excluding the ten registered domains.",
+      "promotion": "Add a source only after obtaining fresh, attributable live evidence; do not treat the supplied registry as current verification.",
+      "relevance": "Confirm a currently retrievable vacancy relevant to Germany, Berlin, Leipzig, Dresden, or Germany-wide remote work."
+    }
+  },
+  "verdict": {
+    "new_source": null,
+    "reason": "This execution has no live web-search, HTTP, or browser tool. Consequently, no new source can be independently verified, and this must not be interpreted as evidence that no additional sources exist.",
+    "registry_action": "none",
+    "result": "inconclusive",
+    "status": "live_verification_unavailable"
+  }
+}

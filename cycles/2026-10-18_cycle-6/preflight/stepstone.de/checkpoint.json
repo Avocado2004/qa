@@ -1,0 +1,28 @@
+{
+  "completed_operations": [
+    {
+      "op": "listing",
+      "status": 200
+    },
+    {
+      "chars": 19476,
+      "op": "card-1",
+      "url": "https://www.stepstone.de/stellenangebote--QA-Engineer-m-w-d-Lueneburg-evasys-GmbH--14557256-inline.html"
+    },
+    {
+      "op": "return",
+      "status": 200
+    },
+    {
+      "chars": 20523,
+      "op": "card-2",
+      "url": "https://www.stepstone.de/stellenangebote--QA-Engineer-gn-Langenfeld-Rheinland-Control-Expert-GmbH--14556958-inline.html"
+    }
+  ],
+  "cycle_id": "2026-10-18_cycle-6",
+  "next_operation": 4,
+  "schema_version": 2,
+  "source_id": "stepstone.de",
+  "state": "complete",
+  "updated_at": "2026-10-18T12:00:48.985830+00:00"
+}

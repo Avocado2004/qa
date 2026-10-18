@@ -1,0 +1,30 @@
+{
+  "attempts": [
+    {
+      "at": "2026-10-13T00:03:44.197986+00:00",
+      "error": "'utf-8' codec can't decode byte 0x9b in position 0: invalid start byte",
+      "method": "api",
+      "status": "failed"
+    },
+    {
+      "at": "2026-10-13T00:03:44.721624+00:00",
+      "error": "'utf-8' codec can't decode byte 0x9b in position 0: invalid start byte",
+      "method": "http",
+      "status": "failed"
+    },
+    {
+      "at": "2026-10-13T00:05:08.134600+00:00",
+      "error": "preflight: fewer than two analyzable direct cards",
+      "method": "crawl4ai",
+      "status": "failed"
+    },
+    {
+      "at": "2026-10-13T00:06:03.003943+00:00",
+      "error": "Camofox HTTP 404 for POST /tabs/94ff4eca-544b-43a6-842e-011b0e197ab5/navigate: {\"error\":\"Tab not found\"}",
+      "method": "camofox",
+      "status": "failed"
+    }
+  ],
+  "cycle_id": "2026-10-13_cycle-1",
+  "source_id": "arbeitnow.com"
+}

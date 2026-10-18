@@ -1,0 +1,12 @@
+{
+  "completed_operations": [
+    "card-1",
+    "card-2"
+  ],
+  "cycle_id": "2026-09-29_cycle-2",
+  "next_operation": 2,
+  "schema_version": 2,
+  "source_id": "arbeitsagentur.de",
+  "state": "claimed",
+  "updated_at": "2026-09-29T06:26:02.176346+00:00"
+}

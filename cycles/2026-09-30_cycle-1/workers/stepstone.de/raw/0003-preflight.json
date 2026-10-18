@@ -1,0 +1,27 @@
+{
+  "status": "pass",
+  "access_method": "base",
+  "cards_found": 25,
+  "cards_analyzable": 2,
+  "portal_pages_skipped": [],
+  "operations": [
+    {
+      "op": "listing",
+      "status": 200
+    },
+    {
+      "op": "card-1",
+      "url": "https://www.stepstone.de/stellenangebote--QA-Engineer-Software-m-w-d-Dresden-secunet-Security-Networks-AG--14547592-inline.html",
+      "chars": 7504
+    },
+    {
+      "op": "return",
+      "status": 200
+    },
+    {
+      "op": "card-2",
+      "url": "https://www.stepstone.de/stellenangebote--QA-Engineer-m-w-d-Lueneburg-evasys-GmbH--14557256-inline.html",
+      "chars": 6140
+    }
+  ]
+}

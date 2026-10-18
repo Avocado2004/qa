@@ -1,0 +1,6 @@
+{
+  "url": "https://de.linkedin.com/jobs/view/qa-engineer-m-w-d-at-compeople-ag-4471467536?position=4&pageNum=0&refId=pIZ9a430tLXb2dHZKHjOlQ%3D%3D",
+  "returncode": 0,
+  "stdout": "✓ 页面已保存到 /opt/data/qa-vacancy-project/cycles/2026-09-25_cycle-50/workers/linkedin.com/raw/crawl4ai-card-qa-engineer-m-w-d-at-compeople-ag-4471467536-position-4-pageNum-0-refId-pIZ9a430tLXb2dHZKHjOlQ-3D-3D.md\n  标题: QA Engineer (m/w/d) bei compeople AG — Frankfurt | LinkedIn Jobs\n  链接数: 187\n",
+  "stderr": "[INIT].... → Crawl4AI 0.9.4 \n[FETCH]... ↓ https://de.linkedin.com/jobs/view/qa-engineer-m-...ition=4&pageNum=0&refId=pIZ9a430tLXb2dHZKHjOlQ==  | ✓ | ⏱: 3.10s \n[SCRAPE].. ◆ https://de.linkedin.com/jobs/view/qa-engineer-m-...ition=4&pageNum=0&refId=pIZ9a430tLXb2dHZKHjOlQ==  | ✓ | ⏱: 0.47s \n[COMPLETE] ● https://de.linkedin.com/jobs/view/qa-engineer-m-...ition=4&pageNum=0&refId=pIZ9a430tLXb2dHZKHjOlQ==  | ✓ | ⏱: 3.61s \n"
+}

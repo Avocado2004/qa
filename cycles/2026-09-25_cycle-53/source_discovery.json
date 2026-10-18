@@ -1,0 +1,23 @@
+{
+  "additions": [],
+  "created_at": "2026-09-25T21:50:03.416475+00:00",
+  "cycle_id": "2026-09-25_cycle-53",
+  "evidence": {
+    "live_retrieval": "completed",
+    "model_evidence": {
+      "discovery_completed": true,
+      "queries_covered": [
+        "Softwaretester Berlin Stellenangebote",
+        "Qualitätssicherung Dresden Job",
+        "Game QA Leipzig Job",
+        "Testautomatisierung Deutschland Remote Job",
+        "QA Engineer Germany Stellenanzeige"
+      ],
+      "reason": "The supplied live retrieval results contain unrelated casino/game pages, forums, encyclopedic pages, training providers, and QA blogs. None exposes a real German QA/testing vacancy listing or API with direct cards for Berlin, Leipzig, Dresden, or explicit Germany-wide remote work. No new source qualifies for addition.",
+      "usable_sources_found": []
+    },
+    "retrieval_artifact": "/opt/data/qa-vacancy-project/cycles/2026-09-25_cycle-53/source_discovery_retrieval.json",
+    "retrieved_result_count": 50
+  },
+  "verdict": "pass"
+}

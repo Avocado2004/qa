@@ -1,0 +1,21 @@
+{
+  "additions": [],
+  "created_at": "2026-09-25T16:58:27.741222+00:00",
+  "cycle_id": "2026-09-25_cycle-41",
+  "evidence": {
+    "live_retrieval": "completed",
+    "model_evidence": {
+      "assessment": "The retrieved results were unrelated or non-vacancy pages, including adult sites, game portals, game-code pages, informational articles, software-testing references, and training providers. None exposed a real German QA/testing job listing or API together with a direct vacancy card for Berlin, Leipzig, Dresden, or explicit Germany-wide remote work.",
+      "basis": "Only the supplied live_retrieval_evidence was evaluated.",
+      "discovery_completed": true,
+      "qualifying_direct_vacancy_card_count": 0,
+      "qualifying_listing_or_api_count": 0,
+      "queries_checked": 5,
+      "registry_claims_treated_as_fresh_proof": false,
+      "results_reviewed": 50
+    },
+    "retrieval_artifact": "/opt/data/qa-vacancy-project/cycles/2026-09-25_cycle-41/source_discovery_retrieval.json",
+    "retrieved_result_count": 50
+  },
+  "verdict": "pass"
+}

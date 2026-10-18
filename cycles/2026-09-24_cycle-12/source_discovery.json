@@ -1,0 +1,45 @@
+{
+  "created_at": "2026-09-24T23:12:18.001925+00:00",
+  "cycle_id": "2026-09-24_cycle-12",
+  "evidence": {
+    "input_snapshot": {
+      "active_domains": [
+        "linkedin.com",
+        "arbeitsagentur.de",
+        "stepstone.de",
+        "xing.com",
+        "hitmarker.net",
+        "remotive.com",
+        "arbeitnow.com",
+        "germantechjobs.de",
+        "eurotechjobs.com",
+        "adzuna.de"
+      ],
+      "active_source_count": 10,
+      "generated_at": "2026-09-24T22:25:15.732448+00:00",
+      "registry_revision": 1,
+      "retired_source_class_count": 1,
+      "schema_version": 2
+    },
+    "live_discovery": {
+      "browser_checks": 0,
+      "fresh_evidence_urls": [],
+      "http_checks": 0,
+      "limitation": "No callable web-search, HTTP, or browser verification facility was available in this execution. The supplied verified-live labels and URLs are historical metadata and were not independently revalidated.",
+      "performed": false,
+      "search_checks": 0
+    },
+    "registration_requirements": [
+      "Identify a non-duplicate, independently searchable German QA/test source.",
+      "Verify a current German QA/test vacancy through a direct card or an accessible listing/API response.",
+      "Confirm live accessibility and preserve the URL and verification method as evidence."
+    ]
+  },
+  "verdict": {
+    "decision": "no_registry_addition",
+    "interpretation": "No additional source can be certified from the supplied registry alone. This does not establish that no new German QA sources exist.",
+    "new_verified_sources": [],
+    "registry_change_made": false,
+    "status": "inconclusive_no_live_access"
+  }
+}

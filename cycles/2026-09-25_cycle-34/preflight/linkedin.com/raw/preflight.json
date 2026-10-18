@@ -1,0 +1,44 @@
+{
+  "checked_at": "2026-09-25T15:29:20.611530+00:00",
+  "evidence": {
+    "access_method": "crawl4ai",
+    "attempts": [
+      {
+        "at": "2026-09-25T15:28:15.020740+00:00",
+        "error": "Camofox preflight snapshot blocked",
+        "method": "camofox",
+        "status": "failed"
+      },
+      {
+        "method": "crawl4ai",
+        "status": "pass"
+      }
+    ],
+    "cards_analyzable": 10,
+    "cards_found": 10,
+    "operations": [
+      {
+        "op": "listing",
+        "status": 200
+      },
+      {
+        "chars": 48193,
+        "op": "card-1",
+        "url": "https://de.linkedin.com/jobs/view/junior-qa-engineer-software-tester-m-w-d-%E2%80%93-produktqualit%C3%A4t-testautomatisierung-at-check24-4433870576?position=1&pageNum=0&refId=E693jWcPLLQyN5sHi3zWPQ%3D%3D"
+      },
+      {
+        "op": "return",
+        "status": 200
+      },
+      {
+        "chars": 48127,
+        "op": "card-2",
+        "url": "https://de.linkedin.com/jobs/view/senior-quality-assurance-engineer-at-trading-212-4468924202?position=2&pageNum=0&refId=E693jWcPLLQyN5sHi3zWPQ%3D%3D"
+      }
+    ],
+    "primary_or_fallback": "crawl4ai",
+    "status": "pass"
+  },
+  "listing": "https://www.linkedin.com/jobs-guest/jobs/api/seeMoreJobPostings/search?keywords=QA&location=Germany&f_TPR=r2592000&start=0",
+  "verdict": "PASS"
+}

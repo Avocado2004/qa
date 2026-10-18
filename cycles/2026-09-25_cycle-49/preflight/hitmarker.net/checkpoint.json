@@ -1,0 +1,34 @@
+{
+  "completed_operations": [
+    {
+      "chars": 11105,
+      "evidence": "/opt/data/qa-vacancy-project/cycles/2026-09-25_cycle-49/preflight/hitmarker.net/raw/0002-listing-snapshot.json",
+      "op": "listing",
+      "url": "https://hitmarker.net/jobs"
+    },
+    {
+      "chars": 9224,
+      "evidence": "/opt/data/qa-vacancy-project/cycles/2026-09-25_cycle-49/preflight/hitmarker.net/raw/0003-card-1-snapshot.json",
+      "op": "card-1",
+      "url": "https://hitmarker.net/jobs/confidential-3-pokemon-tcg-growth-marketing-lead-4644088"
+    },
+    {
+      "chars": 11143,
+      "evidence": "/opt/data/qa-vacancy-project/cycles/2026-09-25_cycle-49/preflight/hitmarker.net/raw/0004-return-snapshot.json",
+      "op": "return",
+      "url": "https://hitmarker.net/jobs"
+    },
+    {
+      "chars": 16189,
+      "evidence": "/opt/data/qa-vacancy-project/cycles/2026-09-25_cycle-49/preflight/hitmarker.net/raw/0005-card-2-snapshot.json",
+      "op": "card-2",
+      "url": "https://hitmarker.net/jobs/astronomad-studios-senior-systems-game-designer-4924815"
+    }
+  ],
+  "cycle_id": "2026-09-25_cycle-49",
+  "next_operation": 4,
+  "schema_version": 2,
+  "source_id": "hitmarker.net",
+  "state": "complete",
+  "updated_at": "2026-09-25T20:30:49.831769+00:00"
+}

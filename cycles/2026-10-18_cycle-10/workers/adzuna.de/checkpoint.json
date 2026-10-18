@@ -1,0 +1,15 @@
+{
+  "completed_operations": [
+    "card-1",
+    "card-2",
+    "card-3",
+    "card-4",
+    "card-5"
+  ],
+  "cycle_id": "2026-10-18_cycle-10",
+  "next_operation": 5,
+  "schema_version": 2,
+  "source_id": "adzuna.de",
+  "state": "claimed",
+  "updated_at": "2026-10-18T14:06:59.476069+00:00"
+}

@@ -1,0 +1,11 @@
+{
+  "cycle_id": "preflight",
+  "failures": [
+    {
+      "at": "2026-09-24T22:49:13.959735+00:00",
+      "error": "Camofox transport failed for DELETE /tabs/b8328b13-1fb8-41e0-8606-dfc104ba5507: <urlopen error [Errno 111] Connection refused>"
+    }
+  ],
+  "schema_version": 2,
+  "source_id": "xing.com"
+}

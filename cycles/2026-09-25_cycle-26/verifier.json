@@ -1,0 +1,11 @@
+{
+  "checked_at": "2026-09-25T08:25:52.553415+00:00",
+  "cycle_id": "2026-09-25_cycle-26",
+  "errors": [
+    "row lacks affirmative QA role evidence: https://www.empfehlungsbund.de/job/304651",
+    "row lacks affirmative QA role evidence: https://apply.j-vers.com/v3/job/AAAAAAAAAAAAAAAAAAAAAGQD_o2s1lvo2LlgC4A_3AJgEbC8Xk-MnmnR4U4SkR0MJXX18NA92_dlH5GS5KKU5Ii64tU5k5YaF97R_AoIv3d3xjf1rRMfZFv7LTq89W4Q89XJrrQK38xqoUNU2bsza1IXFvQg1eKizeWv7_jt0OIhunJR2lEdgQWwdKdIal-PEZqiurmSlMfovkg4yatAnhI3UDZcADgI11bHIK6e64TRq4zAsWc8Z-TmEtmDQRNPAzG3e2VMMTULzd6AEkRvZALE0kkNfZOsk6rFuo6CoAxo4AAsAuhPE6BGa3NE4yveiRHcY2je2v7cM1p3WHVq1JTO4MyV-dgnfVucUbTnrman2_3tNrpduBe-xcD4g1aUHeln4L37MNP_EhmkrOtnCA=="
+  ],
+  "rows": 36,
+  "schema_version": 2,
+  "verdict": "FAIL"
+}

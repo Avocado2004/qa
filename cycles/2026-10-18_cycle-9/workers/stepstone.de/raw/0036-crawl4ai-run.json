@@ -1,0 +1,7 @@
+{
+  "url": "https://www.stepstone.de/stellenangebote--Senior-Quality-Assurance-Engineer-m-w-d-Aachen-Trianel-GmbH--14651989-inline.html",
+  "attempt": 1,
+  "returncode": 0,
+  "stdout": "✓ 页面已保存到 /opt/data/qa-vacancy-project/cycles/2026-10-18_cycle-9/workers/stepstone.de/raw/crawl4ai-card--de-stellenangebote-Senior-Quality-Assurance-Engineer-m-w-d-Aachen-Trianel-GmbH-14651989-inline-html.md\n  标题: Senior Quality Assurance Engineer (m/w/d) - Feste Anstellung, Vollzeit, Homeoffice Job in Aachen\n  链接数: 35\n",
+  "stderr": "[INIT].... → Crawl4AI 0.9.4 \n[FETCH]... ↓ https://www.stepstone.de/stellenangebote--Senior...-m-w-d-Aachen-Trianel-GmbH--14651989-inline.html  | ✓ | ⏱: 8.46s \n[SCRAPE].. ◆ https://www.stepstone.de/stellenangebote--Senior...-m-w-d-Aachen-Trianel-GmbH--14651989-inline.html  | ✓ | ⏱: 0.17s \n[COMPLETE] ● https://www.stepstone.de/stellenangebote--Senior...-m-w-d-Aachen-Trianel-GmbH--14651989-inline.html  | ✓ | ⏱: 8.73s \n"
+}

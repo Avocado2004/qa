@@ -1,0 +1,1184 @@
+
+<!DOCTYPE html>
+<html lang="en" data-theme="dark">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="home" href="https://hitmarker.net/" />
+    <link rel="canonical" href="https://hitmarker.net/jobs/cloud-imperium-games-technical-embedded-qa-specialist-i-4621360" />
+    <title>Technical Embedded QA Specialist I - Cloud Imperium Games | Hitmarker</title>
+    <meta name="description" content="Cloud Imperium Games is hiring a Technical Embedded QA Specialist I. Apply now on Hitmarker." />
+    <meta property="og:locale" content="en" />
+    <meta property="og:site_name" content="Hitmarker" />
+    <meta property="og:type" content="website" />
+    <meta property="og:url" content="https://hitmarker.net/jobs/cloud-imperium-games-technical-embedded-qa-specialist-i-4621360" />
+    <meta property="og:image" content="https://hitmarker.net/imager/company/logo/1298145/1750439939_14cd2528e1.webp" />
+    <meta property="og:image:width" content="1200" />
+    <meta property="og:image:height" content="630" />
+        <meta name="twitter:card" content="summary_large_image" />
+    <meta name="twitter:site" content="@HitmarkerJobs" />
+    <meta name="color-scheme" content="dark light" />
+    <meta name="theme-color" content="#101114" />
+
+    <script>
+      (() => {
+        const storageKey = 'hitmarker.theme';
+        const eventName = 'hitmarker:theme-change';
+        const colors = { dark: '#101114', light: '#eff1f5' };
+        const labels = { dark: 'Switch to light mode', light: 'Switch to dark mode' };
+
+        const isTheme = (value) => value === 'light' || value === 'dark';
+        const normalizeTheme = (value) => value === 'light' ? 'light' : 'dark';
+        const resolveTheme = (value) => isTheme(value) ? value : 'dark';
+
+        const getStoredTheme = () => {
+          try {
+            return localStorage.getItem(storageKey);
+          } catch {
+            return null;
+          }
+        };
+
+        const systemThemeQuery = typeof window.matchMedia === 'function'
+          ? window.matchMedia('(prefers-color-scheme: dark)')
+          : null;
+        const getSystemTheme = () => (systemThemeQuery && systemThemeQuery.matches ? 'dark' : 'light');
+
+        const getTheme = () => resolveTheme(document.documentElement.dataset.theme || getStoredTheme());
+
+        const setToggleLabels = (theme) => {
+          document.querySelectorAll('[data-theme-toggle]').forEach((toggle) => {
+            toggle.setAttribute('aria-label', labels[theme]);
+            toggle.setAttribute('title', labels[theme]);
+
+            const label = toggle.querySelector('[data-theme-toggle-label]');
+            if (label) {
+              label.textContent = labels[theme];
+            }
+          });
+        };
+
+        const setTheme = (value, options = {}) => {
+          const theme = normalizeTheme(value);
+          const persist = options.persist !== false;
+          const emit = options.emit !== false;
+
+          document.documentElement.dataset.theme = theme;
+          document.documentElement.style.colorScheme = theme;
+
+          const themeColor = document.querySelector('meta[name="theme-color"]');
+          if (themeColor) {
+            themeColor.setAttribute('content', colors[theme]);
+          }
+
+          if (persist) {
+            try {
+              localStorage.setItem(storageKey, theme);
+            } catch {}
+          }
+
+          setToggleLabels(theme);
+
+          if (emit) {
+            window.dispatchEvent(new CustomEvent(eventName, { detail: { theme } }));
+          }
+
+          return theme;
+        };
+
+        const toggleTheme = () => setTheme(getTheme() === 'dark' ? 'light' : 'dark');
+
+        window.HitmarkerTheme = { getTheme, setTheme, toggleTheme };
+        setTheme(getStoredTheme() ?? getSystemTheme(), { persist: false, emit: false });
+
+        // Follow the device theme until the user makes a manual choice.
+        if (systemThemeQuery) {
+          const handleSystemChange = () => {
+            if (getStoredTheme() === null) {
+              setTheme(getSystemTheme(), { persist: false });
+            }
+          };
+
+          if (typeof systemThemeQuery.addEventListener === 'function') {
+            systemThemeQuery.addEventListener('change', handleSystemChange);
+          } else if (typeof systemThemeQuery.addListener === 'function') {
+            systemThemeQuery.addListener(handleSystemChange);
+          }
+        }
+
+        document.addEventListener('DOMContentLoaded', () => {
+          setToggleLabels(getTheme());
+
+          document.addEventListener('click', (event) => {
+            const target = event.target instanceof Element ? event.target : event.target.parentElement;
+            const toggle = target?.closest('[data-theme-toggle]');
+            if (!toggle) return;
+
+            event.preventDefault();
+            toggleTheme();
+          });
+        });
+      })();
+    </script>
+
+    
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Roboto+Condensed:wght@100..900&display=swap" rel="stylesheet">
+
+    <link rel="stylesheet" href="https://hitmarker.net/dist/css-Ca7wRMhf.css" />
+
+    <link rel="icon" type="image/png" href="https://hitmarker.net/favicon-96x96.png" sizes="96x96" />
+    <link rel="icon" type="image/svg+xml" href="https://hitmarker.net/favicon.svg" />
+    <link rel="shortcut icon" href="https://hitmarker.net/favicon.ico" />
+    <link rel="apple-touch-icon" sizes="180x180" href="https://hitmarker.net/apple-touch-icon.png" />
+    <link rel="manifest" href="https://hitmarker.net/site.webmanifest" />
+    <meta name="apple-mobile-web-app-title" content="Hitmarker" />
+
+    
+            <script>
+      window.SIGNUP_GATE_CONFIG = {"jobsThresholdAggressive":3,"jobsThresholdHardLock":10};
+    </script>
+
+                <script defer id="plausible-js" data-domain="hitmarker.net"
+        event-id="4621360" event-section="jobs" event-view_source="entry"        src="https://analytics.hitmarker.net/js/script.file-downloads.hash.outbound-links.pageview-props.revenue.tagged-events.js">
+      </script>
+      <script>window.plausible = window.plausible || function() { (window.plausible.q = window.plausible.q || []).push(arguments) }</script>
+
+            <script>
+        (function () {
+                    var v = /(?:^|;\s*)hm_li=[^;]/.test(document.cookie) ? 'true' : 'false';
+          var s = document.getElementById('plausible-js');
+          if (s) s.setAttribute('event-logged_in', v);
+          window.dataLayer = window.dataLayer || [];
+          window.dataLayer.push({ logged_in: v });
+        })();
+      </script>
+
+      <script>(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
+      new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
+      j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
+      'https://www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
+      })(window,document,'script','dataLayer','GTM-MVDTJ7GC');</script>
+
+      <script src="https://t.contentsquare.net/uxa/24af8ca37e68b.js"></script>
+    
+    <script type="module">!function(){const e=document.createElement("link").relList;if(!(e&&e.supports&&e.supports("modulepreload"))){for(const e of document.querySelectorAll('link[rel="modulepreload"]'))r(e);new MutationObserver((e=>{for(const o of e)if("childList"===o.type)for(const e of o.addedNodes)if("LINK"===e.tagName&&"modulepreload"===e.rel)r(e);else if(e.querySelectorAll)for(const o of e.querySelectorAll("link[rel=modulepreload]"))r(o)})).observe(document,{childList:!0,subtree:!0})}function r(e){if(e.ep)return;e.ep=!0;const r=function(e){const r={};return e.integrity&&(r.integrity=e.integrity),e.referrerpolicy&&(r.referrerPolicy=e.referrerpolicy),"use-credentials"===e.crossorigin?r.credentials="include":"anonymous"===e.crossorigin?r.credentials="omit":r.credentials="same-origin",r}(e);fetch(e.href,r)}}();</script>
+<script type="module" src="https://hitmarker.net/dist/timestamp-BGU1YIDS.js" crossorigin onload="e=new CustomEvent(&#039;vite-script-loaded&#039;, {detail:{path: &#039;src/js/timestamp.js&#039;}});document.dispatchEvent(e);"></script>
+
+              <link rel="alternate" type="text/markdown" href="https://hitmarker.net/jobs/cloud-imperium-games-technical-embedded-qa-specialist-i-4621360.md">
+    
+
+
+
+        
+  
+
+
+  
+
+
+  
+<script type="application/ld+json">
+  {"@context":"https:\/\/schema.org\/","@type":"JobPosting","title":"Technical Embedded QA Specialist I","description":"<p><b>We are a crowdfunded company and have a dedicated and enthusiastic community of backers who are helping us create the \u201cBest Damn Space Sim Ever\u201d. We want to build the best we can deliver and we believe wholeheartedly in the value of exceptional diverse talent.<\/b><\/p><p>Founded in 2012 by renowned game developer Chris Roberts, Cloud Imperium Games (CIG) is one of the largest global independent studios, dedicated to delivering next-generation AAA games. CIG prides itself in thinking outside the box, encouraging creativity and developing ground-breaking technology. CIG believes in raising the bar for the gaming industry and the gaming community as a whole.\u202f\u00a0<\/p><p><b>About the Role<\/b>\u00a0<\/p><p>This role will focus on supporting the Engine team in their tasks within our multiplayer online game, Star Citizen, and our story-driven single player epic Squadron 42. The successful person will be supporting not only testing the team\u2019s creations in client, but also testing the tools used to create these pieces, as well as providing feedback. As the tester assigned to the team, your work will directly affect the quality of Star Citizen and Squadron 42.\u00a0<br \/>\u00a0<\/p><p><b>What does an Embedded QA Specialist at CIG do?<\/b>\u202f\u00a0<\/p><ul><li><p>Support the Engine team by improving existing testing procedures and identifying requirements.\u00a0<\/p><\/li><\/ul><ul><li><p>Verify game features, systems, and tools daily and provide feedback for the team.\u00a0<\/p><\/li><\/ul><ul><li><p>Create, execute and maintain test cases on assigned projects as well as ad-hoc testing on focused areas.\u00a0<\/p><\/li><\/ul><ul><li><p>Act as point of contact and liaison for QA support for the Engine team globally.\u00a0<\/p><\/li><\/ul><ul><li><p>Compose regular progress updates and reports for leadership.\u00a0<\/p><\/li><\/ul><p><b>What do we expect from our Embedded QA Specialists?<\/b>\u202f\u00a0<\/p><ul><li><p>Demonstrable game testing experience with advanced skills in identifying and isolating issues systemically to help with resolving problems quicker.\u00a0<\/p><\/li><\/ul><ul><li><p>A strong focus\/knowledge in technical areas of QA including, but not limited to; Scripting, Game Engines, Development Tools, and an understanding of Backend Services\u00a0<\/p><\/li><\/ul><ul><li><p>Knowledge of more advanced technical areas, i.e. Python, Perforce, Linux etc.\u00a0<\/p><\/li><\/ul><ul><li><p>Experience with writing test cases and ownership of feature areas as well as a good knowledge of bug tracking tools, such as Jira.\u00a0<\/p><\/li><\/ul><ul><li><p>Ability to stay organized and motivated to meet specific deadlines.\u00a0<\/p><\/li><\/ul><ul><li><p>Ability to effectively manage your time and task prioritization.\u00a0<\/p><\/li><\/ul><ul><li><p>Thrive in a fast-paced, always-changing work environment where adaptability is paramount\u00a0<\/p><\/li><\/ul><ul><li><p>Knowledge \/ usage of a game engine to be able to investigate and understand complex engine issues.\u00a0<\/p><\/li><\/ul><ul><li><p>Being highly proactive, searching for problems to solve, testing opportunities and team tasks to get involved in\u00a0\u00a0<\/p><\/li><\/ul><ul><li><p>Ability to connect effectively with your cross-disciplined team and other departments through great communication skills.\u00a0<\/p><\/li><\/ul><ul><li><p>Ability to maintain testing documentation.\u00a0<\/p><\/li><\/ul><ul><li><p>Innovative approach to problem solving, working meticulously with the highest attention to detail.\u00a0<\/p><\/li><\/ul><ul><li><p>Work confidently as part of a team and individually.\u00a0\u00a0\u00a0<\/p><\/li><\/ul><ul><li><p>Flexibility to help other teams when needed and support testing outside of specialisation\u00a0\u00a0\u00a0<\/p><\/li><\/ul><ul><li><p>Passion for video games especially for sim\/space games.\u00a0<\/p><\/li><\/ul><p><b>Diversity Statement<\/b>\u00a0<\/p><p><i>CIG is a global company, staunchly committed to cultivating a culture and workplace that celebrates all backgrounds, lifestyles, and perspectives. Together, we are creating a space where authentic recognition, appreciation, and understanding of the importance of diversity is fostered by everyone. As an Equal Opportunity Employer, we strive to build a team that represents all walks of life, and we want every employee to bring all the things that make them unique to the work environment. The universe is as vast and varied as the people in it, and it\u2019s our differences that make it special.<\/i>\u00a0<\/p><p><b>Fraud Statement\u00a0<\/b><\/p><p><i>We are aware of people receiving job offers that fraudulently allege to be from CIG. These types of fraud can be carried out through false websites, fake email addresses claiming to be from our company, or social media. We do not ask for your personal info like bank account numbers, identification numbers, etc through social media or chat-based apps, nor do we request or send money for the purchase of business equipment.<\/i>\u00a0<\/p><p><i>If you suspect fraud, please report it to your local authorities, as well as reaching out to us at info[@]cloudimperiumgames.com<\/i>\u202f<i>with any information you may have.<\/i>\u00a0<\/p><p><i>If you like wild growth and working with happy, enthusiastic over-achievers, you'll enjoy your career with us!<\/i><\/p>","identifier":{"@type":"PropertyValue","name":"Cloud Imperium Games","value":"https:\/\/hitmarker.net\/companies\/cloud-imperium-games"},"datePosted":"2026-08-27T01:00:00+01:00","employmentType":["FULL_TIME"],"hiringOrganization":{"@type":"Organization","name":"Cloud Imperium Games","sameAs":"https:\/\/cloudimperiumgames.com\/","logo":"https:\/\/hitmarker.net\/imager\/company\/logo\/1298145\/1750439939_14cd2528e1.webp"},"jobLocation":[{"@type":"Place","address":{"@type":"PostalAddress","addressLocality":"Frankfurt am Main","addressRegion":"Hesse","addressCountry":"Germany"}}],"directApply":false,"occupationalCategory":["Quality Assurance (QA)","Game Development","Software Engineering"]}
+</script>
+    <script type="module" src="https://hitmarker.net/dist/jobEntry-BUPtplCN.js" crossorigin onload="e=new CustomEvent(&#039;vite-script-loaded&#039;, {detail:{path: &#039;src/js/pages/jobEntry.js&#039;}});document.dispatchEvent(e);"></script>
+<link href="https://hitmarker.net/dist/htmrkr-DVZnog--.js" rel="modulepreload" crossorigin>
+<link href="https://hitmarker.net/dist/pinia-EsSzkQp6.js" rel="modulepreload" crossorigin>
+<link href="https://hitmarker.net/dist/Modal-CHubC8eG.js" rel="modulepreload" crossorigin>
+<link href="https://hitmarker.net/dist/transition-BX850Fqr.js" rel="modulepreload" crossorigin>
+<link href="https://hitmarker.net/dist/ReportForm-B_NjHXKb.js" rel="modulepreload" crossorigin>
+<link href="https://hitmarker.net/dist/JobShareDialog-Cpp_xqyZ.js" rel="modulepreload" crossorigin>
+<link href="https://hitmarker.net/dist/vue-turnstile-B4jdNvLM.js" rel="modulepreload" crossorigin>
+<link href="https://hitmarker.net/dist/FormButton-BTGVcH22.js" rel="modulepreload" crossorigin>
+<link href="https://hitmarker.net/dist/spinner-Dki4vkiz.js" rel="modulepreload" crossorigin>
+<link href="https://hitmarker.net/dist/useForm-2zjtJu5C.js" rel="modulepreload" crossorigin>
+<link href="https://hitmarker.net/dist/useFetch-DGQWvyvt.js" rel="modulepreload" crossorigin>
+<link href="https://hitmarker.net/dist/copy-DAxL13J6.js" rel="modulepreload" crossorigin>
+<link href="https://hitmarker.net/dist/mail-BuBBN-Ae.js" rel="modulepreload" crossorigin>
+<link href="https://hitmarker.net/dist/useSearch-CWLbA66n.js" rel="modulepreload" crossorigin>
+<link href="https://hitmarker.net/dist/useJobImpressions-C1a5aAnN.js" rel="modulepreload" crossorigin>
+<link href="https://hitmarker.net/dist/rec-Di5tpGaS.js" rel="modulepreload" crossorigin>
+<link href="https://hitmarker.net/dist/locationFlag-Cg10dQcU.js" rel="modulepreload" crossorigin>
+<link href="https://hitmarker.net/dist/arrow-left-B-XSVfR5.js" rel="modulepreload" crossorigin>
+<link href="https://hitmarker.net/dist/useRecentlyViewedJobs-DmRbQQsp.js" rel="modulepreload" crossorigin>
+<link href="https://hitmarker.net/dist/useSignupGate-UnG7j-Jt.js" rel="modulepreload" crossorigin>
+<link href="https://hitmarker.net/dist/policy-CKdtIZ74.js" rel="modulepreload" crossorigin>
+<link href="https://hitmarker.net/dist/signupGating-CWaflGhT.js" rel="modulepreload" crossorigin>
+<link href="https://hitmarker.net/dist/htmrkr-BHH8rdGj.css" rel="stylesheet" media="print" onload="this.media=&#039;all&#039;">
+      <script>
+    window.TURNSTILE_SITE_KEY = "0x4AAAAAABOW57LaIn5O0nPd";
+        window.TSSK = "QjFTckNNRFBWR2JOWjBvMUdlWmpEMUlYUEJJNnNnTFV6dEcxQVhvb28rVT1YNHFieyJleGNsdWRlX2ZpZWxkcyI6InRvdGFsQ291bnQsYWx0U2VhcmNoVGVybXMsYXV0aG9yIiwibGltaXRfbXVsdGlfc2VhcmNoZXMiOjEwMDAwfQ==";
+        window.REC_JOB_ID = 4621360;
+          window.RECENTLY_VIEWED_JOB = {"id":4621360,"title":"Technical Embedded QA Specialist I","url":"https:\/\/hitmarker.net\/jobs\/cloud-imperium-games-technical-embedded-qa-specialist-i-4621360","postedAt":1787788800,"level":"Intermediate (2\u20135 years)","contract":"Full Time","salary":null,"jobBoosts":[],"company":{"title":"Cloud Imperium Games","url":"https:\/\/hitmarker.net\/companies\/cloud-imperium-games","logo":"https:\/\/hitmarker.net\/imager\/company\/logo\/1298145\/1750439939_14cd2528e1.webp","verified":false,"accent":null},"location":{"title":"Frankfurt am Main","flag":"\ud83c\udde9\ud83c\uddea","parents":[{"id":"x4","code":null,"title":"Europe","type":"continent"},{"id":"82","code":null,"title":"Germany","type":"country"},{"id":"s3018","code":"HE","title":"Hesse","type":"state"}]}};
+            window.JOB_TRAIL_ENTRY = {"id":4621360,"title":"Technical Embedded QA Specialist I","url":"https:\/\/hitmarker.net\/jobs\/cloud-imperium-games-technical-embedded-qa-specialist-i-4621360","company":{"title":"Cloud Imperium Games"}};
+  </script>
+  <style>    /* Page-scoped, not htmrkr.css. Everything below is either a keyframe the
+       global sheet does not carry or a rule that only ever applies to this page,
+       and templates/design.twig sets the same precedent for the entrance rise.
+       No new @theme token is introduced. */
+
+    /* DESIGN.md Section 9, entrance rise. The element is VISIBLE at rest - the
+       animation moves it from a hidden state to its natural one - so killing the
+       animation under reduced motion leaves the page correct rather than blank. */
+    @keyframes rise {
+      from { opacity: 0; transform: translateY(14px); }
+      to { opacity: 1; transform: none; }
+    }
+    .job-rise {
+      animation: rise var(--transition-duration-slow) var(--ease-out-soft) both;
+      animation-delay: calc(var(--i, 0) * 70ms);
+    }
+
+    /* The employer's accent, with Hitmarker orange as the fallback when the
+       logo is absent or achromatic. Set on the two ELEMENTS THAT CARRY THE
+       INLINE OVERRIDE and on nothing else: a declaration here beats an
+       inherited value, so naming a descendant in this list severs it from the
+       page's accent rather than giving it a fallback. `.job-dock` used to be
+       in this list and every employer's dock therefore glowed Hitmarker
+       orange - NVIDIA's dock read #ff5800 while its page read #85c610. The
+       atmosphere stays because it sits OUTSIDE `.job-page`, at the top of the
+       document, and so has no accent to inherit. */
+    .job-page,
+    .job-atmosphere {
+      --company-accent: var(--color-accent-neutral);
+    }
+
+    /* The v2 page ground, on <body><![CDATA[YII-BLOCK-BODY-BEGIN]]>. DESIGN.md Section 18 maps bg-alpha-1 to
+       bg-canvas when a page moves to v2; this page used to apply it on its own
+       wrapper, and cannot any more, because the atmosphere now sits BEHIND the
+       site header at the top of the document (see the body block) and an
+       opaque wrapper would cover it. An unlayered page rule outranks the
+       layout's `bg-alpha-1` utility whatever the order, which is what makes it
+       safe to leave the layout alone. The footer, which carries no fill of its
+       own, sits on canvas as a result - as it does on the homepage. */
+    body.job-entry {
+      background-color: var(--color-canvas);
+    }
+
+    /* The light has a source. Unmasked, the field is a band the full width of
+       the page that stops where the fade below it says so, and a band reads as
+       a smear - or a scrim - rather than as light. A radial mask centred behind
+       the identity block, the tile and the title, gives the field a point of
+       origin and a falloff in every direction: it is anchored to the thing it
+       lights, and it has reached canvas before the right-hand third of the
+       page. One mask on the wrapper, so the artwork, the ambient fields and
+       the grain cannot disagree about where the light is coming from.
+
+       The centre is 38% of a 36rem box measured from the document's top -
+       about 220px, which is where the identity block sits under the header
+       and the promo band - rather than 30% of a 32rem box from the page's top,
+       which is the same place. */
+    .job-atmosphere {
+      -webkit-mask-image: radial-gradient(150% 115% at 20% 38%, #000 0%, rgb(0 0 0 / .55) 40%, transparent 84%);
+      mask-image: radial-gradient(150% 115% at 20% 38%, #000 0%, rgb(0 0 0 / .55) 40%, transparent 84%);
+    }
+    /* Light mode reads the same artwork a step down. The dark canvas absorbs a
+       40% field; a 97%-lightness one amplifies it, and the employer's colour is
+       meant to tint the page, not paint it. */
+    html[data-theme="light"] .job-atmosphere > img {
+      opacity: .3;
+    }
+
+    /* Grain over the header band only (Section 5.3), and the light theme takes
+       multiply rather than overlay so it darkens instead of washing out.
+
+       Masked to fade out with the field it sits on. Unmasked it is uniform
+       across the whole 32rem and then stops dead at the container's edge, which
+       draws exactly the horizontal seam the gradient above it was shaped to
+       avoid - and at 18% multiply in light mode that seam is plainly visible. */
+    .job-atmosphere::after {
+      content: "";
+      position: absolute;
+      inset: 0;
+      pointer-events: none;
+      -webkit-mask-image: linear-gradient(to bottom, #000 0%, #000 35%, transparent 72%);
+      mask-image: linear-gradient(to bottom, #000 0%, #000 35%, transparent 72%);
+      background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='160' height='160'%3E%3Cfilter id='n'%3E%3CfeTurbulence type='fractalNoise' baseFrequency='.9' numOctaves='2' stitchTiles='stitch'/%3E%3CfeColorMatrix values='0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 .6 0'/%3E%3C/filter%3E%3Crect width='100%25' height='100%25' filter='url(%23n)'/%3E%3C/svg%3E");
+      opacity: .07;
+      mix-blend-mode: overlay;
+    }
+    html[data-theme="light"] .job-atmosphere::after {
+      opacity: .18;
+      mix-blend-mode: multiply;
+    }
+
+    /* The job bar's glass (_includes/job-sticky-bar.twig). The bar is pinned
+       under the site header and content passes beneath it, so DESIGN.md
+       Section 5.1's pinned-chrome rule applies: the 96% fill and 24px blur
+       `.surface-glass` ships, measured there against a logo plate passing
+       under it.
+
+       This note used to go on to restate those numbers here on the v2 `surface`
+       token, "one step up from the canvas the dock floats over, so it reads as
+       an object". Both halves of that are gone - the restatement (the block
+       below) and the object (the ground, in the rule itself). */
+    /* NO FILL OF ITS OWN. The dock wears `.surface-glass`, the same material as
+       the site header and the sticky filter bands, so the page is bracketed top
+       and bottom by ONE glass rather than two that merely resemble each other -
+       which is what "integrated" buys (Creative Director, 2026-09-14). It also
+       means the dock inherits the dark recipe in #559 automatically instead of
+       restating numbers that would then drift. It used to carry its own fill on
+       `--color-surface`, a step up from the canvas, so it would read as an
+       object; it is chrome now, not an object. */
+    .job-dock {
+      /* PINNED CHROME, not a floating slab. The bar was briefly detached from
+         all three viewport edges with an underside rim and the float shadow,
+         on the reading that "liquid glass" means an object; the founder's
+         ruling on seeing it was full width and flush (2026-09-14). It takes the
+         recipe the site header and the filter bands take: the hairline on the
+         side content passes, the lit edge on its top face, and nothing else.
+
+         Both of those are in the MARKUP now, as the same two utilities in the
+         same order as the company page's band (`border-b border-line
+         shadow-[inset_0_1px_0_var(--color-edge)]`), rather than one utility and
+         one declaration here. Two files saying the same thing in two different
+         languages is how the two bars drifted apart in the first place, and a
+         reader comparing them should be able to compare two class strings. */
+
+      /* MIXED ON THIS PAGE'S GROUND, and this is the declaration that lets the
+         bar stand under the site header at all. The objection that sent it to
+         the foot of the viewport in the first place was two near-identical
+         bands stacked; mixed on `canvas` it is not near-identical to the header
+         above it, which is mixed on `alpha-2`. Measured on an empty stretch of
+         each at 1512: header L* 9.29, bar L* 3.33 in dark; 99.62 and 97.21 in
+         light. The company page's band has stood under the header on exactly
+         that difference since #546.
+
+         It is also what makes the bar the same object as that band. The two
+         already shared everything structural - full bleed, the page gutter, one
+         hairline on the side content passes, the lit edge, z-30 - and still did
+         not read as one bar, because the band is mixed on `canvas` and this one
+         was mixed on `alpha-2`, the v1 surface one step up from it. Measured at rest in Lab on a 280x5 empty
+         stretch of each bar at 1512, before: this bar read L* 99.62 against the
+         band's 97.23 in light, and L* 9.01 against 3.36 in dark - a bar in a
+         different colour from the page it is pinned to, and from the band doing
+         the same job on the company page. After: 97.21 against 97.23, and 3.33
+         against 3.36. The remaining hundredths were the employer accent this
+         bar carried and the band did not; that wash is gone too (below), so the
+         two now mix the same colour on the same ground.
+
+         Only the ground moves. The fill and blur are `.surface-glass`'s
+         hardened pair (96/24/1.8 light, 88/80/2.4 dark, #551 and #559), and
+         since 2026-09-15 the company page's band takes them too - it sets the
+         same ground on the same class instead of restating a 72% recipe of its
+         own. One material, two pages, one parameter between them.
+
+         THE ARGUMENT THAT USED TO BE HERE WAS WRONG AND IS DELETED. It said
+         the hardened fill was needed because "this page scrolls a 96px plate
+         and a 56px one under it". That was true of the bar pinned to the FOOT
+         of the viewport. Pinned under the header it only reveals once the
+         identity region has scrolled above it, so the 96px plate passes under
+         the site header and never reaches this bar: swept at 10px steps over
+         the whole page, five widths, both themes, the widest object that ever
+         crosses it is 36 x 32px (56px at 768 and 375), and at a 60px threshold
+         there is nothing at any width. #551 was about objects wider than any
+         blur radius we would ship, so it does not decide this either way.
+         Engineering Lead, WORK_LOGS/2026-09-15_JOB_BAR_FILL_EXPOSURE.md.
+
+         WHAT DECIDES IT IS BODY COPY, which that sweep did not look for and
+         which a top-pinned bar never stops having under it - on this page at
+         1512 there is no scroll position where the bar has nothing beneath it
+         at all. Measured as the difference between two renders at one scroll
+         position, the page as it is against the page with the ink under the
+         bar set `visibility:hidden` (layout preserved, so backgrounds, the
+         ambient field and the bar's own contents all cancel): at 72% the ghost
+         reaches p99 6.16 L* in dark at 1512 and 4.69 in light at 1280, over
+         43-64% of the bar's pixels; at 96/88 it is p99 1.48 and 0.60, over
+         0-19%. Between 2.1x and 7.8x on every page, theme and width tested.
+         That is why the convergence went up rather than down. */
+      --glass-ground: var(--color-canvas);
+    }
+    /* THE DOCK'S LIGHT IS GONE. The employer's accent used to enter the bar
+       from the viewport's left edge, at a chromatic/achromatic pair of alphas
+       solved on dE2000 for light. It was the argument that the bar was "this
+       page's object rather than generic chrome", and the ruling on 2026-09-15
+       was that it is not this page's object at all: it is the company page's
+       filter band, carrying this page's contents. "I really mean the same,
+       meaning height, coloration, left and right side alignments etc. Just
+       diff content." A wash one bar has and the other has not is coloration,
+       not content.
+
+       The accent is not lost to the page - the header's atmosphere and the
+       other-roles cards below still draw with it, and those are the page's own
+       surfaces. The solved alphas are in the file's history if a surface ever
+       needs them again; the reasoning is in DESIGN.md Section 4.4. */
+
+    /* The employer's other roles, drawn as the homepage's job card
+       (_includes/home/job-card.twig, whose atmosphere rules live in index.twig's
+       own css block the same way). The one difference is the accent: on the
+       homepage each card samples its own employer's mark; here every card is
+       the same employer, whose colour the page has already resolved into
+       --company-accent, so the cards take it from the page.
+
+       The accent is carried by the field behind the content and by nothing
+       else. The card's edge stays `border-line`, stepping to `line-strong` on
+       hover as every interactive card does (DESIGN.md Section 5.1): atmosphere
+       sits behind content and never tints a control or a card's edge. This
+       used to mix the accent into the hover border, and the ruling elsewhere
+       on the branch is that it must not. */
+    .job-related-card__atmosphere {
+      background: radial-gradient(85% 125% at 2% 0%, color-mix(in srgb, var(--company-accent) 18%, transparent), transparent 68%);
+      opacity: .72;
+      transition: opacity var(--transition-duration-base) var(--ease-out-soft);
+    }
+    .job-related-card:hover .job-related-card__atmosphere {
+      opacity: 1;
+    }
+    html[data-theme="light"] .job-related-card__atmosphere {
+      opacity: .42;
+    }
+    html[data-theme="light"] .job-related-card:hover .job-related-card__atmosphere {
+      opacity: .68;
+    }
+
+    /* The employer card's light (_includes/job-rail-company.twig), a step down
+       on white for the same reason as the artwork above and the cards below. */
+    html[data-theme="light"] .job-employer-light {
+      opacity: .6;
+    }
+
+    /* Brand dash bullets (DESIGN.md Section 6).
+
+       The typography plugin colours a native `::marker`, and a marker cannot be
+       reshaped - it takes no width, height or background - so the marker is
+       removed and a real box is drawn in `::before` instead. `list-style: none`
+       is what makes that safe: without it the disc and the dash would both
+       render.
+
+       Scoped to `.job-description` inside this page's own page-level css block,
+       so it cannot reach the same class name in the v1 split viewer or the
+       company drawer, which load their own pages. */
+    .job-description.prose ul {
+      list-style: none;
+      padding-inline-start: 1.25em;
+    }
+    .job-description.prose ul > li {
+      position: relative;
+      padding-inline-start: 0;
+    }
+    .job-description.prose ul > li::before {
+      content: "";
+      position: absolute;
+      left: -1.25em;
+      top: calc(.875em - 1px);
+      width: .5rem;
+      height: 2px;
+      background-color: var(--color-brand);
+    }
+
+    /* DESIGN.md Section 9: ONE gate, and it turns off every animation and every
+       transition - not just the entrance. Scoped to this page's own wrapper
+       rather than declared globally, because htmrkr.css is out of scope here and
+       a page-level rule must not reach the v1 pages either side of it.
+
+       The entrance starts from a visible rest state, so disabling it leaves the
+       page intact. Vue's transition on the pinned bar also declares its
+       reduced-motion state explicitly, so this gate can switch motion off
+       literally. */
+    @media (prefers-reduced-motion: reduce) {
+      .job-rise {
+        animation: none !important;
+      }
+      .job-page *,
+      .job-page *::before,
+      .job-page *::after {
+        animation: none !important;
+        transition: none !important;
+      }
+    }
+  </style>
+<style>  #footer-newsletter-spinner {
+    display:none;
+  }
+
+  #footer-newsletter-submit.htmx-request #footer-newsletter-spinner {
+    display:flex;
+  }
+
+  #footer-newsletter-submit.htmx-request span:first-of-type {
+    opacity:0;
+  }
+</style></head>
+    <body class="bg-alpha-1 font-sans text-alpha-9 text-sm antialiased job-entry">
+          <noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-MVDTJ7GC"
+      height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
+    
+    <div id="app">
+        
+  
+    <div
+    class="job-atmosphere pointer-events-none absolute inset-x-0 top-0 -z-10 h-[36rem] overflow-hidden"
+    aria-hidden="true"
+      >
+          <img
+        src="https://hitmarker.net/imager/company/banner/1502412/1755894628_112b836d0d.webp"
+        alt=""
+        width="1500"
+        height="500"
+        class="absolute -inset-[10%] size-[120%] max-w-none object-cover opacity-40 blur-3xl saturate-150"
+      >
+            <div class="absolute -left-[6%] top-[2%] h-[76%] w-[48%] rounded-full bg-[color-mix(in_srgb,var(--company-accent)_20%,transparent)] blur-2xl"></div>
+    <div class="absolute -left-[2%] top-[14%] h-[48%] w-[24%] rounded-full bg-[color-mix(in_srgb,var(--company-accent)_24%,transparent)] blur-2xl"></div>
+    <div class="absolute left-[34%] -top-[22%] h-[70%] w-[48%] rounded-full bg-ambient-cool blur-2xl"></div>
+        <div class="absolute inset-0 bg-gradient-to-b from-transparent via-canvas/55 via-52% to-canvas to-80%"></div>
+  </div>
+
+  
+  
+<script>
+  (function () {
+    try {
+            if (/(?:^|;\s*)hm_li=[^;]/.test(document.cookie)) {
+        document.documentElement.setAttribute('data-logged-in', '');
+        document.documentElement.setAttribute('data-no-profile-prompt', '');
+      }
+    } catch (e) { /* cookies unavailable: the fetch reveals it a moment later */ }
+  })();
+</script>
+
+
+<header
+  class="site-header surface-glass font-slab text-base font-medium uppercase border-b border-alpha-4 px-4 md:px-8 py-4 sticky top-0 z-40"
+  data-scroll-header data-header-search>
+  <div class="header-inner max-w-7xl mx-auto">
+        <div class="relative flex items-center gap-x-3 md:gap-x-4">
+      <div class="header-brand inline-flex shrink-0 items-center gap-x-3">
+        <a href="https://hitmarker.net/" class="inline-flex items-center gap-x-2.5">
+          <img src="https://hitmarker.net/assets/hitmarker.svg" alt="Hitmarker" class="size-8">
+        </a>
+      </div>
+
+                        <div class="header-nav hidden shrink-0 gap-x-8 lg:inline-flex">
+                <a
+          data-nav-home
+          class="plausible-event-name=Header+Nav+Click plausible-event-item=Home hidden items-center hover:text-brand"
+          href="https://hitmarker.net/home"        >Home</a>
+        <a href="https://hitmarker.net/jobs" aria-current="page" class="plausible-event-name=Header+Nav+Click plausible-event-item=Jobs hover:text-brand inline-flex items-center">Jobs</a>
+        <a href="https://hitmarker.net/news" class="plausible-event-name=Header+Nav+Click plausible-event-item=News hover:text-brand inline-flex items-center">News</a>
+                <a href="https://hitmarker.net/career-advice" class="plausible-event-name=Header+Nav+Click plausible-event-item=Resources hover:text-brand inline-flex items-center">Resources</a>
+        <a href="https://hitmarker.net/gaming-ecosystem" class="plausible-event-name=Header+Nav+Click plausible-event-item=Ecosystem hover:text-brand inline-flex items-center">Ecosystem</a>
+      </div>
+
+                      <div class="header-search flex min-w-0 flex-auto items-center gap-x-2.5 lg:max-w-lg xl:max-w-2xl">
+          <global-search-bar
+            class="min-w-0 flex-auto"
+            action="https://hitmarker.net/search"
+            param="q"
+            placeholder="Search jobs, companies and news"
+            placeholder-short="Search jobs"
+            context="jobs"
+          >
+                        <div class="search-field flex items-center gap-x-2.5 rounded-full border border-alpha-4 bg-alpha-2 px-4 py-1.5">
+              <svg class="size-4 flex-none text-alpha-6" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" aria-hidden="true"><path stroke="currentColor" stroke-linecap="square" stroke-linejoin="round" stroke-width="2" d="m21 21-4.34-4.34"/><path stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M11 19a8 8 0 1 0 0-16 8 8 0 0 0 0 16Z"/></svg>
+                            <span class="min-w-0 flex-auto truncate font-sans text-base normal-case text-alpha-6 sm:hidden">Search jobs</span>
+              <span class="hidden min-w-0 flex-auto truncate font-sans text-base normal-case text-alpha-6 sm:block lg:text-sm">Search jobs, companies and news</span>
+            </div>
+          </global-search-bar>
+        </div>
+      
+            <div class="header-actions inline-flex shrink-0 items-center justify-end gap-x-3 whitespace-nowrap lg:gap-x-8">
+                <div id="component-rnywej" class="inline-flex justify-end lg:min-w-48" data-hx-target="this" data-hx-include="this" data-hx-trigger="load, refresh" data-hx-get="https://hitmarker.net/index.php/actions/sprig-core/components/render" data-hx-vals="{&quot;sprig:siteId&quot;:&quot;55d1ccef433adf8ca8bed3437e9c2755746e61184bf275b0e56dcb4312c7b5c81&quot;,&quot;sprig:id&quot;:&quot;29dfac2385331f599e66b90c9687b8f11ded832067d8803c237aa3ef518eed19component-rnywej&quot;,&quot;sprig:component&quot;:&quot;6435e14059a74dd5f46b237e88cc8fe0725095741643900a4310796e9c87a99d&quot;,&quot;sprig:template&quot;:&quot;00ee4133c777c407c8dc91248de0c7635d840da3ccdf18de8e0ec5ea1a5fa5d5_includes\/sprig\/user-menu&quot;}" s-trigger="load, refresh">        <div class="inline-flex items-center gap-x-5">
+    <a href="https://hitmarker.net/post-a-job" class="plausible-event-name=Post+Job+CTA+Click plausible-event-item=nav hidden items-center gap-x-2 text-brand hover:text-brand-hover lg:inline-flex">Post a Job<span class="inline-flex items-center h-[20px] px-2 font-slab font-bold text-[10.5px] uppercase tracking-[.1em] text-brand bg-brand-soft border border-transparent">Free</span>
+</a>
+    <span class="inline-flex size-7 animate-pulse rounded-full border border-alpha-4 bg-alpha-3" aria-hidden="true"></span>
+  </div>
+</div>
+      </div>
+
+            <div class="inline-flex shrink-0 lg:hidden">
+        <mobile-menu></mobile-menu>
+      </div>
+    </div>
+  </div>
+</header>
+
+    <div id="profiles-banner" class="bg-alpha-2 border-b border-alpha-4 px-4 md:px-8">
+    <div class="max-w-7xl mx-auto">
+      <a href="https://hitmarker.net/my-profile" class="group flex items-start gap-x-3 py-2">
+        <span class="relative mt-1.5 flex size-2 shrink-0" aria-hidden="true">
+          <span class="motion-reduce:hidden absolute inline-flex h-full w-full animate-ping rounded-full bg-brand opacity-75"></span>
+          <span class="relative inline-flex size-2 rounded-full bg-brand"></span>
+        </span>
+
+        <span class="min-w-0">
+          <span class="text-brand font-bold">New: </span>
+          <span class="font-bold">Hitmarker Profiles.</span>
+          Turn your experience and skills into a profile that gets you hired.
+          <span class="group-hover:text-brand-hover text-brand font-bold whitespace-nowrap">
+            Create profile <span aria-hidden="true">&rarr;</span>
+          </span>
+        </span>
+      </a>
+    </div>
+  </div>
+
+
+  
+    
+                
+  
+    <div
+    class="job-page"
+      >
+        <div class="relative @container overflow-x-clip">
+            <div class="relative mx-auto max-w-6xl px-4 pt-5 md:px-8">
+                <div class="flex flex-wrap items-center justify-between gap-x-6 gap-y-1">
+          <nav aria-label="Breadcrumb" class="min-w-0">
+            <ol class="flex min-w-0 flex-wrap items-center gap-x-2 gap-y-1 text-xs text-alpha-7">
+              <li class="flex-none"><a href="https://hitmarker.net/jobs" class="transition-colors duration-fast hover:text-alpha-9">Jobs</a></li>
+                              <li aria-hidden="true" class="flex-none text-alpha-5">/</li>
+                <li class="min-w-0"><a href="https://hitmarker.net/companies/cloud-imperium-games" class="block max-w-full truncate transition-colors duration-fast hover:text-alpha-9">Cloud Imperium Games</a></li>
+                          </ol>
+          </nav>
+
+          <div class="min-w-0 max-w-xs">
+            <job-trail-nav :trail="jobTrail" :current-job-id="trailJobId"></job-trail-nav>
+          </div>
+        </div>
+
+        
+                <div class="mt-6">
+          
+<div class="grid items-start gap-6 grid-cols-[96px_minmax(0,1fr)]">
+          <a
+      href="https://hitmarker.net/companies/cloud-imperium-games"
+      class="job-rise relative flex size-24 flex-none items-center justify-center overflow-hidden bg-white"
+      style="--i:0"
+      aria-label="Cloud Imperium Games"
+    >
+            <span aria-hidden="true" class="font-slab text-3xl font-bold uppercase leading-none text-alpha-6">C</span>
+
+                    <img
+          src="https://hitmarker.net/imager/company/logo/1298145/1750439939_14cd2528e1.webp"
+          alt=""
+          width="500"
+          height="500"
+          class="absolute inset-0 size-full object-contain"
+          onerror="this.remove()"
+        >
+          </a>
+  
+    <div class="flex min-w-0 flex-col lg:min-h-24 lg:justify-end">
+          <div class="job-rise flex flex-wrap items-center gap-x-2.5 gap-y-1" style="--i:1">
+        <a href="https://hitmarker.net/companies/cloud-imperium-games" class="inline-flex min-w-0 items-center gap-x-1.5 text-[15px] font-semibold text-alpha-8 transition-colors duration-fast hover:text-brand">
+          <span class="truncate">Cloud Imperium Games</span>
+                  </a>
+                          <span class="inline-flex items-center gap-x-2.5">
+            <span class="text-alpha-5 max-sm:hidden" aria-hidden="true">&middot;</span>
+            <a href="https://hitmarker.net/companies/cloud-imperium-games" class="text-alpha-7 transition-colors duration-fast hover:text-brand">
+              42 open roles
+            </a>
+          </span>
+              </div>
+    
+        <h1
+      class="job-rise mt-2.5 text-balance text-3xl font-bold leading-[1.02] tracking-[-.03em] text-alpha-9 sm:text-4xl lg:text-display-lg lg:[font-variation-settings:'opsz'_32]"
+      style="--i:2"
+    >Technical Embedded QA Specialist I</h1>
+  </div>
+</div>
+        </div>
+
+                <div class="job-rise mt-6" style="--i:3">
+          
+
+  
+
+        
+
+
+<div class="grid grid-cols-2 border-r border-b border-line md:grid-flow-col md:auto-cols-auto md:grid-cols-none">
+      <div class="bg-surface/75 border-l border-t border-line px-4 py-4 lg:px-5 shadow-[inset_0_1px_0_var(--color-edge)] max-md:last:odd:col-span-2">
+      <div class="font-slab font-semibold uppercase tracking-[.12em] text-[11px] text-alpha-7 mb-2.5">Location</div>
+            <div class="flex items-start gap-2 text-alpha-9 font-medium text-[15px]">
+                          <span v-twemoji class="mt-0.5 flex-none size-4.5">🇩🇪</span>
+                <span class="min-w-0 md:truncate">Frankfurt am Main, HE, Germany</span>
+      </div>
+          </div>
+  
+  
+      <div class="bg-surface/75 border-l border-t border-line px-4 py-4 lg:px-5 shadow-[inset_0_1px_0_var(--color-edge)] max-md:last:odd:col-span-2">
+      <div class="font-slab font-semibold uppercase tracking-[.12em] text-[11px] text-alpha-7 mb-2.5">Level</div>
+      <div class="text-alpha-9 font-medium text-[15px]">Intermediate (2–5 years)</div>
+    </div>
+  
+      <div class="bg-surface/75 border-l border-t border-line px-4 py-4 lg:px-5 shadow-[inset_0_1px_0_var(--color-edge)] max-md:last:odd:col-span-2">
+      <div class="font-slab font-semibold uppercase tracking-[.12em] text-[11px] text-alpha-7 mb-2.5">Contract</div>
+      <div class="text-alpha-9 font-medium text-[15px]">Full Time</div>
+          </div>
+  
+    <div class="bg-surface/75 border-l border-t border-line px-4 py-4 lg:px-5 shadow-[inset_0_1px_0_var(--color-edge)] max-md:last:odd:col-span-2">
+    <div class="font-slab font-semibold uppercase tracking-[.12em] text-[11px] text-alpha-7 mb-2.5">Posted</div>
+    <div class="text-alpha-9 font-medium text-[15px]"><span data-datetime="2026-08-27T01:00:00+01:00" data-hide-time data-relative></span></div>
+    <div class="mt-1 text-xs text-alpha-7">
+                        Still accepting applications
+                  </div>
+  </div>
+</div>
+        </div>
+
+                <div class="mt-8 grid grid-cols-1 items-start gap-x-10 gap-y-8 pb-20 lg:grid-cols-[minmax(0,1fr)_340px]">
+                    <div class="grid content-start gap-4 max-lg:contents lg:order-2">
+                        <div data-job-bar-sentinel class="max-lg:order-1">
+              
+<div class="bg-raised border border-line shadow-[inset_0_1px_0_var(--color-edge)] p-5">
+    <div class="drop-shadow-glow focus-within:drop-shadow-glow-focus">
+    <div id="component-ribkiz" class="sprig-component" data-hx-target="this" data-hx-include="this" data-hx-trigger="load, refresh" data-hx-get="https://hitmarker.net/index.php/actions/sprig-core/components/render" data-hx-vals="{&quot;sprig:siteId&quot;:&quot;55d1ccef433adf8ca8bed3437e9c2755746e61184bf275b0e56dcb4312c7b5c81&quot;,&quot;sprig:id&quot;:&quot;9b2f5e075ba6c0aa4c92dc560ea6b20709a01fd8457406eeda62d958e5e6bcadcomponent-ribkiz&quot;,&quot;sprig:component&quot;:&quot;6435e14059a74dd5f46b237e88cc8fe0725095741643900a4310796e9c87a99d&quot;,&quot;sprig:template&quot;:&quot;5c7964fd3705f2b8d16b929484e6923475940b05367e8c7d877652640586ed8c_includes\/sprig\/job-apply&quot;,&quot;sprig:variables[entryId]&quot;:&quot;cad8abaed62dd89965a710e302398cbca3f0f746b4dc91195ba2b726ecaaf9354621360&quot;,&quot;sprig:variables[entryType]&quot;:&quot;f854f8c5d12fd3ef32612572430a93ed9be0ddcc8755944a989fc2c0c82a19e0open&quot;,&quot;sprig:variables[applicationType]&quot;:&quot;83e3f86dd5f5c47334e83d23bfc931ce731bf303ff9c247a8a7958c3b1276c12url&quot;,&quot;sprig:variables[email]&quot;:&quot;6435e14059a74dd5f46b237e88cc8fe0725095741643900a4310796e9c87a99d&quot;,&quot;sprig:variables[url]&quot;:&quot;12c904c1532773465c31b5ada47734ec83caa1391b96934ad3657646e9f8f6f1https:\/\/cloudimperiumgames.wd503.myworkdayjobs.com\/CIG_Global_Careers\/job\/Frankfurt\/Embedded-QA-Specialist-I---Engine_JR101481-1&quot;,&quot;sprig:variables[variant]&quot;:&quot;e00b2d8f384bf6510e8d1e61769d032d6070c0297f2f031e88024e20aed99488rail&quot;}" s-trigger="load, refresh"></div>
+  </div>
+
+    <div class="mt-2.5 grid grid-cols-3 gap-px border border-line bg-line">
+        <div class="bg-raised">
+      <div id="component-slbgnf" class="sprig-component" data-hx-target="this" data-hx-include="this" data-hx-trigger="load, refresh" data-hx-get="https://hitmarker.net/index.php/actions/sprig-core/components/render" data-hx-vals="{&quot;sprig:siteId&quot;:&quot;55d1ccef433adf8ca8bed3437e9c2755746e61184bf275b0e56dcb4312c7b5c81&quot;,&quot;sprig:id&quot;:&quot;7cba3ff4e136a80be79fb8b65380a6c4e43f9a57828d2b24fc4969aa8e9f93eecomponent-slbgnf&quot;,&quot;sprig:component&quot;:&quot;6435e14059a74dd5f46b237e88cc8fe0725095741643900a4310796e9c87a99d&quot;,&quot;sprig:template&quot;:&quot;c16141098970b0ef17fdd75c031eb3dd239145b6c685c2ff5d2106d06f5f1d33_includes\/sprig\/save-button&quot;,&quot;sprig:variables[entryId]&quot;:&quot;cad8abaed62dd89965a710e302398cbca3f0f746b4dc91195ba2b726ecaaf9354621360&quot;,&quot;sprig:variables[variant]&quot;:&quot;6042dd77b8a7b3afa1c29c5b14fa1aa695118947bc7698c8e314fed860fb71f9segment&quot;}" s-trigger="load, refresh" data-saved-job-component="">
+  </div>
+    </div>
+
+        <job-share-bar
+      share-url="https&#x3A;&#x2F;&#x2F;hitmarker.net&#x2F;jobs&#x2F;cloud-imperium-games-technical-embedded-qa-specialist-i-4621360"
+      share-title="Technical&#x20;Embedded&#x20;QA&#x20;Specialist&#x20;I"
+      company-name="Cloud&#x20;Imperium&#x20;Games"
+      company-logo="https&#x3A;&#x2F;&#x2F;hitmarker.net&#x2F;imager&#x2F;company&#x2F;logo&#x2F;1298145&#x2F;1750439939_14cd2528e1.webp"
+      location-label="Frankfurt&#x20;am&#x20;Main,&#x20;HE,&#x20;Germany"
+      :job-id="4621360"
+      :can-refer="true"
+      surface="job_detail"
+    ></job-share-bar>
+  </div>
+
+  <ul class="mt-5 grid gap-2.5 border-t border-line pt-4 text-[13px]">
+          <li class="flex items-start gap-x-2.5 text-alpha-8">
+                <svg class="mt-0.5 size-4 flex-none text-alpha-6" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" aria-hidden="true"><path stroke="currentColor" stroke-linecap="square" stroke-width="2" d="M20 6 9 17l-5-5"/></svg>
+        <span>Apply in seconds with a Hitmarker profile</span>
+      </li>
+          <li class="flex items-start gap-x-2.5 text-alpha-8">
+                <svg class="mt-0.5 size-4 flex-none text-alpha-6" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" aria-hidden="true"><path stroke="currentColor" stroke-linecap="square" stroke-width="2" d="M20 6 9 17l-5-5"/></svg>
+        <span>Get discovered by studios hiring now</span>
+      </li>
+          <li class="flex items-start gap-x-2.5 text-alpha-8">
+                <svg class="mt-0.5 size-4 flex-none text-alpha-6" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" aria-hidden="true"><path stroke="currentColor" stroke-linecap="square" stroke-width="2" d="M20 6 9 17l-5-5"/></svg>
+        <span>Track every application in one place</span>
+      </li>
+      </ul>
+
+    <div class="mt-4 flex justify-end text-xs text-alpha-7">
+    <button type="button" @click="showReportModal=true" class="transition-colors duration-fast hover:text-brand">Report listing</button>
+  </div>
+</div>
+            </div>
+
+                          <div class="max-lg:order-3">
+                
+    
+
+<div class="relative overflow-hidden bg-surface border border-line shadow-[inset_0_1px_0_var(--color-edge)]">
+    <div class="job-employer-light pointer-events-none absolute inset-x-0 top-0 h-32 [mask-image:linear-gradient(to_bottom,#000_30%,transparent)]" aria-hidden="true">
+    <div class="absolute -left-[14%] -top-[70%] h-[220%] w-[68%] rounded-full bg-[color-mix(in_srgb,var(--company-accent)_18%,transparent)] blur-2xl"></div>
+    <div class="absolute inset-0 opacity-60 [background-image:radial-gradient(var(--color-line-strong)_1px,transparent_1px)] [background-size:24px_24px] [mask-image:radial-gradient(70%_120%_at_18%_0%,#000_10%,transparent_70%)]"></div>
+  </div>
+
+  <div class="relative p-5">
+        <div class="flex items-end gap-x-3.5">
+      <a
+        href="https://hitmarker.net/companies/cloud-imperium-games"
+        class="relative flex size-14 flex-none items-center justify-center overflow-hidden bg-white"
+        aria-label="Cloud Imperium Games"
+      >
+        <span aria-hidden="true" class="font-slab text-xl font-bold uppercase leading-none text-alpha-6">C</span>
+                  <img src="https://hitmarker.net/imager/company/logo/1298145/1750439939_14cd2528e1.webp" alt="" width="500" height="500" class="absolute inset-0 size-full object-contain" onerror="this.remove()">
+              </a>
+      <div class="min-w-0 pb-0.5">
+        <a href="https://hitmarker.net/companies/cloud-imperium-games" class="flex min-w-0 items-center gap-x-1.5 text-[15px] font-semibold leading-5 text-alpha-9 transition-colors duration-fast hover:text-brand">
+          <span class="truncate">Cloud Imperium Games</span>
+                  </a>
+                  <div class="mt-0.5 truncate text-xs leading-4 text-alpha-7">Privately Held</div>
+              </div>
+    </div>
+
+          <p class="mt-3.5 line-clamp-3 text-[13px] leading-[1.55] text-alpha-8 text-pretty">Cloud Imperium Games is a games studio most notable for crowdfunding to support its development of Star Citizen.</p>
+    
+                <dl class="mt-4 grid grid-cols-2 gap-px border-t border-line bg-line">
+                  <div class="min-w-0 bg-surface py-3 odd:pr-4 even:pl-4 ">
+            <dt class="font-slab font-semibold uppercase tracking-[.1em] text-[10.5px] text-alpha-6">Headcount</dt>
+            <dd class="mt-1 truncate text-[13px] font-medium leading-5 text-alpha-9 ">1,000-5,000 people</dd>
+          </div>
+                  <div class="min-w-0 bg-surface py-3 odd:pr-4 even:pl-4 ">
+            <dt class="font-slab font-semibold uppercase tracking-[.1em] text-[10.5px] text-alpha-6">Founded</dt>
+            <dd class="mt-1 truncate text-[13px] font-medium leading-5 text-alpha-9 tabular-nums">2012</dd>
+          </div>
+              </dl>
+    
+                <div class="mt-4 flex items-center gap-x-3 border-t border-line pt-3.5 text-xs leading-4 text-alpha-7">
+                  <a target="_blank" rel="nofollow noopener" href="https://cloudimperiumgames.com/" class="inline-flex min-w-0 items-center gap-x-1.5 transition-colors duration-fast hover:text-brand">
+            <svg class="size-4 flex-none" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" aria-hidden="true"><path stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M12 21a9 9 0 1 0 0-18 9 9 0 0 0 0 18Zm0 0c2.2 0 4-4.03 4-9s-1.8-9-4-9-4 4.03-4 9 1.8 9 4 9ZM3.6 9h16.8M3.6 15h16.8"/></svg>
+
+            <span class="truncate">cloudimperiumgames.com</span>
+          </a>
+                          <div class="-mr-2 ml-auto flex flex-none items-center">
+                          <a target="_blank" rel="nofollow noopener" href="https://linkedin.com/company/cloud-imperium-games/" class="flex size-8 items-center justify-center transition-colors duration-fast hover:text-brand">
+                <span class="sr-only">Cloud Imperium Games on LinkedIn</span>
+                <svg class="size-4" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" aria-hidden="true"><g fill="currentColor" transform="translate(-.63 -.47) scale(1.263)"><path d="M6 17H3V8h3v9Z"/><path d="M4.5 6.25A1.75 1.75 0 1 1 6.3 4.5a1.78 1.78 0 0 1-1.8 1.75Z"/><path d="M17 17h-3v-4.74c0-1.42-.6-1.93-1.38-1.93A1.74 1.74 0 0 0 11 12.19a.655.655 0 0 0 0 .14V17H8V8h2.9v1.3a3.11 3.11 0 0 1 2.7-1.4c1.55 0 3.36.86 3.36 3.66L17 17Z"/></g></svg>
+
+              </a>
+                                      <a target="_blank" rel="nofollow noopener" href="https://twitter.com/CloudImperium" class="flex size-8 items-center justify-center transition-colors duration-fast hover:text-brand">
+                <span class="sr-only">Cloud Imperium Games on X</span>
+                <svg class="size-4" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" aria-hidden="true"><path fill="currentColor" transform="translate(2 2)" d="M15.751.96h3.067l-6.7 7.659L20 19.039h-6.172l-4.833-6.32-5.531 6.32H.394l7.167-8.19L0 .96h6.328l4.37 5.777L15.75.96Zm-1.076 16.243h1.7L5.404 2.7H3.58l11.094 14.503Z"/></svg>
+
+              </a>
+                      </div>
+              </div>
+      </div>
+</div>
+              </div>
+
+                            <related-jobs
+                class="max-lg:order-3"
+                :company-id="341202"
+                company-title="Cloud&#x20;Imperium&#x20;Games"
+                company-url="https://hitmarker.net/companies/cloud-imperium-games"
+                :exclude-job-id="4621360"
+                :company-job-count="42"
+              ></related-jobs>
+            
+                        <div class="hidden lg:block">
+              <a target="_blank" rel="noopener" href="https://htmr.kr/gds" class="relative block bg-cover bg-center font-bold text-center text-white border border-alpha-4 hover:border-[#00b0ff] hover:ring-[.5px] hover:ring-[#00b0ff]" style="background-image: url(https://hitmarker.net/assets/game-design-skills-bg.webp);">
+  <div class="relative z-[1] flex flex-col aspect-[3/2] gap-y-1 px-3 py-4">
+    <img src="https://hitmarker.net/assets/game-design-skills-logo.webp" width="226" height="202" alt="Game Design Skills" class="w-9 h-auto mx-auto">
+    <div class="flex-auto flex items-center justify-center text-base leading-tight text-balance">Learn game design from industry experts and build your portfolio to land roles faster</div>
+    <div class="text-sm">Game Design Skills Bootcamps</div>
+    <div class="text-xs text-[#00b0ff]">Autumn 2026 &middot; Enrol by 25 September</div>
+  </div>
+  <div class="absolute inset-0 bg-black/50"></div>
+</a>
+            </div>
+          </div>
+
+          <article class="order-2 min-w-0 lg:order-1">
+                                    <div class="job-description prose prose-alpha max-w-[68ch] text-[15.5px] leading-[1.7] prose-headings:text-balance prose-headings:tracking-[-.015em] prose-p:text-pretty prose-li:text-pretty"><p><b>We are a crowdfunded company and have a dedicated and enthusiastic community of backers who are helping us create the “Best Damn Space Sim Ever”. We want to build the best we can deliver and we believe wholeheartedly in the value of exceptional diverse talent.</b></p><p>Founded in 2012 by renowned game developer Chris Roberts, Cloud Imperium Games (CIG) is one of the largest global independent studios, dedicated to delivering next-generation AAA games. CIG prides itself in thinking outside the box, encouraging creativity and developing ground-breaking technology. CIG believes in raising the bar for the gaming industry and the gaming community as a whole.  </p><h3 class="job-description__section">About the Role</h3><p>This role will focus on supporting the Engine team in their tasks within our multiplayer online game, Star Citizen, and our story-driven single player epic Squadron 42. The successful person will be supporting not only testing the team’s creations in client, but also testing the tools used to create these pieces, as well as providing feedback. As the tester assigned to the team, your work will directly affect the quality of Star Citizen and Squadron 42. <br> </p><p><b>What does an Embedded QA Specialist at CIG do?</b>  </p><ul><li><p>Support the Engine team by improving existing testing procedures and identifying requirements. </p></li></ul><ul><li><p>Verify game features, systems, and tools daily and provide feedback for the team. </p></li></ul><ul><li><p>Create, execute and maintain test cases on assigned projects as well as ad-hoc testing on focused areas. </p></li></ul><ul><li><p>Act as point of contact and liaison for QA support for the Engine team globally. </p></li></ul><ul><li><p>Compose regular progress updates and reports for leadership. </p></li></ul><p><b>What do we expect from our Embedded QA Specialists?</b>  </p><ul><li><p>Demonstrable game testing experience with advanced skills in identifying and isolating issues systemically to help with resolving problems quicker. </p></li></ul><ul><li><p>A strong focus/knowledge in technical areas of QA including, but not limited to; Scripting, Game Engines, Development Tools, and an understanding of Backend Services </p></li></ul><ul><li><p>Knowledge of more advanced technical areas, i.e. Python, Perforce, Linux etc. </p></li></ul><ul><li><p>Experience with writing test cases and ownership of feature areas as well as a good knowledge of bug tracking tools, such as Jira. </p></li></ul><ul><li><p>Ability to stay organized and motivated to meet specific deadlines. </p></li></ul><ul><li><p>Ability to effectively manage your time and task prioritization. </p></li></ul><ul><li><p>Thrive in a fast-paced, always-changing work environment where adaptability is paramount </p></li></ul><ul><li><p>Knowledge / usage of a game engine to be able to investigate and understand complex engine issues. </p></li></ul><ul><li><p>Being highly proactive, searching for problems to solve, testing opportunities and team tasks to get involved in  </p></li></ul><ul><li><p>Ability to connect effectively with your cross-disciplined team and other departments through great communication skills. </p></li></ul><ul><li><p>Ability to maintain testing documentation. </p></li></ul><ul><li><p>Innovative approach to problem solving, working meticulously with the highest attention to detail. </p></li></ul><ul><li><p>Work confidently as part of a team and individually.   </p></li></ul><ul><li><p>Flexibility to help other teams when needed and support testing outside of specialisation   </p></li></ul><ul><li><p>Passion for video games especially for sim/space games. </p></li></ul><h3 class="job-description__section">Diversity Statement</h3><p><i>CIG is a global company, staunchly committed to cultivating a culture and workplace that celebrates all backgrounds, lifestyles, and perspectives. Together, we are creating a space where authentic recognition, appreciation, and understanding of the importance of diversity is fostered by everyone. As an Equal Opportunity Employer, we strive to build a team that represents all walks of life, and we want every employee to bring all the things that make them unique to the work environment. The universe is as vast and varied as the people in it, and it’s our differences that make it special.</i> </p><h3 class="job-description__section">Fraud Statement </h3><p><i>We are aware of people receiving job offers that fraudulently allege to be from CIG. These types of fraud can be carried out through false websites, fake email addresses claiming to be from our company, or social media. We do not ask for your personal info like bank account numbers, identification numbers, etc through social media or chat-based apps, nor do we request or send money for the purchase of business equipment.</i> </p><p><i>If you suspect fraud, please report it to your local authorities, as well as reaching out to us at info[@]cloudimperiumgames.com</i> <i>with any information you may have.</i> </p><p><i>If you like wild growth and working with happy, enthusiastic over-achievers, you'll enjoy your career with us!</i></p></div>
+
+                                                  <ul class="mt-10 flex flex-wrap gap-2 border-t border-line pt-6">
+                                  <li>
+                    <a href="https://hitmarker.net/jobs?tag=122707" class="inline-flex h-[22px] items-center border border-line px-2 font-slab text-[10.5px] font-bold uppercase tracking-[.1em] text-alpha-7 transition-colors duration-fast hover:border-brand-line hover:text-brand">Quality Assurance (QA)</a>
+                  </li>
+                                  <li>
+                    <a href="https://hitmarker.net/jobs?tag=122733" class="inline-flex h-[22px] items-center border border-line px-2 font-slab text-[10.5px] font-bold uppercase tracking-[.1em] text-alpha-7 transition-colors duration-fast hover:border-brand-line hover:text-brand">Game Development</a>
+                  </li>
+                                  <li>
+                    <a href="https://hitmarker.net/jobs?tag=122713" class="inline-flex h-[22px] items-center border border-line px-2 font-slab text-[10.5px] font-bold uppercase tracking-[.1em] text-alpha-7 transition-colors duration-fast hover:border-brand-line hover:text-brand">Software Engineering</a>
+                  </li>
+                              </ul>
+                      </article>
+        </div>
+      </div>
+    </div>
+
+        <transition
+  enter-active-class="transition-[opacity,transform] duration-base ease-out-soft motion-reduce:transition-none"
+  enter-from-class="-translate-y-3 opacity-0"
+  enter-to-class="translate-y-0 opacity-100"
+  leave-active-class="transition-[opacity,transform] duration-fast ease-out-soft motion-reduce:transition-none"
+  leave-from-class="translate-y-0 opacity-100"
+  leave-to-class="-translate-y-3 opacity-0"
+>
+    <div
+    v-cloak
+    v-show="isJobBarStuck"
+    data-job-bar
+    class="job-dock surface-glass pointer-events-auto fixed inset-x-0 top-[var(--header-height,4rem)] z-30 border-b border-line shadow-[inset_0_1px_0_var(--color-edge)] px-4 py-3 md:px-8"
+  >
+    
+        <div class="relative mx-auto flex h-9 max-w-7xl items-center gap-x-4">
+
+                      <a
+          href="https://hitmarker.net/companies/cloud-imperium-games"
+          class="relative hidden size-7 flex-none items-center justify-center overflow-hidden sm:flex bg-white"
+          aria-label="Cloud Imperium Games"
+        >
+          <span aria-hidden="true" class="font-slab text-xs font-bold uppercase leading-none text-alpha-6">C</span>
+                      <img src="https://hitmarker.net/imager/company/logo/1298145/1750439939_14cd2528e1.webp" alt="" width="500" height="500" class="absolute inset-0 size-full object-contain" onerror="this.remove()">
+                  </a>
+      
+            <div class="relative flex min-w-0 flex-1 items-center gap-x-2.5">
+                  <a href="https://hitmarker.net/companies/cloud-imperium-games" class="hidden max-w-[16ch] flex-none truncate font-slab text-sm font-semibold uppercase leading-5 tracking-[.06em] text-alpha-9 transition-colors duration-fast hover:text-brand sm:block">Cloud Imperium Games</a>
+          <span aria-hidden="true" class="hidden flex-none text-alpha-5 sm:block">&middot;</span>
+                <div class="min-w-0 truncate text-sm leading-5 text-alpha-7">Technical Embedded QA Specialist I</div>
+      </div>
+
+            <div class="relative flex flex-none items-center gap-x-2.5">
+        <div class="size-9">
+          <div id="component-jxawhy" class="sprig-component" data-hx-target="this" data-hx-include="this" data-hx-trigger="intersect once, refresh" data-hx-get="https://hitmarker.net/index.php/actions/sprig-core/components/render" data-hx-vals="{&quot;sprig:siteId&quot;:&quot;55d1ccef433adf8ca8bed3437e9c2755746e61184bf275b0e56dcb4312c7b5c81&quot;,&quot;sprig:id&quot;:&quot;375d207051ebd24419cbd81ebf0814914b5bde8a4ec102832f946628a8ec59aecomponent-jxawhy&quot;,&quot;sprig:component&quot;:&quot;6435e14059a74dd5f46b237e88cc8fe0725095741643900a4310796e9c87a99d&quot;,&quot;sprig:template&quot;:&quot;c16141098970b0ef17fdd75c031eb3dd239145b6c685c2ff5d2106d06f5f1d33_includes\/sprig\/save-button&quot;,&quot;sprig:variables[entryId]&quot;:&quot;cad8abaed62dd89965a710e302398cbca3f0f746b4dc91195ba2b726ecaaf9354621360&quot;,&quot;sprig:variables[variant]&quot;:&quot;b2fa2638ba24c28d900f5a7b3efbfb12ab78537cd9c1dc8fa75a821f4784c4e1dock&quot;}" s-trigger="intersect once, refresh" data-saved-job-component="">
+  </div>
+        </div>
+
+                <div class="hidden sm:contents">
+          <job-share-bar
+            share-url="https&#x3A;&#x2F;&#x2F;hitmarker.net&#x2F;jobs&#x2F;cloud-imperium-games-technical-embedded-qa-specialist-i-4621360"
+            share-title="Technical&#x20;Embedded&#x20;QA&#x20;Specialist&#x20;I"
+            company-name="Cloud&#x20;Imperium&#x20;Games"
+            company-logo="https&#x3A;&#x2F;&#x2F;hitmarker.net&#x2F;imager&#x2F;company&#x2F;logo&#x2F;1298145&#x2F;1750439939_14cd2528e1.webp"
+            location-label="Frankfurt&#x20;am&#x20;Main,&#x20;HE,&#x20;Germany"
+            :job-id="4621360"
+            :can-refer="true"
+            :compact="true"
+            panel-placement="below"
+            surface="job_dock"
+          ></job-share-bar>
+        </div>
+
+                <div class="drop-shadow-glow focus-within:drop-shadow-glow-focus flex min-w-[6.5rem] justify-end">
+          <div id="component-ixqbdt" class="sprig-component" data-hx-target="this" data-hx-include="this" data-hx-trigger="intersect once, refresh" data-hx-get="https://hitmarker.net/index.php/actions/sprig-core/components/render" data-hx-vals="{&quot;sprig:siteId&quot;:&quot;55d1ccef433adf8ca8bed3437e9c2755746e61184bf275b0e56dcb4312c7b5c81&quot;,&quot;sprig:id&quot;:&quot;663ca52fff79812c8769e99ca24c2bf78800d341a4b564d7bfad9cd8dc0199cacomponent-ixqbdt&quot;,&quot;sprig:component&quot;:&quot;6435e14059a74dd5f46b237e88cc8fe0725095741643900a4310796e9c87a99d&quot;,&quot;sprig:template&quot;:&quot;5c7964fd3705f2b8d16b929484e6923475940b05367e8c7d877652640586ed8c_includes\/sprig\/job-apply&quot;,&quot;sprig:variables[entryId]&quot;:&quot;cad8abaed62dd89965a710e302398cbca3f0f746b4dc91195ba2b726ecaaf9354621360&quot;,&quot;sprig:variables[entryType]&quot;:&quot;f854f8c5d12fd3ef32612572430a93ed9be0ddcc8755944a989fc2c0c82a19e0open&quot;,&quot;sprig:variables[applicationType]&quot;:&quot;83e3f86dd5f5c47334e83d23bfc931ce731bf303ff9c247a8a7958c3b1276c12url&quot;,&quot;sprig:variables[email]&quot;:&quot;6435e14059a74dd5f46b237e88cc8fe0725095741643900a4310796e9c87a99d&quot;,&quot;sprig:variables[url]&quot;:&quot;12c904c1532773465c31b5ada47734ec83caa1391b96934ad3657646e9f8f6f1https:\/\/cloudimperiumgames.wd503.myworkdayjobs.com\/CIG_Global_Careers\/job\/Frankfurt\/Embedded-QA-Specialist-I---Engine_JR101481-1&quot;,&quot;sprig:variables[variant]&quot;:&quot;9b3c64abd9b460171db68c7435549a2aee719c8961b2f2484ce241a8eca83fffbar&quot;}" s-trigger="intersect once, refresh"></div>
+        </div>
+      </div>
+    </div>
+  </div>
+</transition>
+  </div>
+
+  <footer class="border-t border-line px-4 md:px-8 pt-12 pb-8 md:pt-14 md:pb-10 mt-16 md:mt-28">
+  <div class="max-w-7xl mx-auto">
+
+            
+    <div class="site-footer-grid gap-x-6 gap-y-10 sm:gap-x-8 md:gap-y-12 lg:gap-x-10">
+
+      <div class="col-span-2 min-w-0 lg:col-span-1 lg:pr-6">
+                <a href="https://hitmarker.net/" class="inline-flex" aria-label="Hitmarker home">
+          <img src="https://hitmarker.net/assets/hitmarker.svg" alt="Hitmarker" class="size-10" width="40" height="40">
+        </a>
+
+                <p class="mt-5 max-w-[34ch] text-alpha-7 leading-relaxed">
+          Find jobs across games, esports, content and media. Hire talented people across the industry. Make your mark.
+        </p>
+
+        <div class="mt-7">
+          <div id="component-swlmqn" class="sprig-component" data-hx-target="this" data-hx-include="this" data-hx-trigger="refresh" data-hx-get="https://hitmarker.net/index.php/actions/sprig-core/components/render" data-hx-vals="{&quot;sprig:siteId&quot;:&quot;55d1ccef433adf8ca8bed3437e9c2755746e61184bf275b0e56dcb4312c7b5c81&quot;,&quot;sprig:id&quot;:&quot;6ecba49de4ed1d1ad5b3ecde2d5f545073564b23e5c9069bdf55e81312a81dd1component-swlmqn&quot;,&quot;sprig:component&quot;:&quot;7e8d62b0664d86a8633dacf43999bbe77dc02e65cdf29b88e835920caaa54be8NewsletterForm&quot;}">
+
+<div>
+  <label for="footer-newsletter-email" class="block font-slab font-semibold uppercase tracking-[.14em] text-xs text-alpha-9">
+    Join our newsletter
+  </label>
+  <p class="mt-1.5 text-xs text-alpha-7">The week in games, esports and content jobs.</p>
+
+    <form class="mt-3 flex items-center w-full max-w-sm" sprig s-action="subscribe" s-indicator="#footer-newsletter-submit" data-hx-get="https://hitmarker.net/index.php/actions/sprig-core/components/render?sprig%3Aaction=4f90b888b7758d503121631b9fac98b261761cadfcc4a21c76f83e8b3abc40d3subscribe" data-hx-indicator="#footer-newsletter-submit" data-sprig-parsed>
+    <input
+      type="email"
+      id="footer-newsletter-email"
+      name="email"
+      autocomplete="email"
+      placeholder="Enter your email"
+      class="input-text h-10 min-w-0 focus:z-[2] transition-colors duration-fast"
+      required
+      value=""
+    />
+
+    <button id="footer-newsletter-submit" type="submit" class="btn relative -ml-px h-10 flex-none px-4 text-xs font-bold transition-colors duration-fast">
+      <span>Sign up</span>
+      <span id="footer-newsletter-spinner" class="absolute inset-0 flex items-center justify-center">
+        <svg class="w-5 h-5 text-current" fill="currentColor" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="5.254998207092285 5.168999671936035 29.89200210571289 29.89200210571289" xml:space="preserve" aria-hidden="true"><path opacity="0.2" d="M20.201,5.169c-8.254,0-14.946,6.692-14.946,14.946c0,8.255,6.692,14.946,14.946,14.946 s14.946-6.691,14.946-14.946C35.146,11.861,28.455,5.169,20.201,5.169z M20.201,31.749c-6.425,0-11.634-5.208-11.634-11.634 c0-6.425,5.209-11.634,11.634-11.634c6.425,0,11.633,5.209,11.633,11.634C31.834,26.541,26.626,31.749,20.201,31.749z"></path><path d="M26.013,10.047l1.654-2.866c-2.198-1.272-4.743-2.012-7.466-2.012h0v3.312h0 C22.32,8.481,24.301,9.057,26.013,10.047z"><animateTransform attributeType="xml" attributeName="transform" type="rotate" from="0 20 20" to="360 20 20" dur="0.5s" repeatCount="indefinite"></animateTransform></path></svg>
+      </span>
+    </button>
+  </form>
+
+    </div>
+
+</div>
+        </div>
+
+                <div class="mt-7 flex items-center gap-1 -ml-2">
+          <a target="_blank" rel="nofollow noopener" href="https://linkedin.com/company/Hitmarker"
+             class="inline-flex size-9 items-center justify-center text-alpha-7 transition-colors duration-fast hover:text-brand focus:outline-none focus-visible:ring-[1.5px] focus-visible:ring-brand">
+            <span class="sr-only">Hitmarker on LinkedIn</span>
+            <svg class="size-4.5" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24"><g fill="currentColor" transform="translate(-.63 -.47) scale(1.263)"><path d="M6 17H3V8h3v9Z"/><path d="M4.5 6.25A1.75 1.75 0 1 1 6.3 4.5a1.78 1.78 0 0 1-1.8 1.75Z"/><path d="M17 17h-3v-4.74c0-1.42-.6-1.93-1.38-1.93A1.74 1.74 0 0 0 11 12.19a.655.655 0 0 0 0 .14V17H8V8h2.9v1.3a3.11 3.11 0 0 1 2.7-1.4c1.55 0 3.36.86 3.36 3.66L17 17Z"/></g></svg>
+
+          </a>
+          <a target="_blank" rel="nofollow noopener" href="https://x.com/HitmarkerJobs"
+             class="inline-flex size-9 items-center justify-center text-alpha-7 transition-colors duration-fast hover:text-brand focus:outline-none focus-visible:ring-[1.5px] focus-visible:ring-brand">
+            <span class="sr-only">Hitmarker on X</span>
+            <svg class="size-4.5" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24"><path fill="currentColor" transform="translate(2 2)" d="M15.751.96h3.067l-6.7 7.659L20 19.039h-6.172l-4.833-6.32-5.531 6.32H.394l7.167-8.19L0 .96h6.328l4.37 5.777L15.75.96Zm-1.076 16.243h1.7L5.404 2.7H3.58l11.094 14.503Z"/></svg>
+
+          </a>
+        </div>
+      </div>
+
+            
+      <nav aria-labelledby="footer-col-categories" class="col-span-2 lg:col-span-1">
+        <h2 id="footer-col-categories" class="font-slab font-semibold uppercase tracking-[.14em] text-xs text-alpha-9">Browse by Category</h2>
+        <ul class="mt-4 columns-2 gap-x-6 sm:gap-x-8 lg:columns-1 xl:columns-2">
+                      <li><a href="https://hitmarker.net/community-manager-jobs" class="inline-flex py-1.5 text-alpha-7 transition-colors duration-fast hover:text-brand focus:outline-none focus-visible:ring-[1.5px] focus-visible:ring-brand">Community Manager Jobs</a></li>
+                      <li><a href="https://hitmarker.net/entry-level-gaming-jobs" class="inline-flex py-1.5 text-alpha-7 transition-colors duration-fast hover:text-brand focus:outline-none focus-visible:ring-[1.5px] focus-visible:ring-brand">Entry Level Gaming Jobs</a></li>
+                      <li><a href="https://hitmarker.net/esports-jobs" class="inline-flex py-1.5 text-alpha-7 transition-colors duration-fast hover:text-brand focus:outline-none focus-visible:ring-[1.5px] focus-visible:ring-brand">Esports Jobs</a></li>
+                      <li><a href="https://hitmarker.net/freelance-gaming-jobs" class="inline-flex py-1.5 text-alpha-7 transition-colors duration-fast hover:text-brand focus:outline-none focus-visible:ring-[1.5px] focus-visible:ring-brand">Freelance Gaming Jobs</a></li>
+                      <li><a href="https://hitmarker.net/game-art-jobs" class="inline-flex py-1.5 text-alpha-7 transition-colors duration-fast hover:text-brand focus:outline-none focus-visible:ring-[1.5px] focus-visible:ring-brand">Game Art Jobs</a></li>
+                      <li><a href="https://hitmarker.net/game-audio-jobs" class="inline-flex py-1.5 text-alpha-7 transition-colors duration-fast hover:text-brand focus:outline-none focus-visible:ring-[1.5px] focus-visible:ring-brand">Game Audio Jobs</a></li>
+                      <li><a href="https://hitmarker.net/game-concept-art-jobs" class="inline-flex py-1.5 text-alpha-7 transition-colors duration-fast hover:text-brand focus:outline-none focus-visible:ring-[1.5px] focus-visible:ring-brand">Game Concept Art Jobs</a></li>
+                      <li><a href="https://hitmarker.net/game-design-jobs" class="inline-flex py-1.5 text-alpha-7 transition-colors duration-fast hover:text-brand focus:outline-none focus-visible:ring-[1.5px] focus-visible:ring-brand">Game Design Jobs</a></li>
+                      <li><a href="https://hitmarker.net/game-developer-jobs" class="inline-flex py-1.5 text-alpha-7 transition-colors duration-fast hover:text-brand focus:outline-none focus-visible:ring-[1.5px] focus-visible:ring-brand">Game Developer Jobs</a></li>
+                      <li><a href="https://hitmarker.net/game-producer-jobs" class="inline-flex py-1.5 text-alpha-7 transition-colors duration-fast hover:text-brand focus:outline-none focus-visible:ring-[1.5px] focus-visible:ring-brand">Game Producer Jobs</a></li>
+                      <li><a href="https://hitmarker.net/game-tester-jobs" class="inline-flex py-1.5 text-alpha-7 transition-colors duration-fast hover:text-brand focus:outline-none focus-visible:ring-[1.5px] focus-visible:ring-brand">Game Tester Jobs</a></li>
+                      <li><a href="https://hitmarker.net/game-writer-jobs" class="inline-flex py-1.5 text-alpha-7 transition-colors duration-fast hover:text-brand focus:outline-none focus-visible:ring-[1.5px] focus-visible:ring-brand">Game Writer Jobs</a></li>
+                      <li><a href="https://hitmarker.net/gaming-internships" class="inline-flex py-1.5 text-alpha-7 transition-colors duration-fast hover:text-brand focus:outline-none focus-visible:ring-[1.5px] focus-visible:ring-brand">Gaming Internships</a></li>
+                      <li><a href="https://hitmarker.net/gaming-jobs-canada" class="inline-flex py-1.5 text-alpha-7 transition-colors duration-fast hover:text-brand focus:outline-none focus-visible:ring-[1.5px] focus-visible:ring-brand">Gaming Jobs Canada</a></li>
+                      <li><a href="https://hitmarker.net/gaming-jobs-europe" class="inline-flex py-1.5 text-alpha-7 transition-colors duration-fast hover:text-brand focus:outline-none focus-visible:ring-[1.5px] focus-visible:ring-brand">Gaming Jobs Europe</a></li>
+                      <li><a href="https://hitmarker.net/gaming-jobs-uk" class="inline-flex py-1.5 text-alpha-7 transition-colors duration-fast hover:text-brand focus:outline-none focus-visible:ring-[1.5px] focus-visible:ring-brand">Gaming Jobs UK</a></li>
+                      <li><a href="https://hitmarker.net/junior-gaming-jobs" class="inline-flex py-1.5 text-alpha-7 transition-colors duration-fast hover:text-brand focus:outline-none focus-visible:ring-[1.5px] focus-visible:ring-brand">Junior Gaming Jobs</a></li>
+                      <li><a href="https://hitmarker.net/level-design-jobs" class="inline-flex py-1.5 text-alpha-7 transition-colors duration-fast hover:text-brand focus:outline-none focus-visible:ring-[1.5px] focus-visible:ring-brand">Level Design Jobs</a></li>
+                      <li><a href="https://hitmarker.net/part-time-gaming-jobs" class="inline-flex py-1.5 text-alpha-7 transition-colors duration-fast hover:text-brand focus:outline-none focus-visible:ring-[1.5px] focus-visible:ring-brand">Part Time Gaming Jobs</a></li>
+                      <li><a href="https://hitmarker.net/player-support-jobs" class="inline-flex py-1.5 text-alpha-7 transition-colors duration-fast hover:text-brand focus:outline-none focus-visible:ring-[1.5px] focus-visible:ring-brand">Player Support Jobs</a></li>
+                      <li><a href="https://hitmarker.net/remote-gaming-jobs" class="inline-flex py-1.5 text-alpha-7 transition-colors duration-fast hover:text-brand focus:outline-none focus-visible:ring-[1.5px] focus-visible:ring-brand">Remote Gaming Jobs</a></li>
+                      <li><a href="https://hitmarker.net/video-game-marketing-jobs" class="inline-flex py-1.5 text-alpha-7 transition-colors duration-fast hover:text-brand focus:outline-none focus-visible:ring-[1.5px] focus-visible:ring-brand">Video Game Marketing Jobs</a></li>
+                  </ul>
+      </nav>
+
+      
+              <nav aria-labelledby="footer-col-1">
+          <h2 id="footer-col-1" class="font-slab font-semibold uppercase tracking-[.14em] text-xs text-alpha-9">Explore</h2>
+          <ul class="mt-4 flex flex-col">
+                          <li>
+                <a href="https://hitmarker.net/jobs" class=" inline-flex py-1.5 text-alpha-7 transition-colors duration-fast hover:text-brand focus:outline-none focus-visible:ring-[1.5px] focus-visible:ring-brand">Browse All Jobs</a>
+              </li>
+                          <li>
+                <a href="https://hitmarker.net/companies" class=" inline-flex py-1.5 text-alpha-7 transition-colors duration-fast hover:text-brand focus:outline-none focus-visible:ring-[1.5px] focus-visible:ring-brand">Companies</a>
+              </li>
+                          <li>
+                <a href="https://hitmarker.net/gaming-ecosystem" class=" inline-flex py-1.5 text-alpha-7 transition-colors duration-fast hover:text-brand focus:outline-none focus-visible:ring-[1.5px] focus-visible:ring-brand">Gaming Ecosystem</a>
+              </li>
+                          <li>
+                <a href="https://hitmarker.net/world-map" class=" inline-flex py-1.5 text-alpha-7 transition-colors duration-fast hover:text-brand focus:outline-none focus-visible:ring-[1.5px] focus-visible:ring-brand">World Map</a>
+              </li>
+                          <li>
+                <a href="https://hitmarker.net/news" class=" inline-flex py-1.5 text-alpha-7 transition-colors duration-fast hover:text-brand focus:outline-none focus-visible:ring-[1.5px] focus-visible:ring-brand">News</a>
+              </li>
+                          <li>
+                <a href="https://hitmarker.net/layoffs" class=" inline-flex py-1.5 text-alpha-7 transition-colors duration-fast hover:text-brand focus:outline-none focus-visible:ring-[1.5px] focus-visible:ring-brand">Industry Layoffs</a>
+              </li>
+                      </ul>
+        </nav>
+              <nav aria-labelledby="footer-col-2">
+          <h2 id="footer-col-2" class="font-slab font-semibold uppercase tracking-[.14em] text-xs text-alpha-9">Hitmarker</h2>
+          <ul class="mt-4 flex flex-col">
+                          <li>
+                <a href="https://hitmarker.net/about" class=" inline-flex py-1.5 text-alpha-7 transition-colors duration-fast hover:text-brand focus:outline-none focus-visible:ring-[1.5px] focus-visible:ring-brand">About</a>
+              </li>
+                          <li>
+                <a href="https://hitmarker.net/pro" class="plausible-event-name=Pro+CTA+Click plausible-event-item=footer inline-flex py-1.5 text-alpha-7 transition-colors duration-fast hover:text-brand focus:outline-none focus-visible:ring-[1.5px] focus-visible:ring-brand">Post a Job</a>
+              </li>
+                          <li>
+                <a href="https://hitmarker.net/pricing" class=" inline-flex py-1.5 text-alpha-7 transition-colors duration-fast hover:text-brand focus:outline-none focus-visible:ring-[1.5px] focus-visible:ring-brand">Pricing</a>
+              </li>
+                          <li>
+                <a href="https://hitmarker.net/career-advice" class=" inline-flex py-1.5 text-alpha-7 transition-colors duration-fast hover:text-brand focus:outline-none focus-visible:ring-[1.5px] focus-visible:ring-brand">Career Resources</a>
+              </li>
+                          <li>
+                <a href="https://hitmarker.net/contact" class=" inline-flex py-1.5 text-alpha-7 transition-colors duration-fast hover:text-brand focus:outline-none focus-visible:ring-[1.5px] focus-visible:ring-brand">Contact</a>
+              </li>
+                      </ul>
+        </nav>
+          </div>
+
+        <div data-footer-legal class="mt-12 md:mt-14 border-t border-line pt-6 flex flex-wrap items-center justify-between gap-4">
+                  <div class="flex flex-wrap items-center text-xs text-alpha-7 gap-x-4 gap-y-0 sm:gap-2">
+        <span>&copy; 2026 Hitmarker LTD</span>
+        <span aria-hidden="true" class="hidden sm:inline">&middot;</span>
+        <a href="https://hitmarker.net/terms" class="inline-flex items-center py-2 transition-colors duration-fast hover:text-brand">Terms &amp; Conditions</a>
+        <span aria-hidden="true" class="hidden sm:inline">&middot;</span>
+        <a href="https://hitmarker.net/privacy" class="inline-flex items-center py-2 transition-colors duration-fast hover:text-brand">Privacy Policy</a>
+        <span aria-hidden="true" class="hidden sm:inline">&middot;</span>
+        <a href="https://hitmarker.net/cookies" class="inline-flex items-center py-2 transition-colors duration-fast hover:text-brand">Cookie Policy</a>
+      </div>
+
+      <theme-toggle>
+        <button
+          type="button"
+          data-theme-toggle
+          class="inline-flex size-7 items-center justify-center transition-colors duration-fast hover:text-brand focus:outline-none focus-visible:ring-[1.5px] focus-visible:ring-brand focus-visible:ring-offset-2 focus-visible:ring-offset-alpha-1"
+          aria-label="Switch to light mode"
+          title="Switch to light mode"
+        >
+          <span class="sr-only" data-theme-toggle-label>Switch to light mode</span>
+          <svg
+            data-theme-icon="light"
+            class="size-5"
+            aria-hidden="true"
+            xmlns="http://www.w3.org/2000/svg"
+            viewBox="0 0 24 24"
+            fill="none"
+            stroke="currentColor"
+            stroke-width="2"
+            stroke-linecap="square"
+            stroke-linejoin="miter"
+          >
+            <circle cx="12" cy="12" r="4" />
+            <path d="M12 2v2" />
+            <path d="M12 20v2" />
+            <path d="m4.93 4.93 1.41 1.41" />
+            <path d="m17.66 17.66 1.41 1.41" />
+            <path d="M2 12h2" />
+            <path d="M20 12h2" />
+            <path d="m6.34 17.66-1.41 1.41" />
+            <path d="m19.07 4.93-1.41 1.41" />
+          </svg>
+          <svg
+            data-theme-icon="dark"
+            class="size-5"
+            aria-hidden="true"
+            xmlns="http://www.w3.org/2000/svg"
+            viewBox="0 0 24 24"
+            fill="none"
+            stroke="currentColor"
+            stroke-width="2"
+            stroke-linecap="square"
+            stroke-linejoin="miter"
+          >
+            <path d="M12 3a6.75 6.75 0 0 0 8.55 8.55A8.25 8.25 0 1 1 12 3Z" />
+          </svg>
+        </button>
+      </theme-toggle>
+    </div>
+  </div>
+</footer>
+
+  <report-form :open="showReportModal" @close="showReportModal=false"></report-form>
+
+  <div id="component-scvxwc" class="sprig-component" data-hx-target="this" data-hx-include="this" data-hx-trigger="load, refresh" data-hx-get="https://hitmarker.net/index.php/actions/sprig-core/components/render" data-hx-vals="{&quot;sprig:siteId&quot;:&quot;55d1ccef433adf8ca8bed3437e9c2755746e61184bf275b0e56dcb4312c7b5c81&quot;,&quot;sprig:id&quot;:&quot;5f64e2ffeeec844aeeee496d44aba7e0e9c6f63aadb4f08e1b64de327dcd2f66component-scvxwc&quot;,&quot;sprig:component&quot;:&quot;6435e14059a74dd5f46b237e88cc8fe0725095741643900a4310796e9c87a99d&quot;,&quot;sprig:template&quot;:&quot;2b0898f04377e10385266f05a2c7174b8e6542804812670bab5323f59154b325_includes\/sprig\/admin-edit&quot;,&quot;sprig:variables[path]&quot;:&quot;30d3639e748272781dd70b22c03d84c63494f533de752c2dfb6234a7a6c30a40entries\/jobs\/4621360&quot;}" s-trigger="load, refresh"></div>
+      <alerts></alerts>
+      <require-login v-if="!currentUser.loading && !currentUser.data"></require-login>
+      <user-menu v-if="!currentUser.loading && currentUser.data"></user-menu>
+            <welcome-prompt v-if="!currentUser.loading && !currentUser.data"></welcome-prompt>
+    </div>
+
+          <script>window.HM_ONE_TAP = {"enabled":true,"clientId":"760591154471-h5vbvnuah8i5htta825ftggf4valpvhg.apps.googleusercontent.com"};</script>
+
+    <noscript>
+      <div class="pointer-events-none fixed bottom-0 left-0 z-20 w-full px-6 pb-6">
+        <div class="pointer-events-auto flex w-full sm:max-w-sm bg-rose-950 gap-x-2.5 p-4">
+          <svg class="flex-none size-5 text-rose-500" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><circle cx="12" cy="12" r="10"/><path d="m15 9-6 6"/><path d="m9 9 6 6"/></svg>
+          <div>Enable JavaScript to use Hitmarker</div>
+        </div>
+      </div>
+    </noscript>
+  <script src="https://hitmarker.net/cpresources/65d6cac0/htmx.min.js?v=1788296150"></script>
+<script>document.addEventListener('htmx:afterSwap', (ev) => {
+      const component = ev.detail.target;
+      const form = component.querySelector('form[data-saved-job-form]');
+      if (!form) return;
+
+      // Only a submitted form is a save or an unsave. `load`, `intersect` and
+      // the `refresh` this handler itself sends to the sibling component all
+      // swap the same markup, and none of them is something to toast about.
+      const triggeringEvent = ev.detail.requestConfig?.triggeringEvent;
+      if (!triggeringEvent || triggeringEvent.type !== 'submit') return;
+
+      const action = form.getAttribute('s-action');
+      if (action === 'elements/delete') {
+        triggerAlert('success', 'Added to your saved jobs');
+      } else {
+        triggerAlert('warning', 'Removed from your saved jobs');
+      }
+
+      // The page carries this control twice (rail and dock). The one that was
+      // clicked has just re-rendered; the other still shows the old state
+      // until told otherwise. `refresh` is the trigger both are mounted with.
+      document.querySelectorAll('[data-saved-job-component]').forEach((sibling) => {
+        if (sibling !== component && window.htmx) window.htmx.trigger(sibling, 'refresh');
+      });
+    });</script><script>(function(){function c(){var b=a.contentDocument||(a.contentWindow&&a.contentWindow.document);if(b){var d=b.createElement('script');d.innerHTML="window.__CF$cv$params={r:'a400cc5c48f8a5b6',t:'MTc5MDI0MjUxOA=='};var a=document.createElement('script');a.src='/cdn-cgi/challenge-platform/scripts/jsd/main.js';document.getElementsByTagName('head')[0].appendChild(a);";b.getElementsByTagName('head')[0].appendChild(d)}}if(document.body){var a=document.createElement('iframe');a.height=1;a.width=1;a.style.position='absolute';a.style.top=0;a.style.left=0;a.style.border='none';a.style.visibility='hidden';document.body.appendChild(a);if('loading'!==document.readyState)c();else if(window.addEventListener)document.addEventListener('DOMContentLoaded',c);else{var e=document.onreadystatechange||function(){};document.onreadystatechange=function(b){e(b);'loading'!==document.readyState&&(document.onreadystatechange=e,c())}}}})();</script></body>
+</html>
+<!-- Cached by Blitz on 2026-09-24T10:35:18+01:00 --><!-- Served by Blitz on 2026-09-24T10:35:18+01:00 -->

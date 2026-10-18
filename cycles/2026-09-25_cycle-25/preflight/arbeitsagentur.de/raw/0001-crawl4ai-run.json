@@ -1,0 +1,6 @@
+{
+  "url": "https://www.arbeitsagentur.de/jobsuche/",
+  "returncode": 0,
+  "stdout": "✓ 页面已保存到 /opt/data/qa-vacancy-project/cycles/2026-09-25_cycle-25/preflight/arbeitsagentur.de/raw/crawl4ai-listing.md\n  标题: Jobsuche der BA – Startseite\n  链接数: 45\n",
+  "stderr": "[INIT].... → Crawl4AI 0.9.4 \n[FETCH]... ↓ https://www.arbeitsagentur.de/jobsuche/                                                              | ✓ | ⏱: 7.41s \n[SCRAPE].. ◆ https://www.arbeitsagentur.de/jobsuche/                                                              | ✓ | ⏱: 0.26s \n[COMPLETE] ● https://www.arbeitsagentur.de/jobsuche/                                                              | ✓ | ⏱: 7.88s \n"
+}

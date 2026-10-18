@@ -1,0 +1,56 @@
+{
+  "checked_at": "2026-09-25T07:33:10.643246+00:00",
+  "evidence": {
+    "access_method": "base",
+    "attempts": [
+      {
+        "at": "2026-09-25T07:32:15.583261+00:00",
+        "error": "Camofox HTTP 500 for GET /tabs/1d9182df-9abe-43de-b221-fb4f32478898/snapshot",
+        "method": "camofox",
+        "status": "failed"
+      },
+      {
+        "at": "2026-09-25T07:32:16.278306+00:00",
+        "error": "No module named 'httpx'",
+        "method": "exa",
+        "status": "failed"
+      },
+      {
+        "at": "2026-09-25T07:33:07.586572+00:00",
+        "error": "preflight: fewer than two analyzable direct cards",
+        "method": "crawl4ai",
+        "status": "failed"
+      },
+      {
+        "method": "http",
+        "status": "pass"
+      }
+    ],
+    "cards_analyzable": 10,
+    "cards_found": 10,
+    "operations": [
+      {
+        "op": "listing",
+        "status": 200
+      },
+      {
+        "chars": 17857,
+        "op": "card-1",
+        "url": "https://de.linkedin.com/jobs/view/junior-qa-engineer-software-tester-m-w-d-%E2%80%93-produktqualit%C3%A4t-testautomatisierung-4468789847?position=1&pageNum=0&refId=7oaCItbvSVbLSHLc0bHjEg%3D%3D"
+      },
+      {
+        "op": "return",
+        "status": 200
+      },
+      {
+        "chars": 17592,
+        "op": "card-2",
+        "url": "https://de.linkedin.com/jobs/view/junior-qa-engineer-software-tester-m-w-d-%E2%80%93-produktqualit%C3%A4t-testautomatisierung-at-check24-4433870576?position=2&pageNum=0&refId=7oaCItbvSVbLSHLc0bHjEg%3D%3D"
+      }
+    ],
+    "primary_or_fallback": "http",
+    "status": "pass"
+  },
+  "listing": "https://www.linkedin.com/jobs-guest/jobs/api/seeMoreJobPostings/search?keywords=QA&location=Germany&f_TPR=r2592000&start=0",
+  "verdict": "PASS"
+}

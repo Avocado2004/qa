@@ -1,0 +1,6 @@
+{
+  "url": "https://www.stepstone.de/stellenangebote--Projektmitarbeiter-in-Digitale-Fachanwendungen-m-w-d-Qualitaetssicherung-Fachkonzeption-Anwendersupport-Duesseldorf-BMS-Berens-Mosiek-Siemes-Consulting-GmbH--14537242-inline.html",
+  "returncode": 0,
+  "stdout": "✓ 页面已保存到 /opt/data/qa-vacancy-project/cycles/2026-09-27_cycle-1/workers/stepstone.de/raw/crawl4ai-card-konzeption-Anwendersupport-Duesseldorf-BMS-Berens-Mosiek-Siemes-Consulting-GmbH-14537242-inline-html.md\n  标题: Projektmitarbeiter:in Digitale Fachanwendungen (m/w/d) Qualitätssicherung, Fachkonzeption & Anwendersupport - Feste Anstellung, Vollzeit Job in Düsseldorf\n  链接数: 52\n",
+  "stderr": "[INIT].... → Crawl4AI 0.9.4 \n[FETCH]... ↓ https://www.stepstone.de/stellenangebote--Projek...iek-Siemes-Consulting-GmbH--14537242-inline.html  | ✓ | ⏱: 8.75s \n[SCRAPE].. ◆ https://www.stepstone.de/stellenangebote--Projek...iek-Siemes-Consulting-GmbH--14537242-inline.html  | ✓ | ⏱: 0.20s \n[COMPLETE] ● https://www.stepstone.de/stellenangebote--Projek...iek-Siemes-Consulting-GmbH--14537242-inline.html  | ✓ | ⏱: 9.14s \n"
+}

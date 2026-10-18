@@ -1,0 +1,30 @@
+{
+  "attempts": [
+    {
+      "at": "2026-09-28T00:09:34.388690+00:00",
+      "error": "'utf-8' codec can't decode byte 0x8b in position 0: invalid start byte",
+      "method": "api",
+      "status": "failed"
+    },
+    {
+      "at": "2026-09-28T00:09:34.683753+00:00",
+      "error": "'utf-8' codec can't decode byte 0x8b in position 0: invalid start byte",
+      "method": "http",
+      "status": "failed"
+    },
+    {
+      "at": "2026-09-28T00:10:29.114947+00:00",
+      "error": "preflight: fewer than two analyzable direct cards",
+      "method": "crawl4ai",
+      "status": "failed"
+    },
+    {
+      "at": "2026-09-28T00:11:59.560719+00:00",
+      "error": "Camofox HTTP 500 for POST /tabs/d664708c-c757-4231-8e23-c8392178f370/navigate",
+      "method": "camofox",
+      "status": "failed"
+    }
+  ],
+  "cycle_id": "2026-09-28_cycle-1",
+  "source_id": "remotive.com"
+}

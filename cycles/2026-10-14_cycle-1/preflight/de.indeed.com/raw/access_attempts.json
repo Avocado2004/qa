@@ -1,0 +1,18 @@
+{
+  "attempts": [
+    {
+      "at": "2026-10-14T09:57:46.397824+00:00",
+      "error": "Crawl4AI failed after 3 attempts: rc=1 indeed.com/jobs?q=QA+Engineer&l=Berlin  | Error: Blocked by anti-bot protection: Cloudflare JS challenge \n[COMPLETE] ● https://de.indeed.com/jobs?q=QA+Engineer&l=Berlin                                                    | ✗ | ⏱: 3.91s \n✗ 爬取失败: Blocked by anti-bot protection: Cloudflare JS challenge\n",
+      "method": "crawl4ai",
+      "status": "failed"
+    },
+    {
+      "at": "2026-10-14T09:57:47.104437+00:00",
+      "error": "preflight: fewer than two analyzable direct cards",
+      "method": "http",
+      "status": "failed"
+    }
+  ],
+  "cycle_id": "2026-10-14_cycle-1",
+  "source_id": "de.indeed.com"
+}

@@ -1,0 +1,39 @@
+{
+  "checked_at": "2026-09-29T23:12:54.667916+00:00",
+  "evidence": {
+    "access_method": "crawl4ai",
+    "attempts": [
+      {
+        "method": "crawl4ai",
+        "status": "pass"
+      }
+    ],
+    "cards_analyzable": 2,
+    "cards_found": 243,
+    "operations": [
+      {
+        "op": "listing",
+        "status": 200
+      },
+      {
+        "chars": 0,
+        "op": "card-1",
+        "url": "https://de.indeed.com/rc/clk?jk=b61d3fbdb683ee91&bb=13eoJlbodQkUWMzjLH7I4_qoWEpcM9zx2hHO9F0DLo0qXCasbjAx4NhhGbaQl5N2zrCvMtd1sihxDA0p02YHwFQqbivlCqUPekMKzzBHR20E9A0xpcOv2OPC9A0lrjph_RcB-4f2zHa0i8u79uS2Bg%3D%3D&xkcb=SoDq67M2e3iT_qz4rp0LbzkdCdPP&fccid=f0c297c6270253e5&vjs=3"
+      },
+      {
+        "op": "return",
+        "status": 200
+      },
+      {
+        "chars": 0,
+        "op": "card-2",
+        "url": "https://de.indeed.com/rc/clk?jk=34b2f27db740da55&bb=13eoJlbodQkUWMzjLH7I48VIEK7aUyoI3bams53azqFnmLYUTDZ48724MKnuAA7qhOx5QIZ_X8ZJJ3q2dCp5rdrCM5pBj40Hv_qKSTrQA0DfmHNHVeinYJ86uuAVuuywsRqf4G5KMd1ftU7ZD_xCfw%3D%3D&xkcb=SoBe67M2e3iT_qz4rp0KbzkdCdPP&fccid=9e215d88a6b33622&vjs=3"
+      }
+    ],
+    "portal_pages_skipped": [],
+    "primary_or_fallback": "crawl4ai",
+    "status": "pass"
+  },
+  "listing": "https://de.indeed.com/jobs?q=QA+Engineer&l=Berlin",
+  "verdict": "PASS"
+}

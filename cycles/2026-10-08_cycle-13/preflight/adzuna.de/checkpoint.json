@@ -1,0 +1,28 @@
+{
+  "completed_operations": [
+    {
+      "op": "listing",
+      "status": 200
+    },
+    {
+      "chars": 8856,
+      "op": "card-1",
+      "url": "https://www.adzuna.de/details/5595226766"
+    },
+    {
+      "op": "return",
+      "status": 200
+    },
+    {
+      "chars": 4508,
+      "op": "card-2",
+      "url": "https://www.adzuna.de/details/5918517494"
+    }
+  ],
+  "cycle_id": "2026-10-08_cycle-13",
+  "next_operation": 4,
+  "schema_version": 2,
+  "source_id": "adzuna.de",
+  "state": "complete",
+  "updated_at": "2026-10-08T21:22:21.752144+00:00"
+}

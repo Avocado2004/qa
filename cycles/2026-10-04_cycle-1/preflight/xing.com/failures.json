@@ -1,0 +1,11 @@
+{
+  "cycle_id": "2026-10-04_cycle-1",
+  "failures": [
+    {
+      "at": "2026-10-04T00:16:58.278308+00:00",
+      "error": "all independent access methods failed: Camofox preflight: source is readable but offered no QA/test vacancy in the first two cards ('Consent to Cookies & Data processing'; 'Recruiter (m/w/d)'). Both pages opened as real postings, so this is not an access failure; the source stays active for a later run. Listing offered 19 direct links.; preflight: fewer than two analyzable direct cards; preflight: source is readable but offered no QA/test vacancy in the first two cards ('Recruiter (m/w/d)'; 'Initiativbewerbung'). Both pages opened and parsed as real postings, so this is not an access failure; the source stays active for a later run."
+    }
+  ],
+  "schema_version": 2,
+  "source_id": "xing.com"
+}

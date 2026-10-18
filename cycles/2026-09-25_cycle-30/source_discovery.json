@@ -1,0 +1,146 @@
+{
+  "additions": [
+    {
+      "domain": "indeed.com",
+      "host": "de.indeed.com",
+      "id": "indeed.com",
+      "listing_url": "https://de.indeed.com/q-software-tester-l-berlin-jobs.html",
+      "name": "Indeed Deutschland",
+      "target_scope": "Berlin",
+      "type": "general job board"
+    },
+    {
+      "domain": "heise.de",
+      "host": "jobs.heise.de",
+      "id": "jobs.heise.de",
+      "listing_url": "https://jobs.heise.de/softwareentwicklung/jobs/softwaretester-in-berlin",
+      "name": "Heise Jobs",
+      "target_scope": "Berlin",
+      "type": "German technology job board"
+    },
+    {
+      "domain": "jooble.org",
+      "host": "de.jooble.org",
+      "id": "jooble.org",
+      "listing_url": "https://de.jooble.org/stellenangebote-game-tester/Leipzig",
+      "name": "Jooble Deutschland",
+      "target_scope": "Leipzig",
+      "type": "aggregated job board"
+    },
+    {
+      "domain": "stellenonline.de",
+      "host": "www.stellenonline.de",
+      "id": "stellenonline.de",
+      "listing_url": "https://www.stellenonline.de/tester-jobs-in-berlin",
+      "name": "Stellenonline",
+      "target_scope": "Berlin",
+      "type": "German general job board"
+    },
+    {
+      "domain": "remotely.de",
+      "host": "www.remotely.de",
+      "id": "remotely.de",
+      "listing_url": "https://www.remotely.de/remote-jobs/bereich/quality-assurance",
+      "name": "Remotely",
+      "target_scope": "Germany-wide remote",
+      "type": "Germany remote job board"
+    }
+  ],
+  "created_at": "2026-09-25T10:55:30.976993+00:00",
+  "cycle_id": "2026-09-25_cycle-30",
+  "evidence": {
+    "live_retrieval": "completed",
+    "model_evidence": {
+      "basis": "Only the supplied live retrieval results were used. Five additional hosts expose concrete vacancy-listing pages and identifiable QA/testing cards within the required Berlin, Leipzig, or explicit Germany-wide remote scope.",
+      "duplicates_not_re_added": [
+        {
+          "domain": "arbeitsagentur.de",
+          "reason": "Already active; the supplied Berlin result also exposes four Software Tester/in jobs and a named QA vacancy."
+        },
+        {
+          "domain": "linkedin.com",
+          "reason": "Already active; the supplied results expose Berlin Software Tester and Germany-wide remote QA/testing listings."
+        },
+        {
+          "domain": "stepstone.de",
+          "reason": "Already active; the supplied results expose multiple Berlin Softwaretester and QA listings."
+        },
+        {
+          "domain": "germantechjobs.de",
+          "reason": "Already active; the supplied results expose dedicated Berlin and Germany QA/Software Tester listing pages."
+        }
+      ],
+      "other_results": "Results without an exposed qualifying vacancy card, an eligible location or work arrangement, or a sufficiently clear QA/testing role were not added. The supplied Studysmarter result contains a Germany-remote direct job but no corresponding listing/API evidence, so it was not promoted on that evidence alone.",
+      "verified_new_sources": [
+        {
+          "card_evidence_exposed_by_result": [
+            "Softwaretester (m/w/d)",
+            "Praktikum – Software-Tester (w/m/d)",
+            "Softwaretester*in Testautomatisierung (m/w/d)"
+          ],
+          "domain": "indeed.com",
+          "host": "de.indeed.com",
+          "listing_url": "https://de.indeed.com/q-software-tester-l-berlin-jobs.html",
+          "retrieved_title": "Software Tester Jobs in Berlin - 24. September 2026 - Indeed",
+          "scope": "Berlin"
+        },
+        {
+          "card_evidence_exposed_by_result": [
+            "Softwaretester (m/w/d) Testautomatisierung",
+            "SOFTWARE QUALITY ASSURANCE TESTER"
+          ],
+          "domain": "heise.de",
+          "host": "jobs.heise.de",
+          "listing_url": "https://jobs.heise.de/softwareentwicklung/jobs/softwaretester-in-berlin",
+          "retrieved_title": "10 Jobs Softwaretester in Berlin - Heise Jobs",
+          "scope": "Berlin"
+        },
+        {
+          "card_evidence_exposed_by_result": [
+            "Student Wirtschaftsinformatik als Werkstudent Software Testing - Qualitätssicherung (m/w/d)"
+          ],
+          "domain": "jooble.org",
+          "host": "de.jooble.org",
+          "listing_url": "https://de.jooble.org/stellenangebote-game-tester/Leipzig",
+          "note": "The qualifying Leipzig card is explicitly a working-student software-testing position; no full-time-only restriction was supplied.",
+          "retrieved_title": "Dringend! Game Tester Jobs in Leipzig (mit Gehaltsangabe!) - Jooble",
+          "scope": "Leipzig",
+          "supporting_listing": "https://de.jooble.org/stellenangebote-qa-game-tester"
+        },
+        {
+          "card_evidence_exposed_by_result": [
+            "Test Automation Engineer",
+            "Head of Test Fields (f/m/d)",
+            "IT Consultant (m/w/d) Software Testing / Test Automation im Pega Umfeld"
+          ],
+          "domain": "stellenonline.de",
+          "host": "www.stellenonline.de",
+          "listing_url": "https://www.stellenonline.de/tester-jobs-in-berlin",
+          "retrieved_title": "Aktuelle Tester Stellenangebote in Berlin - 12.09.2026 - Stellenonline",
+          "scope": "Berlin"
+        },
+        {
+          "direct_cards": [
+            {
+              "retrieved_evidence": "The snippet states “Vollständig remote” and “Nur Deutschland.”",
+              "title": "QA/Test Automation Engineer (all genders) - Remote - EU",
+              "url": "https://www.remotely.de/job/doozer-real-estate-systems-gmbh-qatest-automation-engineer-all-genders-remote-eu"
+            },
+            {
+              "title": "Software Tester / QA Engineer – SaaS (m/f/d) remote (Home-Office)",
+              "url": "https://www.remotely.de/job/cendas-gmbh-software-tester-qa-engineer-saas-mfd-remote-home-office"
+            }
+          ],
+          "domain": "remotely.de",
+          "host": "www.remotely.de",
+          "listing_url": "https://www.remotely.de/remote-jobs/bereich/quality-assurance",
+          "retrieved_title": "Quality Assurance Remote in Deutschland: 14 offene Stellen",
+          "scope": "Explicit Germany-wide remote"
+        }
+      ]
+    },
+    "retrieval_artifact": "/opt/data/qa-vacancy-project/cycles/2026-09-25_cycle-30/source_discovery_retrieval.json",
+    "retrieved_result_count": 147
+  },
+  "verdict": "pass"
+}

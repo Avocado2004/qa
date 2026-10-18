@@ -1,0 +1,9 @@
+{
+  "cycle_id": "preflight",
+  "finished_at": "2026-09-24T23:29:19.341089+00:00",
+  "schema_version": 2,
+  "source_id": "eurotechjobs.com",
+  "stage": "SOURCE_PREFLIGHT",
+  "started_at": "2026-09-24T23:29:15.637476+00:00",
+  "state": "pass"
+}

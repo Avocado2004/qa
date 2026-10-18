@@ -1,0 +1,15 @@
+{
+  "artifacts": {
+    "discovery": "/opt/data/qa-vacancy-project/cycles/2026-09-24_cycle-21/source_discovery.json",
+    "recheck": "/opt/data/qa-vacancy-project/cycles/2026-09-24_cycle-21/published_recheck.json",
+    "synthesis": "/opt/data/qa-vacancy-project/cycles/2026-09-24_cycle-21/synthesis.json"
+  },
+  "cycle_id": "2026-09-24_cycle-21",
+  "finished_at": "2026-09-25T00:07:57.352621+00:00",
+  "publication_allowed": false,
+  "schema_version": 2,
+  "stage": "DONE",
+  "started_at": "2026-09-24T23:57:06.027286+00:00",
+  "status": "DRY_RUN_VERIFIED",
+  "updated_at": "2026-09-25T00:07:57.332555+00:00"
+}

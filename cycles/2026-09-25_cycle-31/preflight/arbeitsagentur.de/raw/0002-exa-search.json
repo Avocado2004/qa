@@ -1,0 +1,37 @@
+{
+  "query": "site:arbeitsagentur.de QA OR \"Quality Assurance\" OR \"Software Test\" OR \"Test Automation\" or Testautomatisierung or Softwaretester Berlin Leipzig Dresden Germany jobs",
+  "result": {
+    "data": [
+      {
+        "url": "https://www.arbeitsagentur.de/jobsuche/jobdetail/10001-1003379711-S"
+      },
+      {
+        "url": "https://www.arbeitsagentur.de/jobsuche/jobdetail/15980-L1YWDATBR45ZBG65-S"
+      },
+      {
+        "url": "https://www.arbeitsagentur.de/jobsuche/jobdetail/10001-1003707854-S"
+      },
+      {
+        "url": "https://www.arbeitsagentur.de/jobsuche/jobdetail/10001-1003685431-S"
+      },
+      {
+        "url": "https://www.arbeitsagentur.de/jobsuche/jobdetail/10001-1003677990-S"
+      },
+      {
+        "url": "https://www.arbeitsagentur.de/jobsuche/jobdetail/10001-1003061439-S"
+      },
+      {
+        "url": "https://www.arbeitsagentur.de/jobsuche/jobdetail/10001-1003571743-S"
+      },
+      {
+        "url": "https://www.arbeitsagentur.de/jobsuche/jobdetail/10001-1003419421-S"
+      },
+      {
+        "url": "https://www.arbeitsagentur.de/jobsuche/jobdetail/10001-1003628602-S"
+      },
+      {
+        "url": "https://www.arbeitsagentur.de/jobsuche/jobdetail/10001-1003630457-S"
+      }
+    ]
+  }
+}

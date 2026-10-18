@@ -1,0 +1,18 @@
+{
+  "attempts": [
+    {
+      "at": "2026-09-25T11:22:15.816910+00:00",
+      "error": "preflight: fewer than two distinct API cards",
+      "method": "api",
+      "status": "failed"
+    },
+    {
+      "at": "2026-09-25T11:23:53.287090+00:00",
+      "error": "Camofox HTTP 500 for POST /tabs/f3fc8380-206f-4f38-9411-b0d40d6742e0/navigate",
+      "method": "camofox",
+      "status": "failed"
+    }
+  ],
+  "cycle_id": "2026-09-25_cycle-31",
+  "source_id": "remotive.com"
+}

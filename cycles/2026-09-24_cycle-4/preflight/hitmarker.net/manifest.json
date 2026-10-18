@@ -1,0 +1,8 @@
+{
+  "cycle_id": "preflight",
+  "schema_version": 2,
+  "source_id": "hitmarker.net",
+  "stage": "SOURCE_PREFLIGHT",
+  "started_at": "2026-09-24T22:43:08.585626+00:00",
+  "state": "claimed"
+}

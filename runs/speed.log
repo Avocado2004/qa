@@ -1,0 +1,14 @@
+=== A. один и тот же вызов 3 раза подряд ===
+  вызов 1:    9.1s rc=0 size=8127
+  вызов 2:    9.6s rc=0 size=8127
+  вызов 3:    8.7s rc=0 size=8127
+
+=== B. три разных URL подряд ===
+  1:    9.3s rc=0
+  2:   11.4s rc=0
+  3:   10.8s rc=0
+
+=== C. сколько времени crawl4ai тратит на загрузку (внутри лога) ===
+   [FETCH]... ↓ https://de.indeed.com/rc/clk?jk=b61d3fbdb683ee91&bb=1                                            
+   [SCRAPE].. ◆ https://de.indeed.com/rc/clk?jk=b61d3fbdb683ee91&bb=1                                            
+   [COMPLETE] ● https://de.indeed.com/rc/clk?jk=b61d3fbdb683ee91&bb=1                                            

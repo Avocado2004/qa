@@ -1,0 +1,8 @@
+{
+  "cycle_id": "preflight",
+  "schema_version": 2,
+  "source_id": "arbeitsagentur.de",
+  "stage": "SOURCE_PREFLIGHT",
+  "started_at": "2026-09-25T00:06:04.758462+00:00",
+  "state": "claimed"
+}

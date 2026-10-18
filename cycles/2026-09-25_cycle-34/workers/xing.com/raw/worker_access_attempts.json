@@ -1,0 +1,16 @@
+{
+  "attempts": [
+    {
+      "at": "2026-09-25T15:33:20.032802+00:00",
+      "error": "Camofox HTTP 500 for GET /tabs/6f5f0b23-d308-436d-9ba3-31305d4b6cfe/snapshot",
+      "method": "camofox",
+      "status": "failed"
+    },
+    {
+      "method": "crawl4ai",
+      "status": "pass"
+    }
+  ],
+  "cycle_id": "2026-09-25_cycle-34",
+  "source_id": "xing.com"
+}

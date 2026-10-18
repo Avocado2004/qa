@@ -1,0 +1,24 @@
+{
+  "attempts": [
+    {
+      "at": "2026-09-29T15:50:39.842723+00:00",
+      "error": "Crawl4AI failed after 3 attempts: rc=1 indeed.com/r...=f0c297c6270253e5&vjs=3  | Error: Blocked by anti-bot protection: Cloudflare JS challenge \n[COMPLETE] ● https://de.indeed.com/rc/clk?jk=b61d3fbdb683ee91...2yEAnTCFh0LbzkdCdPP&fccid=f0c297c6270253e5&vjs=3  | ✗ | ⏱: 1.01s \n✗ 爬取失败: Blocked by anti-bot protection: Cloudflare JS challenge\n",
+      "method": "crawl4ai",
+      "status": "failed"
+    },
+    {
+      "at": "2026-09-29T15:50:40.039988+00:00",
+      "error": "preflight: fewer than two analyzable direct cards",
+      "method": "http",
+      "status": "failed"
+    },
+    {
+      "at": "2026-09-29T15:50:57.983326+00:00",
+      "error": "Camofox preflight: fewer than two analyzable direct cards",
+      "method": "camofox",
+      "status": "failed"
+    }
+  ],
+  "cycle_id": "2026-09-29_cycle-8",
+  "source_id": "de.indeed.com"
+}

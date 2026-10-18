@@ -1,0 +1,9 @@
+{
+  "cycle_id": "2026-10-08_cycle-17",
+  "finished_at": "2026-10-08T22:05:00.179459+00:00",
+  "schema_version": 2,
+  "source_id": "adzuna.de",
+  "stage": "SOURCE_PREFLIGHT",
+  "started_at": "2026-10-08T22:04:57.188473+00:00",
+  "state": "pass"
+}

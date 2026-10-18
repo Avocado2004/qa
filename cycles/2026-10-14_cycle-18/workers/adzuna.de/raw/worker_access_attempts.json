@@ -1,0 +1,10 @@
+{
+  "attempts": [
+    {
+      "method": "http",
+      "status": "pass"
+    }
+  ],
+  "cycle_id": "2026-10-14_cycle-18",
+  "source_id": "adzuna.de"
+}

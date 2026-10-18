@@ -1,0 +1,11 @@
+{
+  "checked_at": "2026-09-25T03:17:38.259296+00:00",
+  "cycle_id": "2026-09-25_cycle-15",
+  "errors": [
+    "Current row lacks eligible location/remote evidence: https://fake/alpha/qa-1",
+    "Current row lacks eligible location/remote evidence: https://fake/beta/qa-1"
+  ],
+  "rows": 4,
+  "schema_version": 2,
+  "verdict": "FAIL"
+}

@@ -1,0 +1,11 @@
+{
+  "cycle_id": "2026-09-28_cycle-3",
+  "failures": [
+    {
+      "at": "2026-09-28T13:46:59.317547+00:00",
+      "error": "all independent access methods failed: Camofox preflight card-1 is a portal page, not a vacancy: 'Recruiter (m/w/d)'. Listing offered 19 direct links; a real vacancy card is required.; preflight: source is readable but offered no QA/test vacancy in the first two cards ('Recruiter (m/w/d)'; 'Ähnliche Jobs'). Both pages opened and parsed as real postings, so this is not an access failure; the source stays active for a later run.; preflight: source is readable but offered no QA/test vacancy in the first two cards ('Recruiter (m/w/d)'; 'Initiativbewerbung Mitarbeiter (m/w/d)'). Both pages opened and parsed as real postings, so this is not an access failure; the source stays active for a later run."
+    }
+  ],
+  "schema_version": 2,
+  "source_id": "xing.com"
+}

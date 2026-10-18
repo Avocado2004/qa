@@ -1,0 +1,7 @@
+{
+  "url": "https://de.indeed.com/rc/clk?jk=a77f276f1f1940bf&bb=EpVijBu42v4V9Dn28y9fDJvwdHyk0usn3prd5z6JHfvKtEI3JpL8SiIBVLJHnfgRqtfBwbbnRo6H0Ta8s04pTjXIJfmJcw6dPg52JryfyeQPSdzvb9DW8ewg-08EAcNV&xkcb=SoCM67M2e2RqzkzCTR0AbzkdCdPP&fccid=0de514e02a9a4e45&vjs=3",
+  "attempt": 1,
+  "returncode": 0,
+  "stdout": "✓ 页面已保存到 /opt/data/qa-vacancy-project/cycles/2026-09-29_cycle-6/workers/de.indeed.com/raw/crawl4ai-card-Jcw6dPg52JryfyeQPSdzvb9DW8ewg-08EAcNV-xkcb-SoCM67M2e2RqzkzCTR0AbzkdCdPP-fccid-0de514e02a9a4e45-vjs-3.md\n  标题: 631 - QA Test Engineer - Berlin - Indeed.com\n  链接数: 46\n",
+  "stderr": "[INIT].... → Crawl4AI 0.9.4 \n[FETCH]... ↓ https://de.indeed.com/rc/clk?jk=a77f276f1f1940bf...2RqzkzCTR0AbzkdCdPP&fccid=0de514e02a9a4e45&vjs=3  | ✓ | ⏱: 3.68s \n[SCRAPE].. ◆ https://de.indeed.com/rc/clk?jk=a77f276f1f1940bf...2RqzkzCTR0AbzkdCdPP&fccid=0de514e02a9a4e45&vjs=3  | ✓ | ⏱: 0.12s \n[COMPLETE] ● https://de.indeed.com/rc/clk?jk=a77f276f1f1940bf...2RqzkzCTR0AbzkdCdPP&fccid=0de514e02a9a4e45&vjs=3  | ✓ | ⏱: 3.93s \n"
+}

@@ -1,0 +1,102 @@
+{
+  "additions": [
+    {
+      "direct_card_domains": [
+        "remotely.de"
+      ],
+      "direct_card_urls": [
+        "https://www.remotely.de/job/cendas-gmbh-software-tester-qa-engineer-saas-mfd-remote-home-office",
+        "https://www.remotely.de/job/doozer-real-estate-systems-gmbh-qatest-automation-engineer-all-genders-remote-eu"
+      ],
+      "domain": "remotely.de",
+      "evidence_method_observed": "Google CSE live retrieval",
+      "id": "remotely.de",
+      "listing_url": "https://www.remotely.de/remote-jobs/bereich/quality-assurance",
+      "name": "Remotely Quality Assurance",
+      "query_or_url_pattern": "/remote-jobs/bereich/quality-assurance; retain Germany-only remote QA, software tester, test engineer, and test-automation cards",
+      "scope": "Germany-wide remote",
+      "status": "active",
+      "type": "remote job board"
+    }
+  ],
+  "created_at": "2026-09-29T00:12:05.964549+00:00",
+  "cycle_id": "2026-09-29_cycle-1",
+  "evidence": {
+    "live_retrieval": "completed",
+    "model_evidence": {
+      "basis": "Only the supplied live_retrieval_evidence was used; no browsing or direct page retrieval is claimed.",
+      "coverage": [
+        "Softwaretester Berlin Stellenangebote",
+        "Qualitätssicherung Dresden Job",
+        "Game QA Leipzig Job",
+        "Testautomatisierung Deutschland Remote Job",
+        "QA Engineer Germany Stellenanzeige"
+      ],
+      "discovery_completed": true,
+      "exclusions": [
+        {
+          "candidates": [
+            "de.indeed.com",
+            "jobs.heise.de",
+            "stellenonline.de",
+            "jooble.org",
+            "devjobs.de",
+            "jobvector.de",
+            "glassdoor.de",
+            "dresdner-jobanzeiger.de"
+          ],
+          "reason": "The supplied results show listing pages, counts, titles, or snippets, but do not expose individual direct vacancy-card URLs."
+        },
+        {
+          "candidate": "jobs-daheim.de",
+          "reason": "A direct Dresden softwaretester card is present, but no independently searchable listing or API is exposed in the supplied evidence."
+        },
+        {
+          "candidates": [
+            "CHECK24",
+            "KfW",
+            "get-in-it",
+            "Bundesdruckerei",
+            "VON ARDENNE",
+            "Fraunhofer IFAM",
+            "QuoData"
+          ],
+          "reason": "The supplied employer pages do not jointly establish a direct in-scope QA/test card in Berlin, Leipzig, Dresden, or explicit Germany-wide remote alongside a verifiable listing."
+        },
+        {
+          "candidates": [
+            "LinkedIn",
+            "StepStone",
+            "Arbeitsagentur",
+            "GermanTechJobs"
+          ],
+          "reason": "Qualifying evidence was present, but these sources are already active in the supplied registry and are not additions."
+        }
+      ],
+      "qualified_findings": [
+        {
+          "direct_cards": [
+            {
+              "freshness_evidence": "Dated 17.09.2026 and shown as five days old.",
+              "scope_evidence": "The snippet explicitly says “Nur Deutschland” and describes the role as remote/Home-Office.",
+              "title": "Software Tester / QA Engineer – SaaS (m/f/d) remote (Home-Office)",
+              "url": "https://www.remotely.de/job/cendas-gmbh-software-tester-qa-engineer-saas-mfd-remote-home-office"
+            },
+            {
+              "freshness_evidence": "Shown as posted one week earlier.",
+              "scope_evidence": "The snippet explicitly says “Vollständig remote” and “Nur Deutschland.”",
+              "title": "QA/Test Automation Engineer (all genders) - Remote - EU",
+              "url": "https://www.remotely.de/job/doozer-real-estate-systems-gmbh-qatest-automation-engineer-all-genders-remote-eu"
+            }
+          ],
+          "domain": "remotely.de",
+          "listing_evidence": "The supplied result is titled “Quality Assurance Remote in Deutschland”.",
+          "listing_url": "https://www.remotely.de/remote-jobs/bereich/quality-assurance"
+        }
+      ]
+    },
+    "retrieval_artifact": "/opt/data/qa-vacancy-project/cycles/2026-09-29_cycle-1/source_discovery_retrieval.json",
+    "retrieved_result_count": 146
+  },
+  "verdict": "pass"
+}

@@ -1,0 +1,15 @@
+{
+  "cycle_id": "preflight",
+  "failures": [
+    {
+      "at": "2026-09-24T22:51:12.040193+00:00",
+      "error": "stale or revoked lease"
+    },
+    {
+      "at": "2026-09-24T22:51:29.506930+00:00",
+      "error": "Camofox preflight: fewer than two analyzable direct cards"
+    }
+  ],
+  "schema_version": 2,
+  "source_id": "stepstone.de"
+}

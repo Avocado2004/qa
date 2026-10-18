@@ -1,0 +1,49 @@
+{
+  "at": "2026-09-27T10:10:55.802609+00:00",
+  "cycle_id": "2026-09-27_cycle-4",
+  "dropped": 5,
+  "duplicates": [
+    {
+      "dropped_url": "https://www.adzuna.de/details/5900229079",
+      "identity": "zasta gmbh|senior qa engineer w m d mit fokus auf mobile testing|berlin||https://www.adzuna.de/details/5900229079||85693642de7845e7ba81d484bb4572fe9e8760e4d5f080da89fe27f075dd6c1c",
+      "kept_url": "https://www.adzuna.de/details/5900229079",
+      "matched_on": "text",
+      "source_id": "",
+      "title": "Senior QA Engineer (w/m/d) mit Fokus auf Mobile Testing"
+    },
+    {
+      "dropped_url": "https://de.linkedin.com/jobs/view/senior-quality-assurance-engineer-at-trading-212-4468924202?position=2&pageNum=0&refId=SmJrWtSpyU698VdsPXkOwA%3D%3D",
+      "identity": "trading 212|senior quality assurance engineer|berlin||https://de.linkedin.com/jobs/view/senior-quality-assurance-engineer-at-trading-212-4468924202||e22cf54317a248bf064edd7d9fb1b6c4d857bf4c9826bd5b033c91a70f14f890",
+      "kept_url": "https://de.linkedin.com/jobs/view/senior-quality-assurance-engineer-at-trading-212-4468924202?position=2&pageNum=0&refId=Cavd0BB%2Fse84WEfn4pCwSg%3D%3D",
+      "matched_on": "text",
+      "source_id": "",
+      "title": "Senior Quality Assurance Engineer"
+    },
+    {
+      "dropped_url": "https://de.linkedin.com/jobs/view/senior-qa-engineer-remote-at-kake-4461168232?position=7&pageNum=0&refId=SmJrWtSpyU698VdsPXkOwA%3D%3D",
+      "identity": "kake|senior qa engineer remote|remote+berlin||https://de.linkedin.com/jobs/view/senior-qa-engineer-remote-at-kake-4461168232||ed1f6819c0c440e7a3931d28822466a9f514d8452635b82ef3ac64b4169f396e",
+      "kept_url": "https://de.linkedin.com/jobs/view/senior-qa-engineer-remote-at-kake-4461168232?position=7&pageNum=0&refId=Cavd0BB%2Fse84WEfn4pCwSg%3D%3D",
+      "matched_on": "url",
+      "source_id": "",
+      "title": "Senior QA Engineer - Remote"
+    },
+    {
+      "dropped_url": "https://www.arbeitsagentur.de/jobsuche/jobdetail/12811-2344134-S",
+      "identity": "medatixx|softwaretester m w d testautomatisierung|bamberg,berlin,eltville,munich||https://www.arbeitsagentur.de/jobsuche/jobdetail/12811-2344134-S||21077c1be563b2838dd15bfc9021a043c447ca0b85e034af793aefb6c91a8b51",
+      "kept_url": "https://www.arbeitsagentur.de/jobsuche/jobdetail/12811-2344134-S",
+      "matched_on": "text",
+      "source_id": "",
+      "title": "Softwaretester (m/w/d) Testautomatisierung"
+    },
+    {
+      "dropped_url": "https://www.adzuna.de/details/5896363113",
+      "identity": "communi5 technologies gmbh|senior qa engineer|berlin||https://www.adzuna.de/details/5896363113||f216346640c282a7eb5cbc4fdb7c4905aa45824f32cea0e37a7c58e5f0e9d675",
+      "kept_url": "https://www.adzuna.de/details/5896363113",
+      "matched_on": "text",
+      "source_id": "",
+      "title": "Senior QA Engineer"
+    }
+  ],
+  "kept": 31,
+  "schema_version": 2
+}

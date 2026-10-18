@@ -1,0 +1,56 @@
+{
+  "checked_at": "2026-09-25T13:56:57.372851+00:00",
+  "evidence": {
+    "access_method": "base",
+    "attempts": [
+      {
+        "at": "2026-09-25T13:56:00.659514+00:00",
+        "error": "Camofox HTTP 500 for GET /tabs/cb42528a-04c2-4d07-8b6a-4910bbd78adc/snapshot",
+        "method": "camofox",
+        "status": "failed"
+      },
+      {
+        "at": "2026-09-25T13:56:06.564411+00:00",
+        "error": "mcporter Exa web_search_exa rate limited: shared keyless MCP is at 429",
+        "method": "exa",
+        "status": "failed"
+      },
+      {
+        "at": "2026-09-25T13:56:54.920714+00:00",
+        "error": "preflight: fewer than two analyzable direct cards",
+        "method": "crawl4ai",
+        "status": "failed"
+      },
+      {
+        "method": "http",
+        "status": "pass"
+      }
+    ],
+    "cards_analyzable": 20,
+    "cards_found": 20,
+    "operations": [
+      {
+        "op": "listing",
+        "status": 200
+      },
+      {
+        "chars": 724,
+        "op": "card-1",
+        "url": "https://www.xing.com/recruiting/jobs/create?sc_cmp=oow5eb8bc92"
+      },
+      {
+        "op": "return",
+        "status": 200
+      },
+      {
+        "chars": 6880,
+        "op": "card-2",
+        "url": "https://www.xing.com/jobs/hamburg-recruiter-157424165"
+      }
+    ],
+    "primary_or_fallback": "http",
+    "status": "pass"
+  },
+  "listing": "https://www.xing.com/jobs/search",
+  "verdict": "PASS"
+}

@@ -1,0 +1,27 @@
+{
+  "at": "2026-10-14T22:56:44.492295+00:00",
+  "cycle_id": "2026-10-14_cycle-16",
+  "schema_version": 2,
+  "sources": [
+    {
+      "reason": "preflight blocked: all independent access methods failed: Crawl4AI failed after 3 attempts: rc=2 Usage: crawl4ai-skill crawl [OPTIONS] URL\nTry 'crawl4ai-skill crawl --help' for help.\n\nError: No such option '--delay'. Did you mean '--help'?\n; preflight: fewer than two analyzable direct cards; Camofox preflight: fewer t",
+      "source_id": "de.indeed.com",
+      "status": "Not used"
+    },
+    {
+      "reason": "preflight blocked: all independent access methods failed: Camofox preflight: no card carries vacancy body text (a title alone is not a posting) -- card-1: 'Sign in to see who you already know at CHECK24' (1966 chars); card-2: 'Sign in to see who you already know at Shopware' (2014 chars). Listing offered 10 direct lin",
+      "source_id": "linkedin.com",
+      "status": "Not used"
+    },
+    {
+      "reason": "preflight blocked: all independent access methods failed: preflight: fewer than two analyzable direct cards; preflight: fewer than two analyzable direct cards; Crawl4AI failed after 3 attempts: rc=2 Usage: crawl4ai-skill crawl [OPTIONS] URL\nTry 'crawl4ai-skill crawl --help' for help.\n\nError: No such option '--delay'. ",
+      "source_id": "glassdoor.de",
+      "status": "Not used"
+    },
+    {
+      "reason": "preflight blocked: all independent access methods failed: preflight: fewer than two analyzable direct cards; preflight: fewer than two analyzable direct cards; Crawl4AI failed after 3 attempts: rc=2 Usage: crawl4ai-skill crawl [OPTIONS] URL\nTry 'crawl4ai-skill crawl --help' for help.\n\nError: No such option '--delay'. ",
+      "source_id": "monster.de",
+      "status": "Not used"
+    }
+  ]
+}

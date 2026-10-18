@@ -1,0 +1,6 @@
+{
+  "url": "https://de.linkedin.com/jobs/view/softwaretester-m-w-d-at-ferchau-4438572800?position=8&pageNum=0&refId=pIZ9a430tLXb2dHZKHjOlQ%3D%3D",
+  "returncode": 0,
+  "stdout": "✓ 页面已保存到 /opt/data/qa-vacancy-project/cycles/2026-09-25_cycle-50/workers/linkedin.com/raw/crawl4ai-card-w-softwaretester-m-w-d-at-ferchau-4438572800-position-8-pageNum-0-refId-pIZ9a430tLXb2dHZKHjOlQ-3D-3D.md\n  标题: FERCHAU sucht Softwaretester (m/w/d) in Kassel | LinkedIn\n  链接数: 184\n",
+  "stderr": "[INIT].... → Crawl4AI 0.9.4 \n[FETCH]... ↓ https://de.linkedin.com/jobs/view/softwaretester...ition=8&pageNum=0&refId=pIZ9a430tLXb2dHZKHjOlQ==  | ✓ | ⏱: 2.71s \n[SCRAPE].. ◆ https://de.linkedin.com/jobs/view/softwaretester...ition=8&pageNum=0&refId=pIZ9a430tLXb2dHZKHjOlQ==  | ✓ | ⏱: 0.61s \n[COMPLETE] ● https://de.linkedin.com/jobs/view/softwaretester...ition=8&pageNum=0&refId=pIZ9a430tLXb2dHZKHjOlQ==  | ✓ | ⏱: 3.38s \n"
+}

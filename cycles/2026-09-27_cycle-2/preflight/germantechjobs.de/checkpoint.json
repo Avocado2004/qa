@@ -1,0 +1,28 @@
+{
+  "completed_operations": [
+    {
+      "op": "listing",
+      "status": 200
+    },
+    {
+      "chars": 808,
+      "op": "card-1",
+      "url": "https://germantechjobs.de/jobs/SCHUFA-Holding-AG-Software-Quality-Assurance-Architect--AWS-mwd"
+    },
+    {
+      "op": "return",
+      "status": 200
+    },
+    {
+      "chars": 3207,
+      "op": "card-2",
+      "url": "https://germantechjobs.de/jobs/TELUS-Digital-Quality-Assurance-Rater---German-Germany-mfd"
+    }
+  ],
+  "cycle_id": "2026-09-27_cycle-2",
+  "next_operation": 4,
+  "schema_version": 2,
+  "source_id": "germantechjobs.de",
+  "state": "complete",
+  "updated_at": "2026-09-27T08:32:19.469081+00:00"
+}

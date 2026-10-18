@@ -1,0 +1,46 @@
+{
+  "additions": [],
+  "created_at": "2026-09-25T04:30:40.259883+00:00",
+  "cycle_id": "2026-09-25_cycle-21",
+  "evidence": {
+    "live_retrieval": "completed",
+    "model_evidence": {
+      "assessment": "None of the supplied results exposes a real job-board listing or API with direct QA/testing vacancy cards in Berlin, Leipzig, Dresden, or explicit Germany-wide remote.",
+      "basis": "Only the supplied live_retrieval_evidence was used as fresh discovery evidence.",
+      "discovery_completed": true,
+      "new_qualifying_sources": [],
+      "queries_covered": [
+        "Softwaretester Berlin Stellenangebote",
+        "Qualitätssicherung Dresden Job",
+        "Game QA Leipzig Job",
+        "Testautomatisierung Deutschland Remote Job",
+        "QA Engineer Germany Stellenanzeige"
+      ],
+      "rejections": [
+        {
+          "query": "Softwaretester Berlin Stellenangebote",
+          "reason": "Results concern Böttcher AG retail/corporate pages, Wikipedia, and business news; they contain no identified QA/test vacancy card."
+        },
+        {
+          "query": "Qualitätssicherung Dresden Job",
+          "reason": "Results are generic quality-assurance definitions and reference pages, not vacancy listings."
+        },
+        {
+          "query": "Game QA Leipzig Job",
+          "reason": "Results are casual gaming sites rather than an accessible game-QA job listing with a qualifying German card."
+        },
+        {
+          "query": "Testautomatisierung Deutschland Remote Job",
+          "reason": "Results are educational, vendor, service, and reference pages; no direct German QA/test vacancy is exposed."
+        },
+        {
+          "query": "QA Engineer Germany Stellenanzeige",
+          "reason": "Results concern QA training, general definitions, and unrelated businesses; no qualifying vacancy card is present."
+        }
+      ]
+    },
+    "retrieval_artifact": "/opt/data/qa-vacancy-project/cycles/2026-09-25_cycle-21/source_discovery_retrieval.json",
+    "retrieved_result_count": 49
+  },
+  "verdict": "pass"
+}

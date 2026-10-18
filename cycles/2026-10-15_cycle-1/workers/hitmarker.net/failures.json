@@ -1,0 +1,11 @@
+{
+  "cycle_id": "2026-10-15_cycle-1",
+  "failures": [
+    {
+      "at": "2026-10-15T21:47:53.541881+00:00",
+      "error": "worker access methods failed: Camofox preflight: no card carries vacancy body text (a title alone is not a posting) -- card-1: 'Cookies on Hitmarker' (15420 chars); card-2: 'Cookies on Hitmarker' (18378 chars). Listing offered 3 direct links; About.md requires two analyzable vacancy cards.; preflight: fewer than two analyzable direct cards; preflight: fewer than two analyzable direct cards"
+    }
+  ],
+  "schema_version": 2,
+  "source_id": "hitmarker.net"
+}

@@ -1,0 +1,12 @@
+{
+  "completed_operations": [
+    "card-1",
+    "card-2"
+  ],
+  "cycle_id": "2026-09-25_cycle-28",
+  "next_operation": 2,
+  "schema_version": 2,
+  "source_id": "alpha",
+  "state": "claimed",
+  "updated_at": "2026-09-25T09:03:28.494909+00:00"
+}

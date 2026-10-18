@@ -1,0 +1,97 @@
+{
+  "at": "2026-10-16T01:08:04.992985+00:00",
+  "cycle_id": "2026-10-16_cycle-1",
+  "dropped": 11,
+  "duplicates": [
+    {
+      "dropped_url": "https://www.arbeitsagentur.de/jobsuche/jobdetail/17338-4d1d7c4676e6690688-S",
+      "identity": "communi5 technologies gmbh|senior qa engineer hybrid|berlin||https://www.arbeitsagentur.de/jobsuche/jobdetail/17338-4d1d7c4676e6690688-S||456f22df32ad6043e4f503221e29c94afed74b94f201b96b299df7d6e203f6cb",
+      "kept_url": "https://www.arbeitsagentur.de/jobsuche/jobdetail/17338-4d1d7c4676e6690688-S",
+      "matched_on": "text",
+      "source_id": "",
+      "title": "Senior QA Engineer - Hybrid"
+    },
+    {
+      "dropped_url": "https://www.arbeitsagentur.de/jobsuche/jobdetail/10001-1003780573-S",
+      "identity": "jetbrains gmbh|qa engineer ultimate team m f d|berlin||https://www.arbeitsagentur.de/jobsuche/jobdetail/10001-1003780573-S||1ee696db5eebfe9d8f708b8f66e6d7f50e47d9c1aa920b3167de9ce41ca94578",
+      "kept_url": "https://www.arbeitsagentur.de/jobsuche/jobdetail/10001-1003780573-S",
+      "matched_on": "text",
+      "source_id": "",
+      "title": "QA Engineer (Ultimate team) (m/f/d)"
+    },
+    {
+      "dropped_url": "https://www.arbeitsagentur.de/jobsuche/jobdetail/10001-1003839002-S",
+      "identity": "expertplace professionals gmbh|test requirements engineer m w d funkkommunikation|berlin||https://www.arbeitsagentur.de/jobsuche/jobdetail/10001-1003839002-S||2aa1b18726d746114a529b072bb62fecf053346ca0a3c0d18b1a819665f424b6",
+      "kept_url": "https://www.arbeitsagentur.de/jobsuche/jobdetail/10001-1003839002-S",
+      "matched_on": "text",
+      "source_id": "",
+      "title": "Test Requirements Engineer (m/w/d) Funkkommunikation"
+    },
+    {
+      "dropped_url": "https://www.arbeitsagentur.de/jobsuche/jobdetail/10001-1003778698-S",
+      "identity": "gematik gmbh|testarchitekt in senior test ops engineer in all genders 4 jahre befristet|berlin||https://www.arbeitsagentur.de/jobsuche/jobdetail/10001-1003778698-S||1928da41791edad4fdbe65a660fd35775bc0628a91651dc3d6c05486fc19d899",
+      "kept_url": "https://www.arbeitsagentur.de/jobsuche/jobdetail/10001-1003778698-S",
+      "matched_on": "text",
+      "source_id": "",
+      "title": "Testarchitekt:in / Senior Test Ops Engineer:in (all genders) - 4 Jahre befristet"
+    },
+    {
+      "dropped_url": "https://www.arbeitsagentur.de/jobsuche/jobdetail/12336-a26f539j0455719-S",
+      "identity": "bwi gmbh|it expert testautomatisierung m w d|berlin||https://www.arbeitsagentur.de/jobsuche/jobdetail/12336-a26f539j0455719-S||d27f46c557b0e69d6cabb225745a66ef90bb72317604d568f7544926e3a5f8dc",
+      "kept_url": "https://www.arbeitsagentur.de/jobsuche/jobdetail/12336-a26f539j0455719-S",
+      "matched_on": "text",
+      "source_id": "",
+      "title": "IT Expert Testautomatisierung (m/w/d)"
+    },
+    {
+      "dropped_url": "https://www.arbeitsagentur.de/jobsuche/jobdetail/12811-2344134-S",
+      "identity": "medatixx|spezialist m w d testautomatisierung|bamberg,berlin,eltville,münchen||https://www.arbeitsagentur.de/jobsuche/jobdetail/12811-2344134-S||871f0c375cab6381f4fef8f8efcfe8882baaa9375535c3be25253d3fae57473b",
+      "kept_url": "https://www.arbeitsagentur.de/jobsuche/jobdetail/12811-2344134-S",
+      "matched_on": "text",
+      "source_id": "",
+      "title": "Spezialist (m/w/d) Testautomatisierung"
+    },
+    {
+      "dropped_url": "https://www.arbeitsagentur.de/jobsuche/jobdetail/19821-2CBZ4N28SNHSIY8W-S",
+      "identity": "schmitt gmbh|testingenieur m w d embedded systems|berlin||https://www.arbeitsagentur.de/jobsuche/jobdetail/19821-2CBZ4N28SNHSIY8W-S||1b37fd624b52b7f5b22d7fdd969d68d94c82e3ca401d5f89ce5f70faa11d338d",
+      "kept_url": "https://www.arbeitsagentur.de/jobsuche/jobdetail/19821-2CBZ4N28SNHSIY8W-S",
+      "matched_on": "text",
+      "source_id": "",
+      "title": "Testingenieur (m/w/d) Embedded Systems"
+    },
+    {
+      "dropped_url": "https://www.arbeitsagentur.de/jobsuche/jobdetail/12874-1576518-2-S",
+      "identity": "infineon technologies dresden ag co kg|staff engineer component verification f m div|dresden||https://www.arbeitsagentur.de/jobsuche/jobdetail/12874-1576518-2-S||883401adafce8960f9be209ab5d8ffbbacbd103086f09332465a814e537a1692",
+      "kept_url": "https://www.arbeitsagentur.de/jobsuche/jobdetail/12874-1576518-2-S",
+      "matched_on": "text",
+      "source_id": "",
+      "title": "Staff Engineer Component Verification (f/m/div)"
+    },
+    {
+      "dropped_url": "https://www.arbeitsagentur.de/jobsuche/jobdetail/10001-1003824730-S",
+      "identity": "generalzolldirektion|sachbearbeiterin sachbearbeiter w m d als softwaretesterin softwaretester w m d|dresden,nürnberg||https://www.arbeitsagentur.de/jobsuche/jobdetail/10001-1003824730-S||cd299de8b7ba95aa11a96c2b7623bcd0df65073c19355b36b48e4536f19189a1",
+      "kept_url": "https://www.arbeitsagentur.de/jobsuche/jobdetail/10001-1003824730-S",
+      "matched_on": "text",
+      "source_id": "",
+      "title": "Sachbearbeiterin/Sachbearbeiter (w/m/d) als Softwaretesterin/Softwaretester (w/m/d)"
+    },
+    {
+      "dropped_url": "https://www.arbeitsagentur.de/jobsuche/jobdetail/11956-3077971791842400-S",
+      "identity": "spektra schwingungstechnik und akustik gmbh dresden|test automation engineer embedded hil m w|dresden||https://www.arbeitsagentur.de/jobsuche/jobdetail/11956-3077971791842400-S||517b3989a456005385a712a89cb48c06119014296e737c2e1262158c36054dd4",
+      "kept_url": "https://www.arbeitsagentur.de/jobsuche/jobdetail/11956-3077971791842400-S",
+      "matched_on": "text",
+      "source_id": "",
+      "title": "Test Automation Engineer (Embedded & HIL) (m/w/"
+    },
+    {
+      "dropped_url": "https://hitmarker.net/jobs/black-soup-marketing-graphic-design-5154682",
+      "identity": "realistic 3d characters art director at room 8 group|cookies on hitmarker|unknown||https://hitmarker.net/jobs/black-soup-marketing-graphic-design-5154682",
+      "kept_url": "https://hitmarker.net/jobs/black-soup-marketing-graphic-design-5154682",
+      "matched_on": "text",
+      "source_id": "",
+      "title": "Cookies on Hitmarker"
+    }
+  ],
+  "kept": 62,
+  "schema_version": 2
+}

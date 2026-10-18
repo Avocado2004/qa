@@ -1,0 +1,6 @@
+{
+  "url": "https://de.linkedin.com/jobs/view/junior-qa-engineer-software-tester-m-w-d-%E2%80%93-produktqualit%C3%A4t-testautomatisierung-at-check24-4433870576?position=2&pageNum=0&refId=HIHYt6va8W%2BTxYxlDUpphQ%3D%3D",
+  "returncode": 0,
+  "stdout": "✓ 页面已保存到 /opt/data/qa-vacancy-project/cycles/2026-09-26_cycle-1/workers/linkedin.com/raw/crawl4ai-card--testautomatisierung-at-check24-4433870576-position-2-pageNum-0-refId-HIHYt6va8W-2BTxYxlDUpphQ-3D-3D.md\n  标题: (Junior) QA Engineer/Software-Tester (m/w/d) – Produktqualität & Testautomatisierung bei CHECK24 — Dortmund | LinkedIn Jobs\n  链接数: 187\n",
+  "stderr": "[INIT].... → Crawl4AI 0.9.4 \n[FETCH]... ↓ https://de.linkedin.com/jobs/view/junior-qa-engi...ition=2&pageNum=0&refId=HIHYt6va8W+TxYxlDUpphQ==  | ✓ | ⏱: 9.46s \n[SCRAPE].. ◆ https://de.linkedin.com/jobs/view/junior-qa-engi...ition=2&pageNum=0&refId=HIHYt6va8W+TxYxlDUpphQ==  | ✓ | ⏱: 1.18s \n[COMPLETE] ● https://de.linkedin.com/jobs/view/junior-qa-engi...ition=2&pageNum=0&refId=HIHYt6va8W+TxYxlDUpphQ==  | ✓ | ⏱: 10.78s \n"
+}

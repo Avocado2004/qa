@@ -1,0 +1,65 @@
+{
+  "checked_at": "2026-09-26T00:14:08.730344+00:00",
+  "evidence": {
+    "access_method": "camofox_gateway",
+    "attempts": [
+      {
+        "method": "camofox",
+        "status": "pass"
+      }
+    ],
+    "browser_health": {
+      "health": {
+        "activeSessions": 1,
+        "activeTabs": 0,
+        "browserConnected": true,
+        "browserRunning": true,
+        "consecutiveFailures": 0,
+        "engine": "camoufox",
+        "memory": {
+          "heapUsedMb": 46,
+          "nativeMemMb": 74,
+          "rssMb": 120
+        },
+        "ok": true
+      },
+      "smoke_snapshot_chars": 237,
+      "start": {
+        "ok": true,
+        "profile": "camoufox"
+      }
+    },
+    "cards_analyzable": 2,
+    "cards_found": 19,
+    "operations": [
+      {
+        "chars": 16755,
+        "evidence": "/opt/data/qa-vacancy-project/cycles/2026-09-26_cycle-1/preflight/xing.com/raw/0002-listing-snapshot.json",
+        "op": "listing",
+        "url": "https://www.xing.com/jobs/search"
+      },
+      {
+        "chars": 17276,
+        "evidence": "/opt/data/qa-vacancy-project/cycles/2026-09-26_cycle-1/preflight/xing.com/raw/0003-card-1-snapshot.json",
+        "op": "card-1",
+        "url": "https://www.jobware.de/job/sales-manager-m-w-d-digitale-recruitingloesungen.2025350605.html?jw_chl_seg=kt_nwse"
+      },
+      {
+        "chars": 16350,
+        "evidence": "/opt/data/qa-vacancy-project/cycles/2026-09-26_cycle-1/preflight/xing.com/raw/0004-return-snapshot.json",
+        "op": "return",
+        "url": "https://www.xing.com/jobs/search"
+      },
+      {
+        "chars": 18641,
+        "evidence": "/opt/data/qa-vacancy-project/cycles/2026-09-26_cycle-1/preflight/xing.com/raw/0005-card-2-snapshot.json",
+        "op": "card-2",
+        "url": "https://www.jobware.de/job/vertriebsmitarbeiter-b2b-stellenanzeigen-und-social-media-m-w-d.1928567655.html?jw_chl_seg=kt_nwse"
+      }
+    ],
+    "primary_or_fallback": "camofox",
+    "status": "pass"
+  },
+  "listing": "https://www.xing.com/jobs/search",
+  "verdict": "PASS"
+}

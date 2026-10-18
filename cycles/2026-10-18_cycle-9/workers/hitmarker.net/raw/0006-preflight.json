@@ -1,0 +1,33 @@
+{
+  "status": "pass",
+  "access_method": "camofox_gateway",
+  "cards_found": 3,
+  "cards_analyzable": 2,
+  "deep_scan_needed": true,
+  "operations": [
+    {
+      "op": "listing",
+      "url": "https://hitmarker.net/jobs",
+      "chars": 9890,
+      "evidence": "/opt/data/qa-vacancy-project/cycles/2026-10-18_cycle-9/workers/hitmarker.net/raw/0002-listing-snapshot.json"
+    },
+    {
+      "op": "card-1",
+      "url": "https://hitmarker.net/jobs/room-8-group-realistic-3d-characters-grooming-lead-5189805",
+      "chars": 15764,
+      "evidence": "/opt/data/qa-vacancy-project/cycles/2026-10-18_cycle-9/workers/hitmarker.net/raw/0003-card-1-snapshot.json"
+    },
+    {
+      "op": "return",
+      "url": "https://hitmarker.net/jobs",
+      "chars": 10735,
+      "evidence": "/opt/data/qa-vacancy-project/cycles/2026-10-18_cycle-9/workers/hitmarker.net/raw/0004-return-snapshot.json"
+    },
+    {
+      "op": "card-2",
+      "url": "https://hitmarker.net/jobs/black-soup-marketing-graphic-design-5154682",
+      "chars": 17077,
+      "evidence": "/opt/data/qa-vacancy-project/cycles/2026-10-18_cycle-9/workers/hitmarker.net/raw/0005-card-2-snapshot.json"
+    }
+  ]
+}

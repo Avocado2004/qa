@@ -1,0 +1,35 @@
+{
+  "additions": [],
+  "created_at": "2026-09-29T15:38:10.997057+00:00",
+  "cycle_id": "2026-09-29_cycle-8",
+  "evidence": {
+    "live_retrieval": "completed",
+    "model_evidence": {
+      "assessment": "The supplied retrieval completed, but none of its results exposes a real German QA/test vacancy listing or API with direct cards for Berlin, Leipzig, Dresden, or explicit Germany-wide remote.",
+      "qualifying_new_sources": 0,
+      "queries_checked": 5,
+      "rejections": [
+        {
+          "candidate": "mDates",
+          "reason": "Dating/chat pages, not vacancies."
+        },
+        {
+          "candidate": "Wikipedia and reference/educational pages",
+          "reason": "Conceptual quality-assurance and test-automation content, not job listings."
+        },
+        {
+          "candidate": "Game and gaming portals",
+          "reason": "Gameplay pages rather than QA vacancy cards."
+        },
+        {
+          "candidate": "Vendor, laboratory, training, and consulting pages",
+          "reason": "No exposed vacancy listing/API or direct German QA/test card."
+        }
+      ],
+      "scope": "supplied live_retrieval_evidence"
+    },
+    "retrieval_artifact": "/opt/data/qa-vacancy-project/cycles/2026-09-29_cycle-8/source_discovery_retrieval.json",
+    "retrieved_result_count": 48
+  },
+  "verdict": "pass"
+}

@@ -1,0 +1,151 @@
+# Test Automation Engineer (m/w/d)
+**Test Automation Engineer (m/w/d)** [Materna Information & Communications SE](https://www.stepstone.de/cmp/de/Materna-Information-Communications-SE-4261/jobs.html)
+loader
+Denkst du auch, dass verstaubte Akten und Papierberge endlich der Vergangenheit angehören sollten? Dein Anspruch ist es, unseren Kunden Software in höchster Qualität zur Verfügung zu stellen?
+Dann unterstütze mit uns Landes- und Bundesbehörden, Kommunen sowie öffentlich-rechtliche Organisationen auf ihrem Weg zur Digitalisierung.
+Durch professionelles Testen und intelligente Qualitätssicherung kannst du als Test Automation Engineer die digitalen Geschäftsprozesse von Ministerien und Behörden stetig verbessern. Werde Teil unserer Test Factory und bringe hierbei dich und deine Stärken ein.
+Verstärke das #TeamMaterna als **Test Automation Engineer (m/w/d)** an einem unserer deutschlandweiten Standorte oder im Home Office.
+
+## Als Test Automation Engineer
+* entwickelst du Testautomatisierungsstrategien und -pläne für Kundenprojekte in enger Zusammenarbeit mit dem Entwicklungsteam.
+* berätst du Kunden hinsichtlich der bestmöglichen Testautomatisierungspraktiken und -tools.
+* führst du automatisierte Tests durch und identifizierst Fehler, um sicherzustellen, dass Produkte und Anwendungen den Anforderungen entsprechen.
+* integrierst du automatisierte Tests in Build- und Deploymentpipelines.
+* pflegst und erstellst du automatisierte Testskripte für verschiedene Anwendungen und Plattformen.
+* arbeitest du in agilen und klassischen IT-Projekten, die auch mobile Apps umfassen können.
+* erstellst du Testfälle und -szenarien für manuelle und automatisierte Tests.
+* pflegst und erstellst du Regressions- und Smoke-Testsets.
+
+### Dein Profil
+* Ein erfolgreich abgeschlossenes Studium der Informatik, Wirtschaftsinformatik oder einer vergleichbaren Fachrichtung bzw. eine abgeschlossene Ausbildung als Fachinformatiker:in
+* Fundierte Kenntnisse in Softwaretestmethoden und -tools, einschließlich der Verwendung von Testautomatisierungswerkzeugen wie Playwright, Selenium, Appium oder anderen ähnlichen Tools
+* Kenntnisse in mindestens einer Programmiersprache wie Java, Python oder typescript
+* Erfahrung in der Testautomatisierung von Web-, Mobile- und Desktopanwendungen
+* Erfahrung in der Durchführung von Tests und in der Erstellung von Testfällen und -szenarien
+* Idealerweise das ISTQB-Zertifikat „Certified Tester Foundation Level“
+* Hohes Maß an Genauigkeit und Gewissenhaftigkeit
+* Erfahrung mit Testmanagementsystemen wie Xray oder Zephyr
+* Sehr gute Deutsch- (C1) sowie gute Englischkenntnisse (B2) in Wort und Schrift
+
+...
+
+#### Deine Vorteile
+* **Laufbahnmodell:** Persönliche Weiterentwicklung ist dein Must-have? Verfolge deinen Karrierepfad anhand unserer Job-Familien und -Level!
+* **Betriebliche Altersvorsorge:** Wir denken an deine Zukunft und sichern dich langfristig für diese ab!
+
+#### Gehalt
+Neugierig auf das Gehalt für diesen Job? Gehalt anzeigen
+Min € Max €
+[Logo Materna Information & Communications SE](https://www.stepstone.de/cmp/de/Materna-Information-Communications-SE-4261/jobs.html)
+Materna Information & Communications SE
+IT & Tech • 1000+ Mitarbeiter
+20 Bewertungen
+[17Jobs](https://www.stepstone.de/cmp/de/Materna-Information-Communications-SE-4261/jobs.html) Unternehmensporträt
+
+#### Mitarbeitervorteile
+Barrierefreiheit
+Betriebskantine
+Coaching-Angebote
+Firmenwagen
+Mitarbeiter-Laptop
+Zeig weitere
+Die abgebildeten Mitarbeitervorteile sind unternehmensabhängig und können je nach Position und Abteilung abweichen.
+Barrierefreiheit
+Betriebskantine
+Coaching-Angebote
+Firmenwagen
+Mitarbeiter-Laptop
+Betriebsarzt im Unternehmen
+Firmenhandy
+Betriebliche Altersvorsorge
+Mitarbeiterrabatte
+Fitnessangebote
+Flexible Arbeitszeiten
+Gute Verkehrsanbindung
+Homeoffice
+Firmenevents- und Veranstaltungen
+Vorsorgeuntersuchung
+Parkplatz
+Firmenticket
+Sportaktivitäten
+Die abgebildeten Mitarbeitervorteile sind unternehmensabhängig und können je nach Position und Abteilung abweichen.
+
+#### Diese Jobs waren bei anderen Jobsuchenden beliebt
+[secunet Security Networks AG](https://www.stepstone.de/cmp/de/secunet-Security-Networks-AG-9874/jobs.html)
+
+## Test Automation Engineer (m/w/d)
+secunet Security Networks AG
+Dresden, Essen
+Teilweise Home-Office
+vor 2 Wochen
+[WERTGARANTIE Group](https://www.stepstone.de/cmp/de/WERTGARANTIE-Group-150636/jobs.html)
+
+...
+
+## Test Automation Engineer (all genders)
+msg systems ag
+Berlin, Braunschweig, Chemnitz, Frankfurt am Main, Görlitz, Hamburg, Hannover, Ismaning bei München
+Teilweise Home-Office
+vor 1 Woche
+[Noerr Partnerschaftsgesellschaft mbB](https://www.stepstone.de/cmp/de/Noerr-Partnerschaftsgesellschaft-mbB-19425/jobs.html)
+
+## Test Automation Engineer (w/m/d)
+Noerr Partnerschaftsgesellschaft mbB
+München
+Teilweise Home-Office
+vor 5 Tagen
+[Sopra Steria](https://www.stepstone.de/cmp/de/Sopra-Steria-3313/jobs.html)
+
+...
+
+## TOSCA Test Automation Engineer (all genders)
+msg systems ag
+Berlin, Braunschweig, Chemnitz, Frankfurt am Main, Görlitz, Hamburg, Hannover, Ismaning bei München
+Teilweise Home-Office
+vor 1 Tag
+[imbus AG](https://www.stepstone.de/cmp/de/imbus-AG-29316/jobs.html)
+
+## Test Automation Engineer (m/w/d)
+imbus AG
+München
+vor 1 Woche
+[Ehrhardt + Partner Group](https://www.stepstone.de/cmp/de/Ehrhardt-Partner-Group-8101/jobs.html)
+
+## Software Test Engineer (m/w/d)
+Ehrhardt + Partner Group
+Boppard-Buchholz bei Koblenz, Dortmund, Hamburg
+Teilweise Home-Office
+Anschreiben nicht erforderlich
+vor 6 Tagen
+[GfG Gesellschaft für Gerätebau mbH](https://www.stepstone.de/cmp/de/GfG-Gesellschaft-fuer-Geraetebau-mbH-49875/jobs.html)
+
+## Softwaretester Embedded Systeme (m/w/d)
+GfG Gesellschaft für Gerätebau mbH
+Dortmund
+vor 1 Tag
+[INGENTIS Group](https://www.stepstone.de/cmp/de/INGENTIS-Group-155667/jobs.html)
+
+## Senior Software Test Engineer (m/w/d) (Manuel & Automation)
+INGENTIS Group
+Nürnberg
+Teilweise Home-Office
+vor 2 Wochen
+* Test Automation Engineer Jobs
+* IT Jobs
+* Testing Jobs
+* Programmierer Jobs
+* SPS Programmierer Jobs
+* Software Engineer Jobs
+* IT Software Engineer Jobs
+* Embedded Software Engineer Jobs
+* Systems Engineer Jobs
+* Testautomatisierung Jobs
+* Programmierung Jobs
+* Wirtschaftsinformatik Jobs
+* Software Entwicklung Jobs
+* Java Jobs
+* System Engineer Jobs
+* Robotics Software Engineer Jobs
+* Test Engineer Jobs
+* Robotic Process Automation Jobs
+* SPS Programmierung Jobs

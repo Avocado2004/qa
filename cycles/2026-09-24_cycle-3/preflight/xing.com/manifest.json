@@ -1,0 +1,9 @@
+{
+  "cycle_id": "preflight",
+  "finished_at": "2026-09-24T22:32:30.221500+00:00",
+  "schema_version": 2,
+  "source_id": "xing.com",
+  "stage": "SOURCE_PREFLIGHT",
+  "started_at": "2026-09-24T22:32:26.966829+00:00",
+  "state": "pass"
+}

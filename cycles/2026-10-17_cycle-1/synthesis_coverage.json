@@ -1,0 +1,11 @@
+{
+  "at": "2026-10-17T01:05:03.423074+00:00",
+  "batch_size": 20,
+  "batches": 9,
+  "cycle_id": "2026-10-17_cycle-1",
+  "decided_cards": 0,
+  "pending_cards": 179,
+  "schema_version": 2,
+  "undecided_cards": 179,
+  "workers": 9
+}

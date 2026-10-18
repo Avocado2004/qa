@@ -1,0 +1,67 @@
+{
+  "created_at": "2026-09-24T23:19:38.007561+00:00",
+  "cycle_id": "2026-09-24_cycle-14",
+  "evidence": {
+    "basis": "User-supplied registry only. No independent browser, HTTP, web-search, or live API checks were performed in this response.",
+    "latest_cycle_in_snapshot": {
+      "checked_at": "2026-09-24T20:45:00Z",
+      "cycle": "2026-09-24_cycle-10",
+      "new_sources": 0,
+      "rejected_sources": 3,
+      "reported_result": "No new source passed live two-method German QA/test evidence.",
+      "retired_sources": 0
+    },
+    "registry_card_evidence_examples": [
+      {
+        "role": "Senior QA Engineer",
+        "source": "germantechjobs.de",
+        "url": "https://germantechjobs.de/jobs/Communi5-Technologies-GmbH-Senior-QA-Engineer"
+      },
+      {
+        "location": "Düsseldorf, Germany",
+        "role": "Senior Software Tester",
+        "source": "eurotechjobs.com",
+        "url": "https://www.eurotechjobs.com/job_display/295774/Senior_Software_Tester_BlackBerry_Dsseldorf_Germany"
+      },
+      {
+        "limitation": "The supplied record does not independently establish a Germany location.",
+        "role": "Software Tester",
+        "source": "remotive.com",
+        "url": "https://remotive.com/remote/jobs/qa/software-tester-5925120"
+      },
+      {
+        "limitation": "The example URL does not itself establish a current vacancy or location; the registry history reports a Berlin card.",
+        "role": "QM Prüfer (m/w/d)",
+        "source": "adzuna.de",
+        "url": "https://www.adzuna.de/land/ad/5887258708?title=QM_Pr%C3%BCfer_%28m%2Fw%2Fd%29"
+      }
+    ],
+    "registry_generated_at": "2026-09-24T22:25:15.732448+00:00",
+    "reported_active_source_count": 10,
+    "reported_active_source_ids": [
+      "linkedin.com",
+      "arbeitsagentur.de",
+      "stepstone.de",
+      "xing.com",
+      "hitmarker.net",
+      "remotive.com",
+      "arbeitnow.com",
+      "germantechjobs.de",
+      "eurotechjobs.com",
+      "adzuna.de"
+    ],
+    "verification_limits": [
+      "All active records report last_verified as 2026-09-24, but this is historical registry evidence rather than fresh confirmation.",
+      "Every active record has last_preflight and last_success set to null.",
+      "The examples above were not reopened and should not be treated as currently active vacancies.",
+      "This snapshot does not establish that no additional German QA sources exist."
+    ]
+  },
+  "registry_action": {
+    "add_sources": [],
+    "next_required_step": "Live-check existing access routes and evaluate fresh candidates for concrete, currently analyzable German QA or software-test cards.",
+    "retire_sources": [],
+    "status": "retain_existing_records_without_marking_them_freshly_verified"
+  },
+  "verdict": "no_new_source_established_from_supplied_evidence"
+}

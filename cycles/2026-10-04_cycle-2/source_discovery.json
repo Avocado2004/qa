@@ -1,0 +1,80 @@
+{
+  "additions": [
+    {
+      "detail_url_pattern": "https://www.remotely.de/job/<slug>",
+      "direct_card_domains": [
+        "remotely.de"
+      ],
+      "domain": "remotely.de",
+      "evidence_url": "https://www.remotely.de/job/cendas-gmbh-software-tester-qa-engineer-saas-mfd-remote-home-office",
+      "listing_url": "https://www.remotely.de/remote-jobs/bereich/quality-assurance",
+      "location_rule": "Germany-wide remote; require cards or listing records explicitly eligible from Germany.",
+      "name": "Remotely.de",
+      "scope_terms": [
+        "Quality Assurance",
+        "QA Engineer",
+        "Software Tester",
+        "Testautomatisierung"
+      ],
+      "status": "active",
+      "type": "German remote job board"
+    }
+  ],
+  "created_at": "2026-10-04T15:03:00.045906+00:00",
+  "cycle_id": "2026-10-04_cycle-2",
+  "evidence": {
+    "live_retrieval": "completed",
+    "model_evidence": [
+      {
+        "direct_card": {
+          "evidence": "The retrieved card is dated 17.09.2026, was reported as posted five days earlier, and explicitly states \"Nur Deutschland\".",
+          "title": "Software Tester / QA Engineer – SaaS (m/f/d) remote (Home-Office)",
+          "url": "https://www.remotely.de/job/cendas-gmbh-software-tester-qa-engineer-saas-mfd-remote-home-office"
+        },
+        "listing_evidence": "The supplied retrieval titles this page \"Quality Assurance Remote in Deutschland: 12 offene Stellen\".",
+        "listing_url": "https://www.remotely.de/remote-jobs/bereich/quality-assurance",
+        "result": "Meets the real-listing plus direct-card requirement.",
+        "scope": "QA/software-testing vacancy with explicit Germany-wide remote eligibility.",
+        "source": "Remotely.de",
+        "status": "verified-new"
+      },
+      {
+        "examples": [
+          "arbeitsagentur.de",
+          "stepstone.de",
+          "linkedin.com",
+          "germantechjobs.de",
+          "remotive.com"
+        ],
+        "result": "The supplied evidence confirms relevant German listings or API routes, but they are not new registry additions.",
+        "source": "Existing registry sources",
+        "status": "already-registered"
+      },
+      {
+        "examples": [
+          {
+            "domain": "jobs.heise.de",
+            "reason": "A real Berlin Softwaretester listing and job titles are exposed, but the supplied retrieval contains no direct vacancy-card URL."
+          },
+          {
+            "domain": "de.jooble.org",
+            "reason": "A Leipzig QA Engineer/Software-Tester listing snippet is exposed, but no direct vacancy detail card is supplied."
+          },
+          {
+            "domain": "devjobs.de",
+            "reason": "A Germany-wide QA listing and titles are exposed, but no direct vacancy-card URLs are supplied."
+          },
+          {
+            "domain": "dresdner-jobanzeiger.de",
+            "reason": "A Dresden QA listing and a Senior QA/QC Engineer title are exposed, but no direct vacancy-card URL is supplied."
+          }
+        ],
+        "source": "Other retrieved candidates",
+        "status": "not-added"
+      }
+    ],
+    "retrieval_artifact": "/opt/data/qa-vacancy-project/cycles/2026-10-04_cycle-2/source_discovery_retrieval.json",
+    "retrieved_result_count": 143
+  },
+  "verdict": "pass"
+}

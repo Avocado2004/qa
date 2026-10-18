@@ -1,0 +1,11 @@
+{
+  "cycle_id": "2026-09-29_cycle-3",
+  "failures": [
+    {
+      "at": "2026-09-29T06:59:56.913334+00:00",
+      "error": "worker access methods failed: Crawl4AI failed (1): in.com...I0jVddnf7TaEZaJ3ulsaA==  | Error: Blocked by anti-bot protection: HTTP 429 Too Many Requests \n[COMPLETE] ● https://de.linkedin.com/jobs/view/senior-quality...ition=2&pageNum=0&refId=gI0jVddnf7TaEZaJ3ulsaA==  | ✗ | ⏱: 1.39s \n✗ 爬取失败: Blocked by anti-bot protection: HTTP 429 Too Many Requests\n; Camofox preflight snapshot blocked; preflight: fewer than two analyzable direct cards"
+    }
+  ],
+  "schema_version": 2,
+  "source_id": "linkedin.com"
+}

@@ -1,0 +1,7 @@
+{
+  "url": "https://de.linkedin.com/jobs/view/junior-qa-engineer-software-tester-m-w-d-%E2%80%93-produktqualit%C3%A4t-testautomatisierung-at-check24-4433870576?position=1&pageNum=0&refId=Rock1LE%2FMruHj1hqSmBJnw%3D%3D",
+  "attempt": 1,
+  "returncode": 1,
+  "stdout": "",
+  "stderr": "[INIT].... → Crawl4AI 0.9.4 \n[FETCH]... ↓ https://de.linkedin.com/jobs/view/junior-qa-engi...ition=1&pageNum=0&refId=Rock1LE/MruHj1hqSmBJnw==  | ✓ | ⏱: 1.75s \n[SCRAPE].. ◆ https://de.linkedin.com/jobs/view/junior-qa-engi...ition=1&pageNum=0&refId=Rock1LE/MruHj1hqSmBJnw==  | ✓ | ⏱: 0.00s \n[ERROR]... × https://de.linkedin.com...ock1LE/MruHj1hqSmBJnw==  | Error: Blocked by anti-bot protection: HTTP 429 Too Many Requests \n[COMPLETE] ● https://de.linkedin.com/jobs/view/junior-qa-engi...ition=1&pageNum=0&refId=Rock1LE/MruHj1hqSmBJnw==  | ✗ | ⏱: 1.83s \n✗ 爬取失败: Blocked by anti-bot protection: HTTP 429 Too Many Requests\n"
+}

@@ -1,0 +1,12 @@
+{
+  "additions": [],
+  "created_at": "2026-10-18T12:56:06.018758+00:00",
+  "cycle_id": "2026-10-18_cycle-8",
+  "evidence": {
+    "live_retrieval": "completed",
+    "model_evidence": "Live retrieval evidence contains 50 search result items across 10 site-specific queries for German QA/test roles (arbeitsagentur.de, stepstone.de, adzuna.de, arbeitnow.com, germantechjobs.de, eurotechjobs.com, remotive.com, hitmarker.net). All results are irrelevant: Wikipedia pages, Chinese social media (zhihu), adult content sites, GitHub repositories, French consumer forums, Google help pages, Reddit gaming threads, and classifieds sites (markt.de). No items expose real job listing pages, APIs, or direct vacancy cards for QA/testing in Berlin, Leipzig, Dresden, or Germany-wide remote.",
+    "retrieval_artifact": "/opt/data/qa-vacancy-project/cycles/2026-10-18_cycle-8/source_discovery_retrieval.json",
+    "retrieved_result_count": 99
+  },
+  "verdict": "pass"
+}

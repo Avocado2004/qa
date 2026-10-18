@@ -1,0 +1,24 @@
+{
+  "attempts": [
+    {
+      "at": "2026-10-08T21:22:23.852351+00:00",
+      "error": "preflight: source is readable but offered no QA/test vacancy in the first two cards ('Satellite Systems, Software & RF Production Team Lead - ICEYE, Valencia'; 'Smart Manufacturing Engineer, Software - ICEYE, Espoo'). Both pages opened and parsed as real postings, so this is not an access failure; the source stays active for a later run.",
+      "method": "http",
+      "status": "failed"
+    },
+    {
+      "at": "2026-10-08T21:22:43.945836+00:00",
+      "error": "preflight: fewer than two analyzable direct cards",
+      "method": "crawl4ai",
+      "status": "failed"
+    },
+    {
+      "at": "2026-10-08T21:22:50.345847+00:00",
+      "error": "Camofox returned an empty snapshot",
+      "method": "camofox",
+      "status": "failed"
+    }
+  ],
+  "cycle_id": "2026-10-08_cycle-13",
+  "source_id": "eurotechjobs.com"
+}

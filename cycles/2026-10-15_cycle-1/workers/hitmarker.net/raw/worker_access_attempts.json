@@ -1,0 +1,24 @@
+{
+  "attempts": [
+    {
+      "at": "2026-10-15T21:47:30.193252+00:00",
+      "error": "Camofox preflight: no card carries vacancy body text (a title alone is not a posting) -- card-1: 'Cookies on Hitmarker' (15420 chars); card-2: 'Cookies on Hitmarker' (18378 chars). Listing offered 3 direct links; About.md requires two analyzable vacancy cards.",
+      "method": "camofox",
+      "status": "failed"
+    },
+    {
+      "at": "2026-10-15T21:47:53.276181+00:00",
+      "error": "preflight: fewer than two analyzable direct cards",
+      "method": "crawl4ai",
+      "status": "failed"
+    },
+    {
+      "at": "2026-10-15T21:47:53.527915+00:00",
+      "error": "preflight: fewer than two analyzable direct cards",
+      "method": "http",
+      "status": "failed"
+    }
+  ],
+  "cycle_id": "2026-10-15_cycle-1",
+  "source_id": "hitmarker.net"
+}

@@ -1,0 +1,13 @@
+{
+  "cycle_id": "2026-10-12_cycle-1",
+  "failures": [
+    {
+      "at": "2026-10-12T00:05:08.323542+00:00",
+      "attempt": 1,
+      "error": "all independent access methods failed: 'utf-8' codec can't decode byte 0xc3 in position 3: invalid continuation byte; 'utf-8' codec can't decode byte 0xc3 in position 3: invalid continuation byte; preflight: fewer than two analyzable direct cards; Camofox returned an empty snapshot"
+    }
+  ],
+  "schema_version": 2,
+  "source_id": "remotive.com",
+  "state": "blocked"
+}

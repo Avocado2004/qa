@@ -1,0 +1,13 @@
+{
+  "cycle_id": "2026-10-17_cycle-1",
+  "failures": [
+    {
+      "at": "2026-10-17T00:12:36.508750+00:00",
+      "attempt": 1,
+      "error": "all independent access methods failed: preflight: fewer than two analyzable direct cards; preflight: no card carries vacancy body text (a title alone is not a posting) -- 2 opened but all are indexes/teasers (card-1: 'QA Engineer (m/w/d)' (0 chars); card-2: 'QA Engineer (gn)' (0 chars)). About.md requires two analyzable vacancy cards.; Camofox HTTP 404 for POST /tabs/5ac0c195-d844-4444-ab2d-6325b8d42c13/navigate: {\"error\":\"Tab not found\"}"
+    }
+  ],
+  "schema_version": 2,
+  "source_id": "stepstone.de",
+  "state": "blocked"
+}

@@ -1,0 +1,38 @@
+{
+  "checked_at": "2026-09-25T21:11:36.198909+00:00",
+  "evidence": {
+    "access_method": "base",
+    "attempts": [
+      {
+        "method": "api",
+        "status": "pass"
+      }
+    ],
+    "cards_analyzable": 2,
+    "cards_found": 98,
+    "operations": [
+      {
+        "op": "listing",
+        "status": 200
+      },
+      {
+        "chars": 3236,
+        "op": "card-1",
+        "url": "https://www.arbeitnow.com/jobs/companies/vision-dynamics-gmbh/projektleiter-mechatronische-systeme-maschinenbau-elektronik-software-oberhaching-296280"
+      },
+      {
+        "op": "return",
+        "status": 200
+      },
+      {
+        "chars": 7236,
+        "op": "card-2",
+        "url": "https://www.arbeitnow.com/jobs/companies/satispay/head-of-brand-relocation-to-milan-berlin-364682"
+      }
+    ],
+    "primary_or_fallback": "api",
+    "status": "pass"
+  },
+  "listing": "https://www.arbeitnow.com/api/job-board-api",
+  "verdict": "PASS"
+}

@@ -1,0 +1,10 @@
+{
+  "attempts": [
+    {
+      "method": "http",
+      "status": "pass"
+    }
+  ],
+  "cycle_id": "2026-10-13_cycle-3",
+  "source_id": "stepstone.de"
+}

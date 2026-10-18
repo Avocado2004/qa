@@ -1,0 +1,8 @@
+{
+  "cycle_id": "2026-09-29_cycle-3",
+  "schema_version": 2,
+  "source_id": "de.indeed.com",
+  "stage": "SOURCE_PREFLIGHT",
+  "started_at": "2026-09-29T06:52:48.939796+00:00",
+  "state": "claimed"
+}

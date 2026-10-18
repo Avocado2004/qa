@@ -1,0 +1,13 @@
+{
+  "cycle_id": "2026-10-15_cycle-1",
+  "failures": [
+    {
+      "at": "2026-10-15T21:46:19.152696+00:00",
+      "attempt": 1,
+      "error": "all independent access methods failed: Camofox preflight: no card carries vacancy body text (a title alone is not a posting) -- card-1: 'Sign in to see who you already know at CHECK24' (2012 chars); card-2: 'Sign in to see who you already know at Shopware' (1968 chars). Listing offered 10 direct links; About.md requires two analyzable vacancy cards.; preflight: no card carries vacancy body text (a title alone is not a posting) -- 2 opened but all are indexes/teasers (card-1: '(Junior) QA Engineer/Software-Tester (m/w/d) – Produktqualität & Testautomatisierung' (0 chars); card-2: 'Senior Quality Engineer - Checkout & Payments (m/w/d)' (0 chars)). About.md requires two analyzable vacancy cards.; preflight: fewer than two analyzable direct cards"
+    }
+  ],
+  "schema_version": 2,
+  "source_id": "linkedin.com",
+  "state": "blocked"
+}

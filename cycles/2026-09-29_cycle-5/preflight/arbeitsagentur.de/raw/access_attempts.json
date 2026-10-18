@@ -1,0 +1,12 @@
+{
+  "attempts": [
+    {
+      "at": "2026-09-29T10:16:34.207432+00:00",
+      "error": "Crawl4AI detail unreadable",
+      "method": "crawl4ai",
+      "status": "failed"
+    }
+  ],
+  "cycle_id": "2026-09-29_cycle-5",
+  "source_id": "arbeitsagentur.de"
+}

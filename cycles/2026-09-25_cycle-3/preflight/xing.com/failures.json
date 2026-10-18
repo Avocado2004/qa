@@ -1,0 +1,11 @@
+{
+  "cycle_id": "preflight",
+  "failures": [
+    {
+      "at": "2026-09-25T00:16:27.377485+00:00",
+      "error": "stale or revoked lease"
+    }
+  ],
+  "schema_version": 2,
+  "source_id": "xing.com"
+}

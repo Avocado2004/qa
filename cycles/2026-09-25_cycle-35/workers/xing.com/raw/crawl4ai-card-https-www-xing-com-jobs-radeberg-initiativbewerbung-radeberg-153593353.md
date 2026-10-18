@@ -1,0 +1,302 @@
+[Navigation überspringen](https://www.xing.com/jobs/radeberg-initiativbewerbung-radeberg-153593353#content)
+[](https://www.xing.com/ "Zur XING Startseite")
+Jobs finden[Unternehmen](https://www.xing.com/companies)[Netzwerk](https://www.xing.com/network)[Suche](https://www.xing.com/jobs/search/ki)
+[Anmelden](https://login.xing.com/)
+[Job posten](https://www.xing.com/recruiting/jobs/create?sc_cmp=oow5eb8bc92)[Stellenanzeige schalten](https://www.xing.com/recruiting/jobs/create?sc_cmp=oow5eb8bc92)
+[Produkte](https://www.xing.com/business-solutions)
+## Ähnliche Jobs
+[](https://jobs.meinestadt.de/deutschland/premium?id=100014377436&ref=392&tmp=100014377436&ecid=affiliate.b2c.xing.paid.jobs.CPC.nn.392.316553.&utm_source=xing.com)
+![](https://www.xing.com/imagecache/public/scaled_original_image/eyJ1dWlkIjoiNmZjNTZmYTItMDEyMS00MGU4LTk5ODAtOWFhZmY5ZjM2ZGIxIiwiYXBwX2NvbnRleHQiOiJlbnRpdHktcGFnZXMiLCJtYXhfd2lkdGgiOjk2LCJtYXhfaGVpZ2h0Ijo5Nn0?signature=5b223382fd9fe994c092d2c14962dd187b8d6edf7303fb252eb5cee8f3a1d194)
+Externes Job-AngebotExternes Job-Angebot. Von einem Partner.
+### Postbote für Pakete und Briefe (m/w/d)
+Deutsche Post AG
+Bannewitz** + 0 weitere**
+Neu · Vor 7 StundenVor 7 Stunden veröffentlicht
+[](https://jobs.meinestadt.de/deutschland/premium?id=100014377436&ref=392&tmp=100014377436&ecid=affiliate.b2c.xing.paid.jobs.CPC.nn.392.316553.&utm_source=xing.com)
+![](https://www.xing.com/imagecache/public/scaled_original_image/eyJ1dWlkIjoiNmZjNTZmYTItMDEyMS00MGU4LTk5ODAtOWFhZmY5ZjM2ZGIxIiwiYXBwX2NvbnRleHQiOiJlbnRpdHktcGFnZXMiLCJtYXhfd2lkdGgiOjk2LCJtYXhfaGVpZ2h0Ijo5Nn0?signature=5b223382fd9fe994c092d2c14962dd187b8d6edf7303fb252eb5cee8f3a1d194)
+Externes Job-AngebotExternes Job-Angebot. Von einem Partner.
+### Postbote für Pakete und Briefe (m/w/d)
+Bannewitz** + 0 weitere**
+Deutsche Post AG
+Neu · Vor 7 StundenVor 7 Stunden veröffentlicht
+[](https://www.xing.com/jobs/radeberg-produktionsmitarbeiter-lebensmittel-01-10-2025-gesucht-pir01-158051430)
+### Produktionsmitarbeiter Lebensmittel (m/w/d) ab 01.10.2025 gesucht - PIR01
+IC TEAM GS Pirna IC TEAM Personaldienste GmbH Zeitarbeit
+Radeberg** + 0 weitere**
+37.500 € – 54.500 €
+Vor 3 TagenVor 3 Tagen veröffentlicht
+[](https://www.xing.com/jobs/radeberg-produktionsmitarbeiter-lebensmittel-01-10-2025-gesucht-pir01-158051430)
+### Produktionsmitarbeiter Lebensmittel (m/w/d) ab 01.10.2025 gesucht - PIR01
+Radeberg** + 0 weitere**
+IC TEAM GS Pirna IC TEAM Personaldienste GmbH Zeitarbeit
+37.500 € – 54.500 €
+Vor 3 TagenVor 3 Tagen veröffentlicht
+[](https://www.xing.com/jobs/bischofswerda-produktionsmitarbeiter-montage-01-10-2025-pir05-158107912)
+### Produktionsmitarbeiter Montage (m/w/d) ab 01.10.2025 - PIR05
+IC TEAM GS Pirna IC TEAM Personaldienste GmbH Zeitarbeit
+Bischofswerda** + 0 weitere**
+32.500 € – 45.000 €
+Neu · GesternGestern veröffentlicht
+[](https://www.xing.com/jobs/bischofswerda-produktionsmitarbeiter-montage-01-10-2025-pir05-158107912)
+### Produktionsmitarbeiter Montage (m/w/d) ab 01.10.2025 - PIR05
+Bischofswerda** + 0 weitere**
+IC TEAM GS Pirna IC TEAM Personaldienste GmbH Zeitarbeit
+32.500 € – 45.000 €
+Neu · GesternGestern veröffentlicht
+[](https://jobs.meinestadt.de/deutschland/premium?id=100014377436&ref=392&tmp=100014377436&ecid=affiliate.b2c.xing.paid.jobs.CPC.nn.392.316553.&utm_source=xing.com)
+![](https://www.xing.com/imagecache/public/scaled_original_image/eyJ1dWlkIjoiNmZjNTZmYTItMDEyMS00MGU4LTk5ODAtOWFhZmY5ZjM2ZGIxIiwiYXBwX2NvbnRleHQiOiJlbnRpdHktcGFnZXMiLCJtYXhfd2lkdGgiOjk2LCJtYXhfaGVpZ2h0Ijo5Nn0?signature=5b223382fd9fe994c092d2c14962dd187b8d6edf7303fb252eb5cee8f3a1d194)
+Externes Job-AngebotExternes Job-Angebot. Von einem Partner.
+### Postbote für Pakete und Briefe (m/w/d)
+Bannewitz** + 0 weitere**
+Deutsche Post AG
+Neu · Vor 7 StundenVor 7 Stunden veröffentlicht
+[](https://jobs.meinestadt.de/deutschland/premium?id=100014377436&ref=392&tmp=100014377436&ecid=affiliate.b2c.xing.paid.jobs.CPC.nn.392.316553.&utm_source=xing.com)
+![](https://www.xing.com/imagecache/public/scaled_original_image/eyJ1dWlkIjoiNmZjNTZmYTItMDEyMS00MGU4LTk5ODAtOWFhZmY5ZjM2ZGIxIiwiYXBwX2NvbnRleHQiOiJlbnRpdHktcGFnZXMiLCJtYXhfd2lkdGgiOjk2LCJtYXhfaGVpZ2h0Ijo5Nn0?signature=5b223382fd9fe994c092d2c14962dd187b8d6edf7303fb252eb5cee8f3a1d194)
+Externes Job-AngebotExternes Job-Angebot. Von einem Partner.
+### Postbote für Pakete und Briefe (m/w/d)
+Bannewitz** + 0 weitere**
+Deutsche Post AG
+Neu · Vor 7 StundenVor 7 Stunden veröffentlicht
+[](https://www.xing.com/jobs/radeberg-produktionsmitarbeiter-lebensmittel-01-10-2025-gesucht-pir01-158051430)
+### Produktionsmitarbeiter Lebensmittel (m/w/d) ab 01.10.2025 gesucht - PIR01
+Radeberg** + 0 weitere**
+IC TEAM GS Pirna IC TEAM Personaldienste GmbH Zeitarbeit
+37.500 € – 54.500 €
+Vor 3 TagenVor 3 Tagen veröffentlicht
+[](https://www.xing.com/jobs/radeberg-produktionsmitarbeiter-lebensmittel-01-10-2025-gesucht-pir01-158051430)
+### Produktionsmitarbeiter Lebensmittel (m/w/d) ab 01.10.2025 gesucht - PIR01
+Radeberg** + 0 weitere**
+IC TEAM GS Pirna IC TEAM Personaldienste GmbH Zeitarbeit
+37.500 € – 54.500 €
+Vor 3 TagenVor 3 Tagen veröffentlicht
+[](https://www.xing.com/jobs/bischofswerda-produktionsmitarbeiter-montage-01-10-2025-pir05-158107912)
+### Produktionsmitarbeiter Montage (m/w/d) ab 01.10.2025 - PIR05
+Bischofswerda** + 0 weitere**
+IC TEAM GS Pirna IC TEAM Personaldienste GmbH Zeitarbeit
+32.500 € – 45.000 €
+Neu · GesternGestern veröffentlicht
+[](https://www.xing.com/jobs/bischofswerda-produktionsmitarbeiter-montage-01-10-2025-pir05-158107912)
+### Produktionsmitarbeiter Montage (m/w/d) ab 01.10.2025 - PIR05
+Bischofswerda** + 0 weitere**
+IC TEAM GS Pirna IC TEAM Personaldienste GmbH Zeitarbeit
+32.500 € – 45.000 €
+Neu · GesternGestern veröffentlicht
+# Initiativbewerbung (m/w/d) Radeberg
+## Initiativbewerbung (m/w/d) Radeberg
+[![](https://www.xing.com/imagecache/public/scaled_original_image/eyJ1dWlkIjoiOWEwY2I3MDItZjgyMC00N2YyLTg0YjAtZDdkYmFlMmRlOTRkIiwiYXBwX2NvbnRleHQiOiJlbnRpdHktcGFnZXMiLCJtYXhfd2lkdGgiOjk2LCJtYXhfaGVpZ2h0Ijo5Nn0?signature=cf488bbf1cb9f0b7477543946357091514a0ecd77272ad0e0c557e1cf7db7594)](https://www.xing.com/pages/icteampersonaldienstegmbh)
+# Initiativbewerbung (m/w/d) Radeberg
+## Initiativbewerbung (m/w/d) Radeberg
+[IC TEAM Personaldienste GmbH](https://www.xing.com/pages/icteampersonaldienstegmbh)
+Sonstige Branchen
+Radeberg
+Radeberg** + 0 weitere**
+  * VollzeitArt der Beschäftigung: Vollzeit
+  * Vor Ort
+  * Aktiv auf der Suche
+
+
+Zur Arbeitgeber-Website
+Job merken
+Suchauftrag erstellen
+![](https://www.xing.com/imagecache/public/scaled_original_image/eyJ1dWlkIjoiOWEwY2I3MDItZjgyMC00N2YyLTg0YjAtZDdkYmFlMmRlOTRkIiwiYXBwX2NvbnRleHQiOiJlbnRpdHktcGFnZXMiLCJtYXhfd2lkdGgiOjk2LCJtYXhfaGVpZ2h0Ijo5Nn0?signature=cf488bbf1cb9f0b7477543946357091514a0ecd77272ad0e0c557e1cf7db7594)
+## Initiativbewerbung (m/w/d) Radeberg
+Zur Arbeitgeber-Website
+## Über diesen Job
+Jetzt online bewerben »
+Willkommen bei IC TEAM Personaldienste – Ihrem langjährigen Partner im Bereich Industrie und Handwerk! Seit stolzen 30 Jahren sind wir erfolgreich am Markt tätig und haben uns als zuverlässiger Akteur etabliert. Mit zahlreichen Niederlassungen sind wir in Sachsen, Brandenburg und Thüringen präsent. Unser Engagement für exzellenten Service und professionelle Zusammenarbeit ist die Grundlage unseres Erfolgs. Wir sind ein TEAM, auf das man sich verlassen kann: menschlich - nah - freundlich. 2024 wurden wir zum 5. Mal in Folge als TOP Arbeitgeber Deutschlands ausgezeichnet. Nutzen Sie die Chance und starten Sie Ihre Karriere bei uns. Profitieren Sie von unserer langjährigen Erfahrung und ausgezeichneten Arbeitgeberqualität für eine vielversprechende berufliche Zukunft. Wir freuen uns auf Sie!
+## Zweck und Ziel der Stelle:
+Wir sind immer auf der Suche nach motivierten und teamfähigen Mitarbeitern für Industrie und Handwerk.
+  * Beschäftigungsbeginn sofort 
+
+
+## Ihre Aufgaben:
+  * interessante Arbeitsaufgaben, mit der Option der Übernahme
+  * abwechslungsreiche Tätigkeiten, mit Weiterentwicklungsperspektive
+
+
+## Ihr Profil:
+Sie wollen sich beruflich verändern?
+Sie wünschen sich ein gutes Miteinander mit Ihren Kollegen?
+Sie wollen hier in Deiner Region arbeiten?
+Sie wollen mehr als nur den Mindestlohn und auch Weihnachts- und Urlaubsgeld?
+## Ihre sozialen Kompetenzen:
+  * Zuverlässigkeit und Teamfähigkeit
+  * Motivation und Fleiß
+  * freundliches Auftreten
+
+
+## Wir bieten Ihnen:
+  * Chancen für Quereinsteiger
+  * interessante und abwechslungsreiche Einsätze
+  * langfristige berufliche Perspektive
+  * unbefristeter Arbeitsvertrag
+  * Lohnzahlung nach GVP-Tarif
+  * Urlaubs- und Weihnachtsgeld sowie betriebliche Prämienzahlungen
+  * Sonn-, Feiertags-, Nacht- und Überstundenzuschläge
+  * bis zu 30 Tage Urlaub
+  * Übernahmemöglichkeit durch das Kundenunternehmen
+  * Persönliche Schutzausrüstung
+
+
+Jetzt als Initiativbewerbung (m/w/d) Radeberg bewerben »
+## Sie haben noch Fragen zu diesem Job-Angebot?
+Hier kann eine optionale Unterschrift mit zusätzlichen Handlungsaufforderungen stehen...
+  * FAQ zu Initiativbewerbung (m/w/d) Radeberg-Berufen
+  * FAQ für Bewerber
+  * Zum Rückrufservice
+
+
+## Unternehmens-Details
+[](https://www.xing.com/pages/icteampersonaldienstegmbh)
+[![company logo](https://www.xing.com/imagecache/public/scaled_original_image/eyJ1dWlkIjoiOWEwY2I3MDItZjgyMC00N2YyLTg0YjAtZDdkYmFlMmRlOTRkIiwiYXBwX2NvbnRleHQiOiJlbnRpdHktcGFnZXMiLCJtYXhfd2lkdGgiOjk2LCJtYXhfaGVpZ2h0Ijo5Nn0?signature=cf488bbf1cb9f0b7477543946357091514a0ecd77272ad0e0c557e1cf7db7594)](https://www.xing.com/pages/icteampersonaldienstegmbh)
+## IC TEAM Personaldienste GmbH
+Personaldienstleistungen und -beratung
+Bautzen, Deutschland
+Alle Stellenangebote
+## Ähnliche Jobs
+[](https://www.xing.com/jobs/radeberg-produktionsmitarbeiter-lebensmittel-24-08-2026-radeberg-157354192)
+![](https://www.xing.com/imagecache/public/scaled_original_image/eyJ1dWlkIjoiOWEwY2I3MDItZjgyMC00N2YyLTg0YjAtZDdkYmFlMmRlOTRkIiwiYXBwX2NvbnRleHQiOiJlbnRpdHktcGFnZXMiLCJtYXhfd2lkdGgiOjk2LCJtYXhfaGVpZ2h0Ijo5Nn0?signature=cf488bbf1cb9f0b7477543946357091514a0ecd77272ad0e0c557e1cf7db7594)
+### Produktionsmitarbeiter Lebensmittel (m/w/d) ab 24.08.2026 in Radeberg
+IC TEAM Personaldienste GmbH
+Radeberg** + 0 weitere**
+35.500 € – 45.500 €
+[](https://www.xing.com/jobs/radeberg-produktionsmitarbeiter-lebensmittel-24-08-2026-radeberg-157354192)
+![](https://www.xing.com/imagecache/public/scaled_original_image/eyJ1dWlkIjoiOWEwY2I3MDItZjgyMC00N2YyLTg0YjAtZDdkYmFlMmRlOTRkIiwiYXBwX2NvbnRleHQiOiJlbnRpdHktcGFnZXMiLCJtYXhfd2lkdGgiOjk2LCJtYXhfaGVpZ2h0Ijo5Nn0?signature=cf488bbf1cb9f0b7477543946357091514a0ecd77272ad0e0c557e1cf7db7594)
+### Produktionsmitarbeiter Lebensmittel (m/w/d) ab 24.08.2026 in Radeberg
+Radeberg** + 0 weitere**
+IC TEAM Personaldienste GmbH
+35.500 € – 45.500 €
+[](https://www.xing.com/jobs/radeberg-mitarbeiter-elektronikfertigung-157501084)
+![](https://www.xing.com/imagecache/public/scaled_original_image/eyJ1dWlkIjoiMjlmNTQ4NWItM2VjYy00MTkyLWIxMjktMzJiNjA2NTk3YjY5IiwiYXBwX2NvbnRleHQiOiJlbnRpdHktcGFnZXMiLCJtYXhfd2lkdGgiOjk2LCJtYXhfaGVpZ2h0Ijo5Nn0?signature=87dee5d503c745ca1866473f1956ce2fc5d979cc23884b41cc6a548a5cd2632a)
+### Mitarbeiter (m/w/d/x) Elektronikfertigung
+iperdi GmbH
+Radeberg** + 0 weitere**
+[](https://www.xing.com/jobs/radeberg-mitarbeiter-elektronikfertigung-157501084)
+![](https://www.xing.com/imagecache/public/scaled_original_image/eyJ1dWlkIjoiMjlmNTQ4NWItM2VjYy00MTkyLWIxMjktMzJiNjA2NTk3YjY5IiwiYXBwX2NvbnRleHQiOiJlbnRpdHktcGFnZXMiLCJtYXhfd2lkdGgiOjk2LCJtYXhfaGVpZ2h0Ijo5Nn0?signature=87dee5d503c745ca1866473f1956ce2fc5d979cc23884b41cc6a548a5cd2632a)
+### Mitarbeiter (m/w/d/x) Elektronikfertigung
+Radeberg** + 0 weitere**
+iperdi GmbH
+[](https://www.xing.com/jobs/radeberg-lagermitarbeiter-157899229)
+### Lagermitarbeiter (m/w/d)
+IC TEAM GS Radeberg IC TEAM Personaldienste GmbH Zeitarbeit
+Radeberg** + 0 weitere**
+29.000 € – 43.500 €
+[](https://www.xing.com/jobs/radeberg-lagermitarbeiter-157899229)
+### Lagermitarbeiter (m/w/d)
+Radeberg** + 0 weitere**
+IC TEAM GS Radeberg IC TEAM Personaldienste GmbH Zeitarbeit
+29.000 € – 43.500 €
+[](https://www.xing.com/jobs/radeberg-produktionsmitarbeiter-lebensmittel-24-08-2026-radeberg-158026567)
+### Produktionsmitarbeiter Lebensmittel (m/w/d) ab 24.08.2026 in Radeberg
+IC TEAM GS Bischofswerda IC TEAM Personaldienste GmbH Zeitarbeit
+Radeberg** + 0 weitere**
+35.500 € – 53.000 €
+Vor 4 TagenVor 4 Tagen veröffentlicht
+[](https://www.xing.com/jobs/radeberg-produktionsmitarbeiter-lebensmittel-24-08-2026-radeberg-158026567)
+### Produktionsmitarbeiter Lebensmittel (m/w/d) ab 24.08.2026 in Radeberg
+Radeberg** + 0 weitere**
+IC TEAM GS Bischofswerda IC TEAM Personaldienste GmbH Zeitarbeit
+35.500 € – 53.000 €
+Vor 4 TagenVor 4 Tagen veröffentlicht
+[](https://www.xing.com/jobs/radeberg-produktionsmitarbeiter-157591468)
+![](https://www.xing.com/imagecache/public/scaled_original_image/eyJ1dWlkIjoiMjlmNTQ4NWItM2VjYy00MTkyLWIxMjktMzJiNjA2NTk3YjY5IiwiYXBwX2NvbnRleHQiOiJlbnRpdHktcGFnZXMiLCJtYXhfd2lkdGgiOjk2LCJtYXhfaGVpZ2h0Ijo5Nn0?signature=87dee5d503c745ca1866473f1956ce2fc5d979cc23884b41cc6a548a5cd2632a)
+### Produktionsmitarbeiter (m/w/d/x)
+iperdi GmbH
+Radeberg** + 0 weitere**
+[](https://www.xing.com/jobs/radeberg-produktionsmitarbeiter-157591468)
+![](https://www.xing.com/imagecache/public/scaled_original_image/eyJ1dWlkIjoiMjlmNTQ4NWItM2VjYy00MTkyLWIxMjktMzJiNjA2NTk3YjY5IiwiYXBwX2NvbnRleHQiOiJlbnRpdHktcGFnZXMiLCJtYXhfd2lkdGgiOjk2LCJtYXhfaGVpZ2h0Ijo5Nn0?signature=87dee5d503c745ca1866473f1956ce2fc5d979cc23884b41cc6a548a5cd2632a)
+### Produktionsmitarbeiter (m/w/d/x)
+Radeberg** + 0 weitere**
+iperdi GmbH
+[](https://www.xing.com/jobs/radeberg-produktionsmitarbeiter-medizintechnik-158051425)
+### Produktionsmitarbeiter Medizintechnik (m/w/d)
+IC TEAM GS Radeberg IC TEAM Personaldienste GmbH Zeitarbeit
+Radeberg** + 0 weitere**
+33.500 € – 43.000 €
+Vor 3 TagenVor 3 Tagen veröffentlicht
+[](https://www.xing.com/jobs/radeberg-produktionsmitarbeiter-medizintechnik-158051425)
+### Produktionsmitarbeiter Medizintechnik (m/w/d)
+Radeberg** + 0 weitere**
+IC TEAM GS Radeberg IC TEAM Personaldienste GmbH Zeitarbeit
+33.500 € – 43.000 €
+Vor 3 TagenVor 3 Tagen veröffentlicht
+[](https://www.xing.com/jobs/radebeul-mitarbeiter-logistik-157261566)
+![](https://www.xing.com/imagecache/public/scaled_original_image/eyJ1dWlkIjoiZTBiZTQ5ZGYtZDhmYy00YmVhLWIxNGEtZTg1YTA2NDhlMzNkIiwiYXBwX2NvbnRleHQiOiJlbnRpdHktcGFnZXMiLCJtYXhfd2lkdGgiOjk2LCJtYXhfaGVpZ2h0Ijo5Nn0?signature=b7ba0df5dc80af9d7d9b8a1b6f6c958007088946793b4eaf65a1795cf9c58619)
+### Mitarbeiter (m/w/d) Logistik
+Arevipharma GmbH
+Radebeul** + 0 weitere**
+[](https://www.xing.com/jobs/radebeul-mitarbeiter-logistik-157261566)
+![](https://www.xing.com/imagecache/public/scaled_original_image/eyJ1dWlkIjoiZTBiZTQ5ZGYtZDhmYy00YmVhLWIxNGEtZTg1YTA2NDhlMzNkIiwiYXBwX2NvbnRleHQiOiJlbnRpdHktcGFnZXMiLCJtYXhfd2lkdGgiOjk2LCJtYXhfaGVpZ2h0Ijo5Nn0?signature=b7ba0df5dc80af9d7d9b8a1b6f6c958007088946793b4eaf65a1795cf9c58619)
+### Mitarbeiter (m/w/d) Logistik
+Radebeul** + 0 weitere**
+Arevipharma GmbH
+[](https://www.xing.com/jobs/bannewitz-unseres-teams-mitarbeiter-01728-bannewitz-warenverraeumung-157189823)
+![](https://www.xing.com/imagecache/public/scaled_original_image/eyJ1dWlkIjoiMzU3Zjc4OGEtZTBjZC00Yjg3LWI4NzctOWI4MzFjYjhkYWU1IiwiYXBwX2NvbnRleHQiOiJlbnRpdHktcGFnZXMiLCJtYXhfd2lkdGgiOjk2LCJtYXhfaGVpZ2h0Ijo5Nn0?signature=527fbf8df55e613bd347af2d7e4cd7aa449e25ee15a4b0861a685c84d344673b)
+### Werde Teil unseres Teams – als Mitarbeiter (m/w/d) in 01728 Bannewitz in der Warenverräumung
+SIG Sales Warenverräumung
+Bannewitz** + 0 weitere**
+[](https://www.xing.com/jobs/bannewitz-unseres-teams-mitarbeiter-01728-bannewitz-warenverraeumung-157189823)
+![](https://www.xing.com/imagecache/public/scaled_original_image/eyJ1dWlkIjoiMzU3Zjc4OGEtZTBjZC00Yjg3LWI4NzctOWI4MzFjYjhkYWU1IiwiYXBwX2NvbnRleHQiOiJlbnRpdHktcGFnZXMiLCJtYXhfd2lkdGgiOjk2LCJtYXhfaGVpZ2h0Ijo5Nn0?signature=527fbf8df55e613bd347af2d7e4cd7aa449e25ee15a4b0861a685c84d344673b)
+### Werde Teil unseres Teams – als Mitarbeiter (m/w/d) in 01728 Bannewitz in der Warenverräumung
+Bannewitz** + 0 weitere**
+SIG Sales Warenverräumung
+[](https://www.xing.com/jobs/radeberg-produktionsmitarbeiter-elektronikfertigung-157501009)
+![](https://www.xing.com/imagecache/public/scaled_original_image/eyJ1dWlkIjoiMjlmNTQ4NWItM2VjYy00MTkyLWIxMjktMzJiNjA2NTk3YjY5IiwiYXBwX2NvbnRleHQiOiJlbnRpdHktcGFnZXMiLCJtYXhfd2lkdGgiOjk2LCJtYXhfaGVpZ2h0Ijo5Nn0?signature=87dee5d503c745ca1866473f1956ce2fc5d979cc23884b41cc6a548a5cd2632a)
+### Produktionsmitarbeiter (m/w/d/x) Elektronikfertigung
+iperdi GmbH
+Radeberg** + 0 weitere**
+[](https://www.xing.com/jobs/radeberg-produktionsmitarbeiter-elektronikfertigung-157501009)
+![](https://www.xing.com/imagecache/public/scaled_original_image/eyJ1dWlkIjoiMjlmNTQ4NWItM2VjYy00MTkyLWIxMjktMzJiNjA2NTk3YjY5IiwiYXBwX2NvbnRleHQiOiJlbnRpdHktcGFnZXMiLCJtYXhfd2lkdGgiOjk2LCJtYXhfaGVpZ2h0Ijo5Nn0?signature=87dee5d503c745ca1866473f1956ce2fc5d979cc23884b41cc6a548a5cd2632a)
+### Produktionsmitarbeiter (m/w/d/x) Elektronikfertigung
+Radeberg** + 0 weitere**
+iperdi GmbH
+  * Unternehmen
+    * [New Work SE](https://www.new-work.se/de)
+    * [Karriere](https://www.new-work.se/de/karriere)
+    * [Presse](https://corporate.xing.com/de/Newsroom/pressekontakt/pressemitteilungen)
+  * Hilfe & Kontakt
+    * [Hilfe & Kontakt](https://help.xing.com/hc/de?segment=b2c)
+  * Mitgliedschaften
+    * [Premium](https://www.xing.com/purchase/premium?reagent=uplt_98)
+    * [ProJobs](https://www.xing.com/purchase/projobs?reagent=uplt_205)
+  * Hauptbereiche
+    * [Mitgliederverzeichnis](https://www.xing.com/people)
+    * [Jobs Verzeichnis](https://www.xing.com/jobs/directory/a)
+    * [Unternehmen](https://www.xing.com/companies)
+    * [Berufsverzeichnis](https://berufe.xing.com)
+  * Services
+    * [Personalgewinnung mit XING](https://recruiting.xing.com/de)
+    * [Werben auf XING](https://werben.xing.com/de)
+    * [Lebenslauf-Editor](https://lebenslauf.com)
+    * [Anschreiben-Editor](https://anschreiben.com)
+    * [Bewerbungsratgeber](https://bewerbung.com)
+
+
+  * Unternehmen
+    * [New Work SE](https://www.new-work.se/de)
+    * [Karriere](https://www.new-work.se/de/karriere)
+    * [Presse](https://corporate.xing.com/de/Newsroom/pressekontakt/pressemitteilungen)
+  * Hilfe & Kontakt
+  * Mitgliedschaften
+  * Hauptbereiche
+  * Services
+
+
+[](https://www.xing.com/ "Zur XING Startseite")© New Work SE | Alle Rechte vorbehalten
+  * [Impressum](https://www.xing.com/legalnotice)
+  * [AGB](https://www.xing.com/terms)
+  * [Datenschutz bei XING](https://privacy.xing.com/de)
+  * [Datenschutzerklärung](https://privacy.xing.com/de/datenschutzerklaerung)
+  * [Mitgliedschaft kündigen](https://www.xing.com/support/contact/memberships)
+  * [Tracking](https://www.xing.com/)
+  * [Mitgliedschaften widerrufen](https://www.xing.com/support/contact/withdrawal)
+
+
+Sprache
+[Deutsch](https://www.xing.com/language)
+  * Jobs finden
+  * [Unternehmen](https://www.xing.com/companies)
+  * [Netzwerk](https://www.xing.com/network)
+  * [Suche](https://www.xing.com/jobs/search/ki)
+
+

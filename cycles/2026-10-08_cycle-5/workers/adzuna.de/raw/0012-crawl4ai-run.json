@@ -1,0 +1,6 @@
+{
+  "url": "https://www.adzuna.de/land/ad/5895281854?se=1IoMh1HD8RGEhJ_wGvsQgA&title=Softwareentwickler_%28m%2Fw%2Fd%29_C%2B%2B_%2F_Qt&v=1B83BFEBFCF49CA2EF4DC6FD6D2430E94EB9683E",
+  "returncode": 1,
+  "stdout": "",
+  "stderr": "[INIT].... → Crawl4AI 0.9.4 \n[FETCH]... ↓ https://www.adzuna.de/land/ad/5895281854?se=1IoM..._/_Qt&v=1B83BFEBFCF49CA2EF4DC6FD6D2430E94EB9683E  | ✓ | ⏱: 0.51s \n[SCRAPE].. ◆ https://www.adzuna.de/land/ad/5895281854?se=1IoM..._/_Qt&v=1B83BFEBFCF49CA2EF4DC6FD6D2430E94EB9683E  | ✓ | ⏱: 0.00s \n[ERROR]... × https://www.adzuna.de/l...F4DC6FD6D2430E94EB9683E  | Error: Blocked by anti-bot protection: HTTP 403 with HTML content (923 bytes) \n[COMPLETE] ● https://www.adzuna.de/land/ad/5895281854?se=1IoM..._/_Qt&v=1B83BFEBFCF49CA2EF4DC6FD6D2430E94EB9683E  | ✗ | ⏱: 0.53s \n✗ 爬取失败: Blocked by anti-bot protection: HTTP 403 with HTML content (923 bytes)\n"
+}

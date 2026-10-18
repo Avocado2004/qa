@@ -1,0 +1,7 @@
+{
+  "url": "https://www.stepstone.de/stellenangebote--QA-Manager-m-w-d-GMP-Umfeld-Rhein-Main-Gebiet-FERCHAU-Connecting-People-and-Technologies--8097141-inline.html",
+  "attempt": 1,
+  "returncode": 0,
+  "stdout": "✓ 页面已保存到 /opt/data/qa-vacancy-project/cycles/2026-10-18_cycle-6/workers/stepstone.de/raw/crawl4ai-card-er-m-w-d-GMP-Umfeld-Rhein-Main-Gebiet-FERCHAU-Connecting-People-and-Technologies-8097141-inline-html.md\n  标题: QA-Manager (m/w/d) GMP-Umfeld - Feste Anstellung, Vollzeit, Homeoffice Job in Rhein-Main-Gebiet\n  链接数: 34\n",
+  "stderr": "[INIT].... → Crawl4AI 0.9.4 \n[FETCH]... ↓ https://www.stepstone.de/stellenangebote--QA-Man...ing-People-and-Technologies--8097141-inline.html  | ✓ | ⏱: 7.54s \n[SCRAPE].. ◆ https://www.stepstone.de/stellenangebote--QA-Man...ing-People-and-Technologies--8097141-inline.html  | ✓ | ⏱: 0.29s \n[COMPLETE] ● https://www.stepstone.de/stellenangebote--QA-Man...ing-People-and-Technologies--8097141-inline.html  | ✓ | ⏱: 7.91s \n"
+}

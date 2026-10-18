@@ -1,0 +1,7 @@
+{
+  "url": "https://de.indeed.com/rc/clk?jk=6451188e7718ee89&bb=EpVijBu42v4V9Dn28y9fDHNk4LB-Soy8rD2OMfAlX8sAnlZXziSz0RwKiYmdAs032O5_y0zyagc4NZDMXpMMReeSBsYnUGKyqV4AXDNhFPRwgXGlpYdA0SjiIRF_WAoT&xkcb=SoC267M2e2RqzkzCTR0GbzkdCdPP&fccid=00cf9d7cf01ff0dc&vjs=3",
+  "attempt": 1,
+  "returncode": 0,
+  "stdout": "✓ 页面已保存到 /opt/data/qa-vacancy-project/cycles/2026-09-29_cycle-6/workers/de.indeed.com/raw/crawl4ai-card-nUGKyqV4AXDNhFPRwgXGlpYdA0SjiIRF-WAoT-xkcb-SoC267M2e2RqzkzCTR0GbzkdCdPP-fccid-00cf9d7cf01ff0dc-vjs-3.md\n  标题: Senior Frontend Developer - Headless CMS Expert - 13409 Berlin - Indeed.com\n  链接数: 45\n",
+  "stderr": "[INIT].... → Crawl4AI 0.9.4 \n[FETCH]... ↓ https://de.indeed.com/rc/clk?jk=6451188e7718ee89...2RqzkzCTR0GbzkdCdPP&fccid=00cf9d7cf01ff0dc&vjs=3  | ✓ | ⏱: 4.04s \n[SCRAPE].. ◆ https://de.indeed.com/rc/clk?jk=6451188e7718ee89...2RqzkzCTR0GbzkdCdPP&fccid=00cf9d7cf01ff0dc&vjs=3  | ✓ | ⏱: 0.11s \n[COMPLETE] ● https://de.indeed.com/rc/clk?jk=6451188e7718ee89...2RqzkzCTR0GbzkdCdPP&fccid=00cf9d7cf01ff0dc&vjs=3  | ✓ | ⏱: 4.24s \n"
+}

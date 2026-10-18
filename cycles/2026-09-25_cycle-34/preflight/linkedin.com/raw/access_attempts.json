@@ -1,0 +1,12 @@
+{
+  "attempts": [
+    {
+      "at": "2026-09-25T15:28:15.020740+00:00",
+      "error": "Camofox preflight snapshot blocked",
+      "method": "camofox",
+      "status": "failed"
+    }
+  ],
+  "cycle_id": "2026-09-25_cycle-34",
+  "source_id": "linkedin.com"
+}

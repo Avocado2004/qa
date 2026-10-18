@@ -1,0 +1,28 @@
+{
+  "completed_operations": [
+    {
+      "op": "listing",
+      "status": 200
+    },
+    {
+      "chars": 6391,
+      "op": "card-1",
+      "url": "https://www.arbeitsagentur.de/jobsuche/jobdetail/12465-1609175-1-S"
+    },
+    {
+      "op": "return",
+      "status": 200
+    },
+    {
+      "chars": 2549,
+      "op": "card-2",
+      "url": "https://www.arbeitsagentur.de/jobsuche/jobdetail/10001-1003000147-S"
+    }
+  ],
+  "cycle_id": "2026-10-01_cycle-1",
+  "next_operation": 4,
+  "schema_version": 2,
+  "source_id": "arbeitsagentur.de",
+  "state": "complete",
+  "updated_at": "2026-10-01T00:13:05.731128+00:00"
+}

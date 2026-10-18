@@ -1,0 +1,7 @@
+{
+  "url": "https://de.linkedin.com/jobs/view/graduate-quality-assurance-analyst-all-genders-at-distribusion-technologies-4448191887?position=3&pageNum=0&refId=wGbxil85ZE8VDxK6e%2FnkyQ%3D%3D",
+  "attempt": 1,
+  "returncode": 1,
+  "stdout": "",
+  "stderr": "[INIT].... → Crawl4AI 0.9.4 \n[FETCH]... ↓ https://de.linkedin.com/jobs/view/graduate-quali...ition=3&pageNum=0&refId=wGbxil85ZE8VDxK6e/nkyQ==  | ✓ | ⏱: 0.98s \n[SCRAPE].. ◆ https://de.linkedin.com/jobs/view/graduate-quali...ition=3&pageNum=0&refId=wGbxil85ZE8VDxK6e/nkyQ==  | ✓ | ⏱: 0.01s \n[ERROR]... × https://de.linkedin.com...Gbxil85ZE8VDxK6e/nkyQ==  | Error: Blocked by anti-bot protection: HTTP 429 Too Many Requests \n[COMPLETE] ● https://de.linkedin.com/jobs/view/graduate-quali...ition=3&pageNum=0&refId=wGbxil85ZE8VDxK6e/nkyQ==  | ✗ | ⏱: 1.02s \n✗ 爬取失败: Blocked by anti-bot protection: HTTP 429 Too Many Requests\n"
+}

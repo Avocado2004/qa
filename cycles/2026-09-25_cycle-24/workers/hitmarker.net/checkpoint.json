@@ -1,0 +1,13 @@
+{
+  "completed_operations": [
+    "card-1",
+    "card-2",
+    "card-3"
+  ],
+  "cycle_id": "2026-09-25_cycle-24",
+  "next_operation": 3,
+  "schema_version": 2,
+  "source_id": "hitmarker.net",
+  "state": "claimed",
+  "updated_at": "2026-09-25T06:18:56.044072+00:00"
+}

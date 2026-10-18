@@ -1,0 +1,13 @@
+{
+  "cycle_id": "2026-10-17_cycle-1",
+  "failures": [
+    {
+      "at": "2026-10-17T00:08:53.425156+00:00",
+      "attempt": 1,
+      "error": "all independent access methods failed: 'utf-8' codec can't decode byte 0xcb in position 0: invalid continuation byte; 'utf-8' codec can't decode byte 0xcb in position 0: invalid continuation byte; preflight: fewer than two analyzable direct cards; Camofox HTTP 404 for POST /tabs/2ec47a8d-839a-464d-b983-dd31a0a7ff78/navigate: {\"error\":\"Tab not found\"}"
+    }
+  ],
+  "schema_version": 2,
+  "source_id": "arbeitnow.com",
+  "state": "blocked"
+}

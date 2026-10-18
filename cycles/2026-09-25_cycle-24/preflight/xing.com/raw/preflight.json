@@ -1,0 +1,56 @@
+{
+  "checked_at": "2026-09-25T06:16:00.043242+00:00",
+  "evidence": {
+    "access_method": "base",
+    "attempts": [
+      {
+        "at": "2026-09-25T06:15:53.616295+00:00",
+        "error": "Camofox HTTP 500 for GET /tabs/c57a0987-e7b0-4f58-a67a-71bc97b8d86c/snapshot",
+        "method": "camofox",
+        "status": "failed"
+      },
+      {
+        "at": "2026-09-25T06:15:56.518054+00:00",
+        "error": "Exa returned fewer than two direct cards",
+        "method": "exa",
+        "status": "failed"
+      },
+      {
+        "at": "2026-09-25T06:15:57.316087+00:00",
+        "error": "Crawl4AI failed (2): Usage: crawl4ai-skill crawl [OPTIONS] URL\nTry 'crawl4ai-skill crawl --help' for help.\n\nError: No such option '--wait-until'. Did you mean '--wait-for'?\n",
+        "method": "crawl4ai",
+        "status": "failed"
+      },
+      {
+        "method": "http",
+        "status": "pass"
+      }
+    ],
+    "cards_analyzable": 21,
+    "cards_found": 21,
+    "operations": [
+      {
+        "op": "listing",
+        "status": 200
+      },
+      {
+        "chars": 724,
+        "op": "card-1",
+        "url": "https://www.xing.com/recruiting/jobs/create?sc_cmp=oow5eb8bc92"
+      },
+      {
+        "op": "return",
+        "status": 200
+      },
+      {
+        "chars": 6978,
+        "op": "card-2",
+        "url": "https://www.xing.com/jobs/hamburg-recruiter-157424165"
+      }
+    ],
+    "primary_or_fallback": "http",
+    "status": "pass"
+  },
+  "listing": "https://www.xing.com/jobs/search",
+  "verdict": "PASS"
+}

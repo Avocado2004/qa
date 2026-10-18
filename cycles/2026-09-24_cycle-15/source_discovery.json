@@ -1,0 +1,74 @@
+{
+  "created_at": "2026-09-24T23:22:51.215831+00:00",
+  "cycle_id": "2026-09-24_cycle-15",
+  "evidence": {
+    "data_quality_issues": [
+      {
+        "code": "ACTIVE_COUNT_MISMATCH",
+        "detail": "The current registry contains 10 active source records and one retired record, while several historical cycles report 11 active sources rechecked. Reconcile this against the authoritative registry before adding or retiring a source."
+      },
+      {
+        "code": "SUCCESS_FIELDS_EMPTY",
+        "detail": "Every active evidence object has last_preflight=null and last_success=null. Existing last_verified values are supplied assertions and are not fresh verification results."
+      },
+      {
+        "code": "INCOMPLETE_SCOPE_PROOF",
+        "detail": "Several supplied direct-card references do not include a posting date, explicit Germany location, or confirmation that the vacancy remains open. Those attributes must not be inferred from titles or domains."
+      }
+    ],
+    "evidence_basis": "Audit of the supplied registry snapshot only",
+    "fresh_live_requests": 0,
+    "new_candidates_evaluated": 0,
+    "registry_snapshot": {
+      "active_source_count": 10,
+      "active_sources_with_last_preflight": 0,
+      "active_sources_with_last_success": 0,
+      "all_active_sources_report_last_verified": "2026-09-24",
+      "generated_at": "2026-09-24T22:25:15.732448+00:00",
+      "registry_revision": 1,
+      "retired_source_count": 1
+    },
+    "strongest_supplied_historical_references": [
+      {
+        "caveat": "The supplied URL identifies a QA role, but the payload does not independently establish its location, freshness, or continued availability.",
+        "independently_rechecked": false,
+        "reported_status": "verified-live",
+        "source_id": "remotive.com",
+        "url": "https://remotive.com/remote/jobs/qa/software-tester-5925120"
+      },
+      {
+        "caveat": "Historical direct-card evidence only; current availability and German location still require verification.",
+        "independently_rechecked": false,
+        "reported_status": "verified-live",
+        "source_id": "germantechjobs.de",
+        "url": "https://germantechjobs.de/jobs/Communi5-Technologies-GmbH-Senior-QA-Engineer"
+      },
+      {
+        "caveat": "The URL explicitly references Düsseldorf, Germany, but the card was not reopened in this execution.",
+        "independently_rechecked": false,
+        "reported_status": "verified-live-direct-card",
+        "source_id": "eurotechjobs.com",
+        "url": "https://www.eurotechjobs.com/job_display/295774/Senior_Software_Tester_BlackBerry_Dsseldorf_Germany"
+      },
+      {
+        "caveat": "Historical evidence reported in the supplied history; no current response or card content was observed here.",
+        "independently_rechecked": false,
+        "reported_status": "verified-live-browser-and-web-extract",
+        "source_id": "adzuna.de",
+        "url": "https://www.adzuna.de/land/ad/5887258708?title=QM_Pr%C3%BCfer_%28m%2Fw%2Fd%29"
+      }
+    ]
+  },
+  "required_next_steps": [
+    "Run fresh searches for independently searchable German QA, Software Test, Test Automation, and Qualitätssicherung sources.",
+    "For each proposed addition, verify the listing or public API and at least one direct vacancy detail page; record the actual status, role, location, freshness, and retrieval timestamp.",
+    "Reconcile the 10-versus-11 active-source discrepancy and preserve the current registry revision until the new evidence is reviewed."
+  ],
+  "verdict": {
+    "decision": "keep_registry_unchanged",
+    "new_sources": [],
+    "reason": "Fresh discovery could not be performed because this execution has no web-search, browser, or direct-HTTP capability. No new source can truthfully be described as live or independently verified.",
+    "retired_sources": [],
+    "status": "not_verified_this_run"
+  }
+}

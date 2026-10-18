@@ -1,0 +1,53 @@
+{
+  "status": "pass",
+  "access_method": "camofox_gateway",
+  "cards_found": 3,
+  "cards_analyzable": 2,
+  "browser_health": {
+    "start": {
+      "ok": true,
+      "profile": "camoufox"
+    },
+    "health": {
+      "ok": true,
+      "engine": "camoufox",
+      "browserConnected": true,
+      "browserRunning": true,
+      "activeTabs": 1,
+      "activeSessions": 1,
+      "consecutiveFailures": 0,
+      "memory": {
+        "rssMb": 89,
+        "heapUsedMb": 45,
+        "nativeMemMb": 44
+      }
+    },
+    "smoke_snapshot_chars": 237
+  },
+  "operations": [
+    {
+      "op": "listing",
+      "url": "https://hitmarker.net/jobs",
+      "chars": 11079,
+      "evidence": "/opt/data/qa-vacancy-project/cycles/2026-09-25_cycle-26/workers/hitmarker.net/raw/0002-listing-snapshot.json"
+    },
+    {
+      "op": "card-1",
+      "url": "https://hitmarker.net/jobs/ibloxx-studios-dmcc-senior-game-ui-multimedia-designer-4917834",
+      "chars": 12785,
+      "evidence": "/opt/data/qa-vacancy-project/cycles/2026-09-25_cycle-26/workers/hitmarker.net/raw/0003-card-1-snapshot.json"
+    },
+    {
+      "op": "return",
+      "url": "https://hitmarker.net/jobs",
+      "chars": 11079,
+      "evidence": "/opt/data/qa-vacancy-project/cycles/2026-09-25_cycle-26/workers/hitmarker.net/raw/0004-return-snapshot.json"
+    },
+    {
+      "op": "card-2",
+      "url": "https://hitmarker.net/jobs/astronomad-studios-senior-systems-game-designer-4924815",
+      "chars": 15865,
+      "evidence": "/opt/data/qa-vacancy-project/cycles/2026-09-25_cycle-26/workers/hitmarker.net/raw/0005-card-2-snapshot.json"
+    }
+  ]
+}

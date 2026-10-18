@@ -1,0 +1,9 @@
+{
+  "cycle_id": "2026-09-25_cycle-5",
+  "finished_at": "2026-09-25T00:25:27.081373+00:00",
+  "schema_version": 2,
+  "source_id": "eurotechjobs.com",
+  "stage": "SOURCE_PREFLIGHT",
+  "started_at": "2026-09-25T00:25:23.581879+00:00",
+  "state": "pass"
+}

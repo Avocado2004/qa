@@ -1,0 +1,22 @@
+{
+  "attempts": [
+    {
+      "at": "2026-10-18T14:09:59.216884+00:00",
+      "error": "Camofox transport failed for POST /tabs/06adf0ac-360d-4d7f-b33e-4f44af02d0bd/navigate: <urlopen error [Errno 111] Connection refused>",
+      "method": "camofox",
+      "status": "failed"
+    },
+    {
+      "at": "2026-10-18T14:10:09.594848+00:00",
+      "error": "preflight: fewer than two analyzable direct cards",
+      "method": "crawl4ai",
+      "status": "failed"
+    },
+    {
+      "method": "http",
+      "status": "pass"
+    }
+  ],
+  "cycle_id": "2026-10-18_cycle-10",
+  "source_id": "xing.com"
+}

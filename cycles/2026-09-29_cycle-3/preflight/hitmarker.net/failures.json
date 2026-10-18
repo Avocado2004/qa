@@ -1,0 +1,11 @@
+{
+  "cycle_id": "2026-09-29_cycle-3",
+  "failures": [
+    {
+      "at": "2026-09-29T06:57:13.521844+00:00",
+      "error": "all independent access methods failed: Camofox preflight: source is readable but offered no QA/test vacancy in the first two cards ('3D Character Artist'; 'Senior Game UI & Multimedia Designer'). Both pages opened as real postings, so this is not an access failure; the source stays active for a later run. Listing offered 3 direct links.; preflight: source is readable but offered no QA/test vacancy in the first two cards ('Browse by Category'; 'Browse by Category'). Both pages opened and parsed as real postings, so this is not an access failure; the source stays active for a later run.; preflight: fewer than two analyzable direct cards"
+    }
+  ],
+  "schema_version": 2,
+  "source_id": "hitmarker.net"
+}

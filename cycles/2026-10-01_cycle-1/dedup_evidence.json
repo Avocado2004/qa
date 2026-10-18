@@ -1,0 +1,137 @@
+{
+  "at": "2026-10-01T00:38:53.704908+00:00",
+  "cycle_id": "2026-10-01_cycle-1",
+  "dropped": 16,
+  "duplicates": [
+    {
+      "dropped_url": "https://www.arbeitsagentur.de/jobsuche/jobdetail/10001-1003780573-S",
+      "identity": "jetbrains gmbh|qa engineer ultimate team m f d|berlin,munich||https://www.arbeitsagentur.de/jobsuche/jobdetail/10001-1003780573-S||1061ff93a0dc05f9121bf06db1a9f85b6ca695d58af611793aacf7bd02a2b2b6",
+      "kept_url": "https://www.arbeitsagentur.de/jobsuche/jobdetail/10001-1003780573-S",
+      "matched_on": "text",
+      "source_id": "",
+      "title": "QA Engineer (Ultimate team) (m/f/d)"
+    },
+    {
+      "dropped_url": "https://www.arbeitsagentur.de/jobsuche/jobdetail/17338-4d1d7c4676e6690688-S",
+      "identity": "communi5 technologies gmbh|senior qa engineer hybrid|berlin||https://www.arbeitsagentur.de/jobsuche/jobdetail/17338-4d1d7c4676e6690688-S||8af66096341e38584972b6731067a35d3274797e63a493e6818080ff7a5f726a",
+      "kept_url": "https://www.arbeitsagentur.de/jobsuche/jobdetail/17338-4d1d7c4676e6690688-S",
+      "matched_on": "text",
+      "source_id": "",
+      "title": "Senior QA Engineer - Hybrid"
+    },
+    {
+      "dropped_url": "https://www.arbeitsagentur.de/jobsuche/jobdetail/12336-a26f539j0455237-S",
+      "identity": "bwi gmbh|senior test automation engineer bundesmessenger m w d|berlin||https://www.arbeitsagentur.de/jobsuche/jobdetail/12336-a26f539j0455237-S||ae45866c704ddcf4a21df96db604e43c573180decac76dcc272d76e61b5fc495",
+      "kept_url": "https://www.arbeitsagentur.de/jobsuche/jobdetail/12336-a26f539j0455237-S",
+      "matched_on": "text",
+      "source_id": "",
+      "title": "Senior Test Automation Engineer - BundesMessenger (m/w/d)"
+    },
+    {
+      "dropped_url": "https://www.arbeitsagentur.de/jobsuche/jobdetail/10001-1003778698-S",
+      "identity": "gematik gmbh|testarchitekt in senior test ops engineer in all genders 4 jahre befristet|berlin||https://www.arbeitsagentur.de/jobsuche/jobdetail/10001-1003778698-S||cf66c9a5301ec9314fb9c1bbeec7888b83ebe2285a49faf350caba56f289bc1b",
+      "kept_url": "https://www.arbeitsagentur.de/jobsuche/jobdetail/10001-1003778698-S",
+      "matched_on": "text",
+      "source_id": "",
+      "title": "Testarchitekt:in / Senior Test Ops Engineer:in (all genders) - 4 Jahre befristet"
+    },
+    {
+      "dropped_url": "https://www.arbeitsagentur.de/jobsuche/jobdetail/19821-2CBZ4N28SNHSIY8W-S",
+      "identity": "schmitt gmbh|testingenieur m w d embedded systems|berlin||https://www.arbeitsagentur.de/jobsuche/jobdetail/19821-2CBZ4N28SNHSIY8W-S||a35e2a2d4b5c0d1bbe99ad44036ff8e9975477b18feeab1cd9fb55b6f5189d0c",
+      "kept_url": "https://www.arbeitsagentur.de/jobsuche/jobdetail/19821-2CBZ4N28SNHSIY8W-S",
+      "matched_on": "text",
+      "source_id": "",
+      "title": "Testingenieur (m/w/d) Embedded Systems"
+    },
+    {
+      "dropped_url": "https://www.arbeitsagentur.de/jobsuche/jobdetail/12265-513961_JB5246264-S",
+      "identity": "ferchau gmbh niederlassung berlin|testingenieur elektronik m w d|berlin||https://www.arbeitsagentur.de/jobsuche/jobdetail/12265-513961_JB5246264-S||5069791b3737aaa7c477482f1254cc71103f1d3c587630bc923fd769d7794aaf",
+      "kept_url": "https://www.arbeitsagentur.de/jobsuche/jobdetail/12265-513961_JB5246264-S",
+      "matched_on": "text",
+      "source_id": "",
+      "title": "Testingenieur Elektronik (m/w/d)"
+    },
+    {
+      "dropped_url": "https://www.arbeitsagentur.de/jobsuche/jobdetail/12265-485458_JB5246296-S",
+      "identity": "ferchau gmbh niederlassung berlin|versuchsingenieur m w d|berlin||https://www.arbeitsagentur.de/jobsuche/jobdetail/12265-485458_JB5246296-S||73011c437f795204ca7ca31c68fcf1a91baf50ac041c58f21cb1bb7dbb09388d",
+      "kept_url": "https://www.arbeitsagentur.de/jobsuche/jobdetail/12265-485458_JB5246296-S",
+      "matched_on": "text",
+      "source_id": "",
+      "title": "Versuchsingenieur (m/w/d)"
+    },
+    {
+      "dropped_url": "https://www.arbeitsagentur.de/jobsuche/jobdetail/12288-4934577046-S",
+      "identity": "sinc gmbh|senior testautomatisierungsarchitekt m w d|leipzig||https://www.arbeitsagentur.de/jobsuche/jobdetail/12288-4934577046-S||cdac0e1a0996744d47792c1819698abf4e7f3770f87fa2d0a67fcdc6df78f30d",
+      "kept_url": "https://www.arbeitsagentur.de/jobsuche/jobdetail/12288-4934577046-S",
+      "matched_on": "text",
+      "source_id": "",
+      "title": "(Senior-) Testautomatisierungsarchitekt (m/w/d)"
+    },
+    {
+      "dropped_url": "https://www.arbeitsagentur.de/jobsuche/jobdetail/18251-33241-S",
+      "identity": "zalando se|senior test manager zeos all genders|berlin||https://www.arbeitsagentur.de/jobsuche/jobdetail/18251-33241-S||1672f23bc07c061023cb3b6e094855c8c0ec6636d76809823d427cc16982cd21",
+      "kept_url": "https://www.arbeitsagentur.de/jobsuche/jobdetail/18251-33241-S",
+      "matched_on": "text",
+      "source_id": "",
+      "title": "Senior Test Manager, ZEOS (all genders)"
+    },
+    {
+      "dropped_url": "https://www.arbeitsagentur.de/jobsuche/jobdetail/13645-286702-S",
+      "identity": "grey engineering|embedded test automation engineer m w d|berlin||https://www.arbeitsagentur.de/jobsuche/jobdetail/13645-286702-S||188dde29279bfe35a42950beef9e02961392decd1ef85d9cc3f09ab3d56063d5",
+      "kept_url": "https://www.arbeitsagentur.de/jobsuche/jobdetail/13645-286702-S",
+      "matched_on": "text",
+      "source_id": "",
+      "title": "Embedded Test Automation Engineer (m/w/d)"
+    },
+    {
+      "dropped_url": "https://www.arbeitsagentur.de/jobsuche/jobdetail/13644-312044-S",
+      "identity": "johannesstift diakonie|test manager in 80 remote|berlin||https://www.arbeitsagentur.de/jobsuche/jobdetail/13644-312044-S||5c6ec59799e62411cf89fa01bafd9bbedc9d199f45aef48912e25a2e52f19e56",
+      "kept_url": "https://www.arbeitsagentur.de/jobsuche/jobdetail/13644-312044-S",
+      "matched_on": "text",
+      "source_id": "",
+      "title": "Test Manager *in | 80% Remote"
+    },
+    {
+      "dropped_url": "https://www.arbeitsagentur.de/jobsuche/jobdetail/12336-a26f964j0454674-S",
+      "identity": "fio systems ag|team lead quality assurance testautomatisierung w m d|leipzig||https://www.arbeitsagentur.de/jobsuche/jobdetail/12336-a26f964j0454674-S||45a3a528ae38e19db63fc9fe46c613c1c2134aeb695b358bb7022fe182b87826",
+      "kept_url": "https://www.arbeitsagentur.de/jobsuche/jobdetail/12336-a26f964j0454674-S",
+      "matched_on": "text",
+      "source_id": "",
+      "title": "Team Lead Quality Assurance & Testautomatisierung (w/m/d)"
+    },
+    {
+      "dropped_url": "https://www.adzuna.de/details/5896363113",
+      "identity": "communi5 technologies gmbh|senior qa engineer|berlin||https://www.adzuna.de/details/5896363113||f216346640c282a7eb5cbc4fdb7c4905aa45824f32cea0e37a7c58e5f0e9d675",
+      "kept_url": "https://www.adzuna.de/details/5896363113",
+      "matched_on": "text",
+      "source_id": "",
+      "title": "Senior QA Engineer"
+    },
+    {
+      "dropped_url": "https://www.adzuna.de/details/5902653055",
+      "identity": "dataset labs recruiting|qa engineer map fixture|berlin||https://www.adzuna.de/details/5902653055||ca131aa919698ce46600012b6c874ede51e88b8b51969272df9a5a0314800a63",
+      "kept_url": "https://www.adzuna.de/details/5902653055",
+      "matched_on": "text",
+      "source_id": "",
+      "title": "QA Engineer (map fixture)"
+    },
+    {
+      "dropped_url": "https://www.arbeitsagentur.de/jobsuche/jobdetail/12811-2344134-S",
+      "identity": "medatixx|softwaretester m w d testautomatisierung|bamberg,berlin,eltville,munich||https://www.arbeitsagentur.de/jobsuche/jobdetail/12811-2344134-S||576ecf0fedaf2707aca704438e7aa35b07536341aa97300fd15618dfd24fa785",
+      "kept_url": "https://www.arbeitsagentur.de/jobsuche/jobdetail/12811-2344134-S",
+      "matched_on": "text",
+      "source_id": "",
+      "title": "Softwaretester (m/w/d) Testautomatisierung"
+    },
+    {
+      "dropped_url": "https://www.arbeitsagentur.de/jobsuche/jobdetail/13644-309295-S",
+      "identity": "robotron datenbank software|softwaretester m w d|dresden||https://www.arbeitsagentur.de/jobsuche/jobdetail/13644-309295-S||05b791a93cdc3896a54723194ddc62240f3e8c8263a9a1216ea7a3e65a3167a1",
+      "kept_url": "https://www.arbeitsagentur.de/jobsuche/jobdetail/13644-309295-S",
+      "matched_on": "text",
+      "source_id": "",
+      "title": "Softwaretester (m/w/d)"
+    }
+  ],
+  "kept": 58,
+  "schema_version": 2
+}

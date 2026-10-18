@@ -1,0 +1,22 @@
+{
+  "attempts": [
+    {
+      "at": "2026-10-18T13:31:02.195993+00:00",
+      "error": "Camofox transport failed for GET /tabs/2403db66-fbf5-45e3-b0aa-46d73ae86bbd/snapshot: <urlopen error [Errno 111] Connection refused>",
+      "method": "camofox",
+      "status": "failed"
+    },
+    {
+      "at": "2026-10-18T13:31:17.355621+00:00",
+      "error": "preflight: fewer than two analyzable direct cards",
+      "method": "crawl4ai",
+      "status": "failed"
+    },
+    {
+      "method": "http",
+      "status": "pass"
+    }
+  ],
+  "cycle_id": "2026-10-18_cycle-9",
+  "source_id": "xing.com"
+}

@@ -1,0 +1,26 @@
+{
+  "created_at": "2026-09-25T00:34:59.639615+00:00",
+  "cycle_id": "2026-09-25_cycle-7",
+  "evidence": [
+    {
+      "details": "No live browser, web-extraction, or HTTP capability was available in this run. Listing pages, APIs, and direct QA/job cards could not be checked.",
+      "status": "not_verified",
+      "type": "execution_limitation"
+    },
+    {
+      "details": "The provided registry contains 11 active sources with last_verified=2026-09-24. These are user-supplied historical claims, not independent verification performed now.",
+      "status": "unverified_input",
+      "type": "supplied_registry"
+    }
+  ],
+  "new_sources": [],
+  "recommended_registry_action": "unchanged",
+  "requirements_before_registry_change": [
+    "Confirm that the source is independently searchable and currently accessible.",
+    "Verify a current QA, software-test, test-automation, or quality-assurance vacancy relevant to Germany, Berlin, Leipzig, Dresden, or Germany-wide remote work.",
+    "Verify the source through a second retrieval method, such as listing extraction plus a direct job-card check.",
+    "Reject duplicate platforms, employer directories without current vacancies, and sources without usable listing or API access."
+  ],
+  "verdict": "inconclusive_no_live_verification",
+  "verified_sources": []
+}

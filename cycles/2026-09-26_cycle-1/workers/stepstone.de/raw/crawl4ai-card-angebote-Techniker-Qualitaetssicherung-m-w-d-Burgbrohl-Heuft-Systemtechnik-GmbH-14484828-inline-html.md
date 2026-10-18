@@ -1,0 +1,191 @@
+[](https://www.stepstone.de/de)
+Suche
+[Login](https://www.stepstone.de/de-DE/candidate/register?login_source=Listing_top-register&intcid=Button_Listing-navigation_register)
+Menu
+* * *
+Genug gesucht? Lass uns schneller passende Jobs für dich findenJetzt starten
+* * *
+Jobs finden
+[![Heuft Systemtechnik GmbH logo](https://www.stepstone.de/upload_DE/logo/H/logoHEUFT-SYSTEMTECHNIK-GMBH-53684DE.gif)](https://www.stepstone.de/cmp/de/Heuft-Systemtechnik-GmbH-53684/jobs.html)
+# Techniker Qualitätssicherung (m/w/d)
+  * Heuft Systemtechnik GmbH
+  * [Burgbrohl](https://www.stepstone.de/stellenangebote--Techniker-Qualitaetssicherung-m-w-d-Burgbrohl-Heuft-Systemtechnik-GmbH--14484828-inline.html#location)
+  * Feste Anstellung
+  * Vollzeit
+  * Erschienen: vor 1 Tag
+  * Gehalt anzeigen
+  * Verifiziert
+
+
+Sei einer der ersten Bewerber
+Schnelle Bewerbung
+Ich bin interessiert
+Speichern
+[![Heuft Systemtechnik GmbH logo](https://www.stepstone.de/upload_DE/logo/H/logoHEUFT-SYSTEMTECHNIK-GMBH-53684DE.gif)](https://www.stepstone.de/cmp/de/Heuft-Systemtechnik-GmbH-53684/jobs.html)
+**Techniker Qualitätssicherung (m/w/d)**[ Heuft Systemtechnik GmbH](https://www.stepstone.de/cmp/de/Heuft-Systemtechnik-GmbH-53684/jobs.html)
+Ich bin interessiert
+#### Einführung
+Du möchtest in Deinem Job etwas bewegen, hast innovative Ideen und gehst gerne neue Wege? Dann gehe mit HEUFT den nächsten Schritt! Denn als globaler Technologieführer im Bereich Kontroll- und Inspektionstechnik für die Getränke-, Food- und Pharmaindustrie befinden wir uns in einer stetigen Expansion, die außergewöhnliche Möglichkeiten eröffnet.
+* * *
+#### Aufgaben
+  * Finale Funktionsprüfung: Du führst die funktionale Endprüfung und Abnahme unserer Geräte und Anlagen gemeinsam mit dem projektverantwortlichen Kollegen durch
+  * Stichprobenkontrolle: Du begleitest kontinuierlich den Produktionsprozess deiner Projekte und unterstützt bei der Koordination sowie Behebung von Fertigungsproblemen
+  * Dokumentation & Kommunikation: Du dokumentierst Prüfergebnisse zuverlässig und präzise und stimmst dich eng mit allen beteiligten Abteilungen zur kontinuierlichen Qualitätsverbesserung ab
+  * Entwicklung der Qualitätsabteilung: Du wirkst aktiv an der Weiterentwicklung und Gestaltung unserer Qualitätsabteilung mit
+  * Kontinuierlicher Verbesserungsprozess: Du bringst dich engagiert in unseren KVP ein und treibst Optimierungen nachhaltig voran
+
+
+* * *
+#### Profil
+  * Technische Qualifikation: Du hast eine abgeschlossene Technikerausbildung (m/w/d) in Elektrotechnik, Automatisierungstechnik oder Maschinenbau – alternativ verfügst du über langjährige relevante Berufserfahrung
+  * Berufserfahrung Qualitätssicherung: Du bringst praktische Erfahrung in der operativen Qualitätssicherung sowie in der Funktionsprüfung technisch anspruchsvoller Geräte und Anlagen mit
+  * Fachliche Expertise: Du verfügst über fundierte Kenntnisse in Mechanik, Elektrik, Elektronik sowie Software/Steuerung
+  * Qualitätsbewusstsein & Teamgeist: Du zeichnest dich durch einen ausgeprägten Teamgeist und ein hohes Qualitätsbewusstsein aus
+  * Technisches Interesse: Du hast großes Interesse an technischen Zusammenhängen und innovativen Produkten und bist bereit, dir kontinuierlich neues Wissen anzueignen
+  * Analytisches Denken: Du überzeugst durch analytisches Denkvermögen und eine strukturierte Problemlösungsfähigkeit
+  * Kommunikation & Organisation: Du arbeitest selbstständig, strukturiert und kommunizierst sicher mit verschiedenen Schnittstellen
+  * Regulatorisches Know-how: Du besitzt fundiertes Wissen zu gesetzlichen Anforderungen, Normen und Verordnungen in der Qualitätssicherung – idealerweise im pharmazeutischen Umfeld oder in vergleichbar regulierten Branchen
+  * Qualitätsmanagement & Audits: Du hast Erfahrung in der Erstellung und Optimierung von Prüfprozessen sowie im Qualitätsmanagement und in der Vorbereitung von Audits
+
+
+* * *
+#### Benefits
+  * Flexible Arbeitszeiten & familienfreundliche Strukturen – weil Beruf und Privatleben Hand in Hand gehen sollen
+  * Flache Hierarchien & kurze Entscheidungswege – bei uns zählt, was du einbringst, nicht dein Titel
+  * Betriebseigene Kantine mit täglich frisch zubereiteten Gerichten aus eigener Küche zu vergünstigten Preisen
+  * Kostenlose Sprachkurse – wir unterstützen dich bei deiner persönlichen und beruflichen Weiterentwicklung
+  * Vermögenswirksame Leistungen & 13 Gehälter – faire Konditionen und Sicherheit inklusive
+  * 30 Urlaubstage plus Sonderurlaub in besonderen Lebenssituationen
+  * Kostenloser Parkplatz, modernes IT- und JobRad-Leasing – für nachhaltige Mobilität und smartes Arbeiten
+  * Mitarbeiterrabatte und attraktive Vergünstigungen bei unseren Partnern
+  * Sport- und Gesundheitsangebote mit Zugang zum Betriebsarzt
+  * Regelmäßige Firmenevents & gemeinsame Aktivitäten – vom Sommerfest bis zur Teilnahme an Sportveranstaltungen
+  * 37,5-Stunden-Woche – damit genug Zeit für alles bleibt, was dir wichtig ist 
+
+
+* * *
+#### Kontakt
+* * *
+Ich bin interessiert
+* * *
+#### Gehalt
+Neugierig auf das Gehalt für diesen Job?Gehalt anzeigen
+Chart icon
+Min €Max €
+* * *
+[![Logo Heuft Systemtechnik GmbH](https://www.stepstone.de/upload_DE/logo/H/logoHEUFT-SYSTEMTECHNIK-GMBH-53684DE.gif)](https://www.stepstone.de/cmp/de/Heuft-Systemtechnik-GmbH-53684/jobs.html)
+Heuft Systemtechnik GmbH
+Maschinen- und Anlagenbau • 1000+ Mitarbeiter
+10 Bewertungen
+[1 Job](https://www.stepstone.de/cmp/de/Heuft-Systemtechnik-GmbH-53684/jobs.html)Unternehmensporträt
+* * *
+* * *
+#### Mitarbeitervorteile
+Barrierefreiheit
+Betriebskantine
+Coaching-Angebote
+Betriebsarzt im Unternehmen
+Betriebliche Altersvorsorge
+Mitarbeiterrabatte
+Flexible Arbeitszeiten
+Gute Verkehrsanbindung
+Firmenevents- und Veranstaltungen
+Essenszulage
+Parkplatz
+Die abgebildeten Mitarbeitervorteile sind unternehmensabhängig und können je nach Position und Abteilung abweichen.
+### Fakten
+  * **Branche** Maschinen- und Anlagenbau
+  * **Gegründet** 1978
+  * **Adresse** Am Wind 1, Burgbrohl
+  * **Unternehmensgröße** 1000+
+
+
+### Über uns
+**Qualität, Sicherheit, Effizienz: Darauf kommt es bei der Abfüllung und Verpackung von Getränken, Lebensmitteln und Pharmazeutika an! Modulare Lösungen der HEUFT SYSTEMTECHNIK GMBH realisieren diese Schlüsselfaktoren effektiv und einfach. Bei maximaler****Produktivität stellen sie sicher, dass nur einwandfreie Erzeugnisse in den Handel gelangen.**
+#### Diese Jobs waren bei anderen Jobsuchenden beliebt
+[![SCHOTTEL GmbH](https://www.stepstone.de/upload_DE/logo/0/logoSCHOTTEL-GmbH-1516DE-2202231235.gif?im=Resize=\(56,56\))](https://www.stepstone.de/cmp/de/SCHOTTEL-GmbH-1516/jobs.html)
+## [Facharbeiter (m/w/d) Qualitätssicherung](https://www.stepstone.de/stellenangebote--Facharbeiter-m-w-d-Qualitaetssicherung-Doerth-SCHOTTEL-GmbH--14475957-inline.html)
+SCHOTTEL GmbH
+Dörth
+vor 3 Tagen
+[![Dressler Group GmbH](https://www.stepstone.de/upload_DE/logo/5/logoDressler-Group-Customer-Service-GmbH-244840DE-2004211135.gif?im=Resize=\(56,56\))](https://www.stepstone.de/cmp/de/Dressler-Group-GmbH-244840/jobs.html)
+## [Meister für die Produktion (m/w/d)](https://www.stepstone.de/stellenangebote--Meister-fuer-die-Produktion-m-w-d-Meckenheim-Dressler-Group-GmbH--14471028-inline.html)
+Dressler Group GmbH
+Meckenheim
+vor 6 Tagen
+[![RHODIUS Mineralquellen und Getränke GmbH & Co. KG](https://www.stepstone.de/upload_DE/logo/B/logoRHODIUS-Mineralquellen-und-Getraenke-GmbH-Co-KG-201621DE-2405071056.gif?im=Resize=\(56,56\))](https://www.stepstone.de/cmp/de/RHODIUS-Mineralquellen-und-Getraenke-GmbH-Co-KG-201621/jobs.html)
+## [Leiter Abfülllinien (m/w/d)](https://www.stepstone.de/stellenangebote--Leiter-Abfuelllinien-m-w-d-Burgbrohl-RHODIUS-Mineralquellen-und-Getraenke-GmbH-Co-KG--14520468-inline.html)
+RHODIUS Mineralquellen und Getränke GmbH & Co. KG
+Burgbrohl
+vor 1 Woche
+[![Plastipak Deutschland GmbH](https://www.stepstone.de/upload_DE/logo/P/logoPlastipak-Deutschland-GmbH-160012DE.gif?im=Resize=\(56,56\))](https://www.stepstone.de/cmp/de/Plastipak-Deutschland-GmbH-160012/jobs.html)
+## [Teamleader (w/m/d) Fertigungsschicht](https://www.stepstone.de/stellenangebote--Teamleader-w-m-d-Fertigungsschicht-Mendig-Plastipak-Deutschland-GmbH--14461980-inline.html)
+Plastipak Deutschland GmbH
+Mendig
+vor 1 Woche
+[![KuhnOdice Germany GmbH](https://www.stepstone.de/upload_DE/logo/A/logoRolf-Kuhn-GmbH-145292DE-2506031323.gif?im=Resize=\(56,56\))](https://www.stepstone.de/cmp/de/KuhnOdice-Germany-GmbH-145292/jobs.html)
+## [Fachlicher Teamleiter / Vorarbeiter Produktion (m/w/d)](https://www.stepstone.de/stellenangebote--Fachlicher-Teamleiter-Vorarbeiter-Produktion-m-w-d-Erndtebrueck-KuhnOdice-Germany-GmbH--14462150-inline.html)
+KuhnOdice Germany GmbH
+Erndtebrück
+vor 1 Woche
+[![Verallia Deutschland AG](https://recruit.stepstone.com/media-library/logo/2a70a634-227b-5ba5-995d-d15ba54b4259.png?im=Resize=\(56,56\))](https://www.stepstone.de/cmp/de/Verallia-Deutschland-AG-19238/jobs.html)
+## [Produktionsleiter (m/w/d)](https://www.stepstone.de/stellenangebote--Produktionsleiter-m-w-d-Wirges-Verallia-Deutschland-AG--14398810-inline.html)
+Verallia Deutschland AG
+Wirges
+vor 1 Woche
+[![Lohmann & Rauscher GmbH & Co. KG](https://www.stepstone.de/upload_DE/logo/L/logoLohmann-Rauscher-GmbH-Co-KG-43241DE.gif?im=Resize=\(56,56\))](https://www.stepstone.de/cmp/de/Lohmann-Rauscher-GmbH-Co-KG-43241/jobs.html)
+## [Abteilungsmechaniker (m/w/d) / Lead Mechanic (m/f/d)](https://www.stepstone.de/stellenangebote--Abteilungsmechaniker-m-w-d-Lead-Mechanic-m-f-d-Neuwied-Lohmann-Rauscher-GmbH-Co-KG--14538587-inline.html)
+Lohmann & Rauscher GmbH & Co. KG
+Neuwied
+vor 1 Tag
+[![Akzenta Paneele + Profile GmbH](https://www.stepstone.de/upload_DE/logo/1/logoAkzenta-Paneele-Profile-GmbH-123582DE-2012231506.gif?im=Resize=\(56,56\))](https://www.stepstone.de/cmp/de/Akzenta-Paneele-Profile-GmbH-123582/jobs.html)
+## [Teamleiter Produktionsplanung und -steuerung (PPS) (m/w/d)](https://www.stepstone.de/stellenangebote--Teamleiter-Produktionsplanung-und-steuerung-PPS-m-w-d-Kaisersesch-Akzenta-Paneele-Profile-GmbH--14489593-inline.html)
+Akzenta Paneele + Profile GmbH
+Kaisersesch
+Teilweise Home-Office
+vor 2 Wochen
+[![HARIBO Deutschland](https://www.stepstone.de/upload_DE/logo/H/logoHARIBO-Deutschland-58222DE.gif?im=Resize=\(56,56\))](https://www.stepstone.de/cmp/de/HARIBO-Deutschland-58222/jobs.html)
+## [Leiter Verpackungstechnik (m/w/d)](https://www.stepstone.de/stellenangebote--Leiter-Verpackungstechnik-m-w-d-Bonn-HARIBO-Deutschland--14497769-inline.html)
+HARIBO Deutschland
+Bonn
+vor 1 Woche
+[![Eaton Industries GmbH](https://www.stepstone.de/upload_DE/logo/E/logoEaton_Industries_GmbH_87311DE.gif?im=Resize=\(56,56\))](https://www.stepstone.de/cmp/de/Eaton-Industries-GmbH-87311/jobs.html)
+## [Kunststoff- und Kautschuktechnologen/ Verfahrensmechaniker für die Kunststoffteilefertigung (m/w/d)](https://www.stepstone.de/stellenangebote--Kunststoff-und-Kautschuktechnologen-Verfahrensmechaniker-fuer-die-Kunststoffteilefertigung-m-w-d-Holzhausen-an-der-Haide-Neuwied-Gladbach-Dausenau-Eaton-Industries-GmbH--14527187-inline.html)
+Eaton Industries GmbH
+Holzhausen an der Haide, Neuwied/Gladbach, Dausenau 
+vor 4 Tagen
+  * [Ingenieurwesen Jobs](https://www.stepstone.de/jobs/ingenieurwesen)
+  * [Ingenieurwesen Jobs in Burgbrohl](https://www.stepstone.de/jobs/ingenieurwesen/in-burgbrohl)
+  * [Testing Jobs](https://www.stepstone.de/jobs/testing)
+  * [Testing Jobs in Burgbrohl](https://www.stepstone.de/jobs/testing/in-burgbrohl)
+  * [Jobs in Burgbrohl](https://www.stepstone.de/jobs/in-burgbrohl)
+
+
+# Finde den Job,  
+der zu dir passt.
+[Los geht's](https://www.stepstone.de/de-DE/candidate/register?login_source=Listing_bottom-register&intcid=Button_Listing_bottom-navigation_register)
+[](https://twitter.com/stepstone_de)[](https://www.facebook.com/stepstone.de)[](https://www.instagram.com/stepstone_de/)[](https://www.youtube.com/traumjob)
+Stepstone
+Bewerbende
+Arbeitgebende
+Download
+The Stepstone Group GmbH © 2026
+Deutsch
+# Wir verwenden Cookies
+Deutsch
+Deutsch
+English
+Wir übermitteln personenbezogene Daten an Drittanbieter, die uns helfen, unser Webangebot zu verbessern. In diesem Zusammenhang werden auch Nutzungsprofile (u.a. auf Basis von Cookie-IDs) gebildet und angereichert, auch außerhalb des EWR.
+Hierfür und um bestimmte Dienste zu nachfolgend aufgeführten Zwecken verwenden zu dürfen, benötigen wir Ihre Einwilligung. Indem Sie "Alle akzeptieren" klicken, stimmen Sie diesen (jederzeit widerruflich) zu. Dies umfasst auch Ihre Einwilligung in die Übermittlung bestimmter personenbezogener Daten in Drittländer, u.a. die USADie betreffenden Drittländer, insbesondere die USA, weisen im Zweifel nicht das Datenschutzniveau auf, das Sie unter der DSGVO genießen. Das kann Nachteile wie eine erschwerte Durchsetzung von Betroffenenrechten, eine fehlende Kontrolle der Weiterverarbeitung und Übermittlung der Daten oder Zugriffe auf die Daten durch staatliche Stellen, ins. Behörden der USA, zu Kontroll- und Überwachungszwecken bedeuten, ohne dass Ihnen Rechtsbehelfe dagegen zustehen.*, nach Art. 49 (1) (a) DSGVO. Unter "Einstellungen oder ablehnen" können Sie Ihre Einstellungen ändern oder die Datenverarbeitung ablehnen. Sie können Ihre Auswahl jederzeit unter [Privatsphäre](https://www.stepstone.de/ueber-stepstone/privatsphaere) am Seitenende ändern.
+Informationen auf einem Gerät speichern und/oder abrufen
+Für die Ihnen angezeigten Verarbeitungszwecke können Cookies, Geräte-Kennungen oder andere Informationen auf Ihrem Gerät gespeichert oder abgerufen werden.
+Personalisierte Anzeigen und Inhalte, Anzeigen- und Inhaltsmessungen, Erkenntnisse über Zielgruppen und Produktentwicklungen
+Anzeigen und Inhalte können basierend auf einem Profil personalisiert werden. Es können mehr Daten hinzugefügt werden, um Anzeigen und Inhalte besser zu personalisieren. Die Performance von Anzeigen und Inhalten kann gemessen werden. Erkenntnisse über Zielgruppen, die die Anzeigen und Inhalte betrachtet haben, können abgeleitet werden. Daten können verwendet werden, um Benutzerfreundlichkeit, Systeme und Software aufzubauen oder zu verbessern.
+Fremdinhalte anzeigen (Soziale Netzwerke, Videos)
+Inhalte von sozialen Netzwerken und eingebettete Inhalte von Drittanbietern können angezeigt werden.
+Aus Authentifizierungen abgeleitete Kennungen
+Wenn eine Kennung auf der Grundlage von Authentifizierungsdaten erstellt wird, wie z. B. Kontaktdaten im Zusammenhang mit Online-Konten, die Sie auf Websites oder Apps eingerichtet haben (z. B. E-Mail-Adresse, Telefonnummer) oder Kundenkennungen (z. B. eine von Ihrem Telekommunikationsanbieter bereitgestellte Kennung), dann kann diese Kennung dazu verwendet werden, Sie über Websites, Apps und Geräte hinweg wiederzuerkennen, wenn Sie mit denselben Kontaktdaten angemeldet sind.
+Einstellungen oder ablehnen
+Alles akzeptieren
+Widerspruchsrechte zu Datenverarbeitungen auf Grundlage von berechtigten Interessen können Sie ebenfalls unter „Datenschutzerklärung“ ausüben.
+[Datenschutzerklärung](https://www.stepstone.de/e-recruiting/rechtliches/datenschutzerklarung)[Impressum](https://www.stepstone.de/e-recruiting/impressum)[Cookie Richtlinie](https://www.stepstone.de/e-recruiting/rechtliches/cookie-policy/)

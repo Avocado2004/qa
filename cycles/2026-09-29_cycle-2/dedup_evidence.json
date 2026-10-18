@@ -1,0 +1,49 @@
+{
+  "at": "2026-09-29T06:35:58.153699+00:00",
+  "cycle_id": "2026-09-29_cycle-2",
+  "dropped": 5,
+  "duplicates": [
+    {
+      "dropped_url": "https://de.linkedin.com/jobs/view/senior-quality-assurance-engineer-at-trading-212-4468924202?position=2&pageNum=0&refId=wmecPdgV7tyPVdrvVCxGeA%3D%3D",
+      "identity": "trading 212|senior quality assurance engineer|berlin||https://de.linkedin.com/jobs/view/senior-quality-assurance-engineer-at-trading-212-4468924202||5a1e7478cd004ffc8fb3837000016a1ddff5f41cde1238c34a10550294777fd7",
+      "kept_url": "https://de.linkedin.com/jobs/view/senior-quality-assurance-engineer-at-trading-212-4468924202?position=2&pageNum=0&refId=TEa0U57xTjFnhwwq%2BHJzzA%3D%3D",
+      "matched_on": "text",
+      "source_id": "",
+      "title": "Senior Quality Assurance Engineer"
+    },
+    {
+      "dropped_url": "https://de.linkedin.com/jobs/view/senior-qa-engineer-remote-at-kake-4461168232?position=7&pageNum=0&refId=wmecPdgV7tyPVdrvVCxGeA%3D%3D",
+      "identity": "kake|senior qa engineer remote|remote+berlin||https://de.linkedin.com/jobs/view/senior-qa-engineer-remote-at-kake-4461168232",
+      "kept_url": "https://de.linkedin.com/jobs/view/senior-qa-engineer-remote-at-kake-4461168232?position=7&pageNum=0&refId=TEa0U57xTjFnhwwq%2BHJzzA%3D%3D",
+      "matched_on": "url",
+      "source_id": "",
+      "title": "Senior QA Engineer - Remote"
+    },
+    {
+      "dropped_url": "https://www.arbeitsagentur.de/jobsuche/jobdetail/12811-2344134-S",
+      "identity": "medatixx|softwaretester m w d testautomatisierung|bamberg,berlin,eltville,munich||https://www.arbeitsagentur.de/jobsuche/jobdetail/12811-2344134-S||66af7e043b4ea8f8092286d7722c7136add013d9135b1f93500e0b113f46aa7f",
+      "kept_url": "https://www.arbeitsagentur.de/jobsuche/jobdetail/12811-2344134-S",
+      "matched_on": "text",
+      "source_id": "",
+      "title": "Softwaretester (m/w/d) Testautomatisierung"
+    },
+    {
+      "dropped_url": "https://www.stepstone.de/stellenangebote--QA-Engineer-Software-m-w-d-Dresden-secunet-Security-Networks-AG--14547592-inline.html",
+      "identity": "secunet security networks ag|qa engineer software m w d|dresden||https://www.stepstone.de/stellenangebote--QA-Engineer-Software-m-w-d-Dresden-secunet-Security-Networks-AG--14547592-inline.html||5d73454f352f7aaab4c94b2a980dd6ab9b0a9c43b0980627993ad7a9d154e7c9",
+      "kept_url": "https://www.stepstone.de/stellenangebote--QA-Engineer-Software-m-w-d-Dresden-secunet-Security-Networks-AG--14547592-inline.html",
+      "matched_on": "text",
+      "source_id": "",
+      "title": "QA Engineer Software (m/w/d)"
+    },
+    {
+      "dropped_url": "https://www.adzuna.de/details/5896363113",
+      "identity": "communi5 technologies gmbh|senior qa engineer|berlin||https://www.adzuna.de/details/5896363113||e5d770ef752d475d3051562fbabefdab7ffcb067b2ac5ad39586954ac3c54c86",
+      "kept_url": "https://www.adzuna.de/details/5896363113",
+      "matched_on": "text",
+      "source_id": "",
+      "title": "Senior QA Engineer"
+    }
+  ],
+  "kept": 31,
+  "schema_version": 2
+}

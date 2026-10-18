@@ -1,0 +1,29 @@
+{
+  "url": "https://www.arbeitnow.com/jobs/companies/indiekidz-gmbh/unpaid-mandatory-internship-software-test-qa-automation-engineer-berlin-320686",
+  "title": "(Unpaid) Mandatory Internship : Software Test (QA) Automation Engineer",
+  "company": "IndieKidz GmbH",
+  "location": "Berlin",
+  "posted": "1790782270",
+  "work_mode": "Remote",
+  "announcement": "About Occibo Occibo is an AI-powered SaaS platform for children's book creation, built by IndieKidz GmbH in Berlin. We're a small, remote-first team looking for a QA intern to help us build and maintain automated testing so we can ship new features quickly and with confidence. Internship type Mandatory internship as part of your degree program. This internship is unpaid. Tasks What you'll do ● Build end-to-end UI test automation for the Occibo web app ● Write test plans, test cases, and regression suites for core user flows ● Translate product requirements into automated checks, including edge cases ● Collaborate with the development team on test data strategies and stable selectors ● Run tests in CI, track failures, and help keep the test suite reliable ● Use AI tools to speed up test creation, analysis, and maintenance Tools you might work with Playwright, Cypress, Selenium, Jest, Vitest, GitHub Actions Requirements What we're looking for ● Currently enrolled in CS, Software Engineering, or a related field ● Experience with at least one test automation framework (Playwright or Cypress preferred) ● Comfortable with JavaScript or TypeScript and Git ● Understanding of CI pipelines and reliable test design ● Interest in AI and experience using AI tools ● Fluent English Benefits ● Hands-on experience with a real product, not a classroom exercise ● Direct collaboration with the founder and development team ● A portfolio of shipped QA work you can show future employers Nice to have ● Prior SaaS UI automation experience ● API testing experience (Postman or REST clients) ● Based in Berlin and able to join onsite occasionally How to apply Send a message with your CV, short note/cover letter(preferred), your best project link, the test framework you know, and your availability and start date. We are looking for candidates available to start in October 2026. Find more English Speaking Jobs in Germany on Arbeitnow",
+  "http_status": 200,
+  "sha256": "2a44905d30d17e01cc1dee8cc35f1f9e99ab26a5a075a4b4bdab37e47e237d5d",
+  "source_record": {
+    "slug": "unpaid-mandatory-internship-software-test-qa-automation-engineer-berlin-320686",
+    "company_name": "IndieKidz GmbH",
+    "title": "(Unpaid) Mandatory Internship : Software Test (QA) Automation Engineer",
+    "description": "<p><strong>About Occibo</strong></p>\n<p>Occibo is an AI-powered SaaS platform for children's book creation, built by IndieKidz GmbH in Berlin. We're a small, remote-first team looking for a QA intern to help us build and maintain automated testing so we can ship new features quickly and with confidence.</p>\n<p><strong>Internship type</strong></p>\n<p>Mandatory internship as part of your degree program.<br>\nThis internship is unpaid.</p>\n<h2>Tasks</h2>\n<p><strong>What you'll do</strong></p>\n<p>● Build end-to-end UI test automation for the Occibo web app</p>\n<p>● Write test plans, test cases, and regression suites for core user flows</p>\n<p>● Translate product requirements into automated checks, including edge cases</p>\n<p>● Collaborate with the development team on test data strategies and stable selectors</p>\n<p>● Run tests in CI, track failures, and help keep the test suite reliable</p>\n<p>● Use AI tools to speed up test creation, analysis, and maintenance</p>\n<p><strong>Tools you might work with</strong></p>\n<p>Playwright, Cypress, Selenium, Jest, Vitest, GitHub Actions</p>\n<h2>Requirements</h2>\n<p><strong>What we're looking for</strong></p>\n<p>● Currently enrolled in CS, Software Engineering, or a related field</p>\n<p>● Experience with at least one test automation framework (Playwright or Cypress preferred)</p>\n<p>● Comfortable with JavaScript or TypeScript and Git</p>\n<p>● Understanding of CI pipelines and reliable test design</p>\n<p>● Interest in AI and experience using AI tools</p>\n<p>● Fluent English</p>\n<h2>Benefits</h2>\n<p>● Hands-on experience with a real product, not a classroom exercise</p>\n<p>● Direct collaboration with the founder and development team</p>\n<p>● A portfolio of shipped QA work you can show future employers</p>\n<p><strong>Nice to have</strong></p>\n<p>● Prior SaaS UI automation experience</p>\n<p>● API testing experience (Postman or REST clients)</p>\n<p>● Based in Berlin and able to join onsite occasionally</p>\n<p><strong>How to apply</strong></p>\n<p>Send a message with your CV, short note/cover letter(preferred), your best project link, the test framework you know, and your availability and start date.</p>\n<p>We are looking for candidates available to start in October 2026.</p>\n<p>Find more <a href=\"https://www.arbeitnow.com/english-speaking-jobs\">English Speaking Jobs in Germany</a> on Arbeitnow</a>",
+    "remote": true,
+    "url": "https://www.arbeitnow.com/jobs/companies/indiekidz-gmbh/unpaid-mandatory-internship-software-test-qa-automation-engineer-berlin-320686",
+    "tags": [
+      "Remote",
+      "Automation Engineering"
+    ],
+    "job_types": [
+      "Internship",
+      "professional / experienced"
+    ],
+    "location": "Berlin",
+    "created_at": 1790782270
+  }
+}

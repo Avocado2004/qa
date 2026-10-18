@@ -1,0 +1,11 @@
+{
+  "cycle_id": "2026-09-25_cycle-27",
+  "failures": [
+    {
+      "at": "2026-09-25T08:42:58.014201+00:00",
+      "error": "all independent access methods failed: preflight: fewer than two distinct API cards; Camofox HTTP 500 for POST /tabs/a8819e80-a0e2-4d5f-ba9c-9ebf72147eb7/navigate; [Errno 2] No such file or directory: 'mcporter'; preflight: fewer than two analyzable direct cards"
+    }
+  ],
+  "schema_version": 2,
+  "source_id": "remotive.com"
+}

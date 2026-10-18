@@ -1,0 +1,129 @@
+{
+  "at": "2026-10-15T00:06:38.679253+00:00",
+  "cycle_id": "2026-10-14_cycle-18",
+  "dropped": 15,
+  "duplicates": [
+    {
+      "dropped_url": "https://hitmarker.net/jobs/room-8-group-realistic-3d-characters-lead-5189689",
+      "identity": "room 8 group|cookies on hitmarker|unknown||https://hitmarker.net/jobs/room-8-group-realistic-3d-characters-lead-5189689||00ef12da248fb74147cc3b5c679c7600735f985a34f4fea06285024a1135463a",
+      "kept_url": "https://hitmarker.net/jobs/room-8-group-realistic-3d-characters-art-director-5189813",
+      "matched_on": "text",
+      "source_id": "",
+      "title": "Cookies on Hitmarker"
+    },
+    {
+      "dropped_url": "https://www.arbeitsagentur.de/jobsuche/jobdetail/17338-4d1d7c4676e6690688-S",
+      "identity": "communi5 technologies gmbh|senior qa engineer hybrid|berlin||https://www.arbeitsagentur.de/jobsuche/jobdetail/17338-4d1d7c4676e6690688-S||6758e54affe785bc1851fe520d4abff707255fd11d11c4e045bc11c0db31e938",
+      "kept_url": "https://www.arbeitsagentur.de/jobsuche/jobdetail/17338-4d1d7c4676e6690688-S",
+      "matched_on": "text",
+      "source_id": "",
+      "title": "Senior QA Engineer - Hybrid"
+    },
+    {
+      "dropped_url": "https://www.arbeitsagentur.de/jobsuche/jobdetail/10001-1003780573-S",
+      "identity": "jetbrains gmbh|qa engineer ultimate team m f d|berlin||https://www.arbeitsagentur.de/jobsuche/jobdetail/10001-1003780573-S||18098b8439b4442671e121f258368c124afda6071f41c47ba9390099d87f7581",
+      "kept_url": "https://www.arbeitsagentur.de/jobsuche/jobdetail/10001-1003780573-S",
+      "matched_on": "text",
+      "source_id": "",
+      "title": "QA Engineer (Ultimate team) (m/f/d)"
+    },
+    {
+      "dropped_url": "https://www.arbeitsagentur.de/jobsuche/jobdetail/10001-1003778698-S",
+      "identity": "gematik gmbh|testarchitekt in senior test ops engineer in all genders 4 jahre befristet|berlin||https://www.arbeitsagentur.de/jobsuche/jobdetail/10001-1003778698-S||0cc35a326a41264429919ec1d2f1217d180b633cc8bd4a4e6f9079421b398df8",
+      "kept_url": "https://www.arbeitsagentur.de/jobsuche/jobdetail/10001-1003778698-S",
+      "matched_on": "text",
+      "source_id": "",
+      "title": "Testarchitekt:in / Senior Test Ops Engineer:in (all genders) - 4 Jahre befristet"
+    },
+    {
+      "dropped_url": "https://www.arbeitsagentur.de/jobsuche/jobdetail/12117-YF-51982-YF-S",
+      "identity": "sprecher automation deutschland gmbh|senior test und validierungsingenieur in für netzschutztechnik m w d|berlin||https://www.arbeitsagentur.de/jobsuche/jobdetail/12117-YF-51982-YF-S||9ec6fc581c6baecc011501888197ba5e47f749915f0f282126cb960e41e7cb7a",
+      "kept_url": "https://www.arbeitsagentur.de/jobsuche/jobdetail/12117-YF-51982-YF-S",
+      "matched_on": "text",
+      "source_id": "",
+      "title": "Senior Test- und Validierungsingenieur:in für Netzschutztechnik (m/w/d)"
+    },
+    {
+      "dropped_url": "https://www.arbeitsagentur.de/jobsuche/jobdetail/12336-a26f539j0455719-S",
+      "identity": "bwi gmbh|it expert testautomatisierung m w d|berlin||https://www.arbeitsagentur.de/jobsuche/jobdetail/12336-a26f539j0455719-S||36df997b04c5592d661f2c0879ff6f8b8a217b26eff89d0b6dd245a48df602a7",
+      "kept_url": "https://www.arbeitsagentur.de/jobsuche/jobdetail/12336-a26f539j0455719-S",
+      "matched_on": "text",
+      "source_id": "",
+      "title": "IT Expert Testautomatisierung (m/w/d)"
+    },
+    {
+      "dropped_url": "https://www.arbeitsagentur.de/jobsuche/jobdetail/19821-2CBZ4N28SNHSIY8W-S",
+      "identity": "schmitt gmbh|testingenieur m w d embedded systems|berlin||https://www.arbeitsagentur.de/jobsuche/jobdetail/19821-2CBZ4N28SNHSIY8W-S||a6bf47d8232abc1f160a97c82ebeaefe80498034b712a23d3cb61a6da9e160b3",
+      "kept_url": "https://www.arbeitsagentur.de/jobsuche/jobdetail/19821-2CBZ4N28SNHSIY8W-S",
+      "matched_on": "text",
+      "source_id": "",
+      "title": "Testingenieur (m/w/d) Embedded Systems"
+    },
+    {
+      "dropped_url": "https://www.arbeitsagentur.de/jobsuche/jobdetail/12362-TR-247865_626166LS-S",
+      "identity": "brunel gmbh nl berlin|testingenieur w m d|berlin||https://www.arbeitsagentur.de/jobsuche/jobdetail/12362-TR-247865_626166LS-S||84ac781ae4e00d8fc72ae7bd8b594a6aa4c81d7415527404941c52d6b3ca587d",
+      "kept_url": "https://www.arbeitsagentur.de/jobsuche/jobdetail/12362-TR-247865_626166LS-S",
+      "matched_on": "text",
+      "source_id": "",
+      "title": "Testingenieur (w/m/d)"
+    },
+    {
+      "dropped_url": "https://www.arbeitsagentur.de/jobsuche/jobdetail/12874-1576518-2-S",
+      "identity": "infineon technologies dresden ag co kg|staff engineer component verification f m div|dresden||https://www.arbeitsagentur.de/jobsuche/jobdetail/12874-1576518-2-S||bc00c147bebf12d6377fea2a09ce212962d16cb1640023cfe7c7154893fead04",
+      "kept_url": "https://www.arbeitsagentur.de/jobsuche/jobdetail/12874-1576518-2-S",
+      "matched_on": "text",
+      "source_id": "",
+      "title": "Staff Engineer Component Verification (f/m/div)"
+    },
+    {
+      "dropped_url": "https://www.arbeitsagentur.de/jobsuche/jobdetail/11956-3077971791842400-S",
+      "identity": "spektra schwingungstechnik und akustik gmbh dresden|test automation engineer embedded hil m w|dresden||https://www.arbeitsagentur.de/jobsuche/jobdetail/11956-3077971791842400-S||1132fb7722d192471cc27e6099acb097095361b9af6c1014f08b51e05c8fe10b",
+      "kept_url": "https://www.arbeitsagentur.de/jobsuche/jobdetail/11956-3077971791842400-S",
+      "matched_on": "text",
+      "source_id": "",
+      "title": "Test Automation Engineer (Embedded & HIL) (m/w/"
+    },
+    {
+      "dropped_url": "https://www.stepstone.de/stellenangebote--Quality-Assurance-Manager-m-w-d-Berlin-Traffics-Softwaresysteme-fuer-den-Tourismus-GmbH--14601752-inline.html",
+      "identity": "traffics softwaresysteme für den tourismus gmbh|quality assurance manager m w d|berlin||https://www.stepstone.de/stellenangebote--Quality-Assurance-Manager-m-w-d-Berlin-Traffics-Softwaresysteme-fuer-den-Tourismus-GmbH--14601752-inline.html||ed231629f2ecc8ecb7df9bc6bf45be2a692ced8676b2b8ea33bff6918e8cab89",
+      "kept_url": "https://www.stepstone.de/stellenangebote--Quality-Assurance-Manager-m-w-d-Berlin-Traffics-Softwaresysteme-fuer-den-Tourismus-GmbH--14601752-inline.html",
+      "matched_on": "text",
+      "source_id": "",
+      "title": "Quality Assurance Manager (m/w/d)"
+    },
+    {
+      "dropped_url": "https://www.arbeitsagentur.de/jobsuche/jobdetail/10001-1003839002-S",
+      "identity": "expertplace professionals gmbh|test requirements engineer m w d funkkommunikation|berlin||https://www.arbeitsagentur.de/jobsuche/jobdetail/10001-1003839002-S||136ea27990e1942c48ed8abb622b205f8bf1595c82ac69fc1be1f7cc3c359e98",
+      "kept_url": "https://www.arbeitsagentur.de/jobsuche/jobdetail/10001-1003839002-S",
+      "matched_on": "text",
+      "source_id": "",
+      "title": "Test Requirements Engineer (m/w/d) Funkkommunikation"
+    },
+    {
+      "dropped_url": "https://www.arbeitsagentur.de/jobsuche/jobdetail/12811-2344134-S",
+      "identity": "medatixx|spezialist m w d testautomatisierung|bamberg,berlin,eltville,münchen||https://www.arbeitsagentur.de/jobsuche/jobdetail/12811-2344134-S||7542d0bfa3740001871a52ba6708a637fd851289b6dbeda5581a70833b0a749b",
+      "kept_url": "https://www.arbeitsagentur.de/jobsuche/jobdetail/12811-2344134-S",
+      "matched_on": "text",
+      "source_id": "",
+      "title": "Spezialist (m/w/d) Testautomatisierung"
+    },
+    {
+      "dropped_url": "https://www.stepstone.de/stellenangebote--QA-Engineer-m-w-d-Karlsruhe-Muenchen-Berlin-finanzen-net-zero-GmbH--14587011-inline.html",
+      "identity": "finanzen net zero gmbh|qa engineer m w d|berlin,münchen||https://www.stepstone.de/stellenangebote--QA-Engineer-m-w-d-Karlsruhe-Muenchen-Berlin-finanzen-net-zero-GmbH--14587011-inline.html||8f09aa1231f5f357b0716a42b6f2fbfc4fc317da7fd1fa8977718aa24c5f6392",
+      "kept_url": "https://www.stepstone.de/stellenangebote--QA-Engineer-m-w-d-Karlsruhe-Muenchen-Berlin-finanzen-net-zero-GmbH--14587011-inline.html",
+      "matched_on": "text",
+      "source_id": "",
+      "title": "QA Engineer (m/w/d)"
+    },
+    {
+      "dropped_url": "https://www.stepstone.de/stellenangebote--Software-QA-Test-Engineer-m-w-d-Stuttgart-Aveyara-Software-GmbH--13688522-inline.html",
+      "identity": "aveyara software gmbh|software qa test engineer m w d|stuttgart||https://www.stepstone.de/stellenangebote--Software-QA-Test-Engineer-m-w-d-Stuttgart-Aveyara-Software-GmbH--13688522-inline.html||153d218775aa05aa022063e150042494258ea84a151c2df47d435d01db382834",
+      "kept_url": "https://www.stepstone.de/stellenangebote--Software-QA-Test-Engineer-m-w-d-Stuttgart-Aveyara-Software-GmbH--13688522-inline.html",
+      "matched_on": "text",
+      "source_id": "",
+      "title": "Software QA Test Engineer (m/w/d)"
+    }
+  ],
+  "kept": 59,
+  "schema_version": 2
+}

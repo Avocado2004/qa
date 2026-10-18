@@ -1,0 +1,6 @@
+{
+  "url": "https://de.linkedin.com/jobs/view/senior-quality-assurance-engineer-m-w-d-at-wilken-software-group-4428103994?position=10&pageNum=0&refId=Cavd0BB%2Fse84WEfn4pCwSg%3D%3D",
+  "returncode": 0,
+  "stdout": "✓ 页面已保存到 /opt/data/qa-vacancy-project/cycles/2026-09-27_cycle-4/workers/linkedin.com/raw/crawl4ai-card-m-w-d-at-wilken-software-group-4428103994-position-10-pageNum-0-refId-Cavd0BB-2Fse84WEfn4pCwSg-3D-3D.md\n  标题: Wilken Software Group sucht SENIOR QUALITY ASSURANCE ENGINEER (M/W/D) in Ulm | LinkedIn\n  链接数: 177\n",
+  "stderr": "[INIT].... → Crawl4AI 0.9.4 \n[FETCH]... ↓ https://de.linkedin.com/jobs/view/senior-quality...tion=10&pageNum=0&refId=Cavd0BB/se84WEfn4pCwSg==  | ✓ | ⏱: 2.74s \n[SCRAPE].. ◆ https://de.linkedin.com/jobs/view/senior-quality...tion=10&pageNum=0&refId=Cavd0BB/se84WEfn4pCwSg==  | ✓ | ⏱: 0.43s \n[COMPLETE] ● https://de.linkedin.com/jobs/view/senior-quality...tion=10&pageNum=0&refId=Cavd0BB/se84WEfn4pCwSg==  | ✓ | ⏱: 3.24s \n"
+}

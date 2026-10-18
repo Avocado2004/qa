@@ -1,0 +1,11 @@
+{
+  "cycle_id": "workers",
+  "failures": [
+    {
+      "at": "2026-09-25T00:18:39.437116+00:00",
+      "error": "Camofox HTTP 500 for POST /tabs/fc969f46-62c0-443e-bac2-ac7364a6346e/navigate"
+    }
+  ],
+  "schema_version": 2,
+  "source_id": "xing.com"
+}

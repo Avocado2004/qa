@@ -1,0 +1,24 @@
+{
+  "attempts": [
+    {
+      "at": "2026-09-27T09:28:09.834793+00:00",
+      "error": "Camofox preflight card-1 is a portal page, not a vacancy: 'Initiativbewerbung'. Listing offered 18 direct links; a real vacancy card is required.",
+      "method": "camofox",
+      "status": "failed"
+    },
+    {
+      "at": "2026-09-27T09:29:00.088921+00:00",
+      "error": "preflight: detail pages are portal pages, not vacancies (card-1: 'Recruiter (m/w/d)'; card-2: 'Ähnliche Jobs'). Listing offered 18 direct links; two real vacancy cards are required.",
+      "method": "crawl4ai",
+      "status": "failed"
+    },
+    {
+      "at": "2026-09-27T09:29:02.719702+00:00",
+      "error": "preflight: detail pages are portal pages, not vacancies (card-1: 'Recruiter (m/w/d)'; card-2: 'Initiativbewerbung'). Listing offered 18 direct links; two real vacancy cards are required.",
+      "method": "http",
+      "status": "failed"
+    }
+  ],
+  "cycle_id": "2026-09-27_cycle-3",
+  "source_id": "xing.com"
+}
