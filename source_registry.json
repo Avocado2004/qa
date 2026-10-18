@@ -213,7 +213,7 @@
       "evidence": {
         "coverage_note": "Term x city matrix: 7 search terms x 7 locations = 49 listing pages, 300 distinct cards / 130 QA (measured 2026-09-29). Indeed has NO pagination (`start=10` returns nothing) and its `remotejoboffer=1` filter is a no-op on this route (58 of 59 cards identical to the unfiltered sweep), so the widenable axes are the term and the location, both of which return near-disjoint card sets. Runtime is not a constraint: the cron runs at night.",
         "first_seen": "2026-09-29",
-        "last_preflight": "2026-10-18T14:25:20.529563+00:00",
+        "last_preflight": "2026-10-18T19:41:32.789837+00:00",
         "last_run_status": "Not used",
         "last_success": null,
         "last_verified": "2026-09-29",
@@ -249,7 +249,7 @@
       "domain": "linkedin.com",
       "evidence": {
         "first_seen": "2026-09-24",
-        "last_preflight": "2026-10-18T14:37:14.144761+00:00",
+        "last_preflight": "2026-10-18T19:45:19.957567+00:00",
         "last_run_status": "Not used",
         "last_success": null,
         "last_verified": "2026-09-24",
@@ -412,7 +412,7 @@
       "domain": "xing.com",
       "evidence": {
         "first_seen": "2026-09-24",
-        "last_preflight": "2026-10-14T08:02:00.748915+00:00",
+        "last_preflight": "2026-10-18T19:46:26.014041+00:00",
         "last_run_status": "Not used",
         "last_success": null,
         "last_verified": "2026-09-24",
@@ -794,27 +794,7 @@
       "type": "German general/aggregated job board"
     },
     {
-      "detail_url_pattern": "https://www.glassdoor.de/partner/jobListing.htm\\?.*&jl=",
-      "domain": "glassdoor.de",
-      "evidence": {
-        "last_preflight": "2026-10-18T14:25:20.529618+00:00",
-        "last_run_status": "Not used"
-      },
-      "id": "glassdoor.de",
-      "listing_url": "https://www.glassdoor.de/Job/deutschland-qa-engineer-jobs-SRCH_IL.0,11_IN107_KO12,22.htm",
-      "name": "Glassdoor Deutschland",
-      "notes": "crawl4ai for listing, detail pages have employer redirect. Glassdoor blocks plain HTTP; Camofox with stealth profile renders listings. Card URLs contain jobListing.htm with jl= parameter.",
-      "status": "active",
-      "type": "general job board",
-      "primary_method": "crawl4ai",
       "adapter": "glassdoor",
-      "preferred_methods": [
-        "crawl4ai markdown render",
-        "Camofox browser session"
-      ],
-      "fallback_methods": [
-        "Camofox browser session"
-      ],
       "config": {
         "card_url_pattern": "jobListing\\.htm.*jl=",
         "listing_urls": [
@@ -823,32 +803,32 @@
           "https://www.glassdoor.de/Job/deutschland-test-automation-engineer-jobs-SRCH_IL.0,11_IN107_KO12,31.htm"
         ]
       },
+      "detail_url_pattern": "https://www.glassdoor.de/partner/jobListing.htm\\?.*&jl=",
       "direct_card_domains": [
         "glassdoor.de"
-      ]
-    },
-    {
-      "detail_url_pattern": "https://www.monster.de/jobs/stellenangebot/.*\\.html",
-      "domain": "monster.de",
+      ],
+      "domain": "glassdoor.de",
       "evidence": {
-        "last_preflight": "2026-10-18T14:25:20.529623+00:00",
+        "last_preflight": "2026-10-18T20:13:28.024823+00:00",
         "last_run_status": "Not used"
       },
-      "id": "monster.de",
-      "listing_url": "https://www.monster.de/jobs/suche?q=QA-Engineer&where=Deutschland",
-      "name": "Monster Deutschland",
-      "notes": "crawl4ai for listing, detail pages are standard HTML. Monster uses standard job cards with direct links to /stellenangebot/ pages.",
-      "status": "active",
-      "type": "general job board",
-      "primary_method": "crawl4ai",
-      "adapter": "monster",
+      "fallback_methods": [
+        "Camofox browser session"
+      ],
+      "id": "glassdoor.de",
+      "listing_url": "https://www.glassdoor.de/Job/deutschland-qa-engineer-jobs-SRCH_IL.0,11_IN107_KO12,22.htm",
+      "name": "Glassdoor Deutschland",
+      "notes": "crawl4ai for listing, detail pages have employer redirect. Glassdoor blocks plain HTTP; Camofox with stealth profile renders listings. Card URLs contain jobListing.htm with jl= parameter.",
       "preferred_methods": [
         "crawl4ai markdown render",
         "Camofox browser session"
       ],
-      "fallback_methods": [
-        "Camofox browser session"
-      ],
+      "primary_method": "crawl4ai",
+      "status": "active",
+      "type": "general job board"
+    },
+    {
+      "adapter": "monster",
       "config": {
         "card_url_pattern": "stellenangebot/.*\\.html",
         "listing_urls": [
@@ -857,9 +837,29 @@
           "https://www.monster.de/jobs/suche?q=Test-Automation&where=Deutschland"
         ]
       },
+      "detail_url_pattern": "https://www.monster.de/jobs/stellenangebot/.*\\.html",
       "direct_card_domains": [
         "monster.de"
-      ]
+      ],
+      "domain": "monster.de",
+      "evidence": {
+        "last_preflight": "2026-10-18T20:13:28.024859+00:00",
+        "last_run_status": "Not used"
+      },
+      "fallback_methods": [
+        "Camofox browser session"
+      ],
+      "id": "monster.de",
+      "listing_url": "https://www.monster.de/jobs/suche?q=QA-Engineer&where=Deutschland",
+      "name": "Monster Deutschland",
+      "notes": "crawl4ai for listing, detail pages are standard HTML. Monster uses standard job cards with direct links to /stellenangebot/ pages.",
+      "preferred_methods": [
+        "crawl4ai markdown render",
+        "Camofox browser session"
+      ],
+      "primary_method": "crawl4ai",
+      "status": "active",
+      "type": "general job board"
     }
   ]
 }

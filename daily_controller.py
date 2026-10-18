@@ -13,6 +13,7 @@ import datetime as dt
 import fcntl
 import hashlib
 import json
+import logging
 import os
 import re
 import shutil
@@ -895,6 +896,7 @@ class Pipeline:
         self.registry = project / "source_registry.json"
         self.master = project / "qa_vacancies_master.md"
         self.workers = min(MAX_WORKERS_LIMIT, max(1, int(os.environ.get("QA_VACANCY_MAX_WORKERS", "10"))))
+        self.logger = logging.getLogger("qa_vacancy")
 
     def run(self) -> dict[str, Any]:
         if not self.self_test:
@@ -1407,11 +1409,19 @@ class Pipeline:
 
     def snapshot_sources(self, root):
         if self.self_test:
-            sources = [{"id": s, "name": s, "domain": "fake", "listing_url": f"file://fixture/{s}", "status": "active"} for s in ("alpha", "beta")]
+            sources = [{"id": s, "name": s, "domain": "fake", "listing_url": f"file://fixture/{s}", "adapter": None, "status": "active"} for s in ("alpha", "beta")]
+            atomic_json(root / "sources.json", {"schema_version": SCHEMA, "sources": sources, "count": len(sources)})
+            return sources
         else:
-            sources = [s for s in read_json(self.registry)["sources"] if s["status"] == "active"]
-        atomic_json(root / "sources.json", {"schema_version": SCHEMA, "sources": sources, "count": len(sources)})
-        return sources
+            all_sources = read_json(self.registry)["sources"]
+            # Skip retired sources - they have proven to not yield publishable vacancies
+            active_sources = [s for s in all_sources if s["status"] == "active" and not s.get("retired_on")]
+            # Log retired sources for transparency
+            retired = [s for s in all_sources if s.get("retired_on")]
+            if retired:
+                self.logger.info(f"Skipping {len(retired)} retired source(s): {[s['id'] for s in retired]}")
+            atomic_json(root / "sources.json", {"schema_version": SCHEMA, "sources": active_sources, "count": len(active_sources)})
+            return active_sources
 
     def durable_job_dir(self, stage_root, job, stage):
         d = stage_root / job["source_id"]; (d / "completed").mkdir(parents=True, exist_ok=True); (d / "raw").mkdir(parents=True, exist_ok=True)
@@ -1693,11 +1703,15 @@ class Pipeline:
             if not decision.get("role_verified") and not existing and not any(term in f"{title} {announcement}".casefold() for term in ("qa", "quality assurance", "test engineer", "tester", "test automation", "software test", "game qa", "localization tester", "test development")):
                 continue
             if existing and not decision:
+                # No LLM decision available (fetch failed, etc.) - use eligibility gate
+                # to make a definitive decision instead of defaulting to Unclear
+                semantic_card = {**card, **{k: decision.get(k, card.get(k, "Unknown")) for k in ("title","company","location","posted","work_mode","category","verification","role_verified","german_entity_verified","germany_remote_explicit")}}
+                gate = eligibility(semantic_card, run_date)
+                if gate["verification"] == "REJECT":
+                    continue  # Reject if gate says so
                 row = {**card, "posted": normalize_posted(card.get("posted")),
                        "work_mode": normalize_work_mode(card.get("work_mode")),
-
-                       "verification": "Unclear", "role_verified": "Unknown"}
-
+                       "verification": gate["verification"], "role_verified": "Unknown"}
                 row.setdefault("category", "Software Test Engineer")
                 row["category"] = normalize_category(row.get("category"))
                 accepted.append(row)
@@ -1719,10 +1733,17 @@ class Pipeline:
             row["posted"] = normalize_posted(row.get("posted"))
             row["work_mode"] = normalize_work_mode(row.get("work_mode"))
             if existing:
-
-                row["verification"] = decision.get("verification") if decision else "Unclear"
-                if not decision or decision.get("role_verified") is not True:
-                    row["verification"] = "Unclear" if not decision else "Current / Partial"
+                if decision:
+                    row["verification"] = decision.get("verification")
+                    if decision.get("role_verified") is not True:
+                        row["verification"] = "Current / Partial"
+                else:
+                    # No LLM decision available (fetch failed, etc.) - use eligibility gate
+                    # to make a definitive decision instead of defaulting to Unclear
+                    gate = eligibility(semantic_card, run_date)
+                    if gate["verification"] == "REJECT":
+                        continue  # Reject if gate says so
+                    row["verification"] = gate["verification"]
 
             else:
                 employer_verified = bool(row.get("german_entity_verified"))
