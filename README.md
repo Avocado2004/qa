@@ -46,15 +46,28 @@
 ## Sources
 | Source | Status | Last checked | Last successful use | Reason |
 |---|---|---|---|---|
-| Arbeitsagentur Jobsuche | Used | 2026-10-20_cycle-1 | 2026-10-20_cycle-1 | cards collected |
-| StepStone | Used | 2026-10-20_cycle-1 | 2026-10-20_cycle-1 | cards collected |
-| XING Jobs | Used | 2026-10-20_cycle-1 | 2026-10-20_cycle-1 | cards collected |
-| Hitmarker | Used | 2026-10-20_cycle-1 | 2026-10-20_cycle-1 | cards collected |
-| Remotive | Not used | 2026-10-20_cycle-1 | — | preflight blocked: all independent access methods failed: 'utf-8' codec can't decode byte 0x88 in position 2: invalid start byte; preflight: fewer than two analyzable direct cards; Camofox HTTP 404 for POST /tabs/480297ef-2de3-4493-8502-9126f003fdbe/navigate: {"error":"Tab not found"} |
-| Arbeitnow Job Board API | Not used | 2026-10-20_cycle-1 | — | preflight blocked: all independent access methods failed: 'utf-8' codec can't decode byte 0xcb in position 0: invalid continuation byte; preflight: fewer than two analyzable direct cards; Camofox preflight: fewer than two analyzable direct cards |
-| GermanTechJobs | Not used | 2026-10-20_cycle-1 | — | preflight blocked: all independent access methods failed: not well-formed (invalid token): line 1, column 0; preflight: fewer than two analyzable direct cards; Camofox returned an empty snapshot |
-| EuroTechJobs Test Analyst / Germany | Used | 2026-10-20_cycle-1 | 2026-10-20_cycle-1 | cards collected |
-| Adzuna Deutschland | Used | 2026-10-20_cycle-1 | 2026-10-20_cycle-1 | cards collected |
-| Glassdoor Deutschland | Not used | 2026-10-20_cycle-1 | — | preflight blocked: all independent access methods failed: preflight: no card carries vacancy body text (a title alone is not a posting) -- 2 opened but all are indexes/teasers (card-1: 'Glassdoor' (3405 chars); card-2: 'Deine Jobsuche beginnt hier' (19029 chars)). About.md requires two analyzable va |
-| Monster Deutschland | Not used | 2026-10-20_cycle-1 | — | preflight blocked: all independent access methods failed: Crawl4AI failed after 3 attempts: rc=1  × https://www.monster.de/...ineer&where=Deutschland  \| Error: Blocked by anti-bot protection: DataDome captcha 
-[COMPLETE] ● https://www.monster.de/jobs/suche?q=QA-Engineer&where=Deutschland             |
+| Indeed Deutschland | Not used | 2026-10-20_cycle-4 | — | preflight blocked: all independent access methods failed: preflight: no card carries vacancy body text (a title alone is not a posting) -- 2 opened but all are indexes/teasers (card-1: 'QA Lead' (0 chars); card-2: 'Senior QA Engineer (All genders)' (0 chars)). About.md requires two analyzable vacanc |
+| Arbeitsagentur Jobsuche | Not used | 2026-10-20_cycle-4 | — | preflight blocked: all independent access methods failed: preflight: fewer than two analyzable direct cards; preflight: fewer than two analyzable direct cards; preflight: fewer than two analyzable direct cards |
+| StepStone | Not used | 2026-10-20_cycle-4 | — | preflight blocked: all independent access methods failed: preflight: fewer than two analyzable direct cards; Crawl4AI failed after 1 attempts: anti-bot detected:  anti-bot protection: Access Denied on short page (HTTP 403, 429809 bytes) 
+[COMPLETE] ● https://www.stepstone.de/stellenangebote/berlin/q |
+| XING Jobs | Not used | 2026-10-20_cycle-4 | — | preflight blocked: all independent access methods failed: Camofox HTTP 500 for GET /tabs/49d68868-d8d4-4dcf-b30f-81c4877b6c77/snapshot: {"error":"Internal server error","retryable":false}; preflight: fewer than two analyzable direct cards; preflight: fewer than two analyzable direct cards |
+| Hitmarker | Used | 2026-10-20_cycle-4 | 2026-10-20_cycle-4 | cards collected |
+| Remotive | Not used | 2026-10-20_cycle-4 | — | preflight blocked: all independent access methods failed: listing unavailable: 0; preflight: fewer than two analyzable direct cards; Camofox HTTP 404 for POST /tabs/9374d8fb-652f-4079-898a-a119dd662ed9/navigate: {"error":"Tab not found"} |
+| Arbeitnow Job Board API | Not used | 2026-10-20_cycle-4 | — | preflight blocked: all independent access methods failed: listing unavailable: 0; preflight: fewer than two analyzable direct cards; Camofox HTTP 404 for POST /tabs/f63b48c4-a6d4-4268-8108-cca6efaf35cf/navigate: {"error":"Tab not found"} |
+| GermanTechJobs | Not used | 2026-10-20_cycle-4 | — | preflight blocked: all independent access methods failed: listing unavailable: 0; Crawl4AI failed after 2 attempts: crawl4ai timed out; Camofox HTTP 500 for POST /tabs: {"error":"Internal server error","retryable":false} |
+| EuroTechJobs Test Analyst / Germany | Not used | 2026-10-20_cycle-4 | — | preflight blocked: all independent access methods failed: preflight: fewer than two analyzable direct cards; preflight: fewer than two analyzable direct cards; Camofox returned an empty snapshot |
+| Adzuna Deutschland | Not used | 2026-10-20_cycle-4 | — | preflight blocked: all independent access methods failed: preflight: fewer than two analyzable direct cards; Crawl4AI failed after 1 attempts: anti-bot detected:           \| Error: Blocked by anti-bot protection: HTTP 403 with HTML content (923 bytes) 
+[COMPLETE] ● https://www.adzuna.de/berlin/qa-en |
+| Glassdoor Deutschland | Not used | 2026-10-20_cycle-4 | — | preflight blocked: all independent access methods failed: preflight: no card carries vacancy body text (a title alone is not a posting) -- 2 opened but all are indexes/teasers (card-1: 'Glassdoor' (3553 chars); card-2: 'Deine Jobsuche beginnt hier' (19049 chars)). About.md requires two analyzable va |
+| Monster Deutschland | Not used | 2026-10-20_cycle-4 | — | preflight blocked: all independent access methods failed: Crawl4AI failed after 1 attempts: anti-bot detected:  × https://www.monster.de/...ineer&where=Deutschland  \| Error: Blocked by anti-bot protection: DataDome captcha 
+[COMPLETE] ● https://www.monster.de/jobs/suche?q=QA-Engineer&where=Deutschla |
+| Berlin Startup Jobs | Not used | 2026-10-20_cycle-4 | — | preflight blocked: all independent access methods failed: Camofox returned an empty snapshot; preflight: fewer than two analyzable direct cards; preflight: fewer than two analyzable direct cards |
+| Germany Startup Jobs | Not used | 2026-10-20_cycle-4 | — | preflight blocked: all independent access methods failed: Camofox preflight: fewer than two analyzable direct cards; preflight: fewer than two analyzable direct cards; preflight: fewer than two analyzable direct cards |
+| JobNinja | Not used | 2026-10-20_cycle-4 | — | preflight blocked: all independent access methods failed: Camofox preflight: fewer than two analyzable direct cards; Crawl4AI failed after 1 attempts: anti-bot detected: t, no_content_elements (139 bytes, 28 chars visible) 
+[COMPLETE] ● https://www.jobninja.de/jobs?search=qa+engineer                 |
+| Jobs.de | Used | 2026-10-20_cycle-4 | 2026-10-20_cycle-4 | cards collected |
+| Kimeta | Not used | 2026-10-20_cycle-4 | — | preflight blocked: all independent access methods failed: Camofox preflight: fewer than two analyzable direct cards; preflight: fewer than two analyzable direct cards; preflight: fewer than two analyzable direct cards |
+| Metro Jobs | Not used | 2026-10-20_cycle-4 | — | preflight blocked: all independent access methods failed: Camofox HTTP 500 for POST /tabs: {"error":"Internal server error","retryable":false}; Crawl4AI failed after 2 attempts: rc=1 ───────────────────────────
+ 781                       # Walk the redirect chain.  Playwright returns only the last
+  |
+| RegioJobs | Not used | 2026-10-20_cycle-4 | — | preflight blocked: all independent access methods failed: Camofox HTTP 502 for POST /tabs: {"error":"SSL certificate error: page.goto: SSL_ERROR_BAD_CERT_DOMAIN","code":"ssl_error","recoverable":false}; Crawl4AI failed after 1 attempts: anti-bot detected: _text, no_content_elements (39 bytes, 0 char |
