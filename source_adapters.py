@@ -876,10 +876,14 @@ class SourceAdapter:
         allowed = {str(d).lstrip(".").casefold() for d in (self.source.get("direct_card_domains") or [])}
         if domain:
             allowed.add(str(domain).lstrip(".").casefold())
+        blocked_redirects = {str(d).lstrip(".").casefold() for d in (self.source.get("blocked_redirect_domains") or [])}
         links=[]
         for m in re.finditer(r'href=["\']([^"\']+)["\']', s, re.I):
             u=normalize_url(m.group(1), page.final_url)
             if not direct_card(u) or u in links:
+                continue
+            # Block redirect domains (e.g., XING redirecting to jobware.de)
+            if blocked_redirects and source_domain_token(u) in blocked_redirects:
                 continue
             # Adzuna's markup embeds CDN assets whose paths look like /jobs/...;
             # a card must live on the source's own host.
@@ -1790,7 +1794,7 @@ REGISTRY_TYPES = {
     "de.indeed.com": "indeed", "glassdoor.de": "glassdoor", "monster.de": "monster",
     "xing.com": "xing", "hitmarker.net": "hitmarker", "stepstone.de": "stepstone",
 }
-CAMOFOX_SOURCES = {"linkedin.com"}
+CAMOFOX_SOURCES = {"linkedin.com", "xing.com"}
 
 # Sources that are AGGREGATORS: their listing reliably names a vacancy
 # (title, employer, city) but their card URL is a tracking redirect whose
@@ -2308,8 +2312,10 @@ def adapter_candidates(source: dict[str, Any]) -> list[str]:
         "crawl4ai": ["crawl4ai", "http", "camofox"],
         "camofox": ["camofox", "crawl4ai", "http"],
         "stepstone": ["http", "crawl4ai", "camofox"],
-        "glassdoor": ["http", "crawl4ai", "camofox"],
-        "monster": ["http", "crawl4ai", "camofox"],
+            "glassdoor": ["http", "crawl4ai", "camofox"],
+            "monster": ["camofox", "crawl4ai", "http"],
+            "xing": ["camofox", "http", "crawl4ai"],
+            "linkedin": ["http", "crawl4ai"],
     }
     if explicit in order:
         return list(order[explicit])
@@ -2347,8 +2353,7 @@ def make_adapter(source, artifact, *, method: str | None = None, **kwargs):
     kind = REGISTRY_TYPES.get(source["id"])
     if kind in {"remotive", "arbeitnow", "rss"}:
         return APIAdapter(source, artifact, **kwargs)
-    if kind in {"xing", "hitmarker"}:
-        return CamofoxAdapter(source, artifact, **kwargs)
     if kind in {"stepstone", "glassdoor", "monster"}:
         return SourceAdapter(source, artifact, **kwargs)
+    # For xing, hitmarker and others: use the method chosen by adapter_candidates
     return SourceAdapter(source, artifact, **kwargs)

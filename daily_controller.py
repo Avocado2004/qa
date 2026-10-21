@@ -39,7 +39,7 @@ BACKOFF_SECONDS = [5, 30, 120]
 STALE_SECONDS = 300
 GRACE_SECONDS = 30
 TERMINAL = {"complete", "failed", "blocked"}
-VERIFICATIONS = {"Current", "Current / Partial", "Rejected", "Unclear"}
+VERIFICATIONS = {"Current", "Current / Partial", "Rejected"}
 CATEGORIES = (
     "Manual WEB QA Engineer", "Software Test Engineer",
     "Gamedev QA Engineer", "Other QA Roles",
@@ -112,7 +112,11 @@ class LeaseError(RuntimeError):
 
 
 def load_env_file() -> None:
-    """Load non-secret environment values from the project .env without logging them."""
+    """Load non-secret environment values from the project .env without logging them.
+    Critical keys (LITELLM_MASTER_KEY, LITELLM_BASE_URL, QA_VACANCY_LLM_MODEL) are always
+    overwritten to ensure they match the .env file, since s6 container_environment may have
+    stale/masked values."""
+    critical_keys = {"LITELLM_MASTER_KEY", "LITELLM_BASE_URL", "QA_VACANCY_LLM_MODEL", "LITELLM_API_KEY"}
     for candidate in (PROJECT_DEFAULT / ".env", Path("/opt/data/.env")):
         try:
             for line in candidate.read_text(encoding="utf-8").splitlines():
@@ -121,7 +125,7 @@ def load_env_file() -> None:
                     continue
                 key, value = line.split("=", 1)
                 key, value = key.strip(), value.strip().strip('"').strip("'")
-                if key and value and key not in os.environ:
+                if key and value and (key not in os.environ or key in critical_keys):
                     os.environ[key] = value
         except FileNotFoundError:
             continue
@@ -369,13 +373,13 @@ def eligibility(row: dict[str, Any], run_date: str) -> dict[str, Any]:
                 if (dt.date.fromisoformat(run_date) - dt.date.fromisoformat(first_seen)).days > 30:
                     return {"verification": "REJECT", "reason": "undated vacancy exceeded 30-day first-seen retention", "first_seen_in_master": first_seen}
             except ValueError:
-                return {"verification": "Unclear", "reason": "invalid first_seen_in_master", "first_seen_in_master": first_seen}
-        return {"verification": "Current / Partial", "reason": "posting date unresolved", "first_seen_in_master": first_seen}
+                return {"verification": "REJECT", "reason": "invalid first_seen_in_master", "first_seen_in_master": first_seen}
+        return {"verification": "REJECT", "reason": "posting date unresolved", "first_seen_in_master": first_seen}
     try:
         d = dt.date.fromisoformat(posted[:10])
         age = (dt.date.fromisoformat(run_date) - d).days
     except ValueError:
-        return {"verification": "Unclear", "reason": "unparseable posting date"}
+        return {"verification": "REJECT", "reason": "unparseable posting date"}
     if age > 30:
         return {"verification": "REJECT", "reason": "posting older than 30 days"}
     # About.md lists the ROLE first: "Role is Manual WEB QA, Software Test/Test
@@ -1068,7 +1072,7 @@ class Pipeline:
             "4. posted: Date posted (look for 'Posted:', 'Published:', 'since', etc.)\n"
             "5. work_mode: One of ['On-site', 'Hybrid', 'Remote'] based on announcement\n"
             "6. verification: 'Current' if all evidence supports a genuine, current opening\n"
-            "7. role_verified: true ONLY for Manual WEB QA, Software Test/Test Automation, Gamedev/Game QA, QA Localization, or semantically equivalent testing roles\n"
+            "7. role_verified: true ONLY for Manual WEB QA, Software Test/Test Automation, Gamedev/Game QA, QA Localization, or semantically equivalent SOFTWARE testing roles\n"
             "8. german_entity_verified: true if German legal entity (GmbH, AG, KG, etc.) or German address clearly indicated\n"
             "9. germany_remote_explicit: true if announcement explicitly states remote work for Germany/Germany-wide/Deutschlandweit\n"
             "10. category: Job category from predefined list\n"
@@ -1077,7 +1081,7 @@ class Pipeline:
             "Return ONLY valid JSON: {results:[{url,title,company,location,posted,work_mode,verification,role_verified,german_entity_verified,germany_remote_explicit,category,reason}]}\n"
             "\n"
             "If uncertain about work_mode, use 'Unknown'. For verification, you MUST decide: 'Current' if evidence supports a genuine QA/testing vacancy in Germany, otherwise 'Rejected'. No 'Unverified' or 'Unclear' for verification.\n"
-            "- role_verified: true only for genuine QA/testing roles, false otherwise\n"
+            "- role_verified: true ONLY for genuine SOFTWARE QA/testing roles (web, mobile, API, automation, gamedev, localization). FALSE for: embedded/hardware testing, electrical/mechanical validation, component verification, HIL, Funkkommunikation, Netzschutztechnik, Versuchsingenieur, test bench, test stand, hardware test, automotive test (unless pure software), RF/microwave test, PCB test, firmware test (unless test automation focus). **ANY title containing 'embedded' (case-insensitive) is automatically FALSE for role_verified.**\n"
             "- german_entity_verified: true if German legal entity or address clearly indicated\n"
             "- germany_remote_explicit: true if remote for Germany explicitly stated\n"
             "- category: Choose from predefined CATEGORIES list\n"
@@ -1087,7 +1091,30 @@ class Pipeline:
             "Analyze this announcement:",
             {"run_date": dt.datetime.now(dt.timezone.utc).date().isoformat(), "candidates": trimmed},
         )
-        return {x.get("url"): x for x in answer.get("results", []) if isinstance(x, dict)}
+        results = {}
+        for x in answer.get("results", []):
+            if not isinstance(x, dict) or not x.get("url"):
+                continue
+            # Normalize boolean fields: None/"Unknown"/"unknown" -> False (LLM sometimes returns null or string "Unknown")
+            for field in ("role_verified", "german_entity_verified", "germany_remote_explicit"):
+                val = x.get(field)
+                if val is None or str(val).strip().casefold() == "unknown":
+                    x[field] = False
+                elif val is not True and val is not False:
+                    # Coerce any other non-bool to False
+                    x[field] = False
+            # Ensure verification is valid
+            if x.get("verification") not in VERIFICATIONS:
+                x["verification"] = "Rejected"
+            # Canonicalize URL key so it matches lookup in synthesize()
+            results[canonical_url(x["url"])] = x
+        # Hard filter: any title containing "embedded" (case-insensitive) -> role_verified = False
+        for url, decision in results.items():
+            title = str(decision.get("title", "")).lower()
+            if "embedded" in title:
+                decision["role_verified"] = False
+                decision["category"] = "Other QA Roles"
+        return results
 
     def recheck_published_rows(self, rows: list[dict[str, str]], run_date: dt.date) -> list[dict[str, str]]:
         """Fetch every published row and ask the semantic stage to re-evaluate it.
@@ -1172,7 +1199,7 @@ class Pipeline:
                 atomic_json(root.parent / "recheck_llm_failure.json", {"error": str(exc), "at": utcnow()})
         out=[]
         for row in prepared:
-            decision=results.get(row["url"])
+            decision=results.get(canonical_url(row["url"]))
             if not decision:
                 # A missing LLM decision means the page could not be re-read, not
                 # that the vacancy is unconfirmed. A row that the published
@@ -1185,7 +1212,12 @@ class Pipeline:
                 prior = str(row.get("verification") or "Unclear")
 
                 if prior in self.CONFIRMED_TOKENS:
-                    out.append({**row, "from_published_master": True,
+                    # Normalize boolean fields for preserved rows
+                    normalized = {**row}
+                    for field in ("role_verified", "german_entity_verified", "germany_remote_explicit"):
+                        if normalized.get(field) is None:
+                            normalized[field] = False
+                    out.append({**normalized, "from_published_master": True,
                                 "recheck_unavailable": True})
                 else:
                     # Use semantic classification with available metadata
@@ -1200,14 +1232,21 @@ class Pipeline:
                     posted_date = row.get("posted")
                     
                     # Analyze role - is it a genuine QA/testing role?
-                    qa_keywords = ["qa", "quality assurance", "test engineer", "test automation", 
-                                   "test manager", "testautomatisierung", "software test", 
-                                   "quality engineer", "qa engineer", "testingenieur",
-                                   "software quality", "test lead", "test architect",
-                                   "test analyst", "validation", "verification",
-                                   "qa tester", "localization tester", "game tester"]
-                    role_pass = any(kw in title for kw in qa_keywords)
-                    
+                    qa_keywords = ["qa", "quality assurance", "test engineer", "test automation",
+                                   "test manager", "testautomatisierung", "software test",
+                                   "quality engineer", "qa engineer", "software quality",
+                                   "test lead", "test architect", "test analyst",
+                                   "qa tester", "localization tester", "game tester",
+                                   "software tester", "test automation engineer"]
+                    # Explicit hardware/embedded exclusion keywords
+                    hw_exclude_keywords = ["embedded", "hardware", "electrical", "mechanical", "hil",
+                                           "funkkommunikation", "netzschutztechnik", "versuchsingenieur",
+                                           "testbench", "teststand", "test bench", "test stand",
+                                           "hardware test", "automotive test", "rf test", "microwave test",
+                                           "pcb test", "firmware test", "component verification",
+                                           "validation engineer", "verification engineer"]
+                    role_pass = any(kw in title for kw in qa_keywords) and not any(kw in title for kw in hw_exclude_keywords)
+
                     # Analyze location - target cities or Germany-wide remote
                     target_cities = ["berlin", "leipzig", "dresden"]
                     location_pass = False
@@ -1281,7 +1320,7 @@ class Pipeline:
                             "category": row.get("category"),
                             "posted": row.get("posted")}
             if decision.get("verification") not in VERIFICATIONS:
-                decision["verification"] = "Unclear"
+                decision["verification"] = "Rejected"
             out.append({**row, **{k: decision.get(k, row.get(k, "Unknown")) for k in ("title","company","location","posted","work_mode","category","verification","role_verified","german_entity_verified","germany_remote_explicit")}})
         return out
 
@@ -1292,72 +1331,248 @@ class Pipeline:
         if not self.self_test and self.master.exists() and not rows: raise RuntimeError("published master is legacy/malformed; refusing publication")
         if not self.self_test:
             run_date = dt.datetime.now(dt.timezone.utc).date()
+            # Load boolean fields from previous cycle's recheck to avoid None values
+            prev_recheck_path = self.project / "cycles" / "latest_recheck.json"
+            if prev_recheck_path.exists():
+                prev_recheck = read_json(prev_recheck_path)
+                prev_by_url = {r["url"]: r for r in prev_recheck.get("rows", [])}
+                for row in rows:
+                    prev = prev_by_url.get(row["url"])
+                    if prev:
+                        for field in ("role_verified", "german_entity_verified", "germany_remote_explicit"):
+                            if row.get(field) is None and prev.get(field) is not None:
+                                row[field] = prev[field]
             rows = self.recheck_published_rows(rows, run_date)
         atomic_json(root / "published_recheck.json", {"schema_version": SCHEMA, "cycle_id": root.name, "checked_at": utcnow(), "rows": rows, "count": len(rows)})
+        # Also persist as latest for next cycle
+        atomic_json(self.project / "cycles" / "latest_recheck.json", {"schema_version": SCHEMA, "cycle_id": root.name, "checked_at": utcnow(), "rows": rows, "count": len(rows)})
         self.save(root, state, stage="SOURCE_DISCOVERY", artifacts={**state.get("artifacts", {}), "recheck": str(root / "published_recheck.json")})
 
     def search_sources(self, queries: list[str]) -> list[dict[str, Any]]:
-        """Retrieve live discovery results through configured SearXNG.
+        """Retrieve live discovery results through multiple search providers.
 
         The LLM is an interpreter, not the retrieval boundary. Every result
         used for source discovery is fetched here and persisted before asking
         the model to classify candidate sources.
         """
+        # Try multiple search providers in order of preference
+        results = self._search_with_brave(queries)
+        if results:
+            return results
+        results = self._search_with_tavily(queries)
+        if results:
+            return results
+        results = self._search_with_serper(queries)
+        if results:
+            return results
+        results = self._search_with_searxng(queries)
+        if results:
+            return results
+        raise RuntimeError("All search providers failed or returned zero results")
+
+    def _search_with_brave(self, queries: list[str]) -> list[dict[str, Any]]:
+        """Search using Brave Search API."""
+        api_key = os.environ.get("BRAVE_API_KEY", "").strip()
+        if not api_key:
+            return []
+        try:
+            import urllib.request
+            import urllib.parse
+            import json
+            results = []
+            seen = set()
+            for query in queries:
+                params = urllib.parse.urlencode({"q": query, "count": 20, "country": "DE", "search_lang": "de"})
+                request = urllib.request.Request(
+                    "https://api.search.brave.com/res/v1/web/search?" + params,
+                    headers={"User-Agent": "QA-Vacancy-Controller/2", "Accept": "application/json", "X-Subscription-Token": api_key},
+                )
+                with urllib.request.urlopen(request, timeout=30) as response:
+                    payload = json.loads(response.read().decode("utf-8"))
+                for item in payload.get("web", {}).get("results", []):
+                    url = str(item.get("url") or "")
+                    if not url.startswith(("http://", "https://")) or url in seen:
+                        continue
+                    seen.add(url)
+                    results.append({
+                        "query": query,
+                        "url": url,
+                        "title": str(item.get("title") or ""),
+                        "snippet": str(item.get("description") or ""),
+                        "engine": "brave",
+                        "published": item.get("age") or item.get("published_date"),
+                    })
+            return results
+        except Exception as e:
+            self.logger.warning(f"Brave search failed: {e}")
+            return []
+
+    def _search_with_tavily(self, queries: list[str]) -> list[dict[str, Any]]:
+        """Search using Tavily API."""
+        api_key = os.environ.get("TAVILY_API_KEY", "").strip()
+        if not api_key:
+            return []
+        try:
+            import urllib.request
+            import urllib.parse
+            import json
+            results = []
+            seen = set()
+            for query in queries:
+                payload = json.dumps({"api_key": api_key, "query": query, "max_results": 20, "search_depth": "basic"}).encode()
+                request = urllib.request.Request(
+                    "https://api.tavily.com/search",
+                    data=payload,
+                    headers={"Content-Type": "application/json"},
+                )
+                with urllib.request.urlopen(request, timeout=30) as response:
+                    data = json.loads(response.read().decode("utf-8"))
+                for item in data.get("results", []):
+                    url = str(item.get("url") or "")
+                    if not url.startswith(("http://", "https://")) or url in seen:
+                        continue
+                    seen.add(url)
+                    results.append({
+                        "query": query,
+                        "url": url,
+                        "title": str(item.get("title") or ""),
+                        "snippet": str(item.get("content") or ""),
+                        "engine": "tavily",
+                        "published": item.get("published_date"),
+                    })
+            return results
+        except Exception as e:
+            self.logger.warning(f"Tavily search failed: {e}")
+            return []
+
+    def _search_with_serper(self, queries: list[str]) -> list[dict[str, Any]]:
+        """Search using Serper API."""
+        api_key = os.environ.get("SERPER_API_KEY", "").strip()
+        if not api_key:
+            return []
+        try:
+            import urllib.request
+            import urllib.parse
+            import json
+            results = []
+            seen = set()
+            for query in queries:
+                payload = json.dumps({"q": query, "gl": "de", "hl": "de", "num": 20}).encode()
+                request = urllib.request.Request(
+                    "https://google.serper.dev/search",
+                    data=payload,
+                    headers={"Content-Type": "application/json", "X-API-KEY": api_key},
+                )
+                with urllib.request.urlopen(request, timeout=30) as response:
+                    data = json.loads(response.read().decode("utf-8"))
+                for item in data.get("organic", []):
+                    url = str(item.get("link") or "")
+                    if not url.startswith(("http://", "https://")) or url in seen:
+                        continue
+                    seen.add(url)
+                    results.append({
+                        "query": query,
+                        "url": url,
+                        "title": str(item.get("title") or ""),
+                        "snippet": str(item.get("snippet") or ""),
+                        "engine": "serper",
+                        "published": item.get("date"),
+                    })
+            return results
+        except Exception as e:
+            self.logger.warning(f"Serper search failed: {e}")
+            return []
+
+    def _search_with_searxng(self, queries: list[str]) -> list[dict[str, Any]]:
+        """Search using SearXNG (fallback)."""
         base = os.environ.get("SEARXNG_URL", "").rstrip("/")
         if not base:
-            raise RuntimeError("SEARXNG_URL is not configured")
-        results: list[dict[str, Any]] = []
-        seen: set[str] = set()
-        for query in queries:
-            params = urllib.parse.urlencode({"q": query, "format": "json", "language": "de-DE"})
-            request = urllib.request.Request(
-                base + "/search?" + params,
-                headers={"User-Agent": "Mozilla/5.0 QA-Vacancy-Controller/2"},
-            )
-            with urllib.request.urlopen(request, timeout=30) as response:
-                payload = json.loads(response.read().decode("utf-8"))
-            for item in payload.get("results", []):
-                url = str(item.get("url") or "")
-                if not url.startswith(("http://", "https://")) or url in seen:
-                    continue
-                seen.add(url)
-                results.append({
-                    "query": query,
-                    "url": url,
-                    "title": str(item.get("title") or ""),
-                    "snippet": str(item.get("content") or item.get("snippet") or ""),
-                    "engine": item.get("engine"),
-                    "published": item.get("publishedDate"),
-                })
-        if not results:
-            raise RuntimeError("live source discovery returned zero results")
-        return results
+            return []
+        try:
+            import urllib.request
+            import urllib.parse
+            import json
+            results = []
+            seen = set()
+            for query in queries:
+                params = urllib.parse.urlencode({"q": query, "format": "json", "language": "de-DE"})
+                request = urllib.request.Request(
+                    base + "/search?" + params,
+                    headers={"User-Agent": "Mozilla/5.0 QA-Vacancy-Controller/2"},
+                )
+                with urllib.request.urlopen(request, timeout=30) as response:
+                    payload = json.loads(response.read().decode("utf-8"))
+                for item in payload.get("results", []):
+                    url = str(item.get("url") or "")
+                    if not url.startswith(("http://", "https://")) or url in seen:
+                        continue
+                    seen.add(url)
+                    results.append({
+                        "query": query,
+                        "url": url,
+                        "title": str(item.get("title") or ""),
+                        "snippet": str(item.get("content") or item.get("snippet") or ""),
+                        "engine": item.get("engine"),
+                        "published": item.get("publishedDate"),
+                    })
+            return results
+        except Exception as e:
+            self.logger.warning(f"SearXNG search failed: {e}")
+            return []
 
     def stage_discovery(self, root, state):
         if self.self_test:
             self.fixture_sources(root)
             result = {"schema_version": SCHEMA, "verdict": "PASS_NO_NEW_SOURCES", "additions": []}
         else:
-            queries = [
-                "site:arbeitsagentur.de QA Engineer Berlin Leipzig Dresden",
-                "site:arbeitsagentur.de Softwaretester Berlin Leipzig Dresden",
-                "site:arbeitsagentur.de Testautomatisierung Berlin Leipzig Dresden",
-                "site:linkedin.com/jobs QA Engineer Berlin Leipzig Dresden",
-                "site:stepstone.de QA Engineer Berlin Leipzig Dresden",
-                "site:stepstone.de Softwaretester Berlin Leipzig Dresden",
-                "site:adzuna.de QA Engineer Berlin Leipzig Dresden",
-                "site:adzuna.de Softwaretester Berlin Leipzig Dresden",
-                "site:arbeitnow.com QA Engineer Berlin Leipzig Dresden",
-                "site:arbeitnow.com Softwaretester Berlin Leipzig Dresden",
-                "site:germantechjobs.de QA Engineer Berlin Leipzig Dresden",
-                "site:germantechjobs.de Softwaretester Berlin Leipzig Dresden",
-                "site:eurotechjobs.com QA Engineer Berlin Leipzig Dresden",
-                "site:eurotechjobs.com Softwaretester Berlin Leipzig Dresden",
-                "site:remotive.com QA Engineer remote Germany",
-                "site:remotive.com Softwaretester remote Germany",
-                "site:hitmarker.net QA remote Germany",
-                "site:hitmarker.net Softwaretester remote Germany",
-            ]
+            # Build queries only from active sources in the registry (not retired)
+            registry = read_json(self.registry)
+            active_domains = {s["domain"] for s in registry.get("sources", []) if s.get("status") == "active" and not s.get("retired_on")}
+            
+            query_map = {
+                "arbeitsagentur.de": [
+                    "site:arbeitsagentur.de QA Engineer Berlin Leipzig Dresden -embedded -hardware -electrical -mechanical -HIL -Funk -Netzschutz -Versuchsingenieur -testbench -teststand",
+                    "site:arbeitsagentur.de Softwaretester Berlin Leipzig Dresden -embedded -hardware -electrical -mechanical -HIL -Funk -Netzschutz -Versuchsingenieur -testbench -teststand",
+                    "site:arbeitsagentur.de Testautomatisierung Berlin Leipzig Dresden -embedded -hardware -electrical -mechanical -HIL -Funk -Netzschutz -Versuchsingenieur -testbench -teststand",
+                ],
+                "linkedin.com": [
+                    "site:linkedin.com/jobs QA Engineer Berlin Leipzig Dresden -embedded -hardware -electrical -mechanical -HIL -Funk -Netzschutz -Versuchsingenieur",
+                ],
+                "stepstone.de": [
+                    "site:stepstone.de QA Engineer Berlin Leipzig Dresden -embedded -hardware -electrical -mechanical -HIL -Funk -Netzschutz -Versuchsingenieur",
+                    "site:stepstone.de Softwaretester Berlin Leipzig Dresden -embedded -hardware -electrical -mechanical -HIL -Funk -Netzschutz -Versuchsingenieur",
+                ],
+                "adzuna.de": [
+                    "site:adzuna.de QA Engineer Berlin Leipzig Dresden -embedded -hardware -electrical -mechanical -HIL -Funk -Netzschutz -Versuchsingenieur",
+                    "site:adzuna.de Softwaretester Berlin Leipzig Dresden -embedded -hardware -electrical -mechanical -HIL -Funk -Netzschutz -Versuchsingenieur",
+                ],
+                "arbeitnow.com": [
+                    "site:arbeitnow.com QA Engineer Berlin Leipzig Dresden -embedded -hardware -electrical -mechanical -HIL -Funk -Netzschutz -Versuchsingenieur",
+                    "site:arbeitnow.com Softwaretester Berlin Leipzig Dresden -embedded -hardware -electrical -mechanical -HIL -Funk -Netzschutz -Versuchsingenieur",
+                ],
+                "germantechjobs.de": [
+                    "site:germantechjobs.de QA Engineer Berlin Leipzig Dresden -embedded -hardware -electrical -mechanical -HIL -Funk -Netzschutz -Versuchsingenieur",
+                    "site:germantechjobs.de Softwaretester Berlin Leipzig Dresden -embedded -hardware -electrical -mechanical -HIL -Funk -Netzschutz -Versuchsingenieur",
+                ],
+                "eurotechjobs.com": [
+                    "site:eurotechjobs.com QA Engineer Berlin Leipzig Dresden -embedded -hardware -electrical -mechanical -HIL -Funk -Netzschutz -Versuchsingenieur",
+                    "site:eurotechjobs.com Softwaretester Berlin Leipzig Dresden -embedded -hardware -electrical -mechanical -HIL -Funk -Netzschutz -Versuchsingenieur",
+                ],
+                "remotive.com": [
+                    "site:remotive.com QA Engineer remote Germany -embedded -hardware -electrical -mechanical -HIL -Funk -Netzschutz -Versuchsingenieur",
+                    "site:remotive.com Softwaretester remote Germany -embedded -hardware -electrical -mechanical -HIL -Funk -Netzschutz -Versuchsingenieur",
+                ],
+                "hitmarker.net": [
+                    "site:hitmarker.net QA remote Germany -embedded -hardware -electrical -mechanical -HIL -Funk -Netzschutz -Versuchsingenieur",
+                    "site:hitmarker.net Softwaretester remote Germany -embedded -hardware -electrical -mechanical -HIL -Funk -Netzschutz -Versuchsingenieur",
+                ],
+            }
+            
+            queries = []
+            for domain, domain_queries in query_map.items():
+                if domain in active_domains:
+                    queries.extend(domain_queries)
+            
             retrieved = self.search_sources(queries)
             atomic_json(root / "source_discovery_retrieval.json", {
                 "schema_version": SCHEMA, "cycle_id": root.name, "queried_at": utcnow(),
@@ -1564,8 +1779,8 @@ class Pipeline:
     def llm(self):
 
         # Primary: litellm with Nemotron 3 Ultra
-        key = os.environ.get("LITELLM_API_KEY") or os.environ.get("OPENROUTER_API_KEY") or os.environ.get("QA_VACANCY_LLM_API_KEY") or os.environ.get("OPENAI_API_KEY")
-        base = os.environ.get("LITELLM_BASE_URL") or os.environ.get("QA_VACANCY_LLM_BASE_URL") or "http://host.docker.internal:4000"
+        key = os.environ.get("LITELLM_MASTER_KEY") or os.environ.get("LITELLM_API_KEY") or os.environ.get("OPENROUTER_API_KEY") or os.environ.get("QA_VACANCY_LLM_API_KEY") or os.environ.get("OPENAI_API_KEY")
+        base = os.environ.get("LITELLM_BASE_URL") or os.environ.get("QA_VACANCY_LLM_BASE_URL") or "http://litellm_final:4000"
         model = os.environ.get("QA_VACANCY_LLM_MODEL", "nemotron-3-ultra")
 
         timeout = int(os.environ.get("QA_VACANCY_LLM_TIMEOUT", "90"))
@@ -1617,7 +1832,7 @@ class Pipeline:
             rechecked = read_json(root / "published_recheck.json")["rows"]
             cards.extend({**r, **({"first_seen_in_master": first_seen[canonical_url(r.get("url"))]} if canonical_url(r.get("url")) in first_seen else {}),
 
-                          "announcement": r.get("announcement", ""), "from_published_master": True, "verification": r.get("verification", "Unclear")} for r in rechecked)
+                          "announcement": r.get("announcement", ""), "from_published_master": True, "verification": r.get("verification", "Rejected")} for r in rechecked)
 
         decisions = {}
         # Rows rechecked above already carry a semantic decision. Re-asking the
@@ -1626,12 +1841,18 @@ class Pipeline:
         decided_from_recheck = {}
         for r in read_json(root / "published_recheck.json")["rows"]:
             if r.get("role_verified") in (True, False):
-                decided_from_recheck[r["url"]] = {k: r.get(k) for k in
+                entry = {k: r.get(k) for k in
                     ("title","company","location","posted","work_mode","category","verification",
                      "role_verified","german_entity_verified","germany_remote_explicit")}
+                # Normalize boolean fields: string "Unknown" -> False
+                for field in ("role_verified", "german_entity_verified", "germany_remote_explicit"):
+                    val = entry.get(field)
+                    if val is not None and str(val).strip().casefold() == "unknown":
+                        entry[field] = False
+                decided_from_recheck[canonical_url(r["url"])] = entry
         if cards:
             try:
-                readable = [x for x in cards if x.get("announcement") and x.get("url") not in decided_from_recheck]
+                readable = [x for x in cards if x.get("announcement") and canonical_url(x.get("url")) not in decided_from_recheck]
                 synth_workers, synth_batch = self._synth_pool_size(len(readable))
                 batch_size = max(1, int(os.environ.get("QA_VACANCY_SYNTH_BATCH", "0")) or synth_batch)
                 batches = [readable[i:i + batch_size] for i in range(0, len(readable), batch_size)]
@@ -1690,7 +1911,12 @@ class Pipeline:
         run_date = dt.datetime.now(dt.timezone.utc).date().isoformat()
         accepted = []
         for card in cards:
-            decision = decisions.get(card.get("url"), {})
+            decision = decisions.get(canonical_url(card.get("url")), {})
+            # Normalize boolean fields from decision: string "Unknown" -> False
+            for field in ("role_verified", "german_entity_verified", "germany_remote_explicit"):
+                val = decision.get(field)
+                if val is not None and str(val).strip().casefold() == "unknown":
+                    decision[field] = False
             title = str(decision.get("title") or card.get("title") or "").strip()
             company = str(decision.get("company") or card.get("company") or "").strip()
             announcement = str(card.get("announcement") or "").strip()
@@ -1718,7 +1944,7 @@ class Pipeline:
                     continue  # Reject if gate says so
                 row = {**card, "posted": normalize_posted(card.get("posted")),
                        "work_mode": normalize_work_mode(card.get("work_mode")),
-                       "verification": gate["verification"], "role_verified": "Unknown"}
+                       "verification": gate["verification"], "role_verified": False}
                 row.setdefault("category", "Software Test Engineer")
                 row["category"] = normalize_category(row.get("category"))
                 accepted.append(row)
@@ -1731,8 +1957,13 @@ class Pipeline:
                 if not eligible_location or (not any(city in semantic_location.casefold() for city in ("berlin", "leipzig", "dresden")) and not explicit_germany_remote):
                     continue
             semantic_card = {**card, **{k: decision.get(k, card.get(k, "Unknown")) for k in ("title","company","location","posted","work_mode","category","verification","role_verified","german_entity_verified","germany_remote_explicit")}}
+            # Normalize boolean fields from decision: string "Unknown" -> False
+            for field in ("role_verified", "german_entity_verified", "germany_remote_explicit"):
+                val = semantic_card.get(field)
+                if val is not None and str(val).strip().casefold() == "unknown":
+                    semantic_card[field] = False
             if existing and not decision:
-                semantic_card["role_verified"] = "Unknown"
+                semantic_card["role_verified"] = False
             gate = eligibility(semantic_card, run_date)
             if gate["verification"] == "REJECT" or str(semantic_card.get("verification") or "") == "Rejected":
                 continue
@@ -1974,9 +2205,6 @@ class Pipeline:
                     else:
                         errors.append(f"Current row lacks eligible location/remote evidence: {row['url']}")
 
-                if not evidence.get("germany_remote_explicit") and not any(city.casefold() in str(evidence.get("location", "")).casefold() for city in ("Berlin", "Leipzig", "Dresden")):
-                    errors.append(f"Current row lacks eligible location/remote evidence: {row['url']}")
-
         if len(evidence_by_url) != len({r.get("url") for r in rows}): errors.append("semantic evidence URL set does not round-trip")
         errors.extend(self._degradation_errors(rows))
         for phase in ("preflight", "workers"):
@@ -2126,8 +2354,6 @@ def launch_detached(project: Path, script: Path, selftest: bool = False) -> None
 
         # Pass environment so child inherits LITELLM_API_KEY, LITELLM_BASE_URL from s6 container_environment
         proc = subprocess.Popen(cmd, cwd=project, stdin=subprocess.DEVNULL, stdout=log, stderr=subprocess.STDOUT, start_new_session=True, close_fds=True, env=os.environ.copy())
-
-        proc = subprocess.Popen(cmd, cwd=project, stdin=subprocess.DEVNULL, stdout=log, stderr=subprocess.STDOUT, start_new_session=True, close_fds=True)
 
         atomic_json(active, {"pid": proc.pid, "started_at": utcnow(), "script": str(script)})
 
