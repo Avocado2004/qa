@@ -1,6 +1,6 @@
 # Archaeology Vacancies in Leipzig Region — 2026-10-23
 
-**Vacancies: 3**
+**Vacancies: 2**
 
 ## Listings
 
@@ -16,12 +16,6 @@
 
 ---
 
-### 3. Eilsleben • Institut für Prähistorische Archäologie • Fachbereich Geschichts- und Kulturwissenschaften
-**URL:** https://www.geschkult.fu-berlin.de/e/praehist/forschungsprojekte/Aktuelle_Forschungsprojekte/Eilsleben/index.html
-**Geo (≤150km):** ✅  **Role match:** ⚠️
-
----
-
-*Cycle: 2026-10-23_cycle-17*
+*Cycle: 2026-10-23_cycle-18*
 *Search performed with 150km radius around Leipzig*
 *Terms: German + English archaeology academic positions*
