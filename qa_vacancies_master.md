@@ -80,3 +80,41 @@
 | JobNinja | Not used | 2026-10-22_cycle-15 | — | preflight blocked: all independent access methods failed: preflight: zero analyzable direct cards - listing may be blocked or changed; Crawl4AI failed after 2 attempts: crawl4ai timed out; Camofox HTTP 500 for POST /tabs: {"error":"Internal server error","retryable":false} |
 | Jobs.de | Used | 2026-10-22_cycle-15 | 2026-10-22_cycle-15 | cards collected |
 | Kimeta | Not used | 2026-10-22_cycle-15 | — | preflight blocked: all independent access methods failed: preflight: zero analyzable direct cards - listing may be blocked or changed; Crawl4AI failed after 2 attempts: crawl4ai timed out; Camofox HTTP 500 for POST /tabs: {"error":"Internal server error","retryable":false} |
+
+# Archaeology Vacancies in Leipzig Region — 2026-10-23
+
+**Vacancies: 4**
+
+## Listings
+
+### 1. Frage – Brauche ich einen Bachelor in Archäologie?
+**URL:** https://www.reddit.com/r/Archaeology/comments/1ulu8x9/question_do_i_need_undergrad_in_archaeology?tl=de
+**Snippet:** Hallo. Ich studiere gerade Klassische Altertumswissenschaften im Bachelor an meiner Uni. Meine Uni bietet keine Archäologie-Studiengänge an, aber
+**Geo (≤150km):** ✅  **Role match:** ✅
+
+---
+
+### 2. Archaeology: Top Bachelor Programs in Germany (2026/27)
+**URL:** https://www.mygermanuniversity.com/subjects/archaeology/bachelor/top-programs
+**Snippet:** Top 10 Archaeology Bachelor programs ; 1. Humboldt-Universität zu Berlin. Klassische Archäologie ; 2. Heidelberg University. Near Asian Archaeology ; 3. University
+**Geo (≤150km):** ✅  **Role match:** ✅
+
+---
+
+### 3. Digital Giza | "Die Ausgrabung des Totentempels der Chephrenpyramide durch die Sieglin-Expedition 1909"
+**URL:** https://giza.fas.harvard.edu/pubdocs/724/full
+**Snippet:** + Remarks Egyptologist and Copticist. Nationality and life dates from Who was Who in Egyptology. (1861-1951) German Egyptologist and Copticist; he was born in Dessau, 12 Nov. 1861, son of Ludwig S. and Helen S.; he was educated at the Universities of Berlin and Gottingen, and was Erman's (q.v.) firs
+**Geo (≤150km):** ✅  **Role match:** ✅
+
+---
+
+### 4. Institute for Prehistoric Archaeology • Department of History ...
+**URL:** https://www.geschkult.fu-berlin.de/en/e/praehist/index.html
+**Snippet:** The focus of the institute at Berlin is on the Neolithic of Central and South-Eastern Europe, the Bronze Age of the Eastern European plain and the Iron Age of ...Read more
+**Geo (≤150km):** ✅  **Role match:** ⚠️
+
+---
+
+*Cycle: 2026-10-23_cycle-23*
+*Search performed with 150km radius around Leipzig*
+*Terms: German + English archaeology academic positions*
