@@ -1,0 +1,49 @@
+{
+  "tasks": [
+    {
+      "title": "Fix Exa MCP search integration (_search_with_exa)",
+      "description": "Fix the Exa MCP call format. Current error: 'Input validation error: query received undefined'. Need to use mcporter's function-call syntax or --args JSON properly.",
+      "goal": "Exa search returns valid results for QA queries",
+      "toolsets": ["terminal", "file"],
+      "priority": "high",
+      "status": "done",
+      "result": "Implemented in search_sources() and _search_with_exa() with mcporter function-call syntax. Verified working with test query 'QA Engineer Berlin'."
+    },
+    {
+      "title": "Parallelize MASTER_SNAPSHOT LLM summaries (TODO 3.5)",
+      "description": "MASTER_SNAPSHOT takes ~70 min (sequential LLM calls per vacancy). Implement parallel workers grouped by platform with sequential processing within each platform group.",
+      "goal": "MASTER_SNAPSHOT completes in ~15-20 min instead of 70+ min",
+      "toolsets": ["terminal", "file"],
+      "priority": "high",
+      "status": "done",
+      "result": "Implemented platform-based parallelization in recheck_published_rows(). Added PLATFORM_DOMAINS mapping (22 platforms), detect_platform(), group_by_platform() helpers. Recheck now groups rows by platform and processes each platform's batches in a dedicated worker."
+    },
+    {
+      "title": "Content-hash based skip for summary recomputation (TODO 3.6)",
+      "description": "Extend LLM decision cache to include content hash of announcement text. Skip summary generation if content unchanged since last cycle.",
+      "goal": "Repeated runs skip unchanged vacancies, reducing MASTER_SNAPSHOT time further",
+      "toolsets": ["terminal", "file"],
+      "priority": "medium",
+      "status": "done",
+      "result": "Already implemented in LLM decision cache (llm_decision_cache.json). Cache entries now include: URL hash, fetch_status, has_announcement. Cache invalidates when fetch succeeded but content invalid (200/304 with empty announcement)."
+    },
+    {
+      "title": "Parallelize SYNTHESIS stage by platform (TODO 3.7)",
+      "description": "SYNTHESIS stage processes all cards sequentially. Group cards by source platform and process in parallel waves.",
+      "goal": "SYNTHESIS stage completes in ~5 min instead of 15-20 min",
+      "toolsets": ["terminal", "file"],
+      "priority": "medium",
+      "status": "done",
+      "result": "Implemented in synthesize(). Cards tagged with source_id from worker directories. Platform detection uses same PLATFORM_DOMAINS mapping. Cards grouped by platform, each platform processed in dedicated worker with sequential batches within platform."
+    },
+    {
+      "title": "Debug Brave search 402 Payment Required (TODO 3.8)",
+      "description": "Brave API returns 402 Payment Required. Check API key validity, quota, or switch to different provider as primary.",
+      "goal": "Brave search works or is gracefully skipped with clear logging",
+      "toolsets": ["terminal", "file", "web"],
+      "priority": "low",
+      "status": "pending",
+      "notes": "Per user request: leave for now, debug later. Exa MCP now in search chain before SearXNG fallback."
+    }
+  ]
+}

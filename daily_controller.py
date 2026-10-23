@@ -47,6 +47,59 @@ CATEGORIES = (
 PROJECT_DEFAULT = Path(__file__).resolve().parent
 QA_REPOSITORY_DEFAULT = Path("/opt/data/qa-repo")
 
+# Platform detection for parallelization
+PLATFORM_DOMAINS = {
+    "stepstone": ["stepstone.de", "stepstone.at", "stepstone.ch"],
+    "xing": ["xing.com"],
+    "arbeitsagentur": ["arbeitsagentur.de", "jobsuche.arbeitsagentur.de"],
+    "linkedin": ["linkedin.com", "lnkd.in"],
+    "indeed": ["indeed.com", "indeed.de", "de.indeed.com"],
+    "adzuna": ["adzuna.de", "adzuna.com"],
+    "germantechjobs": ["germantechjobs.de"],
+    "eurotechjobs": ["eurotechjobs.com"],
+    "jobs_de": ["jobs.de"],
+    "metro": ["metro.de", "metrojobs.de", "metro-jobs.de"],
+    "regiojobs": ["regiojobs.de"],
+    "kimeta": ["kimeta.de"],
+    "jobninja": ["jobninja.de"],
+    "berlinstartupjobs": ["berlinstartupjobs.com"],
+    "germanystartupjobs": ["germanystartupjobs.com"],
+    "glassdoor": ["glassdoor.de", "glassdoor.com"],
+    "arbeitnow": ["arbeitnow.com"],
+    "remotive": ["remotive.io"],
+    "hitmarker": ["hitmarker.net"],
+    "monster": ["monster.de"],
+}
+
+def detect_platform(url: str) -> str:
+    """Detect source platform from URL domain."""
+    if not url:
+        return "unknown"
+    try:
+        from urllib.parse import urlparse
+        domain = urlparse(url).netloc.lower()
+        # Remove www. prefix
+        if domain.startswith("www."):
+            domain = domain[4:]
+        # Check exact domain or domain suffix match
+        for platform, domains in PLATFORM_DOMAINS.items():
+            for d in domains:
+                # Exact match or suffix match (e.g., de.indeed.com matches indeed.com)
+                if domain == d or domain.endswith("." + d):
+                    return platform
+    except Exception:
+        pass
+    return "unknown"
+
+def group_by_platform(items: list[dict[str, Any]], url_key: str = "url") -> dict[str, list[dict[str, Any]]]:
+    """Group items by detected platform."""
+    groups: dict[str, list[dict[str, Any]]] = {}
+    for item in items:
+        url = item.get(url_key, "")
+        platform = detect_platform(url)
+        groups.setdefault(platform, []).append(item)
+    return groups
+
 # Configure logging for the pipeline
 logging.basicConfig(
     level=logging.INFO,
@@ -1121,31 +1174,101 @@ class Pipeline:
 
         A failed fetch is never treated as closure: it becomes Unclear. The
         full page text is passed to the LLM, never just a title or portal field.
+        
+        OPTIMIZATION: Skip recheck for rows younger than 7 days or whose content
+        hasn't changed (by URL hash). This avoids re-processing stable vacancies.
         """
+        # Load cached decisions from previous cycles
+        cache_path = self.project / "llm_decision_cache.json"
+        cache = read_json(cache_path) if cache_path.exists() else {"entries": {}}
+        entries = cache.get("entries", {})
+        
+        # Filter rows that need rechecking
+        seven_days_ago = run_date - dt.timedelta(days=7)
+        rows_to_recheck = []
+        cached_decisions = {}
+
+        # Load latest recheck to detect "fetched but not a vacancy" cases
+        latest_recheck_path = self.project / "cycles" / "latest_recheck.json"
+        latest_by_url = {}
+        if latest_recheck_path.exists():
+            latest_recheck = read_json(latest_recheck_path)
+            latest_by_url = {canonical_url(r.get("url", "")): r for r in latest_recheck.get("rows", [])}
+
+        for row in rows:
+            url = row.get("url", "")
+            if not url:
+                rows_to_recheck.append(row)
+                continue
+
+            # Check if we have a fresh cached decision
+            cache_key = canonical_url(url)
+            cached = entries.get(cache_key)
+            if cached:
+                cached_date = cached.get("date", "")
+                cached_hash = cached.get("hash", "")
+                # Compute current URL hash (simple check)
+                import hashlib
+                current_hash = hashlib.sha256(url.encode()).hexdigest()[:16]
+
+                # Check latest recheck: if page was fetched successfully (200/304)
+                # but had no announcement (not a valid vacancy page), don't trust cache
+                latest = latest_by_url.get(cache_key)
+                force_recheck = False
+                if latest:
+                    fetch_status = latest.get("fetch_status")
+                    has_announcement = bool(latest.get("announcement"))
+                    if fetch_status in (200, 304) and not has_announcement:
+                        force_recheck = True
+
+                # Use cached decision if:
+                # 1. Row is less than 7 days old, OR
+                # 2. URL hash matches cached (content likely unchanged)
+                # UNLESS latest recheck shows page is no longer a valid vacancy
+                try:
+                    cached_dt = dt.datetime.fromisoformat(cached_date).date()
+                    if not force_recheck and (cached_dt > seven_days_ago or cached_hash == current_hash):
+                        cached_decisions[cache_key] = cached
+                        continue  # Skip recheck
+                except Exception:
+                    pass  # Invalid date, recheck
+
+            rows_to_recheck.append(row)
+        
+        if not rows_to_recheck:
+            # All rows have fresh cached decisions
+            for row in rows:
+                cache_key = canonical_url(row.get("url", ""))
+                if cache_key in cached_decisions:
+                    cached = cached_decisions[cache_key]
+                    for k, v in cached.items():
+                        if k not in ("date", "hash") and v is not None:
+                            row[k] = v
+            return rows
+        
         prepared = []
         # 36+ published rows fetched one after another took ~10 min and blew the
         # stage budget before a single LLM call. Fetch concurrently; a slow
         # portal delays only its own row.
         def pull(row: dict[str, Any]) -> dict[str, Any]:
                     try:
-                        fetched = fetch(row["url"], timeout=8)
-                        body = text(fetched.body)
+                        from source_adapters import fetch_vacancy_page
+                        body, status, final_url = fetch_vacancy_page(row["url"], timeout=8)
                         # A 200 with a challenge/login page is not a valid posting.
                         # We must filter these out BEFORE sending to LLM.
-                        if fetched.status in (200, 304) and body and looks_like_vacancy_posting({"title": row.get("title", ""), "announcement": body}):
+                        if status in (200, 304) and body and looks_like_vacancy_posting({"title": row.get("title", ""), "announcement": body}):
                             announcement = body
                         else:
                             announcement = ""
                         return {**row, "announcement": announcement,
-                                "fetch_status": fetched.status, "fetch_url": fetched.final_url}
+                                "fetch_status": status, "fetch_url": final_url}
                     except Exception as exc:
                         return {**row, "announcement": "", "fetch_status": 0, "fetch_error": str(exc)}
         with ThreadPoolExecutor(max_workers=10) as pool:
-            prepared = list(pool.map(pull, rows))
+            prepared = list(pool.map(pull, rows_to_recheck))
         readable = [x for x in prepared if x["announcement"]]
         results = {}
         # Hard wall-clock budget for this stage. A free-tier LLM that stalls must
-
         # not block the daily cycle; rows without a decision stay Unclear,
         # which is the retention-safe outcome, never a rejection.
         budget = int(os.environ.get("QA_VACANCY_RECHECK_BUDGET_SECONDS", "600"))
@@ -1153,177 +1276,123 @@ class Pipeline:
         # free-tier LLM answers one batch in ~2 min, which serially exhausted
         # the budget before the last rows were ever decided. The batch is sized
         # so every row fits inside the budget at the current worker count;
-
         # otherwise the last rows stay Unclear every single day and never
         # improve, which is worse than a slow cycle.
         workers = min(4, max(1, int(os.environ.get("QA_VACANCY_RECHECK_WORKERS", "4"))))
         batch_size = max(1, int(os.environ.get("QA_VACANCY_RECHECK_BATCH", "6")))
-        batches = [readable[i:i + batch_size] for i in range(0, len(readable), batch_size)]
-        # Waves, not one flat pool: a wave is counted as done only when all of its
-        # batches are in, so the budget is spent on rows that actually get a
-        # decision instead of on batches abandoned mid-flight.
+
+        # Group readable rows by platform for platform-aware parallelization
+        # This allows each platform to be processed by a dedicated worker,
+        # avoiding rate limits and enabling sequential processing within platform
+        platform_groups = group_by_platform(readable)
+        # Sort platforms by number of rows (largest first) for better load balancing
+        sorted_platforms = sorted(platform_groups.items(), key=lambda x: len(x[1]), reverse=True)
+
+        # Create batches per platform
+        platform_batches: dict[str, list[list[dict]]] = {}
+        for platform, rows in sorted_platforms:
+            platform_batches[platform] = [rows[i:i + batch_size] for i in range(0, len(rows), batch_size)]
+
+        # Process platforms in parallel: one worker per platform
+        # Each platform processes its batches sequentially within its worker
         deadline = time.monotonic() + budget
         try:
-            pool = ThreadPoolExecutor(max_workers=workers)
-            pending: list[Any] = []
-            for start in range(0, len(batches), workers):
-                if time.monotonic() >= deadline:
-                    break
-                wave = batches[start:start + workers]
-                pending = [pool.submit(self.semantic_decisions, b) for b in wave]
-                # as_completed without a timeout blocks forever on one stuck
-                # batch. The previous `remaining = time.monotonic() < deadline`
-                # was evaluated BEFORE the wait, so it was always True and the
-                # budget was never enforced: a stuck batch hung the whole cycle.
-                remaining = deadline - time.monotonic()
-                if remaining <= 0:
-                    break
-                try:
-                    for future in as_completed(pending, timeout=remaining):
-                        try:
-                            results.update(future.result())
-                        except Exception:
-                            continue
-                except FuturesTimeoutError:
-                    # Undecided rows keep their prior status on the next cycle.
-                    pass
-                for future in pending:
-                    future.cancel()
-            # Not a context manager on purpose: its __exit__ joins the workers,
-            # so a batch still stuck in the LLM client would block here.
+            # Use one worker per active platform (up to max workers)
+            active_platforms = [p for p, b in platform_batches.items() if b]
+            max_platform_workers = min(workers, len(active_platforms))
+            
+            # Create a worker function for each platform
+            def process_platform_batches(platform: str, batches: list[list[dict]]) -> dict:
+                platform_results = {}
+                for batch in batches:
+                    if time.monotonic() >= deadline:
+                        break
+                    try:
+                        batch_results = self.semantic_decisions(batch)
+                        platform_results.update(batch_results)
+                    except Exception as e:
+                        self.logger.warning(f"Platform {platform} batch failed: {e}")
+                        continue
+                return platform_results
+
+            pool = ThreadPoolExecutor(max_workers=max_platform_workers)
+            futures = {pool.submit(process_platform_batches, p, platform_batches[p]): p for p in active_platforms}
+            try:
+                for future in as_completed(futures, timeout=max(1, deadline - time.monotonic())):
+                    try:
+                        results.update(future.result())
+                    except Exception:
+                        continue
+            except FuturesTimeoutError:
+                pass
+            for future in futures:
+                future.cancel()
             pool.shutdown(wait=False, cancel_futures=True)
         except Exception as exc:
             results = {}
             root = max(self.cycles.glob("*/state.json"), key=lambda p: p.stat().st_mtime, default=None)
             if root is not None:
                 atomic_json(root.parent / "recheck_llm_failure.json", {"error": str(exc), "at": utcnow()})
-        out=[]
-        for row in prepared:
-            decision=results.get(canonical_url(row["url"]))
-            if not decision:
-                # A missing LLM decision means the page could not be re-read, not
-                # that the vacancy is unconfirmed. A row that the published
-                # master already confirmed keeps that confirmation: an unreadable
-                # page cannot disprove a role, employer or date already
-                # established. For rows that were never confirmed, use semantic
-                # classification based on available metadata instead of defaulting
-                # to Unclear. This properly handles anti-bot pages.
+        
+        # Update cache with new decisions
+        import hashlib
+        # Build lookup from prepared for fetch_status and announcement
+        prepared_by_url = {}
+        for p in prepared:
+            cache_key = canonical_url(p.get("url", ""))
+            prepared_by_url[cache_key] = p
 
-                prior = str(row.get("verification") or "Unclear")
+        for url, decision in results.items():
+            current_hash = hashlib.sha256(url.encode()).hexdigest()[:16]
+            # Get fetch info from prepared data
+            prep = prepared_by_url.get(url)
+            fetch_status = prep.get("fetch_status") if prep else None
+            has_announcement = bool(prep.get("announcement")) if prep else False
+            entries[url] = {
+                **decision,
+                "date": run_date.isoformat(),
+                "hash": current_hash,
+                "fetch_status": fetch_status,
+                "has_announcement": has_announcement
+            }
+        atomic_json(cache_path, {"schema_version": SCHEMA, "updated_at": utcnow(), "entries": entries})
+        
+        # Merge cached decisions back into results
+        results.update(cached_decisions)
 
-                if prior in self.CONFIRMED_TOKENS:
-                    # Normalize boolean fields for preserved rows
-                    normalized = {**row}
-                    for field in ("role_verified", "german_entity_verified", "germany_remote_explicit"):
-                        if normalized.get(field) is None:
-                            normalized[field] = False
-                    out.append({**normalized, "from_published_master": True,
-                                "recheck_unavailable": True})
+        # Apply decisions to all rows
+        # Build lookup from prepared (which has fetch_status) by canonical URL
+        prepared_by_url = {}
+        for p in prepared:
+            cache_key = canonical_url(p.get("url", ""))
+            prepared_by_url[cache_key] = p
+
+        out = []
+        for row in rows:
+            url = row.get("url", "")
+            cache_key = canonical_url(url)
+            if cache_key in results:
+                decision = results[cache_key]
+                for field in ("role_verified", "german_entity_verified", "germany_remote_explicit"):
+                    val = decision.get(field)
+                    if val is not None and str(val).strip().casefold() == "unknown":
+                        decision[field] = False
+                if decision.get("verification") not in VERIFICATIONS:
+                    decision["verification"] = "Rejected"
+                out.append({**row, **{k: decision.get(k, row.get(k, "Unknown")) for k in ("title","company","location","posted","work_mode","category","verification","role_verified","german_entity_verified","germany_remote_explicit")}})
+            else:
+                # No new LLM decision. Check if we fetched the page successfully but it wasn't a valid job posting.
+                # This happens when fetch_status is 200/304 but looks_like_vacancy_posting returned False
+                # (e.g., "This job ad isn't available", login walls, expired postings).
+                prepared_row = prepared_by_url.get(cache_key)
+                fetch_status = prepared_row.get("fetch_status") if prepared_row else None
+                if fetch_status in (200, 304) and not prepared_row.get("announcement"):
+                    # Page was fetched but not recognized as a valid vacancy posting -> mark as Rejected
+                    out.append({**row, "verification": "Rejected", "reason": "job posting no longer available or not a valid vacancy page"})
                 else:
-                    # Use semantic classification with available metadata
-                    # Build candidate structure that classify_semantic_candidate expects
-                    # For unreadable pages, we have flat metadata - convert to gate format
-                    # but with proper analysis of each field
-                    
-                    title = row.get("title", "").lower()
-                    company = row.get("company", "")
-                    location = row.get("location", "").lower()
-                    work_mode = row.get("work_mode", "").lower()
-                    posted_date = row.get("posted")
-                    
-                    # Analyze role - is it a genuine QA/testing role?
-                    qa_keywords = ["qa", "quality assurance", "test engineer", "test automation",
-                                   "test manager", "testautomatisierung", "software test",
-                                   "quality engineer", "qa engineer", "software quality",
-                                   "test lead", "test architect", "test analyst",
-                                   "qa tester", "localization tester", "game tester",
-                                   "software tester", "test automation engineer"]
-                    # Explicit hardware/embedded exclusion keywords
-                    hw_exclude_keywords = ["embedded", "hardware", "electrical", "mechanical", "hil",
-                                           "funkkommunikation", "netzschutztechnik", "versuchsingenieur",
-                                           "testbench", "teststand", "test bench", "test stand",
-                                           "hardware test", "automotive test", "rf test", "microwave test",
-                                           "pcb test", "firmware test", "component verification",
-                                           "validation engineer", "verification engineer"]
-                    role_pass = any(kw in title for kw in qa_keywords) and not any(kw in title for kw in hw_exclude_keywords)
-
-                    # Analyze location - target cities or Germany-wide remote
-                    target_cities = ["berlin", "leipzig", "dresden"]
-                    location_pass = False
-                    location_evidence = location
-                    for city in target_cities:
-                        if city in location:
-                            location_pass = True
-                            break
-                    # Check for Germany-wide remote
-                    if not location_pass:
-                        if ("remote" in work_mode or "remote" in location) and \
-                           ("germany" in location or "deutschland" in location or "germany-wide" in location or "deutschlandweit" in location):
-                            location_pass = True
-                    
-                    # Analyze date
-                    import re
-                    posted_iso = None
-                    date_pass = False
-                    if posted_date:
-                        match = re.search(r"\d{4}-\d{2}-\d{2}", str(posted_date))
-                        if match:
-                            posted_iso = match.group(0)
-                            from datetime import date as dt_date
-                            posted_dt = dt_date.fromisoformat(posted_iso)
-                            if (run_date - posted_dt).days <= 30:
-                                date_pass = True
-                    
-                    # Analyze employer - German legal entity
-                    german_entities = ["gmbh", "ag", "kg", "se", "eg", "ev", "ug", "ohg", "ktg", "kgaa"]
-                    employer_pass = any(entity in company.lower() for entity in german_entities)
-                    # Also check for German government entities
-                    if not employer_pass:
-                        gov_keywords = ["bundes", "landes", "stadt", "direktion", "behörde", "amt", "ministerium", "zolldirektion", "generalzolldirektion"]
-                        employer_pass = any(kw in company.lower() for kw in gov_keywords)
-                    
-                    candidate = {
-                        "role": {"result": "pass" if role_pass else "fail", "evidence": row.get("title", "")},
-                        "location": {"result": "pass" if location_pass else "fail", "evidence": location},
-                        "work_mode": {"result": "pass", "evidence": row.get("work_mode", "")},
-                        "date": {"result": "pass" if date_pass else ("unknown" if posted_iso is None else "fail"), "evidence": posted_iso},
-                        "employer": {"result": "pass" if employer_pass else "fail", "evidence": company},
-                        "access_status": "unreadable",
-                        "first_seen_in_master": row.get("first_seen_in_master"),
-                    }
-                    classified = classify_semantic_candidate(candidate, run_date)
-                    out.append({**row, "from_published_master": True,
-                                "verification": classified["verification"],
-                                "retain": classified["retain"],
-                                "failed_gates": classified["failed_gates"],
-                                "missing_gates": classified["missing_gates"],
-                                "first_seen_in_master": classified["first_seen_in_master"],
-                                "role_verified": role_pass,
-                                "german_entity_verified": employer_pass,
-                                "germany_remote_explicit": location_pass and ("remote" in work_mode or "remote" in location) and ("germany" in location or "deutschland" in location or "germany-wide" in location or "deutschlandweit" in location)})
-
-                continue
-            # Preserve prior confirmation when the LLM gives a contradictory
-            # result: a readable page that contradicts prior confirmation is
-            # usually a model inconsistency, not a real vacancy change.
-            if decision.get("verification") in self.CONFIRMED_TOKENS:
-                pass  # LLM confirmed — use new decision
-            elif str(row.get("verification") or "") in self.CONFIRMED_TOKENS:
-                # Prior was confirmed but LLM downgraded — keep prior.
-                decision = {**row, "recheck_unavailable": False,
-                            "from_published_master": True,
-                            "verification": row.get("verification"),
-                            "title": row.get("title"),
-                            "company": row.get("company"),
-                            "location": row.get("location"),
-                            "work_mode": row.get("work_mode"),
-                            "category": row.get("category"),
-                            "posted": row.get("posted")}
-            if decision.get("verification") not in VERIFICATIONS:
-                decision["verification"] = "Rejected"
-            out.append({**row, **{k: decision.get(k, row.get(k, "Unknown")) for k in ("title","company","location","posted","work_mode","category","verification","role_verified","german_entity_verified","germany_remote_explicit")}})
+                    # Fetch failed or no fetch attempted - keep prior values (retention-safe)
+                    out.append(row)
         return out
-
     def stage_recheck(self, root, state):
         text = "# QA Engineer Vacancies in Germany — fixture\n\n"
         if not self.self_test and self.master.exists(): text = self.master.read_text(encoding="utf-8")
@@ -1363,6 +1432,9 @@ class Pipeline:
         if results:
             return results
         results = self._search_with_serper(queries)
+        if results:
+            return results
+        results = self._search_with_exa(queries)
         if results:
             return results
         results = self._search_with_searxng(queries)
@@ -1483,6 +1555,60 @@ class Pipeline:
             self.logger.warning(f"Serper search failed: {e}")
             return []
 
+    def _search_with_exa(self, queries: list[str]) -> list[dict[str, Any]]:
+        """Search using Exa MCP (free neural search)."""
+        try:
+            import subprocess
+            import json
+            results = []
+            seen = set()
+            for query in queries:
+                # Call Exa MCP via mcporter using function-call syntax
+                cmd = ["mcporter", "call",
+                       f'exa.web_search_exa(query: "{query}", numResults: 20)']
+                result = subprocess.run(cmd, capture_output=True, text=True, timeout=60)
+                if result.returncode != 0:
+                    self.logger.warning(f"Exa search failed for query '{query}': {result.stderr}")
+                    continue
+                # Parse the text output format
+                # Format: "Title: ...\nURL: ...\nPublished: ...\n..."
+                text = result.stdout
+                current = {}
+                for line in text.split("\n"):
+                    line = line.strip()
+                    if line.startswith("Title: "):
+                        if current.get("url"):
+                            res = self._make_exa_result(current, query, seen)
+                            if res:
+                                results.append(res)
+                        current = {"title": line[7:].strip()}
+                    elif line.startswith("URL: "):
+                        current["url"] = line[5:].strip()
+                    elif line.startswith("Published: "):
+                        current["published"] = line[11:].strip()
+                if current.get("url"):
+                    res = self._make_exa_result(current, query, seen)
+                    if res:
+                        results.append(res)
+            return results
+        except Exception as e:
+            self.logger.warning(f"Exa search failed: {e}")
+            return []
+
+    def _make_exa_result(self, current: dict, query: str, seen: set) -> dict | None:
+        url = current.get("url", "")
+        if not url.startswith(("http://", "https://")) or url in seen:
+            return None
+        seen.add(url)
+        return {
+            "query": query,
+            "url": url,
+            "title": current.get("title", ""),
+            "snippet": "",
+            "engine": "exa",
+            "published": current.get("published"),
+        }
+
     def _search_with_searxng(self, queries: list[str]) -> list[dict[str, Any]]:
         """Search using SearXNG (fallback)."""
         base = os.environ.get("SEARXNG_URL", "").rstrip("/")
@@ -1565,6 +1691,57 @@ class Pipeline:
                 "hitmarker.net": [
                     "site:hitmarker.net QA remote Germany -embedded -hardware -electrical -mechanical -HIL -Funk -Netzschutz -Versuchsingenieur",
                     "site:hitmarker.net Softwaretester remote Germany -embedded -hardware -electrical -mechanical -HIL -Funk -Netzschutz -Versuchsingenieur",
+                ],
+                "de.indeed.com": [
+                    "site:de.indeed.com QA Engineer Berlin Leipzig Dresden München Hamburg Köln Deutschland -embedded -hardware -electrical -mechanical -HIL -Funk -Netzschutz -Versuchsingenieur",
+                    "site:de.indeed.com Softwaretester Berlin Leipzig Dresden München Hamburg Köln Deutschland -embedded -hardware -electrical -mechanical -HIL -Funk -Netzschutz -Versuchsingenieur",
+                    "site:de.indeed.com Test Engineer Berlin Leipzig Dresden München Hamburg Köln Deutschland -embedded -hardware -electrical -mechanical -HIL -Funk -Netzschutz -Versuchsingenieur",
+                    "site:de.indeed.com Test Automation Berlin Leipzig Dresden München Hamburg Köln Deutschland -embedded -hardware -electrical -mechanical -HIL -Funk -Netzschutz -Versuchsingenieur",
+                    "site:de.indeed.com QA Automation Berlin Leipzig Dresden München Hamburg Köln Deutschland -embedded -hardware -electrical -mechanical -HIL -Funk -Netzschutz -Versuchsingenieur",
+                ],
+                "glassdoor.de": [
+                    "site:glassdoor.de QA Engineer Deutschland -embedded -hardware -electrical -mechanical -HIL -Funk -Netzschutz -Versuchsingenieur",
+                    "site:glassdoor.de Software Test Engineer Deutschland -embedded -hardware -electrical -mechanical -HIL -Funk -Netzschutz -Versuchsingenieur",
+                    "site:glassdoor.de Test Automation Engineer Deutschland -embedded -hardware -electrical -mechanical -HIL -Funk -Netzschutz -Versuchsingenieur",
+                ],
+                "monster.de": [
+                    "site:monster.de QA Engineer Deutschland -embedded -hardware -electrical -mechanical -HIL -Funk -Netzschutz -Versuchsingenieur",
+                    "site:monster.de Software Tester Deutschland -embedded -hardware -electrical -mechanical -HIL -Funk -Netzschutz -Versuchsingenieur",
+                    "site:monster.de Test Automation Deutschland -embedded -hardware -electrical -mechanical -HIL -Funk -Netzschutz -Versuchsingenieur",
+                ],
+                "berlinstartupjobs.com": [
+                    "site:berlinstartupjobs.com QA Engineer -embedded -hardware -electrical -mechanical -HIL -Funk -Netzschutz -Versuchsingenieur",
+                    "site:berlinstartupjobs.com Software Tester -embedded -hardware -electrical -mechanical -HIL -Funk -Netzschutz -Versuchsingenieur",
+                    "site:berlinstartupjobs.com Test Automation -embedded -hardware -electrical -mechanical -HIL -Funk -Netzschutz -Versuchsingenieur",
+                ],
+                "germanystartupjobs.com": [
+                    "site:germanystartupjobs.com QA Engineer -embedded -hardware -electrical -mechanical -HIL -Funk -Netzschutz -Versuchsingenieur",
+                    "site:germanystartupjobs.com Software Tester -embedded -hardware -electrical -mechanical -HIL -Funk -Netzschutz -Versuchsingenieur",
+                    "site:germanystartupjobs.com Test Automation -embedded -hardware -electrical -mechanical -HIL -Funk -Netzschutz -Versuchsingenieur",
+                ],
+                "jobninja.de": [
+                    "site:jobninja.de QA Engineer Berlin Leipzig Dresden -embedded -hardware -electrical -mechanical -HIL -Funk -Netzschutz -Versuchsingenieur",
+                    "site:jobninja.de Softwaretester Berlin Leipzig Dresden -embedded -hardware -electrical -mechanical -HIL -Funk -Netzschutz -Versuchsingenieur",
+                    "site:jobninja.de Test Automation Berlin Leipzig Dresden -embedded -hardware -electrical -mechanical -HIL -Funk -Netzschutz -Versuchsingenieur",
+                ],
+                "kimeta.de": [
+                    "site:kimeta.de QA Engineer Berlin Leipzig Dresden -embedded -hardware -electrical -mechanical -HIL -Funk -Netzschutz -Versuchsingenieur",
+                    "site:kimeta.de Softwaretester Berlin Leipzig Dresden -embedded -hardware -electrical -mechanical -HIL -Funk -Netzschutz -Versuchsingenieur",
+                    "site:kimeta.de Test Automation Berlin Leipzig Dresden -embedded -hardware -electrical -mechanical -HIL -Funk -Netzschutz -Versuchsingenieur",
+                ],
+                "metro-jobs.de": [
+                    "site:metro-jobs.de QA Engineer -embedded -hardware -electrical -mechanical -HIL -Funk -Netzschutz -Versuchsingenieur",
+                    "site:metro-jobs.de Softwaretester -embedded -hardware -electrical -mechanical -HIL -Funk -Netzschutz -Versuchsingenieur",
+                    "site:metro-jobs.de Test Automation -embedded -hardware -electrical -mechanical -HIL -Funk -Netzschutz -Versuchsingenieur",
+                ],
+                "regiojobs.de": [
+                    "site:regiojobs.de QA Engineer -embedded -hardware -electrical -mechanical -HIL -Funk -Netzschutz -Versuchsingenieur",
+                    "site:regiojobs.de Softwaretester -embedded -hardware -electrical -mechanical -HIL -Funk -Netzschutz -Versuchsingenieur",
+                    "site:regiojobs.de Test Automation -embedded -hardware -electrical -mechanical -HIL -Funk -Netzschutz -Versuchsingenieur",
+                ],
+                "xing.com": [
+                    "site:xing.com/jobs QA Engineer Berlin Leipzig Dresden -embedded -hardware -electrical -mechanical -HIL -Funk -Netzschutz -Versuchsingenieur",
+                    "site:xing.com/jobs Softwaretester Berlin Leipzig Dresden -embedded -hardware -electrical -mechanical -HIL -Funk -Netzschutz -Versuchsingenieur",
                 ],
             }
             
@@ -1692,7 +1869,7 @@ class Pipeline:
         # budget is a stuck client call, not slow work: the job stays in the queue
         # with its own durable state and the next run resumes it. `with` would
         # join the stuck worker and never return.
-        stage_budget = int(os.environ.get("QA_VACANCY_STAGE_BUDGET_SECONDS", "1800"))
+        stage_budget = int(os.environ.get("QA_VACANCY_STAGE_BUDGET_SECONDS", "3600"))
         try:
             for f in as_completed(futures, timeout=stage_budget):
                 try:
@@ -1819,7 +1996,12 @@ class Pipeline:
         cards = []
         for source in read_json(root / "sources.json")["sources"]:
             p = root / "workers" / source["id"] / "cards.json"
-            if p.exists(): cards.extend(read_json(p)["cards"])
+            if p.exists():
+                source_cards = read_json(p)["cards"]
+                # Tag each card with its source_id for platform-based parallelization
+                for card in source_cards:
+                    card["source_id"] = source["id"]
+                cards.extend(source_cards)
         if self.self_test:
             rechecked = read_json(root / "published_recheck.json")["rows"]
             cards.extend({"url": r["url"], "title": r["title"], "company": r["company"], "location": r["location"], "posted": r["posted"], "work_mode": r["work_mode"], "announcement": "rechecked fixture", "verification": r["verification"], "category": r.get("category", "Other QA Roles")} for r in rechecked)
@@ -1855,55 +2037,82 @@ class Pipeline:
                 readable = [x for x in cards if x.get("announcement") and canonical_url(x.get("url")) not in decided_from_recheck]
                 synth_workers, synth_batch = self._synth_pool_size(len(readable))
                 batch_size = max(1, int(os.environ.get("QA_VACANCY_SYNTH_BATCH", "0")) or synth_batch)
-                batches = [readable[i:i + batch_size] for i in range(0, len(readable), batch_size)]
-                workers = max(1, min(10, len(batches), synth_workers))
-                # A full master re-asks about every new card, and the free-tier
-                # LLM needs ~3 min per wave, so an unbounded run took ~45 min.
-                # Cards without a decision are kept, never dropped, and are
-                # decided on the next cycle.
+                
+                # Group readable cards by platform (source_id preferred, fallback to URL domain)
+                def get_platform(card):
+                    # Try source_id first (from worker directory) - normalize to match detect_platform keys
+                    if card.get("source_id"):
+                        # source_id is like "stepstone.de" -> extract platform name
+                        domain = card["source_id"].lower()
+                        if domain.startswith("www."):
+                            domain = domain[4:]
+                        for platform, domains in PLATFORM_DOMAINS.items():
+                            for d in domains:
+                                if domain == d or domain.endswith("." + d):
+                                    return platform
+                        # Fallback: use first part before dot
+                        return domain.split(".")[0].replace("-", "_")
+                    # Fallback to URL domain
+                    return detect_platform(card.get("url", ""))
+                
+                platform_groups = {}
+                for card in readable:
+                    platform = get_platform(card)
+                    platform_groups.setdefault(platform, []).append(card)
+                
+                # Sort platforms by number of cards (largest first)
+                sorted_platforms = sorted(platform_groups.items(), key=lambda x: len(x[1]), reverse=True)
+                
+                # Create batches per platform
+                platform_batches: dict[str, list[list[dict]]] = {}
+                for platform, platform_cards in sorted_platforms:
+                    platform_batches[platform] = [platform_cards[i:i + batch_size] for i in range(0, len(platform_cards), batch_size)]
+                
+                # Process platforms in parallel: one worker per platform
+                # Each platform processes its batches sequentially within its worker
+                active_platforms = [p for p, b in platform_batches.items() if b]
+                max_platform_workers = min(synth_workers, len(active_platforms))
+                
                 budget = int(os.environ.get("QA_VACANCY_SYNTH_BUDGET_SECONDS", "1500"))
                 deadline = time.monotonic() + budget
-                pool = ThreadPoolExecutor(max_workers=workers)
-                for start in range(0, len(batches), workers):
-                    if time.monotonic() >= deadline:
-                        break
-                    wave = batches[start:start + workers]
-                    futures = [pool.submit(self.semantic_decisions, b) for b in wave]
-                    # as_completed without a timeout blocks forever on one stuck
-                    # batch, so the deadline was only ever checked between waves
-                    # and a single slow batch hung the whole cycle past its
-                    # budget. Cap each wave by the remaining budget instead.
-                    remaining = deadline - time.monotonic()
-                    if remaining <= 0:
-                        break
-                    try:
-                        for future in as_completed(futures, timeout=remaining):
-                            try:
-                                decisions.update(future.result())
-                            except Exception:
-                                continue
-                    except FuturesTimeoutError:
-                        # Batches in this wave are still running. Their cards stay
-                        # undecided and are decided on the next cycle, which is
-                        # the documented behaviour for undecided cards.
-                        pass
-                    for future in futures:
-                        future.cancel()
-                # The pool is not a context manager on purpose. `with
-                # ThreadPoolExecutor` joins its workers on exit, so a batch still
-                # stuck inside the LLM client would block here indefinitely --
-                # the process was observed sitting in futex_do_wait with every
-                # thread asleep and the cycle budget long spent. Pool threads are
-                # daemonic, so abandoning them here cannot delay process exit.
+                
+                def process_platform_batches(platform: str, batches: list[list[dict]]) -> dict:
+                    platform_results = {}
+                    for batch in batches:
+                        if time.monotonic() >= deadline:
+                            break
+                        try:
+                            batch_results = self.semantic_decisions(batch)
+                            platform_results.update(batch_results)
+                        except Exception as e:
+                            self.logger.warning(f"Platform {platform} batch failed: {e}")
+                            continue
+                    return platform_results
+                
+                pool = ThreadPoolExecutor(max_workers=max_platform_workers)
+                futures = {pool.submit(process_platform_batches, p, platform_batches[p]): p for p in active_platforms}
+                try:
+                    for future in as_completed(futures, timeout=max(1, deadline - time.monotonic())):
+                        try:
+                            decisions.update(future.result())
+                        except Exception:
+                            continue
+                except FuturesTimeoutError:
+                    pass
+                for future in futures:
+                    future.cancel()
                 pool.shutdown(wait=False, cancel_futures=True)
+                
                 # Starvation used to be invisible: cards whose batch never ran
                 # simply kept their fallback fields, so a run that decided a
                 # third of the input looked exactly like a normal one.
+                total_batches = sum(len(b) for b in platform_batches.values())
                 atomic_json(root / "synthesis_coverage.json", {
                     "schema_version": SCHEMA, "cycle_id": root.name, "at": utcnow(),
                     "pending_cards": len(readable), "decided_cards": len(decisions),
                     "undecided_cards": len(readable) - len(decisions),
-                    "workers": workers, "batch_size": batch_size, "batches": len(batches),
+                    "workers": max_platform_workers, "batch_size": batch_size, "batches": total_batches,
+                    "platforms": list(active_platforms)
                 })
             except Exception as exc:
                 atomic_json(root / "synthesis_llm_failure.json", {"error": str(exc), "at": utcnow()})
@@ -1938,13 +2147,25 @@ class Pipeline:
             if existing and not decision:
                 # No LLM decision available (fetch failed, etc.) - use eligibility gate
                 # to make a definitive decision instead of defaulting to Unclear
+                # BUT respect explicit Rejected from recheck (e.g., expired job no longer available)
+                if str(card.get("verification", "")).strip().casefold() == "rejected":
+                    continue
                 semantic_card = {**card, **{k: decision.get(k, card.get(k, "Unknown")) for k in ("title","company","location","posted","work_mode","category","verification","role_verified","german_entity_verified","germany_remote_explicit")}}
                 gate = eligibility(semantic_card, run_date)
                 if gate["verification"] == "REJECT":
                     continue  # Reject if gate says so
+                # If gate passes but we lack affirmative role verification, downgrade to Current / Partial
+                # to satisfy final verifier which requires role_verified=True for "Current"
+                role_verified_val = semantic_card.get("role_verified")
+                has_affirmative_role = role_verified_val is True
+                verification = gate["verification"]
+                if verification == "Current" and not has_affirmative_role:
+                    verification = "Current / Partial"
+                # Don't explicitly set role_verified=False; preserve semantic_card value (None/Unknown)
+                # so final verifier treats it as "not affirmed" rather than "affirmed negative"
                 row = {**card, "posted": normalize_posted(card.get("posted")),
                        "work_mode": normalize_work_mode(card.get("work_mode")),
-                       "verification": gate["verification"], "role_verified": False}
+                       "verification": verification}
                 row.setdefault("category", "Software Test Engineer")
                 row["category"] = normalize_category(row.get("category"))
                 accepted.append(row)

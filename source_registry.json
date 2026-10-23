@@ -130,7 +130,11 @@
   "schema_version": 2,
   "sources": [
     {
-      "adapter": "camofox",
+      "adapter": "indeed",
+      "adapter_candidates": [
+        "crawl4ai",
+        "indeed"
+      ],
       "adapter_version": 1,
       "config": {
         "card_url_pattern": "/rc/clk\\?jk=[0-9a-f]+",
@@ -183,7 +187,28 @@
           "https://de.indeed.com/jobs?q=Testmanager&l=M%C3%BCnchen",
           "https://de.indeed.com/jobs?q=Testmanager&l=Hamburg",
           "https://de.indeed.com/jobs?q=Testmanager&l=K%C3%B6ln",
-          "https://de.indeed.com/jobs?q=Testmanager&l=Deutschland"
+          "https://de.indeed.com/jobs?q=Testmanager&l=Deutschland",
+          "https://de.indeed.com/jobs?q=QA+Lead&l=Berlin",
+          "https://de.indeed.com/jobs?q=QA+Lead&l=Leipzig",
+          "https://de.indeed.com/jobs?q=QA+Lead&l=Dresden",
+          "https://de.indeed.com/jobs?q=QA+Lead&l=M%C3%BCnchen",
+          "https://de.indeed.com/jobs?q=QA+Lead&l=Hamburg",
+          "https://de.indeed.com/jobs?q=QA+Lead&l=K%C3%B6ln",
+          "https://de.indeed.com/jobs?q=QA+Lead&l=Deutschland",
+          "https://de.indeed.com/jobs?q=QA+Manager&l=Berlin",
+          "https://de.indeed.com/jobs?q=QA+Manager&l=Leipzig",
+          "https://de.indeed.com/jobs?q=QA+Manager&l=Dresden",
+          "https://de.indeed.com/jobs?q=QA+Manager&l=M%C3%BCnchen",
+          "https://de.indeed.com/jobs?q=QA+Manager&l=Hamburg",
+          "https://de.indeed.com/jobs?q=QA+Manager&l=K%C3%B6ln",
+          "https://de.indeed.com/jobs?q=QA+Manager&l=Deutschland",
+          "https://de.indeed.com/jobs?q=SDET&l=Berlin",
+          "https://de.indeed.com/jobs?q=SDET&l=Leipzig",
+          "https://de.indeed.com/jobs?q=SDET&l=Dresden",
+          "https://de.indeed.com/jobs?q=SDET&l=M%C3%BCnchen",
+          "https://de.indeed.com/jobs?q=SDET&l=Hamburg",
+          "https://de.indeed.com/jobs?q=SDET&l=K%C3%B6ln",
+          "https://de.indeed.com/jobs?q=SDET&l=Deutschland"
         ],
         "locations": [
           "Berlin",
@@ -202,7 +227,10 @@
           "Test+Automation",
           "QA+Automation",
           "QA+Analyst",
-          "Testmanager"
+          "Testmanager",
+          "QA+Lead",
+          "QA+Manager",
+          "SDET"
         ]
       },
       "detail_url_pattern": "https://de.indeed.com/rc/clk?jk=<jobkey> -- Indeed hides card URLs behind this redirect and 403s every plain HTTP request (verified 2026-09-29: HTTP 403 on /jobs, 28 KB block page). crawl4ai renders BOTH the listing and the detail page; the Camofox accessibility snapshot of the listing contains NO card links at all (verified: 0 occurrences of /rc/clk in a 36 KB snapshot), so crawl4ai is the only route that can see them. Details resolve to the employer's own board, e.g. jk=d4c948bc460ec1d8 -> job.deloitte.com/.../48452.",
@@ -213,7 +241,7 @@
       "evidence": {
         "coverage_note": "Term x city matrix: 7 search terms x 7 locations = 49 listing pages, 300 distinct cards / 130 QA (measured 2026-09-29). Indeed has NO pagination (`start=10` returns nothing) and its `remotejoboffer=1` filter is a no-op on this route (58 of 59 cards identical to the unfiltered sweep), so the widenable axes are the term and the location, both of which return near-disjoint card sets. Runtime is not a constraint: the cron runs at night.",
         "first_seen": "2026-09-29",
-        "last_preflight": "2026-10-18T19:41:32.789837+00:00",
+        "last_preflight": "2026-10-23T00:30:15.445329+00:00",
         "last_run_status": "Not used",
         "last_success": null,
         "last_verified": "2026-09-29",
@@ -222,7 +250,9 @@
         "url": "https://de.indeed.com/jobs?q=QA+Engineer&l=Berlin"
       },
       "fallback_methods": [
-        "Camofox browser session"
+        "Camofox browser session",
+        "plain HTTP with web_extract",
+        "crawl4ai markdown render"
       ],
       "id": "de.indeed.com",
       "last_access_status": "verified-live-via-camofox",
@@ -233,13 +263,16 @@
         "Camofox browser session"
       ],
       "primary_method": "crawl4ai",
-      "retired_on": "2026-09-30",
-      "retired_reason": "no published row in 7 masters (276 vacancy rows, 0 Indeed); candidates only, body never served: measured 2026-09-30 730 /rc/clk hops = 194 min, 684 refused by Cloudflare, ~7 of 45 responses were real postings",
       "status": "active",
       "type": "Job aggregator"
     },
     {
       "adapter": "linkedin_v1",
+      "adapter_candidates": [
+        "camofox",
+        "http",
+        "crawl4ai"
+      ],
       "adapter_version": 1,
       "config": {},
       "detail_url_pattern": "site:linkedin.com/jobs/view QA Test Berlin Leipzig Dresden Germany Remote",
@@ -249,7 +282,7 @@
       "domain": "linkedin.com",
       "evidence": {
         "first_seen": "2026-09-24",
-        "last_preflight": "2026-10-18T20:49:44.337293+00:00",
+        "last_preflight": "2026-10-23T00:30:15.445367+00:00",
         "last_run_status": "Not used",
         "last_success": null,
         "last_verified": "2026-09-24",
@@ -286,13 +319,16 @@
         "web extraction"
       ],
       "primary_method": "camofox",
-      "retired_on": "2026-10-18",
-      "retired_reason": "guest API returns login wall instead of vacancy content; no working access method without authenticated session",
-      "status": "retired",
+      "status": "active",
       "type": "general job board"
     },
     {
       "adapter": "rolesearch",
+      "adapter_candidates": [
+        "crawl4ai",
+        "rolesearch",
+        "http"
+      ],
       "adapter_note": "searches every About.md role in each target city instead of one fixed listing URL; measured 2026-09-30 243 unique cards, 0 blocked, ~90s",
       "adapter_version": 1,
       "config": {
@@ -309,14 +345,16 @@
       "domain": "arbeitsagentur.de",
       "evidence": {
         "first_seen": "2026-09-24",
-        "last_preflight": "2026-10-14T03:13:53.570916+00:00",
+        "last_preflight": "2026-10-20T22:39:32.053591+00:00",
         "last_run_status": "Not used",
         "last_success": null,
         "last_verified": "2026-09-24",
         "url": "https://www.arbeitsagentur.de/jobsuche/"
       },
       "fallback_methods": [
-        "Camofox browser session"
+        "Camofox browser session",
+        "plain HTTP with web_extract",
+        "crawl4ai markdown render"
       ],
       "id": "arbeitsagentur.de",
       "legacy": {
@@ -348,31 +386,41 @@
       "type": "government job board"
     },
     {
-      "adapter": "stepstone_v1",
+      "adapter": "http",
+      "adapter_candidates": [
+        "http",
+        "crawl4ai",
+        "camofox"
+      ],
       "adapter_version": 1,
       "config": {
+        "card_url_pattern": "/stellenangebote--",
         "listing_urls": [
-          "https://www.stepstone.de/stellenangebote/berlin/qa-engineer",
-          "https://www.stepstone.de/stellenangebote/leipzig/qa-engineer",
-          "https://www.stepstone.de/stellenangebote/dresden/qa-engineer",
-          "https://www.stepstone.de/stellenangebote/deutschland/qa-engineer"
+          "https://www.stepstone.de/jobs/qa-engineer/in-berlin",
+          "https://www.stepstone.de/jobs/qa-engineer/in-leipzig",
+          "https://www.stepstone.de/jobs/qa-engineer/in-dresden",
+          "https://www.stepstone.de/jobs/software-qa-engineer/in-berlin",
+          "https://www.stepstone.de/jobs/software-qa-engineer/in-leipzig",
+          "https://www.stepstone.de/jobs/software-qa-engineer/in-dresden",
+          "https://www.stepstone.de/jobs/software-tester/in-berlin",
+          "https://www.stepstone.de/jobs/softwaretester/in-berlin",
+          "https://www.stepstone.de/jobs/softwaretester/in-leipzig",
+          "https://www.stepstone.de/jobs/it-software-tester/in-dresden",
+          "https://www.stepstone.de/jobs/software-test-engineer/in-leipzig"
         ]
       },
-      "detail_url_pattern": "https://www.stepstone.de/jobs?where=<encoded location>&what=<encoded role query>; browser/Camofox sequential listing and direct detail verification",
+      "detail_url_pattern": "https://www.stepstone.de/stellenangebote--",
       "direct_card_domains": [
         "stepstone.de"
       ],
       "domain": "stepstone.de",
       "evidence": {
-        "first_seen": "2026-09-24",
-        "last_preflight": "2026-10-18T14:10:24.074541+00:00",
-        "last_run_status": "Not used",
-        "last_success": null,
-        "last_verified": "2026-09-24",
-        "url": "https://www.stepstone.de/jobs/qa-test/in-berlin.html"
+        "last_preflight": "2026-10-22T22:45:14.530417+00:00",
+        "last_run_status": "Not used"
       },
       "fallback_methods": [
         "Camofox browser session",
+        "plain HTTP with web_extract",
         "crawl4ai markdown render"
       ],
       "id": "stepstone.de",
@@ -393,10 +441,11 @@
         "status": "active",
         "type": "general job board"
       },
-      "listing_url": "https://www.stepstone.de/jobs/berlin?q=QA",
+      "listing_url": "https://www.stepstone.de/jobs/qa-engineer/in-berlin",
       "name": "StepStone",
+      "notes": "Camofox for listing and detail. Direct card pattern /stellenangebote--.",
       "preferred_methods": [
-        "HTML listing over plain HTTP; detail pages re-rendered with crawl4ai when the origin cuts the HTTP/2 stream"
+        "Camofox browser session"
       ],
       "primary_method": "http",
       "query_or_url_pattern": "https://www.stepstone.de/jobs/<city>?q=QA — listing is server-rendered HTML; direct cards match /stellenangebote--",
@@ -404,12 +453,18 @@
       "type": "general job board"
     },
     {
-      "adapter": "xing_v1",
-      "adapter_version": 1,
-      "blocked_redirect_domains": [
-        "jobware.de"
+      "adapter": "xing",
+      "adapter_candidates": [
+        "camofox",
+        "http",
+        "crawl4ai"
       ],
-      "config": {},
+      "adapter_version": 1,
+      "config": {
+        "blocked_redirect_domains": [
+          "jobware.de"
+        ]
+      },
       "detail_url_pattern": "QA Software Test Engineer Germany last month",
       "direct_card_domains": [
         "xing.com"
@@ -417,7 +472,7 @@
       "domain": "xing.com",
       "evidence": {
         "first_seen": "2026-09-24",
-        "last_preflight": "2026-10-18T19:46:26.014041+00:00",
+        "last_preflight": "2026-10-20T22:39:32.053616+00:00",
         "last_run_status": "Not used",
         "last_success": null,
         "last_verified": "2026-09-24",
@@ -446,7 +501,7 @@
         "status": "active",
         "type": "professional network job board"
       },
-      "listing_url": "https://www.xing.com/jobs/search",
+      "listing_url": "https://www.xing.com/jobs/search?keywords=QA+Engineer&location=Berlin",
       "name": "XING Jobs",
       "preferred_methods": [
         "browser",
@@ -458,21 +513,34 @@
       "type": "professional network job board"
     },
     {
-      "adapter": "hitmarker_v1",
+      "adapter": "http",
+      "adapter_candidates": [
+        "http",
+        "crawl4ai",
+        "camofox"
+      ],
       "adapter_version": 1,
-      "config": {},
-      "detail_url_pattern": "QA game tester Germany",
+      "config": {
+        "card_url_pattern": "/jobs/",
+        "listing_urls": [
+          "https://hitmarker.net/game-tester-jobs",
+          "https://hitmarker.net/game-developer-jobs",
+          "https://hitmarker.net/qa-jobs",
+          "https://hitmarker.net/quality-assurance-jobs"
+        ]
+      },
+      "detail_url_pattern": "https://hitmarker.net/jobs/<slug>-<id>",
       "direct_card_domains": [
         "hitmarker.net"
       ],
       "domain": "hitmarker.net",
       "evidence": {
         "first_seen": "2026-09-24",
-        "last_preflight": "2026-10-19T08:46:34.212526+00:00",
+        "last_preflight": "2026-10-21T13:31:39.347773+00:00",
         "last_run_status": "Not used",
         "last_success": null,
         "last_verified": "2026-09-24",
-        "url": "https://hitmarker.net/jobs"
+        "url": "https://hitmarker.net/game-tester-jobs"
       },
       "fallback_methods": [
         "crawl4ai markdown render",
@@ -485,7 +553,7 @@
           "web extraction"
         ],
         "domain": "hitmarker.net",
-        "evidence_url": "https://hitmarker.net/jobs",
+        "evidence_url": "https://hitmarker.net/game-tester-jobs",
         "first_seen": "2026-09-24",
         "last_access_status": "verified-live",
         "last_verified": "2026-09-24",
@@ -495,20 +563,35 @@
         "status": "active",
         "type": "gamedev job board"
       },
-      "listing_url": "https://hitmarker.net/jobs",
+      "listing_url": "https://hitmarker.net/game-tester-jobs",
       "name": "Hitmarker",
       "preferred_methods": [
-        "Camofox browser session — the jobs index is a client-rendered app and returns no card links over plain HTTP"
+        "HTTP adapter"
       ],
-      "primary_method": "camofox",
-      "query_or_url_pattern": "/jobs/<category> — cards are rendered client-side; HTTP HTML contains zero /job/ links",
+      "primary_method": "http",
+      "query_or_url_pattern": "Hitmarker QA game tester",
       "status": "active",
       "type": "gamedev job board"
     },
     {
       "adapter": "remotive_v1",
+      "adapter_candidates": [
+        "api",
+        "http",
+        "crawl4ai"
+      ],
       "adapter_version": 1,
-      "config": {},
+      "config": {
+        "api_url": "https://www.arbeitnow.com/api/job-board-api",
+        "listing_urls": [
+          "https://www.arbeitnow.com/api/job-board-api",
+          "https://www.arbeitnow.com/api/job-board-api?search=qa",
+          "https://www.arbeitnow.com/api/job-board-api?search=software%20tester",
+          "https://www.arbeitnow.com/api/job-board-api?search=test%20automation",
+          "https://www.arbeitnow.com/api/job-board-api?search=qa&location=berlin",
+          "https://www.arbeitnow.com/api/job-board-api?search=qa&location=remote"
+        ]
+      },
       "detail_url_pattern": "https://remotive.com/api/remote-jobs?search=QA (filter category=Quality Assurance; location=Germany; direct card URL https://remotive.com/remote/jobs/qa/<slug>-<id>)",
       "direct_card_domains": [
         "remotive.com"
@@ -516,7 +599,7 @@
       "domain": "remotive.com",
       "evidence": {
         "first_seen": "2026-09-24",
-        "last_preflight": "2026-10-20T00:10:46.051094+00:00",
+        "last_preflight": "2026-10-20T22:39:32.053637+00:00",
         "last_run_status": "Not used",
         "last_success": null,
         "last_verified": "2026-09-24",
@@ -545,36 +628,33 @@
         "status": "active",
         "type": "remote job board/API"
       },
-      "listing_url": "https://remotive.com/api/remote-jobs?search=QA",
+      "listing_url": "https://www.arbeitnow.com/api/job-board-api",
       "name": "Remotive",
+      "notes": "APIAdapter for Remotive job board. Uses arbeitnow.com API.",
       "preferred_methods": [
-        "public API",
-        "web extraction",
-        "browser"
+        "API"
       ],
-      "primary_method": "http",
+      "primary_method": "api",
       "status": "active",
-      "type": "remote job board/API"
+      "type": "remote job board"
     },
     {
       "adapter": "arbeitnow_v1",
+      "adapter_candidates": [
+        "api",
+        "http",
+        "crawl4ai"
+      ],
       "adapter_version": 1,
       "config": {
         "api_url": "https://www.arbeitnow.com/api/job-board-api",
-        "filter_keywords": [
-          "qa",
-          "test",
-          "quality",
-          "automation",
-          "software test"
-        ],
-        "location_keywords": [
-          "germany",
-          "berlin",
-          "leipzig",
-          "dresden",
-          "remote",
-          "deutschland"
+        "listing_urls": [
+          "https://www.arbeitnow.com/api/job-board-api",
+          "https://www.arbeitnow.com/api/job-board-api?search=qa",
+          "https://www.arbeitnow.com/api/job-board-api?search=software%20tester",
+          "https://www.arbeitnow.com/api/job-board-api?search=test%20automation",
+          "https://www.arbeitnow.com/api/job-board-api?search=qa&location=berlin",
+          "https://www.arbeitnow.com/api/job-board-api?search=qa&location=remote"
         ]
       },
       "detail_url_pattern": "https://www.arbeitnow.com/api/job-board-api (filter JSON records by title/description/location for QA, Software Test, Test Automation, Germany, Berlin, Leipzig, Dresden, remote)",
@@ -584,7 +664,7 @@
       "domain": "arbeitnow.com",
       "evidence": {
         "first_seen": "2026-09-24",
-        "last_preflight": "2026-10-20T00:10:46.051131+00:00",
+        "last_preflight": "2026-10-20T22:39:32.053663+00:00",
         "last_run_status": "Not used",
         "last_success": null,
         "last_verified": "2026-09-24",
@@ -613,35 +693,45 @@
       },
       "listing_url": "https://www.arbeitnow.com/api/job-board-api",
       "name": "Arbeitnow Job Board API",
+      "notes": "APIAdapter for Arbeitnow job board. Uses arbeitnow.com API.",
       "preferred_methods": [
-        "public API",
-        "web extraction"
+        "API"
       ],
-      "primary_method": "http",
+      "primary_method": "api",
       "status": "active",
-      "type": "aggregated job board/API"
+      "type": "job board API"
     },
     {
-      "adapter": "rss_v1",
+      "adapter": "http",
+      "adapter_candidates": [
+        "http",
+        "crawl4ai",
+        "camofox"
+      ],
       "adapter_version": 1,
-      "config": {},
-      "detail_url_pattern": "https://germantechjobs.de/rss (fetch current feed; filter title+description for Softwaretester, Software Tester, QA Engineer, Quality Assurance, Test Engineer, Testautomatisierung, Qualitätssicherung; direct card pattern https://germantechjobs.de/jobs/<slug>)",
+      "config": {
+        "card_url_pattern": "/jobs/",
+        "listing_urls": [
+          "https://germantechjobs.de/jobs",
+          "https://germantechjobs.de/jobs?search=qa",
+          "https://germantechjobs.de/jobs?search=test",
+          "https://germantechjobs.de/jobs?search=software%20tester",
+          "https://germantechjobs.de/jobs?search=test%20automation"
+        ]
+      },
+      "detail_url_pattern": "https://germantechjobs.de/jobs/",
       "direct_card_domains": [
         "germantechjobs.de"
       ],
       "domain": "germantechjobs.de",
       "evidence": {
-        "first_seen": "2026-09-24",
-        "last_preflight": "2026-10-20T00:10:46.051143+00:00",
-        "last_run_status": "Not used",
-        "last_success": null,
-        "last_verified": "2026-09-24",
-        "url": "https://germantechjobs.de/jobs/Communi5-Technologies-GmbH-Senior-QA-Engineer"
+        "last_preflight": "2026-10-23T00:30:15.445404+00:00",
+        "last_run_status": "Not used"
       },
       "fallback_methods": [
-        "public RSS",
-        "web extraction",
-        "browser"
+        "Camofox browser session",
+        "plain HTTP with web_extract",
+        "crawl4ai markdown render"
       ],
       "id": "germantechjobs.de",
       "legacy": {
@@ -661,44 +751,44 @@
         "status": "active",
         "type": "German technology job board / RSS"
       },
-      "listing_url": "https://germantechjobs.de/rss",
+      "listing_url": "https://germantechjobs.de/jobs/Tester/all",
       "name": "GermanTechJobs",
+      "notes": "Camofox for listing and detail. RSS feed 404, switched to browser rendering.",
       "preferred_methods": [
-        "public RSS",
-        "web extraction",
-        "browser"
+        "Camofox browser session"
       ],
       "primary_method": "http",
       "status": "active",
-      "type": "German technology job board / RSS"
+      "type": "tech job board"
     },
     {
-      "adapter": "html_v1",
+      "adapter": "camofox",
+      "adapter_candidates": [
+        "camofox",
+        "http",
+        "crawl4ai"
+      ],
       "adapter_version": 1,
       "config": {
+        "card_url_pattern": "/job_display/",
         "listing_urls": [
-          "https://www.eurotechjobs.com/jobs/q?where=Berlin",
-          "https://www.eurotechjobs.com/jobs/q?where=Leipzig",
-          "https://www.eurotechjobs.com/jobs/q?where=Dresden"
+          "https://www.eurotechjobs.com/jobs/test_analyst",
+          "https://www.eurotechjobs.com/jobs/germany"
         ]
       },
-      "detail_url_pattern": "https://www.eurotechjobs.com/jobs/test_analyst and https://www.eurotechjobs.com/jobs/germany; intersect/filter cards for Germany, Berlin, Leipzig, Dresden, or Germany-wide remote; direct cards /job_display/<id>/<slug>",
+      "detail_url_pattern": "https://www.eurotechjobs.com/job_display/",
       "direct_card_domains": [
         "eurotechjobs.com"
       ],
       "domain": "eurotechjobs.com",
       "evidence": {
-        "first_seen": "2026-09-24",
-        "last_preflight": "2026-10-14T08:02:00.748948+00:00",
-        "last_run_status": "Not used",
-        "last_success": null,
-        "last_verified": "2026-09-24",
-        "url": "https://www.eurotechjobs.com/job_display/295774/Senior_Software_Tester_BlackBerry_Dsseldorf_Germany"
+        "last_preflight": "2026-10-20T22:39:32.053691+00:00",
+        "last_run_status": "Not used"
       },
       "fallback_methods": [
-        "public HTML listing",
-        "direct card web extraction",
-        "curl"
+        "Camofox browser session",
+        "plain HTTP with web_extract",
+        "crawl4ai markdown render"
       ],
       "id": "eurotechjobs.com",
       "legacy": {
@@ -718,54 +808,47 @@
         "status": "active",
         "type": "European technology job board"
       },
-      "listing_url": "https://www.eurotechjobs.com/jobs/test_analyst",
+      "listing_url": "https://www.eurotechjobs.com/jobs/germany",
       "name": "EuroTechJobs Test Analyst / Germany",
+      "notes": "Camofox for listing and detail. Direct card pattern /job_display/.",
       "preferred_methods": [
-        "public HTML listing",
-        "direct card web extraction",
-        "curl"
+        "Camofox browser session"
       ],
-      "primary_method": "http",
+      "primary_method": "camofox",
       "status": "active",
-      "type": "European technology job board"
+      "type": "tech job board"
     },
     {
-      "adapter": "adzuna_v1",
+      "adapter": "camofox",
+      "adapter_candidates": [
+        "camofox",
+        "http",
+        "crawl4ai"
+      ],
       "adapter_version": 1,
       "config": {
+        "card_url_pattern": "/details/\\\\d+",
         "listing_urls": [
-          "https://www.adzuna.de/search?q=QA+Engineer&loc=101214",
-          "https://www.adzuna.de/search?q=Softwaretester&loc=101214",
-          "https://www.adzuna.de/search?q=Test+Engineer&loc=101214",
-          "https://www.adzuna.de/search?q=Test+Automation&loc=101214",
-          "https://www.adzuna.de/search?q=QA+Automation&loc=101214",
-          "https://www.adzuna.de/search?q=QA+Engineer&loc=101392",
-          "https://www.adzuna.de/search?q=Softwaretester&loc=101392",
-          "https://www.adzuna.de/search?q=Test+Engineer&loc=101392",
-          "https://www.adzuna.de/search?q=Test+Automation&loc=101392",
-          "https://www.adzuna.de/search?q=QA+Automation&loc=101392",
-          "https://www.adzuna.de/search?q=QA+Engineer&loc=101393",
-          "https://www.adzuna.de/search?q=Softwaretester&loc=101393",
-          "https://www.adzuna.de/search?q=Test+Engineer&loc=101393",
-          "https://www.adzuna.de/search?q=Test+Automation&loc=101393",
-          "https://www.adzuna.de/search?q=QA+Automation&loc=101393"
+          "https://www.adzuna.de/search?q=qa+engineer&l=berlin",
+          "https://www.adzuna.de/search?q=softwaretester&l=berlin",
+          "https://www.adzuna.de/search?q=test+automation&l=berlin",
+          "https://www.adzuna.de/search?q=qa+engineer&l=leipzig",
+          "https://www.adzuna.de/search?q=softwaretester&l=leipzig",
+          "https://www.adzuna.de/search?q=test+automation&l=leipzig"
         ]
       },
-      "detail_url_pattern": "https://www.adzuna.de/search?q=<urlencoded German QA query>&loc=<location-id>; city discovery /berlin/<query>, /leipzig/<query>, /dresden/<query>; pagination &p=<page>",
+      "detail_url_pattern": "https://www.adzuna.de/details/\\\\d+",
       "direct_card_domains": [
         "adzuna.de"
       ],
       "domain": "adzuna.de",
       "evidence": {
-        "first_seen": "2026-09-24",
-        "last_preflight": "2026-10-14T03:13:53.570974+00:00",
-        "last_run_status": "Not used",
-        "last_success": null,
-        "last_verified": "2026-09-24",
-        "url": "https://www.adzuna.de/land/ad/5887258708?title=QM_Pr%C3%BCfer_%28m%2Fw%2Fd%29"
+        "last_preflight": "2026-10-20T22:39:32.053701+00:00",
+        "last_run_status": "Not used"
       },
       "fallback_methods": [
         "Camofox browser session",
+        "plain HTTP with web_extract",
         "crawl4ai markdown render"
       ],
       "id": "adzuna.de",
@@ -789,57 +872,70 @@
       },
       "listing_url": "https://www.adzuna.de/berlin/qa-engineer",
       "name": "Adzuna Deutschland",
-      "notes": "HTTP 403 anti-bot on listing and detail even through a rendered browser session; stays active and is retried daily",
+      "notes": "Camofox for listing and detail. Direct card pattern /details/<numeric-id>.",
       "preferred_methods": [
-        "HTML listing with a complete browser header set (CloudFront WAF blocks incomplete headers with 403)"
+        "Camofox browser session"
       ],
-      "primary_method": "http",
+      "primary_method": "camofox",
       "query_or_url_pattern": "/berlin/<query> — cards are /details/<numeric-id>; editorial /details/<slug> pages must be excluded",
       "status": "active",
       "type": "German general/aggregated job board"
     },
     {
-      "adapter": "glassdoor",
+      "adapter": "http",
+      "adapter_candidates": [
+        "http",
+        "crawl4ai",
+        "camofox"
+      ],
+      "adapter_version": 1,
       "config": {
-        "card_url_pattern": "jobListing\\.htm.*jl=",
+        "card_url_pattern": "jobListing\\\\.htm.*jl=",
         "listing_urls": [
           "https://www.glassdoor.de/Job/deutschland-qa-engineer-jobs-SRCH_IL.0,11_IN107_KO12,22.htm",
           "https://www.glassdoor.de/Job/deutschland-software-test-engineer-jobs-SRCH_IL.0,11_IN107_KO12,28.htm",
           "https://www.glassdoor.de/Job/deutschland-test-automation-engineer-jobs-SRCH_IL.0,11_IN107_KO12,31.htm"
         ]
       },
-      "detail_url_pattern": "https://www.glassdoor.de/partner/jobListing.htm\\?.*&jl=",
+      "detail_url_pattern": "https://www.glassdoor.de/partner/jobListing.htm\\\\?.*&jl=",
       "direct_card_domains": [
         "glassdoor.de"
       ],
       "domain": "glassdoor.de",
       "evidence": {
-        "last_preflight": "2026-10-20T00:10:46.051157+00:00",
+        "last_preflight": "2026-10-23T00:30:15.445422+00:00",
         "last_run_status": "Not used"
       },
       "fallback_methods": [
-        "Camofox browser session"
+        "Camofox browser session",
+        "plain HTTP with web_extract",
+        "crawl4ai markdown render"
       ],
       "id": "glassdoor.de",
-      "listing_url": "https://www.glassdoor.de/Job/deutschland-qa-engineer-jobs-SRCH_IL.0,11_IN107_KO12,22.htm",
+      "listing_url": "https://www.glassdoor.de/Job/berlin-qa-engineer-jobs-SRCH_IL.0,6_IC2293741_KO7,22.htm",
       "name": "Glassdoor Deutschland",
-      "notes": "crawl4ai for listing, detail pages have employer redirect. Glassdoor blocks plain HTTP; Camofox with stealth profile renders listings. Card URLs contain jobListing.htm with jl= parameter.",
+      "notes": "HTTP adapter for listing and detail. Card URLs contain jobListing.htm with jl= parameter.",
       "preferred_methods": [
-        "crawl4ai markdown render",
-        "Camofox browser session"
+        "HTTP adapter"
       ],
-      "primary_method": "crawl4ai",
+      "primary_method": "http",
       "status": "active",
       "type": "general job board"
     },
     {
-      "adapter": "monster",
+      "adapter": "http",
+      "adapter_candidates": [
+        "http",
+        "crawl4ai",
+        "camofox"
+      ],
+      "adapter_version": 1,
       "config": {
-        "card_url_pattern": "stellenangebot/.*\\.html",
+        "card_url_pattern": "/stellenangebote/",
         "listing_urls": [
-          "https://www.monster.de/jobs/suche?q=QA-Engineer&where=Deutschland",
-          "https://www.monster.de/jobs/suche?q=Software-Tester&where=Deutschland",
-          "https://www.monster.de/jobs/suche?q=Test-Automation&where=Deutschland"
+          "https://www.monster.de/jobs/suche?q=QA+Engineer&where=Berlin",
+          "https://www.monster.de/jobs/suche?q=Software+Tester&where=Berlin",
+          "https://www.monster.de/jobs/suche?q=Test+Automation&where=Berlin"
         ]
       },
       "detail_url_pattern": "https://www.monster.de/jobs/stellenangebot/.*\\.html",
@@ -848,23 +944,332 @@
       ],
       "domain": "monster.de",
       "evidence": {
-        "last_preflight": "2026-10-20T00:10:46.051167+00:00",
+        "last_preflight": "2026-10-21T15:10:34.912708+00:00",
         "last_run_status": "Not used"
       },
       "fallback_methods": [
-        "Camofox browser session"
+        "Camofox browser session",
+        "plain HTTP with web_extract",
+        "crawl4ai markdown render"
       ],
       "id": "monster.de",
-      "listing_url": "https://www.monster.de/jobs/suche?q=QA-Engineer&where=Deutschland",
+      "listing_url": "https://www.monster.de/jobs/suche?q=QA+Engineer&where=Berlin",
       "name": "Monster Deutschland",
-      "notes": "crawl4ai for listing, detail pages are standard HTML. Monster uses standard job cards with direct links to /stellenangebot/ pages.",
+      "notes": "HTTP adapter for listing and detail. Monster uses standard job cards with direct links to /stellenangebot/ pages.",
       "preferred_methods": [
-        "crawl4ai markdown render",
-        "Camofox browser session"
+        "HTTP adapter"
       ],
-      "primary_method": "crawl4ai",
+      "primary_method": "http",
       "status": "active",
       "type": "general job board"
+    },
+    {
+      "adapter": "http",
+      "adapter_candidates": [
+        "http",
+        "crawl4ai",
+        "camofox"
+      ],
+      "adapter_version": 1,
+      "config": {
+        "card_url_pattern": "/engineering/",
+        "direct_card": true,
+        "listing_urls": [
+          "https://berlinstartupjobs.com/engineering/",
+          "https://berlinstartupjobs.com/engineering/?search=qa",
+          "https://berlinstartupjobs.com/engineering/?search=test",
+          "https://berlinstartupjobs.com/engineering/?search=quality",
+          "https://berlinstartupjobs.com/operations/"
+        ]
+      },
+      "detail_url_pattern": "https://berlinstartupjobs.com/engineering/<slug>/",
+      "direct_card_domains": [
+        "berlinstartupjobs.com"
+      ],
+      "domain": "berlinstartupjobs.com",
+      "enabled": true,
+      "evidence": {
+        "last_preflight": "2026-10-21T13:31:39.347804+00:00",
+        "last_run_status": "Not used"
+      },
+      "fallback_methods": [
+        "Camofox browser session",
+        "plain HTTP with web_extract",
+        "crawl4ai markdown render"
+      ],
+      "id": "berlinstartupjobs.com",
+      "listing_url": "https://berlinstartupjobs.com/engineering/",
+      "name": "Berlin Startup Jobs",
+      "parent_platform": null,
+      "primary_method": "http",
+      "query_or_url_pattern": "Berlin Startup Jobs QA",
+      "retired_reason": null,
+      "status": "active",
+      "type": "job_board"
+    },
+    {
+      "adapter": "http",
+      "adapter_candidates": [
+        "http",
+        "crawl4ai",
+        "camofox"
+      ],
+      "adapter_version": 1,
+      "config": {
+        "card_url_pattern": "/engineering/",
+        "direct_card": true,
+        "listing_urls": [
+          "https://germanystartupjobs.com/engineering/",
+          "https://germanystartupjobs.com/engineering/?search=qa",
+          "https://germanystartupjobs.com/engineering/?search=test",
+          "https://germanystartupjobs.com/engineering/?search=quality",
+          "https://germanystartupjobs.com/operations/"
+        ]
+      },
+      "detail_url_pattern": "https://germanystartupjobs.com/engineering/<slug>/",
+      "direct_card_domains": [
+        "germanystartupjobs.com"
+      ],
+      "domain": "germanystartupjobs.com",
+      "enabled": true,
+      "evidence": {
+        "last_preflight": "2026-10-23T00:30:15.445438+00:00",
+        "last_run_status": "Not used"
+      },
+      "fallback_methods": [
+        "Camofox browser session",
+        "plain HTTP with web_extract",
+        "crawl4ai markdown render"
+      ],
+      "id": "germanystartupjobs.com",
+      "listing_url": "https://germanystartupjobs.com/engineering/",
+      "name": "Germany Startup Jobs",
+      "parent_platform": null,
+      "primary_method": "http",
+      "query_or_url_pattern": "Germany Startup Jobs QA",
+      "retired_reason": null,
+      "status": "active",
+      "type": "job_board"
+    },
+    {
+      "adapter": "http",
+      "adapter_candidates": [
+        "http",
+        "crawl4ai",
+        "camofox"
+      ],
+      "adapter_version": 1,
+      "config": {
+        "card_url_pattern": "/jobs/",
+        "listing_urls": [
+          "https://www.jobninja.de",
+          "https://www.jobninja.de/jobs/qa-engineer",
+          "https://www.jobninja.de/jobs/softwaretester",
+          "https://www.jobninja.de/jobs/test-automation"
+        ]
+      },
+      "detail_url_pattern": "https://www.jobninja.de/jobs/<slug>-<id>",
+      "direct_card_domains": [
+        "jobninja.de"
+      ],
+      "domain": "jobninja.de",
+      "enabled": true,
+      "evidence": {
+        "last_preflight": "2026-10-23T00:30:15.445449+00:00",
+        "last_run_status": "Not used"
+      },
+      "fallback_methods": [
+        "Camofox browser session",
+        "plain HTTP with web_extract",
+        "crawl4ai markdown render"
+      ],
+      "id": "jobninja.de",
+      "listing_url": "https://www.jobninja.de",
+      "name": "JobNinja",
+      "parent_platform": null,
+      "primary_method": "http",
+      "query_or_url_pattern": "JobNinja QA",
+      "retired_reason": null,
+      "status": "active",
+      "type": "job_board"
+    },
+    {
+      "adapter": "camofox",
+      "adapter_candidates": [
+        "camofox",
+        "http",
+        "crawl4ai"
+      ],
+      "adapter_version": 1,
+      "config": {
+        "card_url_pattern": "/job/",
+        "listing_urls": [
+          "https://www.jobs.de/jobs?q=qa+engineer",
+          "https://www.jobs.de/jobs?q=softwaretester",
+          "https://www.jobs.de/jobs?q=test+automation",
+          "https://www.jobs.de/jobs?q=qa+engineer&where=berlin",
+          "https://www.jobs.de/jobs?q=softwaretester&where=leipzig",
+          "https://www.jobs.de/jobs?q=test+automation&where=dresden"
+        ]
+      },
+      "domain": "jobs.de",
+      "enabled": true,
+      "fallback_methods": [
+        "Camofox browser session",
+        "plain HTTP with web_extract",
+        "crawl4ai markdown render"
+      ],
+      "id": "jobs.de",
+      "listing_url": "https://www.jobs.de/jobs?q=qa+engineer",
+      "name": "Jobs.de",
+      "notes": "Camofox for listing and detail. Direct card pattern /job/.",
+      "parent_platform": null,
+      "preferred_methods": [
+        "Camofox browser session"
+      ],
+      "primary_method": "camofox",
+      "query_or_url_pattern": "Jobs.de QA",
+      "retired_reason": null,
+      "status": "active",
+      "type": "job_board"
+    },
+    {
+      "adapter": "http",
+      "adapter_candidates": [
+        "http",
+        "crawl4ai",
+        "camofox"
+      ],
+      "adapter_version": 1,
+      "config": {
+        "card_url_pattern": "/stellenangebote/",
+        "listing_urls": [
+          "https://www.kimeta.de/jobs?q=qa+engineer",
+          "https://www.kimeta.de/jobs?q=softwaretester",
+          "https://www.kimeta.de/jobs?q=test+automation",
+          "https://www.kimeta.de/jobs?q=qa+engineer&where=berlin",
+          "https://www.kimeta.de/jobs?q=softwaretester&where=leipzig",
+          "https://www.kimeta.de/jobs?q=test+automation&where=dresden"
+        ]
+      },
+      "detail_url_pattern": "https://www.kimeta.de/stellenangebote/<slug>/<id>.html",
+      "direct_card_domains": [
+        "kimeta.de"
+      ],
+      "domain": "kimeta.de",
+      "enabled": true,
+      "evidence": {
+        "last_preflight": "2026-10-23T00:30:15.445462+00:00",
+        "last_run_status": "Not used"
+      },
+      "fallback_methods": [
+        "Camofox browser session",
+        "plain HTTP with web_extract",
+        "crawl4ai markdown render"
+      ],
+      "id": "kimeta.de",
+      "listing_url": "https://www.kimeta.de/jobs?q=qa+engineer",
+      "name": "Kimeta",
+      "notes": "HTTP adapter for listing and detail. Direct card pattern /stellenangebote/<slug>/<id>.html or /stellenangebote/<slug>-<id>.html.",
+      "parent_platform": null,
+      "preferred_methods": [
+        "HTTP adapter"
+      ],
+      "primary_method": "http",
+      "query_or_url_pattern": "Kimeta QA",
+      "retired_reason": null,
+      "status": "active",
+      "type": "job board"
+    },
+    {
+      "adapter": "camofox",
+      "adapter_candidates": [
+        "http",
+        "crawl4ai",
+        "camofox"
+      ],
+      "adapter_version": 1,
+      "config": {
+        "card_url_pattern": "/job/",
+        "listing_urls": [
+          "https://www.metro-jobs.de/jobs?q=qa+engineer",
+          "https://www.metro-jobs.de/jobs?q=softwaretester",
+          "https://www.metro-jobs.de/jobs?q=test+automation"
+        ]
+      },
+      "detail_url_pattern": "https://www.metro-jobs.de/job/",
+      "direct_card_domains": [
+        "metro-jobs.de"
+      ],
+      "domain": "metro-jobs.de",
+      "enabled": true,
+      "evidence": {
+        "last_preflight": "2026-10-21T11:37:42.318689+00:00",
+        "last_run_status": "Not used"
+      },
+      "fallback_methods": [
+        "Camofox browser session",
+        "plain HTTP with web_extract",
+        "crawl4ai markdown render"
+      ],
+      "id": "metro-jobs.de",
+      "listing_url": "https://www.metro-jobs.de/jobs?q=qa+engineer",
+      "name": "Metro Jobs",
+      "notes": "Camofox for listing and detail. Direct card pattern /job/.",
+      "parent_platform": null,
+      "preferred_methods": [
+        "Camofox browser session"
+      ],
+      "primary_method": "camofox",
+      "query_or_url_pattern": "Metro Jobs QA",
+      "retired_reason": "Domain no longer exists or redirects to unrelated site",
+      "status": "retired",
+      "type": "job board"
+    },
+    {
+      "adapter": "camofox",
+      "adapter_candidates": [
+        "camofox",
+        "http",
+        "crawl4ai"
+      ],
+      "adapter_version": 1,
+      "config": {
+        "card_url_pattern": "/job/",
+        "listing_urls": [
+          "https://www.regiojobs.de/jobs?q=qa+engineer",
+          "https://www.regiojobs.de/jobs?q=softwaretester",
+          "https://www.regiojobs.de/jobs?q=test+automation"
+        ]
+      },
+      "detail_url_pattern": "https://www.regiojobs.de/job/",
+      "direct_card_domains": [
+        "regiojobs.de"
+      ],
+      "domain": "regiojobs.de",
+      "enabled": true,
+      "evidence": {
+        "last_preflight": "2026-10-21T11:37:42.318700+00:00",
+        "last_run_status": "Not used"
+      },
+      "fallback_methods": [
+        "Camofox browser session",
+        "plain HTTP with web_extract",
+        "crawl4ai markdown render"
+      ],
+      "id": "regiojobs.de",
+      "listing_url": "https://www.regiojobs.de/jobs?q=qa+engineer",
+      "name": "RegioJobs",
+      "notes": "Camofox for listing and detail. Direct card pattern /job/.",
+      "parent_platform": null,
+      "preferred_methods": [
+        "Camofox browser session"
+      ],
+      "primary_method": "camofox",
+      "query_or_url_pattern": "RegioJobs QA",
+      "retired_reason": "Domain no longer exists or redirects to unrelated site",
+      "status": "retired",
+      "type": "job board"
     }
   ]
 }
