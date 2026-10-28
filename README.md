@@ -1,3 +1,9 @@
+# QA & Archaeology Vacancies — 2026-10-28
+
+## Cycle: 2026-10-28_cycle-000040
+
+---
+
 # QA Engineer Vacancies in Germany — 2026-10-28
 
 **Vacancies listed: 16**
@@ -80,3 +86,56 @@
 | Kimeta | Not used | 2026-10-28_cycle-1 | — | preflight blocked: all independent access methods failed: preflight: zero analyzable direct cards - listing may be blocked or changed; Crawl4AI failed after 2 attempts: rc=1                                               ║
 ║     playwright install                                     ║
 ║               |
+
+
+---
+
+# Archaeology Vacancies in Leipzig Region — 2026-10-28
+
+**Vacancies: 3**
+
+## Listings
+
+### 1. Wissenschaftliche/-r Mitarbeiter/-in (m/w/d) Praktische Denkmalpflege
+**URL:** https://www.arbeitsagentur.de/jobsuche/jobdetail/10000-1208323993-S
+**Employer:** Landesamt für Denkmalpflege und Archäologie Land Thüringen
+**Location:** Erfurt
+**Posted:** 2026-10-14
+**Work mode:** Hybrid
+**Category:** Heritage Management
+**Geo (≤150km):** ✅  **Role match:** ✅  **German entity:** ✅
+**Reason:** Genuine heritage management position at Thuringian state heritage authority in Erfurt (within 150km of Leipzig), posted 2026-10-14, hybrid work possible.
+
+---
+
+### 2. Grabungsleiter/in bzw. Archäologe/in (m/w/d)
+**URL:** https://talents.studysmarter.de/companies/rene-methner-und-lars-ruhnow/grabungsleiter-in-bzw-archaeologe-in-m-w-d-grabungsleiter-in-5736270
+**Employer:** Rene Methner und Lars Ruhnow
+**Location:** Cottbus, Brandenburg
+**Posted:** Unknown
+**Work mode:** On-site
+**Category:** Excavation/Field
+**Geo (≤150km):** ✅  **Role match:** ✅  **German entity:** ✅
+**Reason:** Genuine excavation position in Cottbus, which is within the 150km Leipzig radius city list.
+
+---
+
+### 3. Wissenschaftliche/-r Mitarbeiter/-in (m/w/d) Praktische Denkmalpflege
+**URL:** https://karriere.thueringen.de/Stellenangebote/wissenschaftliche-r-mitarbeiter-in-m-w-d-praktische-denkmalpflege
+**Employer:** Landesamt für Denkmalpflege und Archäologie Land Thüringen
+**Location:** Erfurt
+**Posted:** 2026-10-14
+**Work mode:** Hybrid
+**Category:** Heritage Management
+**Geo (≤150km):** ✅  **Role match:** ✅  **German entity:** ✅
+**Reason:** Genuine heritage management position at Thuringian state heritage authority in Erfurt (within 150km of Leipzig), posted 2026-10-14, hybrid work possible.
+
+---
+
+*Cycle: 2026-10-28_cycle-000040*
+*Search performed with 150km radius around Leipzig*
+*Terms: German + English archaeology academic positions*
+
+---
+*Generated: 2026-10-28 01:10:42 UTC*
+*Pipeline: Combined QA + Archaeology*
