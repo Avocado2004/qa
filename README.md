@@ -1,6 +1,6 @@
-# QA & Archaeology Vacancies — 2026-10-28
+# QA & Archaeology Vacancies — 2026-10-29
 
-## Cycle: 2026-10-28_cycle-000040
+## Cycle: 2026-10-29_cycle-000040
 
 ---
 
@@ -90,7 +90,7 @@
 
 ---
 
-# Archaeology Vacancies in Leipzig Region — 2026-10-28
+# Archaeology Vacancies in Leipzig Region — 2026-10-29
 
 **Vacancies: 3**
 
@@ -100,42 +100,42 @@
 **URL:** https://www.arbeitsagentur.de/jobsuche/jobdetail/10000-1208323993-S
 **Employer:** Landesamt für Denkmalpflege und Archäologie Land Thüringen
 **Location:** Erfurt
-**Posted:** 2026-10-14
+**Posted:** Vor 10 Tagen veröffentlicht
 **Work mode:** Hybrid
 **Category:** Heritage Management
 **Geo (≤150km):** ✅  **Role match:** ✅  **German entity:** ✅
-**Reason:** Genuine heritage management position at Thuringian state heritage authority in Erfurt (within 150km of Leipzig), posted 2026-10-14, hybrid work possible.
+**Reason:** Genuine heritage conservation position at a German state authority (Landesamt) in Erfurt, within 150km of Leipzig; hybrid work possible; posted recently.
 
 ---
 
-### 2. Grabungsleiter/in bzw. Archäologe/in (m/w/d)
-**URL:** https://talents.studysmarter.de/companies/rene-methner-und-lars-ruhnow/grabungsleiter-in-bzw-archaeologe-in-m-w-d-grabungsleiter-in-5736270
-**Employer:** Rene Methner und Lars Ruhnow
-**Location:** Cottbus, Brandenburg
-**Posted:** Unknown
+### 2. Wissenschaftliche Grabungsleitung (all genders)
+**URL:** https://buchholz-und-partner.jobs.personio.de/job/2186478?language=de
+**Employer:** BUCHHOLZ + PARTNER GmbH
+**Location:** Radefeld, Berlin, Gera, Heiligenberg am Bodensee
+**Posted:** Not specified (assumed current)
 **Work mode:** On-site
 **Category:** Excavation/Field
 **Geo (≤150km):** ✅  **Role match:** ✅  **German entity:** ✅
-**Reason:** Genuine excavation position in Cottbus, which is within the 150km Leipzig radius city list.
+**Reason:** Genuine scientific excavation leadership position at German GmbH with locations including Gera (within 150km of Leipzig).
 
 ---
 
 ### 3. Wissenschaftliche/-r Mitarbeiter/-in (m/w/d) Praktische Denkmalpflege
 **URL:** https://karriere.thueringen.de/Stellenangebote/wissenschaftliche-r-mitarbeiter-in-m-w-d-praktische-denkmalpflege
-**Employer:** Landesamt für Denkmalpflege und Archäologie Land Thüringen
+**Employer:** Thüringer Landesamt für Denkmalpflege und Archäologie
 **Location:** Erfurt
-**Posted:** 2026-10-14
+**Posted:** seit 14.10.2026
 **Work mode:** Hybrid
 **Category:** Heritage Management
 **Geo (≤150km):** ✅  **Role match:** ✅  **German entity:** ✅
-**Reason:** Genuine heritage management position at Thuringian state heritage authority in Erfurt (within 150km of Leipzig), posted 2026-10-14, hybrid work possible.
+**Reason:** Current heritage management position at Thuringian state authority in Erfurt (within 150km Leipzig); hybrid work possible; posted October 2026.
 
 ---
 
-*Cycle: 2026-10-28_cycle-000040*
+*Cycle: 2026-10-29_cycle-000040*
 *Search performed with 150km radius around Leipzig*
 *Terms: German + English archaeology academic positions*
 
 ---
-*Generated: 2026-10-28 01:10:42 UTC*
+*Generated: 2026-10-29 01:34:14 UTC*
 *Pipeline: Combined QA + Archaeology*
