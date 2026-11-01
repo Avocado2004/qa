@@ -1,3 +1,9 @@
+# QA & Archaeology Vacancies — 2026-11-01
+
+## Cycle: 2026-11-01_cycle-000039
+
+---
+
 # QA Engineer Vacancies in Germany — 2026-11-01
 
 **Vacancies listed: 11**
@@ -75,3 +81,44 @@
 | Kimeta | Not used | 2026-11-01_cycle-1 | — | preflight blocked: all independent access methods failed: preflight: zero analyzable direct cards - listing may be blocked or changed; Crawl4AI failed after 2 attempts: rc=1                                               ║
 ║     playwright install                                     ║
 ║               |
+
+
+---
+
+# Archaeology Vacancies in Leipzig Region — 2026-11-01
+
+**Vacancies: 2**
+
+## Listings
+
+### 1. Wissenschaftliche/-r Mitarbeiter/-in (m/w/d) Praktische Denkmalpflege
+**URL:** https://www.jobleads.com/de/job/wissenschaftliche-r-mitarbeiter-in-m-w-d-praktische-denkmalpflege-thuringer-landesamt-fur-denkmalpflege-und-archaologie--erfurt--ed1a4ad85d7901bdd0f7b103fb168b5ad
+**Employer:** Thüringer Landesamt für Denkmalpflege und Archäologie
+**Location:** Erfurt
+**Posted:** Not specified
+**Work mode:** Hybrid
+**Category:** Heritage Management
+**Geo (≤150km):** ✅  **Role match:** ✅  **German entity:** ✅
+**Reason:** Genuine heritage management position at Thüringer Landesamt für Denkmalpflege und Archäologie in Erfurt, within 150km of Leipzig. Hybrid work mode with homeoffice possibility.
+
+---
+
+### 2. Wissenschaftliche/-r Mitarbeiter/-in (m/w/d) Praktische Denkmalpflege
+**URL:** https://karriere.thueringen.de/Stellenangebote/wissenschaftliche-r-mitarbeiter-in-m-w-d-praktische-denkmalpflege
+**Employer:** Thüringer Landesamt für Denkmalpflege und Archäologie
+**Location:** Erfurt
+**Posted:** seit 14.10.2026
+**Work mode:** Hybrid
+**Category:** Heritage Management
+**Geo (≤150km):** ✅  **Role match:** ✅  **German entity:** ✅
+**Reason:** Official state job portal vacancy for scientific employee in practical heritage conservation at Thüringer Landesamt, Erfurt within 150km of Leipzig.
+
+---
+
+*Cycle: 2026-11-01_cycle-000039*
+*Search performed with 150km radius around Leipzig*
+*Terms: German + English archaeology academic positions*
+
+---
+*Generated: 2026-11-01 01:29:04 UTC*
+*Pipeline: Combined QA + Archaeology*
