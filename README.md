@@ -1,3 +1,9 @@
+# QA & Archaeology Vacancies — 2026-11-02
+
+## Cycle: 2026-11-02_cycle-000040
+
+---
+
 # QA Engineer Vacancies in Germany — 2026-11-02
 
 **Vacancies listed: 12**
@@ -76,3 +82,56 @@
 | Kimeta | Not used | 2026-11-02_cycle-1 | — | preflight blocked: all independent access methods failed: preflight: zero analyzable direct cards - listing may be blocked or changed; Crawl4AI failed after 2 attempts: rc=1                                               ║
 ║     playwright install                                     ║
 ║               |
+
+
+---
+
+# Archaeology Vacancies in Leipzig Region — 2026-11-02
+
+**Vacancies: 3**
+
+## Listings
+
+### 1. Grabungsleiter/in bzw. Archäologe/in (m/w/d)
+**URL:** https://talents.studysmarter.de/companies/rene-methner-und-lars-ruhnow/grabungsleiter-in-bzw-archaeologe-in-m-w-d-grabungsleiter-in-5736270
+**Employer:** Rene Methner und Lars Ruhnow
+**Location:** Cottbus, Brandenburg
+**Posted:** Not specified
+**Work mode:** On-site
+**Category:** Excavation/Field
+**Geo (≤150km):** ✅  **Role match:** ✅  **German entity:** ✅
+**Reason:** Genuine excavation position in Cottbus, within 150km of Leipzig (Cottbus is in the approved city list).
+
+---
+
+### 2. Wissenschaftliche Grabungsleitung (all genders)
+**URL:** https://buchholz-und-partner.jobs.personio.de/job/2186478?language=de
+**Employer:** BUCHHOLZ + PARTNER GmbH
+**Location:** Radefeld, Berlin, Gera, Heiligenberg am Bodensee
+**Posted:** Not specified
+**Work mode:** On-site
+**Category:** Excavation/Field
+**Geo (≤150km):** ✅  **Role match:** ✅  **German entity:** ✅
+**Reason:** Genuine excavation firm job posting for scientific excavation lead at multiple locations including Radefeld (near Leipzig). German GmbH, on-site fieldwork.
+
+---
+
+### 3. Bewerben am DAI
+**URL:** https://www.dainst.org/karriere/bewerben-am-dai
+**Employer:** Deutsches Archäologisches Institut
+**Location:** Berlin
+**Posted:** 29.09.2026 (multiple postings)
+**Work mode:** On-site
+**Category:** Research/Academic
+**Geo (≤150km):** ✅  **Role match:** ✅  **German entity:** ✅
+**Reason:** DAI career page lists multiple current archaeology/heritage positions at Berlin headquarters (within 150km of Leipzig). Genuine German federal research institution.
+
+---
+
+*Cycle: 2026-11-02_cycle-000040*
+*Search performed with 150km radius around Leipzig*
+*Terms: German + English archaeology academic positions*
+
+---
+*Generated: 2026-11-02 01:48:44 UTC*
+*Pipeline: Combined QA + Archaeology*
