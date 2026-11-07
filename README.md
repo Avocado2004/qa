@@ -1,3 +1,9 @@
+# QA & Archaeology Vacancies — 2026-11-07
+
+## Cycle: 2026-11-07_cycle-000040
+
+---
+
 # QA Engineer Vacancies in Germany — 2026-11-07
 
 **Vacancies listed: 26**
@@ -90,3 +96,44 @@
 | Kimeta | Not used | 2026-11-07_cycle-1 | — | preflight blocked: all independent access methods failed: preflight: zero analyzable direct cards - listing may be blocked or changed; Crawl4AI failed after 2 attempts: rc=1                                               ║
 ║     playwright install                                     ║
 ║               |
+
+
+---
+
+# Archaeology Vacancies in Leipzig Region — 2026-11-07
+
+**Vacancies: 2**
+
+## Listings
+
+### 1. Wissenschaftliche Grabungsleitung (all genders)
+**URL:** https://buchholz-und-partner.jobs.personio.de/job/2186478?language=de
+**Employer:** BUCHHOLZ + PARTNER GmbH
+**Location:** Radefeld (Leipzig), Berlin, Gera, Heiligenberg am Bodensee
+**Posted:** Not specified
+**Work mode:** On-site
+**Category:** Excavation/Field
+**Geo (≤150km):** ✅  **Role match:** ✅  **German entity:** ✅
+**Reason:** Genuine scientific excavation leadership position with locations including Gera (within 150km of Leipzig) and Radefeld near Leipzig; German GmbH; current vacancy.
+
+---
+
+### 2. Wissenschaftliche/-r Mitarbeiter/-in (m/w/d) Praktische Denkmalpflege
+**URL:** https://de.linkedin.com/jobs/view/wissenschaftliche-r-mitarbeiter-in-m-w-d-praktische-denkmalpflege-at-landesamt-f%C3%BCr-denkmalpflege-und-arch%C3%A4ologie-land-th%C3%BCringen-4481984156
+**Employer:** Landesamt für Denkmalpflege und Archäologie Land Thüringen
+**Location:** Erfurt
+**Posted:** 2026-10-24
+**Work mode:** Hybrid
+**Category:** Heritage Management
+**Geo (≤150km):** ✅  **Role match:** ✅  **German entity:** ✅
+**Reason:** Genuine heritage management position at German state authority, location Erfurt within 150km Leipzig radius, homeoffice possibility mentioned.
+
+---
+
+*Cycle: 2026-11-07_cycle-000040*
+*Search performed with 150km radius around Leipzig*
+*Terms: German + English archaeology academic positions*
+
+---
+*Generated: 2026-11-07 01:01:53 UTC*
+*Pipeline: Combined QA + Archaeology*
