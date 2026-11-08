@@ -1,3 +1,9 @@
+# QA & Archaeology Vacancies — 2026-11-08
+
+## Cycle: 2026-11-08_cycle-000040
+
+---
+
 # QA Engineer Vacancies in Germany — 2026-11-08
 
 **Vacancies listed: 24**
@@ -88,3 +94,44 @@
 | Kimeta | Not used | 2026-11-08_cycle-1 | — | preflight blocked: all independent access methods failed: preflight: zero analyzable direct cards - listing may be blocked or changed; Crawl4AI failed after 2 attempts: rc=1                                               ║
 ║     playwright install                                     ║
 ║               |
+
+
+---
+
+# Archaeology Vacancies in Leipzig Region — 2026-11-08
+
+**Vacancies: 2**
+
+## Listings
+
+### 1. Wissenschaftliche Grabungsleitung (all genders)
+**URL:** https://buchholz-und-partner.jobs.personio.de/job/2186478?language=de
+**Employer:** BUCHHOLZ + PARTNER GmbH
+**Location:** Radefeld, Berlin, Gera, Heiligenberg am Bodensee
+**Posted:** Not specified
+**Work mode:** On-site
+**Category:** Excavation/Field
+**Geo (≤150km):** ✅  **Role match:** ✅  **German entity:** ✅
+**Reason:** German engineering/archaeology firm (GmbH) advertising a permanent field director position. Locations include Berlin and Gera, both within 150km of Leipzig.
+
+---
+
+### 2. Bewerben am DAI
+**URL:** https://www.dainst.org/karriere/bewerben-am-dai
+**Employer:** Deutsches Archäologisches Institut (DAI)
+**Location:** Berlin (Zentrale), Rom, Athen, Istanbul, Kairo, Madrid, weitere
+**Posted:** 19.10.2026
+**Work mode:** On-site
+**Category:** Research/Academic
+**Geo (≤150km):** ✅  **Role match:** ✅  **German entity:** ✅
+**Reason:** DAI is a German federal research agency (Bundesbehörde) with headquarters in Berlin (within 150km of Leipzig). The page lists current scientific positions (wissenschaftliche Mitarbeiter, Hilfskräfte) in archaeology/heritage with deadlines in Nov/Dec 2026.
+
+---
+
+*Cycle: 2026-11-08_cycle-000040*
+*Search performed with 150km radius around Leipzig*
+*Terms: German + English archaeology academic positions*
+
+---
+*Generated: 2026-11-08 00:50:53 UTC*
+*Pipeline: Combined QA + Archaeology*
