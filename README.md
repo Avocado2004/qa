@@ -1,3 +1,9 @@
+# QA & Archaeology Vacancies — 2026-11-09
+
+## Cycle: 2026-11-09_cycle-000041
+
+---
+
 # QA Engineer Vacancies in Germany — 2026-11-09
 
 **Vacancies listed: 26**
@@ -90,3 +96,44 @@
 | Kimeta | Not used | 2026-11-09_cycle-1 | — | preflight blocked: all independent access methods failed: preflight: zero analyzable direct cards - listing may be blocked or changed; Crawl4AI failed after 2 attempts: rc=1                                               ║
 ║     playwright install                                     ║
 ║               |
+
+
+---
+
+# Archaeology Vacancies in Leipzig Region — 2026-11-09
+
+**Vacancies: 2**
+
+## Listings
+
+### 1. Wissenschaftliche Grabungsleitung (all genders)
+**URL:** https://buchholz-und-partner.jobs.personio.de/job/2186478?language=de
+**Employer:** BUCHHOLZ + PARTNER GmbH
+**Location:** Radefeld, Berlin, Gera, Heiligenberg am Bodensee
+**Posted:** Not specified
+**Work mode:** On-site
+**Category:** Excavation/Field
+**Geo (≤150km):** ✅  **Role match:** ✅  **German entity:** ✅
+**Reason:** Genuine excavation leadership position at German archaeology firm with locations (Radefeld/Leipzig area, Berlin, Gera) within 150km of Leipzig.
+
+---
+
+### 2. Wissenschaftliche/r Mitarbeiter/in (m/w/d) Praktische Denkmalpflege
+**URL:** https://de.linkedin.com/jobs/view/wissenschaftliche-r-mitarbeiter-in-m-w-d-praktische-denkmalpflege-at-th%C3%BCringer-landesamt-f%C3%BCr-denkmalpflege-und-arch%C3%A4ologie-4482339807
+**Employer:** Thüringer Landesamt für Denkmalpflege und Archäologie
+**Location:** Erfurt
+**Posted:** Unknown
+**Work mode:** On-site
+**Category:** Heritage Management
+**Geo (≤150km):** ✅  **Role match:** ✅  **German entity:** ✅
+**Reason:** LinkedIn job posting for scientific position at Thüringen Landesamt für Denkmalpflege und Archäologie in Erfurt, within 150km of Leipzig.
+
+---
+
+*Cycle: 2026-11-09_cycle-000041*
+*Search performed with 150km radius around Leipzig*
+*Terms: German + English archaeology academic positions*
+
+---
+*Generated: 2026-11-09 00:57:44 UTC*
+*Pipeline: Combined QA + Archaeology*
