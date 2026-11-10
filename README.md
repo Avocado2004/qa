@@ -1,3 +1,9 @@
+# QA & Archaeology Vacancies — 2026-11-10
+
+## Cycle: 2026-11-10_cycle-000044
+
+---
+
 # QA Engineer Vacancies in Germany — 2026-11-10
 
 **Vacancies listed: 25**
@@ -89,3 +95,32 @@
 | Kimeta | Not used | 2026-11-10_cycle-1 | — | preflight blocked: all independent access methods failed: preflight: zero analyzable direct cards - listing may be blocked or changed; Crawl4AI failed after 2 attempts: rc=1                                               ║
 ║     playwright install                                     ║
 ║               |
+
+
+---
+
+# Archaeology Vacancies in Leipzig Region — 2026-11-10
+
+**Vacancies: 1**
+
+## Listings
+
+### 1. Wissenschaftliche Grabungsleitung (all genders)
+**URL:** https://buchholz-und-partner.jobs.personio.de/job/2186478?language=de
+**Employer:** BUCHHOLZ + PARTNER GmbH
+**Location:** Radefeld, Berlin, Gera, Heiligenberg am Bodensee
+**Posted:** Not specified
+**Work mode:** On-site
+**Category:** Excavation/Field
+**Geo (≤150km):** ✅  **Role match:** ✅  **German entity:** ✅
+**Reason:** Genuine archaeology field position with German GmbH; locations Radefeld and Gera within 150km of Leipzig
+
+---
+
+*Cycle: 2026-11-10_cycle-000044*
+*Search performed with 150km radius around Leipzig*
+*Terms: German + English archaeology academic positions*
+
+---
+*Generated: 2026-11-10 01:05:02 UTC*
+*Pipeline: Combined QA + Archaeology*
