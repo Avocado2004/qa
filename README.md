@@ -1,3 +1,9 @@
+# QA & Archaeology Vacancies — 2026-11-11
+
+## Cycle: 2026-11-11_cycle-000041
+
+---
+
 # QA Engineer Vacancies in Germany — 2026-11-11
 
 **Vacancies listed: 27**
@@ -87,3 +93,44 @@
 | JobNinja | Not used | 2026-11-11_cycle-1 | — | preflight blocked: all independent access methods failed: preflight: zero analyzable direct cards - listing may be blocked or changed; Crawl4AI failed after 2 attempts: crawl4ai timed out; Camofox HTTP 500 for POST /tabs: {"error":"Internal server error","retryable":false} |
 | Jobs.de | Used | 2026-11-11_cycle-1 | 2026-11-11_cycle-1 | cards collected |
 | Kimeta | Not used | 2026-11-11_cycle-1 | — | preflight blocked: all independent access methods failed: preflight: zero analyzable direct cards - listing may be blocked or changed; Crawl4AI failed after 2 attempts: crawl4ai timed out; Camofox HTTP 500 for POST /tabs: {"error":"Internal server error","retryable":false} |
+
+
+---
+
+# Archaeology Vacancies in Leipzig Region — 2026-11-11
+
+**Vacancies: 2**
+
+## Listings
+
+### 1. Wissenschaftliche Grabungsleitung (all genders)
+**URL:** https://buchholz-und-partner.jobs.personio.de/job/2186478?language=de
+**Employer:** BUCHHOLZ + PARTNER GmbH
+**Location:** Radefeld
+**Posted:** 2026-11-11
+**Work mode:** On-site
+**Category:** Excavation/Field
+**Geo (≤150km):** ✅  **Role match:** ✅  **German entity:** ✅
+**Reason:** Genuine archaeological excavation lead position at German GmbH with locations including Radefeld near Leipzig.
+
+---
+
+### 2. Wissenschaftliche/r Mitarbeiter/in (m/w/d) Praktische Denkmalpflege
+**URL:** https://de.linkedin.com/jobs/view/wissenschaftliche-r-mitarbeiter-in-m-w-d-praktische-denkmalpflege-at-th%C3%BCringer-landesamt-f%C3%BCr-denkmalpflege-und-arch%C3%A4ologie-4482339807
+**Employer:** Thüringer Landesamt für Denkmalpflege und Archäologie
+**Location:** Erfurt
+**Posted:** 2026-11-11
+**Work mode:** On-site
+**Category:** Heritage Management
+**Geo (≤150km):** ✅  **Role match:** ✅  **German entity:** ✅
+**Reason:** Genuine heritage position at Thuringian state heritage office in Erfurt, within 150km of Leipzig. Announcement text limited due to LinkedIn login wall.
+
+---
+
+*Cycle: 2026-11-11_cycle-000041*
+*Search performed with 150km radius around Leipzig*
+*Terms: German + English archaeology academic positions*
+
+---
+*Generated: 2026-11-11 01:19:07 UTC*
+*Pipeline: Combined QA + Archaeology*
