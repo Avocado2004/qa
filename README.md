@@ -1,3 +1,9 @@
+# QA & Archaeology Vacancies — 2026-11-12
+
+## Cycle: 2026-11-12_cycle-000045
+
+---
+
 # QA Engineer Vacancies in Germany — 2026-11-12
 
 **Vacancies listed: 22**
@@ -86,3 +92,44 @@
 | Kimeta | Not used | 2026-11-12_cycle-1 | — | preflight blocked: all independent access methods failed: preflight: zero analyzable direct cards - listing may be blocked or changed; Crawl4AI failed after 2 attempts: rc=1                                               ║
 ║     playwright install                                     ║
 ║               |
+
+
+---
+
+# Archaeology Vacancies in Leipzig Region — 2026-11-12
+
+**Vacancies: 2**
+
+## Listings
+
+### 1. Wissenschaftliche Grabungsleitung (all genders)
+**URL:** https://buchholz-und-partner.jobs.personio.de/job/2186478?language=de
+**Employer:** BUCHHOLZ + PARTNER GmbH
+**Location:** Radefeld, Berlin, Gera, Heiligenberg am Bodensee
+**Posted:** Not specified
+**Work mode:** On-site
+**Category:** Excavation/Field
+**Geo (≤150km):** ✅  **Role match:** ✅  **German entity:** ✅
+**Reason:** Genuine excavation leadership position at German GmbH; multiple locations including Berlin and Gera within Leipzig radius.
+
+---
+
+### 2. wissenschaftlichen Mitarbeiter (m/w/d)
+**URL:** https://de.linkedin.com/jobs/view/wissenschaftlichen-mitarbeiter-m-w-d-at-l-amt-denkmalpfl-arch%C3%A4ologie-4482376221
+**Employer:** L.amt Denkmalpfl./Archäologie
+**Location:** Halle (Saale)
+**Posted:** Unknown
+**Work mode:** Unknown
+**Category:** Research/Academic
+**Geo (≤150km):** ✅  **Role match:** ✅  **German entity:** ✅
+**Reason:** Genuine archaeology/heritage position at German Landesamt in Halle (Saale), within 150km of Leipzig.
+
+---
+
+*Cycle: 2026-11-12_cycle-000045*
+*Search performed with 150km radius around Leipzig*
+*Terms: German + English archaeology academic positions*
+
+---
+*Generated: 2026-11-12 00:53:10 UTC*
+*Pipeline: Combined QA + Archaeology*
