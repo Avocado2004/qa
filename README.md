@@ -1,3 +1,9 @@
+# QA & Archaeology Vacancies — 2026-11-13
+
+## Cycle: 2026-11-13_cycle-000031
+
+---
+
 # QA Engineer Vacancies in Germany — 2026-11-13
 
 **Vacancies listed: 21**
@@ -85,3 +91,31 @@
 | Kimeta | Not used | 2026-11-13_cycle-1 | — | preflight blocked: all independent access methods failed: preflight: zero analyzable direct cards - listing may be blocked or changed; Crawl4AI failed after 2 attempts: rc=1                                               ║
 ║     playwright install                                     ║
 ║               |
+
+
+---
+
+# Archaeology Vacancies in Leipzig Region — 2026-11-13
+
+**Vacancies: 1**
+
+## Listings
+
+### 1. wissenschaftlichen Mitarbeiter (m/w/d)
+**URL:** https://de.linkedin.com/jobs/view/wissenschaftlichen-mitarbeiter-m-w-d-at-l-amt-denkmalpfl-arch%C3%A4ologie-4482376221
+**Employer:** Landesamt für Denkmalpflege und Archäologie Sachsen-Anhalt
+**Location:** Halle (Saale)
+**Work mode:** Unknown
+**Category:** Research/Academic
+**Geo (≤150km):** ✅  **Role match:** ✅  **German entity:** ✅
+**Reason:** Genuine vacancy for scientific employee at Landesamt für Denkmalpflege und Archäologie in Halle (Saale), within 150km of Leipzig.
+
+---
+
+*Cycle: 2026-11-13_cycle-000031*
+*Search performed with 150km radius around Leipzig*
+*Terms: German + English archaeology academic positions*
+
+---
+*Generated: 2026-11-13 01:13:05 UTC*
+*Pipeline: Combined QA + Archaeology*
