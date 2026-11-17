@@ -1,6 +1,6 @@
-# QA & Archaeology Vacancies — 2026-11-16
+# QA & Archaeology Vacancies — 2026-11-17
 
-## Cycle: 2026-11-16_cycle-000041
+## Cycle: 2026-11-17_cycle-000026
 
 ---
 
@@ -95,28 +95,28 @@
 
 ---
 
-# Archaeology Vacancies in Leipzig Region — 2026-11-16
+# Archaeology Vacancies in Leipzig Region — 2026-11-17
 
 **Vacancies: 1**
 
 ## Listings
 
-### 1. Stellenausschreibung Archäolog:in (m/w/d) als Leitung der Außenstelle Cottbus
-**URL:** https://bldam-brandenburg.de/stellen/stellenausschreibung-archaeologin-m-w-d-als-leitung-der-aussenstelle-cottbus
-**Employer:** Brandenburgisches Landesamt für Denkmalpflege und Archäologisches Landesmuseum (BLDAM)
-**Location:** Cottbus
-**Posted:** 30.01.2026
-**Work mode:** Hybrid
-**Category:** Heritage Management
+### 1. Bewerben am DAI
+**URL:** https://www.dainst.org/karriere/bewerben-am-dai
+**Employer:** Deutsches Archäologisches Institut
+**Location:** Berlin
+**Posted:** 14.09.2026 (latest vacancy date)
+**Work mode:** On-site
+**Category:** Research/Academic
 **Geo (≤150km):** ✅  **Role match:** ✅  **German entity:** ✅
-**Reason:** Genuine heritage management position at Brandenburg state heritage authority, location Cottbus within 150km radius of Leipzig.
+**Reason:** DAI career page listing current research positions in Berlin (within 150km of Leipzig).
 
 ---
 
-*Cycle: 2026-11-16_cycle-000041*
+*Cycle: 2026-11-17_cycle-000026*
 *Search performed with 150km radius around Leipzig*
 *Terms: German + English archaeology academic positions*
 
 ---
-*Generated: 2026-11-16 01:33:00 UTC*
+*Generated: 2026-11-17 01:01:05 UTC*
 *Pipeline: Combined QA + Archaeology*
