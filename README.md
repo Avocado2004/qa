@@ -1,6 +1,6 @@
-# QA & Archaeology Vacancies — 2026-11-17
+# QA & Archaeology Vacancies — 2026-11-18
 
-## Cycle: 2026-11-17_cycle-000026
+## Cycle: 2026-11-18_cycle-000026
 
 ---
 
@@ -95,28 +95,40 @@
 
 ---
 
-# Archaeology Vacancies in Leipzig Region — 2026-11-17
+# Archaeology Vacancies in Leipzig Region — 2026-11-18
 
-**Vacancies: 1**
+**Vacancies: 2**
 
 ## Listings
 
-### 1. Bewerben am DAI
-**URL:** https://www.dainst.org/karriere/bewerben-am-dai
-**Employer:** Deutsches Archäologisches Institut
-**Location:** Berlin
-**Posted:** 14.09.2026 (latest vacancy date)
+### 1. Wissenschaftliche Grabungsleitung (all genders)
+**URL:** https://buchholz-und-partner.jobs.personio.de/job/2186478?language=de
+**Employer:** BUCHHOLZ + PARTNER GmbH
+**Location:** Radefeld, Berlin, Gera, Heiligenberg am Bodensee
+**Posted:** Not specified
 **Work mode:** On-site
-**Category:** Research/Academic
+**Category:** Excavation/Field
 **Geo (≤150km):** ✅  **Role match:** ✅  **German entity:** ✅
-**Reason:** DAI career page listing current research positions in Berlin (within 150km of Leipzig).
+**Reason:** Genuine scientific excavation leadership position at German engineering firm with locations in Leipzig region (Radefeld, Gera); within 150km radius.
 
 ---
 
-*Cycle: 2026-11-17_cycle-000026*
+### 2. Stellenausschreibung Archäolog:in (m/w/d) als Leitung der Außenstelle Cottbus
+**URL:** https://bldam-brandenburg.de/stellen/stellenausschreibung-archaeologin-m-w-d-als-leitung-der-aussenstelle-cottbus
+**Employer:** Brandenburgisches Landesamt für Denkmalpflege und Archäologisches Landesmuseum (BLDAM)
+**Location:** Cottbus, Brandenburg
+**Posted:** 30.01.2026
+**Work mode:** On-site
+**Category:** Heritage Management
+**Geo (≤150km):** ✅  **Role match:** ✅  **German entity:** ✅
+**Reason:** Genuine heritage management position at Brandenburg state authority, posted 2026, location Cottbus within 150km radius of Leipzig
+
+---
+
+*Cycle: 2026-11-18_cycle-000026*
 *Search performed with 150km radius around Leipzig*
 *Terms: German + English archaeology academic positions*
 
 ---
-*Generated: 2026-11-17 01:01:05 UTC*
+*Generated: 2026-11-18 01:17:19 UTC*
 *Pipeline: Combined QA + Archaeology*
