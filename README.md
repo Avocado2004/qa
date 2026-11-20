@@ -1,6 +1,6 @@
-# QA & Archaeology Vacancies — 2026-11-19
+# QA & Archaeology Vacancies — 2026-11-20
 
-## Cycle: 2026-11-19_cycle-000007
+## Cycle: 2026-11-20_cycle-000007
 
 ---
 
@@ -95,52 +95,8 @@
 
 ---
 
-# Archaeology Vacancies in Leipzig Region — 2026-11-19
 
-**Vacancies: 3**
-
-## Listings
-
-### 1. Wissenschaftliche Grabungsleitung (all genders) | Jobs bei BUCHHOLZ + PARTNER GmbH
-**URL:** https://buchholz-und-partner.jobs.personio.de/job/2186478?language=de
-**Employer:** BUCHHOLZ + PARTNER GmbH
-**Location:** Radefeld, Berlin, Gera, Heiligenberg am Bodensee
-**Posted:** Not explicitly dated (current)
-**Work mode:** On-site
-**Category:** Excavation/Field
-**Geo (≤150km):** ✅  **Role match:** ✅  **German entity:** ✅
-**Reason:** Genuine excavation leadership position at German engineering firm with locations in Leipzig (Radefeld), Gera, and Berlin within 150km radius.
 
 ---
-
-### 2. Stellenausschreibung Archäolog:in (m/w/d) als Leitung der Außenstelle Cottbus
-**URL:** https://bldam-brandenburg.de/stellen/stellenausschreibung-archaeologin-m-w-d-als-leitung-der-aussenstelle-cottbus
-**Employer:** Brandenburgisches Landesamt für Denkmalpflege und Archäologisches Landesmuseum (BLDAM)
-**Location:** Cottbus
-**Posted:** 30.01.2026
-**Work mode:** Hybrid
-**Category:** Heritage Management
-**Geo (≤150km):** ✅  **Role match:** ✅  **German entity:** ✅
-**Reason:** Genuine heritage management position at Brandenburg state heritage authority, location Cottbus within 150km of Leipzig.
-
----
-
-### 3. Wissenschaftliche/-r Mitarbeiter/-in (m/w/d) Praktische Denkmalpflege
-**URL:** https://jobtensor.com/job/Wissenschaftliche-r-Mitarbeiter-in-mwd-Praktische-Denkmalpflege-ab2828426839
-**Employer:** Landesamt für Denkmalpflege und Archäologie Land Thüringen
-**Location:** Erfurt
-**Posted:** Vor 3 Wochen
-**Work mode:** Unknown
-**Category:** Heritage Management
-**Geo (≤150km):** ✅  **Role match:** ✅  **German entity:** ✅
-**Reason:** Genuine heritage conservation position at a German Landesamt; Erfurt is within 150km of Leipzig (listed city).
-
----
-
-*Cycle: 2026-11-19_cycle-000007*
-*Search performed with 150km radius around Leipzig*
-*Terms: German + English archaeology academic positions*
-
----
-*Generated: 2026-11-19 01:13:36 UTC*
+*Generated: 2026-11-20 00:56:01 UTC*
 *Pipeline: Combined QA + Archaeology*
