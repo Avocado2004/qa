@@ -1,6 +1,6 @@
-# QA & Archaeology Vacancies — 2026-11-21
+# QA & Archaeology Vacancies — 2026-11-22
 
-## Cycle: 2026-11-21_cycle-000011
+## Cycle: 2026-11-22_cycle-000010
 
 ---
 
@@ -95,28 +95,28 @@
 
 ---
 
-# Archaeology Vacancies in Leipzig Region — 2026-11-21
+# Archaeology Vacancies in Leipzig Region — 2026-11-22
 
 **Vacancies: 1**
 
 ## Listings
 
-### 1. Wissenschaftliche Grabungsleitung (all genders)
-**URL:** https://buchholz-und-partner.jobs.personio.de/job/2186478?language=de
-**Employer:** BUCHHOLZ + PARTNER GmbH
-**Location:** Radefeld, Berlin, Gera, Heiligenberg am Bodensee
-**Posted:** Unknown
-**Work mode:** On-site
-**Category:** Excavation/Field
+### 1. Wissenschaftlicher Volontär*in – Redaktion (m/w/d)
+**URL:** https://www.landesarchaeologien.de/aktuelles/stellenportal
+**Employer:** Landesamt für Denkmalpflege und Archäologie Sachsen-Anhalt – Landesmuseum für Vorgeschichte
+**Location:** Halle (Saale)
+**Posted:** 2026-11-22
+**Work mode:** Unknown
+**Category:** Internship/Trainee
 **Geo (≤150km):** ✅  **Role match:** ✅  **German entity:** ✅
-**Reason:** Genuine excavation company position with locations in Leipzig region (Radefeld, Berlin, Gera within 150km).
+**Reason:** Genuine Volontär position at Landesamt für Denkmalpflege und Archäologie Sachsen-Anhalt in Halle (Saale), within 150km of Leipzig.
 
 ---
 
-*Cycle: 2026-11-21_cycle-000011*
+*Cycle: 2026-11-22_cycle-000010*
 *Search performed with 150km radius around Leipzig*
 *Terms: German + English archaeology academic positions*
 
 ---
-*Generated: 2026-11-21 01:08:21 UTC*
+*Generated: 2026-11-22 01:04:32 UTC*
 *Pipeline: Combined QA + Archaeology*
