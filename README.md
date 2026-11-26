@@ -1,6 +1,6 @@
-# QA & Archaeology Vacancies — 2026-11-25
+# QA & Archaeology Vacancies — 2026-11-26
 
-## Cycle: 2026-11-25_cycle-000009
+## Cycle: 2026-11-26_cycle-000033
 
 ---
 
@@ -98,5 +98,5 @@
 
 
 ---
-*Generated: 2026-11-25 00:59:54 UTC*
+*Generated: 2026-11-26 00:56:55 UTC*
 *Pipeline: Combined QA + Archaeology*
