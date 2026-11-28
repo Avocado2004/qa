@@ -1,6 +1,6 @@
-# QA & Archaeology Vacancies — 2026-11-27
+# QA & Archaeology Vacancies — 2026-11-28
 
-## Cycle: 2026-11-27_cycle-000032
+## Cycle: 2026-11-28_cycle-000031
 
 ---
 
@@ -95,40 +95,8 @@
 
 ---
 
-# Archaeology Vacancies in Leipzig Region — 2026-11-27
 
-**Vacancies: 2**
-
-## Listings
-
-### 1. Wissenschaftliche Grabungsleitung (all genders) - Jobs bei BUCHHOLZ + PARTNER GmbH
-**URL:** https://buchholz-und-partner.jobs.personio.de/job/2186478?language=de
-**Employer:** BUCHHOLZ + PARTNER GmbH
-**Location:** Radefeld, Berlin, Gera, Heiligenberg am Bodensee
-**Posted:** Not specified
-**Work mode:** On-site
-**Category:** Excavation/Field
-**Geo (≤150km):** ✅  **Role match:** ✅  **German entity:** ✅
-**Reason:** Genuine archaeology field position at German GmbH with locations (Radefeld, Berlin, Gera) within 150km of Leipzig.
 
 ---
-
-### 2. Wissenschaftliche/-r Mitarbeiter/-in (m/w/d) Praktische Denkmalpflege
-**URL:** https://jobtensor.com/job/Wissenschaftliche-r-Mitarbeiter-in-mwd-Praktische-Denkmalpflege-ab2828426839
-**Employer:** Landesamt für Denkmalpflege und Archäologie Land Thüringen
-**Location:** Erfurt
-**Posted:** Vor 1m
-**Work mode:** Unknown
-**Category:** Heritage Management
-**Geo (≤150km):** ✅  **Role match:** ✅  **German entity:** ✅
-**Reason:** Genuine heritage management position at German state heritage authority; location Erfurt within 150km of Leipzig.
-
----
-
-*Cycle: 2026-11-27_cycle-000032*
-*Search performed with 150km radius around Leipzig*
-*Terms: German + English archaeology academic positions*
-
----
-*Generated: 2026-11-27 01:02:48 UTC*
+*Generated: 2026-11-28 00:46:27 UTC*
 *Pipeline: Combined QA + Archaeology*
